@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdfimages.md
+
+% pdfimages, common
+
+# Extract all images from a PDF file and save them as PNGs
+pdfimages -png <path_to_file_pdf> <filename_prefix>
+
+# Extract images from pages 3 to 5
+pdfimages -f <3> -l <5> <path_to_file_pdf> <filename_prefix>
+
+# Extract images from a PDF file and include the page number in the output filenames
+pdfimages -p <path_to_file_pdf> <filename_prefix>
+
+# List information about all the images in a PDF file
+pdfimages -list <path_to_file_pdf>

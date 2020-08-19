@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/brightness.md
+
+% brightness, osx
+
+# Show current brightness
+brightness -l
+
+# Set the brightness to 100%:
+brightness <1>
+
+# Set the brightness to 50%:
+brightness <0_5>

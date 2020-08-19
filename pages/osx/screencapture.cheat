@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/screencapture.md
+
+% screencapture, osx
+
+# Take a screenshot and save it to a file
+screencapture <path_to_file_png>
+
+# Take a screenshot including the mouse cursor
+screencapture -C <path_to_file_png>
+
+# Take a screenshot and open it in Preview, instead of saving
+screencapture -P
+
+# Take a screenshot of a selected rectangular area
+screencapture -i <path_to_file_png>
+
+# Take a screenshot after a delay
+screencapture -T <seconds> <path_to_file_png>
+
+# Make a screen recording and save it to a file
+screencapture -v <path_to_file_mp4>

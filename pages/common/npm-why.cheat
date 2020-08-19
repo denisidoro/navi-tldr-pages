@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-why.md
+
+% npm-why, common
+
+# Show why an npm package is installed
+npm-why <package_name>

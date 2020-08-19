@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/code.md
+
+% code, common
+
+# Open VS Code
+code
+
+# Open the current directory in VS Code
+code .
+
+# Open a file or directory in VS Code
+code <path_to_file_or_directory>
+
+# Open a file or directory in the currently open VS Code window
+code --reuse-window <path_to_file_or_directory>
+
+# Compare two files in VS Code
+code -d <file1> <file2>
+
+# Open VS Code with super user (sudo) permissions
+sudo code <path_to_file_or_directory> --user-data-dir

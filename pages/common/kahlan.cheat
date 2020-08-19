@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kahlan.md
+
+% kahlan, common
+
+# Run all specifications in the "spec" directory
+kahlan
+
+# Run specifications using a specific configuration file
+kahlan --config=<path_to_configuration_file>
+
+# Run specifications and output using a reporter
+kahlan --reporter=<dot_bar_json_tap_verbose>
+
+# Run specifications with code coverage (detail can be between 0 and 4)
+kahlan --coverage=<detail_level>

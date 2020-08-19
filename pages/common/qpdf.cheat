@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/qpdf.md
+
+% qpdf, common
+
+# Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one
+qpdf --empty --pages <input_pdf> <1_3_5_6_10> -- <output_pdf>
+
+# Merge (concatenate) all the pages of a list of PDF files and save the result as a new PDF
+qpdf --empty --pages <file1_pdf> <file2_pdf> <file3_pdf> -- <output_pdf>
+
+# Merge (concatenate) given pages from a list of PDF files and save the result as a new PDF
+qpdf --empty --pages <file1_pdf> <1_6_8> <file2_pdf> <3_4_5> -- <output_pdf>
+
+# Write each group of n pages to a separate output file with a given filename pattern
+qpdf --split-pages=n <input_pdf> <out__d_pdf>
+
+# Rotate certain pages of a pdf with a given angle
+qpdf --rotate=<90_2_4_6> --rotate=<180_7_8> <input_pdf> <output_pdf>
+
+# Remove the password from a password protected file
+qpdf --password=<password> --decrypt <input_pdf> <output_pdf>

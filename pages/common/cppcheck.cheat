@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cppcheck.md
+
+% cppcheck, common
+
+# Recursively check the current directory, showing progress on the screen and logging error messages to a file
+cppcheck . 2> cppcheck.log
+
+# Recursively check a given directory, and don't print progress messages
+cppcheck --quiet <path_to_directory>
+
+# Check a given file, specifying which tests to perform (by default only errors are shown)
+cppcheck --enable=<error_warning_style_performance_portability_information_all> <path_to_file_cpp>
+
+# List available tests
+cppcheck --errorlist
+
+# Check a given file, ignoring specific tests
+cppcheck --suppress=<test_id1> --suppress=<test_id2> <path_to_file_cpp>
+
+# Check the current directory, providing paths for include files located outside it (e.g. external libraries)
+cppcheck -I <include_directory_1> -I <include_directory_2> .
+
+# Check a Microsoft Visual Studio project (`*.vcxproj`) or solution (`*.sln`)
+cppcheck --project=<path_to_project_sln>

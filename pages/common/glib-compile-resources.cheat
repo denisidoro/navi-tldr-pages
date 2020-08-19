@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/glib-compile-resources.md
+
+% glib-compile-resources, common
+
+# Compile resources referenced in "file.gresource.xml" to a .gresource binary
+glib-compile-resources <file_gresource_xml>
+
+# Compile resources referenced in "file.gresource.xml" to a C source file
+glib-compile-resources --generate-source <file_gresource_xml>
+
+# Compile resources in "file.gresource.xml" to a chosen target file, with .c, .h or .gresource extension
+glib-compile-resources --generate --target=<file_ext> <file_gresource_xml>
+
+# Print a list of resource files referenced in "file.gresource.xml"
+glib-compile-resources --generate-dependencies <file_gresource_xml>

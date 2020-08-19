@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/opensnoop.md
+
+% opensnoop, osx
+
+# Print all file opens as they occur
+sudo opensnoop
+
+# Track all file opens by a process by name
+sudo opensnoop -n <process_name>
+
+# Track all file opens by a process by PID
+sudo opensnoop -p <PID>
+
+# Track which processes open a specified file
+sudo opensnoop -f <path_to_file>

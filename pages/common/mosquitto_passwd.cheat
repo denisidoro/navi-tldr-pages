@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mosquitto_passwd.md
+
+% mosquitto_passwd, common
+
+# Add a new user to a password file (will prompt to enter the password)
+mosquitto_passwd <path_to_password_file> <username>
+
+# Create the password file if it doesn't already exist
+mosquitto_passwd -c <path_to_password_file> <username>
+
+# Delete the specified username instead
+mosquitto_passwd -D <path_to_password_file> <username>
+
+# Upgrade an old plain-text password file to a hashed password file
+mosquitto_passwd -U <path_to_password_file>

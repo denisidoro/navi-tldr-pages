@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/popeye.md
+
+% popeye, common
+
+# Scan the current Kubernetes cluster
+popeye
+
+# Scan a specific namespace
+popeye -n <namespace>
+
+# Scan specific Kubernetes context
+popeye --context=<context>
+
+# Use a spinach configuration file for scanning
+popeye -f <spinach_yaml>

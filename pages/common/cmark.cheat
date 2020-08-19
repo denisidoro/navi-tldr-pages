@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cmark.md
+
+% cmark, common
+
+# Render a Commonmark Markdown file to HTML
+cmark --to html <filename_md>
+
+# Convert data from standard input to latex
+cmark --to latex
+
+# Convert straight quotes to smart quotes
+cmark --smart --to html <filename_md>
+
+# Validate utf8 characters
+cmark --validate-utf8 <filename_md>

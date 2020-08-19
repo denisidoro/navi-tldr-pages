@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/alpine.md
+
+% alpine, linux
+
+# Open alpine normally
+alpine
+
+# Open alpine directly to the message composition screen to send an email to a given email address
+alpine <email_example_net>
+
+# Quit alpine
+'q' then 'y'

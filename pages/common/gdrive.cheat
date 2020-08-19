@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdrive.md
+
+% gdrive, common
+
+# Upload a local path to the parent folder with the specified id
+gdrive upload -p <id> <path_to_file_or_folder>
+
+# Download file or directory by id to current directory
+gdrive download <id>
+
+# Download to a given local path by its id
+gdrive download --path <path_to_folder> <id>
+
+# Create a new revision of an id using a given file or folder
+gdrive update <id> <path_to_file_or_folder>

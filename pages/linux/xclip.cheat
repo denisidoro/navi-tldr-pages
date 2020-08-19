@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xclip.md
+
+% xclip, linux
+
+# Copy the output from a command to the X11 primary selection area (clipboard)
+echo 123 | xclip
+
+# Copy the output from a command to a given X11 selection area
+echo 123 | xclip -selection <primary_secondary_clipboard>
+
+# Copy the contents of a file to the system clipboard, using short notation
+echo 123 | xclip -sel clip
+
+# Copy the contents of a file into the system clipboard
+xclip -sel clip <input_file_txt>
+
+# Copy the contents of a PNG image into the system clipboard (can be pasted in other programs correctly)
+xclip -sel clip -t image/png <input_file_png>
+
+# Paste the contents of the X11 primary selection area to the console
+xclip -o
+
+# Paste the contents of the system clipboard to the console
+xclip -o -sel clip
+
+# Paste the contents of the system clipboard into a file
+xclip -o -sel clip > <output_file_txt>

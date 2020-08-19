@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/chflags.md
+
+% chflags, osx
+
+# Set the `hidden` flag for a file
+chflags <hidden> <path_to_file>
+
+# Unset the `hidden` flag for a file
+chflags <nohidden> <path_to_file>
+
+# Recursively set the `uchg` flag for a directory
+chflags -R <uchg> <path_to_directory>
+
+# Recursively unset the `uchg` flag for a directory
+chflags -R <nouchg> <path_to_directory>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nomad.md
+
+% nomad, common
+
+# Show the status of nodes in the cluster
+nomad node status
+
+# Validate a job file
+nomad job validate <path_to_file_nomad>
+
+# Plan a job for execution on the cluster
+nomad job plan <path_to_file_nomad>
+
+# Run a job on the cluster
+nomad job run <path_to_file_nomad>
+
+# Show the status of jobs currently running on the cluster
+nomad job status
+
+# Show the detailed status information about a specific job
+nomad job status <job_name>
+
+# Follow the logs of a specific allocation
+nomad alloc logs <alloc_id>
+
+# Show the status of storage volumes
+nomad volume status

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/file-rename.md
+
+% file-rename, linux
+
+# Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found)
+rename <_s_foo_bar__> {{*}}
+
+# Dry-run - display which renames would occur without performing them
+rename -n <_s_foo_bar__> {{*}}
+
+# Force renaming even if the operation would remove existing destination files
+rename -f <_s_foo_bar__> {{*}}
+
+# Convert filenames to lower case (use `-f` in case-insensitive filesystems to prevent "already exists" errors)
+rename 'y/A-Z/a-z/' {{*}}
+
+# Replace whitespace with underscores
+rename 's/\s+/_/g' {{*}}

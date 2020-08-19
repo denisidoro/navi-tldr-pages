@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/w.md
+
+% w, common
+
+# Show logged-in users info
+w
+
+# Show logged-in users info without a header
+w -h

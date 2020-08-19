@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/calc.md
+
+% calc, linux
+
+# Start calc in interactive mode
+calc
+
+# Perform a calculation in non-interactive mode
+calc -p '{{85 * (36 / 4)}}'

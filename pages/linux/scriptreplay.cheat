@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/scriptreplay.md
+
+% scriptreplay, linux
+
+# Replay a typescript at the speed it was recorded
+scriptreplay <path_to_timing_file> <path_to_typescript>
+
+# Replay a typescript at double the original speed
+scriptreplay <path_to_timingfile> <path_to_typescript> 2
+
+# Replay a typescript at half the original speed
+scriptreplay <path_to_timingfile> <path_to_typescript> 0.5

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lebab.md
+
+% lebab, common
+
+# Display a list of the available transformations
+lebab --help
+
+# Transpile using one or more comma-separated transformations
+lebab --transform <transformation>
+
+# Transpile a file to `stdout`
+lebab <path_to_input_file>
+
+# Transpile a file to the specified output file
+lebab <path_to_input_file> --out-file <path_to_output_file>
+
+# Replace all `.js` files in-place in the specified directory, glob or file
+lebab --replace <directory_glob_file>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zdb.md
+
+% zdb, common
+
+# Show detailed configuration of all mounted ZFS zpools
+zdb
+
+# Show detailed configuration for a specific ZFS pool
+zdb -C <poolname>
+
+# Show statistics about number, size and deduplication of blocks
+zdb -b <poolname>

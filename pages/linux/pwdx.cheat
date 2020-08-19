@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pwdx.md
+
+% pwdx, linux
+
+# Print current working directory of a process
+pwdx <process_id>

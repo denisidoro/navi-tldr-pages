@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/inkscape.md
+
+% inkscape, common
+
+# Open an SVG file in the Inkscape GUI
+inkscape <filename_svg>
+
+# Export an SVG file into a bitmap with the default format (PNG) and the default resolution (90 DPI)
+inkscape <filename_svg> -e <filename_png>
+
+# Export an SVG file into a bitmap of 600x400 pixels (aspect ratio distortion may occur)
+inkscape <filename_svg> -e <filename_png> -w <600> -h <400>
+
+# Export a single object, given its ID, into a bitmap
+inkscape <filename_svg> -i <id> -e <object_png>
+
+# Export an SVG document to PDF, converting all texts to paths
+inkscape <filename_svg> --export-pdf=<filename_pdf> --export-text-to-path
+
+# Duplicate the object with id="path123", rotate the duplicate 90 degrees, save the file, and quit Inkscape
+inkscape <filename_svg> --select=path123 --verb=EditDuplicate --verb=ObjectRotate90 --verb=FileSave --verb=FileQuit

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pax.md
+
+% pax, common
+
+# List the contents of an archive
+pax -f <archive_tar>
+
+# List the contents of a gzipped archive
+pax -zf <archive_tar_gz>
+
+# Create an archive from files
+pax -wf <target_tar> <path_to_file1> <path_to_file2> <path_to_file3>
+
+# Create an archive from files, using output redirection
+pax -w <path_to_file1> <path_to_file2> <path_to_file3> > <target_tar>
+
+# Extract an archive into the current directory
+pax -rf <source_tar>
+
+# Copy to a directory, while keeping the original metadata; `target/` must exist
+pax -rw <path_to_file1> <path_to_dir1> <path_to_dir2> <target_>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/findmnt.md
+
+% findmnt, linux
+
+# List all mounted filesystems
+findmnt
+
+# Search for a device
+findmnt <_dev_sdb1>
+
+# Search for a mountpoint
+findmnt <_>
+
+# Find filesystems in specific type
+findmnt -t <ext4>
+
+# Find filesystems with specific label
+findmnt LABEL=<BigStorage>

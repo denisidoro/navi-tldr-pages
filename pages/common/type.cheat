@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/type.md
+
+% type, common
+
+# Display the kind of a command
+type <command>
+
+# Display all locations containing the specified executable
+type -a <command>
+
+# Display the name of the disk file that would be executed
+type -p <command>

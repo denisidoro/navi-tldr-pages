@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/hlint.md
+
+% hlint, linux
+
+# Display suggestions for a given file
+hlint <path_to_file> options
+
+# Check all Haskell files and generate a report
+hlint <path_to_directory> --report
+
+# Automatically apply most suggestions
+hlint <path_to_file> --refactor
+
+# Display additional options
+hlint <path_to_file> --refactor-options
+
+# Generate a settings file ignoring all outstanding hints
+hlint <path_to_file> --default > <_hlint_yaml>

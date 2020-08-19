@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/numfmt.md
+
+% numfmt, common
+
+# Convert 1.5K (SI Units) to 1500
+numfmt --from=<si> <1_5K>
+
+# Convert 5th field (1-indexed) to IEC Units without converting header
+ls -l | numfmt --header=<1> --field=<5> --to=<iec>
+
+# Convert to IEC units, pad with 5 characters, left aligned
+du -s * | numfmt --to=<iec> --format=<___5f_>

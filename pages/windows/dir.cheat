@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/dir.md
+
+% dir, windows
+
+# Show the contents of the current directory
+dir
+
+# Show the contents of a given directory
+dir <path_to_directory>
+
+# Show the contents of the current directory, including hidden ones
+dir /A
+
+# Show the contents of a given directory, including hidden ones
+dir <path_to_directory> /A

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/steghide.md
+
+% steghide, linux
+
+# Embed data in a PNG image, prompting for a passphrase
+steghide embed --coverfile <path_to_image_png> --embedfile <path_to_data_txt>
+
+# Extract data from a WAV audio file
+steghide extract --stegofile <path_to_sound_wav>
+
+# Display file information, trying to detect an embedded file
+steghide info <path_to_file_jpg>
+
+# Embed data in a JPEG image, using maximum compression
+steghide embed --coverfile <path_to_image_jpg> --embedfile <path_to_data_txt> --compress <9>
+
+# Get the list of supported encryption algorithms and modes
+steghide encinfo
+
+# Embed encrypted data in a JPEG image, e.g. with Blowfish in CBC mode
+steghide embed --coverfile <path_to_image_jpg> --embedfile <path_to_data_txt> --encryption <blowfish____> <cbc____>

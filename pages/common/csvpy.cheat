@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvpy.md
+
+% csvpy, common
+
+# Load a CSV file into a `CSVKitReader` object
+csvpy <data_csv>
+
+# Load a CSV file into a `CSVKitDictReader` object
+csvpy --dict <data_csv>

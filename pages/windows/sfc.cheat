@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/sfc.md
+
+% sfc, windows
+
+# Display information about the usage of the command
+sfc
+
+# Scan all system files and, if possible, repair any problems
+sfc /scannow
+
+# Scan all system files without attempting to repair any
+sfc /verifyonly
+
+# Scan a specific file and, if possible, repair any problems
+sfc /scanfile=<path_to_file>
+
+# Scan a specific file without attempting to repair it
+sfc /verifyfile=<path_to_file>
+
+# When repairing offline, specify the boot directory
+sfc /offbootdir=<path_to_dir>
+
+# When repairing offline, specify the Windows directory
+sfc /offwindir=<path_to_dir>

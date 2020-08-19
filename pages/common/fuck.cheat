@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fuck.md
+
+% fuck, common
+
+# Set the `fuck` alias to `thefuck` tool
+eval "$(thefuck --alias)"
+
+# Try to match a rule for the previous command
+fuck

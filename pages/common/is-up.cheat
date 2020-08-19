@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/is-up.md
+
+% is-up, common
+
+# Check the status of the specified website
+is-up <example_com>

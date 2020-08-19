@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/javac.md
+
+% javac, common
+
+# Compile a .java file
+javac <file_java>
+
+# Compile several .java files
+javac <file1_java> <file2_java> <file3_java>
+
+# Compile all .java files in current directory
+javac {{*.java}}
+
+# Compile a .java file and place the resulting class file in a specific directory
+javac -d <path_to_some_directory> <file_java>

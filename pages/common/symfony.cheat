@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/symfony.md
+
+% symfony, common
+
+# Create a new Symfony project
+symfony new <name>
+
+# Run a local web server
+symfony serve
+
+# Stop the local web server
+symfony server:stop
+
+# Check for security issues in the project's dependencies
+symfony security:check

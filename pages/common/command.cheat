@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/command.md
+
+% command, common
+
+# Execute the ls program literally, even if an ls alias exists
+command <ls>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-mv.md
+
+% git-mv, common
+
+# Move file inside the repo and add the movement to the next commit
+git mv <path_to_file> <new_path_to_file>
+
+# Rename file and add renaming to the next commit
+git mv <filename> <new_filename>
+
+# Overwrite the file in the target path if it exists
+git mv --force <file> <target>

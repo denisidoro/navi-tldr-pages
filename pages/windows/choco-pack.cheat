@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/choco-pack.md
+
+% choco-pack, windows
+
+# Package a NuGet specification to a nupkg file
+choco pack <path_to_specification>
+
+# Package a NuGet specification specifying the version of the resulting file
+choco pack <path_to_specification> --version <version>
+
+# Package a NuGet specification to a specific directory
+choco pack <path_to_specification> --output-directory <path_to_output_directory>

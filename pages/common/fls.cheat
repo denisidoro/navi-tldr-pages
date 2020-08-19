@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fls.md
+
+% fls, common
+
+# Build a recursive fls list over a device, output paths will start with C
+fls -r -m <C_> <_dev_loop1p1>
+
+# Analyse a single partition, providing the sector offset at which the file system starts in the image
+fls -r -m <C_> -o <sector> <path_to_image_file>
+
+# Analyse a single partition, providing the timezone of the original system
+fls -r -m <C_> -z <timezone> <_dev_loop1p1>

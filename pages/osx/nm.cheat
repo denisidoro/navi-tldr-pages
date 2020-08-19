@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/nm.md
+
+% nm, osx
+
+# List global (extern) functions in a file (prefixed with T)
+nm -g <file_o>
+
+# List only undefined symbols in a file
+nm -u <file_o>
+
+# List all symbols, even debugging symbols
+nm -a <file_o>
+
+# Demangle C++ symbols (make them readable)
+nm -demangle <file_o>

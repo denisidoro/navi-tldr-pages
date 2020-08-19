@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkfs.ntfs.md
+
+% mkfs.ntfs, linux
+
+# Create a NTFS filesystem inside partition 1 on device b (`sdb1`)
+mkfs.ntfs <_dev_sdb1>
+
+# Create filesystem with a volume-label
+mkfs.ntfs -L <volume_label> <_dev_sdb1>
+
+# Create filesystem with specific UUID
+mkfs.ntfs -U <UUID> <_dev_sdb1>

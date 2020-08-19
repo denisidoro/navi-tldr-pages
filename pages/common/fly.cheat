@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fly.md
+
+% fly, common
+
+# Authenticate with and save concourse target
+fly --target <target_name> login --team-name <team_name> -c <https___ci_example_com>
+
+# List targets
+fly targets
+
+# List pipelines
+fly -t <target_name> pipelines
+
+# Upload or update a pipeline
+fly -t <target_name> set-pipeline --config <pipeline_yml> --pipeline <pipeline_name>
+
+# Unpause pipeline
+fly -t <target_name> unpause-pipeline --pipeline <pipeline_name>
+
+# Show pipeline configuration
+fly -t <target_name> get-pipeline --pipeline <pipeline_name>
+
+# Update local copy of fly
+fly -t <target_name> sync
+
+# Destroy pipeline
+fly -t <target_name> destroy-pipeline --pipeline <pipeline_name>

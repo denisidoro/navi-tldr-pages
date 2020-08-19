@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/f3read.md
+
+% f3read, common
+
+# Validate a device by checking the files in a given directory
+f3read <path_to_mount_point>

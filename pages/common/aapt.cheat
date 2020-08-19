@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aapt.md
+
+% aapt, common
+
+# List files contained in an APK archive
+aapt list <path_to_app_apk>
+
+# Display an app's metadata (version, permissions, etc.)
+aapt dump badging <path_to_app_apk>
+
+# Create a new APK archive with files from the specified directory
+aapt package -F <path_to_app_apk> <path_to_directory>

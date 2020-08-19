@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/drill.md
+
+% drill, common
+
+# Lookup the IP(s) associated with a hostname (A records)
+drill <example_com>
+
+# Lookup the mail server(s) associated with a given domain name (MX record)
+drill mx <example_com>
+
+# Get all types of records for a given domain name
+drill any <example_com>
+
+# Specify an alternate DNS server to query
+drill <example_com> @<8_8_8_8>
+
+# Perform a reverse DNS lookup on an IP address (PTR record)
+drill -x <8_8_8_8>
+
+# Perform DNSSEC trace from root servers down to a domain name
+drill -TD <example_com>
+
+# Show DNSKEY record(s) for a domain name
+drill -s dnskey <example_com>

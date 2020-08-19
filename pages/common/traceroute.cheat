@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/traceroute.md
+
+% traceroute, common
+
+# Traceroute to a host
+traceroute <host>
+
+# Disable IP address and host name mapping
+traceroute -n <host>
+
+# Specify wait time for response
+traceroute -w <0_5> <host>
+
+# Specify number of queries per hop
+traceroute -q <5> <host>
+
+# Specify size in bytes of probing packet
+traceroute <host> <42>

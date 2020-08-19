@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/peerflix.md
+
+% peerflix, common
+
+# Stream the largest media file in a torrent
+peerflix "<torrent_url_magnet_link>"
+
+# List all streamable files contained in a torrent (given as a magnet link)
+peerflix "<magnet__xt_urn_btih_0123456789abcdef0123456789abcdef01234567>" --list
+
+# Stream the largest file in a torrent, given as a torrent URL, to VLC
+peerflix "<http___example_net_music_torrent>" --vlc
+
+# Stream the largest file in a torrent to MPlayer, with subtitles
+peerflix "<torrent_url_magnet_link>" --mplayer --subtitles <subtitle_file_srt>
+
+# Stream all files from a torrent to Airplay
+peerflix "<torrent_url_magnet_link>" --all --airplay

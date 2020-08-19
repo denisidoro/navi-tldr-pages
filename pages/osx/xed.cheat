@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/xed.md
+
+% xed, osx
+
+# Open file in XCode
+xed <file1>
+
+# Open file(s) in XCode, create if it doesn't exist
+xed -c <filename1>
+
+# Open a file in XCode and jump to line number 75
+xed -l 75 <filename>

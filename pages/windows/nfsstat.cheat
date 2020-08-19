@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/nfsstat.md
+
+% nfsstat, windows
+
+# Display the recorded number of calls made to the NFS server
+nfsstat
+
+# Reset the recorded number of calls made to the NFS server
+nfsstat -z

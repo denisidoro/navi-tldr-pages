@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/runsvchdir.md
+
+% runsvchdir, osx
+
+# Switch `runsvdir` directories
+sudo runsvchdir <_path_to_directory>

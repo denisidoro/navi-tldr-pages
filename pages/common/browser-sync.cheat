@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/browser-sync.md
+
+% browser-sync, common
+
+# Start a server from a specific directory
+browser-sync start --server <path_to_directory> --files <path_to_directory>
+
+# Start a server from local directory, watching all css files in some directory
+browser-sync start --server --files '{{path/to/directory/*.css}}'
+
+# Create configuration file
+browser-sync init
+
+# Start browser-sync from config file
+browser-sync start --config <config_file>

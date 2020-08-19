@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/evil-winrm.md
+
+% evil-winrm, common
+
+# Connect to a host
+evil-winrm --ip <ip> --user <user> --password <password>
+
+# Connect to a host, passing the password hash
+evil-winrm --ip <ip> --user <user> --hash <nt_hash>
+
+# Connect to a host, specifying folders for scripts and executables
+evil-winrm --ip <ip> --user <user> --password <password> --scripts <path_to_scripts> --executables <path_to_executables>
+
+# Connect to a host, using SSL
+evil-winrm --ip <ip> --user <user> --password <password> --ssl --pub-key <path_to_pubkey> --priv-key <path_to_privkey>
+
+# Upload a file to the host
+PS > upload <path_to_local_file> <path_to_remote_file>
+
+# Get a list of loaded PowerShell functions
+PS > menu
+
+# Load a PowerShell script from the `--scripts` folder
+PS > <script_ps1>
+
+# Invoke a binary on the host from the `--executables` folder
+PS > Invoke-Binary <binary_exe>

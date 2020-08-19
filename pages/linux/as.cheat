@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/as.md
+
+% as, linux
+
+# Assemble a file, writing the output to a.out
+as <file_s>
+
+# Assemble the output to a given file
+as <file_s> -o <out_o>
+
+# Generate output faster by skipping whitespace and comment preprocessing. (Should only be used for trusted compilers)
+as -f <file_s>
+
+# Include a given path to the list of directories to search for files specified in .include directives
+as -I <path_to_directory> <file_s>

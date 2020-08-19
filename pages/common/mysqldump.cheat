@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mysqldump.md
+
+% mysqldump, common
+
+# Create a backup (user will be prompted for a password)
+mysqldump --user <user> --password <database_name> -r <path_to_file_sql>
+
+# Backup all databases redirecting the output to a file (user will be prompted for a password)
+mysqldump --user <user> --password --all-databases > <path_to_file_sql>

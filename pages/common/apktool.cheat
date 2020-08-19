@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/apktool.md
+
+% apktool, common
+
+# Decode an APK file
+apktool d <file_apk>
+
+# Build a folder into an APK file
+apktool b <path_to_directory>
+
+# Install and store frameworks
+apktool if <framework_apk>

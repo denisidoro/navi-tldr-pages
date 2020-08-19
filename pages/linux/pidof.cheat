@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pidof.md
+
+% pidof, linux
+
+# List all process IDs with given name
+pidof <bash>
+
+# List a single process ID with given name
+pidof -s <bash>
+
+# List process IDs including scripts with given name
+pidof -x <script_py>
+
+# Kill all processes with given name
+kill "$(pidof <name>)" 

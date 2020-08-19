@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mutt.md
+
+% mutt, common
+
+# Open the specified mailbox
+mutt -f <mailbox>
+
+# Send an email and specify a subject and a cc recipient
+mutt -s <subject> -c <cc_example_com> <recipient_example_com>
+
+# Send an email with files attached
+mutt -a <file1> <file2> -- <recipient_example_com>
+
+# Specify a file to include as the message body
+mutt -i <file> <recipient_example_com>
+
+# Specify a draft file containing the header and the body of the message, in RFC 5322 format
+mutt -H <file> <recipient_example_com>

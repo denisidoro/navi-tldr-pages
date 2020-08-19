@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gops.md
+
+% gops, common
+
+# Print all go processes running locally
+gops
+
+# Print more information about a process
+gops <pid>
+
+# Display a process tree
+gops tree
+
+# Print the current stack trace from a target program
+gops stack <pid_addr>
+
+# Print the current runtime memory statistics
+gops memstats <pid_addr>

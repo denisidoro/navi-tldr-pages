@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/snyk.md
+
+% snyk, common
+
+# Login to your Snyk account
+snyk auth
+
+# Test your code for any known vulnerabilities
+snyk test
+
+# Test a local Docker image for any known vulnerabilities
+snyk test --docker <docker_image>
+
+# Record the state of dependencies and any vulnerabilities on snyk.io
+snyk monitor
+
+# Auto patch and ignore vulnerabilities
+snyk wizard

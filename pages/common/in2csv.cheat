@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/in2csv.md
+
+% in2csv, common
+
+# Convert an XLS file to CSV
+in2csv <data_xls>
+
+# Convert a DBF file to a CSV file
+in2csv <data_dbf> > <data_csv>
+
+# Convert a specific sheet from an XLSX file to CSV
+in2csv --sheet=<sheet_name> <data_xlsx>
+
+# Pipe a JSON file to in2csv
+cat <data_json> | in2csv -f json > <data_csv>

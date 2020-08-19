@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/genkernel.md
+
+% genkernel, linux
+
+# Automatically compile and install a generic kernel
+sudo genkernel all
+
+# Build and install the bzImage|initramfs|kernel|ramdisk only
+sudo genkernel <bzImage_initramfs_kernel_ramdisk>
+
+# Apply changes to the kernel configuration before compiling and installing
+sudo genkernel --menuconfig all
+
+# Generate a kernel with a custom name
+sudo genkernel --kernname=<custom_name> all
+
+# Use a kernel source outside of the default directory /usr/src/linux
+sudo genkernel --kerneldir=<path_to_directory> all

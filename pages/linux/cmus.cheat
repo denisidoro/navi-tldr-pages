@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cmus.md
+
+% cmus, linux
+
+# Open cmus from specified directory
+cmus <path_to_directory>
+
+# Add file/directory to library
+:add <path_to_file_or_directory>
+
+# Pause/unpause current song
+c
+
+# Toggle shuffle mode on/off
+s
+
+# Quit cmus
+q

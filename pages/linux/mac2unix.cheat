@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mac2unix.md
+
+% mac2unix, linux
+
+# Change the line endings of a file
+mac2unix <filename>
+
+# Create a copy with Unix-style line endings
+mac2unix -n <filename> <new_filename>

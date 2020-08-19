@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/apm.md
+
+% apm, common
+
+# Install packages from http://atom.io/packages and themes from http://atom.io/themes
+apm install <package_name>
+
+# Remove packages/themes
+apm remove <package_name>
+
+# Upgrade packages/themes
+apm upgrade <package_name>

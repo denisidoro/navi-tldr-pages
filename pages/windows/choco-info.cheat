@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/choco-info.md
+
+% choco-info, windows
+
+# Display information on a specific package
+choco info <package>
+
+# Display information for a local package only
+choco info <package> --local-only
+
+# Specify a custom source to receive packages information from
+choco info <package> --source <source_url_alias>
+
+# Provide a username and password for authentication
+choco info <package> --user <username> --password <password>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/stripe.md
+
+% stripe, common
+
+# Follow the logs of activity on the account
+stripe logs tail
+
+# Listen for events, filtering on events with the name `charge.succeeded` and forwarding them to localhost:3000/events
+stripe listen --events="<charge_succeeded>" --forward-to="<localhost_3000_events>"
+
+# Send a test webhook event
+stripe trigger <charge_succeeded>
+
+# Create a customer
+stripe customers create --email="<test_example_com>" --name="{{Jenny Rosen}}"
+
+# Print to JSON
+stripe listen --print-json

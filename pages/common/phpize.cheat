@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpize.md
+
+% phpize, common
+
+# Prepare the PHP extension in the current directory for compiling
+phpize
+
+# Delete files previously created by phpize
+phpize --clean

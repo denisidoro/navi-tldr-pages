@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/f3write.md
+
+% f3write, common
+
+# Write test files to a given directory, filling the drive
+f3write <path_to_mount_point>
+
+# Limit the write speed
+f3write --max-write-rate=<kb_per_second> <path_to_mount_point>

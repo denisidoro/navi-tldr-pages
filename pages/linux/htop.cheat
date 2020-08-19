@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/htop.md
+
+% htop, linux
+
+# Start htop
+htop
+
+# Start htop displaying only processes owned by given user
+htop -u <username>
+
+# Sort processes by a column (use `--sort-key help` for a column list)
+htop -s <column_name>
+
+# Get help about interactive commands
+?

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/alias.md
+
+% alias, common
+
+# List all aliases
+alias
+
+# Create a generic alias
+alias <word>="<command>"
+
+# View the command associated to a given alias
+alias <word>
+
+# Remove an aliased command
+unalias <word>
+
+# Turn `rm` into an interactive command
+alias <rm>="{{rm -i}}"
+
+# Create `la` as a shortcut for `ls -a`
+alias <la>="{{ls -a}}"

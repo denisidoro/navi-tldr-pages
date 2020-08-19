@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/linkchecker.md
+
+% linkchecker, common
+
+# Find broken links on https://example.com/
+linkchecker <https___example_com_>
+
+# Also check URLs that point to external domains
+linkchecker --check-extern <https___example_com_>
+
+# Ignore URLs that match a specific regex
+linkchecker --ignore-url <regex> <https___example_com_>
+
+# Output results to a CSV file
+linkchecker --file-output <csv>/<path_to_file> <https___example_com_>

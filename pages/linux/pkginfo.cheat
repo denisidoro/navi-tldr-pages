@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pkginfo.md
+
+% pkginfo, linux
+
+# List installed packages and their versions
+pkginfo -i
+
+# List files owned by a package
+pkginfo -l <package_name>
+
+# List the owner(s) of files matching a pattern
+pkginfo -o <pattern>
+
+# Print the footprint of a file
+pkginfo -f <file>

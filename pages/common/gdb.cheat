@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdb.md
+
+% gdb, common
+
+# Debug an executable
+gdb <executable>
+
+# Attach a process to gdb
+gdb -p <procID>
+
+# Debug with a core file
+gdb -c <core> <executable>
+
+# Execute given GDB commands upon start
+gdb -ex "<commands>" <executable>
+
+# Start gdb and pass arguments
+gdb --args <executable> <argument1> <argument2>

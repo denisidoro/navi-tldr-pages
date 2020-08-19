@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/emacs.md
+
+% emacs, common
+
+# Start in console mode (without X window)
+emacs -nw
+
+# Open a file
+emacs <path_to_file>
+
+# Save a file
+Ctrl + X, Ctrl + S
+
+# Quit
+Ctrl + X, Ctrl + C
+
+# Open a file at a specified line number
+emacs +<line_number> <path_to_file>

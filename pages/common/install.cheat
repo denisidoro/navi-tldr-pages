@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/install.md
+
+% install, common
+
+# Copy files to destination
+install <path_to_source> <path_to_destination>
+
+# Copy files to destination, setting their ownership
+install -o <user> <path_to_source> <path_to_destination>
+
+# Copy files to destination, setting their group ownership
+install -g <user> <path_to_source> <path_to_destination>
+
+# Copy files to destination, setting their `mode`
+install -m <_x> <path_to_source> <path_to_destination>
+
+# Copy files and apply access/modification times of source to destination
+install -p <path_to_source> <path_to_destination>

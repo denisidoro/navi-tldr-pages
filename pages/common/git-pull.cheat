@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-pull.md
+
+% git-pull, common
+
+# Download changes from default remote repository and merge it
+git pull
+
+# Download changes from default remote repository and use fast forward
+git pull --rebase
+
+# Download changes from given remote repository and branch, then merge them into HEAD
+git pull <remote_name> <branch>

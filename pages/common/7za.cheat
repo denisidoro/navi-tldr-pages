@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/7za.md
+
+% 7za, common
+
+# Archive a file or directory
+7za a <archived_7z> <path_to_file_or_directory>
+
+# Extract an existing 7z file with original directory structure
+7za x <archived>
+
+# Archive using a specific archive type
+7za a -t<zip_gzip_bzip2_tar> <archived> <path_to_file_or_directory>
+
+# List available archive types
+7za i
+
+# List the contents of an archive file
+7za l <archived>

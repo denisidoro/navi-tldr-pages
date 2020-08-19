@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/unrar.md
+
+% unrar, common
+
+# Extract files with original directory structure
+unrar x <compressed_rar>
+
+# Extract files to a specified path with the original directory structure
+unrar x <compressed_rar> <path_to_extract>
+
+# Extract files into current directory, losing directory structure in the archive
+unrar e <compressed_rar>
+
+# Test integrity of each file inside the archive file
+unrar t <compressed_rar>
+
+# List files inside the archive file without decompressing it
+unrar l <compressed_rar>

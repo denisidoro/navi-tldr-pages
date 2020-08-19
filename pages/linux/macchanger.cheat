@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/macchanger.md
+
+% macchanger, linux
+
+# View the current and permanent MAC addresses of a interface
+macchanger --show <interface>
+
+# Set interface to a random MAC
+macchanger --random <interface>
+
+# Set interface to a specific MAC
+macchanger --mac <XX_XX_XX_XX_XX_XX> <interface>
+
+# Reset interface to its permanent hardware MAC
+macchanger --permanent <interface>

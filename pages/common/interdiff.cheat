@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/interdiff.md
+
+% interdiff, common
+
+# Compare diff files
+interdiff <old_file> <new_file>
+
+# Compare diff files, ignoring whitespace
+interdiff -w <old_file> <new_file>

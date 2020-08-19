@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-format-patch.md
+
+% git-format-patch, common
+
+# Create an auto-named .patch file for all the unpushed commits
+git format-patch <origin>
+
+# Write a .patch file for all the commits between 2 revisions to `stdout`
+git format-patch <revision_1>..<revision_2>
+
+# Write a .patch file for the 3 latest commits
+git format-patch -<3>

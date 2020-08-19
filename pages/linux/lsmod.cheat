@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lsmod.md
+
+% lsmod, linux
+
+# List all currently loaded kernel modules
+lsmod

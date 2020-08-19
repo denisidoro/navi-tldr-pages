@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ifdown.md
+
+% ifdown, linux
+
+# Disable interface eth0
+ifdown <eth0>
+
+# Disable all interfaces which are enabled
+ifdown -a

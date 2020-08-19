@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/guacd.md
+
+% guacd, common
+
+# Bind to a specific port on localhost
+guacd -b <127_0_0_1> -l <4823>
+
+# Start in debug mode, keeping the process in the foreground
+guacd -f -L <debug>
+
+# Start with TLS support
+guacd -C <my_cert_crt> -K <my_key_pem>
+
+# Write the PID to a file
+guacd -p <path_to_file_pid>

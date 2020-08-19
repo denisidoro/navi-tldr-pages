@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ipcalc.md
+
+% ipcalc, linux
+
+# Show information about an address or network with a given subnet mask
+ipcalc <1_2_3_4> <255_255_255_0>
+
+# Show information about an address or network in CIDR notation
+ipcalc <1_2_3_4>/<24>
+
+# Show the broadcast address of an address or network
+ipcalc -b <1_2_3_4>/<30>
+
+# Show the network address of provided IP address and netmask
+ipcalc -n <1_2_3_4>/<24>
+
+# Display geographic information about a given IP address
+ipcalc -g <1_2_3_4>

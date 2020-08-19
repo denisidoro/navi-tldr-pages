@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/free.md
+
+% free, linux
+
+# Display system memory
+free
+
+# Display memory in Bytes/KB/MB/GB
+free -<b_k_m_g>
+
+# Display memory in human readable units
+free -h
+
+# Refresh the output every 2 seconds
+free -s <2>

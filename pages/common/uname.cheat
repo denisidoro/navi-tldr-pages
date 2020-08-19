@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/uname.md
+
+% uname, common
+
+# Print hardware-related information: machine and processor
+uname -mp
+
+# Print software-related information: operating system, release number, and version
+uname -srv
+
+# Print the nodename (hostname) of the system
+uname -n
+
+# Print all available system information (hardware, software, nodename)
+uname -a

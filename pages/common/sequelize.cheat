@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sequelize.md
+
+% sequelize, common
+
+# Create a model and a migration file
+sequelize model:generate --name <table_name>
+
+# Run the migration file
+sequelize db:migrate
+
+# Revert all migrations
+sequelize db:migrate:undo:all
+
+# Create a seed file with the specified name to populate the database
+sequelize seed:generate --name <seed_filename>
+
+# Populate database using all seed files
+sequelize db:seed:all

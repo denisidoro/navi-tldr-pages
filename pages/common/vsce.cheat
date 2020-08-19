@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vsce.md
+
+% vsce, common
+
+# List all the extensions created by a publisher
+vsce list <publisher>
+
+# Publish an extension as major, minor or patch version
+vsce publish <major_minor_patch>
+
+# Unpublish an extension
+vsce unpublish <extension_id>
+
+# Package the current working directory as .vsix file
+vsce package
+
+# Show the metadata associated with an extension
+vsce show <extension_id>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/repair-bde.md
+
+% repair-bde, windows
+
+# Attempt to repair a specified volume
+repair-bde <C_>
+
+# Attempt to repair a specified volume and output to another volume
+repair-bde <C_> <D_>
+
+# Attempt to repair a specified volume using the provided recovery key file
+repair-bde <C_> -RecoveryKey <path_to_file_bek>
+
+# Attempt to repair a specified volume using the provided numerical recovery password
+repair-bde <C_> -RecoveryPassword <password>
+
+# Attempt to repair a specified volume using the provided password
+repair-bde <C_> -Password <password>
+
+# Attempt to repair a specified volume using the provided key package
+repair-bde <C_> -KeyPackage <path_to_directory>
+
+# Log all output to a specific file
+repair-bde <C_> -LogFile <path_to_file>
+
+# Display all available options
+repair-bde /?

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kak.md
+
+% kak, common
+
+# Open a file and enter normal mode, to execute commands
+kak <path_to_file>
+
+# Enter insert mode from normal mode, to write text into the file
+i
+
+# Escape insert mode, to go back to normal mode
+<Escape>
+
+# Replace all instances of "foo" in the current file with "bar"
+%s<foo><Enter>c<bar><Escape>
+
+# Un-select all secondary selections, and keep only the main one
+<Space>
+
+# Search for numbers and select the first two
+/\d+<Enter>N
+
+# Insert the contents of a file
+!cat <path_to_file><Enter>
+
+# Save the current file
+:w<Enter>

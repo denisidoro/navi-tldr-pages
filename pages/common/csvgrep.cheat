@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvgrep.md
+
+% csvgrep, common
+
+# Find rows that have a certain string in column 1
+csvgrep -c <1> -m <string_to_match> <data_csv>
+
+# Find rows in which columns 3 or 4 match a certain regex pattern
+csvgrep -c <3_4> -r <regex_pattern> <data_csv>
+
+# Find rows in which the "name" column does NOT include the string "John Doe"
+csvgrep -i -c <name> -m {{"John Doe"}} <data_csv>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fmt.md
+
+% fmt, common
+
+# Reformat a file
+fmt <path_to_file>
+
+# Reformat a file producing output lines of (at most) `n` characters
+fmt -w <n> <path_to_file>
+
+# Reformat a file without joining lines shorter than the given width together
+fmt -s <path_to_file>
+
+# Reformat a file with uniform spacing (1 space between words and 2 spaces between paragraphs)
+fmt -u <path_to_file>

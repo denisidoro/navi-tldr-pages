@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/darkhttpd.md
+
+% darkhttpd, common
+
+# Start server serving the specified document root
+darkhttpd <path_to_docroot>
+
+# Start server on specified port (port 8080 by default if running as non-root user)
+darkhttpd <path_to_docroot> --port <port>
+
+# Listen only on specified IP address (by default, the server listens on all interfaces)
+darkhttpd <path_to_docroot> --addr <ip_address>

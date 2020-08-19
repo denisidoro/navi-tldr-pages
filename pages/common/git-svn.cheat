@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-svn.md
+
+% git-svn, common
+
+# Clone an SVN repository
+git svn clone <https___example_com_subversion_repo> <local_dir>
+
+# Clone a SVN repository starting at a given revision number
+git svn clone -r<1234>:HEAD <https___svn_example_net_subversion_repo> <local_dir>
+
+# Update local clone from the remote SVN repository
+git svn rebase
+
+# Fetch updates from the remote SVN repository without changing the git HEAD
+git svn fetch
+
+# Commit back to the SVN repository
+git svn dcommit

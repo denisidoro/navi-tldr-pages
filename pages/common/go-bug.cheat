@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/go-bug.md
+
+% go-bug, common
+
+# Open a web page to start a bug report
+go bug

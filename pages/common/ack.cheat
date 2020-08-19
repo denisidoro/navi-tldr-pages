@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ack.md
+
+% ack, common
+
+# Find files containing "foo"
+ack <foo>
+
+# Find files of a specific type
+ack --ruby <foo>
+
+# Count the total number of matches for the term "foo"
+ack -ch <foo>
+
+# Show the file names containing "foo" and number of matches in each file
+ack -cl <foo>
+
+# Search a file for a specified string
+ack bar "{{foo bar}}" <path_to_file>
+
+# Search a file for the specified regex pattern
+ack bar "{{[bB]ar \d+}}" <path_to_file>
+
+# List all valid types
+ack --help-types

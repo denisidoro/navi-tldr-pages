@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/google-chrome.md
+
+% google-chrome, linux
+
+# Run with a custom profile directory
+google-chrome --user-data-dir=<path_to_directory>
+
+# Run without CORS validation, useful to test an API
+google-chrome --user-data-dir=<path_to_directory> --disable-web-security

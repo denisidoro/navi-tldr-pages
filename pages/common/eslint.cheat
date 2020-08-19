@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/eslint.md
+
+% eslint, common
+
+# Create eslint config
+eslint --init
+
+# Lint on a given set of files
+eslint <filename>.js <filename1>.js
+
+# Fix lint issues
+eslint --fix
+
+# Lint with config
+eslint -c <path_to_config_file> <app_src>

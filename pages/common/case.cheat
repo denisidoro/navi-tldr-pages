@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/case.md
+
+% case, common
+
+# Match a variable against string literals to decide which command to run
+case <_tocount> in <words>) {{wc -w README}}; ;; <lines>) {{wc -l README}}; ;; esac
+
+# Combine patterns with |, use * as a fallback pattern
+case <_tocount> in {{[wW]|words}}) {{wc -w README}}; ;; {{[lL]|lines}}) {{wc -l README}}; ;; *) {{echo "what?"}}; ;; esac

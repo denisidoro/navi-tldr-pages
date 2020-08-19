@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/cd.md
+
+% cd, windows
+
+# Go to a directory in the same drive
+cd <path_to_directory>
+
+# Display the name of the current directory
+cd
+
+# Go up to the parent of the current directory
+cd ..
+
+# Go to a directory in a different drive
+cd <path_to_directory> /d

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/uptime.md
+
+% uptime, osx
+
+# Print current time, uptime, number of logged-in users and other information
+uptime

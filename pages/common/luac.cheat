@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/luac.md
+
+% luac, common
+
+# Compile a Lua source file to Lua bytecode
+luac -o <byte_code_luac> <source_lua>
+
+# Do not include debug symbols in the output
+luac -s -o <byte_code_luac> <source_lua>

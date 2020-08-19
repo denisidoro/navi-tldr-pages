@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemctl.md
+
+% systemctl, linux
+
+# List failed units
+systemctl --failed
+
+# Start/Stop/Restart/Reload a service
+systemctl start/stop/restart/reload <unit>
+
+# Show the status of a unit
+systemctl status <unit>
+
+# Enable/Disable a unit to be started on bootup
+systemctl enable/disable <unit>
+
+# Mask/Unmask a unit, prevent it to be started on bootup
+systemctl mask/unmask <unit>
+
+# Reload systemd, scanning for new or changed units
+systemctl daemon-reload

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdftotext.md
+
+% pdftotext, common
+
+# Convert filename.pdf to plain text and print it to standard output
+pdftotext <filename_pdf> -
+
+# Convert filename.pdf to plain text and save it as filename.txt
+pdftotext <filename_pdf>
+
+# Convert filename.pdf to plain text and preserve the layout
+pdftotext -layout <filename_pdf>
+
+# Convert input.pdf to plain text and save it as output.txt
+pdftotext <input_pdf> <output_txt>
+
+# Convert pages 2, 3 and 4 of input.pdf to plain text and save them as output.txt
+pdftotext -f <2> -l <4> <input_pdf> <output_txt>

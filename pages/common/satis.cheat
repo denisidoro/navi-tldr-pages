@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/satis.md
+
+% satis, common
+
+# Initialise a Satis configuration
+satis init <satis_json>
+
+# Add a VCS repository to the Satis configuration
+satis add <repository_url>
+
+# Build the static output from the configuration
+satis build <satis_json> <path_to_output_directory>
+
+# Build the static output by updating only the specified repository
+satis build --repository-url <repository_url> <satis_json> <path_to_output_directory>
+
+# Remove useless archive files
+satis purge <satis_json> <path_to_output_directory>

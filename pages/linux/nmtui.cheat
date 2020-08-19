@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nmtui.md
+
+% nmtui, linux
+
+# Open the user interface
+nmtui
+
+# Show a list of available connections, with the option to activate or deactivate them
+nmtui connect
+
+# Connect to a given network
+nmtui connect <name_uuid_device_SSID>
+
+# Edit/Add/Delete a given network
+nmtui edit <name_id>
+
+# Set the system hostname
+nmtui hostname

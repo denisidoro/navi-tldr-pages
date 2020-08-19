@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mc.md
+
+% mc, common
+
+# Start mc
+mc
+
+# Start in black and white
+mc -b

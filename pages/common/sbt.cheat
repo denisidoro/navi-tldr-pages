@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sbt.md
+
+% sbt, common
+
+# Start the SBT interactive shell (REPL)
+sbt
+
+# Create a new Scala project from an existing Giter8 template hosted on GitHub
+sbt new <scala_hello_world_g8>
+
+# Use the specified version of sbt
+sbt -sbt-version <version>
+
+# Use a specific jar file as the sbt launcher
+sbt -sbt-jar <path>
+
+# List all sbt options
+sbt -h

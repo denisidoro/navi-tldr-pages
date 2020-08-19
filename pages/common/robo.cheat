@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/robo.md
+
+% robo, common
+
+# List available commands
+robo list
+
+# Run a specific command
+robo <foo>
+
+# Simulate running a specific command
+robo --simulate <foo>

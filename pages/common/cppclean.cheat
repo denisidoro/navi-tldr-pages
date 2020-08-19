@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cppclean.md
+
+% cppclean, common
+
+# Run in a project's directory
+cppclean <path_to_project>
+
+# Run on a project where the headers are in the "inc1/" and "inc2/" directories
+cppclean <path_to_project> --include-path=<inc1> --include-path=<inc2>
+
+# Run on a specific file "main.cpp"
+cppclean <main_cpp>
+
+# Run on the current directory, excluding the "build" directory
+cppclean <_> --exclude=<build>

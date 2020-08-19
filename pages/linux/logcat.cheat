@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/logcat.md
+
+% logcat, linux
+
+# Display system logs
+logcat
+
+# Write system logs to a file
+logcat -f <path_to_file>
+
+# Display lines that match a regex
+logcat --regex <regex>

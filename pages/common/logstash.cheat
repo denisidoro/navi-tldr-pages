@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/logstash.md
+
+% logstash, common
+
+# Check validity of a logstash configuration
+logstash --configtest --config <logstash_config_conf>
+
+# Run logstash using configuration
+sudo logstash --config <logstash_config_conf>
+
+# Run logstash with the most basic inline configuration string
+sudo logstash -e 'input {} filter {} output {}'

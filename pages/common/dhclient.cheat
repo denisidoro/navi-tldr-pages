@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dhclient.md
+
+% dhclient, common
+
+# Get an IP address for the `eth0` interface
+sudo dhclient <eth0>
+
+# Release an IP address for the `eth0` interface
+sudo dhclient -r <eth0>

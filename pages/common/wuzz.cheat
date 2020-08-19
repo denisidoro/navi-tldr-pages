@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wuzz.md
+
+% wuzz, common
+
+# Start wuzz
+wuzz
+
+# Display help information
+F1
+
+# Send an HTTP request
+Ctrl + R
+
+# Switch to the next view
+Ctrl + J, Tab
+
+# Switch to the previous view
+Ctrl + K, Shift + Tab

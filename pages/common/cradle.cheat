@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cradle.md
+
+% cradle, common
+
+# Connect to a server
+cradle connect <server_name>
+
+# Display general help
+cradle help
+
+# Display help for a specific command
+cradle <command> help
+
+# Execute a Cradle command
+cradle <command>

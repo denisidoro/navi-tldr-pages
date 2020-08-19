@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bmaptool.md
+
+% bmaptool, common
+
+# Create a blockmap from image file
+bmaptool create -o <blockmap_bmap> <source_img>
+
+# Copy an image file into sdb
+bmaptool copy --bmap <blockmap_bmap> <source_img> <_dev_sdb>
+
+# Copy a compressed image file into sdb
+bmaptool copy --bmap <blockmap_bmap> <source_img_gz> <_dev_sdb>
+
+# Copy an image file into sdb without using a blockmap
+bmaptool copy --nobmap <source_img> <_dev_sdb>

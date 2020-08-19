@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-gc.md
+
+% git-gc, common
+
+# Optimise the repository
+git gc
+
+# Aggressively optimise, takes more time
+git gc --aggressive
+
+# Do not prune loose objects (prunes by default)
+git gc --no-prune
+
+# Suppress all output
+git gc --quiet
+
+# View full usage
+git gc --help

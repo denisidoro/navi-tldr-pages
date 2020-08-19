@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/slimrb.md
+
+% slimrb, common
+
+# Convert a Slim file to HTML
+slimrb <input_slim> <output_html>
+
+# Convert a Slim file and output to prettified HTML
+slimrb --pretty <input_slim> <output_html>
+
+# Convert a Slim file to ERB
+slimrb --erb <input_slim> <output_erb>

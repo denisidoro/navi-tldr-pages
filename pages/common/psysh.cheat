@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/psysh.md
+
+% psysh, common
+
+# Open a shell in the current directory
+psysh
+
+# Open a shell in a specific directory
+psysh --cwd <path_to_directory>
+
+# Use a specific configuration file
+psysh --config <path_to_file>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wpa_supplicant.md
+
+% wpa_supplicant, common
+
+# Join a protected wireless network
+wpa_supplicant -i <interface> -c <path_to_wpa_supplicant_conf_conf>
+
+# Join a protected wireless network and run it in a daemon
+wpa_supplicant -B -i <interface> -c <path_to_wpa_supplicant_conf_conf>

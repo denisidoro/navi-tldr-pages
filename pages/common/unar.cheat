@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/unar.md
+
+% unar, common
+
+# Extract an archive to the current directory
+unar <archive>
+
+# Extract an archive to the specified directory
+unar -o <path_to_directory> <archive>
+
+# Force overwrite if files to be unpacked already exist
+unar -f <archive>
+
+# Force rename if files to be unpacked already exist
+unar -r <archive>
+
+# Force skip if files to be unpacked already exist
+unar -s <archive>

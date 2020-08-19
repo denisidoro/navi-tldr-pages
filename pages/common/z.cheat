@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/z.md
+
+% z, common
+
+# Go to a directory that contains "foo" in the name
+z <foo>
+
+# Go to a directory that contains "foo" and then "bar"
+z <foo> <bar>
+
+# Go to the highest-ranked directory matching "foo"
+z -r <foo>
+
+# Go to the most recently accessed directory matching "foo"
+z -t <foo>
+
+# List all directories in `z`'s database matching "foo"
+z -l <foo>
+
+# Remove the current directory from `z`'s database
+z -x .

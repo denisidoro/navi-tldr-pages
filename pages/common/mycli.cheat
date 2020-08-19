@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mycli.md
+
+% mycli, common
+
+# Connect to a local database on port 3306, using the current user's username
+mycli <database_name>
+
+# Connect to a database (user will be prompted for a password)
+mycli -u <username> <database_name>
+
+# Connect to a database on another host
+mycli -h <database_host> -P <port> -u <username> <database_name>

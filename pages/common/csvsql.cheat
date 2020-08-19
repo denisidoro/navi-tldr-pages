@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvsql.md
+
+% csvsql, common
+
+# Generate a `CREATE TABLE` SQL statement for a CSV file
+csvsql <path_to_data_csv>
+
+# Import a CSV file into an SQL database
+csvsql --insert --db "<mysql___user_password_host_database>" <data_csv>
+
+# Run an SQL query on a CSV file
+csvsql --query "{{select * from 'data'}}" <data_csv>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jwt.md
+
+% jwt, common
+
+# Decode a JWT
+jwt decode <jwt_string>
+
+# Decode a JWT as a JSON string
+jwt decode -j <jwt_string>
+
+# Encode a JSON string to a JWT
+jwt encode --alg <HS256> --secret <1234567890> '<json_string>'
+
+# Encode key pair payload to JWT
+jwt encode --alg <HS256> --secret <1234567890> -P key=value

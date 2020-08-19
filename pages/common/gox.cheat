@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gox.md
+
+% gox, common
+
+# Compile Go program in the current directory for all operating systems and architecture combinations
+gox
+
+# Download and compile a Go program from a remote URL
+gox <url_1> <url_2>
+
+# Compile current directory for a particular operating system
+gox -os="<os>"
+
+# Compile current directory for a single operating system and architecture combination
+gox -osarch="<os>/<arch>"

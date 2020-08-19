@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/reg-flags.md
+
+% reg-flags, windows
+
+# Display current flags for a specific key
+reg flags <key_name> query
+
+# Display help and available flag types
+reg flags /?
+
+# Set specified space-separated flags, and unset unmentioned flags, for a specific key
+reg flags <key_name> set <flag_names>
+
+# Set specified flags for a specific key and its sub keys
+reg flags <key_name> set <flag_names> /s

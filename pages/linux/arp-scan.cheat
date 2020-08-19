@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/arp-scan.md
+
+% arp-scan, linux
+
+# Scan the current local network
+arp-scan --localnet
+
+# Scan an IP network with a custom bitmask
+arp-scan <192_168_1_1>/<24>
+
+# Scan an IP network within a custom range
+arp-scan <127_0_0_0>-<127_0_0_31>
+
+# Scan an IP network with a custom net mask
+arp-scan <10_0_0_0>:<255_255_255_0>

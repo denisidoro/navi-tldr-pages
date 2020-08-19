@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sleep.md
+
+% sleep, common
+
+# Delay in seconds
+sleep <seconds>
+
+# Delay in minutes
+sleep <minutes>m
+
+# Delay in hours
+sleep <hours>h

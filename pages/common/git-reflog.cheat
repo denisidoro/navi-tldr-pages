@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-reflog.md
+
+% git-reflog, common
+
+# Show the reflog for HEAD
+git reflog
+
+# Show the reflog for a given branch
+git reflog <branch_name>
+
+# Show only the 5 latest entries in the reflog
+git reflog -n <5>

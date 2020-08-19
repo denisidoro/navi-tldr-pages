@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/netlify.md
+
+% netlify, common
+
+# Login to the Netlify account
+netlify login
+
+# Deploy the contents of a directory to Netlify
+netlify deploy
+
+# Configure continuous deployment for a new or an existing site
+netlify init
+
+# Start a local dev server
+netlify dev

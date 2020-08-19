@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/pwlauncher.md
+
+% pwlauncher, windows
+
+# Display the current Windows To Go status
+pwlauncher
+
+# Enable or disable the Windows To Go startup options
+pwlauncher /<enable_disable>

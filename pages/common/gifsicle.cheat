@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gifsicle.md
+
+% gifsicle, common
+
+# Optimise a GIF
+gifsicle --batch --optimize=3 <amin_gif>
+
+# Make a GIF animation with gifsicle
+gifsicle --delay=<10> --loop *.gif > <anim_gif>
+
+# Extract frames from an animation
+gifsicle <anim_gif> '#0' > <firstframe_gif>
+
+# You can also edit animations by replacing, deleting, or inserting frames
+gifsicle -b <anim_gif> --replace '#0' <new_gif>

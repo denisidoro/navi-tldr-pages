@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gocryptfs.md
+
+% gocryptfs, common
+
+# Initialize an encrypted filesystem
+gocryptfs -init <path_to_cipher_dir>
+
+# Mount an encrypted filesystem
+gocryptfs <path_to_cipher_dir> <path_to_mount_point>
+
+# Mount with the explicit master key instead of password
+gocryptfs --masterkey <path_to_cipher_dir> <path_to_mount_point>
+
+# Change the password
+gocryptfs --passwd <path_to_cipher_dir>
+
+# Make an encrypted snapshot of a plain directory
+gocryptfs --reverse <path_to_plain_dir> <path_to_cipher_dir>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-build.md
+
+% nix-build, common
+
+# Build a Nix expression
+nix-build --attr <expression_name>
+
+# Build a sandboxed Nix expression (on non-nixOS)
+nix-build --attr <expression_name> --option sandbox true

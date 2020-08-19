@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vgcreate.md
+
+% vgcreate, linux
+
+# Create a new volume group called vg1 using the `/dev/sda1` device
+vgcreate <vg1> <_dev_sda1>
+
+# Create a new volume group called vg1 using multiple devices
+vgcreate <vg1> <_dev_sda1> <_dev_sdb1> <_dev_sdc1>

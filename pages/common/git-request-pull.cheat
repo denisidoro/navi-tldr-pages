@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-request-pull.md
+
+% git-request-pull, common
+
+# Produce a request summarizing the changes between the v1.1 release and master
+git request-pull <v1_1> <https___example_com_project> <master>
+
+# Produce a request summarizing the changes between the v0.1 release on master branch and local foo branch
+git request-pull <v0_1> <https___example_com_project> <master_foo>

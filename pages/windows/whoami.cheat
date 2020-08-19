@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/whoami.md
+
+% whoami, windows
+
+# Display the username of the current user
+whoami
+
+# Display the groups that the current user is a member of
+whoami /groups
+
+# Display the privileges of the current user
+whoami /priv
+
+# Display the user principal name (UPN) of the current user
+whoami /upn
+
+# Display the logon id of the current user
+whoami /logonid

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cowsay.md
+
+% cowsay, common
+
+# Print an ASCII cow saying "Hello world!"
+cowsay "Hello world!"
+
+# Use text from standard input for the balloon
+echo "Hello!" | cowsay
+
+# List all available characters
+cowsay -l
+
+# Print an ASCII dragon saying "Hello!"
+cowsay -f dragon "Hello!"
+
+# Print a stoned thinking ASCII cow
+cowthink -s "I'm just a cow, not a great thinker ..."

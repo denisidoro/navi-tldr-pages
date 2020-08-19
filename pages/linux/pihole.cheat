@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pihole.md
+
+% pihole, linux
+
+# Check the Pi-hole daemon's status
+pihole status
+
+# Monitor detailed system status
+pihole chronometer
+
+# Start or stop the daemon
+pihole <enable_disable>
+
+# Restart the daemon (not the server itself)
+pihole restartdns
+
+# Whitelist or blacklist a domain
+pihole <whitelist_blacklist> <example_com>
+
+# Search the lists for a domain
+pihole query <example_com>

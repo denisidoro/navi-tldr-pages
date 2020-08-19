@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/sv.md
+
+% sv, osx
+
+# Start a service
+sudo sv up <path_to_service>
+
+# Stop a service
+sudo sv down <path_to_service>
+
+# Get service status
+sudo sv status <path_to_service>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/xar.md
+
+% xar, osx
+
+# Create a xar archive of all files in a given directory
+xar -cf <archive_xar> <path_to_directory>
+
+# Lis[t] the contents of a given xar archive
+xar -tf <archive_xar>
+
+# Extract the contents of a given xar archive to the current directory
+xar -xf <archive_xar>

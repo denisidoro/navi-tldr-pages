@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/atrm.md
+
+% atrm, common
+
+# Remove job number 10
+atrm <10>
+
+# Remove many jobs, separated by spaces
+atrm <15> <17> <22>

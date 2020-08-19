@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/icalbuddy.md
+
+% icalbuddy, osx
+
+# Show events later today
+icalBuddy -n eventsToday
+
+# Show uncompleted tasks
+icalBuddy uncompletedTasks
+
+# Show a formated list separated by calendar for all events today
+icalBuddy -f -sc eventsToday
+
+# Show tasks for a specified number of days
+icalBuddy -n tasksDueBefore:today+<days>
+
+# Show events in a time range
+icalBuddy eventsFrom:'{{start date}}' to:'{{end date}}'

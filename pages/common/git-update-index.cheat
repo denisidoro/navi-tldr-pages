@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-update-index.md
+
+% git-update-index, common
+
+# Pretend that a modified file is unchanged (`git status` will not show this as changed)
+git update-index --skip-worktree <path_to_modified_file>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pyenv.md
+
+% pyenv, common
+
+# List all available commands
+pyenv commands
+
+# List all Python versions under the ${PYENV_ROOT}/versions directory
+pyenv versions
+
+# Install a Python version under the ${PYENV_ROOT}/versions directory
+pyenv install <2_7_10>
+
+# Uninstall a Python version under the ${PYENV_ROOT}/versions directory
+pyenv uninstall <2_7_10>
+
+# Set Python version to be used globally in the current machine
+pyenv global <2_7_10>
+
+# Set Python version to be used in the current directory and all directories below it
+pyenv local <2_7_10>

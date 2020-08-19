@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/magick.md
+
+% magick, common
+
+# Convert file type
+magick <image_png> <image_jpg>
+
+# Resize an image, making a new copy
+magick convert -resize <100x100> <image_jpg> <image_jpg>
+
+# Create a GIF using images
+magick {{*.jpg}} <images_gif>
+
+# Create checkerboard pattern
+magick -size <640x480> pattern:checkerboard <checkerboard_png>
+
+# Convert images to individual PDF pages
+magick {{*.jpg}} +adjoin <page__d_pdf>

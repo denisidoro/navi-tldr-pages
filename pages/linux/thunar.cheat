@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/thunar.md
+
+% thunar, linux
+
+# Open a new window showing the current directory
+thunar
+
+# Open the bulk rename utility
+thunar --bulk-rename
+
+# Close all open thunar windows
+thunar --quit

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/sunos/svcs.md
+
+% svcs, sunos
+
+# List all running services
+svcs
+
+# List services that are not running
+svcs -vx
+
+# List information about a service
+svcs apache
+
+# Show location of service log file
+svcs -L apache
+
+# Display end of a service log file
+tail $(svcs -L apache)

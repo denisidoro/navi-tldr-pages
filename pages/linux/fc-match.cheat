@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fc-match.md
+
+% fc-match, linux
+
+# Return a sorted list of best matching fonts
+fc-match -s '{{DejaVu Serif}}'

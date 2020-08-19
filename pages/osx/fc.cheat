@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/fc.md
+
+% fc, osx
+
+# Open in the default system editor
+fc
+
+# Specify an editor to open with
+fc -e <_emacs_>
+
+# List recent commands from history
+fc -l

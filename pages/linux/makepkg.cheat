@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/makepkg.md
+
+% makepkg, linux
+
+# Make a package (run in the same directory as a PKGBUILD)
+makepkg
+
+# Make a package and install its dependencies
+makepkg --syncdeps
+
+# Same as above, but install the package with `pacman` when done
+makepkg --syncdeps --install
+
+# Make a package, but skip source checksums
+makepkg --skipchecksums

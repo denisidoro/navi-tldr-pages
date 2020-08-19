@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ncat.md
+
+% ncat, linux
+
+# Listen for input on the specified port and write it to the specified file
+ncat -l <port> > <path_to_file>
+
+# Accept multiple connections and keep ncat open after they have been closed
+ncat -lk <port>
+
+# Write output of specified file to the specified host on the specified port
+ncat <address> <port> < <path_to_file>

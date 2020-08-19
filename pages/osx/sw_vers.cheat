@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/sw_vers.md
+
+% sw_vers, osx
+
+# Print all available information (OS name, version number, and build)
+sw_vers
+
+# Print only the version number of the operating system
+sw_vers -productVersion
+
+# Print only the build identifier
+sw_vers -buildVersion

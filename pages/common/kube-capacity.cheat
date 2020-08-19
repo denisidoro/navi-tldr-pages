@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kube-capacity.md
+
+% kube-capacity, common
+
+# Output a list of nodes with the total CPU and Memory resource requests and limits
+kube-capacity
+
+# Include pods
+kube-capacity -p
+
+# Include utilization
+kube-capacity -u

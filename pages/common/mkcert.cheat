@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mkcert.md
+
+% mkcert, common
+
+# Install the local CA in the system trust store
+mkcert -install
+
+# Generate certificate and private key for a given domain
+mkcert <example_org>
+
+# Generate certificate and private key for multiple domains
+mkcert <example_org> <myapp_dev> <127_0_0_1>
+
+# Generate wildcard certificate and private key for a given domain and its subdomains
+mkcert {{"*.example.it"}}
+
+# Uninstall the local CA
+mkcert -uninstall

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/userdel.md
+
+% userdel, linux
+
+# Remove a user and their home directory
+userdel -r <name>

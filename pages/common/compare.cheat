@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/compare.md
+
+% compare, common
+
+# Compare 2 images
+compare <image1_png> <image2_png> <diff_png>
+
+# Compare 2 images using a custom metric
+compare -verbose -metric <PSNR> <image1_png> <image2_png> <diff_png>

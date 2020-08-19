@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/node.md
+
+% node, common
+
+# Run a JavaScript file
+node <path_to_file>
+
+# Start a REPL (interactive shell)
+node
+
+# Evaluate JavaScript by passing it in the command
+node -e "<code>"
+
+# Evaluate and print result, useful to see node's dependencies versions
+node -p "<process_versions>"
+
+# Activate inspector, pausing execution until a debugger is connected once source code is fully parsed
+node --no-lazy --inspect-brk <path_to_file>

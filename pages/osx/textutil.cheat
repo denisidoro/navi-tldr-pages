@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/textutil.md
+
+% textutil, osx
+
+# Display information about foo.rtf
+textutil -info <foo_rtf>
+
+# Convert foo.rtf into foo.html
+textutil -convert <html> <foo_rtf>
+
+# Convert rich text to normal text
+textutil <foo_rtf> -convert <txt>
+
+# Convert foo.txt into foo.rtf, using Times 10 for the font
+textutil -convert <rtf> -font <Times> -fontsize <10> <foo_txt>
+
+# Load all RTF files in the current directory, concatenates their contents, and writes the result out as index.html with the HTML title set to "Several Files"
+textutil -cat <html> -title "Several Files" -output <index_html> *.rtf

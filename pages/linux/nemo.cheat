@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nemo.md
+
+% nemo, linux
+
+# Open a new window showing the user's home directory
+nemo
+
+# Open a new window showing the current directory
+nemo .
+
+# Close all open nemo windows
+nemo --quit

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/github-label-sync.md
+
+% github-label-sync, common
+
+# Synchronise labels using a local `labels.json` file
+github-label-sync --access-token <token> <repository_name>
+
+# Synchronise labels using a specific labels JSON file
+github-label-sync --access-token <token> --labels <url_path_to_json_file> <repository_name>
+
+# Perform a dry run instead of actually synchronising labels
+github-label-sync --access-token <token> --dry-run <repository_name>
+
+# Keep labels that aren't in `labels.json`
+github-label-sync --access-token <token> --allow-added-labels <repository_name>
+
+# Synchronise using the `GITHUB_ACCESS_TOKEN` environment variable
+github-label-sync <repository_name>

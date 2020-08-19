@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sum.md
+
+% sum, common
+
+# Compute a checksum with BSD-compatible algorithm and 1024-byte blocks
+sum <file>
+
+# Compute a checksum with System V-compatible algorithm and 512-byte blocks
+sum --sysv <file>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/makebuildserver.md
+
+% makebuildserver, common
+
+# Create a new virtual machine or update an existing one (if available)
+makebuildserver
+
+# Force creating a fresh virtual machine
+makebuildserver --clean

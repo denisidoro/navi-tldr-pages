@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/blkid.md
+
+% blkid, linux
+
+# List all partitions
+sudo blkid
+
+# List all partitions in a table, including current mountpoints
+sudo blkid -o list

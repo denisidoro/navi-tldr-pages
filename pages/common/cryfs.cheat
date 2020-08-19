@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cryfs.md
+
+% cryfs, common
+
+# Mount an encrypted file system. The initialization wizard will be started on the first execution
+cryfs <path_to_cipher_dir> <path_to_mount_point>
+
+# Unmount an encrypted file system
+cryfs-unmount <path_to_mount_point>
+
+# Automatically unmount after ten minutes of inactivity
+cryfs --unmount-idle <10> <path_to_cipher_dir> <path_to_mount_point>
+
+# Show a list of supported ciphers
+cryfs --show-ciphers

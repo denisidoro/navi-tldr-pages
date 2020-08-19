@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkswap.md
+
+% mkswap, linux
+
+# Setup a given partition as swap area
+sudo mkswap <_dev_sdb7>
+
+# Use a given file as swap area
+sudo mkswap <path_to_file>
+
+# Check a partition for bad blocks before creating the swap area
+sudo mkswap -c <_dev_sdb7>
+
+# Specify a label for the file (to allow `swapon` to use the label)
+sudo mkswap -L <swap1> <path_to_file>

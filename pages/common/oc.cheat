@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/oc.md
+
+% oc, common
+
+# Log in to the OpenShift Container Platform server
+oc login
+
+# Create a new project
+oc new-project <project_name>
+
+# Add a new application to a project
+oc new-app <repo_url> --name <application>
+
+# Open a remote shell session to a container
+oc rsh <pod_name>
+
+# List pods in a project
+oc get pods
+
+# Logout from the current session
+oc logout

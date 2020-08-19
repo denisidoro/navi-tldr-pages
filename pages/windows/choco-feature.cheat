@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/choco-feature.md
+
+% choco-feature, windows
+
+# Display a list of available features
+choco feature list
+
+# Enable a feature
+choco feature enable --name <name>
+
+# Disable a feature
+choco feature disable --name <name>

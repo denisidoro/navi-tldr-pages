@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/radare2.md
+
+% radare2, common
+
+# Open a file in write mode without parsing the file format headers
+radare2 -nw <path_to_binary>
+
+# Debug a program
+radare2 -d <path_to_binary>
+
+# Run a script before entering the interactive CLI
+radare2 -i <path_to_script_r2> <path_to_binary>
+
+# Show help text for any command in the interactive CLI
+> <radare2_command>?
+
+# Run a shell command from the interactive CLI
+> !<shell_command>
+
+# Dump raw bytes of current block to a file
+> pr > <path_to_file_bin>

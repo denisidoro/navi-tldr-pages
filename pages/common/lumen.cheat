@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lumen.md
+
+% lumen, common
+
+# Create a new Lumen application
+lumen new <application_name>
+
+# List the available installer commands
+lumen list

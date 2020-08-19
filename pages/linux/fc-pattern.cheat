@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fc-pattern.md
+
+% fc-pattern, linux
+
+# Display default information about a font
+fc-pattern -d '{{DejaVu Serif}}'

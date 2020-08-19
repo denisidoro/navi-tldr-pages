@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/factor.md
+
+% factor, common
+
+# Display the prime-factorization of a number
+factor <number>
+
+# Take the input from `stdin` if no argument is specified
+echo <number> | factor

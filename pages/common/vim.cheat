@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vim.md
+
+% vim, common
+
+# Open a file
+vim <path_to_file>
+
+# View Vim's help manual
+:help<Enter>
+
+# Save a file
+:write<Enter>
+
+# Quit without saving
+:quit!<Enter>
+
+# Open a file at a specified line number
+vim +<line_number> <path_to_file>
+
+# Undo the last operation
+u
+
+# Search for a pattern in the file (press `n`/`N` to go to next/previous match)
+/<search_pattern><Enter>
+
+# Perform a regex substitution in the whole file
+:%s/<pattern>/<replacement>/g<Enter>

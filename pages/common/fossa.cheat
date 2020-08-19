@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fossa.md
+
+% fossa, common
+
+# Initialize a `.fossa.yml` configuration file
+fossa init
+
+# Run a default project build
+fossa build
+
+# Analyze built dependencies
+fossa analyze
+
+# Generate reports
+fossa report
+
+# Test current revision against the FOSSA scan status and exit with errors if issues are found
+fossa test

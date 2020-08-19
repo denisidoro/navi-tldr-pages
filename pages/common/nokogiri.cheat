@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nokogiri.md
+
+% nokogiri, common
+
+# Parse the contents of a url or file
+nokogiri <url_path_to_file>
+
+# Parse as a specific type
+nokogiri <url_path_to_file> --type <xml_html>
+
+# Load a specific initialisation file before parsing
+nokogiri <url_path_to_file> -C <path_to_config_file>
+
+# Parse using a specific encoding
+nokogiri <url_path_to_file> --encoding <encoding>
+
+# Validate using a RELAX NG file
+nokogiri <url_path_to_file> --rng <url_path_to_file>

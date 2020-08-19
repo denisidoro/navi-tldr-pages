@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/go-clean.md
+
+% go-clean, common
+
+# Print the remove commands instead of actually removing anything
+go clean -n
+
+# Delete the build cache
+go clean -cache
+
+# Delete all cached test results
+go clean -testcache
+
+# Delete the module cache
+go clean -modcache

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/wipefs.md
+
+% wipefs, linux
+
+# Display signatures for specified device
+sudo wipefs <_dev_sda>
+
+# Wipe all available signatures for specified device
+sudo wipefs --all <_dev_sda>
+
+# Perform dry run
+sudo wipefs --all --no-act <_dev_sda>
+
+# Force wipe, even if the filesystem is mounted
+sudo wipefs --all --force <_dev_sda>

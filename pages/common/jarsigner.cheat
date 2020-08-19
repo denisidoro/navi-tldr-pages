@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jarsigner.md
+
+% jarsigner, common
+
+# Sign a JAR file
+jarsigner <path_to_file_jar> <keystore_alias>
+
+# Sign a JAR file with a specific algorithm
+jarsigner -sigalg <algorithm> <path_to_file_jar> <keystore_alias>
+
+# Verify the signature of a JAR file
+jarsigner -verify <path_to_file_jar>

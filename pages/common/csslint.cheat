@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csslint.md
+
+% csslint, common
+
+# Lint a single CSS file
+csslint <file_css>
+
+# Lint multiple CSS files
+csslint <file1_css> <file2_css> <file3_css>
+
+# List all possible style rules
+csslint --list-rules
+
+# Specify certain rules as errors (which result in a non-zero exit code)
+csslint --errors=<errors_universal_selector_imports> <file_css>
+
+# Specify certain rules as warnings
+csslint --warnings=<box_sizing_selector_max_floats> <file_css>
+
+# Specify certain rules to completely ignore
+csslint --ignore=<ids_rules_count_shorthand> <file_css>

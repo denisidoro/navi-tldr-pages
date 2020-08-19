@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/html5validator.md
+
+% html5validator, common
+
+# Validate a specific file
+html5validator <path_to_file>
+
+# Validate all HTML files in a specific directory
+html5validator --root <path_to_directory>
+
+# Show warnings as well as errors
+html5validator --show-warnings <path_to_file>
+
+# Match multiple files using a glob pattern
+html5validator --root <path_to_directory> --match "{{*.html *.php}}"
+
+# Ignore specific directory names
+html5validator --root <path_to_directory> --blacklist "{{node_modules vendor}}"
+
+# Output the results in a specific format
+html5validator --format <gnu_xml_json_text> <path_to_file>
+
+# Output the log at a specific verbosity level
+html5validator --root <path_to_directory> --log <debug_info_warning>

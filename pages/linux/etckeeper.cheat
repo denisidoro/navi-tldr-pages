@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/etckeeper.md
+
+% etckeeper, linux
+
+# Set up a git repo and perform various setup tasks (run from /etc)
+sudo etckeeper init
+
+# Commit all changes in /etc
+sudo etckeeper commit <message>
+
+# Run arbitrary git commands
+sudo etckeeper vcs <status>
+
+# Check if there are uncommitted changes (only returns an exit code)
+sudo etckeeper unclean
+
+# Destroy existing repo and stop tracking changes
+sudo etckeeper uninit

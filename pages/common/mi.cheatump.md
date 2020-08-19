@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mitmdump.md
+
+% miump.md, common
+
+# Start a proxy and save all output to a file
+mitmdump -w <filename>
+
+# Filter a saved traffic file to just POST requests
+mitmdump -nr <input_filename> -w <output_filename> {{"~m post"}}
+
+# Replay a saved traffic file
+mitmdump -nc <filename>

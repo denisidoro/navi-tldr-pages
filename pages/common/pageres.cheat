@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pageres.md
+
+% pageres, common
+
+# Take multiple screenshots of multiple URLs at different resolutions
+pageres <https___example_com_> <https___example2_com_> <1366x768> <1600x900>
+
+# Provide specific options for a URL, overriding global options
+pageres [<https___example_com_> <1366x768> --no-crop] [<https___example2_com_> <1024x768>] --crop
+
+# Provide a custom filename template
+pageres <https___example_com_> <1024x768> --filename={{'<%= date %> - <%= url %>'}}
+
+# Capture a specific element on a page
+pageres <https___example_com_> <1366x768> --selector='<_page_header>'
+
+# Hide a specific element
+pageres <https___example_com_> <1366x768> --hide='<_page_header>'
+
+# Capture a screenshot of a local file
+pageres <local_file_path_html> <1366x768>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/meshlabserver.md
+
+% meshlabserver, common
+
+# Convert an STL file to an OBJ file
+meshlabserver -i <input_stl> -o <output_obj>
+
+# Convert a WRL file to a OFF file, including the vertex and face normals in the output mesh
+meshlabserver -i <input_wrl> -o <output_off> -om vn fn
+
+# Dump a list of all the available processing filters into a file
+meshlabserver -d <filename>
+
+# Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script)
+meshlabserver -i <input_ply> -o <output_ply> -s <filter_script_mlx>
+
+# Process a 3D file using a filter script, writing the output of the filters into a log file
+meshlabserver -i <input_x3d> -o <output_x3d> -s <filter_script_mlx> -l <logfile>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/popd.md
+
+% popd, windows
+
+# Switch to directory at the top of the stack
+popd

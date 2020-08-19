@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvsort.md
+
+% csvsort, common
+
+# Sort a CSV file by column 9
+csvsort -c <9> <data_csv>
+
+# Sort a CSV file by the "name" column in descending order
+csvsort -r -c <name> <data_csv>
+
+# Sort a CSV file by column 2, then by column 4
+csvsort -c <2_4> <data_csv>
+
+# Sort a CSV file without inferring data types
+csvsort --no-inference -c <columns> <data_csv>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ul.md
+
+% ul, linux
+
+# Display the contents of the file with underlines where applicable
+ul <file_txt>
+
+# Display the contents of the file with underlines made of dashes `-`
+ul -i <file_txt>

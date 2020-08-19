@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mdadm.md
+
+% linuxadm.md
+
+# Create array
+mdadm --create <_path_to_raid_device_file> --level <raid_level> --raid-devices <number_of_disks> <_path_to_disk_device_file>
+
+# Stop array
+mdadm -S <_path_to_raid_device_file>
+
+# Mark disk as failed
+mdadm <_path_to_raid_device_file> -f <_path_to_disk_device_file>
+
+# Remove disk
+mdadm <_path_to_raid_device_file> -r <_path_to_disk_device_file>
+
+# Add disk to array
+mdadm <_path_to_raid_device_file> -a <_path_to_disk_device_file>
+
+# Show RAID info
+mdadm -D <_path_to_raid_device_file>

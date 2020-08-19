@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/terraform-fmt.md
+
+% terraform-fmt, common
+
+# Format the configuration in the current directory
+terraform fmt
+
+# Format the configuration in the current directory and subdirectories
+terraform fmt -recursive
+
+# Display diffs of formatting changes
+terraform fmt -diff
+
+# Do not list files that were formatted to stdout
+terraform fmt -list=false

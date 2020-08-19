@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkfs.md
+
+% mkfs, linux
+
+# Build a Linux ext2 filesystem on a partition
+mkfs <path_to_partition>
+
+# Build a filesystem of a specified type
+mkfs -t <ext4> <path_to_partition>
+
+# Build a filesystem of a specified type and check for bad blocks
+mkfs -c -t <ntfs> <path_to_partition>

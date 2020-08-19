@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpcs.md
+
+% phpcs, common
+
+# Sniff the specified directory for issues (defaults to the PEAR standard)
+phpcs <path_to_directory>
+
+# Display a list of installed coding standards
+phpcs -i
+
+# Specify a coding standard to validate against
+phpcs <path_to_directory> --standard <standard>
+
+# Specify file extension(s) to include when sniffing
+phpcs <path_to_directory> --extensions <file_extension_s_>
+
+# Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`)
+phpcs <path_to_directory> --report <format>
+
+# Set config variables to be used during the process
+phpcs <path_to_directory> --config-set <key> <value>
+
+# A comma-separated list of files to load before processing
+phpcs <path_to_directory> --bootstrap <file_s_>
+
+# Don't recurse into subdirectories
+phpcs <path_to_directory> -l

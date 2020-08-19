@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/x_x.md
+
+% x_x, common
+
+# View an XLSX or CSV file
+x_x <file_xlsx_file_csv>
+
+# View an XLSX or CSV file, using the first row as table headers
+x_x -h <0> <file_xlsx_file_csv>
+
+# View a CSV file with unconventional delimiters
+x_x --delimiter=<___> --quotechar=<___> <file_csv>

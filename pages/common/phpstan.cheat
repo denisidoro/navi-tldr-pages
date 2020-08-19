@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpstan.md
+
+% phpstan, common
+
+# Display available options for analysis
+phpstan analyse --help
+
+# Analyse the specified space-separated directories
+phpstan analyse <path_to_directory>
+
+# Analyse a directory using a configuration file
+phpstan analyse <path_to_directory> --configuration <path_to_config>
+
+# Analyse using a specific rule level (0-7, higher is stricter)
+phpstan analyse <path_to_directory> --level <level>
+
+# Specify an autoload file to load before analysing
+phpstan analyse <path_to_directory> --autoload-file <path_to_autoload_file>
+
+# Specify a memory limit during analysis
+phpstan analyse <path_to_directory> --memory-limit <memory_limit>

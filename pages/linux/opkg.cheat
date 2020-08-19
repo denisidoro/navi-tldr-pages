@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/opkg.md
+
+% opkg, linux
+
+# Install a package
+opkg install <package>
+
+# Remove a package
+opkg remove <package>
+
+# Update the list of available packages
+opkg update
+
+# Upgrade all the installed packages
+opkg upgrade
+
+# Upgrade one or more specific package(s)
+opkg upgrade <package_s_>
+
+# Display informations for a specific package
+opkg info <package>
+
+# List all the available packages
+opkg list

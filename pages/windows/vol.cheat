@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/vol.md
+
+% vol, windows
+
+# Display the label and serial number for the current drive
+vol
+
+# Display the label and serial number for a specific volume
+vol <D_>

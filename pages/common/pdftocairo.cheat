@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdftocairo.md
+
+% pdftocairo, common
+
+# Convert a PDF file to JPEG
+pdftocairo <path_to_file_pdf> -jpeg
+
+# Convert to PDF expanding the output to fill the paper
+pdftocairo <path_to_file_pdf> <output_pdf> -pdf -expand
+
+# Convert to SVG specifying the first/last page to convert
+pdftocairo <path_to_file_pdf> <output_svg> -svg -f <first_page> -l <last_page>
+
+# Convert to PNG with 200ppi resolution
+pdftocairo <path_to_file_pdf> <output_png> -png -r 200
+
+# Convert to grayscale TIFF setting paper size to A3
+pdftocairo <path_to_file_pdf> -tiff -gray -paper A3
+
+# Convert to PNG cropping x and y pixels from the top left corner
+pdftocairo <path_to_file_pdf> -png -x <x_pixels> -y <y_pixels>

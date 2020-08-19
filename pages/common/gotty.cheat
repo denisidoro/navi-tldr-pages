@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gotty.md
+
+% gotty, common
+
+# Share result of command
+gotty <command>
+
+# Share with write permission
+gotty -w <shell>
+
+# Share with credential (Basic Auth)
+gotty -w -c <username>:<password> <shell>

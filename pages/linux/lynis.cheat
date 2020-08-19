@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lynis.md
+
+% lynis, linux
+
+# Check that Lynis is up-to-date
+sudo lynis update info
+
+# Run a security audit of the system
+sudo lynis audit system
+
+# Run a security audit of a Dockerfile
+sudo lynis audit dockerfile <path_to_dockerfile>

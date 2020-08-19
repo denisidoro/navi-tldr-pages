@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/adguardhome.md
+
+% adguardhome, common
+
+# Run AdGuard Home
+AdGuardHome
+
+# Run AdGuard Home with a specific config
+AdGuardHome --config <path_to_AdGuardHome_yaml>
+
+# Set the work directory for data to be stored in
+AdGuardHome --work-dir <path_to_directory>
+
+# Install or uninstall AdGuard Home as a service
+AdGuardHome --service <install_uninstall>
+
+# Start the AdGuard Home service
+AdGuardHome --service start
+
+# Reload the configuration for the AdGuard Home service
+AdGuardHome --service reload
+
+# Stop or restart the AdGuard Home service
+AdGuardHome --service <stop_restart>

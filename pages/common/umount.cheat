@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/umount.md
+
+% umount, common
+
+# Unmount a filesystem, by passing the path to the source it is mounted from
+umount <path_to_device_file>
+
+# Unmount a filesystem, by passing the path to the target where it is mounted
+umount <path_to_mounted_directory>
+
+# Unmount all mounted filesystems (except the `proc` filesystem)
+umount -a

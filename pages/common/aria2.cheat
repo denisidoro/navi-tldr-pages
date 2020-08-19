@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aria2.md
+
+% aria2, common
+
+# Download a web resource
+aria2c <http___example_org_myLinux_iso>
+
+# Download a resource from multiple sources
+aria2c <http___mirror1_org_myLinux_iso> <http___mirror2_org_myLinux_iso>
+
+# Download using 2 connections per host
+aria2c -x<2> <http___example_org_myLinux_iso>
+
+# Download from a Metalink URI
+aria2c <http___example_org_myLinux_metalink>
+
+# Download from a BitTorrent URI
+aria2c <http___example_org_myLinux_torrent>
+
+# Download from a BitTorrent Magnet URI
+aria2c <_magnet__xt_urn_btih_248D0A1CD08284299DE78D5C1ED359BB46717D8C_>
+
+# Download URIs from a file
+aria2c -i <uris_txt>

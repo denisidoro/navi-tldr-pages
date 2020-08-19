@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/guetzli.md
+
+% guetzli, common
+
+# Compress a JPEG image
+guetzli <input_jpg> <output_jpg>
+
+# Create compressed JPEG image from PNG image
+guetzli <input_png> <output_jpg>
+
+# Compress a JPEG image with desired visual quality (84-100)
+guetzli --quality <quality_value> <input_jpg> <output_jpg>

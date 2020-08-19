@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/systemsetup.md
+
+% systemsetup, osx
+
+# Enable remote login (SSH)
+systemsetup -setremotelogin on
+
+# Specify TimeZone, NTP Server and enable network time
+systemsetup -settimezone <US_Pacific> -setnetworktimeserver <us_pool_ntp_org> -setusingnetworktime on
+
+# Make the machine never sleep and automatically restart on power failure or kernel panic
+systemsetup -setsleep off -setrestartpowerfailure on -setrestartfreeze on
+
+# List valid startup disks
+systemsetup -liststartupdisks
+
+# Specify a new startup disk
+systemsetup -setstartupdisk <path>

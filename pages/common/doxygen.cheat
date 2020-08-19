@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/doxygen.md
+
+% doxygen, common
+
+# Generate a default template configuration file "Doxyfile"
+doxygen -g
+
+# Generate a template configuration file
+doxygen -g <path_to_config_file>
+
+# Generate documentation using an existing configuration file
+doxygen <path_to_config_file>

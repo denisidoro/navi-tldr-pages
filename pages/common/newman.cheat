@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/newman.md
+
+% newman, common
+
+# Run a collection (from a file)
+newman run <path_to_collection_json>
+
+# Run a collection (from a URL)
+newman run <https___www_getpostman_com_collections_631643_f695cab7_6878_eb55_7943_ad88e1ccfd65_JsLv>

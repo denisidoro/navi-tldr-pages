@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kubens.md
+
+% kubens, common
+
+# List the namespaces
+kubens
+
+# Change the active namespace
+kubens <name>
+
+# Switch to the previous namespace
+kubens -

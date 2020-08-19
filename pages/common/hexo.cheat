@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hexo.md
+
+% hexo, common
+
+# Initialize a website
+hexo init <path_to_directory>
+
+# Create a new article
+hexo new <layout> <title>
+
+# Generate static files
+hexo generate
+
+# Start a local server
+hexo server
+
+# Deploy the website
+hexo deploy
+
+# Clean the cache file (`db.json`) and generated files (`public/`)
+hexo clean

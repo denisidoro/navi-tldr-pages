@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/duperemove.md
+
+% duperemove, linux
+
+# Search for duplicate extents in a directory and show them
+duperemove -r <path_to_directory>
+
+# Deduplicate duplicate extents on a Btrfs or XFS (experimental) file system
+duperemove -r -d <path_to_directory>
+
+# Use a hash file to store extent hashes (less memory usage and can be reused on subsequent runs)
+duperemove -r -d --hashfile=<path_to_hashfile> <path_to_directory>
+
+# Limit I/O threads (for hashing and dedupe stage) and CPU threads (for duplicate extent finding stage)
+duperemove -r -d --hashfile=<path_to_hashfile> --io-threads=<N> --cpu-threads=<N> <path_to_directory>

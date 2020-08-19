@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pushd.md
+
+% pushd, linux
+
+# Switch to directory and push it on the stack
+pushd < <directory>
+
+# Switch first and second directories on the stack
+pushd
+
+# Rotate stack by making the 5th element the top of the stack
+pushd +4

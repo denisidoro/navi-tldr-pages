@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bitcoin-cli.md
+
+% bitcoin-cli, common
+
+# Send a transaction to a given address
+bitcoin-cli sendtoaddress "<address>" <amount>
+
+# Generate one or more blocks
+bitcoin-cli generate <num_blocks>
+
+# Print high-level information about the wallet
+bitcoin-cli getwalletinfo
+
+# List all outputs from previous transactions available to fund outgoing transactions
+bitcoin-cli listunspent
+
+# Export the wallet information to a text file
+bitcoin-cli dumpwallet "<path_to_file>"

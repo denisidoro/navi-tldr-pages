@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/clip.md
+
+% clip, windows
+
+# Pipe command line output to the Windows clipboard
+<dir> | clip
+
+# Copy the contents of a file to the Windows clipboard
+clip < <path_to_file_ext>
+
+# Copy text with a trailing newline to the Windows clipboard
+echo {{some text}} | clip
+
+# Copy text without a trailing newline to the Windows clipboard
+echo | set /p="some text" | clip

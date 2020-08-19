@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/roave-backward-compatibility-check.md
+
+% roave-backward-compatibility-check, common
+
+# Check for breaking changes since the last tag
+roave-backward-compatibility-check
+
+# Check for breaking changes since a specific tag
+roave-backward-compatibility-check --from=<git_reference>
+
+# Check for breaking changes between the last tag and a specific reference
+roave-backward-compatibility-check --to=<git_reference>
+
+# Check for breaking changes and output to markdown
+roave-backward-compatibility-check --format=markdown > <results_md>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkfs.exfat.md
+
+% mkfs.exfat, linux
+
+# Create an exfat filesystem inside partition 1 on device b (`sdb1`)
+mkfs.exfat <_dev_sdb1>
+
+# Create filesystem with a volume-name
+mkfs.exfat -n <volume_name> <_dev_sdb1>
+
+# Create filesystem with a volume-id
+mkfs.exfat -i <volume_id> <_dev_sdb1>

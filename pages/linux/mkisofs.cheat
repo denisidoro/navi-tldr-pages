@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkisofs.md
+
+% mkisofs, linux
+
+# Create an ISO from a directory
+mkisofs -o <filename_iso> <path_to_source_directory>
+
+# Set the disc label when creating an ISO
+mkisofs -o <filename_iso> -V <_label_name_> <path_to_source_directory>

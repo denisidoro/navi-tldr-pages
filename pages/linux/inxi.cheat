@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/inxi.md
+
+% inxi, linux
+
+# Print a short summary of CPU, memory, hard drive and kernel information
+inxi
+
+# Print a full description of CPU, memory, disk, network and process information
+inxi -Fz
+
+# Print information about the distribution's repository
+inxi -r

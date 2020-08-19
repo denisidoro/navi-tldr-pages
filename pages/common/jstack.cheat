@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jstack.md
+
+% jstack, common
+
+# Print java stack traces for all threads in a java process
+jstack <java_pid>
+
+# Print mixed mode (java/c++) stack traces for all threads in a java process
+jstack -m <java_pid>
+
+# Print stack traces from java core dump
+jstack <_usr_bin_java> <file_core>

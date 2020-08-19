@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/pkgutil.md
+
+% pkgutil, osx
+
+# List package IDs for all installed packages
+pkgutil --pkgs
+
+# Verify cryptographic signatures of a package file
+pkgutil --check-signature <path_to_filename_pkg>
+
+# List all the files for an installed package given its ID
+pkgutil --files <com_microsoft_Word>
+
+# Extract the contents of a package file into a directory
+pkgutil  --expand-full <path_to_filename_pkg> <path_to_directory>

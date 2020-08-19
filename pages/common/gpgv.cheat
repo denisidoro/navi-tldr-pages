@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gpgv.md
+
+% gpgv, common
+
+# Verify a signed file
+gpgv <path_to_file>
+
+# Verify a signed file using a detached signature
+gpgv <path_to_signature> <path_to_file>
+
+# Add a file to the list of keyrings (a single exported key also counts as a keyring)
+gpgv --keyring <__alice_keyring> <path_to_signature> <path_to_file>

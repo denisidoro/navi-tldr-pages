@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/reg-import.md
+
+% reg-import, windows
+
+# Import all keys, subkeys and values from a file
+reg import <path_to_file_reg>

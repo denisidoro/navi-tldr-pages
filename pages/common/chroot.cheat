@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/chroot.md
+
+% chroot, common
+
+# Run command as new root directory
+chroot <_path_to_new_root> <command>
+
+# Specify user and group (ID or name) to use
+chroot --userspec=<user_group>

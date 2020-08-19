@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/sunos/prctl.md
+
+% prctl, sunos
+
+# Examine process limits and permissions
+prctl <PID>
+
+# Examine process limits and permissions in machine parseable format
+prctl -P <PID>
+
+# Get specific limit for a running process
+prctl -n process.max-file-descriptor <PID>

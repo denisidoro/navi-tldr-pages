@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/print.md
+
+% print, windows
+
+# Print a text file to the default printer
+print <path_to_file>
+
+# Print a text file to a specific printer
+print /d:<printer> <path_to_file>

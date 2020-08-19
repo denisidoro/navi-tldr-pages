@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/alex.md
+
+% alex, common
+
+# Analyze text from `stdin`
+echo {{His network looks good}} | alex --stdin
+
+# Analyze all files in the current directory
+alex
+
+# Analyze a specific file
+alex <textfile_md>
+
+# Analyze all markdown files except `example.md`
+alex *.md !<example_md>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rbash.md
+
+% rbash, common
+
+# Start rbash
+rbash
+
+# Execute a command
+rbash -c "<command>"
+
+# Run commands from a file
+rbash <file_sh>
+
+# Print the version information of rbash
+rbash --version

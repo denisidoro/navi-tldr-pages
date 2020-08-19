@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpstorm.md
+
+% phpstorm, common
+
+# Open a specific directory
+phpstorm <path_to_directory>
+
+# Open a file
+phpstorm <path_to_file>
+
+# Open a file at a specific line
+phpstorm --line <line_number> <path_to_file>
+
+# View the differences between two files
+phpstorm diff <path_to_left_file> <path_to_right_file>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/genie.md
+
+% genie, linux
+
+# Initialize the bottle (run once, at start)
+genie -i
+
+# Run a login shell inside the bottle
+genie -s
+
+# Run a specified command inside the bottle
+genie -c <command>

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-stage.md
+
+% git-stage, common
+
+# Add a file to the index
+git stage <path_to_file>
+
+# Add all files (tracked and untracked)
+git stage -A
+
+# Only add already tracked files
+git stage -u
+
+# Also add ignored files
+git stage -f
+
+# Interactively stage parts of files
+git stage -p
+
+# Interactively stage parts of a given file
+git stage -p <path_to_file>
+
+# Interactively stage a file
+git stage -i

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vmware-checkvm.md
+
+% vmware-checkvm, linux
+
+# Return the current VMWare software version (exit status determines whether the system is a VM or not)
+vmware-checkvm
+
+# Return the VMWare hardware version
+vmware-checkvm -h

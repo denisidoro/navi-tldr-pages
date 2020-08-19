@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/help2man.md
+
+% help2man, common
+
+# Generate a man page for an executable
+help2man <executable>
+
+# Specify the "name" paragraph in the man page
+help2man <executable> --name <name>
+
+# Specify the section for the man page (defaults to 1)
+help2man <executable> --section <section>
+
+# Output to a file instead of `stdout`
+help2man <executable> --output <path_to_file>
+
+# Display detailed help
+help2man --help

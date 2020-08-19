@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vegeta.md
+
+% vegeta, common
+
+# Launch an attack lasting 30 seconds
+echo "{{GET https://example.com}}" | vegeta attack -duration=<30s>
+
+# Launch an attack on a server with a self-signed https certificate
+echo "{{GET https://example.com}}" | vegeta attack -insecure -duration=<30s>
+
+# Launch an attack with a rate of 10 requests per second
+echo "{{GET https://example.com}}" | vegeta attack -duration=<30s> -rate=<10>
+
+# Launch an attack and display a report
+echo "{{GET https://example.com}}" | vegeta attack -duration=<30s> | vegeta report
+
+# Launch an attack and plot the results on a graph (latency over time)
+echo "{{GET https://example.com}}" | vegeta attack -duration=<30s> | vegeta plot > <path_to_results_html>
+
+# Launch an attack against multiple URLs from a file
+vegeta attack -duration=<30s> -targets=<requests_txt> | vegeta report

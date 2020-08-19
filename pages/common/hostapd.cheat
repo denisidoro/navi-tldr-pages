@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hostapd.md
+
+% hostapd, common
+
+# Start an access point
+sudo hostapd <path_to_hostapd_conf>
+
+# Start an access point, forking into the background
+sudo hostapd -B <path_to_hostapd_conf>

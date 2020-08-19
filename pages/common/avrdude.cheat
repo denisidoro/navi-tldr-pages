@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/avrdude.md
+
+% avrdude, common
+
+# Read AVR microcontroller
+avrdude -p <AVR_device> -c <programmer> -U flash:r:<file_hex>:i
+
+# Write AVR microcontroller
+avrdude -p <AVR_device> -c <programmer> -U flash:w:<file_hex>
+
+# List available AVR devices
+avrdude -p \?
+
+# List available AVR programmers
+avrdude -c \?

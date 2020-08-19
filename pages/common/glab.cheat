@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/glab.md
+
+% glab, common
+
+# Create a merge request
+glab mr create
+
+# List merge requests
+glab mr list
+
+# Create a new issue
+glab issue create
+
+# View and filter the current repository's open issues
+glab issue list
+
+# List pipelines
+glab pipeline list
+
+# Clone a repository into a specific directory
+glab repo clone <user>/<repository> <directory>

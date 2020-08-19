@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mail.md
+
+% mail, common
+
+# Send a typed email message. The commandline below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multi-line). Press "Ctrl-D" key to complete the message text
+mail --subject={{"subject line"}} <to_user_example_com>
+
+# Send an email that contains file content
+mail --subject={{"$HOSTNAME filename.txt"}} <to_user_example_com> < <path_to_filename_txt>
+
+# Send a tar.gz file as an attachment
+tar cvzf - {{path/to/directory1 path/to/directory2}} | uuencode <data_tar_gz> | mail --subject={{"subject line"}} <to_user_example_com>

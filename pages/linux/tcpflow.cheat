@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/tcpflow.md
+
+% tcpflow, linux
+
+# Show all data on the given interface and port
+tcpflow -c -i <eth0> port <80>

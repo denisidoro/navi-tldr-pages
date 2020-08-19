@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/netstat.md
+
+% netstat, osx
+
+# List all ports
+netstat -a
+
+# List all listening ports
+netstat -l
+
+# List listening TCP ports
+netstat -t
+
+# Display PID and program names for a specific protocol
+netstat -p <protocol>
+
+# Print the routing table
+netstat -nr

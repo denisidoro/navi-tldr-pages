@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/scanimage.md
+
+% scanimage, linux
+
+# List available scanners to ensure the target device is connected and recognized
+scanimage -L
+
+# Scan an image and save it to a file
+scanimage --format=<pnm_tiff_png_jpeg> > <path_to_new_image>

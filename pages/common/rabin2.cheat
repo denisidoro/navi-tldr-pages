@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rabin2.md
+
+% rabin2, common
+
+# Display general information about a binary (architecture, type, endianness)
+rabin2 -I <path_to_binary>
+
+# Display linked libraries
+rabin2 -l <path_to_binary>
+
+# Display symbols imported from libraries
+rabin2 -i <path_to_binary>
+
+# Display strings contained in the binary
+rabin2 -z <path_to_binary>
+
+# Display the output in JSON
+rabin2 -j -I <path_to_binary>

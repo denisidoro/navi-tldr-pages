@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/telnet.md
+
+% telnet, common
+
+# Telnet to the default port of a host
+telnet <host>
+
+# Telnet to a specific port of a host
+telnet <ip_address> <port>
+
+# Exit a telnet session
+quit
+
+# Emit the default escape character combination for terminating the session
+Ctrl + ]
+
+# Start telnet with "x" as the session termination character
+telnet -e <x> <ip_address> <port>

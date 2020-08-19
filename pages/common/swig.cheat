@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/swig.md
+
+% swig, common
+
+# Generate a binding between C++ and Python
+swig -c++ -python -o <path_to_output_wrapper_cpp> <path_to_swig_file_i>
+
+# Generate a binding between C++ and Go
+swig -go -cgo -intgosize 64 -c++ <path_to_swig_file_i>
+
+# Generate a binding between C and Java
+swig -java <path_to_swig_file_i>
+
+# Generate a binding between C and Ruby and prefix the Ruby module with <foo__bar__>
+swig -ruby -prefix "<foo__bar__>" <path_to_swig_file_i>

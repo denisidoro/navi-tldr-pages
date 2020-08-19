@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/groff.md
+
+% groff, common
+
+# Render a man page as plain text, and display the result
+groff -man -T utf8 <manpage_1>
+
+# Render a man page using the ASCII output device, and display it using a pager
+groff -man -T ascii <manpage_1> | less
+
+# Render a man page into an HTML file
+groff -man -T html <manpage_1> > <page_html>
+
+# Process a roff file using the `tbl` and `pic` preprocessors, and the `me` macro set
+groff -t -p -me -T utf8 <foo_me>
+
+# Run a `groff` command with preprocessor and macro options guessed by the `grog` utility
+eval "$(grog -T utf8 <foo_me>)"

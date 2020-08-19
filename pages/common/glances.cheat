@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/glances.md
+
+% glances, common
+
+# Run in terminal
+glances
+
+# Run in web server mode to show results in browser
+glances -w
+
+# Run in server mode to allow connections from other Glances clients
+glances -s
+
+# Connect to a Glances server
+glances -c <hostname>
+
+# Require a password in (web) server mode
+glances -s --password

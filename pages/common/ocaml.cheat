@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ocaml.md
+
+% ocaml, common
+
+# Read OCaml commands from the user and execute them
+ocaml
+
+# Read OCaml commands from a file and execute them
+ocaml <path_to_file_ml>

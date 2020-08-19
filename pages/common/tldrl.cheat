@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md
+
+% tldrl, common
+
+# Lint all pages
+tldrl <pages_directory>
+
+# Format a specific page to `stdout`
+tldrl -f <page_md>
+
+# Format all pages in place
+tldrl -fi <pages_directory>

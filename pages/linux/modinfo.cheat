@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/modinfo.md
+
+% modinfo, linux
+
+# List all attributes of a kernel module
+modinfo <kernel_module>
+
+# List the specified attribute only
+modinfo -F <author_description_license_parm_filename> <kernel_module>

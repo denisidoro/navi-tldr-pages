@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/a2dissite.md
+
+% a2dissite, linux
+
+# Disable a virtual host
+sudo a2dissite <virtual_host>
+
+# Don't show informative messages
+sudo a2dissite --quiet <virtual_host>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-status.md
+
+% git-status, common
+
+# Show changed files which are not yet added for commit
+git status
+
+# Give output in [s]hort format
+git status -s
+
+# Don't show untracked files in the output
+git status --untracked-files=no
+
+# Show output in [s]hort format along with [b]ranch info
+git status -sb

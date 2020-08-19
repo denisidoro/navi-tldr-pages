@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zopflipng.md
+
+% zopflipng, common
+
+# Optimize a PNG image
+zopflipng <input_png> <output_png>
+
+# Optimize several PNG images and save with given prefix
+zopflipng --prefix=<prefix> <image1_png> <image2_png> <image3_png>

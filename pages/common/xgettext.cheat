@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xgettext.md
+
+% xgettext, common
+
+# Scan file and output strings to `messages.po`
+xgettext <path_to_input_file>
+
+# Use a different output filename
+xgettext --output <path_to_output_file> <path_to_input_file>
+
+# Append new strings to an existing file
+xgettext --join-existing --output <path_to_output_file> <path_to_input_file>
+
+# Don't add a header containing metadata to the output file
+xgettext --omit-header <path_to_input_file>

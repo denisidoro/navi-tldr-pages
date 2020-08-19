@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/p7zip.md
+
+% p7zip, common
+
+# Archive a file, replacing it with a 7zipped compressed version
+p7zip <path_to_file>
+
+# Archive a file keeping the input file
+p7zip -k <path_to_file>
+
+# Decompress a file, replacing it with the original uncompressed version
+p7zip -d <compressed_ext>.7z
+
+# Decompress a file keeping the input file
+p7zip -d -k <compressed_ext>.7z
+
+# Skip some checks and force compression or decompression
+p7zip -f <path_to_file>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/prosodyctl.md
+
+% prosodyctl, common
+
+# Show the status of the Prosody server
+sudo prosodyctl status
+
+# Reload the server's configuration files
+sudo prosodyctl reload
+
+# Add a user to the Prosody XMPP server
+sudo prosodyctl adduser <user_example_com>
+
+# Set a user's password
+sudo prosodyctl passwd <user_example_com>
+
+# Permanently delete a user
+sudo prosodyctl deluser <user_example_com>

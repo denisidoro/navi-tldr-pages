@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rtv.md
+
+% rtv, common
+
+# Open the front page
+/front
+
+# Open a subreddit
+/r/<subreddit_name>
+
+# Expand/collapse comments
+[space]
+
+# Open link
+o
+
+# Login
+u
+
+# Open the help screen
+?

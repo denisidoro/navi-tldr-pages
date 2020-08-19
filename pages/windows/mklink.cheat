@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/mklink.md
+
+% mklink, windows
+
+# Create a symbolic link to a file
+mklink <path_to_link> <path_to_source_file>
+
+# Create a symbolic link to a directory
+mklink /d <path_to_link> <path_to_source_directory>
+
+# Create a hard link to a file
+mklink /h <path_to_link> <path_to_source_file>
+
+# Create a directory junction
+mklink /j <path_to_link> <path_to_source_file>

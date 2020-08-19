@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/swift.md
+
+% swift, common
+
+# Invoke the interactive interpreter (REPL)
+swift
+
+# Execute a program
+swift <file_swift>
+
+# Start a new project with the package manager
+swift package init
+
+# Generate an Xcode project file
+swift package generate-xcodeproj
+
+# Update dependencies
+swift package update
+
+# Compile project for release
+swift build -c release

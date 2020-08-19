@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/atq.md
+
+% atq, common
+
+# Show the current user's scheduled jobs
+atq
+
+# Show jobs from queue named 'a' (queues have single-character names)
+atq -q <a>
+
+# Show jobs of all users (run as super user)
+sudo atq

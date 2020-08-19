@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/fc.md
+
+% fc, windows
+
+# Compare 2 specified files
+fc <path_to_file_1> <path_to_file_2>
+
+# Perform a case-insensitive comparison
+fc /c <path_to_file_1> <path_to_file_2>
+
+# Compare files as Unicode text
+fc /u <path_to_file_1> <path_to_file_2>
+
+# Compare files as ASCII text
+fc /l <path_to_file_1> <path_to_file_2>
+
+# Compare files as binary
+fc /b <path_to_file_1> <path_to_file_2>
+
+# Disable tab-to-space expansion
+fc /t <path_to_file_1> <path_to_file_2>
+
+# Compress whitespace (tabs and spaces) for comparisons
+fc /w <path_to_file_1> <path_to_file_2>

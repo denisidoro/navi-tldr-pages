@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/path.md
+
+% path, windows
+
+# Display the current path
+path
+
+# Set the path to one or more semicolon-separated directories
+path <path_to_directory_s_>
+
+# Append a new directory to the original path
+path <path_to_directory>;%path%
+
+# Set command prompt to only search the current directory for executables
+path ;

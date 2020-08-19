@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/firefox.md
+
+% firefox, common
+
+# Launch Firefox and open a web page
+firefox <https___www_duckduckgo_com>
+
+# Open a new window
+firefox --new-window <https___www_duckduckgo_com>
+
+# Open a private (incognito) window
+firefox --private-window
+
+# Search for "wikipedia" using the default search engine
+firefox --search "<wikipedia>"
+
+# Launch Firefox in safe mode, with all extensions disabled
+firefox --safe-mode
+
+# Take a screenshot of a web page in headless mode
+firefox --headless --screenshot <path_to_output_file_png> <https___example_com_>
+
+# Use a specific profile to allow multiple separate instances of Firefox to run at once
+firefox --profile <path_to_directory> <https___example_com_>
+
+# Set Firefox as the default browser
+firefox --setDefaultBrowser

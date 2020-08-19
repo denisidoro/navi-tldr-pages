@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ssh-copy-id.md
+
+% ssh-copy-id, common
+
+# Copy your keys to the remote machine
+ssh-copy-id <username_remote_host>
+
+# Copy the given public key to the remote
+ssh-copy-id -i <path_to_certificate> <username>@<remote_host>
+
+# Copy the given public key to the remote with specific port
+ssh-copy-id -i <path_to_certificate> -p <port> <username>@<remote_host>

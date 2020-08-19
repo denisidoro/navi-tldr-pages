@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/renice.md
+
+% renice, common
+
+# Change priority of a running process
+renice -n <niceness_value> -p <pid>
+
+# Change priority of all processes owned by a user
+renice -n <niceness_value> -u <user>
+
+# Change priority of all processes that belong to a process group
+renice -n <niceness_value> --pgrp <process_group>

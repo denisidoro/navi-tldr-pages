@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fd.md
+
+% fd, common
+
+# Find files matching the given pattern in the current directory
+fd <pattern>
+
+# Find files that begin with "foo"
+fd <__foo_>
+
+# Find files with a specific extension
+fd --extension <txt>
+
+# Find files in a specific directory
+fd <pattern> <path_to_dir>
+
+# Include ignored and hidden files in the search
+fd --hidden --no-ignore <pattern>

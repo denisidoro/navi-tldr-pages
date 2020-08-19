@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/realpath.md
+
+% realpath, common
+
+# Display the absolute path for a file or directory
+realpath <path_to_file_or_directory>
+
+# Require all path components to exist
+realpath --canonicalize-existing <path_to_file_or_directory>
+
+# Resolve ".." components before symlinks
+realpath --logical <path_to_file_or_directory>
+
+# Disable symlink expansion
+realpath --no-symlinks <path_to_file_or_directory>
+
+# Suppress error messages
+realpath --quiet <path_to_file_or_directory>

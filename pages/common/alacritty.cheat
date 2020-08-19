@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/alacritty.md
+
+% alacritty, common
+
+# Open a new alacritty window
+alacritty
+
+# Run in a specific directory
+alacritty --working-directory <path_to_directory>
+
+# Run a command in a new alacritty window
+alacritty -e <command>
+
+# Specify alternative configuration file (defaults to $XDG_CONFIG_HOME/alacritty/alacritty.yml)
+alacritty --config-file <path_to_config_yml>
+
+# Run with live config reload enabled (can also be enabled by default in alacritty.yml)
+alacritty --live-config-reload --config-file <path_to_config_yml>

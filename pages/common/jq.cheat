@@ -1,0 +1,31 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jq.md
+
+% jq, common
+
+# Output a JSON file, in pretty-print format
+jq . <file_json>
+
+# Output all elements from arrays (or all key-value pairs from objects) in a JSON file
+jq '.[]' <file_json>
+
+# Read JSON objects from a file into an array, and output it (inverse of `jq .[]`)
+jq --slurp . <file_json>
+
+# Output the first element in a JSON file
+jq '.[0]' <file_json>
+
+# Output the value of a given key of the first element in a JSON text from `stdin`
+cat <file_json> | jq '.[0].<key_name>'
+
+# Output the value of a given key of each element in a JSON text from `stdin`
+cat <file_json> | jq 'map(.<key_name>)'
+
+# Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name` and `other_key_name`)
+cat <file_json> | jq '<_my_new_key>: .<key_name>, <my_other_key>: .<other_key_name>}'
+
+# Combine multiple filters
+cat <file_json> | jq 'unique | sort | reverse'
+
+# Output the value of a given key to a string (and disable JSON output)
+cat <file_json> | jq --raw-output '"some text: \(.<key_name>)"'

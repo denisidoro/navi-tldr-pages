@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/packer.md
+
+% packer, common
+
+# Build an image
+packer build <path_to_config_json>
+
+# Check the syntax of a Packer image config
+packer validate <path_to_config_json>

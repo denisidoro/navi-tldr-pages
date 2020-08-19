@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/source.md
+
+% source, common
+
+# Evaluate contents of a given file
+source <path_to_file>

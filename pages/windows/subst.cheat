@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/subst.md
+
+% subst, windows
+
+# List active associations
+subst
+
+# Add an association
+subst <Z_> {{C:\Python2.7}}
+
+# Remove an association
+subst <Z_> /d

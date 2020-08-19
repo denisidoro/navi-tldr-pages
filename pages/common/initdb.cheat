@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/initdb.md
+
+% initdb, common
+
+# Create a database at /usr/local/var/postgres
+initdb -D /usr/local/var/postgres

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hr.md
+
+% hr, common
+
+# Print a horizontal rule
+hr
+
+# Print a horizontal rule with a custom string
+hr <string>
+
+# Print a multiline horizontal rule
+hr <string_a> <string_b> <string_c>

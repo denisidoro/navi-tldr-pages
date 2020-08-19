@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/docker-images.md
+
+% docker-images, common
+
+# List all Docker images
+docker images
+
+# List all Docker images including intermediates
+docker images -a
+
+# List the output in quiet mode (only numeric IDs)
+docker images -q
+
+# List all Docker images not used by any container
+docker images --filter dangling=true

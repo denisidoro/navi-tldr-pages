@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ddrescue.md
+
+% ddrescue, linux
+
+# Take an image of a device, creating a log file
+sudo ddrescue <_dev_sdb> <path_to_image_dd> <path_to_log_txt>
+
+# Clone Disk A to Disk B, creating a log file
+sudo ddrescue --force --no-scrape <_dev_sda> <_dev_sdb> <path_to_log_txt>

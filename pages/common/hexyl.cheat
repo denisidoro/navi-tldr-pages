@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hexyl.md
+
+% hexyl, common
+
+# Print the hexadecimal representation of a file
+hexyl <path_to_file>
+
+# Print the hexadecimal representation of the first n bytes of a file
+hexyl -n <n> <path_to_file>
+
+# Print bytes 512 through 1024 of a file
+hexyl -r <512>:<1024> <path_to_file>
+
+# Print 512 bytes starting at the 1024th byte
+hexyl -r <1024>:+<512> <path_to_file>

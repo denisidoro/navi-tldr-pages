@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/inotify-wait.md
+
+% inotify-wait, linux
+
+# Run a command when a file changes
+while inotifywait <path_to_file>; do <command>; done
+
+# Be quiet about watching for changes
+while inotifywait --quiet <path_to_file>; do <command>; done
+
+# Watch a directory recursively for changes
+while inotifywait --recursive <path_to_directory>; do <command>; done
+
+# Exclude files matching a regular expression
+while inotifywait --recursive <path_to_directory> --exlude '<regex>'; do <command>; done
+
+# Wait at most 30 seconds
+while inotifywait --timeout <30> <path_to_file>; do <command>; done
+
+# Only watch for file modification events
+while inotifywait --event <modify> <path_to_file>; do <command>; done

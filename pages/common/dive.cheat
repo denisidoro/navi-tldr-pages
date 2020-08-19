@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dive.md
+
+% dive, common
+
+# Analyze a Docker image
+dive <your_image_tag>
+
+# Build an image and start analyzing it
+dive build -t <some_tag>

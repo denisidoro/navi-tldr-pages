@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/tree.md
+
+% tree, windows
+
+# Display the tree for the current directory
+tree
+
+# Display the tree for a specific directory
+tree <path_to_directory>
+
+# Display the tree for a directory including files
+tree <path_to_directory> /f
+
+# Display the tree using ASCII characters instead of extended characters
+tree <path_to_directory> /a

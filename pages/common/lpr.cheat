@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lpr.md
+
+% lpr, common
+
+# Print a file to the default printer
+lpr <path_to_file>
+
+# Print 2 copies
+lpr -# <2> <path_to_file>
+
+# Print to a named printer
+lpr -P <printer> <path_to_file>
+
+# Print double sided in portrait
+lpr -o sides=<two_sided_long_edge> <path_to_file>
+
+# Print double sided in landscape
+lpr -o sides=<two_sided_short_edge> <path_to_file>
+
+# Set page size (more options may be available depending on setup)
+lpr -o media=<a4_letter_legal> <path_to_file>
+
+# Print multiple pages per sheet
+lpr -o number-up=<2_4_6_9_16> <path_to_file>

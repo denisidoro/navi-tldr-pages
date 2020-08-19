@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/locust.md
+
+% locust, common
+
+# Load-test "example.com" with web interface using locustfile.py
+locust --host=<http___example_com>
+
+# Use a different test file
+locust --locustfile=<test_file_py> --host=<http___example_com>
+
+# Run test without web interface, spawning 1 user a second until there are 100 users
+locust --no-web --clients=<100> --hatch-rate=<1> --host=<http___example_com>
+
+# Start locust in master mode
+locust --master --host=<http___example_com>
+
+# Connect locust slave to master
+locust --slave --host=<http___example_com>
+
+# Connect locust slave to master on a different machine
+locust --slave --master-host=<master_hostname> --host=<http___example_com>

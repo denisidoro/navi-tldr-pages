@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/test.md
+
+% test, common
+
+# Test if given variable is equal to given string
+test $MY_VAR == '/bin/zsh'
+
+# Test if given variable is empty
+test -z $GIT_BRANCH
+
+# Test if file exists
+test -e <filename>
+
+# Test if directory not exists
+test ! -d <path_to_directory>
+
+# If-else statement
+test <condition> && echo "true" || echo "false"

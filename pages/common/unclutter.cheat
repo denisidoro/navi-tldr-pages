@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/unclutter.md
+
+% unclutter, common
+
+# Hide mouse cursor after 3 seconds
+unclutter -idle <3>

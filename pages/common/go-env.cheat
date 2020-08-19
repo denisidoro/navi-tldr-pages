@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/go-env.md
+
+% go-env, common
+
+# Show all environment variables
+go env
+
+# Show a specific environment variable
+go env <GOPATH>
+
+# Set an environment variable to a value
+go env -w <GOBIN>=<path_to_directory>
+
+# Reset an environment variable's value
+go env -u <GOBIN>

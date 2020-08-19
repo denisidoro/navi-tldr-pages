@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fg.md
+
+% fg, common
+
+# Bring most recently suspended background job to foreground
+fg
+
+# Bring a specific job to foreground
+fg <job_id>

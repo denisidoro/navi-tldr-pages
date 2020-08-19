@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kaggle.md
+
+% kaggle, common
+
+# View current configuration values
+kaggle config view
+
+# Download a specific file from a competition dataset
+kaggle competitions download <competition> -f <filename>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/reg-unload.md
+
+% reg-unload, windows
+
+# Remove data from the registry for a specified key
+reg unload <key_name>

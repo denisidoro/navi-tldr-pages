@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/go-list.md
+
+% go-list, common
+
+# List packages
+go list ./...
+
+# List standard packages
+go list std
+
+# List packages in json format
+go list -json time net/http
+
+# List module dependencies and available updates
+go list -m -u all

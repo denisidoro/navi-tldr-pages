@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kotlin.md
+
+% kotlin, common
+
+# Run a jar file
+kotlin <filename_jar>
+
+# Display Kotlin and JVM version
+kotlin -version

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/phar.md
+
+% phar, linux
+
+# Add space-separated files or directories to a Phar file
+phar add -f <path_to_phar_file> <files_or_directories>
+
+# Display the contents of a Phar file
+phar list -f <path_to_phar_file>
+
+# Delete the specified file or directory from a Phar file
+phar delete -f <path_to_phar_file> -e <file_or_directory>
+
+# Display full usage information and available hashing/compression algorithms
+phar help
+
+# Compress or uncompress files and directories in a Phar file
+phar compress -f <path_to_phar_file> -c <algorithm>
+
+# Get information about a Phar file
+phar info -f <path_to_phar_file>
+
+# Sign a Phar file with a specific hash algorithm
+phar sign -f <path_to_phar_file> -h <algorithm>
+
+# Sign a Phar file with an OpenSSL private key
+phar sign -f <path_to_phar_file> -h openssl -y <path_to_private_key>

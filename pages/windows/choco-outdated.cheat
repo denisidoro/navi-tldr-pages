@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/choco-outdated.md
+
+% choco-outdated, windows
+
+# Display a list of outdated packages in table format
+choco outdated
+
+# Ignore pinned packages in the output
+choco outdated --ignore-pinned
+
+# Specify a custom source to check packages from
+choco outdated --source <source_url_alias>
+
+# Provide a username and password for authentication
+choco outdated --user <username> --password <password>

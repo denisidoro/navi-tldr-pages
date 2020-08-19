@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lz4.md
+
+% lz4, common
+
+# Compress a file
+lz4 <file>
+
+# Decompress a file
+lz4 -d <file_lz4>
+
+# Decompress a file and write to `stdout`
+lz4 -dc <file_lz4>
+
+# Package and compress a directory and its contents
+tar cvf - <path_to_dir> | lz4 - <dir_tar_lz4>
+
+# Decompress and unpack a directory and its contents
+lz4 -d <dir_tar_lz4> | tar -xv
+
+# Compress a file using the best compression
+lz4 -9 <file>

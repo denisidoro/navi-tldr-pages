@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/chcpu.md
+
+% chcpu, linux
+
+# Disable CPUs via a list of CPU ID numbers
+chcpu -d <1_3>
+
+# Enable a set of CPUs via a range of CPU ID numbers
+chcpu -e <1_10>

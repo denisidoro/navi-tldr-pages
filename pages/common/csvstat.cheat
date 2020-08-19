@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvstat.md
+
+% csvstat, common
+
+# Show all stats for all columns
+csvstat <data_csv>
+
+# Show all stats for columns 2 and 4
+csvstat -c <2_4> <data_csv>
+
+# Show sums for all columns
+csvstat --sum <data_csv>
+
+# Show the max value length for column 3
+csvstat -c <3> --len <data_csv>
+
+# Show the number of unique values in the "name" column
+csvstat -c <name> --unique <data_csv>

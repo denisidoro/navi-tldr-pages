@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mlr.md
+
+% mlr, common
+
+# Pretty-print a CSV file in a tabular format
+mlr --icsv --opprint cat <example_csv>
+
+# Receive JSON data and pretty print the output
+echo '{"hello":"world"}' | mlr --ijson --opprint cat
+
+# Sort alphabetically on a field
+mlr --icsv --opprint sort -f <field> <example_csv>
+
+# Sort in descending numerical order on a field
+mlr --icsv --opprint sort -nr <field> <example_csv>
+
+# Convert CSV to JSON, performing calculations and display those calculations
+mlr --icsv --ojson put '$<newField1> = $<oldFieldA>/$<oldFieldB>' <example_csv>
+
+# Receive JSON and format the output as vertical JSON
+echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat
+
+# Filter lines of a compressed CSV file treating numbers as strings
+mlr --prepipe 'gunzip' --csv filter -S '$<fieldName> =~ "<regexp>"' <example_csv_gz>

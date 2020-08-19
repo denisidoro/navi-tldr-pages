@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fatlabel.md
+
+% fatlabel, linux
+
+# Get the label of a FAT32 partition
+fatlabel <_dev_sda1>
+
+# Set the label of a FAT32 partition
+fatlabel <_dev_sdc3> "<new_label>"

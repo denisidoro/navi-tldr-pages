@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/at.md
+
+% at, common
+
+# Execute commands from standard input in 5 minutes (press `Ctrl + D` when done)
+at now + 5 minutes
+
+# Execute a command from standard input at 10:00 AM today
+echo "<__make_db_backup_sh>" | at 1000
+
+# Execute commands from a given file next Tuesday
+at -f <path_to_file> 9:30 PM Tue

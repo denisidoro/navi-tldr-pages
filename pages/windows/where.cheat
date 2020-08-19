@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/where.md
+
+% where, windows
+
+# Display the location of file pattern
+where <file_pattern>
+
+# Display the location of file pattern including file size and date
+where /T <file_pattern>
+
+# Recursively search for file pattern at specified path
+where /R <path_to_directory> <file_pattern>
+
+# Display only the error code for the location of file pattern
+where /Q <file_pattern>

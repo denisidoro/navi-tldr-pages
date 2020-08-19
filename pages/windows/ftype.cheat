@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/ftype.md
+
+% ftype, windows
+
+# Display a list of all file types
+ftype
+
+# Display the associated program for a specific file type
+ftype <file_type>
+
+# Set the associated program for a specific file type
+ftype <file_type>="<path_to_executable_command>"

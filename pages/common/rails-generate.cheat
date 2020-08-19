@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rails-generate.md
+
+% rails-generate, common
+
+# List all available generators
+rails generate
+
+# Generate a new model named Post with attributes title and body
+rails generate model <Post> <title_string> <body_text>
+
+# Generate a new controller named Posts with actions index, show, new and create
+rails generate controller <Posts> <index> <show> <new> <create>
+
+# Generate a new migration that adds a category attribute to an existing model called Post
+rails generate migration <AddCategoryToPost> <category_string>
+
+# Generate a scaffold for a model named Post, predefining the attributes title and body
+rails generate scaffold <Post> <title_string> <body_text>

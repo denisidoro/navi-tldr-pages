@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nproc.md
+
+% nproc, common
+
+# Display the number of available processing units
+nproc
+
+# Display the number of installed processing units, including any inactive ones
+nproc --all
+
+# If possible, subtract a given number of units from the returned value
+nproc --ignore <count>

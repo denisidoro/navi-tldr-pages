@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkfs.cramfs.md
+
+% mkfs.cramfs, linux
+
+# Create a ROM filesystem inside partition 1 on device b (`sdb1`)
+mkfs.cramfs <_dev_sdb1>
+
+# Create a ROM filesystem with a volume-name
+mkfs.cramfs -n <volume_name> <_dev_sdb1>

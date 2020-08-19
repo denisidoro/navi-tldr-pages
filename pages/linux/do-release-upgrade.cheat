@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/do-release-upgrade.md
+
+% do-release-upgrade, linux
+
+# Upgrade to the latest release
+sudo do-release-upgrade
+
+# Upgrade to the latest development release
+sudo do-release-upgrade --devel-release
+
+# Upgrade to the latest proposed release
+sudo do-release-upgrade --proposed

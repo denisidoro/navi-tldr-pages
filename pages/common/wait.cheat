@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wait.md
+
+% wait, common
+
+# Wait for a process to finish given its process ID (PID) and return its exit status
+wait <pid>
+
+# Wait for all processes known to the invoking shell to finish
+wait

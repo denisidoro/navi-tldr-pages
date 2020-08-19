@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-check.md
+
+% npm-check, common
+
+# Display a report of outdated, incorrect, and unused dependencies
+npm-check
+
+# Interactively update out-of-date packages
+npm-check --update
+
+# Update everything without prompting
+npm-check --update-all
+
+# Don't check for unused packages
+npm-check --skip-unused

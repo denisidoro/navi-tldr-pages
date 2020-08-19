@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mongod.md
+
+% mongod, common
+
+# Specify a config file
+mongod --config <filename>
+
+# Specify the port to listen on
+mongod --port <port>
+
+# Specify database profiling level. 0 is off, 1 is only slow operations, 2 is all
+mongod --profile <0_1_2>

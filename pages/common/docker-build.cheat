@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/docker-build.md
+
+% docker-build, common
+
+# Build a docker image using the Dockerfile in the current directory
+docker build .
+
+# Build a docker image from a Dockerfile at a specified URL
+docker build <github_com_creack_docker_firefox>
+
+# Build a docker image and tag it
+docker build --tag <name_tag> .
+
+# Do not use the cache when building the image
+docker build --no-cache --tag <name_tag> .
+
+# Build a docker image using a specific Dockerfile
+docker build --file <Dockerfile> .
+
+# Build with custom build-time variables
+docker build --build-arg <HTTP_PROXY_http___10_20_30_2_1234> --build-arg <FTP_PROXY_http___40_50_60_5_4567> .

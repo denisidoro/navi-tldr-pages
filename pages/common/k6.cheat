@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/k6.md
+
+% k6, common
+
+# Run load test locally
+k6 run <script_js>
+
+# Run load test locally with a given number of virtual users and duration
+k6 run --vus <10> --duration <30s> <script_js>
+
+# Run load test locally with a given environment variable
+k6 run -e <HOSTNAME_example_com> <script_js>
+
+# Run load test locally using InfluxDB to store results
+k6 run --out influxdb=<http___localhost_8086_k6db> <script_js>
+
+# Login to cloud service using secret token
+k6 login cloud --token <secret>
+
+# Run load test on cloud infrastructure
+k6 cloud <script_js>

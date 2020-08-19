@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ffprobe.md
+
+% ffprobe, common
+
+# Display all available stream info for a media file
+ffprobe -v error -show_entries <input_mp4>
+
+# Display media duration
+ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 <input_mp4>
+
+# Display the frame rate of a video
+ffprobe -v error -select_streams v:0 -show_entries stream=avg_frame_rate -of default=noprint_wrappers=1:nokey=1 <input_mp4>
+
+# Display the width or height of a video
+ffprobe -v error -select_streams v:0 -show_entries stream=<width_height> -of default=noprint_wrappers=1:nokey=1 <input_mp4>
+
+# Display the average bit rate of a video
+ffprobe -v error -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 <input_mp4>

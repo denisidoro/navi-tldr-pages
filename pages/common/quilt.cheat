@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/quilt.md
+
+% quilt, common
+
+# Import an existing patch from a file
+quilt import <path_to_filename_patch>
+
+# Create a new patch
+quilt new <filename_patch>
+
+# Add a file to the current patch
+quilt add <path_to_file>
+
+# After editing the file, refresh the current patch with the changes
+quilt refresh
+
+# Apply all the patches in the series file
+quilt push -a
+
+# Remove all applied patches
+quilt pop -a

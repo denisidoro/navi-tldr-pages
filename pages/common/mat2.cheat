@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mat2.md
+
+% mat2, common
+
+# List supported file formats
+mat2 --list
+
+# Remove metadata from a file
+mat2 <path_to_file>
+
+# Remove metadata from a file and print detailed output to the console
+mat2 --verbose <path_to_file>
+
+# Show metadata in a file without removing it
+mat2 --show <path_to_file>
+
+# Partially remove metadata from a file
+mat2 --lightweight <path_to_file>

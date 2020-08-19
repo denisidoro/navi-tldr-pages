@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fuser.md
+
+% fuser, linux
+
+# Find which processes are accessing a file or directory
+fuser <path_to_file_or_directory>
+
+# Show more fields (`USER`, `PID`, `ACCESS` and `COMMAND`)
+fuser --verbose <path_to_file_or_directory>
+
+# Identify processes using a TCP socket
+fuser --namespace tcp <port>
+
+# Kill all processes accessing a file or directory (sends the `SIGKILL` signal)
+fuser --kill <path_to_file_or_directory>
+
+# Find which processes are accessing the filesystem containing a specific file or directory
+fuser --mount <path_to_file_or_directory>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fdisk.md
+
+% fdisk, linux
+
+# List partitions
+fdisk -l
+
+# Start the partition manipulator
+fdisk <_dev_sda>

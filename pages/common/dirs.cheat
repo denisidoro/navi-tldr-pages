@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dirs.md
+
+% dirs, common
+
+# Display the directory stack with a space between each entry
+dirs
+
+# Display the directory stack with one entry per line
+dirs -p
+
+# Display only the nth entry in the directory stack, starting at 0
+dirs +<N>
+
+# Clear the directory stack
+dirs -c

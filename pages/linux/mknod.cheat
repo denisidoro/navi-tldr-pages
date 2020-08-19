@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mknod.md
+
+% mknod, linux
+
+# Create a block device
+sudo mknod <path_to_device_file> b <major_device_number> <minor_device_number>
+
+# Create a character device
+sudo mknod <path_to_device_file> c <major_device_number> <minor_device_number>
+
+# Create a FIFO (queue) device
+sudo mknod <path_to_device_file> p
+
+# Create a device file with default SELinux security context
+sudo mknod -Z <path_to_device_file> <type> <major_device_number> <minor_device_number>

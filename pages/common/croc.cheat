@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/croc.md
+
+% croc, common
+
+# Send a file or folder
+croc send <path_to_file>
+
+# Send a file or folder with a specific passphrase
+croc send --code <passphrase> <path_to_file>
+
+# Receive a file or folder on receiving machine
+croc <passphrase>
+
+# Send and connect over a custom relay
+croc --relay <ip_to_relay> send <path_to_file>
+
+# Receive and connect over a custom relay
+croc --relay <ip_to_relay> <passphrase>
+
+# Host a croc relay on the default ports
+croc relay
+
+# Display paramenters and options for a croc command
+croc <send_relay> --help

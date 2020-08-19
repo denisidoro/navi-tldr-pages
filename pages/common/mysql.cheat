@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mysql.md
+
+% mysql, common
+
+# Connect to a database
+mysql <database_name>
+
+# Connect to a database, user will be prompted for a password
+mysql -u <user> --password <database_name>
+
+# Connect to a database on another host
+mysql -h <database_host> <database_name>
+
+# Connect to a database through a Unix socket
+mysql --socket <path_to_socket_sock>
+
+# Execute SQL statements in a script file (batch file)
+mysql -e "source <filename_sql>" <database_name>
+
+# Restore a database from a backup created with `mysqldump` (user will be prompted for a password)
+mysql --user <user> --password <database_name> < <path_to_backup_sql>
+
+# Restore all databases from a backup (user will be prompted for a password)
+mysql --user <user> --password < <path_to_backup_sql>

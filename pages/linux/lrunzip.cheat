@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lrunzip.md
+
+% lrunzip, linux
+
+# Decompress a file
+lrunzip <filename_lrz>
+
+# Decompress a file using a specific number of processor threads
+lrunzip -p <8> <filename_lrz>
+
+# Decompress a file and silently overwrite files if they exist
+lrunzip -f <filename_lrz>
+
+# Keep broken or damaged files instead of deleting them when decompressing
+lrunzip -K <filename_lrz>
+
+# Specify output file name and/or path
+lrunzip -o <outfilename> <filename_lrz>

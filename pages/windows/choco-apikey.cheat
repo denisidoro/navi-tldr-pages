@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/choco-apikey.md
+
+% choco-apikey, windows
+
+# Display a list of sources and their API keys
+choco apikey
+
+# Display a specific source and its API key
+choco apikey --source "<source_url>"
+
+# Set an API key for a source
+choco apikey --source "<source_url>" --key "<api_key>"
+
+# Remove an API key for a source
+choco apikey --source "<source_url>" --remove

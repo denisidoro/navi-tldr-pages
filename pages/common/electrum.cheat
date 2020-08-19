@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/electrum.md
+
+% electrum, common
+
+# Create a new wallet
+electrum -w <new_wallet_dat> create
+
+# Restore an existing wallet from seed offline
+electrum -w <recovery_wallet_dat> restore -o
+
+# Create a signed transaction offline
+electrum mktx <recipient> <amount> -f 0.0000001 -F <from> -o
+
+# Display all wallet receiving addresses
+electrum listaddresses -a
+
+# Sign a message
+electrum signmessage <address> <message>
+
+# Verify a message
+electrum verifymessage <address> <signature> <message>
+
+# Connect only to a specific electrum-server instance
+electrum -p socks5:<127_0_0_1>:9050 -s <56ckl5obj37gypcu_onion>:50001:t -1

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/groupadd.md
+
+% groupadd, linux
+
+# Create a new Linux group
+groupadd <group_name>
+
+# Create new group with a specific groupid
+groupadd <group_name> -g <group_id>

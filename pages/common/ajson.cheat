@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ajson.md
+
+% ajson, common
+
+# Read JSON from a file and execute a specified JSONPath expression
+ajson '{{$..json[?(@.path)]}}' <path_to_file_json>
+
+# Read JSON from stdin and execute a specified JSONPath expression
+cat <path_to_file_json> | ajson '{{$..json[?(@.path)]}}'
+
+# Read JSON from a URL and evaluate a specified JSONPath expression
+ajson '<avg____price_>' '<https___example_com_api_>'
+
+# Read some simple JSON and calculate a value
+echo '<3>' | ajson '{{2 * pi * $}}'

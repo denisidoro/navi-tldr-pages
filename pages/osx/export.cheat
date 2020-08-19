@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/export.md
+
+% export, osx
+
+# Set a new environment variable
+export <VARIABLE>=<value>
+
+# Remove an environment variable
+export -n <VARIABLE>
+
+# Append something to the PATH variable
+export PATH=$PATH:<path_to_append>

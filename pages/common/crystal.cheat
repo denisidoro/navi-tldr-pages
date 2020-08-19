@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crystal.md
+
+% crystal, common
+
+# Run a Crystal file
+crystal <path_to_file_cr>
+
+# Compile a file and all dependencies to a single executable
+crystal build <path_to_file_cr>
+
+# Start a local interactive server for testing the language
+crystal play
+
+# Create a project directory for a Crystal application
+crystal init app <application_name>
+
+# Display all help options
+crystal help

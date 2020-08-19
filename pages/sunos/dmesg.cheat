@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/sunos/dmesg.md
+
+% dmesg, sunos
+
+# Show kernel messages
+dmesg
+
+# Show how much physical memory is available on this system
+dmesg | grep -i memory
+
+# Show kernel messages 1 page at a time
+dmesg | less

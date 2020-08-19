@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mssh.md
+
+% mssh, linux
+
+# Open a new window and connect to multiple SSH servers
+mssh <user_host1> <user_host2> <___>
+
+# Open a new window and connect to a group of servers predefined in `~/.mssh_clusters`
+mssh --alias <alias_name>

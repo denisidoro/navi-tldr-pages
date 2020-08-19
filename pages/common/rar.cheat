@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rar.md
+
+% rar, common
+
+# Archive 1 or more files
+rar a <path_to_archive_name_rar> <path_to_file1> <path_to_file2> <path_to_file3>
+
+# Archive a directory
+rar a <path_to_archive_name_rar> <path_to_directory>
+
+# Split the archive into parts of equal size (50M)
+rar a -v<50M> -R <path_to_archive_name_rar> <path_to_file_or_directory>
+
+# Password protect the resulting archive
+rar a -p<password> <path_to_archive_name_rar> <path_to_file_or_directory>
+
+# Encrypt file data and headers with password
+rar a -hp<password> <path_to_archive_name_rar> <path_to_file_or_directory>
+
+# Use a specific compression level (0-5)
+rar a -m<compression_level> <path_to_archive_name_rar> <path_to_file_or_directory>

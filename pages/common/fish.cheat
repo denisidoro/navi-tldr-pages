@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fish.md
+
+% fish, common
+
+# Start interactive shell
+fish
+
+# Execute a command
+fish -c "<command>"
+
+# Run commands from a file
+fish <file_fish>
+
+# Check a file for syntax errors
+fish --no-execute <file_fish>
+
+# Display version information and exit
+fish --version
+
+# Set and export environmental variables that persist across restarts
+set -Ux <variable_name> <variable_value>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sphinx-build.md
+
+% sphinx-build, common
+
+# Build documentation
+sphinx-build -b <html_epub_text_latex_man____> <path_to_source_dir> <path_to_build_dir>
+
+# Build documentations intended for readthedocs.io (requires the sphinx-rtd-theme pip package)
+sphinx-build -b <html> <path_to_docs_dir> <path_to_build_dir>

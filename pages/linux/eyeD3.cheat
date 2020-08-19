@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/eyeD3.md
+
+% eyeD3, linux
+
+# View information about an MP3 file
+eyeD3 <filename_mp3>
+
+# Set the title of an MP3 file
+eyeD3 --title {{"A Title"}} <filename_mp3>
+
+# Set the album of all the MP3 files in a directory
+eyeD3 --album {{"Album Name"}} {{*.mp3}}
+
+# Set the front cover art for an MP3 file
+eyeD3 --add-image <front_cover_jpeg>:FRONT_COVER: <filename_mp3>

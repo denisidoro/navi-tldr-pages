@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mesg.md
+
+% mesg, common
+
+# Check terminal's openness to write messages
+mesg
+
+# Disable receiving messages from the write command
+mesg n
+
+# Enable receiving messages from the write command
+mesg y

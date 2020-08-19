@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/borg.md
+
+% borg, common
+
+# Initialise a (local) repository
+borg init <_path_to_repo_directory>
+
+# Backup a directory into the repository, creating an archive called "Monday"
+borg create --progress <_path_to_repo_directory>::<Monday> <_path_to_source_directory>
+
+# List all archives in a repository
+borg list <_path_to_repo_directory>
+
+# Extract a specific directory from the "Monday" archive in a remote repository, excluding all *.ext files
+borg extract <user>@<host>:<_path_to_repo_directory>::<Monday> <path_to_target_directory> --exclude '{{*.ext}}'
+
+# Prune a repository by deleting all archives older than 7 days, listing changes
+borg prune --keep-within <7d> --list <_path_to_repo_directory>
+
+# Mount a repository as a FUSE filesystem
+borg mount <_path_to_repo_directory>::<Monday> <_path_to_mountpoint>
+
+# Display help on creating archives
+borg create --help

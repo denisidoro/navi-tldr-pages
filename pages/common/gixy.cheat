@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gixy.md
+
+% gixy, common
+
+# Analyze nginx configuration (default path: /etc/nginx/nginx.conf)
+gixy
+
+# Analyze nginx configuration but skip specific tests
+gixy --skips <http_splitting>
+
+# Analyze nginx configuration with the specific severity level
+gixy <_l__ll__lll>
+
+# Analyze nginx configuration files on the specific path
+gixy <path_to_configuration_file_1> <path_to_configuration_file_2>

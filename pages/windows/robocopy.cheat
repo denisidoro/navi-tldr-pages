@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/robocopy.md
+
+% robocopy, windows
+
+# Copy all .jpg and .bmp files from one directory to another
+robocopy <path_to_source> <path_to_destination> {{*.jpg}} {{*.bmp}}
+
+# Copy all files and subdirectories, including empty ones
+robocopy <path_to_source> <path_to_destination> /E
+
+# Mirror/Sync a directory, deleting anything not in source and include all attributes and permissions
+robocopy <path_to_source> <path_to_destination> /MIR /COPYALL
+
+# Copy all files and subdirectories, excluding source files that are older than destination files
+robocopy <path_to_source> <path_to_destination> /E /XO
+
+# List all files 50 MBytes or larger in size instead of copying them
+robocopy <path_to_source> <path_to_destination> /MIN:52428800 /L
+
+# Allow resuming if network connection is lost and limit retries to 5 and wait time to 15 sec
+robocopy <path_to_source> <path_to_destination> /Z /R:5 /W:15
+
+# Display detailed usage information
+robocopy /?

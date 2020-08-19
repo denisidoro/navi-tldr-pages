@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/uvicorn.md
+
+% uvicorn, common
+
+# Run Python web app
+uvicorn <import_path_app_object>
+
+# Listen on port 8080 on localhost
+uvicorn --host <localhost> --port <8080> <import_path_app_object>
+
+# Turn on live reload
+uvicorn --reload <import_path_app_object>
+
+# Use 4 worker processes for handling requests
+uvicorn --workers <4> <import_path_app_object>
+
+# Run app over HTTPS
+uvicorn --ssl-certfile <cert_pem> --ssl-keyfile <key_pem> <import_path_app_object>

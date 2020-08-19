@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pyenv-virtualenv.md
+
+% pyenv-virtualenv, common
+
+# Create a new Python 3.6.6 virtual environment
+pyenv virtualenv <3_6_6> <virtualenv_name>
+
+# List all existing virtual environments
+pyenv virtualenvs
+
+# Activate a virtual environment
+pyenv activate <virtualenv_name>
+
+# Deactivate the virtual environment
+pyenv deactivate

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/umask.md
+
+% umask, common
+
+# Display the current mask in octal notation
+umask
+
+# Display the current mask in symbolic (human-readable) mode
+umask -S
+
+# Change the mask symbolically to allow read permission for all users (the rest of the mask bits are unchanged)
+umask <a_r>
+
+# Set the mask (using octal) to restrict no permissions for the file's owner, and restrict all permissions for everyone else
+umask <077>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/odps-resource.md
+
+% odps-resource, common
+
+# Show resources in the current project
+list resources;
+
+# Add file resource
+add file <filename> as <alias>;
+
+# Add archive resource
+add archive <archive_tar_gz> as <alias>;
+
+# Add .jar resource
+add jar <package_jar>;
+
+# Add .py resource
+add py <script_py>;
+
+# Delete resource
+drop resource <resource_name>;

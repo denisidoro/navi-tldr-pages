@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zcat.md
+
+% zcat, common
+
+# Print the uncompressed contents of a gzipped file to the standard output
+zcat <file_txt_gz>
+
+# Print compression details of a gzipped file to the standard output
+zcat -l <file_txt_gz>

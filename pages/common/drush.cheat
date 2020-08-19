@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/drush.md
+
+% drush, common
+
+# Enable module "foo"
+drush en <foo>
+
+# Uninstall module "foo"
+drush pmu <foo>
+
+# Clear all caches
+drush cr
+
+# Clear CSS and JavaScript caches
+drush cc css-js

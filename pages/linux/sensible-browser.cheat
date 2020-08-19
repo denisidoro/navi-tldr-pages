@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sensible-browser.md
+
+% sensible-browser, linux
+
+# Open a new window of the default browser
+sensible-browser
+
+# Open a url in the default browser
+sensible-browser <url>

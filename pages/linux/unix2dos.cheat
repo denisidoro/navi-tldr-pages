@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/unix2dos.md
+
+% unix2dos, linux
+
+# Change the line endings of a file
+unix2dos <filename>
+
+# Create a copy with DOS-style line endings
+unix2dos -n <filename> <new_filename>

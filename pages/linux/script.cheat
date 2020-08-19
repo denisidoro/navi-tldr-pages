@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/script.md
+
+% script, linux
+
+# Record a new session to a file named `typescript` in the current directory
+script
+
+# Record a new session to a custom filepath
+script <path_to_session_out>
+
+# Record a new session, appending to an existing file
+script -a <path_to_session_out>
+
+# Record timing information (data is outputted to the standard error)
+script -t 2> <path_to_timingfile>

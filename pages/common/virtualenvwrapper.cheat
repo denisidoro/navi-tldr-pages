@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virtualenvwrapper.md
+
+% virtualenvwrapper, common
+
+# Create a new Python `virtualenv` in `$WORKON_HOME`
+mkvirtualenv <virtualenv_name>
+
+# Create a `virtualenv` for a specific Python version
+mkvirtualenv --python <_usr_local_bin_python3_8> <virtualenv_name>
+
+# Activate or use a different `virtualenv`
+workon <virtualenv_name>
+
+# Stop the `virtualenv`
+deactivate
+
+# List all virtual environments
+lsvirtualenv
+
+# Remove a `virtualenv`
+rmvirtualenv <virtualenv_name>
+
+# Get summary of all virtualenvwrapper commands
+virtualenvwrapper

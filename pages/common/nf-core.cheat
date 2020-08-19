@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nf-core.md
+
+% nf-core, common
+
+# List existing pipelines on nf-core
+nf-core list
+
+# Create a new pipeline skeleton
+nf-core create
+
+# Lint the pipeline code
+nf-core lint <path_to_directory>
+
+# Bump software versions in pipeline recipe
+nf-core bump-version <path_to_directory> <new_version>
+
+# Launch an nf-core pipeline
+nf-core launch <pipeline_name>
+
+# Download an nf-core pipeline for offline use
+nf-core download <pipeline_name>

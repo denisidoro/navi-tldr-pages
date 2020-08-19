@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nano.md
+
+% nano, common
+
+# Open a specific file
+nano <path_to_file>
+
+# Open a file positioning the cursor at the specified line and column
+nano +<line>,<column> <path_to_file>
+
+# Enable smooth scrolling
+nano -S <filename>
+
+# Indent new lines to the previous lines' indentation
+nano -i <filename>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/micro.md
+
+% micro, common
+
+# Open a file
+micro <file>
+
+# Cut the entire line
+Ctrl + K
+
+# Search for a pattern in the file (press `Ctrl + N`/`Ctrl + P` to go to next/previous match)
+Ctrl + F "<pattern>" <Enter>
+
+# Execute a command
+Ctrl + E <command> <Enter>
+
+# Perform a substitution in the whole file
+Ctrl + E replaceall "<pattern>" "<replacement>" <Enter>
+
+# Quit
+Ctrl + Q

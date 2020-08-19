@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/stdbuf.md
+
+% stdbuf, common
+
+# Change the standard input buffer size to 512 KiB
+stdbuf --input=<512K> <command>
+
+# Change the standard output buffer to line-buffered
+stdbuf --output=<L> <command>
+
+# Change the standard error buffer to unbuffered
+stdbuf --error=<0> <command>

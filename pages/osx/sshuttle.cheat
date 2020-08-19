@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/sshuttle.md
+
+% sshuttle, osx
+
+# Forward all IPv4 TCP traffic via a remote SSH server
+sshuttle --remote=<username>@<sshserver> <0_0_0_0_0>
+
+# Forward all IPv4 TCP and DNS traffic
+sshuttle --dns --remote=<username>@<sshserver> <0_0_0_0_0>
+
+# Use the tproxy method to forward all IPv4 and IPv6 traffic
+sudo sshuttle --method=tproxy --remote=<username>@<sshserver> <0_0_0_0_0> <___0> --exclude=<your_local_ip_address> --exclude=<ssh_server_ip_address>

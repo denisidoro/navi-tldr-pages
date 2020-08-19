@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/deluge.md
+
+% deluge, common
+
+# Download a torrent
+deluge <url_magnet_path_to_file>
+
+# Download a torrent using a specific configuration file
+deluge -c <path_to_configuration_file> <url_magnet_path_to_file>
+
+# Download a torrent and launch the specified user interface
+deluge -u <gtk_web_console> <url_magnet_path_to_file>
+
+# Download a torrent and output the log to a file
+deluge -l <path_to_log_file> <url_magnet_path_to_file>

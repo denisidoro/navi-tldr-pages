@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/go-generate.md
+
+% go-generate, common
+
+# Generate Go files by running commands within source files
+go generate

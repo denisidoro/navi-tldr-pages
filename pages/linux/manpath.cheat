@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/manpath.md
+
+% manpath, linux
+
+# Display the search path used to find man pages
+manpath
+
+# Show the entire global manpath
+manpath --global

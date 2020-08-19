@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/istats.md
+
+% istats, osx
+
+# Show all the stats
+istats
+
+# Show all CPU stats
+istats cpu
+
+# Show all fan stats
+istats fan
+
+# Scan and print temperatures
+istats scan

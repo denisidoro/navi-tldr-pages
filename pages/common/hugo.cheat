@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hugo.md
+
+% hugo, common
+
+# Create a new Hugo site
+hugo new site <path_to_site>
+
+# Create a new Hugo theme (themes may also be downloaded from https://themes.gohugo.io/)
+hugo new theme <theme_name>
+
+# Create a new page
+hugo new <section_name>/<filename>
+
+# Build a site to the `./public/` directory
+hugo
+
+# Build a site including pages that are marked as a "draft"
+hugo --buildDrafts
+
+# Build a site to a given directory
+hugo --destination <path_to_destination>
+
+# Build a site, start up a webserver to serve it, and automatically reload when pages are edited
+hugo server

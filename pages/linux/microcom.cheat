@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/microcom.md
+
+% microcom, linux
+
+# Open a serial port using the specified baud rate
+microcom --port <path_to_serial_port> --speed <baud_rate>
+
+# Establish a telnet connection to the specified host
+microcom --telnet <hostname>:<port>

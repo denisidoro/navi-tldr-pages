@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rector.md
+
+% rector, common
+
+# Process a specific directory
+rector process <path_to_directory>
+
+# Process a directory without applying changes (dry run)
+rector process <path_to_directory> --dry-run
+
+# Process a directory and apply coding standards
+rector process <path_to_directory> --with-style
+
+# Display a list of available levels
+rector levels
+
+# Process a directory with a specific level
+rector process <path_to_directory> --level <level_name>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/rdpsign.md
+
+% rdpsign, windows
+
+# Sign an RDP file
+rdpsign <path_to_file_rdp>
+
+# Sign an RDP file using a specific sha256 hash
+rdpsign <path_to_file_rdp> /sha265 <hash>
+
+# Enable quiet output
+rdpsign <path_to_file_rdp> /q
+
+# Display verbose warnings, messages and statuses
+rdpsign <path_to_file_rdp> /v
+
+# Test the signing by displaying the output to `stdout` without updating the file
+rdpsign <path_to_file_rdp> /l

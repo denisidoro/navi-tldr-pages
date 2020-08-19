@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sdiff.md
+
+% sdiff, common
+
+# Compare 2 files
+sdiff <path_to_file1> <path_to_file2>
+
+# Compare 2 files, ignoring all tabs and whitespace
+sdiff -W <path_to_file1> <path_to_file2>
+
+# Compare 2 files, ignoring whitespace at the end of lines
+sdiff -Z <path_to_file1> <path_to_file2>
+
+# Compare 2 files in a case-insensitive manner
+sdiff -i <path_to_file1> <path_to_file2>
+
+# Compare and then merge, writing the output to a new file
+sdiff -o <path_to_merged_file> <path_to_file1> <path_to_file2>

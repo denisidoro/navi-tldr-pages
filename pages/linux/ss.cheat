@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ss.md
+
+% ss, linux
+
+# Show all TCP/UDP/RAW/UNIX sockets
+ss -a <_t__u__w__x>
+
+# Filter TCP sockets by states, only/exclude
+ss <state_exclude> <bucket_big_connected_synchronized____>
+
+# Show all TCP sockets connected to the local HTTPS port (443)
+ss -t src :<443>
+
+# Show all TCP sockets listening on the local 8080 port
+ss -lt src :<8080>
+
+# Show all TCP sockets along with processes connected to a remote ssh port
+ss -pt dst :<ssh>
+
+# Show all UDP sockets connected on specific source and destination ports
+ss -u 'sport == :<source_port> and dport == :<destination_port>'
+
+# Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16
+ss -4t src <192_168_16>

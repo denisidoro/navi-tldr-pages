@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/black.md
+
+% black, common
+
+# Auto-format a file or entire directory
+black <path_to_file_or_directory>
+
+# Format the code passed in as a string
+black -c <path_to_file_or_directory>
+
+# Output a diff for each file on stdout
+black --diff <path_to_file_or_directory>
+
+# Return the status without writing the files back
+black --check <path_to_file_or_directory>
+
+# Auto-format a file or directory emitting exclusively error messages to stderr
+black --quiet <path_to_file_or_directory>

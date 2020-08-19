@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvcut.md
+
+% csvcut, common
+
+# Print indices and names of all columns
+csvcut -n <data_csv>
+
+# Extract the first and third columns
+csvcut -c <1_3> <data_csv>
+
+# Extract all columns **except** the fourth one
+csvcut -C <4> <data_csv>
+
+# Extract the columns named "id" and "first name" (in that order)
+csvcut -c {{id,"first name"}} <data_csv>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/androguard.md
+
+% androguard, common
+
+# Display Android app manifest
+androguard axml <path_to_app_apk>
+
+# Display app metadata (version and app ID)
+androguard apkid <path_to_app_apk>
+
+# Decompile Java code from an app
+androguard decompile <path_to_app_apk> --output <path_to_directory>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vrms.md
+
+% vrms, linux
+
+# List non-free and contrib packages (and their description)
+vrms
+
+# Only output the package names
+vrms --sparse

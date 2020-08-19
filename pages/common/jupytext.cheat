@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jupytext.md
+
+% jupytext, common
+
+# Turn a notebook into a paired `.ipynb`/`.py` notebook
+jupytext --set-formats ipynb,py <notebook_ipynb>
+
+# Convert a notebook to a `.py` file
+jupytext --to py <notebook_ipynb>
+
+# Convert a `.py` file to a notebook with no outputs
+jupytext --to notebook <notebook_py>
+
+# Convert a `.md` file to a notebook and run it
+jupytext --to notebook --execute <notebook_md>
+
+# Update the input cells in a notebook and preserve outputs and metadata
+jupytext --update --to notebook <notebook_py>
+
+# Update all paired representations of a notebook
+jupytext --sync <notebook_ipynb>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/chown.md
+
+% chown, common
+
+# Change the owner user of a file/directory
+chown <user> <path_to_file_or_directory>
+
+# Change the owner user and group of a file/directory
+chown <user>:<group> <path_to_file_or_directory>
+
+# Recursively change the owner of a directory and its contents
+chown -R <user> <path_to_directory>
+
+# Change the owner of a symbolic link
+chown -h <user> <path_to_symlink>
+
+# Change the owner of a file/directory to match a reference file
+chown --reference=<path_to_reference_file> <path_to_file_or_directory>

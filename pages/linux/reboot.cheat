@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/reboot.md
+
+% reboot, linux
+
+# Reboot immediately
+reboot
+
+# Reboot immediately without gracefully shutting down
+reboot -f

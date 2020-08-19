@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mp4box.md
+
+% mp4box, common
+
+# Display information about an existing MP4 file
+mp4box -info <filename>
+
+# Add an SRT subtitle file into an MP4 file
+mp4box -add <input_subs_srt>:lang=eng -add <input_mp4> <output_mp4>
+
+# Combine audio from one file and video from another
+mp4box -add <input1_mp4>#audio -add <input2_mp4>#video {{output.mp4}

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvclean.md
+
+% csvclean, common
+
+# Clean a CSV file
+csvclean <bad_csv>
+
+# List locations of syntax errors in a CSV file
+csvclean -n <bad_csv>

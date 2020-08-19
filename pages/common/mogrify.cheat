@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mogrify.md
+
+% mogrify, common
+
+# Resize all JPEG images in the directory to 50% of their initial size
+mogrify -resize <50_> {{*.jpg}}
+
+# Resize all images starting with "DSC" to 800x600
+mogrify -resize <800x600> {{DSC*}}
+
+# Convert all PNG images in the directory to JPEG
+mogrify -format <__jpg> {{*.png}}
+
+# Halve the saturation of all image files in the current directory
+mogrify -modulate <100_50> {{*}}
+
+# Double the brightness of all image files in the current directory
+mogrify -modulate <200> {{*}}

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sha512sum.md
+
+% sha512sum, common
+
+# Calculate the SHA512 checksum for a file
+sha512sum <filename1>
+
+# Calculate SHA512 checksums for multiple files
+sha512sum <filename1> <filename2>
+
+# Read a file of SHA512 sums and verify all files have matching checksums
+sha512sum -c <filename_sha512>

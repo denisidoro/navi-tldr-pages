@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/debman.md
+
+% debman, linux
+
+# Read a man page for a command that is provided by a specified package name
+debman -p <package_name> <command_name>
+
+# Specify a package version to download
+debman -p <package_name>=<version> <command_name>
+
+# Read a man page in a .deb file
+debman -f <path_to_filename_deb> <command_name>

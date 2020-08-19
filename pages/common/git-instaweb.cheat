@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-instaweb.md
+
+% git-instaweb, common
+
+# Launch a gitweb server for the current git repository
+git instaweb --start
+
+# Listen only on localhost
+git instaweb --start --local
+
+# Listen on a specific port
+git instaweb --start --port <1234>
+
+# Use a specified http daemon
+git instaweb --start --httpd <lighttpd_apache2_mongoose_plackup_webrick>
+
+# Also auto-launch a web browser
+git instaweb --start --browser
+
+# Stop the currently running gitweb server
+git instaweb --stop
+
+# Restart the currently running gitweb server
+git instaweb --restart

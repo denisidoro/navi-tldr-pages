@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rr.md
+
+% rr, common
+
+# Record an application
+rr record {{path/to/binary --arg1 --arg2}}
+
+# Replay latest recorded execution
+rr replay

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cpdf.md
+
+% cpdf, common
+
+# Select pages 1, 2, 3 and 6 from a source document and write those to a destination document
+cpdf <path_to_source_document_pdf> <1_3_6> -o <path_to_destination_document_pdf>
+
+# Merge two documents into a new one
+cpdf -merge <path_to_source_document_one_pdf> <path_to_source_document_two_pdf> -o <path_to_destination_document_pdf>
+
+# Show the bookmarks of a document
+cpdf -list-bookmarks <path_to_document_pdf>
+
+# Split a document into ten-page chunks, writing them to chunk001.pdf, chunk002.pdf, etc
+cpdf -split <path_to_document_pdf> -o <path_to_chunk____pdf> -chunk <10>
+
+# Encrypt a document using 128bit encryption, providing `fred` as owner password and `joe` as user password
+cpdf -encrypt <128bit> <fred> <joe> <path_to_source_document_pdf> -o <path_to_encrypted_document_pdf>
+
+# Decrypt a document using the owner password `fred`
+cpdf -decrypt <path_to_encrypted_document_pdf> owner=<fred> -o <path_to_decrypted_document_pdf>
+
+# Show the annotations of a document
+cpdf -list-annotations <path_to_document_pdf>
+
+# Create a new document from an existing one with additional metadata
+cpdf -set-metadata <path_to_metadata_xml> <path_to_source_document_pdf> -o <path_to_destination_document_pdf>

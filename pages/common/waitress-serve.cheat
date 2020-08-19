@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/waitress-serve.md
+
+% waitress-serve, common
+
+# Run a Python web app
+waitress-serve <import_path_wsgi_func>
+
+# Listen on port 8080 on localhost
+waitress-serve --listen=<localhost>:<8080> <import_path_wsgi_func>
+
+# Start waitress on a Unix socket
+waitress-serve --unix-socket=<path_to_socket> <import_path_wsgi_func>
+
+# Use 4 threads to process requests
+waitress-serve --threads=<4> <import_path_wsgifunc>
+
+# Call a factory method that returns a WSGI object
+waitress-serve --call <import_path_wsgi_factory>
+
+# Set the URL scheme to https
+waitress-serve --url-scheme=<https> <import_path_wsgi_func>

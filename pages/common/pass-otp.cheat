@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pass-otp.md
+
+% pass-otp, common
+
+# Prompt for an otpauth URI token and create a new pass file
+pass otp insert <path_to_pass>
+
+# Promt for an otpauth URI token and append to an existing pass file
+pass otp append <path_to_pass>
+
+# Print a 2FA code using the OTP token in a pass file
+pass otp <path_to_pass>
+
+# Copy and don't print a 2FA code using the OTP token in a pass file
+pass otp --clip <path_to_pass>
+
+# Display a QR code using the OTP token stored in a pass file
+pass otp uri --qrcode <path_to_pass>
+
+# Promt for an OTP secret value specifying issuer and account (at least one must be specified) and append to existing pass file
+pass otp append --secret --issuer <issuer_name> --account <account_name> <path_to_pass>

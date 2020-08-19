@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/softwareupdate.md
+
+% softwareupdate, osx
+
+# List all available updates
+softwareupdate -l
+
+# Download and install all updates
+softwareupdate -ia
+
+# Download and install all recommended updates
+softwareupdate -ir
+
+# Download and install a specific app
+softwareupdate -i <update_name>

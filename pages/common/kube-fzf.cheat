@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kube-fzf.md
+
+% kube-fzf, common
+
+# Get pod details (from current namespace)
+findpod
+
+# Get pod details (from all namespaces)
+findpod -a
+
+# Describe a pod
+describepod
+
+# Tail pod logs
+tailpod
+
+# Exec into a pod's container
+execpod <shell_command>
+
+# Port-forward a pod
+pfpod <port_number>

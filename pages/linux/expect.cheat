@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/expect.md
+
+% expect, linux
+
+# Execute an expect script from a file
+expect <path_to_file>
+
+# Execute a specified expect script
+expect -c "<commands>"
+
+# Enter an interactive REPL (use `exit` or Ctrl + D to exit)
+expect -i

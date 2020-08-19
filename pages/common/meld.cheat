@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/meld.md
+
+% meld, common
+
+# Start meld
+meld
+
+# Compare 2 files
+meld <path_to_file_1> <path_to_file_2>
+
+# Compare 2 directories
+meld <path_to_directory_1> <path_to_directory_2>
+
+# Compare 3 files
+meld <path_to_file_1> <path_to_file_2> <path_to_file_3>
+
+# Open a comparison as a new tab in a pre-existing meld instance
+meld --newtab <path_to_file_1> <path_to_file_2>
+
+# Compare multiple sets of files
+meld --diff <path_to_file_1> <path_to_file_2> --diff <path_to_file_3> <path_to_file_4>

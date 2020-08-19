@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/7zr.md
+
+% 7zr, common
+
+# Archive a file or directory
+7zr a <archived_7z> <path_to_file_or_directory>
+
+# Extract an existing 7z file with original directory structure
+7zr x <archived_7z>
+
+# List the contents of an archive file
+7zr l <archived_7z>

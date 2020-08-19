@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rainbowstream.md
+
+% rainbowstream, common
+
+# Open rainbowstream
+rainbowstream
+
+# Show your timeline (optional number of tweets to display, default is 5)
+home [<num_of_last_tweets>]
+
+# Show profile of a given user
+whois @<user>
+
+# Tweet the message as-is
+t <message>
+
+# Retweet the tweet with given id (id is beside the time)
+rt <tweet_id>
+
+# Favorite the tweet with given id
+fav <tweet_id>
+
+# Perform a search for a given word (with or without hashtag)
+s <word>

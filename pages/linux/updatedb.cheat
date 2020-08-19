@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/updatedb.md
+
+% updatedb, linux
+
+# Refresh database content
+sudo updatedb
+
+# Display file names as soon as they are found
+sudo updatedb --verbose

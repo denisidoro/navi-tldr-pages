@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mongorestore.md
+
+% mongorestore, common
+
+# Import a bson data dump from a directory to a MongoDB database
+mongorestore --db <database_name> <path_to_directory>
+
+# Import a bson data dump from a directory to a given database in a MongoDB server host, running at a given port, with user authentication (user will be prompted for password)
+mongorestore --host <database_host_port> --db <database_name> --username <username> <path_to_directory> --password
+
+# Import a collection from a bson file to a MongoDB database
+mongorestore --db <database_name> <path_to_file>
+
+# Import a collection from a bson file to a given database in a MongoDB server host, running at a given port, with user authentication (user will be prompted for password)
+mongorestore --host <database_host_port> --db <database_name> --username <username> <path_to_file> --password

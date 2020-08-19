@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/perl.md
+
+% perl, common
+
+# Parse and execute a Perl script
+perl <script_pl>
+
+# Check syntax errors on a Perl script
+perl -c <script_pl>
+
+# Parse and execute a Perl statement
+perl -e <perl_statement>
+
+# Run a Perl script in debug mode, using `perldebug`
+perl -d <script_pl>
+
+# Loo[p] over all lines of a file, editing them [i]n-place using a find/replace [e]xpression
+perl -p -i -e 's/<find>/<replace>/g' <filename>
+
+# Run a find/replace expression on a file, saving the original file with a given extension
+perl -p -i'.old' -e 's/<find>/<replace>/g' <filename>
+
+# Run a multi-line find/replace expression on a file, and save the result in another file
+perl -p0e 's/{{foo\nbar}}/<foobar>/g' <input_file> > <output_file>
+
+# Run a regular expression on `stdin`, printing out the first capture group for each line
+cat <path_to_input_file> | perl -nle 'if (/.*(<foo>).*/) {print "$1"; last;}'

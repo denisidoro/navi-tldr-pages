@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/valet.md
+
+% valet, osx
+
+# Start the valet daemon
+valet start
+
+# Register the current working directory as a path that Valet should search for sites
+valet park
+
+# View 'parked' paths
+valet paths
+
+# Serve a single site instead of an entire directory
+valet link app-name
+
+# Share a project via an Ngrok tunnel
+valet share

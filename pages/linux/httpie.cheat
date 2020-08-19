@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/httpie.md
+
+% httpie, linux
+
+# Send a GET request (default method with no request data)
+http <https___example_com>
+
+# Send a POST request (default method with request data)
+http <https___example_com> <hello_World>
+
+# Send a POST request with redirected input
+http <https___example_com> < <file_json>
+
+# Send a PUT request with a given json body
+http PUT <https___example_com_todos_7> <hello_world>
+
+# Send a DELETE request with a given request header
+http DELETE <https___example_com_todos_7> <API_Key_foo>
+
+# Show the whole HTTP exchange (both request and response)
+http -v <https___example_com>
+
+# Download a file
+http --download <https___example_com>

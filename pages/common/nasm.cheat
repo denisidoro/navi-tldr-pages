@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nasm.md
+
+% nasm, common
+
+# Assemble `source.asm` into a binary file `source`, in the (default) raw binary format
+nasm <source_asm>
+
+# Assemble `source.asm` into a binary file `output_file`, in the specified format
+nasm -f <format> <source_asm> -o <output_file>
+
+# List valid output formats (along with basic nasm help)
+nasm -hf
+
+# Assemble and generate an assembly listing file
+nasm -l <list_file> <source_asm>
+
+# Add a directory (must be written with trailing slash) to the include file search path before assembling
+nasm -i <_path_to_include_dir_> <source_asm>

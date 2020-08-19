@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mix.md
+
+% mix, common
+
+# Execute a particular file
+mix run <my_script_exs>
+
+# Create a new project
+mix new <project_name>
+
+# Compile project
+mix compile
+
+# Run project tests
+mix test
+
+# List all mix commands
+mix help

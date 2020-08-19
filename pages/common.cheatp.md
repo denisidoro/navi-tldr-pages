@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mdp.md
+
+% commonp.md
+
+# Launch a presentation in the terminal from a markdown file
+mdp <presentation_md>
+
+# Disable fading transitions
+mdp --nofade <presentation_md>
+
+# Invert font colors to use in terminals with light background
+mdp --invert <presentation_md>
+
+# Disable transparency in transparent terminals
+mdp --notrans <presentation_md>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tcpdump.md
+
+% tcpdump, common
+
+# List available network interfaces
+tcpdump -D
+
+# Capture the traffic of a specific interface
+tcpdump -i <eth0>
+
+# Capture all TCP traffic showing contents (ASCII) in console
+tcpdump -A tcp
+
+# Capture the traffic from or to a host
+tcpdump host <www_example_com>
+
+# Capture the traffic from a specific interface, source, destination and destination port
+tcpdump -i <eth0> src <192_168_1_1> and dst <192_168_1_2> and dst port <80>
+
+# Capture the traffic of a network
+tcpdump net <192_168_1_0_24>
+
+# Capture all traffic except traffic over port 22 and save to a dump file
+tcpdump -w <dumpfile_pcap> not port <22>
+
+# Read from a given dump file
+tcpdump -r <dumpfile_pcap>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/photorec.md
+
+% photorec, linux
+
+# Run PhotoRec on a specific device
+sudo photorec <_dev_sdb>
+
+# Run PhotoRec on a disk image (image.dd)
+sudo photorec <path_to_image_dd>

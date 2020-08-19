@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/flac.md
+
+% flac, common
+
+# Encode a wav file to flac (this will create a flac file in the same location as the wav file)
+flac <path_to_file_wav>
+
+# Encode a wav file to flac, specifying the output file
+flac -o <path_to_output_flac> <path_to_file_wav>
+
+# Decode a flac file to wav, specifying the output file
+flac -d -o <path_to_output_wav> <path_to_file_flac>
+
+# Test a flac file for the correct encoding
+flac -t <path_to_file_flac>

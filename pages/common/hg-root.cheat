@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hg-root.md
+
+% hg-root, common
+
+# Display the root location of the current repository
+hg root
+
+# Display the root location of the specified repository
+hg root --cwd <path_to_directory>

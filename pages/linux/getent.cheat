@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/getent.md
+
+% getent, linux
+
+# Get list of all groups
+getent group
+
+# See the members of a group
+getent group <group_name>
+
+# Get list of all services
+getent services
+
+# Find a username by UID
+getent passwd 1000
+
+# Perform a reverse DNS lookup
+getent hosts <host>

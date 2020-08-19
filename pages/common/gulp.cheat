@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gulp.md
+
+% gulp, common
+
+# Run the default task
+gulp
+
+# Run individual tasks
+gulp <task> <othertask>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/envsubst.md
+
+% envsubst, common
+
+# Replace environment variables in `stdin` and output to `stdout`
+echo '<_HOME>' | envsubst
+
+# Replace environment variables in an input file and output to `stdout`
+envsubst < <path_to_input_file>
+
+# Replace environment variables in an input file and output to a file
+envsubst < <path_to_input_file> > <path_to_output_file>
+
+# Replace environment variables in an input file from a space-separated list
+envsubst '{{$USER $SHELL $HOME}}' < <path_to_input_file>

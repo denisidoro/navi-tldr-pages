@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/numlockx.md
+
+% numlockx, linux
+
+# Show the current number lock status
+numlockx status
+
+# Turn the number lock on
+numlockx on
+
+# Turn the number lock off
+numlockx off
+
+# Toggle the current state
+numlockx toggle

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/logwatch.md
+
+% logwatch, linux
+
+# Analyze logs for a range of dates at certain level of detail
+logwatch --range <yesterday_today_all_help> --detail <low_medium_others>'
+
+# Restrict report to only include information for a selected service
+logwatch --range <all> --service <apache_pam_unix_etc>

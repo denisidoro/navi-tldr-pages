@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/octo.md
+
+% octo, windows
+
+# Create a package
+octo pack --id=<package_name>
+
+# Push a package to a repository on the Octopus server
+octo push --package=<package_name>
+
+# Create a release
+octo create-release --project=<project_name> --packageversion=<version>
+
+# Deploy a release
+octo deploy-release --project=<project_name> --packageversion=<version> --deployto=<environment_name> --tenant=<deployment_target>

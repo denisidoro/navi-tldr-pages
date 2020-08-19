@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wasm-objdump.md
+
+% wasm-objdump, common
+
+# Display the section headers of a given binary
+wasm-objdump -h <file_wasm>
+
+# Display the entire disassembled output of a given binary
+wasm-objdump -d <file_wasm>
+
+# Display the details of each section
+wasm-objdump --details <file_wasm>
+
+# Display the details of a given section
+wasm-objdump --section '<import>' --details <file_wasm>

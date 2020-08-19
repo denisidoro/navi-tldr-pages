@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xeyes.md
+
+% xeyes, linux
+
+# Launch xeyes on the local machine's default display
+xeyes
+
+# Launch xeyes on a remote machine's display 0, screen 0
+xeyes -display <remote_host>:<0>.<0>

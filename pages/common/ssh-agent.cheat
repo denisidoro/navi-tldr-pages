@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ssh-agent.md
+
+% ssh-agent, common
+
+# Start an SSH Agent for the current shell
+eval $(ssh-agent)
+
+# Kill the currently running agent
+ssh-agent -k

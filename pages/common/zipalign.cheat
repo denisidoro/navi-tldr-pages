@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zipalign.md
+
+% zipalign, common
+
+# Align the data of a ZIP file on 4-byte boundaries
+zipalign <4> <path_to_input_zip> <path_to_output_zip>
+
+# Check that a ZIP file is correctly aligned on 4-byte boundaries and display the results in a verbose manner
+zipalign -v -c <4> <path_to_input_zip>

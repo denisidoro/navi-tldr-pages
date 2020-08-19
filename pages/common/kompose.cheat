@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kompose.md
+
+% kompose, common
+
+# Deploy a dockerized application to Kubernetes
+kompose up -f <docker_compose_yml>
+
+# Delete instantiated services/deployments from Kubernetes
+kompose down -f <docker_compose_yml>
+
+# Convert a docker-compose file into Kubernetes resources file
+kompose convert -f <docker_compose_yml>

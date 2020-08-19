@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/update-alternatives.md
+
+% update-alternatives, linux
+
+# Add a symbolic link
+sudo update-alternatives --install <path_to_symlink> <command_name> <path_to_command_binary> <priority>
+
+# Configure a symbolic link for "java"
+sudo update-alternatives --config <java>
+
+# Remove a symbolic link
+sudo update-alternatives --remove <java> <_opt_java_jdk1_8_0_102_bin_java>
+
+# Display information about a specified command
+update-alternatives --display <java>
+
+# Display all commands and their current selection
+update-alternatives --get-selections

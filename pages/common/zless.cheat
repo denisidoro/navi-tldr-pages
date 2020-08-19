@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zless.md
+
+% zless, common
+
+# Page through a compressed archive with `less`
+zless <file_txt_gz>

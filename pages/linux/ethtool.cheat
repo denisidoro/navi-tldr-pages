@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ethtool.md
+
+% ethtool, linux
+
+# Set the link speed, duplex mode, and parameter autonegotiation for a given interface
+ethtool -s <eth0> speed <10_100_1000> duplex <half_full> autoneg <on_off>

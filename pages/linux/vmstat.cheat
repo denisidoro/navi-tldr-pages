@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vmstat.md
+
+% vmstat, linux
+
+# Display virtual memory statistics
+vmstat
+
+# Display reports every 2 seconds for 5 times
+vmstat <2> <5>

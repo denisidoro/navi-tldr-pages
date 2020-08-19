@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/betterlockscreen.md
+
+% betterlockscreen, linux
+
+# Lock the screen
+betterlockscreen --lock
+
+# Change the lock screen background
+betterlockscreen -u <path_to_image_png>
+
+# Lock the screen, showing some custom text
+betterlockscreen -l pixel -t "{{custom lock screen text}}"
+
+# Lock the screen, with a custom monitor off timeout in seconds
+betterlockscreen --off <5> -l

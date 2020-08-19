@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fdupes.md
+
+% fdupes, common
+
+# Search a single directory
+fdupes <directory>
+
+# Search multiple directories
+fdupes <directory1> <directory2>
+
+# Search all directories recursively
+fdupes -r <directory>
+
+# Search multiple directories, one recursively
+fdupes <directory1> -R <directory2>

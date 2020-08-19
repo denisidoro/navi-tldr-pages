@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/whois.md
+
+% whois, common
+
+# Get information about a domain name
+whois <example_com>
+
+# Get information about an IP address
+whois <8_8_8_8>
+
+# Get abuse contact for an IP address
+whois -b <8_8_8_8>

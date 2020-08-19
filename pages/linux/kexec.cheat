@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/kexec.md
+
+% kexec, linux
+
+# Load a new kernel
+kexec -l <path_to_kernel> --initrd=<path_to_initrd> --command-line=<arguments>
+
+# Load a new kernel with current boot parameters
+kexec -l <path_to_kernel> --initrd=<path_to_initrd> --reuse-cmdline
+
+# Execute a currently loaded kernel
+kexec -e
+
+# Unload current kexec target kernel
+kexec -u

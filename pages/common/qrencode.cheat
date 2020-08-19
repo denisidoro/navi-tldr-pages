@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/qrencode.md
+
+% qrencode, common
+
+# Convert a string to a QR code and save to an output file
+qrencode -o <path_to_output_file_png> <string>
+
+# Convert an input file to a QR code and save to an output file
+qrencode -o <path_to_output_file_png> -r <path_to_input_file>
+
+# Convert a string to a QR code and print it in terminal
+qrencode -t ansiutf8 <string>
+
+# Convert input from pipe to a QR code and print it in terminal
+echo <string> | qrencode -t ansiutf8

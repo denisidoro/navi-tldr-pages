@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/powertop.md
+
+% powertop, linux
+
+# Calibrate power usage measurements
+sudo powertop --calibrate
+
+# Generate HTML power usage report in the current directory
+sudo powertop --html=<power_report_html>
+
+# Tune to optimal settings
+sudo powertop --auto-tune

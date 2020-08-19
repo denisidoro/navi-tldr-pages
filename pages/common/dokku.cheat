@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dokku.md
+
+% dokku, common
+
+# List runinng apps
+dokku apps
+
+# Create an app
+dokku apps:create <app_name>
+
+# Remove an app
+dokku apps:destroy <app_name>
+
+# Install plugin
+dokku plugin:install <full_repo_url>
+
+# Link database to an app
+dokku <db>:link <db_name> <app_name>

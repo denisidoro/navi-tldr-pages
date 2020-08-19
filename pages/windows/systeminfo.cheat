@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/systeminfo.md
+
+% systeminfo, windows
+
+# Display system configuration for the local machine
+systeminfo
+
+# Display system configuration in a specified output format
+systeminfo /fo <table_list_csv>
+
+# Display system configuration for a remote machine
+systeminfo /s <remote_name> /u <username> /p <password>
+
+# Display detailed usage information
+systeminfo /?

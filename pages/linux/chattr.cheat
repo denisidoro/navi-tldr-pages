@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/chattr.md
+
+% chattr, linux
+
+# Make a file or directory immutable to changes and deletion, even by superuser
+chattr +i <path_to_file_or_directory>
+
+# Make a file or directory mutable
+chattr -i <path_to_file_or_directory>
+
+# Recursively make an entire directory and contents immutable
+chattr -R +i <path_to_directory>

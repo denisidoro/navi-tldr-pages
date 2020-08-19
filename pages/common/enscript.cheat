@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/enscript.md
+
+% enscript, common
+
+# Generate a PostScript file from a text file
+enscript <path_to_input_file> --output=<path_to_output_file>
+
+# Generate a file in a different language than PostScript
+enscript <path_to_input_file> --language=<html_rtf____> --output=<path_to_output_file>
+
+# Generate a PostScript file with a landscape layout, splitting the page into columns (maximum 9)
+enscript <path_to_input_file> --columns=<num> --landscape --output=<path_to_output_file>
+
+# Display available syntax highlighting languages and file formats
+enscript --help-highlight
+
+# Generate a PostScript file with syntax highlighting and color for a specified language
+enscript <path_to_input_file> --color=1 --highlight=<language> --output=<path_to_output_file>

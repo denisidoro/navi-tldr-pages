@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/grpcurl.md
+
+% grpcurl, common
+
+# Send an empty request
+grpcurl <grpc_server_com_443> <my_custom_server_Service_Method>
+
+# Send a request with a header and a body
+grpcurl -H "{{Authorization: Bearer $token}}" -d {{'{"foo": "bar"}'}} <grpc_server_com_443> <my_custom_server_Service_Method>
+
+# List all services exposed by a server
+grpcurl <grpc_server_com_443> list
+
+# List all methods in a particular service
+grpcurl <grpc_server_com_443> list <my_custom_server_Service>

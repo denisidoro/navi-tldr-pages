@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/base64.md
+
+% base64, common
+
+# Encode a file
+base64 <filename>
+
+# Decode a file
+base64 -d <filename>
+
+# Encode from `stdin`
+<somecommand> | base64
+
+# Decode from `stdin`
+<somecommand> | base64 -d

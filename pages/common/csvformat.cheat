@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvformat.md
+
+% csvformat, common
+
+# Convert to a tab-delimited file (TSV)
+csvformat -T <data_csv>
+
+# Convert delimiters to a custom character
+csvformat -D "<custom_character>" <data_csv>
+
+# Convert line endings to carriage return (^M) + line feed
+csvformat -M "{{\r\n}}" <data_csv>
+
+# Minimize use of quote characters
+csvformat -U 0 <data_csv>
+
+# Maximize use of quote characters
+csvformat -U 1 <data_csv>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/convmv.md
+
+% convmv, common
+
+# Test filename encoding conversion (don't actually change the filename)
+convmv -f <from_encoding> -t <to_encoding> <input_file>
+
+# Convert filename encoding and rename the file to the new encoding
+convmv -f <from_encoding> -t <to_encoding> --notest <input_file>

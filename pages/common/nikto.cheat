@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nikto.md
+
+% nikto, common
+
+# Perform a basic Nikto scan against a target host
+perl nikto.pl -h <192_168_0_1>
+
+# Specify the port number when performing a basic scan
+perl nikto.pl -h <192_168_0_1> -p <443>
+
+# Scan ports and protocols with full URL syntax
+perl nikto.pl -h <https___192_168_0_1_443_>
+
+# Scan multiple ports in the same scanning session
+perl nikto.pl -h <192_168_0_1> -p <80_88_443>
+
+# Update to the latest plugins and databases
+perl nikto.pl -update

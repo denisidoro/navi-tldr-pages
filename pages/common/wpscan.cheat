@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wpscan.md
+
+% wpscan, common
+
+# Update the vulnerability database
+wpscan --update
+
+# Scan a Wordpress website
+wpscan --url <url>
+
+# Scan a Wordpress website, using random user agents and passive detection
+wpscan --url <url> --stealthy
+
+# Scan a Wordpress website, checking for vulnerable plugins and specifying the path to the `wp-content` directory
+wpscan --url <url> --enumerate <vp> --wp-content-dir <remote_path_to_wp_content>
+
+# Scan a Wordpress website through a proxy
+wpscan --url <url> --proxy <protocol___ip_port> --proxy-auth <username_password>
+
+# Perform user identifiers enumeration on a Wordpress website
+wpscan --url <url> --enumerate <u>
+
+# Execute a password guessing attack on a Wordpress website
+wpscan --url <url> --usernames <username_path_to_usernames_txt> --passwords <path_to_passwords_txt> threads <20>
+
+# Scan a Wordpress website, collecting vulnerability data from the WPVulnDB (https://wpvulndb.com/)
+wpscan --url <url> --api-token <token>

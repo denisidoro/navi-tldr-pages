@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dash.md
+
+% dash, linux
+
+# Start interactive shell
+dash
+
+# Execute a command
+dash -c "<command>"
+
+# Run commands from a file
+dash <file_sh>
+
+# Run commands from a file, logging all commands executed to the terminal
+dash -x <file_sh>

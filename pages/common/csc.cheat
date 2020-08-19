@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csc.md
+
+% csc, common
+
+# Compile one or more C# files to a CIL executable
+csc <path_to_input_file_a_cs> <path_to_input_file_b_cs>
+
+# Specify the output filename
+csc /out:<path_to_filename> <path_to_input_file_cs>
+
+# Compile into a '.dll' library instead of an executable
+csc /target:library <path_to_input_file_cs>
+
+# Reference another assembly
+csc /reference:<path_to_library_dll> <path_to_input_file_cs>
+
+# Embed a resource
+csc /resource:<path_to_resource_file> <path_to_input_file_cs>
+
+# Automatically generate XML documentation
+csc /doc:<path_to_output_xml> <path_to_input_file_cs>
+
+# Specify an icon
+csc /win32icon:<path_to_icon_ico> <path_to_input_file_cs>
+
+# Strongly-name the resulting assembly with a keyfile
+csc /keyfile:<path_to_keyfile> <path_to_input_file_cs>

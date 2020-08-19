@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hg-branch.md
+
+% hg-branch, common
+
+# Show the name of the currently active branch
+hg branch
+
+# Create a new branch for the next commit
+hg branch <branch_name>

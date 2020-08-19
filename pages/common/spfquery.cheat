@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/spfquery.md
+
+% spfquery, common
+
+# Check if an IP address is allowed to send an e-mail from the specified e-mail address
+spfquery -ip <8_8_8_8> -sender <sender_example_com>
+
+# Turn on debugging output
+spfquery -ip <8_8_8_8> -sender <sender_example_com> --debug

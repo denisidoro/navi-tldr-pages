@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cmatrix.md
+
+% cmatrix, common
+
+# Enable asynchronous scrolling
+cmatrix -a
+
+# Display red text
+cmatrix -C <red>
+
+# Enable rainbow mode
+cmatrix -r
+
+# Set screen update delay to 2 centiseconds
+cmatrix -u <2>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/diffstat.md
+
+% diffstat, common
+
+# Display changes in a histogram
+diff <file1> <file2> | diffstat
+
+# Display inserted, deleted and modified changes as a table
+diff <file1> <file2> | diffstat -t

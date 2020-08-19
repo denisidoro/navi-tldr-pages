@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/k8sec.md
+
+% k8sec, common
+
+# List all secrets
+k8sec list
+
+# List a specific secret as a base64-encoded string
+k8sec list <secret_name> --base64
+
+# Set a secret's value
+k8sec set <secret_name> <key_value>
+
+# Set a base64-encoded value
+k8sec set --base64 <secret_name> <key_encoded_value>
+
+# Unset a secret
+k8sec unset <secret_name>
+
+# Load secrets from a file
+k8sec load -f <path_to_file> <secret_name>
+
+# Dump secrets to a file
+k8sec dump -f <path_to_file> <secret_name>

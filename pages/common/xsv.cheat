@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xsv.md
+
+% xsv, common
+
+# Inspect the headers of a file
+xsv headers <path_to_file_csv>
+
+# Count the number of entries
+xsv count <path_to_file_csv>
+
+# Get an overview of the shape of entries
+xsv stats <path_to_file_csv> | xsv table
+
+# Select a few columns
+xsv select <column_a_column_b> <path_to_file_csv>
+
+# Show 10 random entries
+xsv sample <10> <path_to_file_csv>
+
+# Join a column from one file to another
+xsv join --no-case <column_a> <path_to_file_a_csv> <column_b> <path_to_file_b_csv> | xsv table

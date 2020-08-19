@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sendmail.md
+
+% sendmail, common
+
+# Send a message with the content of message.txt to the mail directory of local user `username`
+sendmail <username> < <message_txt>
+
+# Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the message in `message.txt`
+sendmail -f <you_yourdomain_com> <test_gmail_com> < <message_txt>
+
+# Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the file `file.zip`
+sendmail -f <you_yourdomain_com> <test_gmail_com> < <file_zip>

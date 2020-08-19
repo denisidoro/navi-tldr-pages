@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/picard.md
+
+% picard, common
+
+# Start Picard
+picard
+
+# Open a set of files
+picard <path_to_file1_mp3> <path_to_file2_mp3>
+
+# Display the version of Picard installed
+picard --long-version

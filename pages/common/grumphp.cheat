@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/grumphp.md
+
+% grumphp, common
+
+# Register the Git hooks
+grumphp git:init
+
+# Trigger the pre-commit hook manually
+grumphp git:pre-commit
+
+# Check every versioned file
+grumphp run

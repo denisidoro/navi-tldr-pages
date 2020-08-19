@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mktemp.md
+
+% mktemp, common
+
+# Create an empty temporary file and return the absolute path to it
+mktemp
+
+# Create a temporary directory and return the absolute path to it
+mktemp -d
+
+# Create a temporary file with a specified suffix
+mktemp --suffix "<_txt>"

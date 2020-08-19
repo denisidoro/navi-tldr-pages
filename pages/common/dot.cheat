@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dot.md
+
+% dot, common
+
+# Render an image file and determine output filename based on input filename and selected format
+dot -Tpng -O <path_to_file_dot>
+
+# Create an SVG from DOT file
+dot -Tsvg -o <path_to_out_file_svg> <path_to_file_dot>

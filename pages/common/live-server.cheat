@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/live-server.md
+
+% live-server, common
+
+# Serve an index.html file and reload on changes
+live-server
+
+# Specify a port (default is 8080) from which to serve a file
+live-server --port=<8081>
+
+# Specify a given file to serve
+live-server --open=<about_html>
+
+# Proxy all requests for ROUTE to URL
+live-server --proxy=<_>:<http_localhost_3000>

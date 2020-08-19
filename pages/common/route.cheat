@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/route.md
+
+% route, common
+
+# Display the information of route table
+route -n
+
+# Add route rule
+sudo route add -net <ip_address> netmask <netmask_address> gw <gw_address>
+
+# Delete route rule
+sudo route del -net <ip_address> netmask <netmask_address> dev <gw_address>

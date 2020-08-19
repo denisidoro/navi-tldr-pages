@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/qr.md
+
+% qr, common
+
+# Generate a QR code
+echo "<data>" | qr
+
+# Specify the error correction level (defaults to M)
+echo "<data>" | qr --error-correction=<L_M_Q_H>

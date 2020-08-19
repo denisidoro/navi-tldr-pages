@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/optipng.md
+
+% optipng, common
+
+# Compress a PNG with default settings
+optipng <path_to_file_png>
+
+# Compress a PNG with best compression
+optipng -o<7> <path_to_file_png>
+
+# Compress a PNG with fastest compression
+optipng -o<0> <path_to_file_png>
+
+# Compress a PNG and add interlacing
+optipng -i <1> <path_to_file_png>
+
+# Compress a PNG and preserve all metadata (including file timestamps)
+optipng -preserve <path_to_file_png>
+
+# Compress a PNG and remove all metadata
+optipng -strip all <path_to_file_png>

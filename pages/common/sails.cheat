@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sails.md
+
+% sails, common
+
+# Start Sails
+sails lift
+
+# Create new Sails project
+sails new <projectName>
+
+# Generate Sails API
+sails generate <name>
+
+# Generate Sails Controller
+sails generate controller <name>
+
+# Generate Sails Model
+sails generate model <name>

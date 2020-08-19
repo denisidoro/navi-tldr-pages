@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/chars.md
+
+% chars, common
+
+# Look up a character by its value
+chars '<_>'
+
+# Look up a character by its Unicode code point
+chars <U_1F63C>
+
+# Look up possible characters given an ambiguous code point
+chars <10>
+
+# Look up a control character
+chars "<_C>"

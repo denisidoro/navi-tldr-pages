@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/deluged.md
+
+% deluged, common
+
+# Start the Deluge daemon
+deluged
+
+# Start the Deluge daemon on a specific port
+deluged -p <port>
+
+# Start the Deluge daemon using a specific configuration file
+deluged -c <path_to_configuration_file>
+
+# Start the Deluge daemon and output the log to a file
+deluged -l <path_to_log_file>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ntfsfix.md
+
+% ntfsfix, linux
+
+# Fix a given NTFS partition
+sudo ntfsfix <_dev_sdb2>

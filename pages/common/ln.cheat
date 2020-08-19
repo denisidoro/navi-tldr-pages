@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ln.md
+
+% ln, common
+
+# Create a symbolic link to a file or directory
+ln -s <path_to_file_or_directory> <path_to_symlink>
+
+# Overwrite an existing symbolic to point to a different file
+ln -sf <path_to_new_file> <path_to_symlink>
+
+# Create a hard link to a file
+ln <path_to_file> <path_to_hardlink>

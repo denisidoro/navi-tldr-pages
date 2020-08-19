@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/solo.md
+
+% solo, common
+
+# List connected Solos
+solo ls
+
+# Update the currently connected Solo's firmware to the latest version
+solo key update
+
+# Blink the led of a specific Solo
+solo key wink --serial <serial_number>
+
+# Generate random bytes using the currently connected Solo's secure random number generator
+solo key rng raw
+
+# Monitor the serial output of a Solo
+solo monitor <path_to_serial_port>

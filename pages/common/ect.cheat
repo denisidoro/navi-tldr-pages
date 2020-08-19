@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ect.md
+
+% ect, common
+
+# Compress a file
+ect <filename_png>
+
+# Compress a file with the highest compression level and multithreading
+ect -9 --mt-deflate <filename_png>
+
+# Compress all the files in a directory recursively, keeping the original modification time
+ect -keep -recurse <directory>

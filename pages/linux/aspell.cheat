@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aspell.md
+
+% aspell, linux
+
+# Spell check a single file
+aspell check <path_to_file>
+
+# List misspelled words from standard input
+cat <file> | aspell list
+
+# Show available dictionary languages
+aspell dicts
+
+# Run aspell with different language (takes two letter ISO 639 language code)
+aspell --lang=<cs>
+
+# List misspelled words from standard input and ignore words from personal word list
+cat <file> | aspell --personal=<personal_word_list_pws> <list>

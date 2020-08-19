@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/diff3.md
+
+% diff3, linux
+
+# Compare files
+diff3 <file1> <file2> <file3>
+
+# Show all changes, outlining conflicts
+diff3 --show-all <file1> <file2> <file3>

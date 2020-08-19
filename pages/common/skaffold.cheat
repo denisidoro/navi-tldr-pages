@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/skaffold.md
+
+% skaffold, common
+
+# Build the artifacts
+skaffold build -f <skaffold_yaml>
+
+# Build and deploy your app every time your code changes
+skaffold dev -f <skaffold_yaml>
+
+# Run a pipeline file
+skaffold run -f <skaffold_yaml>
+
+# Run a diagnostic on Skaffold
+skaffold diagnose -f <skaffold_yaml>
+
+# Deploy the artifacts
+skaffold deploy -f <skaffold_yaml>

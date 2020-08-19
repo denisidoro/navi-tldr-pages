@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ufraw-batch.md
+
+% ufraw-batch, common
+
+# Simply convert RAW files to jpg
+ufraw-batch --out-type=jpg <input_file_s_>
+
+# Simply convert RAW files to png
+ufraw-batch --out-type=png <input_file_s_>
+
+# Extract the preview image from the raw file
+ufraw-batch --embedded-image <input_file_s_>
+
+# Save the file with size up to the given maximums MAX1 and MAX2
+ufraw-batch --size=MAX1,MAX2 <input_file_s_>

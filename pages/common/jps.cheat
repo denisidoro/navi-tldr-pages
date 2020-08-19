@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jps.md
+
+% jps, common
+
+# List all JVM processes
+jps
+
+# List all JVM processes with only PID
+jps -q
+
+# Display the arguments passed to the processes
+jps -m
+
+# Display the full package name of all processes
+jps -l
+
+# Display the arguments passed to the JVM
+jps -v

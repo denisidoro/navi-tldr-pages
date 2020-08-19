@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/espeak.md
+
+% espeak, common
+
+# Speak a phrase aloud
+espeak "I like to ride my bike."
+
+# Speak a file aloud
+espeak -f <filename>
+
+# Save output to a WAV audio file, rather than speaking it directly
+espeak -w <filename_wav> "It's GNU plus Linux"
+
+# Use a different voice
+espeak -v <voice>

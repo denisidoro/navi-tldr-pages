@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vagrant.md
+
+% vagrant, common
+
+# Create Vagrantfile in current directory with the base Vagrant box
+vagrant init
+
+# Create Vagrantfile with the Ubuntu 14.04 (Trusty Tahr) box from HashiCorp Atlas
+vagrant init ubuntu/trusty32
+
+# Start and provision the vagrant environment
+vagrant up
+
+# Suspend the machine
+vagrant suspend
+
+# Halt the machine
+vagrant halt
+
+# Connect to machine via SSH
+vagrant ssh

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/chromium.md
+
+% chromium, common
+
+# Open a file
+chromium <path_to_file_html>
+
+# Open an URL
+chromium <example_com>
+
+# Open in incognito mode
+chromium --incognito <example_com>
+
+# Open in a new window
+chromium --new-window <example_com>
+
+# Open in app mode (without toolbars, URL bar, buttons, etc.)
+chromium --app='<https___example_com>'
+
+# Use a proxy server
+chromium --proxy-server="<socks5___hostname_66>" <example_com>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hping.md
+
+% hping, common
+
+# Ping localhost over TCP
+hping3 <localhost>
+
+# Ping an IP address over TCP on a specific port
+hping3 -p <80> -S <192_168_1_1>
+
+# Ping an IP address over UDP on port 80
+hping3 --udp -p <80> -S <192_168_1_1>
+
+# Scan a set of TCP ports on a specific IP address
+hping3 --scan <80_3000_9000> -S <192_168_1_1>
+
+# Perform a charge test on port 80
+hping3 --flood -p <80> -S <192_168_1_1>

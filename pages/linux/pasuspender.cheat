@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pasuspender.md
+
+% pasuspender, linux
+
+# Suspend pulseaudio while running `jackd`
+pasuspender -- {{jackd -d alsa --device hw:0}}

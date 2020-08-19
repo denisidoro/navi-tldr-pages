@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/tcpkill.md
+
+% tcpkill, linux
+
+# Kill in-progress connections at a specified interface, host and port
+tcpkill -i <eth1> host <192_95_4_27> and port <2266>

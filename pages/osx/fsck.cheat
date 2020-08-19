@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/fsck.md
+
+% fsck, osx
+
+# Check filesystem /dev/sda, reporting any damaged blocks
+fsck <_dev_sda>
+
+# Check filesystem /dev/sda only if it is clean, reporting any damaged blocks and interactively letting the user choose to repair each one
+fsck -f <_dev_sda>
+
+# Check filesystem /dev/sda only if it is clean, reporting any damaged blocks and automatically repairing them
+fsck -fy <_dev_sda>
+
+# Check filesystem /dev/sda, reporting whether it has been cleanly unmounted
+fsck -q <_dev_sda>

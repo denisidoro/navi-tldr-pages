@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/unison.md
+
+% unison, common
+
+# Sync two directories (creates log first time these two directories are synchronised)
+unison <path_to_directory_1> <path_to_directory_2>
+
+# Automatically accept the (non-conflicting) defaults
+unison <path_to_directory_1> <path_to_directory_2> -auto
+
+# Ignore some files using a pattern
+unison <path_to_directory_1> <path_to_directory_2> -ignore <pattern>
+
+# Show documentation
+unison -doc <topics>

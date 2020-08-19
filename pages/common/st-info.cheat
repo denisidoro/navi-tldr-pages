@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/st-info.md
+
+% st-info, common
+
+# Display amount of program memory available
+st-info --flash
+
+# Display amount of sram memory available
+st-info --sram
+
+# Display summarized information of the device
+st-info --probe

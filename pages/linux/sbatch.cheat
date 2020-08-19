@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sbatch.md
+
+% sbatch, linux
+
+# Submit a batch job
+sbatch <path_to_job_sh>
+
+# Submit a batch job with a custom name
+sbatch --job-name=<myjob> <path_to_job_sh>
+
+# Submit a batch job with a time limit of 30 minutes
+sbatch --time=<00_30_00> <path_to_job_sh>
+
+# Submit a job and request multiple nodes
+sbatch --nodes=<3> <path_to_job_sh>

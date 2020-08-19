@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fallocate.md
+
+% fallocate, linux
+
+# Reserve a file taking up 700MB of disk space
+fallocate --length <700M> <path_to_file>
+
+# Shrink an already allocated file by 200MB
+fallocate --collapse-range --length <200M> <path_to_file>
+
+# Shrink 20MB of space after 100MB in a file
+fallocate --collapse-range --offset <100M> --length <20M> <path_to_file>

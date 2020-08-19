@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvlook.md
+
+% csvlook, common
+
+# View a CSV file
+csvlook <data_csv>

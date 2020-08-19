@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/http.md
+
+% http, common
+
+# Download a URL to a file
+http -d <example_org>
+
+# Send form-encoded data
+http -f <example_org> <name__bob_> <profile_picture__bob_png_>
+
+# Send JSON object
+http <example_org> <name__bob_>
+
+# Specify an HTTP method
+http <HEAD> <example_org>
+
+# Include an extra header
+http <example_org> <X_MyHeader_123>
+
+# Pass a user name and password for server authentication
+http -a <username_password> <example_org>
+
+# Specify raw request body via `stdin`
+cat <data_txt> | http PUT <example_org>

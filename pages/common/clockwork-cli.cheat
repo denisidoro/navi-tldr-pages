@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/clockwork-cli.md
+
+% clockwork-cli, common
+
+# Monitor Clockwork logs for the current project
+clockwork-cli
+
+# Monitor Clockwork logs for a specific project
+clockwork-cli <path_to_directory>
+
+# Monitor Clockwork logs for multiple projects
+clockwork-cli {{path/to/directory1 path/to/directory2 …}}

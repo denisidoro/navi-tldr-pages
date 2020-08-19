@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phploc.md
+
+% phploc, common
+
+# Analyse a directory and print the result
+phploc <path_to_directory>
+
+# Include only specific files from a comma-separated list (globs are allowed)
+phploc <path_to_directory> --names <files>
+
+# Exclude specific files from a comma-separated list (globs are allowed)
+phploc <path_to_directory> --names-exclude <files>
+
+# Exclude a specific directory from analysis
+phploc <path_to_directory> --exclude <path_to_exclude_directory>
+
+# Log the results to a specific CSV file
+phploc <path_to_directory> --log-csv <path_to_file>
+
+# Log the results to a specific XML file
+phploc <path_to_directory> --log-xml <path_to_file>
+
+# Count PHPUnit test case classes and test methods
+phploc <path_to_directory> --count-tests

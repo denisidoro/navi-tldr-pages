@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/http-prompt.md
+
+% http-prompt, linux
+
+# Launch a session targeting the default url of http://localhost:8000 or the previous session
+http-prompt
+
+# Launch a session with a given url
+http-prompt <http___example_com>
+
+# Launch a session with some initial options
+http-prompt <localhost_8000_api> --auth <username_password>

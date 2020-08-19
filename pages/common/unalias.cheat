@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/unalias.md
+
+% unalias, common
+
+# Remove an alias
+unalias <alias_name>
+
+# Remove all aliases
+unalias -a

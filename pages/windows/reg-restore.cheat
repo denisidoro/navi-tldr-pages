@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/reg-restore.md
+
+% reg-restore, windows
+
+# Overwrite a specified key with data from a backup file
+reg restore <key_name> <path_to_file>

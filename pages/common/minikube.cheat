@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/minikube.md
+
+% minikube, common
+
+# Start the cluster
+minikube start
+
+# Get the IP address of the cluster
+minikube ip
+
+# Access a service named my_service exposed via a node port and get the url
+minikube service <my_service> --url
+
+# Open kubernetes dashboard in a browser
+minikube dashboard

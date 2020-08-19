@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pkgrm.md
+
+% pkgrm, linux
+
+# Remove an installed package
+pkgrm <package_name>

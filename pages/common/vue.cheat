@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vue.md
+
+% vue, common
+
+# Create a new vue project interactively
+vue create <project_name>
+
+# Create a new project with web UI
+vue ui

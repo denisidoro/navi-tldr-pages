@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpcpd.md
+
+% phpcpd, common
+
+# Analyse duplicated code for a specific file or directory
+phpcpd <path_to_file_or_directory>
+
+# Analyse using fuzzy matching for variable names
+phpcpd --fuzzy <path_to_file_or_directory>
+
+# Specify a minimum number of identical lines (defaults to 5)
+phpcpd --min-lines <number_of_lines> <path_to_file_or_directory>
+
+# Specify a minimum number of identical tokens (defaults to 70)
+phpcpd --min-tokens <number_of_tokens> <path_to_file_or_directory>
+
+# Exclude a directory from analysis (must be relative to the source)
+phpcpd --exclude <path_to_excluded_directory> <path_to_file_or_directory>
+
+# Output the results to a PHP-CPD XML file
+phpcpd --log-pmd <path_to_log_file> <path_to_file_or_directory>

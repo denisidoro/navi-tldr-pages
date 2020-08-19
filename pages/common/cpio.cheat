@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cpio.md
+
+% cpio, common
+
+# Take a list of file names from standard input and add them [o]nto an archive in cpio's binary format
+echo "<file1> <file2> <file3>" | cpio -o > <archive_cpio>
+
+# Copy all files and directories in a directory and add them [o]nto an archive, in [v]erbose mode
+find <path_to_directory> | cpio -ov > <archive_cpio>
+
+# P[i]ck all files from an archive, generating [d]irectories where needed, in [v]erbose mode
+cpio -idv < <archive_cpio>

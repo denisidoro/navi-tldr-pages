@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lscpu.md
+
+% lscpu, linux
+
+# Display information about all CPUs
+lscpu
+
+# Display information in a table
+lscpu --extended
+
+# Display only information about offline CPUs in a table
+lscpu --extended --offline

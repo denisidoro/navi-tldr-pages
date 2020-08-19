@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hg-add.md
+
+% hg-add, common
+
+# Add files or directories to the staging area
+hg add <path_to_file>
+
+# Add all unstaged files matching a specified pattern
+hg add --include <pattern>
+
+# Add all unstaged files, excluding those that match a specified pattern
+hg add --exclude <pattern>
+
+# Recursively add sub-repositories
+hg add --subrepos
+
+# Perform a test-run without performing any actions
+hg add --dry-run

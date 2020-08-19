@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wormhole.md
+
+% wormhole, common
+
+# Send a file
+wormhole send <path_to_file>
+
+# Receive a file
+wormhole receive <wormhole_code>
+
+# Send raw text
+wormhole send

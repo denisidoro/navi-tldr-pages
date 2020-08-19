@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sqlite3.md
+
+% sqlite3, common
+
+# Start an interactive shell with a new database
+sqlite3
+
+# Open an interactive shell against an existing database
+sqlite3 <path_to_database_sqlite3>
+
+# Execute an SQL statement against a database and then exit
+sqlite3 <path_to_database_sqlite3> '{{SELECT * FROM some_table;}}'

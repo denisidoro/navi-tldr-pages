@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/objdump.md
+
+% objdump, common
+
+# Display the file header information
+objdump -f <binary>
+
+# Display the dis-assembled output of executable sections
+objdump -d <binary>
+
+# Display a complete binary hex dump of all sections
+objdump -s <binary>

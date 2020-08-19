@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/cmstp.md
+
+% cmstp, windows
+
+# Install a specific profile
+cmstp "<path_to_profile>"
+
+# Install without creating a desktop shortcut
+cmstp /ns "<path_to_profile>"
+
+# Install without checking for dependencies
+cmstp /nf "<path_to_profile>"
+
+# Only install for the current user
+cmstp /su "<path_to_profile>"
+
+# Install for all users (requires administrator privileges)
+cmstp /au "<path_to_profile>"
+
+# Install silently without any prompts
+cmstp /s "<path_to_profile>"
+
+# Uninstall a specific profile
+cmstp /u "<path_to_profile>"
+
+# Uninstall silently without a confirmation prompt
+cmstp /u /s "<path_to_profile>"

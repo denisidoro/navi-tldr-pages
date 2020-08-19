@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/supervisord.md
+
+% supervisord, common
+
+# Start supervisord with specified configuration file
+supervisord -c <path_to_file>
+
+# Run supervisord in the foreground
+supervisord -n

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/swapoff.md
+
+% swapoff, linux
+
+# Disable a given swap partition
+swapoff <_dev_sdb7>
+
+# Disable a given swap file
+swapoff <path_to_file>
+
+# Disable all swap areas
+swapoff -a
+
+# Disable swap by label of a device or file
+swapoff -L <swap1>

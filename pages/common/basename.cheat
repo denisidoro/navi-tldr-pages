@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/basename.md
+
+% basename, common
+
+# Show only the file name from a path
+basename <path_to_file>
+
+# Show only the file name from a path, with a suffix removed
+basename <path_to_file> <suffix>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/duplicity.md
+
+% duplicity, common
+
+# Backup a directory via FTPS to a remote machine, encrypting it with a password
+FTP_PASSWORD=<ftp_login_password> PASSPHRASE=<encryption_password> duplicity <path_to_source_directory> <ftps___user_hostname_target_directory_path_>
+
+# Backup a directory to Amazon S3, doing a full backup every month
+duplicity --full-if-older-than <1M> --use-new-style s3://{{bucket_name[/prefix]}}
+
+# Delete versions older than 1 year from a backup stored on a WebDAV share
+FTP_PASSWORD=<webdav_login_password> duplicity remove-older-than <1Y> --force {{webdav[s]://user@hostname[:port]/some_dir}}
+
+# List the available backups
+duplicity collection-status "file://<absolute_path_to_backup_directory>"
+
+# List the files in a backup stored on a remote machine, via ssh
+duplicity list-current-files --time <YYYY_MM_DD> scp://<user_hostname>/path/to/backup/dir
+
+# Restore a subdirectory from a GnuPG-encrypted local backup to a given location
+PASSPHRASE=<gpg_key_password> duplicity restore --encrypt-key <gpg_key_id> --file-to-restore <relative_path_restoredirectory> file://<absolute_path_to_backup_directory> <path_to_directory_to_restore_to>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/hardinfo.md
+
+% hardinfo, linux
+
+# Start hardinfo
+hardinfo
+
+# Print report to standard output
+hardinfo -r
+
+# Save report to HTML file
+hardinfo -r -f html > hardinfo.html

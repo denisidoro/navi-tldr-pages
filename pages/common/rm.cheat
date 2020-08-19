@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rm.md
+
+% rm, common
+
+# Remove files from arbitrary locations
+rm <path_to_file> <path_to_another_file>
+
+# Recursively remove a directory and all its subdirectories
+rm -r <path_to_directory>
+
+# Forcibly remove a directory, without prompting for confirmation or showing error messages
+rm -rf <path_to_directory>
+
+# Interactively remove multiple files, with a prompt before every removal
+rm -i <file_s_>
+
+# Remove files in verbose mode, printing a message for each removed file
+rm -v {{path/to/directory/*}}

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/comp.md
+
+% comp, windows
+
+# Compare files interactively
+comp
+
+# Compare two specified files
+comp <path_to_file_1> <path_to_file_2>
+
+# Compare two sets of files
+comp {{path/to/directory_1/*}} {{path/to/directory_2/*}}
+
+# Display differences in decimal format
+comp /d <path_to_file_1> <path_to_file_2>
+
+# Display differences in ASCII format
+comp /a <path_to_file_1> <path_to_file_2>
+
+# Display line numbers for differences
+comp /l <path_to_file_1> <path_to_file_2>
+
+# Compare files case-insensitively
+comp /c <path_to_file_1> <path_to_file_2>
+
+# Compare only the first 5 lines of each file
+comp /n=<5> <path_to_file_1> <path_to_file_2>

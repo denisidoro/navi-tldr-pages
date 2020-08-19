@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/f3fix.md
+
+% f3fix, common
+
+# Fill a fake flash drive with a single partition that matches its real capacity
+sudo f3fix <_dev_device_name>
+
+# Mark the partition as bootable
+sudo f3fix --boot <_dev_device_name>
+
+# Specify the filesystem
+sudo f3fix --fs-type=<filesystem_type> <_dev_device_name>

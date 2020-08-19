@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sync.md
+
+% sync, common
+
+# Flush all pending write operations on all disks
+sync
+
+# Flush all pending write operations on a single file to disk
+sync <path_to_file>

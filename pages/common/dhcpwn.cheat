@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dhcpwn.md
+
+% dhcpwn, common
+
+# Flood the network with IP requests
+dhcpwn --interface <network_interface> flood --count <number_of_requests>
+
+# Sniff local DHCP traffic
+dhcpwn --interface <network_interface> sniff

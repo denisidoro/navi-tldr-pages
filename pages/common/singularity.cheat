@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/singularity.md
+
+% singularity, common
+
+# Download a remote image from Sylabs Cloud
+singularity pull --name <image_sif> <library___godlovedc_funny_lolcow_latest>
+
+# Rebuild a remote image using latest Singularity image format
+singularity build <image_sif> <docker___godlovedc_lolcow>
+
+# Start a container from an image and get a shell inside of it
+singularity shell <image_sif>
+
+# Start a container from an image and run a command
+singularity exec <image_sif> <command>
+
+# Start a container from an image and execute the internal runscript
+singularity run <image_sif>
+
+# Build a singularity image from a recipe file
+sudo singularity build <image_sif> <recipe>

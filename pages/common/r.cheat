@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/r.md
+
+% r, common
+
+# Start an R interactive shell (REPL)
+R
+
+# Check R version
+R --version
+
+# Execute a file
+R -f <file_R>

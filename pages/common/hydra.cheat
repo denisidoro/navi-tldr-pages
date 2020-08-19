@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hydra.md
+
+% hydra, common
+
+# Start Hydra's wizard
+hydra-wizard
+
+# Guess SSH credentials using a given username and a list of passwords
+hydra -l <username> -P <path_to_wordlist_txt> <host_ip> <ssh>
+
+# Guess Telnet credentials using a list of usernames and a single password, specifying a non-standard port and IPv6
+hydra -L <path_to_usernames_txt> -p <password> -s <port> -6 <host_ip> <telnet>
+
+# Guess FTP credentials using usernames and passwords lists, specifying the number of threads
+hydra -L <path_to_usernames_txt> -P <path_to_wordlist_txt> -t <n_tasks> <host_ip> <ftp>
+
+# Guess MySQL credentials using a username and a passwords list, exiting when a username/password pair is found
+hydra -l <username> -P <path_to_wordlist_txt> -f <host_ip> <mysql>
+
+# Guess RDP credentials using a username and a passwords list, showing each attempt
+hydra -l <username> -P <path_to_wordlist_txt> -V <rdp___host_ip>
+
+# Guess IMAP credentials on a range of hosts using a list of colon-separated username/password pairs
+hydra -C <path_to_username_password_pairs_txt> {{imap://[host_range_cidr]}}
+
+# Guess POP3 credentials on a list of hosts using usernames and passwords lists, exiting when a username/password pair is found
+hydra -L <path_to_usernames_txt> -P <path_to_wordlist_txt> -M <path_to_hosts_txt> -F <pop3>

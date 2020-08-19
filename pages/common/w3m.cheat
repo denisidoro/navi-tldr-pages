@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/w3m.md
+
+% w3m, common
+
+# Open a URL
+w3m <http___example_com>
+
+# Open a URL in monochrome mode
+w3m <http___example_com> -M
+
+# Open a URL without mouse support
+w3m <http___example_com> --no-mouse
+
+# Open a new browser tab
+Shift + T
+
+# Display your browser history
+Ctrl + H
+
+# Quit w3m
+'q' then 'y'

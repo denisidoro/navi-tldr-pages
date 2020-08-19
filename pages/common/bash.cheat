@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bash.md
+
+% bash, common
+
+# Start interactive shell
+bash
+
+# Execute a command
+bash -c "<command>"
+
+# Run commands from a file
+bash <file_sh>
+
+# Run commands from a file, logging all commands executed to the terminal
+bash -x <file_sh>
+
+# Run commands from a file, stopping at the first error
+bash -e <file_sh>
+
+# Run commands from `stdin`
+bash -s
+
+# Print the version information of bash (use `echo $BASH_VERSION` to show just the version string)
+bash --version

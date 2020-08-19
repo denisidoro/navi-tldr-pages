@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sensors.md
+
+% sensors, linux
+
+# Show the current readings of all sensor chips
+sensors
+
+# Show temperatures in degrees Fahrenheit
+sensors --fahrenheit

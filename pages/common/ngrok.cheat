@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ngrok.md
+
+% ngrok, common
+
+# Expose a local HTTP service on a given port
+ngrok http <80>
+
+# Expose a local HTTP service on a specific host
+ngrok http <foo_dev>:<80>
+
+# Expose a local HTTPS server
+ngrok http https://localhost
+
+# Expose TCP traffic on a given port
+ngrok tcp <22>
+
+# Expose TLS traffic for a specific host and port
+ngrok tls -hostname=<foo_com> <443>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/postcss.md
+
+% postcss, common
+
+# Parse and transform a CSS file
+postcss <path_to_file>
+
+# Parse and transform a CSS file and output to a specific file
+postcss <path_to_file> --output <path_to_file>
+
+# Parse and transform a CSS file and output to a specific directory
+postcss <path_to_file> --dir <path_to_directory>
+
+# Parse and transform a CSS file in-place
+postcss <path_to_file> --replace
+
+# Specify a custom PostCSS parser
+postcss <path_to_file> --parser <parser>
+
+# Specify a custom PostCSS syntax
+postcss <path_to_file> --syntax <syntax>
+
+# Watch for changes to a CSS file
+postcss <path_to_file> --watch
+
+# Display available options and examples
+postcss --help

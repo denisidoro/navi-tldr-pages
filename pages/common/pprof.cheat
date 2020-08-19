@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pprof.md
+
+% pprof, common
+
+# Generate a text report from a specific profiling file, on fibbo binary
+pprof -top <__fibbo> <__fibbo_profile_pb_gz>
+
+# Generate a graph and open it on a web browser
+pprof -svg <__fibbo> <__fibbo_profile_pb_gz>
+
+# Run pprof in interactive mode to be able to manually launch `pprof` on a file
+pprof <__fibbo> <__fibbo_profile_pb_gz>
+
+# Run a web server that serves a web interface on top of `pprof`
+pprof -http=<localhost_8080> <__fibbo> <__fibbo_profile_pb_gz>
+
+# Fetch a profile from an HTTP server and generate a report
+pprof <http___localhost_8080_debug_pprof>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/apt-file.md
+
+% apt-file, linux
+
+# Update the metadata database
+sudo apt update
+
+# Search for packages that contain the specified file or path
+apt-file search <part_of_filename>
+
+# List the contents of a specific package
+apt-file list <package_name>

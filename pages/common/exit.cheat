@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/exit.md
+
+% exit, common
+
+# Exit the shell with the exit code of the last command executed
+exit
+
+# Exit the shell with the specified exit code
+exit <exit_code>

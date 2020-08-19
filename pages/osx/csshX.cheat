@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/csshX.md
+
+% csshX, osx
+
+# Connect to multiple hosts
+csshX <hostname1> <hostname2>
+
+# Connect to multiple hosts with a given SSH key
+csshX <user_hostname1> <user_hostname2> '--ssh_args' '-i <path_to_ssh_key_pem>'
+
+# Connect to a pre-defined cluster from /etc/clusters
+csshX cluster1

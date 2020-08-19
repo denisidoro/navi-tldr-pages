@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pstree.md
+
+% pstree, linux
+
+# Display a tree of processes
+pstree
+
+# Display a tree of processes with PIDs
+pstree -p
+
+# Display all process trees rooted at processes owned by specified user
+pstree <user>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkfs.minix.md
+
+% mkfs.minix, linux
+
+# Create a Minix filesystem inside partition 1 on device b (`sdb1`)
+mkfs.minix <_dev_sdb1>

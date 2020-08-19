@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sysctl.md
+
+% sysctl, linux
+
+# Show all available variables and their values
+sysctl -a
+
+# Set a changeable kernel state variable
+sysctl -w <section_tunable>=<value>
+
+# Get currently open file handlers
+sysctl fs.file-nr
+
+# Get limit for simultaneous open files
+sysctl fs.file-max
+
+# Apply changes from /etc/sysctl.conf
+sysctl -p

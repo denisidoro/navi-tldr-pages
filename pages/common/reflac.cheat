@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/reflac.md
+
+% reflac, common
+
+# Recompress a directory of FLAC files
+reflac <path_to_directory>
+
+# Enable maximum compression (very slow)
+reflac --best <path_to_directory>
+
+# Display filenames as they are processed
+reflac --verbose <path_to_directory>
+
+# Recurse into subdirectories
+reflac --recursive <path_to_directory>
+
+# Perserve file modification times
+reflac --preserve <path_to_directory>

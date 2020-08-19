@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/chgrp.md
+
+% chgrp, common
+
+# Change the owner group of a file/directory
+chgrp <group> <path_to_file_or_directory>
+
+# Recursively change the owner group of a directory and its contents
+chgrp -R <group> <path_to_directory>
+
+# Change the owner group of a symbolic link
+chgrp -h <group> <path_to_symlink>
+
+# Change the owner group of a file/directory to match a reference file
+chgrp --reference=<path_to_reference_file> <path_to_file_or_directory>

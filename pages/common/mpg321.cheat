@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mpg321.md
+
+% mpg321, common
+
+# Play an audio source exactly N times (N=0 means forever)
+mpg321 -l <N> <path_to_file_a_URL> <path_to_file_b_URL> <___>
+
+# Play a directory recursively
+mpg321 -B <path_to_directory>
+
+# Enable Basic Keys ( `*` or `/` - Increase or decrease volume, `n` - Skip song, `m` - Mute/unmute.) while playing
+mpg321 -K <path_to_file_a_URL> <path_to_file_b_URL> <___>
+
+# Play files randomly until interrupted
+mpg321 -Z <path_to_file_a_URL> <path_to_file_b_URL> <___>
+
+# Shuffle the files before playing them once
+mpg321 -z <path_to_file_a_URL> <path_to_file_b_URL> <___>
+
+# Play all files in the current folder and subfolders, randomly (until interrupted), with Basic Keys enabled
+mpg321 -B -Z -K .

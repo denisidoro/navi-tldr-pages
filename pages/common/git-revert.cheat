@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-revert.md
+
+% git-revert, common
+
+# Revert the most recent commit
+git revert <_>
+
+# Revert the 5th last commit
+git revert HEAD~<4>
+
+# Revert multiple commits
+git revert <master_5__master_2>
+
+# Don't create new commits, just change the working tree
+git revert -n <0c01a9__9a1743>

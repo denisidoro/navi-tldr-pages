@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virtualenv.md
+
+% virtualenv, common
+
+# Create a new environment
+virtualenv <path_to_venv>
+
+# Customize the prompt prefix
+virtualenv --prompt=<prompt_prefix> <path_to_venv>
+
+# Use a different version of Python with virtualenv
+virtualenv --python=<path_to_pythonbin> <path_to_venv>
+
+# Start (select) the environment
+source <path_to_venv>/bin/activate
+
+# Stop the environment
+deactivate

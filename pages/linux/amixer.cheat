@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/amixer.md
+
+% amixer, linux
+
+# Turn up the master volume by 10%
+amixer -D pulse sset Master <10__>
+
+# Turn down the master volume by 10%
+amixer -D pulse sset Master <10__>

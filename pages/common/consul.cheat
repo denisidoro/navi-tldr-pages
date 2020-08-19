@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/consul.md
+
+% consul, common
+
+# Check the Consul version
+consul --version
+
+# Show general help
+consul --help
+
+# Show help for a sub-command
+consul <sub_command> --help

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/tasklist.md
+
+% tasklist, windows
+
+# Display currently running processes
+tasklist
+
+# Display running processes in a specified output format
+tasklist /fo <table_list_csv>
+
+# Display running processes using the specified `.exe` or `.dll` file name
+tasklist /m <module_pattern>
+
+# Display processes running on a remote machine
+tasklist /s <remote_name> /u <username> /p <password>
+
+# Display services using each process
+tasklist /svc

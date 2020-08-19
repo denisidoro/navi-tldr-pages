@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gofmt.md
+
+% gofmt, common
+
+# Format a file and display the result to the console
+gofmt <source_go>
+
+# Format a file, overwriting the original file in-place
+gofmt -w <source_go>
+
+# Format a file, and then simplify the code, overwriting the original file
+gofmt -s -w <source_go>
+
+# Print all (including spurious) errors
+gofmt -e <source_go>

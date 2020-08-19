@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpbu.md
+
+% phpbu, common
+
+# Run backups using the default "phpbu.xml" configuration file
+phpbu
+
+# Run backups using a specific configuration file
+phpbu --configuration=<path_to_configuration_file_xml>
+
+# Only run the specified backups
+phpbu --limit=<backup_task_name>
+
+# Simulate the actions that would have been performed
+phpbu --simulate

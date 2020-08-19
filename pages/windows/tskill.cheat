@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/tskill.md
+
+% tskill, windows
+
+# Terminate a process by its process identifier
+tskill <process_id>
+
+# Terminate a process by its name
+tskill <process_name>

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/trash.md
+
+% trash, linux
+
+# Delete a file (send to trash)
+trash <path_to_file>
+
+# List files in trash
+trash-list
+
+# Restore file from trash
+trash-restore
+
+# Empty trash
+trash-empty
+
+# Empty trash, keeping files trashed less than <10> days ago
+trash-empty <10>
+
+# Remove all files named 'foo' from the trash
+trash-rm foo
+
+# Remove all files with a given original location
+trash-rm <_absolute_path_to_file_or_directory>

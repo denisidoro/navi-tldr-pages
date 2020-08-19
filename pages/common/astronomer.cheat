@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/astronomer.md
+
+% astronomer, common
+
+# Scan a repository
+astronomer <tldr_pages_tldr_node_client>
+
+# Scan the maximum amount of stars in the repository
+astronomer <tldr_pages_tldr_node_client> --stars <50>
+
+# Scan a repository including comparative reports
+astronomer <tldr_pages_tldr_node_client> --verbose

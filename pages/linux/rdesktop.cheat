@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rdesktop.md
+
+% rdesktop, linux
+
+# Connect to a remote computer (default port is 3389)
+rdesktop -u <username> -p <password> <host_port>
+
+# Simple Examples
+rdesktop -u Administrator -p passwd123 192.168.1.111:3389
+
+# Connect to a remote computer with full screen (press `Ctrl + Alt + Enter` to exist)
+rdesktop -u <username> -p <password> -f <host_port>
+
+# Use the customed resolution (use the letter 'x' between the number)
+rdesktop -u <username> -p <password> -g 1366x768 <host_port>
+
+# Connect to a remote computer using domain user
+rdesktop -u <username> -p <password> -d <domainname> <host_port>
+
+# Use the 16 bit color (speed up)
+rdesktop -u <username> -p <password> -a 16 <host_port>

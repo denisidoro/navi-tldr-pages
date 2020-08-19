@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/msg.md
+
+% msg, windows
+
+# Send a message to a specified user or session
+msg <username_session_name_session_id> <message>
+
+# Send a message from `stdin`
+echo "<message>" | msg <username_session_name_session_id>
+
+# Send a message to a specific server
+msg /server:<server_name> <username_session_name_session_id>
+
+# Send a message to all users of the current machine
+msg *
+
+# Set a delay in seconds for a message
+msg /time:<seconds>

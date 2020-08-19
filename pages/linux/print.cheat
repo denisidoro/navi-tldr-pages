@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/print.md
+
+% print, linux
+
+# Print action can be used to print any file on default run-mailcap tool
+print <filename>
+
+# With `run-mailcap`
+run-mailcap --action=print <filename>

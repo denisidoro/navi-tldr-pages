@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/viewnior.md
+
+% viewnior, linux
+
+# View an image
+viewnior <path_to_image_ext>
+
+# View in fullscreen mode
+viewnior --fullscreen <path_to_image_ext>
+
+# View fullscreen in slideshow mode
+viewnior --slideshow <path_to_image_ext>

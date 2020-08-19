@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gitk.md
+
+% gitk, common
+
+# Show the repository browser for the current git repository
+gitk
+
+# Show repository browser for a specific file or directory
+gitk <path_to_file_or_directory>
+
+# Show commits made since 1 week ago
+gitk --since={{"1 week ago"}}
+
+# Show commits older than 1/1/2016
+gitk --until=<_1_1_2015_>
+
+# Show at most 100 changes in all branches
+ gitk --max-count=<100> --all

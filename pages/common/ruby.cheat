@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ruby.md
+
+% ruby, common
+
+# Open an Interactive Ruby Shell (REPL)
+irb
+
+# Execute a Ruby script
+ruby <script_rb>
+
+# Execute a single Ruby command in the command line
+ruby -e <command>
+
+# Check for syntax errors on a given Ruby script
+ruby -c <script_rb>
+
+# Show the version of Ruby you are using
+ruby -v

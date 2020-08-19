@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcalcli.md
+
+% gcalcli, common
+
+# List your events for all your calendars over the next 7 days
+gcalcli agenda
+
+# Show events starting from or between specific dates (also takes relative dates e.g. "tomorrow")
+gcalcli agenda <mm_dd> [<mm_dd>]
+
+# List events from a specific calendar
+gcalcli --calendar <calendar_name> agenda
+
+# Display an ASCII calendar of events by week
+gcalcli calw
+
+# Display an ASCII calendar of events for a month
+gcalcli calm
+
+# Quick-add an event to your calendar
+gcalcli --calendar <calendar_name> quick "<mm_dd> <HH_MM> <event_name>"
+
+# Add an event to calendar. Triggers interactive prompt
+gcalcli --calendar "<calendar_name>" add

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/id3tag.md
+
+% id3tag, common
+
+# Set artist and title tag of an MP3 file
+id3tag --artist=<artist> --title=<title> <path_to_file_mp3>
+
+# Set album title of all MP3 files in the current directory
+id3tag --album=<album> {{*.mp3}}
+
+# Get more help
+id3tag --help

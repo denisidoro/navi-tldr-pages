@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gnuplot.md
+
+% gnuplot, common
+
+# Start the interactive graph plotting shell
+gnuplot
+
+# Plot the graph for the specified graph definition file
+gnuplot <path_to_definition_plt>
+
+# Set the output format by executing a command before loading the definition file
+gnuplot -e "{{set output "path/to/filename.png" size 1024,768}}" <path_to_definition_plt>
+
+# Persist the graph plot preview window after gnuplot exits
+gnuplot --persist <path_to_definition_plt>

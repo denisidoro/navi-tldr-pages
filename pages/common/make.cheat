@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/make.md
+
+% make, common
+
+# Call the first target specified in the Makefile (usually named "all")
+make
+
+# Call a specific target
+make <target>
+
+# Call a specific target, executing 4 jobs at a time in parallel
+make -j<4> <target>
+
+# Use a specific Makefile
+make --file <file>
+
+# Execute make from another directory
+make --directory <directory>
+
+# Force making of a target, even if source files are unchanged
+make --always-make <target>

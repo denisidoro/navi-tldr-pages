@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/whatis.md
+
+% whatis, osx
+
+# Search for informations about keyword
+whatis <keyword>
+
+# Search for information about multiple keywords
+whatis <first_keyword> <second_keyword>

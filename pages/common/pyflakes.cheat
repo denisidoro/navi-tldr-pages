@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pyflakes.md
+
+% pyflakes, common
+
+# Check a single Python file
+pyflakes check <path_to_file>.py
+
+# Check Python files in a specific directory
+pyflakes checkPath <path_to_directory>
+
+# Check Python files in a directory recursively
+pyflakes checkRecursive <path_to_directory>
+
+# Check all Python files found in multiple directories
+pyflakes iterSourceCode <path_to_directory_1> <path_to_directory_2>

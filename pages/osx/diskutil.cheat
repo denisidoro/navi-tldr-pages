@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/diskutil.md
+
+% diskutil, osx
+
+# List all currently available disks, partitions and mounted volumes
+diskutil list
+
+# Repair the file system data structures of a volume
+diskutil repairVolume <_dev_diskX>
+
+# Unmount a volume
+diskutil unmountDisk <_dev_diskX>
+
+# Eject a CD/DVD (unmount first)
+diskutil eject <_dev_disk1>

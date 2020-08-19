@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/balena.md
+
+% balena, common
+
+# Login to the balenaCloud account
+balena login
+
+# Create a balenaCloud or openBalena application
+balena app create <app_name>
+
+# List all balenaCloud or openBalena applications within the account
+balena apps
+
+# List all devices associated with the balenaCloud or openBalena account
+balena devices
+
+# Flash a balenaOS image to a local drive
+balena local flash <path_to_balenaos_img> --drive <drive_location>

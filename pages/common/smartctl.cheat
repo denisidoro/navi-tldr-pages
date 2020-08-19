@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/smartctl.md
+
+% smartctl, common
+
+# View SMART health summary
+sudo smartctl --health <_dev_sda>
+
+# View device information
+sudo smartctl --info <_dev_sda>
+
+# Begin a short self-test
+sudo smartctl --test short <_dev_sda>
+
+# View current/last self-test status and other SMART capabilities
+sudo smartctl --capabilities <_dev_sda>
+
+# View SMART self-test log (if supported)
+sudo smartctl --log selftest <_dev_sda>

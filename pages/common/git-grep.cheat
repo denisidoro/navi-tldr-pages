@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-grep.md
+
+% git-grep, common
+
+# Search for a string in tracked files
+git grep <search_string>
+
+# Search for a string in files matching a pattern in tracked files
+git grep <search_string> -- <file_glob_pattern>
+
+# Search for a string in tracked files, including submodules
+git grep --recurse-submodules <search_string>
+
+# Search for a string at a specific point in history
+git grep <search_string> <HEAD_2>
+
+# Search for a string across all branches
+git grep <search_string> $(git rev-list --all)

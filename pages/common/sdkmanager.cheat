@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sdkmanager.md
+
+% sdkmanager, common
+
+# List available packages
+sdkmanager --list
+
+# Install a package
+sdkmanager <package>
+
+# Update every installed package
+sdkmanager --update
+
+# Uninstall a package
+sdkmanager --uninstall <package>

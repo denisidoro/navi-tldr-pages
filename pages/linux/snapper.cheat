@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/snapper.md
+
+% snapper, linux
+
+# List snapshot configs
+snapper list-configs
+
+# Create snapper config
+snapper -c <config> create-config <path_to_directory>
+
+# Create a snapshot with a description
+snapper -c <config> create -d <_snapshot_description_>
+
+# List snapshots for a config
+snapper -c <config> list
+
+# Delete a snapshot
+snapper -c <config> delete <snapshot_number>
+
+# Delete a range of snapshots
+snapper -c <config> delete <snapshot_X>-<snapshot_Y>

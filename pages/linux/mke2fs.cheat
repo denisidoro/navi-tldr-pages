@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mke2fs.md
+
+% mke2fs, linux
+
+# Create an ext2 filesystem in partition 1 of device b (`sdb1`)
+mkfs.ext2 <_dev_sdb1>
+
+# Create an ext3 filesystem in partition 1 of device b (`sdb1`)
+mkfs.ext3 <_dev_sdb1>
+
+# Create an ext3 filesystem in partition 1 of device b (`sdb1`)
+mkfs.ext3 <_dev_sdb1>

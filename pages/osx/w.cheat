@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/w.md
+
+% w, osx
+
+# Show logged-in users info
+w
+
+# Show logged-in users info without a header
+w -h
+
+# Show info about logged-in users, sorted by their idle time
+w -i

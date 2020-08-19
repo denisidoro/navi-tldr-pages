@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bison.md
+
+% bison, common
+
+# Compile a bison definition file
+bison <path_to_file_y>
+
+# Compile in debug mode, which causes the resulting parser to write additional information to the standard output
+bison --debug <path_to_file_y>
+
+# Specify the output filename
+bison --output <path_to_output_c> <path_to_file_y>
+
+# Be verbose when compiling
+bison --verbose

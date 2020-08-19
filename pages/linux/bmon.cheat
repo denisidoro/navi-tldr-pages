@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bmon.md
+
+% bmon, linux
+
+# Display the list of all the interfaces
+bmon -a
+
+# Display data transfer rates in bits per second
+bmon -b
+
+# Set policy to define which network interface(s) is/are displayed
+bmon -p <interface_1_interface_2_interface_3>
+
+# Set interval (in seconds) in which rate per counter is calculated
+bmon -R <2_0>

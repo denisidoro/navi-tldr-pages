@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/f5fpc.md
+
+% f5fpc, linux
+
+# Open a new VPN connection
+sudo f5fpc --start
+
+# Open a new VPN connection to a specific host
+sudo f5fpc --start --host <host_example_com>
+
+# Specify a username (user will be prompted for a password)
+sudo f5fpc --start --host <host_example_com> --username <user>
+
+# Show the current VPN status
+sudo f5fpc --info
+
+# Shutdown the VPN connection
+sudo f5fpc --stop

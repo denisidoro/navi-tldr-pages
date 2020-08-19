@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lwp-request.md
+
+% lwp-request, common
+
+# Make a simple GET request
+lwp-request -m GET <http___example_com_some_path>
+
+# Upload a file with a POST request
+cat <_path_to_file> | lwp-request -m POST <http___example_com_some_path>
+
+# Make a request with a custom user agent
+lwp-request -H 'User-Agent: <user_agent> -m <METHOD> <http___example_com_some_path>
+
+# Make a request with HTTP authentication
+lwp-request -C <username>:<password> -m <METHOD> <http___example_com_some_path>
+
+# Make a request and print request headers
+lwp-request -U -m <METHOD> <http___example_com_some_path>
+
+# Make a request and print response headers and status chain
+lwp-request -E -m <METHOD> <http___example_com_some_path>

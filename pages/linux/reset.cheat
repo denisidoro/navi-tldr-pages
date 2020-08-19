@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/reset.md
+
+% reset, linux
+
+# Reinitialise the current terminal
+reset
+
+# Display the terminal type instead
+reset -q

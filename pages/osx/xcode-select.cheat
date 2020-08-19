@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/xcode-select.md
+
+% xcode-select, osx
+
+# Install Xcode's command-line tools
+xcode-select --install
+
+# Select a given path as the active developer directory
+xcode-select -s <path_to_Xcode_app_Contents_Developer>
+
+# Select a given Xcode instance and use its developer directory as the active one
+xcode-select -s <path_to_Xcode_app>
+
+# Print the currently selected developer directory
+xcode-select -p
+
+# Discard any user-specified developer directory so that it will be found via the default search mechanism
+sudo xcode-select -r

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nvidia-smi.md
+
+% nvidia-smi, common
+
+# Display information on all available GPUs and processes using them
+nvidia-smi
+
+# Display more detailed GPU information
+nvidia-smi --query
+
+# Monitor overall GPU usage with 1-second update interval
+nvidia-smi dmon

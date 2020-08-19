@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/reboot.md
+
+% reboot, osx
+
+# Reboot immediately
+sudo reboot
+
+# Reboot immediately without gracefully shutting down
+sudo reboot -q

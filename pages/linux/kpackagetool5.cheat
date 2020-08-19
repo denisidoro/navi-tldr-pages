@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/kpackagetool5.md
+
+% kpackagetool5, linux
+
+# List all known package types that can be installed
+kpackagetool5 --list-types
+
+# Install the package from a directory
+kpackagetool5 --type <package_type> --install <path_to_directory>
+
+# Update installed package from a directory
+kpackagetool5 --type <package_type> --upgrade <path_to_directory>
+
+# List installed plasmoids (--global for all users)
+kpackagetool5 --type Plasma/Applet --list --global
+
+# Remove a plasmoid by name
+kpackagetool5 --type Plasma/Applet --remove "<name>"

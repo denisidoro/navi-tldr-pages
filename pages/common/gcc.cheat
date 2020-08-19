@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcc.md
+
+% gcc, common
+
+# Compile multiple source files into executable
+gcc <source1_c> <source2_c> -o <executable>
+
+# Allow warnings, debug symbols in output
+gcc <source_c> -Wall -Og -o <executable>
+
+# Include libraries from a different path
+gcc <source_c> -o <executable> -I<header_path> -L<library_path> -l<library_name>
+
+# Compile source code into Assembler instructions
+gcc -S <source_c>
+
+# Compile source code without linking
+gcc -c <source_c>

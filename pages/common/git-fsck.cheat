@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-fsck.md
+
+% git-fsck, common
+
+# Check the current repository
+git fsck
+
+# List all tags found
+git fsck --tags
+
+# List all root nodes found
+git fsck --root

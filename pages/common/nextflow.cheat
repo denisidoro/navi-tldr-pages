@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nextflow.md
+
+% nextflow, common
+
+# Run a pipeline, use cached results from previous runs
+nextflow run <main_nf> -resume
+
+# Run a specific release of a remote workflow from GitHub
+nextflow run <user_repo> -revision <release_tag>
+
+# Run with a given work directory for intermediate files, save execution report
+nextflow run <workflow> -work-dir <_path_to_directory> -with-report <report_html>
+
+# Show details of previous runs in current directory
+nextflow log
+
+# Remove cache and intermediate files for a specific run
+nextflow clean -force <run_name>
+
+# List all downloaded projects
+nextflow list
+
+# Pull the latest version of a remote workflow from Bitbucket
+nextflow pull <user_repo> -hub bitbucket
+
+# Update Nextflow
+nextflow self-update

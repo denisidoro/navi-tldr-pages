@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/go-doc.md
+
+% go-doc, common
+
+# Show documentation for the current package
+go doc
+
+# Show package documentation and exported symbols
+go doc <encoding_json>
+
+# Show also documentation of symbols
+go doc -all <encoding_json>
+
+# Show also sources
+go doc -all -src <encoding_json>
+
+# Show a specific symbol
+go doc -all -src <encoding_json_Number>

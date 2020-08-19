@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ned.md
+
+% ned, common
+
+# Recursively search starting in the current directory, ignoring case
+ned --ignore-case --recursive '{{^[dl]og}}' <_>
+
+# Search always showing colored output
+ned --colors '{{^[dl]og}}' <_>
+
+# Search never showing colored output
+ned --colors=never '{{^[dl]og}}' <_>
+
+# Search ignoring certain files
+ned --recursive --exclude '{{*.htm}}' '{{^[dl]og}}' <_>
+
+# Simple replace
+ned '<dog>' --replace '<cat>' <_>
+
+# Replace using numbered group references
+ned '{{the ([a-z]+) dog and the ([a-z]+) dog}}' --replace '{{the $2 dog and the $1 dog}}' <_>
+
+# Replace changing case
+ned '{{([a-z]+) dog}}' --case-replacements --replace '{{\U$1\E! dog}}' --stdout <_>
+
+# Preview results of a find and replace without updating the target files
+ned '{{^[sb]ad}}' --replace '<happy>' --stdout <_>

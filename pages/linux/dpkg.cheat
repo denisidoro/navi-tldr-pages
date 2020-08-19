@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dpkg.md
+
+% dpkg, linux
+
+# Install a package
+dpkg -i <path_to_file_deb>
+
+# Remove a package
+dpkg -r <package_name>
+
+# List installed packages
+dpkg -l <pattern>
+
+# List package contents
+dpkg -L <package_name>
+
+# List contents of a local package file
+dpkg -c <path_to_file_deb>
+
+# Find out which package owns a file
+dpkg -S <filename>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/hostnamectl.md
+
+% hostnamectl, linux
+
+# Get the hostname of the computer
+hostnamectl
+
+# Set the hostname of the computer
+sudo hostnamectl set-hostname "<some_hostname>"

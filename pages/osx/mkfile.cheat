@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/mkfile.md
+
+% mkfile, osx
+
+# Create an empty file of 15 kilobytes
+mkfile -n <15k> <filename>
+
+# Create a file of a given size and unit (bytes, KB, MB, GB)
+mkfile -n <size><b_k_m_g> <filename>
+
+# Create two files of 4 megabytes each
+mkfile -n <4m> <first_filename> <second_filename>

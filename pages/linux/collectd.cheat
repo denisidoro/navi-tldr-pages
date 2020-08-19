@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/collectd.md
+
+% collectd, linux
+
+# Show usage help, including the program version
+collectd -h
+
+# Test the configuration file and then exit
+collectd -t
+
+# Test plugin data collection functionality and then exit
+collectd -T
+
+# Start collectd
+collectd
+
+# Specify a custom configuration file location
+collectd -C <path_to_file>
+
+# Specify a custom PID file location
+collectd -P <path_to_file>
+
+# Don't fork into the background
+collectd -f

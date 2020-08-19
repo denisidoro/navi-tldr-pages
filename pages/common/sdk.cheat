@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sdk.md
+
+% sdk, common
+
+# Install a specific version of Gradle
+sdk install <gradle> <gradle_version>
+
+# Switch to a specific version of Gradle
+sdk use <gradle> <gradle_version>
+
+# Check current Gradle version
+sdk current <gradle>
+
+# List all Software Development Kits available to install
+sdk list
+
+# Update Gradle to the latest version
+sdk upgrade <gradle>
+
+# Uninstall a particular version of Gradle
+sdk rm <gradle> <gradle_version>

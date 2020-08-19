@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/makensis.md
+
+% makensis, common
+
+# Compile a NSIS script
+makensis <path_to_file_nsi>
+
+# Compile a NSIS script in strict mode (treat warnings as errors)
+makensis -WX <path_to_file_nsi>
+
+# Print help for a specific command
+makensis -CMDHELP <command>

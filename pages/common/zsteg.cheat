@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zsteg.md
+
+% zsteg, common
+
+# Detect embedded data in a PNG image
+zsteg <path_to_image_png>
+
+# Detect embedded data in a BMP image, using all known methods
+zsteg --all <path_to_image_bmp>
+
+# Detect embedded data in a PNG image, iterating pixels vertically and using MSB first
+zsteg --msb --order yx <path_to_image_png>
+
+# Detect embedded data in a BMP image, specifying the bits to consider
+zsteg --bits <1_2_3_1_3> <path_to_image_bmp>
+
+# Detect embedded data in a PNG image, extracting only prime pixels and inverting bits
+zsteg --prime --invert <path_to_image_png>
+
+# Detect embedded data in a BMP image, specifying the minimum length of the strings to be found and the find mode
+zsteg --min-str-len <10> --strings <first_all_longest_none> <path_to_image_bmp>

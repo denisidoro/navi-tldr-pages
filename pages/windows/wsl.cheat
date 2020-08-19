@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/wsl.md
+
+% wsl, windows
+
+# Start a Linux shell (in the default distribution)
+wsl <shell_command>
+
+# Run a Linux command without using a shell
+wsl --exec <command> <command_arguments>
+
+# Specify a particular distribution
+wsl --distribution <distribution> <shell_command>
+
+# List available distributions
+wsl --list
+
+# Export a distribution to a .tar file
+wsl --export <distribution> <path_to_distro_fs_tar>
+
+# Import a distribution from a .tar file
+wsl --import <distribution> <path_to_install_location> <path_to_distro_fs_tar>
+
+# Shut down Windows Subsystem for Linux
+wsl --shutdown

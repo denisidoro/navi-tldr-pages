@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xcaddy.md
+
+% xcaddy, common
+
+# Build Caddy server from source
+xcaddy build
+
+# Build Caddy server with a specific version (defaults to latest)
+xcaddy build <version>
+
+# Build Caddy with a specific module
+xcaddy build --with <module_name>
+
+# Build Caddy and output to a specific file
+xcaddy build --output <path_to_file>
+
+# Build and run Caddy for a development plugin in the current directory
+xcaddy run
+
+# Build and run Caddy for a development plugin using a specific Caddy config
+xcaddy run --config <path_to_file>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wget.md
+
+% wget, common
+
+# Download the contents of an URL to a file (named "foo" in this case)
+wget <https___example_com_foo>
+
+# Download the contents of an URL to a file (named "bar" in this case)
+wget -O <bar> <https___example_com_foo>
+
+# Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.)
+wget --page-requisites --convert-links --wait=3 <https___example_com_somepage_html>
+
+# Download all listed files within a directory and its sub-directories (does not download embedded page elements)
+wget --mirror --no-parent <https___example_com_somepath_>
+
+# Limit the download speed and the number of connection retries
+wget --limit-rate=<300k> --tries=<100> <https___example_com_somepath_>
+
+# Download a file from an HTTP server using Basic Auth (also works for FTP)
+wget --user=<username> --password=<password> <https___example_com>
+
+# Continue an incomplete download
+wget -c <https___example_com>
+
+# Download all URLs stored in a text file to a specific directory
+wget -P <path_to_directory> -i <URLs_txt>

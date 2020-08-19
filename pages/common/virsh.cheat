@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virsh.md
+
+% virsh, common
+
+# Connect to a hypervisor session
+virsh connect <qemu___system>
+
+# List all domains
+virsh list --all
+
+# Dump guest configuration file
+virsh dumpxml <guest_id> > <path_to_guest_xml>
+
+# Create a guest from a configuration file
+virsh create <path_to_config_file_xml>
+
+# Edit a guest's configuration file (editor can be changed with $EDITOR)
+virsh edit <guest_id>
+
+# Start/reboot/shutdown/suspend/resume a guest
+virsh <command> <guest_id>
+
+# Save the current state of a guest to a file
+virsh save <guest_id> <filename>
+
+# Delete a running guest
+virsh destroy <guest_id> && virsh undefine <guest_id>

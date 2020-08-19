@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/smbclient.md
+
+% smbclient, linux
+
+# Connect to a share (user will be prompted for password; `exit` to quit the session)
+smbclient <__server_share>
+
+# Connect with a different username
+smbclient <__server_share> --user <username>
+
+# Connect with a different workgroup
+smbclient <__server_share> --workgroup <domain> --user <username>
+
+# Connect with a username and password
+smbclient <__server_share> --user <username_password>
+
+# Download a file from the server
+smbclient <__server_share> --directory <path_to_directory> --command "get <file_txt>"
+
+# Upload a file to the server
+smbclient <__server_share> --directory <path_to_directory> --command "put <file_txt>"

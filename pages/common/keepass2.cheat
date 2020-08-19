@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/keepass2.md
+
+% keepass2, common
+
+# Start KeePass 2, opening the most recently-opened password database
+keepass2
+
+# Start KeePass 2, opening a specific password database
+keepass2 <path_to_database_kbdx>
+
+# Use a specific key file to open a password database
+keepass2 <path_to_database_kbdx> -keyfile:<path_to_key_file_key>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/john.md
+
+% john, common
+
+# Crack password hashes
+john <path_to_hashes_txt>
+
+# Show passwords cracked
+john --show <path_to_hashes_txt>
+
+# Display users' cracked passwords by user identifier from multiple files
+john --show --users=<user_ids> {{path/to/hashes*}} {{path/to/other/hashes*}}
+
+# Crack password hashes, using a custom wordlist
+john --wordlist=<path_to_wordlist_txt> <path_to_hashes_txt>
+
+# List available hash formats
+john --list=formats
+
+# Crack password hashes, using a specific hash format
+john --format=<md5crypt> <path_to_hashes_txt>
+
+# Crack password hashes, enabling word mangling rules
+john --rules <path_to_hashes_txt>
+
+# Restore an interrupted cracking session from a state file, e.g. `mycrack.rec`
+john --restore=<path_to_mycrack_rec>

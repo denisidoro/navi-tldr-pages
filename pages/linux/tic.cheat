@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/tic.md
+
+% tic, linux
+
+# Compile and install terminfo for a terminal
+tic -xe <terminal> <path_to_terminal_info>
+
+# Check terminfo file for errors
+tic -c <path_to_terminal_info>
+
+# Print database locations
+tic -D

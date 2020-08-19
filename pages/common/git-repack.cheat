@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-repack.md
+
+% git-repack, common
+
+# Pack unpacked objects in the current directory
+git repack
+
+# Also remove redundant objects after packing
+git repack -d

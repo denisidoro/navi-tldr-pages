@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-am.md
+
+% git-am, common
+
+# Apply a patch file
+git am <path_to_file_patch>
+
+# Abort the process of applying a patch file
+git am --abort
+
+# Apply as much of a patch file as possible, saving failed hunks to reject files
+git am --reject <path_to_file_patch>

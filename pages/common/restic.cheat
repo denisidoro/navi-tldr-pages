@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/restic.md
+
+% restic, common
+
+# Initialize a backup repository in the specified local directory
+restic init -r <path_to_repository>
+
+# Backup a directory to the repository
+restic -r <path_to_repository> backup <path_to_directory>
+
+# Show backup snapshots currently stored in the repository
+restic -r <path_to_repository> snapshots
+
+# Restore a specific backup snapshot to a target directory
+restic -r <path_to_repository> restore <snapshot_id> <path_to_target>
+
+# Restore a specific path from a specific backup to a target directory
+restic -r <path_to_repository> --include <path_to_restore> --target <path_to_target> restore <snapshot_id>
+
+# Clean up the repository and keep only the most recent snapshot of each unique backup
+restic forget --keep-last 1 --prune

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cmake.md
+
+% cmake, common
+
+# Generate a Makefile and use it to compile a project in the same directory as the source
+cmake && make
+
+# Generate a Makefile and use it to compile a project in a separate "build" directory (out-of-source build)
+cmake -H. -B<build> && make -C <build>

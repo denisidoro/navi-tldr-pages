@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/javadoc.md
+
+% javadoc, common
+
+# Generate documentation for Java source code and save the result in a directory
+javadoc -d <path_to_directory_> <path_to_java_source_code>
+
+# Generate documentation with a specific encoding
+javadoc -docencoding <UTF_8> <path_to_java_source_code>
+
+# Generate documentation excluding some packages
+javadoc -exclude <package_list> <path_to_java_source_code>

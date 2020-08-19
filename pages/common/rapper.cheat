@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rapper.md
+
+% rapper, common
+
+# Convert an RDF/XML document to Turtle
+rapper -i rdfxml -o turtle <file>
+
+# Count the number of triples in a Turtle file
+rapper -i turtle -c <file>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/shiori.md
+
+% shiori, common
+
+# Import bookmarks from HTML Netscape bookmark format file
+shiori import <path_to_bookmarks_html>
+
+# Save the specified URL as bookmark
+shiori add <url>
+
+# List the saved bookmarks
+shiori print
+
+# Open the saved bookmark in a browser
+shiori open <bookmark_id>
+
+# Start the web interface for managing bookmarks at port 8181
+shiori serve --port <8181>

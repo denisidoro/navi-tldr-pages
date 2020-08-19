@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/msmtp.md
+
+% msmtp, common
+
+# Send an email using the default account configured in `~/.msmtprc`
+echo {{"Hello world"}} | msmtp <to_example_org>
+
+# Send an email using a specific account configured in `~/.msmtprc`
+echo {{"Hello world"}} | msmtp --account=<account_name> <to_example_org>
+
+# Send an email without a configured account. The password should be specified in the `~/.msmtprc` file
+echo {{"Hello world"}} | msmtp --host=<localhost> --port=<999> --from=<from_example_org> <to_example_org>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/clementine.md
+
+% clementine, common
+
+# Open Clementine
+clementine
+
+# Start playing a music file
+clementine <url_or_path_to_file_ext>
+
+# Toggle between pausing and playing
+clementine --play-pause
+
+# Stop playback
+clementine --stop
+
+# Skip to the next track
+clementine --next
+
+# Skip to the previous track
+clementine --previous
+
+# Load a playlist file
+clementine --load <path_to_playlist_ext>
+
+# Play the 5th track in the currently loaded playlist
+clementine --play-track <5>

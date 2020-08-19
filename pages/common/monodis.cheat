@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/monodis.md
+
+% monodis, common
+
+# Disassemble an assembly to textual CIL
+monodis <path_to_assembly_exe>
+
+# Save the output to a file
+monodis --output=<path_to_output_il> <path_to_assembly_exe>
+
+# Show information about an assembly
+monodis --assembly <path_to_assembly_dll>
+
+# List the references of an assembly
+monodis --assemblyref <path_to_assembly_exe>
+
+# List all the methods in an assembly
+monodis --method <path_to_assembly_exe>
+
+# Show a list of resources embedded within an assembly
+monodis --manifest <path_to_assembly_dll>
+
+# Extract all the embedded resources to the current directory
+monodis --mresources <path_to_assembly_dll>

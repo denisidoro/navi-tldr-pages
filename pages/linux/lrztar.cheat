@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lrztar.md
+
+% lrztar, linux
+
+# Archive a directory with `tar`, then compress
+lrztar <path_to_directory>
+
+# Same as above, with ZPAQ - extreme compression, but very slow
+lrztar -z <path_to_directory>
+
+# Specify the output file
+lrztar -o <path_to_file> <path_to_directory>
+
+# Override the number of processor threads to use
+lrztar -p <8> <path_to_directory>
+
+# Force overwriting of existing files
+lrztar -f <path_to_directory>

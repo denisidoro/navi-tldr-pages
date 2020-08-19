@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vimdiff.md
+
+% viff.md, common
+
+# Open two files and show the differences (up to four files can be compared)
+vimdiff <file1> <file2>
+
+# Open two files using a horizontal window split instead of the default vertical split
+vimdiff -o <file1> <file2>
+
+# Move the cursor to the window on the left|right|up|down
+Ctrl + w <h_l_k_j>

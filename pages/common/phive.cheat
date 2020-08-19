@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phive.md
+
+% phive, common
+
+# Display a list of available aliased Phars
+phive list
+
+# Install a specified Phar to the local directory
+phive install <alias_url>
+
+# Install a specified Phar globally
+phive install <alias_url> --global
+
+# Install a specified Phar to a target directory
+phive install <alias_url> --target <path_to_directory>
+
+# Update all Phar files to the latest version
+phive update
+
+# Remove a specified Phar file
+phive remove <alias_url>
+
+# Remove unused Phar files
+phive purge
+
+# List all available commands
+phive help

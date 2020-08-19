@@ -1,0 +1,31 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/shutdown.md
+
+% shutdown, windows
+
+# Shutdown the current machine
+shutdown /s
+
+# Shutdown the current machine force-closing all apps
+shutdown /s /f
+
+# Restart the current machine
+shutdown /r
+
+# Hibernate the current machine
+shutdown /h
+
+# Log off the current machine
+shutdown /l
+
+# Specify a timeout in seconds to wait before shutting down
+shutdown /s /t <seconds>
+
+# Specify a comment for the shutdown reason
+shutdown /s /c "<reason>"
+
+# Abort a shutdown sequence whose timeout is yet to expire
+shutdown /a
+
+# Shutdown a remote machine
+shutdown /m {{\\hostname}}

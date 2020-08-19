@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/upx.md
+
+% upx, common
+
+# Compress executable
+upx <file>
+
+# Decompress executable
+upx -d <file>
+
+# Detailed help
+upx --help

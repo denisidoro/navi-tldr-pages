@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/syncthing.md
+
+% syncthing, common
+
+# Start syncthing
+syncthing
+
+# Print the device ID
+syncthing -device-id
+
+# Change the home directory
+syncthing -home=<path_to_directory>
+
+# Force a full index exchange
+syncthing -reset-deltas
+
+# Change the address upon which the web interface listens
+syncthing -gui-address=<ip_address_port_path_to_socket_sock>
+
+# Show filepaths to the files used by syncthing
+syncthing -paths
+
+# Disable the syncthing monitor process
+syncthing -no-restart

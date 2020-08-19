@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jekyll.md
+
+% jekyll, common
+
+# Generate a development server that will run at http://localhost:4000/
+jekyll serve
+
+# Enable incremental regeneration
+jekyll serve --incremental
+
+# Generate the current directory into "./_site"
+jekyll build

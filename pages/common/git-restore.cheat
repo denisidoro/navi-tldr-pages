@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-restore.md
+
+% git-restore, common
+
+# Restore a deleted file from the contents of the current commit (HEAD)
+git restore <path_to_file>
+
+# Restore a file to a version from a different commit
+git restore --source <commit> <path_to_file>
+
+# Undo any uncommitted changes to tracked files, reverting to the current HEAD
+git restore .

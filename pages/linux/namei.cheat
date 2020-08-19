@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/namei.md
+
+% namei, linux
+
+# Resolve the pathnames specified as the argument parameters
+namei <path_to_a> <path_to_b> <path_to_c>
+
+# Display the results in a long-listing format
+namei --long <path_to_a> <path_to_b> <path_to_c>
+
+# Show the mode bits of each file type in the style of `ls`
+namei --modes <path_to_a> <path_to_b> <path_to_c>
+
+# Show owner and group name of each file
+namei --owners <path_to_a> <path_to_b> <path_to_c>
+
+# Don't follow symlinks while resolving
+namei --nosymlinks <path_to_a> <path_to_b> <path_to_c>

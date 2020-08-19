@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/consul-kv.md
+
+% consul-kv, common
+
+# Read a value from the key-value store
+consul kv get <key>
+
+# Store a new key-value pair
+consul kv put <key> <value>
+
+# Delete a key-value pair
+consul kv delete <key>

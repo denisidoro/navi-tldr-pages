@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rails-routes.md
+
+% rails-routes, common
+
+# List all routes
+rails routes
+
+# List all routes in an expanded format
+rails routes --expanded
+
+# List routes partially matching URL helper method name, HTTP verb, or URL path
+rails routes -g <posts_path_GET__posts>
+
+# List routes that map to a specified controller
+rails routes -c <posts_Posts_Blogs__PostsController>

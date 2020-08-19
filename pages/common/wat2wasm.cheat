@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wat2wasm.md
+
+% wat2wasm, common
+
+# Parse and check a file for errors
+wat2wasm <file_wat>
+
+# Write the output binary to a given file
+wat2wasm <file_wat> -o <file_wasm>
+
+# Display simplified representation of every byte
+wat2wasm -v <file_wat>

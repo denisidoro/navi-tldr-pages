@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/influx.md
+
+% influx, common
+
+# Connect to an InfluxDB running on localhost with no credentials
+influx
+
+# Connect with a specific username (will prompt for a password)
+influx -username <username> -password ""
+
+# Connect to a specific host
+influx -host <hostname>
+
+# Use a specific database
+influx -database <database_name>
+
+# Execute a given command
+influx -execute "<influxql_command>"
+
+# Return output in a specific format
+influx -execute "<influxql_command>" -format <json_csv_column>

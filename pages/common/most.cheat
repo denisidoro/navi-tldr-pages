@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/most.md
+
+% most, common
+
+# Open a file
+most <path_to_file>
+
+# Open several files
+most <path_to_file1> <path_to_file2>
+
+# Open a file at the first occurrence of "string"
+most <file> +/<string>
+
+# Move through opened files
+:O n
+
+# Jump to the 100th line
+<100>j
+
+# Edit current file
+e
+
+# Split the current window in half
+<CTRL-x> o
+
+# Exit
+Q

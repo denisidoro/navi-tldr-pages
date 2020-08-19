@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pg_ctl.md
+
+% pg_ctl, common
+
+# Initialize a new PostgreSQL database cluster
+pg_ctl -D <data_directory> init
+
+# Start a PostgreSQL server
+pg_ctl -D <data_directory> start
+
+# Stop a PostgreSQL server
+pg_ctl -D <data_directory> stop
+
+# Restart a PostgreSQL server
+pg_ctl -D <data_directory> restart
+
+# Reload the PostgreSQL server configuration
+pg_ctl -D <data_directory> reload

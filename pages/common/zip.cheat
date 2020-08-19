@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zip.md
+
+% zip, common
+
+# Package and compress a directory and its contents, [r]ecursively
+zip -r <compressed_zip> <_path_to_dir>
+
+# E[x]clude unwanted files from being added to the compressed archive
+zip -r <compressed_zip> <path_to_dir> -x <path_to_exclude>
+
+# Archive a directory and its contents with the highest level [9] of compression
+zip -r -<9> <compressed_zip> <_path_to_dir>
+
+# Package and compress multiple directories and files
+zip -r <compressed_zip> {{/path/to/dir1 /path/to/dir2 /path/to/file}}
+
+# Create an encrypted archive (user will be prompted for a password)
+zip -e -r <compressed_zip> <path_to_dir>
+
+# Add files to an existing zip file
+zip <compressed_zip> <path_to_file>
+
+# Delete files from an existing zip file
+zip -d <compressed_zip> "{{foo/*.tmp}}"
+
+# Archive a directory and its contents to a multi-part [s]plit zip file (e.g. 3GB parts)
+zip -r -s <3g> <compressed_zip> <path_to_dir>

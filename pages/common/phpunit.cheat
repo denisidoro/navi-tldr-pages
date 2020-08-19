@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpunit.md
+
+% phpunit, common
+
+# Run tests in the current directory. Note: Expects you to have a 'phpunit.xml'
+phpunit
+
+# Run tests in a specific file
+phpunit <path_to_TestFile_php>
+
+# Run tests annotated with the given group
+phpunit --group <name>
+
+# Run tests and generate a coverage report in HTML
+phpunit --coverage-html <directory>

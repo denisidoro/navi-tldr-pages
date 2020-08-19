@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tslint.md
+
+% tslint, common
+
+# Create tslint config
+tslint --init
+
+# Lint on a given set of files
+tslint <filename>.js <filename1>.js
+
+# Fix lint issues
+tslint --fix
+
+# Lint with the config file in the project root
+tslint --project <path_to_project_root>

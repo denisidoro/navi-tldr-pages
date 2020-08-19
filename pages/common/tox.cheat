@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tox.md
+
+% tox, common
+
+# Run tests on all test environments
+tox
+
+# Create a tox.ini configuration
+tox-quickstart
+
+# List the available environments
+tox --listenvs-all
+
+# Run tests on a specific environment (e.g. python 3.6)
+tox -e <py36>
+
+# Force the virtual environment to be recreated
+tox --recreate -e <py27>

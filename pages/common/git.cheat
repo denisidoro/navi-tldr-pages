@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git.md
+
+% git, common
+
+# Check the Git version
+git --version
+
+# Call general help
+git --help
+
+# Call help on a command
+git help <command>
+
+# Execute Git command
+git <command>

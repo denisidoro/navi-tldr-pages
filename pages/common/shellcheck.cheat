@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/shellcheck.md
+
+% shellcheck, common
+
+# Check a shell script
+shellcheck <file_sh>
+
+# Override script's shebang
+shellcheck --shell <sh_bash_ksh> <file_sh>
+
+# Ignore certain errors
+shellcheck --exclude <SC1009> <file_sh>
+
+# Ignore multiple errors
+shellcheck --exclude <SC1009_SC1073> <file_sh>

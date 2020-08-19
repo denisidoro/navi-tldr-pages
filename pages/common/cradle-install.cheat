@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cradle-install.md
+
+% cradle-install, common
+
+# Install Cradle's components (User will be prompted for further details)
+cradle install
+
+# Forcefully overwrite files
+cradle install --force
+
+# Skip running SQL migrations
+cradle install --skip-sql
+
+# Skip running package updates
+cradle install --skip-versioning
+
+# Use specific database details
+cradle install -h <hostname> -u <username> -p <password>

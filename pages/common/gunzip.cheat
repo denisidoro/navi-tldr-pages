@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gunzip.md
+
+% gunzip, common
+
+# Extract a file from an archive, replacing the original file if it exists
+gunzip <archive_tar_gz>
+
+# Extract a file to a target destination
+gunzip -c <archive_tar_gz> > <archive_tar>
+
+# List the contents of a compressed file
+gunzip -l <file_txt_gz>

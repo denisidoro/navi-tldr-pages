@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gradle.md
+
+% gradle, common
+
+# Compile a package
+gradle build
+
+# Exclude test task
+gradle build -x <test>
+
+# Run in offline mode to prevent gradle from accessing the network during builds
+gradle build --offline
+
+# Clear the build directory
+gradle clean
+
+# Compile and Release package
+gradle assembleRelease

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/look.md
+
+% look, osx
+
+# Look for lines which begins with the given prefix
+look <prefix> <file>
+
+# Look for lines ignoring case
+look -f <prefix> <file>

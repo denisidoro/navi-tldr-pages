@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/plantuml.md
+
+% plantuml, common
+
+# Render diagrams to default format (PNG)
+plantuml <diagram1_puml> <diagram2_puml>
+
+# Render a diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`)
+plantuml -t <format> <diagram_puml>
+
+# Render all diagrams of a directory
+plantuml <path_to_diagrams>
+
+# Render a diagram to the output directory
+plantuml -o <path_to_output> <diagram_puml>
+
+# Render a diagram with the configuration file
+plantuml -config <config_cfg> <diagram_puml>
+
+# Display help
+plantuml -help

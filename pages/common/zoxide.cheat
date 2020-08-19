@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zoxide.md
+
+% zoxide, common
+
+# Go to the highest-ranked directory that contains "foo" in the name
+zoxide query <foo>
+
+# Go to the highest-ranked directory that contains "foo" and then "bar"
+zoxide query <foo> <bar>
+
+# Start an interactive directory search (requires `fzf`)
+zoxide query --interactive
+
+# Add a directory or increment its rank
+zoxide add <path_to_dir>
+
+# Remove a directory from `zoxide`'s database
+zoxide remove <path_to_dir>
+
+# Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`)
+zoxide init <bash_fish_zsh>

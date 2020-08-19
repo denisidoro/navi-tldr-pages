@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/logoff.md
+
+% logoff, windows
+
+# Terminate the current session
+logoff
+
+# Terminate a session by its name or id
+logoff <session_name_session_id>
+
+# Terminate a session on a specific server connected through RDP
+logoff <session_name_session_id> /server:<servername>

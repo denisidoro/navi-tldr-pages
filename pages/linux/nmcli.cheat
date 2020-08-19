@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nmcli.md
+
+% nmcli, linux
+
+# Check the nmcli version
+nmcli --version
+
+# Call general help
+nmcli --help
+
+# Call help on a command
+nmcli <command> --help
+
+# Execute an `nmcli` command
+nmcli <command>

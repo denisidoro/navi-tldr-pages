@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/imgcat.md
+
+% imgcat, osx
+
+# Display an image on the command line
+imgcat <filename>

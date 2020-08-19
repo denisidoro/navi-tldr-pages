@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/iscc.md
+
+% iscc, windows
+
+# Compile an Inno Setup script
+iscc <path_to_file_iss>
+
+# Quietly compile an Inno Setup installer
+iscc /Q <path_to_file_iss>
+
+# Compile a signed Inno Setup installer
+iscc /S=<name>=<command> <path_to_file_iss>

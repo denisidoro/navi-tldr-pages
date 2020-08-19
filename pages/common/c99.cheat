@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/c99.md
+
+% c99, common
+
+# Compile source file(s) and create an executable
+c99 <file_c>
+
+# Compile source file(s) and create an executable with a custom name
+c99 -o <executable_name> <file_c>
+
+# Compile source file(s) and create object file(s)
+c99 -c <file_c>
+
+# Compile source file(s), link with object file(s), and create an executable
+c99 <file_c> <file_o>

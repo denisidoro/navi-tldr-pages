@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/choco-install.md
+
+% choco-install, windows
+
+# Install one or more space-separated packages
+choco install <package_s_>
+
+# Install packages from a custom configuration file
+choco install <path_to_packages_config>
+
+# Install a specific "nuspec" or "nupkg" file
+choco install <path_to_file>
+
+# Install a specific version of a package
+choco install <package> --version <version>
+
+# Allow installing multiple versions of a package
+choco install <package> --allow-multiple
+
+# Confirm all prompts automatically
+choco install <package> --yes
+
+# Specify a custom source to receive packages from
+choco install <package> --source <source_url_alias>
+
+# Provide a username and password for authentication
+choco install <package> --user <username> --password <password>

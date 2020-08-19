@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rclone.md
+
+% rclone, common
+
+# List contents of a directory on an rclone remote
+rclone lsf <remote_name>:<path_to_directory>
+
+# Copy file or directory from local source to remote destination
+rclone copy <path_to_source_file_or_directory> <remote_name>:<path_to_destination_directory>
+
+# Copy file or directory from remote source to local destination
+rclone copy <remote_name>:<path_to_source_file_or_directory> <path_to_destination_directory>
+
+# Sync local source to remote destination, changing the destination only
+rclone sync <path_to_file_or_directory> <remote_name>:<path_to_directory>
+
+# Move file or directory from local source to remote destination
+rclone move <path_to_file_or_directory> <remote_name>:<path_to_directory>
+
+# Delete remote file or directory (use `--dry-run` to test, remove it to actually delete)
+rclone --dry-run delete <remote_name>:<path_to_file_or_directory>
+
+# Mount rclone remote (experimental)
+rclone mount <remote_name>:<path_to_directory> <path_to_mount_point>
+
+# Unmount rclone remote if CTRL-C fails (experimental)
+fusermount -u <path_to_mount_point>

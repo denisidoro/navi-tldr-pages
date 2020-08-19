@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/takeown.md
+
+% takeown, windows
+
+# Take ownership of the specified file
+takeown /f <path_to_file>
+
+# Take ownership of the specified directory
+takeown /d <path_to_directory>
+
+# Take ownership of the specified directory and all subdirectories
+takeown /r /d <path_to_directory>
+
+# Change ownership to the Administrator group instead of the current user
+takeown /a /f <path_to_file>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/tlp.md
+
+% tlp, linux
+
+# Apply settings (according to the actual power source)
+sudo tlp start
+
+# Apply battery settings (ignoring the actual power source)
+sudo tlp bat
+
+# Apply AC settings (ignoring the actual power source)
+sudo tlp ac

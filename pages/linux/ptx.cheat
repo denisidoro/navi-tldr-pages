@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ptx.md
+
+% ptx, linux
+
+# Generate a permuted index where the first field of each line is an index reference
+ptx --references <path_to_file>
+
+# Generate a permuted index with automatically generated index references
+ptx --auto-reference <path_to_file>
+
+# Generate a permuted index with a fixed width
+ptx --width=<width_in_columns> <path_to_file>
+
+# Generate a permuted index with a list of filtered words
+ptx --only-file=<path_to_filter> <path_to_file>
+
+# Generate a permuted index with SYSV-style behaviors
+ptx --traditional <path_to_file>

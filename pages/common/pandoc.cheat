@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pandoc.md
+
+% pandoc, common
+
+# Convert file to pdf (the output format is determined by file extension)
+pandoc <input_md> -o <output_pdf>
+
+# Force conversion to use a specific format
+pandoc <input_docx> --to <gfm> -o <output_md>
+
+# Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.)
+pandoc <input_md> -s -o <output_tex>
+
+# List all supported input formats
+pandoc --list-input-formats
+
+# List all supported output formats
+pandoc --list-output-formats

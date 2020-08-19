@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ndctl.md
+
+% ndctl, linux
+
+# Create an 'fsdax' mode namespace
+ndctl create-namespace --mode=<fsdax>
+
+# Change the mode of a namespace to 'raw'
+ndctl create-namespace --reconfigure=<namespaceX_Y> --mode=<raw>
+
+# Check a sector mode namespace for consistency, and repair if needed
+ndctl check-namespace --repair <namespaceX_Y>
+
+# List all namespaces, regions, and buses (including disabled ones)
+ndctl list --namespaces --regions --buses --idle
+
+# List a specific namespace and include lots of additional information
+ndctl list -vvv --namespace=<namespaceX_Y>
+
+# Run a monitor to watch for SMART health events for NVDIMMs on the 'ACPI.NFIT' bus
+ndctl monitor --bus=<ACPI_NFIT>
+
+# Remove a namespace (when applicable) or reset it to an initial state
+ndctl destroy-namespace --force <namespaceX_Y>

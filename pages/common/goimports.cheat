@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/goimports.md
+
+% goimports, common
+
+# Display the completed import source file
+goimports <file>.go
+
+# Write the result back to the source file instead of the standard output
+goimports -w <file>.go
+
+# Display diffs and write the result back to the source file
+goimports -w -d <file>.go
+
+# Set the import prefix string after 3rd-party packages (comma-separated list)
+goimports -local <_path_to_package> <file>.go

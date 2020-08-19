@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/readelf.md
+
+% readelf, linux
+
+# Display all information about the ELF file
+readelf -all <path_to_binary>
+
+# Display all the headers present in the ELF file
+readelf --headers <path_to_binary>
+
+# Display the entries in symbol table section of the ELF file, if it has one
+readelf --symbols <path_to_binary>
+
+# Display the information contained in the ELF header at the start of the file
+readelf --file-header <path_to_binary>

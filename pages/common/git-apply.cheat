@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-apply.md
+
+% git-apply, common
+
+# Print messages about the patched files
+git apply --verbose <path_to_file>
+
+# Apply and add the patched files to the index
+git apply --index <path_to_file>
+
+# Apply a remote patch file
+curl <https___example_com_file_patch> | git apply
+
+# Output diffstat for the input and apply the patch
+git apply --stat --apply <path_to_file>
+
+# Apply the patch in reverse
+git apply --reverse <path_to_file>
+
+# Store the patch result in the index without modifying the working tree
+git apply --cache <path_to_file>

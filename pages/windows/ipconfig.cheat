@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/ipconfig.md
+
+% ipconfig, windows
+
+# Show a list of network adapters
+ipconfig
+
+# Show a detailed list of network adapters
+ipconfig /all
+
+# Renew the IP addresses for a network adapter
+ipconfig /renew <adapter>
+
+# Free up the IP addresses for a network adapter
+ipconfig /release <adapter>
+
+# Remove all data from the DNS cache
+ipconfig /flushdns

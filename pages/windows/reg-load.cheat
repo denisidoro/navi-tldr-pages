@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/reg-load.md
+
+% reg-load, windows
+
+# Load a backup file into the specified key
+reg load <key_name> <path_to_file>

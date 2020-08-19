@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ipcs.md
+
+% ipcs, common
+
+# Specific information about the Message Queue which has the id 32768
+ipcs -qi 32768
+
+# General information about all the IPC
+ipcs -a

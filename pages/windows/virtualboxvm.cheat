@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/virtualboxvm.md
+
+% virtualboxvm, windows
+
+# Start a virtual machine
+virtualboxvm --startvm <name_uuid>
+
+# Start a virtual machine in fullscreen mode
+virtualboxvm --startvm <name_uuid> --fullscreen
+
+# Mount the specified DVD image file
+virtualboxvm --startvm <name_uuid> --dvd <path_to_image_file>
+
+# Display a command line window with debug information
+virtualboxvm --startvm <name_uuid> --debug-command-line
+
+# Start a virtual machine in a paused state
+virtualboxvm --startvm <name_uuid> --start-paused

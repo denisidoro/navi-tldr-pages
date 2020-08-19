@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/disown.md
+
+% disown, linux
+
+# Disown the current job
+disown
+
+# Disown a specific job
+disown %<job_number>
+
+# Disown all jobs
+disown -a
+
+# Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit
+disown -h %<job_number>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/monodevelop.md
+
+% monodevelop, common
+
+# Start Monodevelop
+monodevelop
+
+# Open a specific file
+monodevelop <path_to_file>
+
+# Open a specific file with the caret at a specific position
+monodevelop <path_to_file>;<line_number>;<column_number>
+
+# Force opening a new window instead of switching to an existing one
+monodevelop --new-window
+
+# Disable redirection of `stdout` and stderr to a log file
+monodevelop --no-redirect
+
+# Enable performance monitoring
+monodevelop --perf-log

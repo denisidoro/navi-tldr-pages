@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pup.md
+
+% pup, common
+
+# Transform a raw HTML file into a cleaned, indented, and colored format
+cat <index_html> | pup --color
+
+# Filter HTML by element tag name
+cat <index_html> | pup '<tag>'
+
+# Filter HTML by id
+cat <index_html> | pup '<div_id>'
+
+# Filter HTML by attribute value
+cat <index_html> | pup '{{input[type="text"]}}'
+
+# Print all text from the filtered HTML elements and their children
+cat <index_html> | pup '<div> text{}'
+
+# Print HTML as JSON
+cat <index_html> | pup '<div> json{}'

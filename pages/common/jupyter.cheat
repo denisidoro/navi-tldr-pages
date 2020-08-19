@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jupyter.md
+
+% jupyter, common
+
+# Start a Jupyter notebook server in the current directory
+jupyter notebook
+
+# Open a specific Jupyter notebook
+jupyter notebook <example_ipynb>
+
+# Start a server on a specific port
+jupyter notebook --port=<port>
+
+# List currently running notebook servers
+jupyter notebook list
+
+# Stop the currently running server
+jupyter notebook stop
+
+# Start JupyterLab, if installed, in the current directory
+jupyter lab

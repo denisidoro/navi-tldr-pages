@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wasm-opt.md
+
+% wasm-opt, common
+
+# Apply default optimizations and write to a given file
+wasm-opt -O <input_wasm> -o <output_wasm>
+
+# Apply all optimizations and write to a given file (takes more time, but generates optimal code)
+wasm-opt -O4 <input_wasm> -o <output_wasm>
+
+# Optimize a file for size
+wasm-opt -Oz <input_wasm> -o <output_wasm>
+
+# Print the textual representation of the binary to console
+wasm-opt <input_wasm> --print

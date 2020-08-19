@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vpnc.md
+
+% vpnc, linux
+
+# Connect with a defined configuration file
+sudo vpnc <config_file>
+
+# Terminate the previously created connection
+sudo vpnc-disconnect

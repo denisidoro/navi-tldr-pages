@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tesseract.md
+
+% tesseract, common
+
+# Recognize text in an image and save it to `output.txt` (the '.txt' extension is added automatically)
+tesseract <image_png> <output>
+
+# Specify a custom language (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German)
+tesseract -l deu <image_png> <output>
+
+# List the ISO 639-2 codes of available languages
+tesseract --list-langs
+
+# Specify a custom page segmentation mode (default is 3)
+tesseract -psm <0_to_10> <image_png> <output>
+
+# List page segmentation modes and their descriptions
+tesseract --help-psm

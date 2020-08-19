@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hg-init.md
+
+% hg-init, common
+
+# Initialise a new repository in the current directory
+hg init
+
+# Initialise a new repository in the specified directory
+hg init <path_to_directory>

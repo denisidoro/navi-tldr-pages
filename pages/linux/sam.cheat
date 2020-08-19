@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sam.md
+
+% sam, linux
+
+# Initialize a serverless application
+sam init
+
+# Initialize a serverless application with a specific runtime
+sam init --runtime <python3_7>
+
+# Package a SAM application
+sam package
+
+# Build your Lambda function code
+sam build
+
+# Run your serverless application locally
+sam local start-api
+
+# Deploy an AWS SAM application
+sam deploy

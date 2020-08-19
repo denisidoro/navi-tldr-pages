@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/reg-save.md
+
+% reg-save, windows
+
+# Save a registry key, its sub keys and values to a specific file
+reg save <key_name> <path_to_file>
+
+# Forcefully overwrite an existing file without a prompt
+reg save <key_name> <path_to_file> /y

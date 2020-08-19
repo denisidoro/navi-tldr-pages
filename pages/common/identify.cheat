@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/identify.md
+
+% identify, common
+
+# Collect dimensions of all jpeg files under current directory
+identify -format "%f,%w,%h\n" *.<jpg> > <filelist_csv>

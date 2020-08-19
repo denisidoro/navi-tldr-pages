@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdfposter.md
+
+% pdfposter, common
+
+# Convert an A2 poster into 4 A4 pages
+pdfposter --poster-size a2 <input_file_pdf> <output_file_pdf>
+
+# Scale an A4 poster to A3 and then generate 2 A4 pages
+pdfposter --scale 2 <input_file_pdf> <output_file_pdf>

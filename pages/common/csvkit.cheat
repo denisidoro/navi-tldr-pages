@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvkit.md
+
+% csvkit, common
+
+# Run a command on a CSV file with a custom delimiter
+<cmd> -d <delimiter> <filename_csv>
+
+# Run a command on a CSV file with a tab as a delimiter (overrides -d)
+<cmd> -t <filename_csv>
+
+# Run a command on a CSV file with a custom quote character
+<cmd> -q <quote_char> <filename_csv>
+
+# Run a command on a CSV file with no header row
+<cmd> -H <filename_csv>

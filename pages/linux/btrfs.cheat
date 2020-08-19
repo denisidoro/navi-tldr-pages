@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/btrfs.md
+
+% btrfs, linux
+
+# Create subvolume
+sudo btrfs subvolume create <path_to_subvolume>
+
+# List subvolumes
+sudo btrfs subvolume list <path_to_mount_point>
+
+# Show space usage information
+sudo btrfs filesystem df <path_to_mount_point>
+
+# Enable quota
+sudo btrfs quota enable <path_to_subvolume>
+
+# Show quota
+sudo btrfs qgroup show <path_to_subvolume>

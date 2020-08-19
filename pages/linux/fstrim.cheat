@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fstrim.md
+
+% fstrim, linux
+
+# Trim unused blocks on all mounted partitions that support it
+sudo fstrim --all
+
+# Trim unused blocks on a specified partition
+sudo fstrim <_>
+
+# Display statistics after trimming
+sudo fstrim --verbose <_>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/wine.md
+
+% wine, linux
+
+# Run ipconfig.exe program
+wine <ipconfig> <_all>
+
+# Run cmd.exe in background
+wine start <cmd>
+
+# Run Windows-like Package Manager
+wine uninstaller
+
+# Install MSI packages
+wine msiexec /i <package>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/progress.md
+
+% progress, linux
+
+# Show the progress of running coreutils
+progress
+
+# Show the progress of running coreutils in quiet mode
+progress -q
+
+# Launch and monitor a single long-running command
+<command> & progress -mp $!

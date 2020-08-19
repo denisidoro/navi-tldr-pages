@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/beanstalkd.md
+
+% beanstalkd, common
+
+# Start beanstalkd, listening on port 11300
+beanstalkd
+
+# Start beanstalkd listening on a custom port and address
+beanstalkd -l <ip_address> -p <port_number>
+
+# Persist work queues by saving them to disk
+beanstalkd -b <path_to_persistence_directory>
+
+# Sync to the persistence directory every 500 milliseconds
+beanstalkd -b <path_to_persistence_directory> -f <500>

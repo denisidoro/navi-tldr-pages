@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/qmv.md
+
+% qmv, common
+
+# Move a single file (open an editor with the source filename on the left and the target filename on the right)
+qmv <source_file>
+
+# Move multiple JPG files
+qmv {{*.jpg}}
+
+# Move multiple directories
+qmv -d <path_to_directory1> <path_to_directory2> <path_to_directory3>
+
+# Move all files and directories inside a directory
+qmv --recursive <path_to_directory>
+
+# Move files, but swap the positions of the source and the target filenames in the editor
+qmv --option swap {{*.jpg}}

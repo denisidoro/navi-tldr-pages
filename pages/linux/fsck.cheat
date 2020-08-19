@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fsck.md
+
+% fsck, linux
+
+# Check filesystem /dev/sda, reporting any damaged blocks
+fsck <_dev_sda>
+
+# Check filesystem /dev/sda, reporting any damaged blocks and interactively letting the user choose to repair each one
+fsck -r <_dev_sda>
+
+# Check filesystem /dev/sda, reporting any damaged blocks and automatically repairing them
+fsck -a <_dev_sda>

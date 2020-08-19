@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/laravel.md
+
+% laravel, common
+
+# Create a new Laravel application
+laravel new <name>
+
+# Use the latest development release
+laravel new <name> --dev
+
+# Overwrite if the directory already exists
+laravel new <name> --force
+
+# Install the Laravel authentication scaffolding
+laravel new <name> --auth
+
+# List the available installer commands
+laravel list

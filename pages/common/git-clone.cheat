@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-clone.md
+
+% git-clone, common
+
+# Clone an existing repository
+git clone <remote_repository_location>
+
+# Clone an existing repository and its submodules
+git clone --recursive <remote_repository_location>
+
+# Clone a local repository
+git clone -l <path_to_local_repository>
+
+# Clone quietly
+git clone -q <remote_repository_location>
+
+# Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time)
+git clone --depth <10> <remote_repository_location>

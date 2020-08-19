@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mountpoint.md
+
+% mountpoint, linux
+
+# Check if a directory is a mountpoint
+mountpoint <path_to_directory>
+
+# Check if a directory is a mountpoint without showing any output
+mountpoint -q <path_to_directory>
+
+# Show major/minor numbers of a mountpoint's filesystem
+mountpoint --fs-devno <path_to_directory>

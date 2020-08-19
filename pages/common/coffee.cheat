@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/coffee.md
+
+% coffee, common
+
+# Run a script
+coffee <path_to_file_coffee>
+
+# Compile to JavaScript and save to a file with the same name
+coffee --compile <path_to_file_coffee>
+
+# Compile to JavaScript and save to a given output file
+coffee --compile <path_to_file_coffee> --output <path_to_file_js>
+
+# Run interactive REPL
+coffee --interactive
+
+# Watch script for changes and re-run script
+coffee --watch <path_to_file_coffee>

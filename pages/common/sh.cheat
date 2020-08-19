@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sh.md
+
+% sh, common
+
+# Start interactive shell
+sh
+
+# Execute a command
+sh -c <command>
+
+# Run commands from a file
+sh <file_sh>
+
+# Run commands from `stdin`
+sh -s

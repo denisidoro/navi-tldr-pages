@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ipython.md
+
+% ipython, common
+
+# Start an interactive IPython session
+ipython
+
+# Enter an interactive IPython session after running a Python script
+ipython -i <script_py>
+
+# Create default IPython profile
+ipython profile create
+
+# Print the path to the directory for the default IPython profile
+ipython locate profile
+
+# Clear the IPython history database, deleting all entries
+ipython history clear

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustc.md
+
+% rustc, common
+
+# Compile a single file
+rustc <file_rs>
+
+# Compile with high optimization
+rustc -O <file_rs>
+
+# Compile with debugging information
+rustc -g <file_rs>

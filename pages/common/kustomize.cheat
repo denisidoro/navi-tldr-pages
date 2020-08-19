@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kustomize.md
+
+% kustomize, common
+
+# Create kustomization file with resources and namespace
+kustomize create --resources <deployment_yaml_service_yaml> --namespace <staging>
+
+# Build kustomization file and deploy it with `kubectl`
+kustomize build . | kubectl apply -f -
+
+# Set an image in the kustomization file
+kustomize edit set image <busybox_alpine_3_6>
+
+# Search for kubernetes resources in the current directory to be added to the kustomization file
+kustomize create --autodetect

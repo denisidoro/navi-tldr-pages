@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/streamlink.md
+
+% streamlink, common
+
+# Attempt to extract streams from the URL specified, and if it's successful, print out a list of available streams to choose from
+streamlink <example_com_stream>
+
+# Open a stream with the specified quality
+streamlink <example_com_stream> <720p60>
+
+# Select the highest or lowest available quality
+streamlink <example_com_stream> <best_worst>
+
+# Specify which player to use to feed stream data to (VLC is used by default if found)
+streamlink --player=<mpv> <example_com_stream> <best>
+
+# Specify the amount of time to skip from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind)
+streamlink --hls-start-offset {{[HH:]MM:SS}} <example_com_stream> <best>
+
+# Skip to the beginning of a live stream, or as far back as possible
+streamlink --hls-live-restart <example_com_stream> <best>
+
+# Write stream data to a file instead of playing it
+streamlink --output <path_to_file_ts> <example_com_stream> <best>
+
+# Open the stream in the player, while at the same time writing it to a file
+streamlink --record <path_to_file_ts> <example_com_stream> <best>

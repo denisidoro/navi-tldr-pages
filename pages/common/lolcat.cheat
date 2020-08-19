@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lolcat.md
+
+% lolcat, common
+
+# Print a file to the console in rainbow colors
+lolcat <path_to_file>
+
+# Print the result of a text-producing command in rainbow colors
+<fortune> | lolcat
+
+# Print a file to the console with animated rainbow colors
+lolcat -a <path_to_file>
+
+# Print a file to the console with 24-bit (truecolor) rainbow colors
+lolcat -t <path_to_file>

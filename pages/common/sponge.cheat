@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sponge.md
+
+% sponge, common
+
+# Append file content to the source file
+cat <path_to_file> | sponge -a <path_to_file>
+
+# Remove all lines starting with # in a file
+grep -v '^<_>' <path_to_file> | sponge <path_to_file>

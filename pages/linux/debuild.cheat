@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/debuild.md
+
+% debuild, linux
+
+# Build the package in the current directory
+debuild
+
+# Build a binary package only
+debuild -b
+
+# Do not run lintian after building the package
+debuild --no-lintian

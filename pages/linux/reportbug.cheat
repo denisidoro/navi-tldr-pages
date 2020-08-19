@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/reportbug.md
+
+% reportbug, linux
+
+# Generate a bug report about a specific package, then send it by e-mail
+reportbug <package>
+
+# Report a bug that is not about a specific package (general problem, infrastructure, etc.)
+reportbug other
+
+# Write the bug report to a file instead of sending it by e-mail
+reportbug -o <filename> <package>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/django-admin.md
+
+% django-admin, common
+
+# Create a new django project
+django-admin startproject <project_name>
+
+# Create a new app for the current project
+django-admin startapp <app_name>
+
+# Check the current version of Django
+django-admin --version
+
+# Display more information for the given command
+django-admin help <command>

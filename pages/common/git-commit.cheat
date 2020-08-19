@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-commit.md
+
+% git-commit, common
+
+# Commit staged files to the repository with a message
+git commit -m <message>
+
+# Auto stage all modified files and commit with a message
+git commit -a -m <message>
+
+# Replace the last commit with currently staged changes
+git commit --amend
+
+# Commit only specific (already staged) files
+git commit <path_to_my_file1> <path_to_my_file2>

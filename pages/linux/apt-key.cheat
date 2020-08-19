@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/apt-key.md
+
+% apt-key, linux
+
+# List trusted keys
+apt-key list
+
+# Add a key to the trusted keystore
+apt-key add <public_key_file_asc>
+
+# Delete a key from the trusted keystore
+apt-key del <key_id>
+
+# Add a remote key to the trusted keystore
+wget -qO - <https___host_tld_filename_key> | apt-key add -
+
+# Add a key from keyserver with only key id
+apt-key adv --keyserver <pgp_mit_edu> --recv <KEYID>

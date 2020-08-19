@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cksum.md
+
+% cksum, common
+
+# Display a 32 bit checksum, size in bytes and filename
+cksum <filename>

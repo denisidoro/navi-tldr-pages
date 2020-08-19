@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hostid.md
+
+% hostid, common
+
+# Display the numeric identifier for the current host in hexadecimal
+hostid

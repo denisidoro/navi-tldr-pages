@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/kpartx.md
+
+% kpartx, linux
+
+# Add partition mappings
+kpartx -a <whole_disk_img>
+
+# Delete partition mappings
+kpartx -d <whole_disk_img>
+
+# List partition mappings
+kpartx -l <whole_disk_img>

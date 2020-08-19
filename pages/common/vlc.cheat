@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vlc.md
+
+% vlc, common
+
+# Play a file
+vlc <path_to_file>
+
+# Play in fullscreen
+vlc --fullscreen <path_to_file>
+
+# Play muted
+vlc --no-audio <path_to_file>
+
+# Play repeatedly
+vlc --loop <path_to_file>
+
+# Play video from a URL
+vlc <https___www_youtube_com_watch_v_oHg5SJYRHA0>

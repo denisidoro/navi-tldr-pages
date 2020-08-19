@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mpc.md
+
+% mpc, common
+
+# Toggle play/pause
+mpc toggle
+
+# Stop playing
+mpc stop
+
+# Show information about the currently playing song
+mpc status
+
+# Play next song
+mpc next
+
+# Play previous song
+mpc prev
+
+# Forward or rewind the currently playing song
+mpc [+-]<seconds>

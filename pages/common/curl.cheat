@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/curl.md
+
+% curl, common
+
+# Download the contents of an URL to a file
+curl <http___example_com> -o <filename>
+
+# Download a file, saving the output under the filename indicated by the URL
+curl -O <http___example_com_filename>
+
+# Download a file, following [L]ocation redirects, and automatically [C]ontinuing (resuming) a previous file transfer
+curl -O -L -C - <http___example_com_filename>
+
+# Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `-d @file_name` or `-d @'-'` to read from STDIN
+curl -d <_name_bob_> <http___example_com_form>
+
+# Send a request with an extra header, using a custom HTTP method
+curl -H {{'X-My-Header: 123'}} -X <PUT> <http___example_com>
+
+# Send data in JSON format, specifying the appropriate content-type header
+curl -d {{'{"name":"bob"}'}} -H {{'Content-Type: application/json'}} <http___example_com_users_1234>
+
+# Pass a user name and password for server authentication
+curl -u myusername:mypassword <http___example_com>
+
+# Pass client certificate and key for a resource, skipping certificate validation
+curl --cert <client_pem> --key <key_pem> --insecure <https___example_com>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/asar.md
+
+% asar, common
+
+# Archive a file or directory
+asar pack <path_to_file_or_directory> <archived_asar>
+
+# Extract an archive
+asar extract <archived_asar>
+
+# Extract a specific file from an archive
+asar extract-file <archived_asar> <file>
+
+# List the contents of an archive file
+asar list <archived_asar>

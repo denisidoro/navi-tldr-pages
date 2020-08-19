@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-check-ignore.md
+
+% git-check-ignore, common
+
+# Check whether a file or directory is ignored
+git check-ignore <path_to_file_or_directory>
+
+# Check whether multiple files or directories are ignored
+git check-ignore <path_to_file> <path_to_directory>
+
+# Use pathnames, one per line, from `stdin`
+git check-ignore --stdin < <path_to_file_list>
+
+# Do not check the index (used to debug why paths were tracked and not ignored)
+git check-ignore --no-index <path_to_files_or_directories>
+
+# Include details about the matching pattern for each path
+git check-ignore --verbose <path_to_files_or_directories>

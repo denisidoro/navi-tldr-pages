@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/scc.md
+
+% scc, common
+
+# Print lines of code in the current directory
+scc
+
+# Print lines of code in the target directory
+scc <path_to_directory>
+
+# Display output for every file
+scc --by-file
+
+# Display output using a specific output format (defaults to `tabular`)
+scc --format <tabular_wide_json_csv_cloc_yaml_html_html_table>
+
+# Only count files with specific file extensions
+scc --include-ext {{go, java, js}}
+
+# Exclude directories from being counted
+scc --exclude-dir <_git__hg>
+
+# Display output and sort by column (defaults to by files)
+scc --sort <files_name_lines_blanks_code_comments_complexity>
+
+# Print help for scc
+scc -h

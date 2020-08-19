@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/babel.md
+
+% babel, common
+
+# Transpile a specified input file and output to `stdout`
+babel <path_to_file>
+
+# Transpile a specified input file and output to a specific file
+babel <path_to_input_file> --out-file <path_to_output_file>
+
+# Transpile the input file every time it is changed
+babel <path_to_input_file> --watch
+
+# Transpile a whole directory of files
+babel <path_to_input_directory>
+
+# Ignore specified comma-separated files in a directory
+babel <path_to_input_directory> --ignore <ignored_files>
+
+# Transpile and output as minified JavaScript
+babel <path_to_input_file> --minified
+
+# Choose a set of presets for output formatting
+babel <path_to_input_file> --presets <presets>
+
+# Output all available options
+babel --help

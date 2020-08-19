@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/deluser.md
+
+% deluser, common
+
+# Remove a user
+deluser <name>
+
+# Remove a user along with their home directory and mail spool
+deluser -r <name>
+
+# Remove a user from a group
+deluser <name> <group>

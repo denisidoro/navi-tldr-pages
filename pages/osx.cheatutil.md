@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/mdutil.md
+
+% osxutil.md
+
+# Show the indexing status of the startup volume
+mdutil -s <_>
+
+# Turn on/off the Spotlight indexing for a given volume
+mdutil -i <on_off> <path_to_volume>
+
+# Erase the metadata stores and restart the indexing process
+mdutil -E <path_to_volume>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/awslogs.md
+
+% awslogs, common
+
+# List log groups
+awslogs groups
+
+# List existing streams for the specified group
+awslogs streams <_var_log_syslog>
+
+# Get logs for any streams in the specified group between 1 and 2 hours ago
+awslogs get <_var_log_syslog> --start='{{2h ago}}' --end='{{1h ago}}'
+
+# Get logs that match a specific Cloudwatch Logs Filter pattern
+awslogs get <_aws_lambda_my_lambda_group> --filter-pattern='<ERROR>'
+
+# Watch logs for any streams in the specified group
+awslogs get <_var_log_syslog> ALL --watch

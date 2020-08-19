@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hangups.md
+
+% hangups, common
+
+# Start hangups
+hangups
+
+# View troubeshooting information and help
+hangups -h
+
+# Set a refresh token for hangups
+hangups --token-path <_path_to_token>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/whoami.md
+
+% whoami, common
+
+# Display currently logged username
+whoami
+
+# Display the username after a change in the user ID
+sudo whoami

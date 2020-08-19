@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xman.md
+
+% xman, linux
+
+# Start xman in three-button window
+xman
+
+# Open the manual page output stored in a given file
+xman -helpfile <filename>
+
+# Show both manual page and directory
+xman -bothshown

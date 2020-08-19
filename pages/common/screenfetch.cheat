@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/screenfetch.md
+
+% screenfetch, common
+
+# Start screenfetch
+screenfetch
+
+# Take a screenshot (requires 'scrot')
+screenfetch -s
+
+# Specify distribution logo
+screenfetch -A '<distribution_name>'
+
+# Specify distribution logo and text
+screenfetch -D '<distribution_name>'
+
+# Strip all color
+screenfetch -N

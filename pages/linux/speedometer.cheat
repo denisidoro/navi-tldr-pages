@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/speedometer.md
+
+% speedometer, linux
+
+# Show graph for a specific interface
+speedometer -r <eth0> -t <eth0>

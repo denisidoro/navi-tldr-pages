@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ghc.md
+
+% ghc, common
+
+# Find and compile all modules in the current directory
+ghc Main
+
+# Compile a single file
+ghc <file_hs>
+
+# Compile using extra optimization
+ghc -O <file_hs>
+
+# Stop compilation after generating object files (.o)
+ghc -c <file_hs>
+
+# Run Haskell interactive interpreter (REPL)
+ghci
+
+# Evaluate a single expression
+ghc -e <expression>

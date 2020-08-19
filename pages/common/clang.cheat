@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/clang.md
+
+% clang, common
+
+# Compile a source code file into an executable binary
+clang <input_source_c> -o <output_executable>
+
+# Activate output of all errors and warnings
+clang <input_source_c> -Wall -o <output_executable>
+
+# Include libraries located at a different path than the source file
+clang <input_source_c> -o <output_executable> -I<header_path> -L<library_path> -l<library_name>
+
+# Compile source code into LLVM Intermediate Representation (IR)
+clang -S -emit-llvm <file_c> -o <file_ll>

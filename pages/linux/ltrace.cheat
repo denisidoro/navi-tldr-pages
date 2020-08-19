@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ltrace.md
+
+% ltrace, linux
+
+# Print (trace) library calls of a program binary
+ltrace ./<program>
+
+# Count library calls. Print a handy summary at the bottom
+ltrace -c <_path_to_program>
+
+# Trace calls to malloc and free, omit those done by libc
+ltrace -e malloc+free-@libc.so* <_path_to_program>
+
+# Write to file instead of terminal
+ltrace -o <file> <_path_to_program>

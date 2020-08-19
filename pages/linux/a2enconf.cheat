@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/a2enconf.md
+
+% a2enconf, linux
+
+# Enable a configuration file
+sudo a2enconf <configuration_file>
+
+# Don't show informative messages
+sudo a2enconf --quiet <configuration_file>

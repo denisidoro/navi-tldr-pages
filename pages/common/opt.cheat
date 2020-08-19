@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/opt.md
+
+% opt, common
+
+# Run an optimization or analysis on a bitcode file
+opt -<passname> <path_to_file_bc> -S -o <file_opt_bc>
+
+# Output the Control Flow Graph of a function to a "dot" file
+opt <_dot_cfg> -S <path_to_file_bc> -disable-output
+
+# Optimize the program at level 2 and output the result to another file
+opt -O2 <path_to_file_bc> -S -o <path_to_output_file_bc>

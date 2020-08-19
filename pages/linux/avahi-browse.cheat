@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/avahi-browse.md
+
+% avahi-browse, linux
+
+# List all services available on the local network along with their addresses and ports while ignoring local ones
+avahi-browse --all --resolve --ignore-local
+
+# List all domains
+avahi-browse --browse-domains
+
+# Limit the search to a particular domain
+avahi-browse --all --domain=<domain>

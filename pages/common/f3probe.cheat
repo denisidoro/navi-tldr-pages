@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/f3probe.md
+
+% f3probe, common
+
+# Probe a block device
+sudo f3probe <path_to_block_device>
+
+# Use the minimum about of RAM possible
+sudo f3probe --min-memory <path_to_block_device>
+
+# Time disk operations
+sudo f3probe --time-ops <path_to_block_device>

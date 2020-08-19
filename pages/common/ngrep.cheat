@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ngrep.md
+
+% ngrep, common
+
+# Capture traffic of all interfaces
+ngrep -d any
+
+# Capture traffic of a specific interface
+ngrep -d <eth0>
+
+# Capture traffic crossing port 22 of interface eth0
+ngrep -d <eth0> port <22>
+
+# Capture traffic from or to a host
+ngrep host <www_example_com>
+
+# Filter keyword 'User-Agent:' of interface eth0
+ngrep -d <eth0> '<User_Agent_>'

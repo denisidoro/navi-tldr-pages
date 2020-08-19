@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bashmarks.md
+
+% bashmarks, common
+
+# List available bookmarks
+l
+
+# Save the current directory as "bookmark_name"
+s <bookmark_name>
+
+# Go to a bookmarked directory
+g <bookmark_name>
+
+# Print a bookmarked directory's contents
+p <bookmark_name>
+
+# Delete a bookmark
+d <bookmark_name>

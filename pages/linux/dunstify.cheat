@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dunstify.md
+
+% dunstify, linux
+
+# Show a notification with a given title and message
+dunstify <_Title_> <_Message_>
+
+# Show a notification with specified urgency
+dunstify <_Title_> <_Message>" -u <low_normal_critical>
+
+# Specify a message ID (overwrites any previous messages with the same ID)
+dunstify <_Title_> <_Message_> -r <123>
+
+# To see other possible options
+notify-send --help

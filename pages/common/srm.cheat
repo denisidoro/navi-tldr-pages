@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/srm.md
+
+% srm, common
+
+# Remove a file after a single-pass overwriting with random data
+srm -s <_path_to_file>
+
+# Remove a file after seven passes of overwriting with random data
+srm -m <_path_to_file>
+
+# Recursively remove a directory and its contents overwriting each file with a single-pass of random data
+srm -r -s <_path_to_directory>
+
+# Prompt before every removal
+srm -i {{\*}}

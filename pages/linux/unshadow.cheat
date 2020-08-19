@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/unshadow.md
+
+% unshadow, linux
+
+# Combine the /etc/shadow and /etc/passwd of the current system
+sudo unshadow /etc/passwd /etc/shadow
+
+# Combine two arbitrary shadow and password files
+sudo unshadow <_path_to_passwd> <_path_to_shadow>

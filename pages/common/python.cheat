@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/python.md
+
+% python, common
+
+# Call a Python interactive shell (REPL)
+python
+
+# Execute script in a given Python file
+python <script_py>
+
+# Execute script as part of an interactive shell
+python -i <script_py>
+
+# Execute a Python expression
+python -c "<expression>"
+
+# Run library module as a script (terminates option list)
+python -m <module> <arguments>
+
+# Interactively debug a Python script
+python -m pdb <script_py>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/choco.md
+
+% choco, windows
+
+# Execute Chocolatey command
+choco <command>
+
+# Call general help
+choco -?
+
+# Call help on a specific command
+choco <command> -?
+
+# Check the Chocolatey version
+choco --version

@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/windows/rmdir.md
 
-% ir.md, windows
+% rmdir, windows
 
 # Remove an empty directory
 rmdir <path_to_directory>

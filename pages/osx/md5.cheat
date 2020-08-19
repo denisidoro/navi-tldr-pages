@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/osx/md5.md
 
-% osx5.md
+% md5, osx
 
 # Calculate the MD5 checksum for a file
 md5 <filename>

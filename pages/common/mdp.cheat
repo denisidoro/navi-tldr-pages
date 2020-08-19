@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/common/mdp.md
 
-% commonp.md
+% mdp, common
 
 # Launch a presentation in the terminal from a markdown file
 mdp <presentation_md>

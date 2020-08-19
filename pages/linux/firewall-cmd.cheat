@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/linux/firewall-cmd.md
 
-% firewall-.md, linux
+% firewall-cmd, linux
 
 # View the available firewall zones
 firewall-cmd --get-active-zones

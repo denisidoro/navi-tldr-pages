@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/windows/cmd.md
 
-% .md, windows
+% cmd, windows
 
 # Start a new instance of the command interpreter
 cmd

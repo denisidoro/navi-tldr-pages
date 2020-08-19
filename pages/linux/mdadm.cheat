@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mdadm.md
 
-% linuxadm.md
+% mdadm, linux
 
 # Create array
 mdadm --create <_path_to_raid_device_file> --level <raid_level> --raid-devices <number_of_disks> <_path_to_disk_device_file>

@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/common/rmdir.md
 
-% ir.md, common
+% rmdir, common
 
 # Remove directory, provided it is empty. Use `rm -r` to remove non-empty directories
 rmdir <path_to_directory>

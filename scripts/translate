@@ -33,7 +33,7 @@ format_markdown() {
 
 tags_from_filename() {
     sed -E 's|[^t]*tldr/pages/||' \
-        | sed 's/.md//' \
+        | sed 's/\.md//' \
         | tr '/' ' ' \
         | awk '{ for (i=NF; i>1; i--) printf("%s ",$i); print $1; }' \
         | sed 's/ /, /g'
@@ -61,7 +61,7 @@ find_markdowns() {
 
 output_filename() {
     sed "s|^./tldr/|./|" \
-        | sed 's/.md/.cheat/' 
+        | sed 's/\.md/.cheat/' 
 }
 
 export_markdown() {
@@ -72,6 +72,7 @@ export_markdown() {
 }
 
 rm -rf "./pages"
+
 for f in $(find_markdowns); do
     printf "Exporting $f: "
     export_markdown "$f" && echo "success" || echo "failed"

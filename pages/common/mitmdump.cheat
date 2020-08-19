@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/common/mitmdump.md
 
-% miump.md, common
+% mitmdump, common
 
 # Start a proxy and save all output to a file
 mitmdump -w <filename>

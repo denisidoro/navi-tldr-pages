@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/common/md5sum.md
 
-% common5sum.md
+% md5sum, common
 
 # Calculate the MD5 checksum for a file
 md5sum <filename1>

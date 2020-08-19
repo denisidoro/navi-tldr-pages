@@ -1,7 +1,7 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/osx/mdutil.md
 
-% osxutil.md
+% mdutil, osx
 
 # Show the indexing status of the startup volume
 mdutil -s <_>

@@ -16,5 +16,11 @@ Please don't edit the `.cheat` files by hand.
 - clone [tldr][tldr]
 - run `./scripts/translate`
 
+### Alternative
+
+You can run `navi --tldr <query>`.
+
+More info [here](https://github.com/denisidoro/navi/blob/master/docs/cheatsheet_repositories.md#using-cheatsheets-from-other-tools).
+
 [tldr]: https://github.com/tldr-pages/tldr
 [navi]: https://github.com/denisidoro/navi

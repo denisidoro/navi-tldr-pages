@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/apt-moo.md
+
+% apt-moo, linux
+
+# Print a cow easter egg
+apt moo

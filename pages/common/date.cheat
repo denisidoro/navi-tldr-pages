@@ -7,7 +7,7 @@
 date +"%c"
 
 # Display the current date in UTC and ISO 8601 format
-date -u +"%Y-%m-%dT%H:%M:%S%Z"
+date -u +"%Y-%m-%dT%H:%M:%SZ"
 
 # Display the current date as a Unix timestamp (seconds since the Unix epoch)
 date +%s
@@ -20,3 +20,6 @@ date -d "{{2018-09-01 00:00}}" +%s --utc
 
 # Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`)
 date --rfc-3339=s
+
+# Set the current date using the format `MMDDhhmmYYYY.ss` (`YYYY` and `.ss` are optional)
+date <093023592021_59>

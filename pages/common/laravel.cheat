@@ -12,8 +12,14 @@ laravel new <name> --dev
 # Overwrite if the directory already exists
 laravel new <name> --force
 
-# Install the Laravel authentication scaffolding
-laravel new <name> --auth
+# Install the Laravel Jetstream scaffolding
+laravel new <name> --jet
+
+# Install the Laravel Jetstream scaffolding with a specific stack
+laravel new <name> --jet --stack <livewire_inertia>
+
+# Install the Laravel Jetstream scaffolding with support for teams
+laravel new <name> --jet --teams
 
 # List the available installer commands
 laravel list

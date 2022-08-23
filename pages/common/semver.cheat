@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/semver.md
+
+% semver, common
+
+# Check if a version string respects the semantic versioning format (prints an empty string if it does not match)
+semver <1_2>
+
+# Convert a version string to the semantic versioning format
+semver --coerce <1_2>
+
+# Test if `1.2.3` matches the `^1.0` range (prints an empty string if it does not match)
+semver <1_2_3> --range "<_1_0>"
+
+# Test with multiple ranges
+semver <1_2_3> --range <___1_0_> <__2_0_>
+
+# Test multiple version strings and return only the ones that match
+semver <1_2_3> <2_0_0> --range "<_1_0>"

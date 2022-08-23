@@ -3,11 +3,17 @@
 
 % usermod, linux
 
-# Change a user's name
-usermod -l <newname> <user>
+# Change a username
+sudo usermod --login <new_username> <username>
 
-# Add user to supplementary groups (mind the whitespace)
-usermod -a -G <group1_group2> <user>
+# Change a user id
+sudo usermod --uid <id> <username>
 
-# Create a new home directory for a user and move their files to it
-usermod -m -d <_path_to_home> <user>
+# Change a user shell
+sudo usermod --shell <path_to_shell> <username>
+
+# Add a user to supplementary groups (mind the lack of whitespace)
+sudo usermod --append --groups <group1_group2____> <username>
+
+# Change a user home directory
+sudo usermod --move-home --home <path_to_new_home> <username>

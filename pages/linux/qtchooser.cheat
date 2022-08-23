@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qtchooser.md
+
+% qtchooser, linux
+
+# List available Qt versions from the configuration files
+qtchooser --list-versions
+
+# Print environment information
+qtchooser --print-env
+
+# Run the specified tool using the specified Qt version
+qtchooser --run-tool=<tool> --qt=<version_name>
+
+# Add a Qt version entry to be able to choose from
+qtchooser --install <version_name> <path_to_qmake>
+
+# Display all available options
+qtchooser --help

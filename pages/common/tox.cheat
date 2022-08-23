@@ -6,7 +6,7 @@
 # Run tests on all test environments
 tox
 
-# Create a tox.ini configuration
+# Create a `tox.ini` configuration
 tox-quickstart
 
 # List the available environments

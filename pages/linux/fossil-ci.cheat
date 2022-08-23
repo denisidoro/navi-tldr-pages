@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fossil-ci.md
+
+% fossil-ci, linux
+
+# View documentation for the original command
+tldr fossil-commit

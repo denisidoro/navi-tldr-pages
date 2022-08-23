@@ -3,11 +3,23 @@
 
 % git-restore, common
 
-# Restore a deleted file from the contents of the current commit (HEAD)
+# Restore an unstaged file to the version of the current commit (HEAD)
 git restore <path_to_file>
 
-# Restore a file to a version from a different commit
+# Restore an unstaged file to the version of a specific commit
 git restore --source <commit> <path_to_file>
 
-# Undo any uncommitted changes to tracked files, reverting to the current HEAD
-git restore .
+# Discard all unstaged changes to tracked files
+git restore :/
+
+# Unstage a file
+git restore --staged <path_to_file>
+
+# Unstage all files
+git restore --staged :/
+
+# Discard all changes to files, both staged and unstaged
+git restore --worktree --staged :/
+
+# Interactively select sections of files to restore
+git restore --patch

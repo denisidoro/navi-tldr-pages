@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pueue.md
+
+% pueue, common
+
+# Show general help and available subcommands
+pueue --help
+
+# Check the version of pueue
+pueue --version
+
+# Execute a pueue subcommand
+pueue <subcommand>

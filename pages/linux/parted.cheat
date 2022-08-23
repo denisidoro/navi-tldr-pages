@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/parted.md
+
+% parted, linux
+
+# List partitions on all block devices
+sudo parted --list
+
+# Start interactive mode with the specified disk selected
+sudo parted <_dev_sdX>
+
+# Create a new partition table of the specified label-type
+sudo parted --script <_dev_sdX> mklabel <aix_amiga_bsd_dvh_gpt_loop_mac_msdos_pc98_sun>
+
+# Show partition information in interactive mode
+print
+
+# Select a disk in interactive mode
+select <_dev_sdX>
+
+# Create a 16 GB partition with the specified filesystem in interactive mode
+mkpart <primary_logical_extended> <btrfs_ext2_ext3_ext4_fat16_fat32_hfs_hfs__linux_swap_ntfs_reiserfs_udf_xfs> <0_> <16G>
+
+# Resize a partition in interactive mode
+resizepart <_dev_sdXN> <end_position_of_partition>
+
+# Remove a partition in interactive mode
+rm <_dev_sdXN>

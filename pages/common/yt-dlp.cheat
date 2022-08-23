@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yt-dlp.md
+
+% yt-dlp, common
+
+# Download a video or playlist (with the default options from command below)
+yt-dlp "<https___www_youtube_com_watch_v_oHg5SJYRHA0>"
+
+# Download a video with a defined format. In this case merging the best video format with the best audio format (Default)
+yt-dlp --format "{{bv*+ba/b}}" "<https___www_youtube_com_watch_v_oHg5SJYRHA0>"
+
+# Extract audio from videos (required ffmpeg or ffprobe)
+yt-dlp --extract-audio "<https___www_youtube_com_watch_v_oHg5SJYRHA0>"
+
+# Specify audio format of extracted audio (best(default), aac, flac, mp3, m4a, opus, vorbis, wav, alac)
+yt-dlp --extract-audio --audio-format <mp3> "<https___www_youtube_com_watch_v_oHg5SJYRHA0>"
+
+# Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5)
+yt-dlp --extract-audio --audio-format <mp3> --audio-quality <0> "<https___www_youtube_com_watch_v_oHg5SJYRHA0>"
+
+# Download all playlists of YouTube channel/user keeping each playlist in separate directory
+yt-dlp -o "{{%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "<https___www_youtube_com_user_TheLinuxFoundation_playlists>"
+
+# Download Udemy course keeping each chapter in separate directory under MyVideos directory in your home
+yt-dlp -u <user> -p <password> -P "<__MyVideos>" -o "{{%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}}" "<https___www_udemy_com_java_tutorial>"
+
+# Download entire series season keeping each series and each season in separate directory under C:/MyVideos
+yt-dlp -P "<C__MyVideos>" -o "{{%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}}" "<https___videomore_ru_kino_v_detalayah_5_sezon_367617>"

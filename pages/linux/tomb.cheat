@@ -3,16 +3,19 @@
 
 % tomb, linux
 
-# Create a new tomb with an initial size of 100MB
+# Create a new tomb with an initial size of 100 MB
 tomb dig -s <100> <encrypted_directory_tomb>
 
 # Create a new key file that can be used to lock a tomb; user will be prompted for a password for the key
 tomb forge <encrypted_directory_tomb_key>
 
+# Forcefully create a new key, even if the tomb isn't allowing key forging (due to swap)
+tomb forge <encrypted_directory_tomb_key> -f
+
 # Initialize and lock an empty tomb using a key made with `forge`
 tomb lock <encrypted_directory_tomb> -k <encrypted_directory_tomb_key>
 
-# Mount a tomb (by default in /media) using its key, making it usable as a regular filesystem directory
+# Mount a tomb (by default in `/media`) using its key, making it usable as a regular filesystem directory
 tomb open <encrypted_directory_tomb> -k <encrypted_directory_tomb_key>
 
 # Close a tomb (fails if the tomb is being used by a process)

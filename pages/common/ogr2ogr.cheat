@@ -4,16 +4,19 @@
 % ogr2ogr, common
 
 # Convert a Shapefile into a GeoPackage
-ogr2ogr -f GPKG <output>.gpkg <input>.shp
+ogr2ogr -f GPKG <path_to_output>.gpkg <path_to_input>.shp
+
+# Reduce a GeoJSON to features matching a condition
+ogr2ogr -where '{{myProperty > 42}}' -f <GeoJSON> <path_to_output_geojson> <path_to_input_geojson>
 
 # Change coordinate reference system of a GeoPackage from `EPSG:4326` to `EPSG:3857`
-ogr2ogr -s_srs <EPSG_4326> -t_srs <EPSG_3857> -f GPKG <output>.gpkg <input>.gpkg
+ogr2ogr -s_srs <EPSG_4326> -t_srs <EPSG_3857> -f GPKG <path_to_output>.gpkg <path_to_input>.gpkg
 
 # Convert a CSV file into a GeoPackage, specifying the names of the coordinate columns and assigning a coordinate reference system
-ogr2ogr -f GPKG <output>.gpkg <input>.csv -oo X_POSSIBLE_NAMES=<longitude> -oo Y_POSSIBLE_NAMES=<latitude> -a_srs <EPSG_4326>
+ogr2ogr -f GPKG <path_to_output>.gpkg <path_to_input>.csv -oo X_POSSIBLE_NAMES=<longitude> -oo Y_POSSIBLE_NAMES=<latitude> -a_srs <EPSG_4326>
 
 # Load a GeoPackage into a PostGIS database
-ogr2ogr -f "PostgreSQL" PG:dbname="<database_name>" <input>.gpkg
+ogr2ogr -f PostgreSQL PG:dbname="<database_name>" <path_to_input>.gpkg
 
 # Clip layers of a GeoPackage file to the given bounding box
-ogr2ogr -spat <min_x> <min_y> <max_x> <max_y> -f GPKG <output>.gpkg <input>.gpkg
+ogr2ogr -spat <min_x> <min_y> <max_x> <max_y> -f GPKG <path_to_output>.gpkg <path_to_input>.gpkg

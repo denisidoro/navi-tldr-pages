@@ -12,7 +12,7 @@ virtualboxvm --startvm <name_uuid> --fullscreen
 # Mount the specified DVD image file
 virtualboxvm --startvm <name_uuid> --dvd <path_to_image_file>
 
-# Display a command line window with debug information
+# Display a command-line window with debug information
 virtualboxvm --startvm <name_uuid> --debug-command-line
 
 # Start a virtual machine in a paused state

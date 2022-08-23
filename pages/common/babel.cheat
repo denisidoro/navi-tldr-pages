@@ -3,7 +3,7 @@
 
 % babel, common
 
-# Transpile a specified input file and output to `stdout`
+# Transpile a specified input file and output to stdout
 babel <path_to_file>
 
 # Transpile a specified input file and output to a specific file

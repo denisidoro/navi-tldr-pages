@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nyxt.md
+
+% nyxt, common
+
+# List all profiles
+nyxt --list-data-profiles
+
+# Set the `init.lisp` file path
+nyxt --init <path_to_file>
+
+# Change the path to the auto-config file
+nyxt --auto-config <path_to_file>
+
+# Print system information
+nyxt --system-information

@@ -12,7 +12,7 @@ kafkacat -C -t <topic> -b <brokers> -o beginning -e
 # Consume messages as a Kafka consumer group
 kafkacat -G <group_id> <topic> -b <brokers>
 
-# Publish message by reading from `stdin`
+# Publish message by reading from stdin
  echo <message> | kafkacat -P -t <topic> -b <brokers>
 
 # Publish messages by reading from a file

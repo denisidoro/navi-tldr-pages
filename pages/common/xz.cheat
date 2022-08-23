@@ -9,13 +9,13 @@ xz <file>
 # Decompress a xz file
 xz -d <file_xz>
 
-# Compress a file to the lzma file format
-xz --format=lzma <file>
+# Compress a file to the LZMA file format
+xz --format=<lzma> <file>
 
-# Decompress an lzma file
-xz -d --format=lzma <file_lzma>
+# Decompress an LZMA file
+xz -d --format=<lzma> <file_lzma>
 
-# Decompress a file and write to `stdout`
+# Decompress a file and write to stdout
 xz -dc <file_xz>
 
 # Compress a file, but don't delete the original

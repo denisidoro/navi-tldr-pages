@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gh-mintty.md
+
+% gh-mintty, common
+
+# Display help about using `gh` with MinTTY
+gh mintty

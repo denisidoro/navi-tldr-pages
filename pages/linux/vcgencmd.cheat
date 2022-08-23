@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vcgencmd.md
+
+% vcgencmd, linux
+
+# List all available commands
+vcgencmd commands
+
+# Print the current CPU temperature
+vcgencmd measure_temp
+
+# Print the current voltage
+vcgencmd measure_volts
+
+# Print the throttled state of the system as a bit pattern
+vcgencmd get_throttled
+
+# Print the bootloader config (only available on Raspberry Pi 4 models)
+vcgencmd bootloader_config
+
+# Display Help
+vcgencmd --help

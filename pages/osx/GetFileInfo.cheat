@@ -1,9 +1,9 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/osx/GetFileInfo.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/getfileinfo.md
 
-% GetFileInfo, osx
+% getfileinfo, osx
 
-# Display infomation about a given file
+# Display information about a given file
 GetFileInfo <path_to_filename>
 
 # Display the date and time a given file was created

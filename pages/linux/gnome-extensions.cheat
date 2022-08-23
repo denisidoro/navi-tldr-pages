@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gnome-extensions.md
+
+% gnome-extensions, linux
+
+# Display the version
+gnome-extensions version
+
+# List all the installed extensions
+gnome-extensions list
+
+# Display information about a specific extension
+gnome-extensions info "<extension_id>"
+
+# Display help for a subcommand (like `list`)
+gnome-extensions help <subcommand>
+
+# Enable a specific extension
+gnome-extensions enable "<extension_id>"
+
+# Disable a specific extension
+gnome-extension disable "<extension_id>"
+
+# Uninstall a specific extension
+gnome-extension uninstall "<extension_id>"

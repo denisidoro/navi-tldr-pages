@@ -4,7 +4,7 @@
 % virsh, common
 
 # Connect to a hypervisor session
-virsh connect <qemu___system>
+virsh connect <qemu____system>
 
 # List all domains
 virsh list --all

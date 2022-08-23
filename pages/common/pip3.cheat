@@ -22,7 +22,7 @@ pip3 uninstall <package_name>
 pip3 freeze > <requirements_txt>
 
 # Install packages from a file
-pip3 install --requirements <requirements_txt>
+pip3 install --requirement <requirements_txt>
 
 # Show installed package info
 pip3 show <package_name>

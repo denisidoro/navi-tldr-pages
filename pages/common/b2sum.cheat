@@ -4,13 +4,19 @@
 % b2sum, common
 
 # Calculate the BLAKE2 checksum for a file
-b2sum <filename1>
+b2sum <path_to_file>
 
 # Calculate BLAKE2 checksums for multiple files
-b2sum <filename1> <filename2>
+b2sum <path_to_file1> <path_to_file2>
+
+# Calculate the BLAKE2 checksum from stdin
+<some_command> | b2sum
 
 # Read a file of BLAKE2 sums and filenames and verify all files have matching checksums
-b2sum -c <filename_b2>
+b2sum --check <path_to_file_b2>
 
-# Calculate the BLAKE2 checksum from `stdin`
-<somecommand> | b2sum
+# Only show a message for missing files or when verification fails
+b2sum --check --quiet <path_to_file_b2>
+
+# Only show a message for files for which verification fails, ignoring missing files
+b2sum --ignore-missing --check --quiet <path_to_file_b2>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/maza.md
+
+% maza, common
+
+# Update the Maza database
+maza update
+
+# Start Maza
+sudo maza start
+
+# Stop Maza
+sudo maza stop
+
+# Show the status of Maza
+maza status

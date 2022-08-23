@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rpmbuild.md
+
+% rpmbuild, linux
+
+# Build binary and source packages
+rpmbuild -ba <path_to_spec_file>
+
+# Build a binary package without source package
+rpmbuild -bb <path_to_spec_file>
+
+# Specify additional variables when building a package
+rpmbuild -bb <path_to_spec_file> --define "<variable1> <value1>" --define "<variable2> <value2>"

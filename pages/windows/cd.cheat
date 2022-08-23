@@ -3,14 +3,14 @@
 
 % cd, windows
 
-# Go to a directory in the same drive
-cd <path_to_directory>
-
-# Display the name of the current directory
+# Display the path of the current directory
 cd
 
 # Go up to the parent of the current directory
 cd ..
 
-# Go to a directory in a different drive
-cd <path_to_directory> /d
+# Go to a specific directory in the same drive
+cd {{path\to\directory}}
+
+# Go to a specific directory in a different [d]rive
+cd /d <C>:{{path\to\directory}}

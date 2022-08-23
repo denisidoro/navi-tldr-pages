@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/betty.md
+
+% betty, common
+
+# Ask Betty something
+betty {{what time is it}}
+
+# Ask Betty version
+betty version
+
+# Download a file
+betty download <https___example_com_file_png> to <file_png>
+
+# Compress a file or directory to one of the support archive formats
+betty <zip> <path_to_file_or_directory>
+
+# Extract an archive into the current directory
+betty <unzip> <archive_tar_gz>
+
+# Extract an archive into a directory
+betty unarchive <archive_tar_gz> to <directory>
+
+# Play Spotify
+betty play <Spotify>
+
+# Drive Betty to madness
+betty go crazy

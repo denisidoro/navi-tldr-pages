@@ -12,5 +12,5 @@ mongo --host <host> --port <port> <database>
 # Connect to a database with a given username; user will be prompted for password
 mongo --username <username> <database> --password
 
-# Evaluate a javascript expression on the database
+# Evaluate a JavaScript expression on the database
 mongo --eval '<JSON_stringify_db_foo_findOne___>' <database>

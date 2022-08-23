@@ -6,5 +6,5 @@
 # Convert a file to a C source file and header and display it to the console
 wasm2c <file_wasm>
 
-# Write the output to a given file (file.h gets additionally generated)
+# Write the output to a given file (`file.h` gets additionally generated)
 wasm2c <file_wasm> -o <file_c>

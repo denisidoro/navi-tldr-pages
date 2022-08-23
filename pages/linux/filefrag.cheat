@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/filefrag.md
+
+% filefrag, linux
+
+# Display a report for a specific file
+filefrag <path_to_file>
+
+# Display a report for space-separated list of files
+filefrag <path_to_file1> <path_to_file2>
+
+# Display a report using a 1024 byte blocksize
+filefrag -b <path_to_file>
+
+# Sync the file before requesting the mapping
+filefrag -s <path_to_files>
+
+# Display mapping of extended attributes
+filefrag -x <path_to_files>
+
+# Display a report with verbose information
+filefrag -v <path_to_files>

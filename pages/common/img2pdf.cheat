@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/img2pdf.md
+
+% img2pdf, common
+
+# Convert multiple images to a single PDF, each image being on its own page
+img2pdf <path_to_image1_jpg> <path_to_image2_jpg> --output <path_to_file_pdf>
+
+# Convert only the first frame of a multi-frame image to PDF
+img2pdf <path_to_file_gif> --first-frame-only --output <path_to_file_pdf>
+
+# Auto orient the image, use a page size of A4 in landscape mode, and set a border of 2cm horizontally and 5.1cm vertically
+img2pdf <path_to_file_jpg> --auto-orient --pagesize <A4_T> --border <2cm>:<5_1cm> --output <path_to_file_pdf>
+
+# Shrink only larger images to a 10cm by 15cm rectangle inside a 30x20cm page
+img2pdf <path_to_file_tiff> --pagesize <30cm>x<20cm> --imgsize <10cm>x<15cm> --fit <shrink> --output <path_to_file_pdf>
+
+# Convert an image to PDF, and specify metadata for the resulting file
+img2pdf <path_to_file_png> --title <title> --author <author> --creationdate <1970_01_31> --keywords {{keyword1 keyword2}} --subject <subject> --output <path_to_file_pdf>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/semanage.md
+
+% semanage, linux
+
+# Output local customizations
+semanage -S <store> -o <path_to_output_file>
+
+# Take a set of commands from a specified file and load them in a single transaction
+semanage -S <store> -i <path_to_input_file>
+
+# Manage booleans. Booleans allow the administrator to modify the confinement of processes based on the current configuration
+semanage boolean -S <store> <__delete___modify___list___noheading___deleteall> <_on__off> -F <boolean_boolean_file>
+
+# Manage policy modules
+semanage module -S <store> <__add___delete___list___modify> <__enable___disable> <module_name>
+
+# Disable/Enable dontaudit rules in policy
+semanage dontaudit -S <store> <on_off>

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cvs.md
+
+% cvs, common
+
+# Create a new repository (requires the `CVSROOT` environment variable to be set externally)
+cvs -d <path_to_repository> init
+
+# Add a project to the repository
+cvs import -m "<message>" <project_name> <version> <vendor>
+
+# Checkout a project
+cvs checkout <project_name>
+
+# Show changes made to files
+cvs diff <path_to_file>
+
+# Add a file
+cvs add <path_to_file>
+
+# Commit a file
+cvs commit -m "<message>" <path_to_file>
+
+# Update the working directory from the remote repository
+cvs update

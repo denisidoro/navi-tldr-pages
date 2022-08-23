@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dog.md
+
+% dog, common
+
+# Lookup the IP(s) associated with a hostname (A records)
+dog <example_com>
+
+# Query the MX records type associated with a given domain name
+dog <example_com> MX
+
+# Specify a specific DNS server to query (e.g. Cloudflare)
+dog <example_com> MX @<1_1_1_1>
+
+# Query over TCP rather than UDP
+dog <example_com> MX @<1_1_1_1> --tcp
+
+# Query the MX records type associated with a given domain name over TCP using explicit arguments
+dog --query <example_com> --type MX --nameserver <1_1_1_1> --tcp
+
+# Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH)
+dog <example_com> --https @<https___cloudflare_dns_com_dns_query>

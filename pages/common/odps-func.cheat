@@ -6,10 +6,10 @@
 # Show functions in the current project
 list functions;
 
-# Create a Java function using a .jar resource
+# Create a Java function using a `.jar` resource
 create function <func_name> as <path_to_package_Func> using '<package_jar>';
 
-# Create a Python function using a .py resource
+# Create a Python function using a `.py` resource
 create function <func_name> as <script_Func> using '<script_py>';
 
 # Delete a function

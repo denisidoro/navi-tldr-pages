@@ -3,7 +3,7 @@
 
 % dokku, common
 
-# List runinng apps
+# List running apps
 dokku apps
 
 # Create an app

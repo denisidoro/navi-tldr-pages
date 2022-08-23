@@ -3,7 +3,7 @@
 
 % calibre-server, common
 
-# Start a server to distribute ebooks. Access at http://localhost:8080
+# Start a server to distribute e-books. Access at http://localhost:8080
 calibre-server
 
 # Start server on different port. Access at http://localhost:port

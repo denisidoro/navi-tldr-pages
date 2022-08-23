@@ -3,7 +3,7 @@
 
 % eslint, common
 
-# Create eslint config
+# Create ESLint config
 eslint --init
 
 # Lint on a given set of files

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/joe.md
+
+% joe, common
+
+# Open a new file in JOE
+joe
+
+# Open a specific file
+joe <path_to_file>
+
+# Open a specific file, positioning the cursor at the specified line
+joe +<line> <path_to_file>
+
+# Open a specific file in read-only mode
+joe -rdonly <path_to_file>

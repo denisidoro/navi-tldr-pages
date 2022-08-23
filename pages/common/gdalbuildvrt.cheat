@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdalbuildvrt.md
+
+% gdalbuildvrt, common
+
+# Make a virtual mosaic from all TIFF files contained in a directory
+gdalbuildvrt <path_to_output_vrt> {{path/to/input_directory/*.tif}}
+
+# Make a virtual mosaic from files whose name is specified in a text file
+gdalbuildvrt -input_file_list <path_to_list_txt> <path_to_output_vrt>
+
+# Make an RGB virtual mosaic from 3 single-band input files
+gdalbuildvrt -separate <path_to_rgb_vrt> <path_to_red_tif> <path_to_green_tif> <path_to_blue_tif>
+
+# Make a virtual mosaic with blue background color (RGB: 0 0 255)
+gdalbuildvrt -hidenodata -vrtnodata "{{0 0 255}}" <path_to_output_vrt> {{path/to/input_directory/*.tif}}

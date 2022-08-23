@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dotnet-tool.md
+
+% dotnet-tool, common
+
+# Install a global tool (don't use `--global` for local tools)
+dotnet tool install --global <dotnetsay>
+
+# Install tools defined in the local tool manifest
+dotnet tool restore
+
+# Update a specific global tool (don't use `--global` for local tools)
+dotnet tool update --global <tool_name>
+
+# Uninstall a global tool (don't use `--global` for local tools)
+dotnet tool uninstall --global <tool_name>
+
+# List installed global tools (don't use `--global` for local tools)
+dotnet tool list --global
+
+# Search tools in NuGet
+dotnet tool search <search_term>
+
+# Display help
+dotnet tool --help

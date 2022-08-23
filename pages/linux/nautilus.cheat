@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nautilus.md
+
+% nautilus, linux
+
+# Launch Nautilus
+nautilus
+
+# Launch Nautilus as root user
+sudo nautilus
+
+# Launch Nautilus and display a specific directory
+nautilus <path_to_directory>
+
+# Launch Nautilus with a specific file or directory selected
+nautilus --select <path_to_file_or_directory>
+
+# Launch Nautilus in a separated window
+nautilus --new-window
+
+# Close all Nautilus instances
+nautilus --quit
+
+# Display help
+nautilus --help

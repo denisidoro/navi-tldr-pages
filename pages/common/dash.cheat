@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dash.md
+
+% dash, common
+
+# Start an interactive shell session
+dash
+
+# Execute a command and then exit
+dash -c "<command>"
+
+# Execute a script
+dash <path_to_script_sh>
+
+# Run commands from a script, printing each command before executing it
+dash -x <path_to_script_sh>
+
+# Execute commands from a script, stopping at the first error
+dash -e <path_to_script_sh>
+
+# Read and execute commands from stdin
+dash -s

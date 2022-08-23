@@ -6,6 +6,9 @@
 # Check the Pi-hole daemon's status
 pihole status
 
+# Update Pi-hole and Gravity
+pihole -up
+
 # Monitor detailed system status
 pihole chronometer
 
@@ -20,3 +23,6 @@ pihole <whitelist_blacklist> <example_com>
 
 # Search the lists for a domain
 pihole query <example_com>
+
+# Open a real-time log of connections
+pihole tail

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-conf.md
+
+% tlmgr-conf, common
+
+# Show the current TeX Live configuration
+tlmgr conf
+
+# Show the current `texmf`, `tlmgr`, or `updmap` configuration
+tlmgr conf <texmf_tlmgr_updmap>
+
+# Show only a specific configuration option
+tlmgr conf <texmf_tlmgr_updmap> <configuration_key>
+
+# Set a specific configuration option
+tlmgr conf <texmf_tlmgr_updmap> <configuration_key> <value>
+
+# Delete a specific configuration option
+tlmgr conf <texmf_tlmgr_updmap> --delete <configuration_key>
+
+# Disable the execution of system calls via `\write18`
+tlmgr conf texmf <shell_escape> <0>
+
+# Show all additional `texmf` trees
+tlmgr conf auxtrees show

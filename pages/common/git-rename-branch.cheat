@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-rename-branch.md
+
+% git-rename-branch, common
+
+# Rename the branch you are currently on
+git rename-branch <new_branch_name>
+
+# Rename a specific branch
+git rename-branch <old_branch_name> <new_branch_name>

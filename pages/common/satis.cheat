@@ -3,7 +3,7 @@
 
 % satis, common
 
-# Initialise a Satis configuration
+# Initialize a Satis configuration
 satis init <satis_json>
 
 # Add a VCS repository to the Satis configuration

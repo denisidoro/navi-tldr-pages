@@ -12,7 +12,7 @@ nkf -s <path_to_file_txt>
 # Convert to UTF-8 encoding and overwrite the file
 nkf -w --overwrite <path_to_file_txt>
 
-# Set new line code to LF and overwrite (unix type)
+# Set new line code to LF and overwrite (UNIX type)
 nkf -d --overwrite <path_to_file_txt>
 
 # Set new line code to CRLF and overwrite (windows type)

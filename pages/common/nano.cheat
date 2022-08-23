@@ -3,14 +3,20 @@
 
 % nano, common
 
+# Open a new file in nano
+nano
+
 # Open a specific file
 nano <path_to_file>
 
-# Open a file positioning the cursor at the specified line and column
+# Open a specific file, positioning the cursor at the specified line and column
 nano +<line>,<column> <path_to_file>
 
-# Enable smooth scrolling
-nano -S <filename>
+# Open a specific file and enable soft wrapping
+nano --softwrap <path_to_file>
 
-# Indent new lines to the previous lines' indentation
-nano -i <filename>
+# Open a specific file and indent new lines to the previous lines' indentation
+nano --autoindent <path_to_file>
+
+# Open nano and create a backup file (`file~`) when saving edits
+nano --backup <path_to_file>

@@ -19,4 +19,4 @@ pax -w <path_to_file1> <path_to_file2> <path_to_file3> > <target_tar>
 pax -rf <source_tar>
 
 # Copy to a directory, while keeping the original metadata; `target/` must exist
-pax -rw <path_to_file1> <path_to_dir1> <path_to_dir2> <target_>
+pax -rw <path_to_file1> <path_to_directory1> <path_to_directory2> <target_>

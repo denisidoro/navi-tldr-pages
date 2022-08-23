@@ -12,7 +12,7 @@ ant -f <buildfile_xml>
 # Print information on possible targets for this project
 ant -p
 
-# Print debudgging information
+# Print debugging information
 ant -d
 
 # Execute all targets that do not depend on fail target(s)

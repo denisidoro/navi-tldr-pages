@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-cp.md
+
+% git-cp, common
+
+# Copy an existing file in a Git repo, staying in the same directory
+git cp <file> <new_file>
+
+# Copy an existing file in a Git repo and place it elsewhere
+git cp <path_to_file> <path_to_new_file>

@@ -3,7 +3,7 @@
 
 % yesod, common
 
-# Create a new scaffolded site, with sqlite as backend, in the "my-project" directory
+# Create a new scaffolded site, with SQLite as backend, in the `my-project` directory
 stack new <my_project> <yesod_sqlite>
 
 # Install the Yesod CLI tool within a Yesod scaffolded site

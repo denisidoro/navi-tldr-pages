@@ -3,7 +3,7 @@
 
 % steghide, linux
 
-# Embed data in a PNG image, prompting for a passphrase
+# Embed data in a PNG, prompting for a passphrase
 steghide embed --coverfile <path_to_image_png> --embedfile <path_to_data_txt>
 
 # Extract data from a WAV audio file

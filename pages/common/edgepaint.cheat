@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/edgepaint.md
+
+% edgepaint, common
+
+# Colorize edges of one or more graph layouts (that already have layout information) to clarify crossing edges
+edgepaint <path_to_layout1_gv> {{path/to/layout2.gv ...}} > <path_to_output_gv>
+
+# Colorize edges using a color scheme. (See <https://graphviz.org/doc/info/colors.html#brewer>)
+edgepaint -color-scheme=<accent7> <path_to_layout_gv> > <path_to_output_gv>
+
+# Lay out a graph and colorize its edges, then convert to a PNG image
+dot <path_to_input_gv> | edgepaint | dot -T <___> > <path_to_output_png>
+
+# Display help for `edgepaint`
+edgepaint -?

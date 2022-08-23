@@ -9,8 +9,8 @@ hydra-wizard
 # Guess SSH credentials using a given username and a list of passwords
 hydra -l <username> -P <path_to_wordlist_txt> <host_ip> <ssh>
 
-# Guess Telnet credentials using a list of usernames and a single password, specifying a non-standard port and IPv6
-hydra -L <path_to_usernames_txt> -p <password> -s <port> -6 <host_ip> <telnet>
+# Guess HTTPS webform credentials using two specific lists of usernames and passwords ("https_post_request" can be like "username=^USER^&password=^PASS^")
+hydra -L <path_to_usernames_txt> -P <path_to_wordlist_txt> <host_ip> <https_post_form> "<url_without_host>:<https_post_request>:<login_failed_string>"
 
 # Guess FTP credentials using usernames and passwords lists, specifying the number of threads
 hydra -L <path_to_usernames_txt> -P <path_to_wordlist_txt> -t <n_tasks> <host_ip> <ftp>

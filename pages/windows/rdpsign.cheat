@@ -15,5 +15,5 @@ rdpsign <path_to_file_rdp> /q
 # Display verbose warnings, messages and statuses
 rdpsign <path_to_file_rdp> /v
 
-# Test the signing by displaying the output to `stdout` without updating the file
+# Test the signing by displaying the output to stdout without updating the file
 rdpsign <path_to_file_rdp> /l

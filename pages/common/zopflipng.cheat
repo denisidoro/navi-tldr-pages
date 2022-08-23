@@ -3,8 +3,8 @@
 
 % zopflipng, common
 
-# Optimize a PNG image
+# Optimize a PNG
 zopflipng <input_png> <output_png>
 
-# Optimize several PNG images and save with given prefix
+# Optimize several PNGs and save with given prefix
 zopflipng --prefix=<prefix> <image1_png> <image2_png> <image3_png>

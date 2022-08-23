@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/brotli.md
+
+% brotli, common
+
+# Compress a file, creating a compressed version next to the file
+brotli <file_ext>
+
+# Decompress a file, creating an uncompressed version next to the file
+brotli -d <file_ext>.br
+
+# Compress a file specifying the output filename
+brotli <file_ext> -o <compressed_file_ext_br>
+
+# Decompress a Brotli file specifying the output filename
+brotli -d <compressed_file_ext_br> -o <file_ext>
+
+# Specify the compression level. 1=Fastest (Worst), 11=Slowest (Best)
+brotli -q <11> <file_ext> -o <compressed_file_ext_br>

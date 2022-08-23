@@ -9,11 +9,11 @@ lz4 <file>
 # Decompress a file
 lz4 -d <file_lz4>
 
-# Decompress a file and write to `stdout`
+# Decompress a file and write to stdout
 lz4 -dc <file_lz4>
 
 # Package and compress a directory and its contents
-tar cvf - <path_to_dir> | lz4 - <dir_tar_lz4>
+tar cvf - <path_to_directory> | lz4 - <dir_tar_lz4>
 
 # Decompress and unpack a directory and its contents
 lz4 -d <dir_tar_lz4> | tar -xv

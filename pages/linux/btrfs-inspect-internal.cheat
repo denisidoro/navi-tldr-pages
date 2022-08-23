@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/btrfs-inspect-internal.md
+
+% btrfs-inspect-internal, linux
+
+# Print superblock's information
+sudo btrfs inspect-internal dump-super <path_to_partition>
+
+# Print superblock's and all of its copies' information
+sudo btrfs inspect-internal dump-super --all <path_to_partition>
+
+# Print filesystem's metadata information
+sudo btrfs inspect-internal dump-tree <path_to_partition>
+
+# Print list of files in inode `n`-th
+sudo btrfs inspect-internal inode-resolve <n> <path_to_btrfs_mount>
+
+# Print list of files at a given logical address
+sudo btrfs inspect-internal logical-resolve <logical_address> <path_to_btrfs_mount>
+
+# Print stats of root, extent, csum and fs trees
+sudo btrfs inspect-internal tree-stats <path_to_partition>

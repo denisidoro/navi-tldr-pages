@@ -3,7 +3,7 @@
 
 % lastcomm, linux
 
-# Print informations about all of the commands in the acct (record file)
+# Print information about all the commands in the acct (record file)
 lastcomm
 
 # Display commands executed by a given user

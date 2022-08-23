@@ -3,7 +3,7 @@
 
 % mdp, common
 
-# Launch a presentation in the terminal from a markdown file
+# Launch a presentation in the terminal from a Markdown file
 mdp <presentation_md>
 
 # Disable fading transitions

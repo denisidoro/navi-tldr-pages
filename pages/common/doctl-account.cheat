@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/doctl-account.md
+
+% doctl-account, common
+
+# Display account info
+doctl account get
+
+# Show the hourly API limit, progress towards it, and when the rate limit resets
+doctl account ratelimit
+
+# Display help
+doctl account --help

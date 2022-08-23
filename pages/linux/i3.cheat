@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/i3.md
+
+% i3, linux
+
+# Start i3 (Note that a pre-existing window manager must not be open when this command is run.)
+i3
+
+# Open a new terminal window
+Super + Return
+
+# Create a new workspace
+Super + Shift + <number>
+
+# Switch to workspace <number>
+Super + <number>
+
+# Open new window horizontally
+Super + h
+
+# Open new window vertically
+Super + v
+
+# Open application (type out application name after executing command)
+Super + D

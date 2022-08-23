@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-archive-file.md
+
+% git-archive-file, common
+
+# Pack the currently checked out commit into a zip archive
+git archive-file

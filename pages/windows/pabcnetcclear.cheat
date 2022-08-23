@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/pabcnetcclear.md
+
+% pabcnetcclear, windows
+
+# Compile the specified source file into an executable with the same name
+pabcnetcclear <path_to_source_file_pas>
+
+# Compile the specified source file into an executable with the specified name
+pabcnetcclear /Output:<path_to_file_pas> <path_to_source_file_pas>
+
+# Compile the specified source file into an executable with the same name along with/without debug information
+pabcnetcclear /Debug:<0_1> <path_to_source_file_pas>
+
+# Allow units to be searched in the specified path while compiling the source file into an executable with the same name
+pabcnetcclear /SearchDir:<path_to_dir> <path_to_source_file_pas>
+
+# Compile the specified source file into an executable, defining a symbol
+pabcnetcclear /Define:<symbol> <path_to_source_file_pas>

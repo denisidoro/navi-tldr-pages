@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-escape.md
+
+% xml-escape, common
+
+# Escape special XML characters in a string
+xml escape "<_a1_>"
+
+# Escape special XML characters from stdin
+echo  "<_a1_>" | xml escape
+
+# Display help for the `escape` subcommand
+xml escape --help

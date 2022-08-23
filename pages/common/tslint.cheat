@@ -3,7 +3,7 @@
 
 % tslint, common
 
-# Create tslint config
+# Create TSLint config
 tslint --init
 
 # Lint on a given set of files

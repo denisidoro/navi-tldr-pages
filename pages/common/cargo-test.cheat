@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-test.md
+
+% cargo-test, common
+
+# Only run tests containing a specific string in their names
+cargo test <testname>
+
+# Set the number of simultaneous running test cases
+cargo test -- --test-threads=<count>
+
+# Require that `Cargo.lock` is up to date
+cargo test --locked
+
+# Test artifacts in release mode, with optimizations
+cargo test --release
+
+# Test all packages in the workspace
+cargo test --workspace
+
+# Run tests for a package
+cargo test --package <package>
+
+# Run tests without hiding output from test executions
+cargo test -- --nocapture

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mullvad.md
+
+% mullvad, common
+
+# Link your mullvad account with the specified account number
+mullvad account set <account_number>
+
+# Enable LAN access while VPN is on
+mullvad lan set allow
+
+# Establish the VPN tunnel
+mullvad connect
+
+# Check status of VPN tunnel
+mullvad status

@@ -3,11 +3,17 @@
 
 % tac, common
 
-# Print the contents of *file1* reversed to the standard output
-tac <file1>
+# Concatenate specific files in reversed order
+tac {{path/to/file1 path/to/file2 ...}}
 
-# Print the contents of the standard input reversed to the standard output
-<command> | tac
+# Display `stdin` in reversed order
+{{cat path/to/file}} | tac
 
-# Concatenate several files reversed into the target file
-tac <file1> <file2> > <target_file>
+# Use a specific [s]eparator
+tac -s <separator> {{path/to/file1 path/to/file2 ...}}
+
+# Use a specific [r]egex as a [s]eparator
+tac -r -s <separator> {{path/to/file1 path/to/file2 ...}}
+
+# Use a separator [b]efore each file
+tac -b {{path/to/file1 path/to/file2 ...}}

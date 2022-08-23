@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/screenkey.md
+
+% screenkey, linux
+
+# Display keys which are currently being pressed on the screen
+screenkey
+
+# Display keys and mouse buttons which are currently being pressed on the screen
+screenkey --mouse
+
+# Launch the settings menu of screenkey
+screenkey --show-settings
+
+# Launch screenkey at a specific position
+screenkey --position <top_center_bottom_fixed>
+
+# Change the format of the key modifiers displayed on screen
+screenkey --mods-mode <normal_emacs_mac_win_tux>
+
+# Change the appearance of screenkey
+screenkey --bg-color "<_a1b2c3>" --font <Hack> --font-color <yellow> --opacity <0_8>
+
+# Drag and select a window on screen to display screenkey
+screenkey --position fixed --geometry {{$(slop -n -f '%g')}}

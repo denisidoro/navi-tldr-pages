@@ -18,5 +18,5 @@ cp -vR <path_to_source_directory> <path_to_target_directory>
 # Copy text files to another location, in interactive mode (prompts user before overwriting)
 cp -i {{*.txt}} <path_to_target_directory>
 
-# Dereference symbolic links before copying
+# Follow symbolic links before copying
 cp -L <link> <path_to_target_directory>

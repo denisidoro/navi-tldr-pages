@@ -7,4 +7,4 @@
 sudo ddrescue <_dev_sdb> <path_to_image_dd> <path_to_log_txt>
 
 # Clone Disk A to Disk B, creating a log file
-sudo ddrescue --force --no-scrape <_dev_sda> <_dev_sdb> <path_to_log_txt>
+sudo ddrescue --force --no-scrape <_dev_sdX> <_dev_sdY> <path_to_log_txt>

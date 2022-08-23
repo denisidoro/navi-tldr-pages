@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-reset-file.md
+
+% git-reset-file, common
+
+# Reset a file to HEAD
+git reset-file <path_to_file>
+
+# Reset a file to a specific commit
+git reset-file <path_to_file> <commit_hash>

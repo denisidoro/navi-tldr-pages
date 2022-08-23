@@ -4,7 +4,7 @@
 % chroot, common
 
 # Run command as new root directory
-chroot <_path_to_new_root> <command>
+chroot <path_to_new_root> <command>
 
 # Specify user and group (ID or name) to use
 chroot --userspec=<user_group>

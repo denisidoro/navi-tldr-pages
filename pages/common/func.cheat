@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/func.md
+
+% func, common
+
+# Create a new functions project
+func init <project>
+
+# Create a new function
+func new
+
+# Run functions locally
+func start
+
+# Publish your code to a function app in Azure
+func azure functionapp publish <function>
+
+# Download all settings from an existing function app
+func azure functionapp fetch-app-settings <function>
+
+# Get the connection string for a specific storage account
+func azure storage fetch-connection-string <storage_account>

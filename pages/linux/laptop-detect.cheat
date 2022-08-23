@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/laptop-detect.md
+
+% laptop-detect, linux
+
+# Return an exit status of 0 if the current device is likely a laptop, else returns 1
+laptop-detect
+
+# Print the type of device that the current system is detected as
+laptop-detect --verbose
+
+# Display the version
+laptop-detect --version

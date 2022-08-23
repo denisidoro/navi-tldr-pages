@@ -16,4 +16,4 @@ stow --simulate --target=<path_to_target_directory> {{file1 directory1 file2 dir
 stow --restow --target=<path_to_target_directory> {{file1 directory1 file2 directory2}}
 
 # Exclude files matching a regular expression
-stow --ignore=<regex> --target=<path_to_target_directory> {{file1 directory1 file2 directory2}}
+stow --ignore=<regular_expression> --target=<path_to_target_directory> {{file1 directory1 file2 directory2}}

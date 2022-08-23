@@ -3,11 +3,11 @@
 
 % wget, common
 
-# Download the contents of an URL to a file (named "foo" in this case)
+# Download the contents of a URL to a file (named "foo" in this case)
 wget <https___example_com_foo>
 
-# Download the contents of an URL to a file (named "bar" in this case)
-wget -O <bar> <https___example_com_foo>
+# Download the contents of a URL to a file (named "bar" in this case)
+wget --output-document <bar> <https___example_com_foo>
 
 # Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.)
 wget --page-requisites --convert-links --wait=3 <https___example_com_somepage_html>
@@ -22,7 +22,7 @@ wget --limit-rate=<300k> --tries=<100> <https___example_com_somepath_>
 wget --user=<username> --password=<password> <https___example_com>
 
 # Continue an incomplete download
-wget -c <https___example_com>
+wget --continue <https___example_com>
 
 # Download all URLs stored in a text file to a specific directory
-wget -P <path_to_directory> -i <URLs_txt>
+wget --directory-prefix <path_to_directory> --input-file <URLs_txt>

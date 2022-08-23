@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/launchd.md
+
+% launchd, osx
+
+# Run init
+/sbin/launchd
+
+# View documentation for interacting with launchd using launchctl
+tldr launchctl

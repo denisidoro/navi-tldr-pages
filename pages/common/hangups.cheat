@@ -6,8 +6,8 @@
 # Start hangups
 hangups
 
-# View troubeshooting information and help
+# View troubleshooting information and help
 hangups -h
 
 # Set a refresh token for hangups
-hangups --token-path <_path_to_token>
+hangups --token-path <path_to_token>

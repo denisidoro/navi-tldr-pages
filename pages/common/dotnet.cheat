@@ -6,7 +6,7 @@
 # Initialize a new .NET project
 dotnet new <template_short_name>
 
-# Restore nuget packages
+# Restore NuGet packages
 dotnet restore
 
 # Build and execute the .NET project in the current directory

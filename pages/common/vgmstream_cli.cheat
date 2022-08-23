@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vgmstream_cli.md
+
+% vgmstream_cli, common
+
+# Decode an `adc` file to `wav`. (Default output name is `input.wav`)
+vgmstream_cli <path_to_input_adc> -o <path_to_output_wav>
+
+# Print metadata without decoding the audio
+vgmstream_cli <path_to_input_adc> -m
+
+# Decode an audio file without loops
+vgmstream_cli <path_to_input_adc> -o <path_to_output_wav> -i
+
+# Decode with three loops, then add a 3s delay followed by a 5s fadeout
+vgmstream_cli <path_to_input_adc> -o <path_to_output_wav> -l <3_0> -f <5_0> -d <3_0>
+
+# Convert multiple files to `bgm_(original name).wav` (Default `-o` pattern is `?f.wav`)
+vgmstream_cli -o <path_to_bgm__f_wav> <path_to_file1_adc> <path_to_file2_adc>
+
+# Play the file looping endlessly (`channels` and `rate` must match metadata)
+vgmstream_cli <path_to_input_adc> -pec | aplay --format cd --channels <1> --rate <44100>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdal_translate.md
+
+% gdal_translate, common
+
+# Convert a raster dataset to JPEG format
+gdal_translate -of <JPEG> <path_to_input_tif> <path_to_output_jpeg>
+
+# Assign a projection to a raster dataset
+gdal_translate -a_srs <EPSG_4326> <path_to_input_tif> <path_to_output_tif>
+
+# Reduce the size of a raster dataset to a specific fraction
+gdal_translate -outsize <40_> <40_> <path_to_input_tif> <path_to_output_tif>
+
+# Convert a GeoTiff to a Cloud Optimized GeoTiff
+gdal_translate <path_to_input_tif> <path_to_output_tif> -of COG -co COMPRESS=LZW

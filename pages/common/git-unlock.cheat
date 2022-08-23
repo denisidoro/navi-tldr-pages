@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-unlock.md
+
+% git-unlock, common
+
+# Enable the ability to commit changes of a previously-locked local file
+git unlock <path_to_file>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/android/pkg.md
+
+% pkg, android
+
+# Upgrade all installed packages
+pkg upgrade
+
+# Install a package
+pkg install <package>
+
+# Uninstall a package
+pkg uninstall <package>
+
+# Reinstall a package
+pkg reinstall <package>
+
+# Search for a package
+pkg search <package>

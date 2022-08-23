@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dconf-write.md
+
+% dconf-write, linux
+
+# Write a string to a dconf path (note the nested quotes)
+dconf write <_example_dconf_path> "'{{Example Value}}'"
+
+# Write a boolean to a dconf path
+dconf write <_example_dconf_path> <true_false>
+
+# Write an integer to a dconf path
+dconf write <_example_dconf_path> <16>
+
+# Write an array to a dconf path
+dconf write <_example_dconf_path> "[{{'My First Value', 'My Second Value'}}]"
+
+# Write an empty array to a dconf path
+dconf write <_example_dconf_path> "@as []"

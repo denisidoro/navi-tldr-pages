@@ -3,7 +3,7 @@
 
 % phpbu, common
 
-# Run backups using the default "phpbu.xml" configuration file
+# Run backups using the default `phpbu.xml` configuration file
 phpbu
 
 # Run backups using a specific configuration file

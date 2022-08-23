@@ -13,7 +13,7 @@ stty rows <rows>
 stty cols <cols>
 
 # Get the actual transfer speed of a device
-stty -f <path_to_device_file> speed
+stty -F <path_to_device_file> speed
 
 # Reset all modes to reasonable values for the current terminal
 stty sane

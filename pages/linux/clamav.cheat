@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/clamav.md
+
+% clamav, linux
+
+# Update virus definitions
+freshclam
+
+# Scan a file for viruses
+clamscan <path_to_file>
+
+# Scan directories recursively and print out infected files
+clamscan --recursive --infected <path_to_directory>
+
+# Scan directories recursively and move them into quarantine
+clamscan --recursive --move=<directory>

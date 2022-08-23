@@ -3,7 +3,7 @@
 
 % pandoc, common
 
-# Convert file to pdf (the output format is determined by file extension)
+# Convert file to PDF (the output format is determined by file extension)
 pandoc <input_md> -o <output_pdf>
 
 # Force conversion to use a specific format

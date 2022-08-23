@@ -3,7 +3,7 @@
 
 % django-admin, common
 
-# Create a new django project
+# Create a new Django project
 django-admin startproject <project_name>
 
 # Create a new app for the current project

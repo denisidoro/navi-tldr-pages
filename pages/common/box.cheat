@@ -3,11 +3,11 @@
 
 % box, common
 
-# Build a new Phar file
-box build
+# Compile a new Phar file
+box compile
 
-# Build a new Phar file using a specific config file
-box build -c <path_to_config>
+# Compile a new Phar file using a specific config file
+box compile -c <path_to_config>
 
 # Display information about the PHAR PHP extension
 box info

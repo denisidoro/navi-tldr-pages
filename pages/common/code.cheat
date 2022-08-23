@@ -3,20 +3,26 @@
 
 % code, common
 
-# Open VS Code
+# Start Visual Studio Code
 code
 
-# Open the current directory in VS Code
-code .
+# Open specific files/directories
+code {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}
 
-# Open a file or directory in VS Code
-code <path_to_file_or_directory>
+# Compare two specific files
+code --diff <path_to_file1> <path_to_file2>
 
-# Open a file or directory in the currently open VS Code window
-code --reuse-window <path_to_file_or_directory>
+# Open specific files/directories in a new window
+code --new-window {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}
 
-# Compare two files in VS Code
-code -d <file1> <file2>
+# Install/uninstall a specific extension
+code --<install_uninstall>-extension <publisher_extension>
 
-# Open VS Code with super user (sudo) permissions
-sudo code <path_to_file_or_directory> --user-data-dir
+# Print installed extensions
+code --list-extensions
+
+# Print installed extensions with their versions
+code --list-extensions --show-versions
+
+# Start the editor as a superuser (root) while storing user data in a specific directory
+sudo code --user-data-dir <path_to_directory>

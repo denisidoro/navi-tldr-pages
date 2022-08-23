@@ -10,7 +10,7 @@ snapper list-configs
 snapper -c <config> create-config <path_to_directory>
 
 # Create a snapshot with a description
-snapper -c <config> create -d <_snapshot_description_>
+snapper -c <config> create -d "<snapshot_description>"
 
 # List snapshots for a config
 snapper -c <config> list

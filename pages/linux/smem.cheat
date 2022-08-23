@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/smem.md
+
+% smem, linux
+
+# Print memory usage for current processes
+smem
+
+# Print memory usage for current processes for a every user on a system
+smem --users
+
+# Print memory usage for current processes for a specified user
+smem --userfilter <username>
+
+# Print system memory information
+smem --system

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pueue-completions.md
+
+% pueue-completions, common
+
+# Generate completions for Bash
+sudo pueue completions bash <_usr_share_bash_completion_completions_pueue_bash>
+
+# Generate completions for zsh
+sudo pueue completions zsh <_usr_share_zsh_site_functions>
+
+# Generate completions for fish
+sudo pueue completions fish <_usr_share_fish_completions>

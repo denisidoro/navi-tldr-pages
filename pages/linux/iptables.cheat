@@ -3,7 +3,7 @@
 
 % iptables, linux
 
-# View chains, rules, and packet/byte counters for all tables
+# View chains, rules, and packet/byte counters for the filter table
 sudo iptables -vnL
 
 # Set chain policy rule
@@ -14,6 +14,9 @@ sudo iptables -A <chain> -s <ip> -j <rule>
 
 # Append rule to chain policy for IP considering protocol and port
 sudo iptables -A <chain> -s <ip> -p <protocol> --dport <port> -j <rule>
+
+# Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP
+sudo iptables -t <nat> -A <POSTROUTING> -s <192_168_0_0_24> -j <MASQUERADE>
 
 # Delete chain rule
 sudo iptables -D <chain> <rule_line_number>

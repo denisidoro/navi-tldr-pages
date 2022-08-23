@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/po4a.md
+
+% po4a, linux
+
+# Update PO files and documents according to the specified config file
+po4a <path_to_config_file>

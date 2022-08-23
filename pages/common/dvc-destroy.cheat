@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dvc-destroy.md
+
+% dvc-destroy, common
+
+# Destroy the current project
+dvc destroy
+
+# Force destroy the current project
+dvc destroy --force

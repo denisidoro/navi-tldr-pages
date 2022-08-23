@@ -3,7 +3,7 @@
 
 % odps, common
 
-# Start the command line with a custom configuration file
+# Start the command-line with a custom configuration file
 odpscmd --config=<odps_config_ini>
 
 # Switch current project

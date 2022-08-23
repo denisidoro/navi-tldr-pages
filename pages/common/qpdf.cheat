@@ -15,8 +15,8 @@ qpdf --empty --pages <file1_pdf> <1_6_8> <file2_pdf> <3_4_5> -- <output_pdf>
 # Write each group of n pages to a separate output file with a given filename pattern
 qpdf --split-pages=n <input_pdf> <out__d_pdf>
 
-# Rotate certain pages of a pdf with a given angle
+# Rotate certain pages of a PDF with a given angle
 qpdf --rotate=<90_2_4_6> --rotate=<180_7_8> <input_pdf> <output_pdf>
 
-# Remove the password from a password protected file
+# Remove the password from a password-protected file
 qpdf --password=<password> --decrypt <input_pdf> <output_pdf>

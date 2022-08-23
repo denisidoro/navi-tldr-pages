@@ -10,7 +10,7 @@ nix search <search_term>
 nix run {{nixpkgs.pkg1 nixpkgs.pkg2 nixpkgs.pkg3...}}
 
 # Optimise Nix store disk usage by combining duplicate files
-nix optimise-store
+nix store optimise
 
 # Start an interactive environment for evaluating Nix expressions
 nix repl

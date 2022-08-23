@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkfs.btrfs.md
+
+% mkfs.btrfs, linux
+
+# Create a btrfs filesystem on a single device
+sudo mkfs.btrfs --metadata single --data single <_dev_sda>
+
+# Create a btrfs filesystem on multiple devices with raid1
+sudo mkfs.btrfs --metadata raid1 --data raid1 <_dev_sda> <_dev_sdb> <_dev_sdN>
+
+# Set a label for the filesystem
+sudo mkfs.btrfs --label "<label>" <_dev_sda> [<_dev_sdN>]

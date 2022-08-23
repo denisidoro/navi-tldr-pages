@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/showfigfonts.md
+
+% showfigfonts, common
+
+# Display available fonts
+showfigfonts
+
+# Display available fonts using a specific text
+showfigfonts <input_text>

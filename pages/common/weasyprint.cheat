@@ -3,10 +3,10 @@
 
 % weasyprint, common
 
-# Render a HTML file to PDF
+# Render an HTML file to PDF
 weasyprint <path_to_input_html> <path_to_output>.pdf
 
-# Render a HTML file to PNG, including an additional user stylesheet
+# Render an HTML file to PNG, including an additional user stylesheet
 weasyprint <path_to_input_html> <path_to_output>.png --stylesheet <path_to_stylesheet_css>
 
 # Output additional debugging information when rendering
@@ -15,5 +15,5 @@ weasyprint <path_to_input_html> <path_to_output>.pdf --verbose
 # Specify a custom resolution when outputting to PNG
 weasyprint <path_to_input_html> <path_to_output>.png --resolution <300>
 
-# Specify a base url for relative urls in the input HTML file
+# Specify a base URL for relative URLs in the input HTML file
 weasyprint <path_to_input_html> <path_to_output>.png --base-url <url_or_filename>

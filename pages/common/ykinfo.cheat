@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ykinfo.md
+
+% ykinfo, common
+
+# Display all information from YubiKey
+ykinfo -a
+
+# Get only serial in decimal from YubiKey
+ykinfo -s -q
+
+# Get capabilities from YubiKey
+ykinfo -c

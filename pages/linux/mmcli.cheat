@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mmcli.md
+
+% mmcli, linux
+
+# List SMS messages available on the modem
+sudo mmcli --modem=<modem> --messaging-list-sms
+
+# Delete a message from the modem, specifying its path
+sudo mmcli --modem=<modem> --messaging-delete-sms=<path_to_message_file>

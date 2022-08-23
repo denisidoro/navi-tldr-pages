@@ -6,8 +6,8 @@
 # Decode an APK file
 apktool d <file_apk>
 
-# Build a folder into an APK file
+# Build an APK file from a directory
 apktool b <path_to_directory>
 
-# Install and store frameworks
+# Install and store a framework
 apktool if <framework_apk>

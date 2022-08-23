@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mmdc.md
+
+% mmdc, common
+
+# Convert a file to the specified format (automatically determined from the file extension)
+mmdc --input <input_mmd> --output <output_svg>
+
+# Specify the theme of the chart
+mmdc --input <input_mmd> --output <output_svg> --theme <forest_dark_neutral_default>
+
+# Specify the background color of the chart (e.g. `lime`, `"#D8064F"`, or `transparent`)
+mmdc --input <input_mmd> --output <output_svg> --backgroundColor <color>

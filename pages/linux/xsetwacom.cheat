@@ -3,7 +3,7 @@
 
 % xsetwacom, linux
 
-# List all the available wacom devices. The device name is in the first column
+# List all the available Wacom devices. The device name is in the first column
 xsetwacom list
 
 # Set Wacom area to specific screen. Get name of the screen with `xrandr`

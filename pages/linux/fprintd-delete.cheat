@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fprintd-delete.md
+
+% fprintd-delete, linux
+
+# Remove all fingerprints for a specific user
+fprintd-delete <username>
+
+# Remove a specific fingerprints for a specific user
+fprintd-delete <username> --finger <left_thumb_left_index_finger_left_middle_finger_left_ring_finger_left_little_finger_right_thumb_right_index_finger_right_middle_finger_right_ring_finger_right_little_finger>
+
+# Display help
+fprintd-delete

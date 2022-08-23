@@ -9,6 +9,9 @@ sftp <remote_user>@<remote_host>
 # Connect using an alternate port
 sftp -P <remote_port> <remote_user>@<remote_host>
 
+# Connect using a predefined host (in `~/.ssh/config`)
+sftp <host>
+
 # Transfer remote file to the local system
 get <_path_remote_file>
 

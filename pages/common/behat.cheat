@@ -3,7 +3,7 @@
 
 % behat, common
 
-# Initialise a new Behat project
+# Initialize a new Behat project
 behat --init
 
 # Run all tests

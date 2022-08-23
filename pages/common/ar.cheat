@@ -4,16 +4,16 @@
 % ar, common
 
 # Extract all members from an archive
-ar -x <libfoo_a>
+ar -x <path_to_file_a>
 
 # List the members of an archive
-ar -t <libfoo_a>
+ar -t <path_to_file_a>
 
 # Replace or add files to an archive
-ar -r <libfoo_a> <foo_o> <bar_o> <baz_o>
+ar -r <path_to_file_a> <path_to_file1_o> <path_to_file2_o>
 
 # Insert an object file index (equivalent to using `ranlib`)
-ar -s <libfoo_a>
+ar -s <path_to_file_a>
 
 # Create an archive with files and an accompanying object file index
-ar -rs <libfoo_a> <foo_o> <bar_o> <baz_o>
+ar -rs <path_to_file_a> <path_to_file1_o> <path_to_file2_o>

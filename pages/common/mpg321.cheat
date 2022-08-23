@@ -18,5 +18,5 @@ mpg321 -Z <path_to_file_a_URL> <path_to_file_b_URL> <___>
 # Shuffle the files before playing them once
 mpg321 -z <path_to_file_a_URL> <path_to_file_b_URL> <___>
 
-# Play all files in the current folder and subfolders, randomly (until interrupted), with Basic Keys enabled
+# Play all files in the current directory and subdirectories, randomly (until interrupted), with Basic Keys enabled
 mpg321 -B -Z -K .

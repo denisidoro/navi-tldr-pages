@@ -12,7 +12,7 @@ jhipster --skip-server
 # Generate a simple backend project
 jhipster --skip-client
 
-# Apply lastest JHipster updates to the project
+# Apply latest JHipster updates to the project
 jhipster upgrade
 
 # Add a new entity to a generated project

@@ -9,6 +9,9 @@ jupyter notebook
 # Open a specific Jupyter notebook
 jupyter notebook <example_ipynb>
 
+# Export a specific Jupyter notebook into another format
+jupyter nbconvert --to <html_markdown_pdf_script> <example_ipynb>
+
 # Start a server on a specific port
 jupyter notebook --port=<port>
 

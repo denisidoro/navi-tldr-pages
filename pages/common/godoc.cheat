@@ -9,7 +9,7 @@ godoc <fmt>
 # Display help for the function "Printf" of "fmt" package
 godoc <fmt> <Printf>
 
-# Serve documentation as a web server on port "6060"
+# Serve documentation as a web server on port 6060
 godoc -http=:<6060>
 
 # Create an index file

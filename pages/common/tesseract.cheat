@@ -3,7 +3,7 @@
 
 % tesseract, common
 
-# Recognize text in an image and save it to `output.txt` (the '.txt' extension is added automatically)
+# Recognize text in an image and save it to `output.txt` (the `.txt` extension is added automatically)
 tesseract <image_png> <output>
 
 # Specify a custom language (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German)

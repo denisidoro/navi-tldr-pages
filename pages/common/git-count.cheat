@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-count.md
+
+% git-count, common
+
+# Print the total number of commits
+git count
+
+# Print the number of commits per contributor and the total number of commits
+git count --all

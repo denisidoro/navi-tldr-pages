@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/travis.md
+
+% travis, common
+
+# Display the client version
+travis version
+
+# Authenticate the CLI client against the server, using an authentication token
+travis login
+
+# List repositories the user has permissions on
+travis repos
+
+# Encrypt values in `.travis.yml`
+travis encrypt <token>
+
+# Generate a `.travis.yml` file and enable the project
+travis init

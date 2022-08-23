@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pipx.md
+
+% pipx, common
+
+# Run an app in a temporary virtual environment
+pipx run <pycowsay> <moo>
+
+# Install a package in a virtual environment and add entry points to path
+pipx install <package>
+
+# List installed packages
+pipx list
+
+# Run an app in a temporary virtual environment with a package name different from the executable
+pipx run --spec <httpx_cli> <httpx> <http___www_github_com>

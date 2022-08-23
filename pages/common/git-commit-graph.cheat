@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-commit-graph.md
+
+% git-commit-graph, common
+
+# Write a commit-graph file for the packed commits in the repository's local `.git` directory
+git commit-graph write
+
+# Write a commit-graph file containing all reachable commits
+git show-ref --hash | git commit-graph write --stdin-commits
+
+# Write a commit-graph file containing all commits in the current commit-graph file along with those reachable from `HEAD`
+git rev-parse <HEAD> | git commit-graph write --stdin-commits --append

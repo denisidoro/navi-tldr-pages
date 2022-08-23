@@ -18,7 +18,7 @@ opkg upgrade
 # Upgrade one or more specific package(s)
 opkg upgrade <package_s_>
 
-# Display informations for a specific package
+# Display information for a specific package
 opkg info <package>
 
 # List all the available packages

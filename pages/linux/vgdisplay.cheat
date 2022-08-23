@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vgdisplay.md
+
+% vgdisplay, linux
+
+# Display information about all volume groups
+sudo vgdisplay
+
+# Display information about volume group vg1
+sudo vgdisplay <vg1>

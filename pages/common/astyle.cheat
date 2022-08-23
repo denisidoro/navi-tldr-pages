@@ -6,7 +6,7 @@
 # Apply the default style of 4 spaces per indent and no formatting changes
 astyle <source_file>
 
-# Apply the java style with attached braces
+# Apply the Java style with attached braces
 astyle --style=java <path_to_file>
 
 # Apply the allman style with broken braces

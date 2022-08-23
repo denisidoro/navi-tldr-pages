@@ -3,7 +3,7 @@
 
 % more, windows
 
-# Display paginated output from `stdin`
+# Display paginated output from stdin
 {{echo test}} | more
 
 # Display paginated output from one or more files

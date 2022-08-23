@@ -13,7 +13,7 @@ mkcert <example_org>
 mkcert <example_org> <myapp_dev> <127_0_0_1>
 
 # Generate wildcard certificate and private key for a given domain and its subdomains
-mkcert {{"*.example.it"}}
+mkcert "{{*.example.it}}"
 
 # Uninstall the local CA
 mkcert -uninstall

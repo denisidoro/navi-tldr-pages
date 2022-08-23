@@ -3,7 +3,7 @@
 
 % rsstail, common
 
-# Show the feed of a given url and wait for new entries appearing at the bottom
+# Show the feed of a given URL and wait for new entries appearing at the bottom
 rsstail -u <url>
 
 # Show the feed in reverse chronological order (newer at the bottom)

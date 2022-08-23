@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/openttd.md
+
+% openttd, common
+
+# Start a new game
+openttd -g
+
+# Load save game at start
+openttd -g <path_to_file>
+
+# Start with the specified window resolution
+openttd -r <1920x1080>
+
+# Start with a custom configuration file
+openttd -c <path_to_file>
+
+# Start with selected video, sound, and music drivers
+openttd -v <video_driver> -s <sound_driver> -m <music_driver>
+
+# Start a dedicated server, forked in the background
+openttd -f -D <host>:<port>
+
+# Join a server with a password
+openttd -n <host>:<port>#<player_name> -p <password>

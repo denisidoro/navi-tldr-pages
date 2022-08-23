@@ -4,13 +4,22 @@
 % shellcheck, common
 
 # Check a shell script
-shellcheck <file_sh>
+shellcheck <path_to_script_sh>
 
-# Override script's shebang
-shellcheck --shell <sh_bash_ksh> <file_sh>
+# Check a shell script interpreting it as the specified shell dialect (overrides the shebang at the top of the script)
+shellcheck --shell <sh_bash_dash_ksh> <path_to_script_sh>
 
-# Ignore certain errors
-shellcheck --exclude <SC1009> <file_sh>
+# Ignore one or more error types
+shellcheck --exclude <SC1009_SC1073> <path_to_script_sh>
 
-# Ignore multiple errors
-shellcheck --exclude <SC1009_SC1073> <file_sh>
+# Also check any sourced shell scripts
+shellcheck --checked-sourced <path_to_script_sh>
+
+# Display output in the specified format (defaults to `tty`)
+shellcheck --format <tty_checkstyle_diff_gcc_json_json1_quiet> <path_to_script_sh>
+
+# Enable one or more optional checks
+shellcheck --enable=<add_default_case_avoid_nullary_conditions>
+
+# List all available optional checks that are disabled by default
+shellcheck --list-optional

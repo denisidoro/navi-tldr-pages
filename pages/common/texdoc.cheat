@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/texdoc.md
+
+% texdoc, common
+
+# Open the first search result in the default PDF viewer
+texdoc <search>
+
+# List the best search results
+texdoc --list <search>
+
+# Open full documentation of texdoc
+texdoc <texdoc>

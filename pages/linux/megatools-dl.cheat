@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/megatools-dl.md
+
+% megatools-dl, linux
+
+# Download files from a `mega.nz` link into the current directory
+megatools-dl <https___mega_nz____>
+
+# Download files from a `mega.nz` link into a specific directory
+megatools-dl --path <path_to_directory> <https___mega_nz____>
+
+# Interactively choose which files to download
+megatools-dl --choose-files <https___mega_nz____>
+
+# Limit the download speed in KiB/s
+megatools-dl --limit-speed <speed> <https___mega_nz____>

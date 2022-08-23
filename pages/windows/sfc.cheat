@@ -19,7 +19,7 @@ sfc /scanfile=<path_to_file>
 sfc /verifyfile=<path_to_file>
 
 # When repairing offline, specify the boot directory
-sfc /offbootdir=<path_to_dir>
+sfc /offbootdir=<path_to_directory>
 
 # When repairing offline, specify the Windows directory
-sfc /offwindir=<path_to_dir>
+sfc /offwindir=<path_to_directory>

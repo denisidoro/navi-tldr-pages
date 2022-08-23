@@ -3,7 +3,7 @@
 
 % type, common
 
-# Display the kind of a command
+# Display the type of a command
 type <command>
 
 # Display all locations containing the specified executable

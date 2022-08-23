@@ -15,8 +15,8 @@ fgrep -c <search_string> <path_to_file>
 # Show the line number in the file along with the line matched
 fgrep -n <search_string> <path_to_file>
 
-# Display all lines except those that contain the given regular expression
-fgrep -v <_regex_> <path_to_file>
+# Display all lines except those that contain the search string
+fgrep -v <search_string> <path_to_file>
 
-# Display filenames whose content matchs the regular expression at least once
-fgrep -l <_regex_> <path_to_file1> <path_to_file2>
+# Display filenames whose content matches the search string at least once
+fgrep -l <search_string> <path_to_file1> <path_to_file2>

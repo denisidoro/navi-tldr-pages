@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-undo.md
+
+% git-undo, common
+
+# Remove the most recent commit
+git undo
+
+# Remove a specific number of the most recent commits
+git undo <3>

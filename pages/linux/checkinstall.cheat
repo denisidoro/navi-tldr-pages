@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/checkinstall.md
+
+% checkinstall, linux
+
+# Create and install a package with default settings
+sudo checkinstall --default
+
+# Create a package but don't install it
+sudo checkinstall --install=<no>
+
+# Create a package without documentation
+sudo checkinstall --nodoc
+
+# Create a package and set the name
+sudo checkinstall --pkgname <package>
+
+# Create a package and specify where to save it
+sudo checkinstall --pakdir <path_to_directory>

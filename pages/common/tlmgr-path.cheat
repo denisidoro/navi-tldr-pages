@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-path.md
+
+% tlmgr-path, common
+
+# Add symlinks to TeX Live files
+sudo tlmgr path add
+
+# Remove symlinks to TeX Live files
+sudo tlmgr path remove

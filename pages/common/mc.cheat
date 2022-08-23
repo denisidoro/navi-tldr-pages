@@ -3,8 +3,8 @@
 
 % mc, common
 
-# Start mc
+# Start `mc`
 mc
 
-# Start in black and white
+# Start `mc` in black and white
 mc -b

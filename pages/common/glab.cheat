@@ -3,20 +3,23 @@
 
 % glab, common
 
-# Create a merge request
-glab mr create
-
-# List merge requests
-glab mr list
+# Clone a GitLab repository locally
+glab repo clone <owner>/<repository>
 
 # Create a new issue
 glab issue create
 
-# View and filter the current repository's open issues
+# View and filter the open issues of the current repository
 glab issue list
 
-# List pipelines
-glab pipeline list
+# View an issue in the default browser
+glab issue view --web <issue_number>
 
-# Clone a repository into a specific directory
-glab repo clone <user>/<repository> <directory>
+# Create a merge request
+glab mr create
+
+# View a pull request in the default web browser
+glab mr view --web <pr_number>
+
+# Check out a specific pull request locally
+glab mr checkout <pr_number>

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/wmic.md
+
+% wmic, windows
+
+# Fundamental grammar
+wmic <alias> <where_clause> <verb_clause>
+
+# Show brief details about the currently running processes
+wmic process list brief
+
+# Show full details about the currently running processes
+wmic process list full
+
+# Access specific fields such as process name, process ID and parent process ID
+wmic process get <name_processid_parentprocessid>
+
+# Display information about a specific process
+wmic process where <name__example_exe_> list full
+
+# Display specific fields for a specific process
+wmic process where processid=<pid> get <name_commandline>
+
+# Kill a process
+wmic process <pid> delete

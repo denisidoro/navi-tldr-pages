@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wipeclean.md
+
+% wipeclean, common
+
+# Clear the terminal screen
+wipeclean
+
+# Set the animation speed in frames per second (defaults to 150)
+wipeclean --speed <speed>

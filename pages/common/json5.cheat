@@ -3,10 +3,10 @@
 
 % json5, common
 
-# Convert JSON5 stdin to JSON `stdout`
+# Convert JSON5 stdin to JSON stdout
 echo <input> | json5
 
-# Convert a JSON5 file to JSON and output to `stdout`
+# Convert a JSON5 file to JSON and output to stdout
 json5 <path_to_input_file_json5>
 
 # Convert a JSON5 file to the specified JSON file

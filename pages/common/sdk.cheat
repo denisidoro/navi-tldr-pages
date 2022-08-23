@@ -3,20 +3,26 @@
 
 % sdk, common
 
-# Install a specific version of Gradle
-sdk install <gradle> <gradle_version>
+# Install an SDK version
+sdk install <sdk_name> <sdk_version>
 
-# Switch to a specific version of Gradle
-sdk use <gradle> <gradle_version>
+# Use a specific SDK version for the current terminal session
+sdk use <sdk_name> <sdk_version>
 
-# Check current Gradle version
-sdk current <gradle>
+# Show the stable version of any available SDK
+sdk current <sdk_name>
 
-# List all Software Development Kits available to install
+# Show the stable versions of all installed SDKs
+sdk current
+
+# List all available SDKs
 sdk list
 
-# Update Gradle to the latest version
-sdk upgrade <gradle>
+# List all versions of an SDK
+sdk list <sdk_name>
 
-# Uninstall a particular version of Gradle
-sdk rm <gradle> <gradle_version>
+# Upgrade an SDK to the latest stable version
+sdk upgrade <sdk_name>
+
+# Uninstall a specific SDK version
+sdk rm <sdk_name> <sdk_version>

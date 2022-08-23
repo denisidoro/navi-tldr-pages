@@ -14,3 +14,6 @@ clang <input_source_c> -o <output_executable> -I<header_path> -L<library_path> -
 
 # Compile source code into LLVM Intermediate Representation (IR)
 clang -S -emit-llvm <file_c> -o <file_ll>
+
+# Compile source code without linking
+clang -c <input_source_c>

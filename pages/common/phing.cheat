@@ -3,10 +3,10 @@
 
 % phing, common
 
-# Perform the default task in the "build.xml" file
+# Perform the default task in the `build.xml` file
 phing
 
-# Initialise a new build file
+# Initialize a new build file
 phing -i <path_to_build_xml>
 
 # Perform a specific task

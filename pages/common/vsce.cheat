@@ -12,7 +12,7 @@ vsce publish <major_minor_patch>
 # Unpublish an extension
 vsce unpublish <extension_id>
 
-# Package the current working directory as .vsix file
+# Package the current working directory as a `.vsix` file
 vsce package
 
 # Show the metadata associated with an extension

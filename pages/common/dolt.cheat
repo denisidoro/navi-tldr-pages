@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dolt.md
+
+% dolt, common
+
+# Execute a dolt subcommand
+dolt <subcommand>
+
+# List available subcommands
+dolt help

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pluma.md
+
+% pluma, linux
+
+# Start the editor
+pluma
+
+# Open specific documents
+pluma {{path/to/file1 path/to/file2 ...}}
+
+# Open documents using a specific encoding
+pluma --encoding <WINDOWS_1252> {{path/to/file1 path/to/file2 ...}}
+
+# Print all supported encodings
+pluma --list-encodings
+
+# Open document and go to a specific line
+pluma +<10> <path_to_file>

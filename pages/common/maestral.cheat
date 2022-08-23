@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/maestral.md
+
+% maestral, common
+
+# Start the GUI
+maestral gui
+
+# Print current status of Maestral
+maestral status
+
+# Pause syncing
+maestral pause
+
+# Resume syncing
+maestral resume
+
+# Print sync status of a specific file or folder
+maestral filestatus <path_to_file_or_directory>

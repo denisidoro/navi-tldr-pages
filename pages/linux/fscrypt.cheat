@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fscrypt.md
+
+% fscrypt, linux
+
+# Prepare the root filesystem for use with fscrypt
+fscrypt setup
+
+# Enable filesystem encryption for a directory
+fscrypt encrypt <path_to_directory>
+
+# Unlock an encrypted directory
+fscrypt unlock <path_to_encrypted_directory>
+
+# Lock an encrypted directory
+fscrypt lock <path_to_encrypted_directory>

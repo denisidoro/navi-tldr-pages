@@ -3,10 +3,10 @@
 
 % heroku, common
 
-# Login to your heroku account
+# Log in to your Heroku account
 heroku login
 
-# Create a heroku app
+# Create a Heroku app
 heroku create
 
 # Show logs for an app

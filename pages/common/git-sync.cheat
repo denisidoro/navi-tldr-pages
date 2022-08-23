@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-sync.md
+
+% git-sync, common
+
+# Sync the current local branch with its remote branch
+git sync
+
+# Sync the current local branch with the remote main branch
+git sync origin main
+
+# Sync without cleaning untracked files
+git sync -s <remote_name> <branch_name>

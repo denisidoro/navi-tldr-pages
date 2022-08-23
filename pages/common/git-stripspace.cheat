@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-stripspace.md
+
+% git-stripspace, common
+
+# Trim whitespace from a file
+cat <path_to_file> | git stripspace
+
+# Trim whitespace and Git comments from a file
+cat <path_to_file> | git stripspace --strip-comments
+
+# Convert all lines in a file into Git comments
+git stripspace --comment-lines < <path_to_file>

@@ -13,4 +13,4 @@ shc -f <script> -o <binary>
 shc -f <script> -e <dd_mm_yyyy>
 
 # Compile a shell script and set a message to display upon expiration
-shc -f <script> -e <dd_mm_yyyy> -m {{"Please contact your provider"}}
+shc -f <script> -e <dd_mm_yyyy> -m "{{Please contact your provider}}"

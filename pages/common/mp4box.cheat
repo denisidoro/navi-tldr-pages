@@ -10,4 +10,4 @@ mp4box -info <filename>
 mp4box -add <input_subs_srt>:lang=eng -add <input_mp4> <output_mp4>
 
 # Combine audio from one file and video from another
-mp4box -add <input1_mp4>#audio -add <input2_mp4>#video {{output.mp4}
+mp4box -add <input1_mp4>#audio -add <input2_mp4>#video <output_mp4>

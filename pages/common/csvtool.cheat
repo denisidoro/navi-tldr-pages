@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csvtool.md
+
+% csvtool, common
+
+# Extract the second column from a CSV file
+csvtool --column <2> <path_to_file_csv>
+
+# Extract the second and fourth columns from a CSV file
+csvtool --column <2_4> <path_to_file_csv>
+
+# Extract lines from a CSV file where the second column exactly matches 'Foo'
+csvtool --column <2> --search '<_Foo_>' <path_to_file_csv>
+
+# Extract lines from a CSV file where the second column starts with 'Bar'
+csvtool --column <2> --search '<_Bar>' <path_to_file_csv>
+
+# Find lines in a CSV file where the second column ends with 'Baz' and then extract the third and sixth columns
+csvtool --column <2> --search '<Baz_>' <path_to_file_csv> | csvtool --no-header --column <3_6>

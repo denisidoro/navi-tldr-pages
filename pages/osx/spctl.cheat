@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/spctl.md
+
+% spctl, osx
+
+# Turn off Gatekeeper
+spctl --master-disable
+
+# Add a rule to allow an application to run (labeling of rule is optional)
+spctl --add --label <rule_name> <path_to_file>
+
+# Turn on Gatekeeper
+spctl --master-enable
+
+# List all rules on the system
+spctl --list

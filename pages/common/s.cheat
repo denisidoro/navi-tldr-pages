@@ -3,7 +3,7 @@
 
 % s, common
 
-# Search for a query on Google(default provider)
+# Search for a query on Google (default provider)
 s <query>
 
 # List all providers

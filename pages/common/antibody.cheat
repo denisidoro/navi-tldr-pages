@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/antibody.md
+
+% antibody, common
+
+# Bundle all plugins for static loading
+antibody bundle < <___zsh_plugins_txt> > <___zsh_plugins_sh>
+
+# Update all bundles
+antibody update
+
+# List all installed plugins
+antibody list

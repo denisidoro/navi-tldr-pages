@@ -12,7 +12,7 @@ awslogs streams <_var_log_syslog>
 # Get logs for any streams in the specified group between 1 and 2 hours ago
 awslogs get <_var_log_syslog> --start='{{2h ago}}' --end='{{1h ago}}'
 
-# Get logs that match a specific Cloudwatch Logs Filter pattern
+# Get logs that match a specific CloudWatch Logs Filter pattern
 awslogs get <_aws_lambda_my_lambda_group> --filter-pattern='<ERROR>'
 
 # Watch logs for any streams in the specified group

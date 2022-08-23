@@ -9,7 +9,7 @@ csc <path_to_input_file_a_cs> <path_to_input_file_b_cs>
 # Specify the output filename
 csc /out:<path_to_filename> <path_to_input_file_cs>
 
-# Compile into a '.dll' library instead of an executable
+# Compile into a `.dll` library instead of an executable
 csc /target:library <path_to_input_file_cs>
 
 # Reference another assembly

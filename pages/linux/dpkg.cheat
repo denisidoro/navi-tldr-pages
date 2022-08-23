@@ -12,7 +12,7 @@ dpkg -r <package_name>
 # List installed packages
 dpkg -l <pattern>
 
-# List package contents
+# List a package's contents
 dpkg -L <package_name>
 
 # List contents of a local package file

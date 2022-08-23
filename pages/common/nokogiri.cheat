@@ -3,13 +3,13 @@
 
 % nokogiri, common
 
-# Parse the contents of a url or file
+# Parse the contents of a URL or file
 nokogiri <url_path_to_file>
 
 # Parse as a specific type
 nokogiri <url_path_to_file> --type <xml_html>
 
-# Load a specific initialisation file before parsing
+# Load a specific initialization file before parsing
 nokogiri <url_path_to_file> -C <path_to_config_file>
 
 # Parse using a specific encoding

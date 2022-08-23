@@ -16,4 +16,4 @@ nasm -hf
 nasm -l <list_file> <source_asm>
 
 # Add a directory (must be written with trailing slash) to the include file search path before assembling
-nasm -i <_path_to_include_dir_> <source_asm>
+nasm -i <path_to_include_dir_> <source_asm>

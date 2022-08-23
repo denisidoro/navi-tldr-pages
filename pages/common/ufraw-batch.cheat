@@ -3,10 +3,10 @@
 
 % ufraw-batch, common
 
-# Simply convert RAW files to jpg
+# Simply convert RAW files to JPG
 ufraw-batch --out-type=jpg <input_file_s_>
 
-# Simply convert RAW files to png
+# Simply convert RAW files to PNG
 ufraw-batch --out-type=png <input_file_s_>
 
 # Extract the preview image from the raw file

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-ls-remote.md
+
+% git-ls-remote, common
+
+# Show all references in the default remote repository
+git ls-remote
+
+# Show only heads references in the default remote repository
+git ls-remote --heads
+
+# Show only tags references in the default remote repository
+git ls-remote --tags
+
+# Show all references from a remote repository based on name or URL
+git ls-remote <repository_url>
+
+# Show references from a remote repository filtered by a pattern
+git ls-remote <repository_name> "<pattern>"

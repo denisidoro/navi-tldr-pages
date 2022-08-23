@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/upower.md
+
+% upower, linux
+
+# Display power and battery information
+upower --dump
+
+# List all power devices
+upower --enumerate
+
+# Watch for and print power status changes
+upower --monitor
+
+# Watch for and print detailed power status changes
+upower --monitor-detail
+
+# Display version
+upower --version

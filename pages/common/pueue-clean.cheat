@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pueue-clean.md
+
+% pueue-clean, common
+
+# Remove finished tasks and clear logs
+pueue clean
+
+# Only clean commands that finished successfully
+pueue clean --successful-only

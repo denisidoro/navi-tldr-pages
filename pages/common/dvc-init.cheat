@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dvc-init.md
+
+% dvc-init, common
+
+# Initialize a new local repository
+dvc init
+
+# Initialize DVC without Git
+dvc init --no-scm
+
+# Initialize DVC in a subdirectory
+cd <path_to_subdir> && dvc init --sudir

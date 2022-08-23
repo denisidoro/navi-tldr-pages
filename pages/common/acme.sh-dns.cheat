@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/acme.sh-dns.md
+
+% acme.sh-dns, common
+
+# Issue a certificate using an automatic DNS API mode
+acme.sh --issue --dns <gnd_gd> --domain <__example_com>
+
+# Issue a wildcard certificate (denoted by an asterisk) using an automatic DNS API mode
+acme.sh --issue --dns <dns_namesilo> --domain <__example_com> --domain {{*.example.com}}
+
+# Issue a certificate using a DNS alias mode
+acme.sh --issue --dns <dns_cf> --domain <__example_com> --challenge-alias <alias_for_example_validation_com>
+
+# Issue a certificate while disabling automatic Cloudflare / Google DNS polling after the DNS record is added by specifying a custom wait time in seconds
+acme.sh --issue --dns <dns_namecheap> --domain <__example_com> --dnssleep <300>
+
+# Issue a certificate using a manual DNS mode
+acme.sh --issue --dns --domain <__example_com> --yes-I-know-dns-manual-mode-enough-go-ahead-please

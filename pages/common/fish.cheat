@@ -3,20 +3,26 @@
 
 % fish, common
 
-# Start interactive shell
+# Start an interactive shell session
 fish
 
-# Execute a command
-fish -c "<command>"
+# Start an interactive shell session without loading startup configs
+fish --no-config
 
-# Run commands from a file
-fish <file_fish>
+# Execute specific commands
+fish --command "{{echo 'fish is executed'}}"
 
-# Check a file for syntax errors
-fish --no-execute <file_fish>
+# Execute a specific script
+fish <path_to_script_fish>
 
-# Display version information and exit
-fish --version
+# Check a specific script for syntax errors
+fish --no-execute <path_to_script_fish>
 
-# Set and export environmental variables that persist across restarts
-set -Ux <variable_name> <variable_value>
+# Execute specific commands from stdin
+{{echo "echo 'fish is executed'"}} | fish
+
+# Start an interactive shell session in private mode, where the shell does not access old history or save new history
+fish --private
+
+# Define and export an environmental variable that persists across shell restarts (builtin)
+set --universal --export <variable_name> <variable_value>

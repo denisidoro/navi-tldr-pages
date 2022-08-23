@@ -3,7 +3,7 @@
 
 % git-lfs, common
 
-# Initialise Git LFS
+# Initialize Git LFS
 git lfs install
 
 # Track files that match a glob
@@ -15,7 +15,7 @@ git config -f .lfsconfig lfs.url <lfs_endpoint_url>
 # List tracked patterns
 git lfs track
 
-# List tracked files that have been commited
+# List tracked files that have been committed
 git lfs ls-files
 
 # Push all Git LFS objects to the remote server (useful if errors are encountered)

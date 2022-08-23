@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/automountd.md
+
+% automountd, osx
+
+# Start the daemon
+automountd
+
+# Log more details to `syslog`
+automountd -v

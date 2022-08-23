@@ -18,5 +18,5 @@ pdftocairo <path_to_file_pdf> <output_png> -png -r 200
 # Convert to grayscale TIFF setting paper size to A3
 pdftocairo <path_to_file_pdf> -tiff -gray -paper A3
 
-# Convert to PNG cropping x and y pixels from the top left corner
+# Convert to PNG cropping x and y pixels from the top-left corner
 pdftocairo <path_to_file_pdf> -png -x <x_pixels> -y <y_pixels>

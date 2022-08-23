@@ -22,7 +22,7 @@ tcpdump -i <eth0> src <192_168_1_1> and dst <192_168_1_2> and dst port <80>
 tcpdump net <192_168_1_0_24>
 
 # Capture all traffic except traffic over port 22 and save to a dump file
-tcpdump -w <dumpfile_pcap> not port <22>
+tcpdump -w <dumpfile_pcap> port not <22>
 
 # Read from a given dump file
 tcpdump -r <dumpfile_pcap>

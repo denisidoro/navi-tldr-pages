@@ -18,8 +18,11 @@ convert <image1_png> <image2_png> <image3_png> +append <image123_png>
 # Vertically append images
 convert <image1_png> <image2_png> <image3_png> -append <image123_png>
 
-# Create a gif from a series of images with 100ms delay between them
+# Create a GIF from a series of images with 100ms delay between them
 convert <image1_png> <image2_png> <image3_png> -delay <10> <animation_gif>
 
 # Create an image with nothing but a solid background
 convert -size <800x600> "xc:<_ff0000>" <image_png>
+
+# Create a favicon from several images of different sizes
+convert <image1_png> <image2_png> <image3_png> <image_ico>

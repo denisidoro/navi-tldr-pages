@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xdg-settings.md
+
+% xdg-settings, linux
+
+# Print the default web browser
+xdg-settings get <default_web_browser>
+
+# Set the default web browser to Firefox
+xdg-settings set <default_web_browser> <firefox_desktop>
+
+# Set the default mail URL scheme handler to Evolution
+xdg-settings set <default_url_scheme_handler> <mailto> <evolution_desktop>
+
+# Set the default PDF document viewer
+xdg-settings set <pdf_viewer_desktop>
+
+# Display help
+xdg-settings --help

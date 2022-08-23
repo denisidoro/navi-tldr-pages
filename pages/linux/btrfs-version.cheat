@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/btrfs-version.md
+
+% btrfs-version, linux
+
+# Display btrfs-progs version
+btrfs version
+
+# Display help
+btrfs version --help

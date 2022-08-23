@@ -3,23 +3,26 @@
 
 % gpg, common
 
-# Sign doc.txt without encryption (writes output to doc.txt.asc)
+# Create a GPG public and private key interactively
+gpg --full-generate-key
+
+# Sign `doc.txt` without encryption (writes output to `doc.txt.asc`)
 gpg --clearsign <doc_txt>
 
-# Encrypt doc.txt for alice@example.com (output to doc.txt.gpg)
-gpg --encrypt --recipient <alice_example_com> <doc_txt>
+# Encrypt and sign `doc.txt` for alice@example.com and bob@example.com (output to `doc.txt.gpg`)
+gpg --encrypt --sign --recipient <alice_example_com> --recipient <bob_example_com> <doc_txt>
 
-# Encrypt doc.txt with only a passphrase (output to doc.txt.gpg)
+# Encrypt `doc.txt` with only a passphrase (output to `doc.txt.gpg`)
 gpg --symmetric <doc_txt>
 
-# Decrypt doc.txt.gpg (output to `stdout`)
+# Decrypt `doc.txt.gpg` (output to stdout)
 gpg --decrypt <doc_txt_gpg>
 
 # Import a public key
 gpg --import <public_gpg>
 
-# Export public key for alice@example.com (output to `stdout`)
+# Export public key for alice@example.com (output to stdout)
 gpg --export --armor <alice_example_com>
 
-# Export private key for alice@example.com (output to `stdout`)
+# Export private key for alice@example.com (output to stdout)
 gpg --export-secret-keys --armor <alice_example_com>

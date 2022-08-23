@@ -10,13 +10,13 @@ wal --preview <image_png>
 wal -i <image_png>
 
 # Create a light color scheme
-wal -il <image_png>
+wal -i <image_png> -l
 
 # Skip setting the desktop wallpaper
-wal -in <image_png>
+wal -i <image_png> -n
 
 # Skip setting the terminal colors
-wal -is <image_png>
+wal -i <image_png> -s
 
 # Restore the previously generated color scheme and wallpaper
 wal -R

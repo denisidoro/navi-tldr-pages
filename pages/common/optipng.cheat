@@ -6,10 +6,10 @@
 # Compress a PNG with default settings
 optipng <path_to_file_png>
 
-# Compress a PNG with best compression
+# Compress a PNG with the best compression
 optipng -o<7> <path_to_file_png>
 
-# Compress a PNG with fastest compression
+# Compress a PNG with the fastest compression
 optipng -o<0> <path_to_file_png>
 
 # Compress a PNG and add interlacing

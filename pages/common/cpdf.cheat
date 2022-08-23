@@ -12,7 +12,7 @@ cpdf -merge <path_to_source_document_one_pdf> <path_to_source_document_two_pdf> 
 # Show the bookmarks of a document
 cpdf -list-bookmarks <path_to_document_pdf>
 
-# Split a document into ten-page chunks, writing them to chunk001.pdf, chunk002.pdf, etc
+# Split a document into ten-page chunks, writing them to `chunk001.pdf`, `chunk002.pdf`, etc
 cpdf -split <path_to_document_pdf> -o <path_to_chunk____pdf> -chunk <10>
 
 # Encrypt a document using 128bit encryption, providing `fred` as owner password and `joe` as user password

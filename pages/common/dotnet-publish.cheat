@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dotnet-publish.md
+
+% dotnet-publish, common
+
+# Compile a .NET project in release mode
+dotnet publish --configuration Release <path_to_project_file>
+
+# Publish the .NET Core runtime with your application for the specified runtime
+dotnet publish --self-contained true --runtime <runtime_identifier> <path_to_project_file>
+
+# Package the application into a platform-specific single-file executable
+dotnet publish --runtime <runtime_identifier> -p:PublishSingleFile=true <path_to_project_file>
+
+# Trim unused libraries to reduce the deployment size of an application
+dotnet publish --self-contained true --runtime <runtime_identifier> -p:PublishTrimmed=true <path_to_project_file>
+
+# Compile a .NET project without restoring dependencies
+dotnet publish --no-restore <path_to_project_file>
+
+# Specify the output directory
+dotnet publish --output <path_to_directory> <path_to_project_file>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-diff-files.md
+
+% git-diff-files, common
+
+# Compare all changed files
+git diff-files
+
+# Compare only specified files
+git diff-files <path_to_file>
+
+# Show only the names of changed files
+git diff-files --name-only
+
+# Output a summary of extended header information
+git diff-files --summary

@@ -12,7 +12,7 @@ rails server
 # Start local server for current project on a specified port
 rails server -p "<port>"
 
-# Open console to interact with application from command line
+# Open console to interact with application from command-line
 rails console
 
 # Check current version of rails

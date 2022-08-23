@@ -6,7 +6,7 @@
 # Create a wordlist file from the given URL up to 2 links depth
 cewl --depth <2> --write <path_to_wordlist_txt> <url>
 
-# Output an alpha-numeric wordlist from the given URL with words of minimum 5 characters
+# Output an alphanumeric wordlist from the given URL with words of minimum 5 characters
 cewl --with-numbers --min_word_length <5> <url>
 
 # Output a wordlist from the given URL in debug mode including email addresses

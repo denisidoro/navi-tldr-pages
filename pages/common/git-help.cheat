@@ -3,13 +3,13 @@
 
 % git-help, common
 
-# Display help about a specific git subcommand
+# Display help about a specific Git subcommand
 git help <subcommand>
 
-# Display help about a specific git subcommand in a web browser
+# Display help about a specific Git subcommand in a web browser
 git help --web <subcommand>
 
-# Display a list of all available git subcommands
+# Display a list of all available Git subcommands
 git help --all
 
 # List the available guides

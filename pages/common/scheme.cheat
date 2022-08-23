@@ -3,7 +3,7 @@
 
 % scheme, common
 
-# Open an interactive shell (REPL)
+# Start a REPL (interactive shell)
 scheme
 
 # Run a scheme program (with no REPL output)
@@ -13,7 +13,7 @@ scheme --quiet < <script_scm>
 scheme --load <script_scm>
 
 # Load scheme expressions into the REPL
-scheme --eval {{"(define foo 'x)"}}
+scheme --eval "{{(define foo 'x)}}"
 
 # Open the REPL in quiet mode
 scheme --quiet

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pacman-key.md
+
+% pacman-key, linux
+
+# Initialize the pacman keyring
+sudo pacman-key --init
+
+# Add the default ArchLinux keys
+sudo pacman-key --populate <archlinux>
+
+# List keys from the public keyring
+pacman-key --list-keys
+
+# Add the specified keys
+sudo pacman-key --add <path_to_keyfile_gpg>
+
+# Receive a key from a key server
+sudo pacman-key --recv-keys "<uid_name_email>"
+
+# Print the fingerprint of a specific key
+pacman-key --finger "<uid_name_email>"
+
+# Sign an imported key locally
+sudo pacman-key --lsign-key "<uid_name_email>"
+
+# Remove a specific key
+sudo pacman-key --delete "<uid_name_email>"

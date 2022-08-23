@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-rename-remote.md
+
+% git-rename-remote, common
+
+# Change the upstream remote to origin
+git rename-remote <upstream> <origin>

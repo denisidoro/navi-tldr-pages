@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/compsize.md
+
+% compsize, linux
+
+# Calculate the current compression ratio for a file or directory
+sudo compsize <path_to_file_or_directory>
+
+# Don't traverse filesystem boundaries
+sudo compsize --one-file-system <path_to_file_or_directory>
+
+# Show raw byte counts instead of human-readable sizes
+sudo compsize --bytes <path_to_file_or_directory>

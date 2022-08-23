@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virsh-help.md
+
+% virsh-help, common
+
+# List the `virsh` commands grouped into related categories
+virsh help
+
+# List the command categories
+virsh help | grep "keyword"
+
+# List the commands in a category
+virsh help <category_keyword>
+
+# Show help for a command
+virsh help <command>

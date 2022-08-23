@@ -9,7 +9,7 @@ mogrify -resize <50_> {{*.jpg}}
 # Resize all images starting with "DSC" to 800x600
 mogrify -resize <800x600> {{DSC*}}
 
-# Convert all PNG images in the directory to JPEG
+# Convert all PNGs in the directory to JPEG
 mogrify -format <__jpg> {{*.png}}
 
 # Halve the saturation of all image files in the current directory

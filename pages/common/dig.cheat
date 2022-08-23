@@ -6,8 +6,11 @@
 # Lookup the IP(s) associated with a hostname (A records)
 dig +short <example_com>
 
-# Lookup the mail server(s) associated with a given domain name (MX record)
-dig +short <example_com> MX
+# Get a detailed answer for a given domain (A records)
+dig +noall +answer <example_com>
+
+# Query a specific DNS record type associated with a given domain name
+dig +short <example_com> <A_MX_TXT_CNAME_NS>
 
 # Get all types of records for a given domain name
 dig <example_com> ANY

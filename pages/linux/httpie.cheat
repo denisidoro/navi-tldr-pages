@@ -12,7 +12,7 @@ http <https___example_com> <hello_World>
 # Send a POST request with redirected input
 http <https___example_com> < <file_json>
 
-# Send a PUT request with a given json body
+# Send a PUT request with a given JSON body
 http PUT <https___example_com_todos_7> <hello_world>
 
 # Send a DELETE request with a given request header
@@ -23,3 +23,6 @@ http -v <https___example_com>
 
 # Download a file
 http --download <https___example_com>
+
+# Follow redirects and show intermediary requests and responses
+http --follow --all <https___example_com>

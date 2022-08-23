@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/addpart.md
+
+% addpart, linux
+
+# Tell the kernel about the existence of the specified partition
+addpart <device> <partition> <start> <length>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-glue.md
+
+% aws-glue, common
+
+# List jobs
+aws glue list-jobs
+
+# Start a job
+aws glue start-job-run --job-name <job_name>
+
+# Start running a workflow
+aws glue start-workflow-run --name <workflow_name>
+
+# List triggers
+aws glue list-triggers
+
+# Start a trigger
+aws glue start-trigger --name <trigger_name>
+
+# Create a dev endpoint
+aws glue create-dev-endpoint --endpoint-name <name> --role-arn <role_arn_used_by_endpoint>

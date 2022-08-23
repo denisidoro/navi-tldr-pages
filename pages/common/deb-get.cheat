@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/deb-get.md
+
+% deb-get, common
+
+# Update the list of available packages and versions
+sudo deb-get update
+
+# Search for a given package
+sudo deb-get search <package>
+
+# Show information about a package
+sudo deb-get show <package>
+
+# Install a package, or update it to the latest available version
+sudo deb-get install <package>
+
+# Remove a package (using `purge` instead also removes its configuration files)
+sudo deb-get remove <package>
+
+# Upgrade all installed packages to their newest available versions
+sudo deb-get upgrade
+
+# List all available packages
+deb-get list

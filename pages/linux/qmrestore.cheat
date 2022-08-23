@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qmrestore.md
+
+% qmrestore, linux
+
+# Restore KVM-based virtual machine to local storage
+qmrestore <_var_lib_vz_dump_backup_file_vma_lzo> <vm_id> --storage <local>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fprintd-enroll.md
+
+% fprintd-enroll, linux
+
+# Enroll the right index finger for the current user
+fprintd-enroll
+
+# Enroll a specific finger for the current user
+fprintd-enroll --finger <left_thumb_left_index_finger_left_middle_finger_left_ring_finger_left_little_finger_right_thumb_right_index_finger_right_middle_finger_right_ring_finger_right_little_finger>
+
+# Enroll the right index finger for a specific user
+fprintd-enroll <username>
+
+# Enroll a specific finger for a specific user
+fprintd-enroll --finger <finger_name> <username>
+
+# Display help
+fprintd-enroll --help

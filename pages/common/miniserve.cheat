@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/miniserve.md
+
+% miniserve, common
+
+# Serve a directory
+miniserve <path_to_directory>
+
+# Serve a single file
+miniserve <path_to_file>
+
+# Serve a directory using HTTP basic authentication
+miniserve --auth <username>:<password> <path_to_directory>

@@ -3,8 +3,17 @@
 
 % dot, common
 
-# Render an image file and determine output filename based on input filename and selected format
-dot -Tpng -O <path_to_file_dot>
+# Render a `png` image with a filename based on the input filename and output format (uppercase -O)
+dot -T <png> -O <path_to_input_gv>
 
-# Create an SVG from DOT file
-dot -Tsvg -o <path_to_out_file_svg> <path_to_file_dot>
+# Render a `svg` image with the specified output filename (lowercase -o)
+dot -T <svg> -o <path_to_image_svg> <path_to_input_gv>
+
+# Render the output in `ps`, `pdf`, `svg`, `fig`, `png`, `gif`, `jpg`, `json`, or `dot` format
+dot -T <format> -O <path_to_input_gv>
+
+# Render a `gif` image using stdin and stdout
+echo "{{digraph {this -> that} }}" | dot -T <gif> > <path_to_image_gif>
+
+# Display help
+dot -?

@@ -9,8 +9,8 @@ shutdown /s
 # Shutdown the current machine force-closing all apps
 shutdown /s /f
 
-# Restart the current machine
-shutdown /r
+# Restart the current machine immediately
+shutdown /r /t 0
 
 # Hibernate the current machine
 shutdown /h
@@ -20,9 +20,6 @@ shutdown /l
 
 # Specify a timeout in seconds to wait before shutting down
 shutdown /s /t <seconds>
-
-# Specify a comment for the shutdown reason
-shutdown /s /c "<reason>"
 
 # Abort a shutdown sequence whose timeout is yet to expire
 shutdown /a

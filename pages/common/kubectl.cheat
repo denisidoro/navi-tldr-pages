@@ -3,7 +3,7 @@
 
 % kubectl, common
 
-# List all information about a resource with more details
+# List information about a resource with more details
 kubectl get <pod_service_deployment_ingress____> -o wide
 
 # Update specified pod with the label 'unhealthy' and the value 'true'

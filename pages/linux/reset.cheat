@@ -3,7 +3,7 @@
 
 % reset, linux
 
-# Reinitialise the current terminal
+# Reinitialize the current terminal
 reset
 
 # Display the terminal type instead

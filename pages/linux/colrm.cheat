@@ -3,7 +3,7 @@
 
 % colrm, linux
 
-# Remove first column of `stdin`
+# Remove first column of stdin
 colrm {{1 1}}
 
 # Remove from 3rd column till the end of each line

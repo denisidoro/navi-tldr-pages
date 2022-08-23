@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hello.md
+
+% hello, common
+
+# Print "Hello, world!"
+hello
+
+# Print "hello, world", the traditional type
+hello --traditional
+
+# Print a text message
+hello --greeting="<greeting_text>"

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/chntpw.md
+
+% chntpw, linux
+
+# List all users in the SAM file
+chntpw -l <path_to_sam_file>
+
+# Edit [u]ser interactively
+chntpw -u <username> <path_to_sam_file>
+
+# Use chntpw [i]nteractively
+chntpw -i <path_to_sam_file>

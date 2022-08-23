@@ -3,7 +3,7 @@
 
 % gitsome, common
 
-# Enter the gitsome shell (optional), to enable autocompletion and interactive help for git (and gh) commands
+# Enter the gitsome shell (optional), to enable autocompletion and interactive help for Git (and gh) commands
 gitsome
 
 # Setup GitHub integration with the current account

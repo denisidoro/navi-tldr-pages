@@ -12,7 +12,7 @@ coffee --compile <path_to_file_coffee>
 # Compile to JavaScript and save to a given output file
 coffee --compile <path_to_file_coffee> --output <path_to_file_js>
 
-# Run interactive REPL
+# Start a REPL (interactive shell)
 coffee --interactive
 
 # Watch script for changes and re-run script

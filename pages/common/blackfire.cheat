@@ -3,7 +3,7 @@
 
 % blackfire, common
 
-# Initialise and configure the Blackfire client
+# Initialize and configure the Blackfire client
 blackfire config
 
 # Launch the Blackfire agent

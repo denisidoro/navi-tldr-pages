@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/psping.md
+
+% psping, windows
+
+# Ping a host using ICMP
+psping <hostname>
+
+# Ping a host over a TCP port
+psping <hostname>:<port>
+
+# Specify the number of pings and perform it quietly
+psping <hostname> -n <pings> -q
+
+# Ping the target over TCP 50 times and produce a histogram of the results
+psping <hostname>:<port> -q -n <50> -h
+
+# Display usage information
+psping /?

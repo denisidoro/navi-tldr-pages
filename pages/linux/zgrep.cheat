@@ -19,7 +19,7 @@ zgrep -v <pattern> <path_to_compressed_file>
 zgrep -e "<pattern_1>" -e "<pattern_2>" <path_to_compressed_file>
 
 # Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`)
-zgrep -E <_regex_> <path_to_file>
+zgrep -E <regular_expression> <path_to_file>
 
 # Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match
 zgrep -<C_B_A> <3> <pattern> <path_to_compressed_file>

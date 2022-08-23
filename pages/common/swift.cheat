@@ -3,7 +3,7 @@
 
 % swift, common
 
-# Invoke the interactive interpreter (REPL)
+# Start a REPL (interactive shell)
 swift
 
 # Execute a program

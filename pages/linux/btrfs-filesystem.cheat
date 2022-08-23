@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/btrfs-filesystem.md
+
+% btrfs-filesystem, linux
+
+# Show filesystem usage (optionally run as root to show detailed information)
+btrfs filesystem usage <path_to_btrfs_mount>
+
+# Show usage by individual devices
+sudo btrfs filesystem show <path_to_btrfs_mount>
+
+# Defragment a single file on a btrfs filesystem (avoid while a deduplication agent is running)
+sudo btrfs filesystem defragment -v <path_to_file>
+
+# Defragment a directory recursively (does not cross subvolume boundaries)
+sudo btrfs filesystem defragment -v -r <path_to_directory>
+
+# Force syncing unwritten data blocks to disk(s)
+sudo btrfs filesystem sync <path_to_btrfs_mount>
+
+# Summarize disk usage for the files in a directory recursively
+sudo btrfs filesystem du --summarize <path_to_directory>

@@ -7,7 +7,7 @@
 svgo <test_svg>
 
 # Optimize a file and save the result to another file
-svgo <test_svg> <test_min_svg>
+svgo <test_svg> -o <test_min_svg>
 
 # Optimize all SVG files within a directory (overwrites the original files)
 svgo -f <path_to_directory_with_svg_files>
@@ -20,9 +20,6 @@ svgo -f <path_to_input_directory> -o <path_to_output_directory>
 
 # Optimize a file and print out the result
 svgo <test_svg> -o -
-
-# Optimize a file making sure a given plugin is enabled
-svgo --enable=<plugin_name>
 
 # Show available plugins
 svgo --show-plugins

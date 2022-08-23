@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/runsvdir.md
+
+% runsvdir, common
+
+# Start and manage all services in a directory as the current user
+runsvdir <path_to_services>
+
+# Start and manage all services in a directory as root
+sudo runsvdir <path_to_services>
+
+# Start services in separate sessions
+runsvdir -P <path_to_services>

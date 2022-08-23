@@ -15,5 +15,5 @@ montage <image1_png> <image2_jpg> <imageN_png> -geometry 640x480+0+0 montage.jpg
 # Limit the number of rows and columns in the grid, causing input images to overflow into multiple output montages
 montage <image1_png> <image2_jpg> <imageN_png> -geometry +0+0 -tile 2x3 montage_%d.jpg
 
-# Resize and crop images to completely fill their grid cells before tiling
+# Resize and crop images to fill their grid cells before tiling
 montage <image1_png> <image2_jpg> <imageN_png> -geometry +0+0 -resize 640x480^ -gravity center -crop 640x480+0+0 montage.jpg

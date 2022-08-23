@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-repository.md
+
+% tlmgr-repository, common
+
+# List all configured repositories and their tags (if set)
+tlmgr repository list
+
+# List all packages available in a specific repository
+tlmgr repository list <path_url_tag>
+
+# Add a new repository with a specific tag (the tag is not required)
+sudo tlmgr repository add <path_url> <___>
+
+# Remove a specific repository
+sudo tlmgr repository remove <path_url_tag>
+
+# Set a new list of repositories, overwriting the previous list
+sudo tlmgr repository set <path_url_tag>#<___> <path_url_tag>#<___> <___>
+
+# Show the verification status of all configured repositories
+tlmgr repository status

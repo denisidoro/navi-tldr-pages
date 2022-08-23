@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hunspell.md
+
+% hunspell, common
+
+# Check the spelling of a file
+hunspell <path_to_file>
+
+# Check the spelling of a file with the en_US dictionary
+hunspell -d <en_US> <path_to_file>
+
+# List misspelled words in a file
+hunspell -l <path_to_file>

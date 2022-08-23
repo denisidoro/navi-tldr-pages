@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/dark-mode.md
+
+% dark-mode, osx
+
+# Toggle dark mode (turn it on if it's currently off, off if it's currently on)
+dark-mode
+
+# Turn dark mode on
+dark-mode on
+
+# Turn dark mode off
+dark-mode off
+
+# Check if dark mode is on
+dark-mode status

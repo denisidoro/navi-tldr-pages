@@ -6,7 +6,7 @@
 # Add a symbolic link
 sudo update-alternatives --install <path_to_symlink> <command_name> <path_to_command_binary> <priority>
 
-# Configure a symbolic link for "java"
+# Configure a symbolic link for `java`
 sudo update-alternatives --config <java>
 
 # Remove a symbolic link

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lslogins.md
+
+% lslogins, linux
+
+# Display users in the system
+lslogins
+
+# Display users belonging to a specific group
+lslogins --groups=<groups>
+
+# Display user accounts
+lslogins --user-accs
+
+# Display last logins
+lslogins --last
+
+# Display system accounts
+lslogins --system-accs
+
+# Display supplementary groups
+lslogins --supp-groups

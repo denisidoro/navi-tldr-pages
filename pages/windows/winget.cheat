@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/winget.md
+
+% winget, windows
+
+# Install a package
+winget install <package>
+
+# Display information about a package
+winget show <package>
+
+# Search for a package
+winget search <package>

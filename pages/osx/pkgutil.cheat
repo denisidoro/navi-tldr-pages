@@ -13,4 +13,4 @@ pkgutil --check-signature <path_to_filename_pkg>
 pkgutil --files <com_microsoft_Word>
 
 # Extract the contents of a package file into a directory
-pkgutil  --expand-full <path_to_filename_pkg> <path_to_directory>
+pkgutil --expand-full <path_to_filename_pkg> <path_to_directory>

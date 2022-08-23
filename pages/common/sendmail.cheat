@@ -3,7 +3,7 @@
 
 % sendmail, common
 
-# Send a message with the content of message.txt to the mail directory of local user `username`
+# Send a message with the content of `message.txt` to the mail directory of local user `username`
 sendmail <username> < <message_txt>
 
 # Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the message in `message.txt`

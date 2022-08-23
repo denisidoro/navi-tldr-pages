@@ -4,16 +4,16 @@
 % sqlmap, common
 
 # Run sqlmap against a single target URL
-python sqlmap.py -u <_http___www_target_com_vuln_php_id_1_>
+python sqlmap.py -u "<http___www_target_com_vuln_php_id_1>"
 
 # Send data in a POST request (`--data` implies POST request)
-python sqlmap.py -u <_http___www_target_com_vuln_php_> --data=<_id_1_>
+python sqlmap.py -u "<http___www_target_com_vuln_php>" --data="<id_1>"
 
 # Change the parameter delimiter (& is the default)
-python sqlmap.py -u <_http___www_target_com_vuln_php_> --data=<_query_foobar_id_1_> --param-del=<___>
+python sqlmap.py -u "<http___www_target_com_vuln_php>" --data="<query_foobar_id_1>" --param-del="<_>"
 
 # Select a random `User-Agent` from `./txt/user-agents.txt` and use it
-python sqlmap.py -u <_http___www_target_com_vuln_php_> --random-agent
+python sqlmap.py -u "<http___www_target_com_vuln_php>" --random-agent
 
 # Provide user credentials for HTTP protocol authentication
-python sqlmap.py -u <_http___www_target_com_vuln_php_> --auth-type <Basic> --auth-cred <_testuser_testpass_>
+python sqlmap.py -u "<http___www_target_com_vuln_php>" --auth-type <Basic> --auth-cred "<testuser_testpass>"

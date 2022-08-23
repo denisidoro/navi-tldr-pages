@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/get-filehash.md
+
+% get-filehash, windows
+
+# Calculate a hash for a specified file using the SHA256 algorithm
+Get-FileHash <path_to_file>
+
+# Calculate a hash for a specified file using a specified algorithm
+Get-FileHash <path_to_file> -Algorithm <SHA1_SHA384_SHA256_SHA512_MD5>

@@ -9,9 +9,6 @@ read <variable>
 # Store each of the next lines you enter as values of an array
 read -a <array>
 
-# Enable backspace and GNU readline hotkeys when entering input with read
-read -e <variable>
-
 # Specify the number of maximum characters to be read
 read -n <character_count> <variable>
 
@@ -22,7 +19,10 @@ read -d <new_delimiter> <variable>
 read -r <variable>
 
 # Display a prompt before the input
-read -p {{"Enter your input here: "}} <variable>
+read -p "{{Enter your input here: }}" <variable>
 
 # Do not echo typed characters (silent mode)
 read -s <variable>
+
+# Read stdin and perform an action on every line
+while read line; do echo "$line"; done

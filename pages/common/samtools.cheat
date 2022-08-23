@@ -6,7 +6,7 @@
 # Convert a SAM input file to BAM stream and save to file
 samtools view -S -b <input_sam> > <output_bam>
 
-# Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to `stdout`
+# Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to stdout
 <other_command> | samtools view -h - chromosome:start-end
 
 # Sort file and save to BAM (the output format is automatically determined from the output file's extension)

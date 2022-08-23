@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pueue-group.md
+
+% pueue-group, common
+
+# Show all groups with their statuses and number of parallel jobs
+pueue group
+
+# Add a custom group
+pueue group --add "<group_name>"
+
+# Remove a group and move its tasks to the default group
+pueue group --remove "<group_name>"

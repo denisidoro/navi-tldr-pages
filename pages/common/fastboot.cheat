@@ -13,10 +13,13 @@ fastboot oem lock
 fastboot reboot bootloader
 
 # Flash a given image
-fastboot flash <file_zip>
+fastboot flash <file_img>
 
 # Flash a custom recovery image
 fastboot flash recovery <file_img>
 
 # Display connected devices
 fastboot devices
+
+# Display all information of a device
+fastboot getvar all

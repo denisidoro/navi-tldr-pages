@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sshd.md
+
+% sshd, common
+
+# Start daemon in the background
+sshd
+
+# Run sshd in the foreground
+sshd -D
+
+# Run with verbose output (for debugging)
+sshd -D -d
+
+# Run on a specific port
+sshd -p <port>

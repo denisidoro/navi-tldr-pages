@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rpi-eeprom-update.md
+
+% rpi-eeprom-update, linux
+
+# Print information about the current raspberry pi EEPROM installed
+sudo rpi-eeprom-update
+
+# Update a raspberry pi EEPROM
+sudo rpi-eeprom-update -a
+
+# Cancel the pending update
+sudo rpi-eeprom-update -r
+
+# Display help
+rpi-eeprom-update -h

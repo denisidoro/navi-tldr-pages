@@ -10,4 +10,4 @@ numfmt --from=<si> <1_5K>
 ls -l | numfmt --header=<1> --field=<5> --to=<iec>
 
 # Convert to IEC units, pad with 5 characters, left aligned
-du -s * | numfmt --to=<iec> --format=<___5f_>
+du -s * | numfmt --to=<iec> --format="<__5f>"

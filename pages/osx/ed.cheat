@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/ed.md
+
+% ed, osx
+
+# Start an interactive editor session with an empty document
+ed
+
+# Start an interactive editor session with an empty document and a specific [p]rompt
+ed -p '> '
+
+# Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt
+ed -s
+
+# Edit a specific file (this shows the byte count of the loaded file)
+ed <path_to_file>
+
+# Replace a string with a specific replacement for all lines
+,s/<regular_expression>/<replacement>/g

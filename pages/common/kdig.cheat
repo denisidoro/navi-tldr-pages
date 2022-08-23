@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kdig.md
+
+% kdig, common
+
+# Lookup the IP(s) associated with a hostname (A records)
+kdig <example_com>
+
+# Specify a specific DNS server to query (e.g. Google DNS)
+kdig <example_com> @<8_8_8_8>
+
+# Query a specific DNS record type associated with a given domain name
+kdig <example_com> <A_AAAA_NS_SOA_DNSKEY_ANY>
+
+# Lookup the IP(s) associated with a hostname (A records) using DNS over TLS (DoT)
+kdig -d @<8_8_8_8> +tls-ca +tls-host=<dns_google> <example_com>
+
+# Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH)
+kdig -d @<1_1_1_1> +https +tls-hostname=<1dot1dot1dot1_cloudflare_dns_com> <example_com>

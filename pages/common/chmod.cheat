@@ -4,22 +4,25 @@
 % chmod, common
 
 # Give the [u]ser who owns a file the right to e[x]ecute it
-chmod u+x <file>
+chmod u+x <path_to_file>
 
 # Give the [u]ser rights to [r]ead and [w]rite to a file/directory
-chmod u+rw <file_or_directory>
+chmod u+rw <path_to_file_or_directory>
 
 # Remove e[x]ecutable rights from the [g]roup
-chmod g-x <file>
+chmod g-x <path_to_file>
 
 # Give [a]ll users rights to [r]ead and e[x]ecute
-chmod a+rx <file>
+chmod a+rx <path_to_file>
 
 # Give [o]thers (not in the file owner's group) the same rights as the [g]roup
-chmod o=g <file>
+chmod o=g <path_to_file>
 
 # Remove all rights from [o]thers
-chmod o= <file>
+chmod o= <path_to_file>
 
-# Change permissions recursively giving [g]roup and [o]thers the abililty to [w]rite
-chmod -R g+w,o+w <directory>
+# Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite
+chmod -R g+w,o+w <path_to_directory>
+
+# Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory
+chmod -R a+rX <path_to_directory>

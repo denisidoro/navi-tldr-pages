@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zmv.md
+
+% zmv, common
+
+# Move files using a regular expression-like pattern
+zmv '{{(*).log}}' '<_1_txt>'
+
+# Preview the result of a move, without making any actual changes
+zmv -n '{{(*).log}}' '<_1_txt>'
+
+# Interactively move files, with a prompt before every change
+zmv -i '{{(*).log}}' '<_1_txt>'
+
+# Verbosely print each action as it's being executed
+zmv -v '{{(*).log}}' '<_1_txt>'

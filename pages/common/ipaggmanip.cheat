@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ipaggmanip.md
+
+% ipaggmanip, common
+
+# Combine labels equal in their high-order bits
+ipaggmanip --prefix <16> <path_to_file>
+
+# Remove labels with a count smaller than a given number of bytes and output a random sample of such labels
+ipaggmanip --cut-smaller <100> --cull-labels <5> <path_to_file>
+
+# Replace each label's count with 1 if it is non-zero
+ipaggmanip --posterize <path_to_file>

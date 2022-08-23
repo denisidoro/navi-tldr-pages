@@ -9,7 +9,7 @@ choco install <package_s_>
 # Install packages from a custom configuration file
 choco install <path_to_packages_config>
 
-# Install a specific "nuspec" or "nupkg" file
+# Install a specific nuspec or nupkg file
 choco install <path_to_file>
 
 # Install a specific version of a package

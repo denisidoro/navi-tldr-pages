@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-name.md
+
+% npm-name, common
+
+# Check if a specific package name is available in the npm registry
+npm-name <package>
+
+# Find similar package names in the npm registry
+npm-name --similar <package>

@@ -6,10 +6,10 @@
 # Download a remote image from Sylabs Cloud
 singularity pull --name <image_sif> <library___godlovedc_funny_lolcow_latest>
 
-# Rebuild a remote image using latest Singularity image format
+# Rebuild a remote image using the latest Singularity image format
 singularity build <image_sif> <docker___godlovedc_lolcow>
 
-# Start a container from an image and get a shell inside of it
+# Start a container from an image and get a shell inside it
 singularity shell <image_sif>
 
 # Start a container from an image and run a command

@@ -15,5 +15,5 @@ urxvt -e <command>
 # Run a command and keep the window open
 urxvt --hold -e <command>
 
-# Run a command within the "sh" shell
+# Run a command within the `sh` shell
 urxvt -e <sh> -c <command>

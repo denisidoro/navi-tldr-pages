@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nudoku.md
+
+% nudoku, common
+
+# Start a sudoku game
+nudoku
+
+# Choose the difficulty of the game
+nudoku -d <easy_normal_hard>
+
+# Navigate the board
+<h_j_k_l> OR <Left_Down_Up_Right> arrow key
+
+# Delete a number
+<Backspace_x>
+
+# Get a hint
+H
+
+# See the complete solution
+S
+
+# Create a new puzzle
+N
+
+# Quit the game
+Q

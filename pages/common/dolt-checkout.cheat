@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dolt-checkout.md
+
+% dolt-checkout, common
+
+# Switch to a branch
+dolt checkout <branch_name>
+
+# Revert unstaged changes to a table
+dolt checkout <table>
+
+# Create new branch and switch to it
+dolt checkout -b <branch_name>
+
+# Create new branch based on a specified commit and switch to it
+dolt checkout -b <branch_name> <commit>

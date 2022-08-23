@@ -18,7 +18,7 @@ phpmd <path_to_file_or_directory> <xml_text_html> <rulesets> --suffixes <extensi
 # Exclude the specified comma-separated directories
 phpmd <path_to_file_or_directory> <xml_text_html> <rulesets> --exclude <directory_patterns>
 
-# Output the results to a file instead of `stdout`
+# Output the results to a file instead of stdout
 phpmd <path_to_file_or_directory> <xml_text_html> <rulesets> --reportfile <path_to_report_file>
 
 # Ignore the use of warning-suppressive PHPDoc comments

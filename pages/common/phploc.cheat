@@ -3,7 +3,7 @@
 
 % phploc, common
 
-# Analyse a directory and print the result
+# Analyze a directory and print the result
 phploc <path_to_directory>
 
 # Include only specific files from a comma-separated list (globs are allowed)

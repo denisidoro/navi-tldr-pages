@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dconf.md
+
+% dconf, linux
+
+# Print the value of a dconf path
+dconf read <_example_dconf_path>
+
+# List contents of a dconf path
+dconf list <_example_dconf_path>
+
+# Watch for dconf database changes in a path and subpaths
+dconf watch <_example_dconf_path>

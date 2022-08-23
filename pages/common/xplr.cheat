@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xplr.md
+
+% xplr, common
+
+# Open a directory
+xplr <path_to_directory>
+
+# Focus on a file
+xplr <path_to_file>
+
+# Focus on a directory
+xplr --force-focus <path_to_directory>
+
+# Open a directory with specific files or directories selected
+xplr <path_to_directory> <path_to_selected_file_or_directory1> <path_to_selected_file_or_directory2>

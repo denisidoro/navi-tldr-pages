@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/resolveip.md
+
+% resolveip, linux
+
+# Resolve a hostname to an IP address
+resolveip <example_org>
+
+# Resolve an IP address to a hostname
+resolveip <1_1_1_1>
+
+# Silent mode. Produces less output
+resolveip --silent <example_org>

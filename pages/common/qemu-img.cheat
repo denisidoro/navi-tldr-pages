@@ -15,5 +15,5 @@ qemu-img resize <image_name_img> <gigabytes>G
 # Dump the allocation state of every sector of the specified disk image
 qemu-img map <image_name_img>
 
-# Convert a VMWare .vmdk disk image to a KVM .qcow2 disk image
-qemu-img convert -O qcow2 <_path_to_file_foo_vmdk> <_path_to_file_foo_qcow2>
+# Convert a VMware .vmdk disk image to a KVM .qcow2 disk image
+qemu-img convert -f <vmdk> -O <qcow2> <path_to_file_foo_vmdk> <path_to_file_foo_qcow2>

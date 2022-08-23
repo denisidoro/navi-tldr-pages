@@ -3,13 +3,13 @@
 
 % zstd, common
 
-# Compress a file into a new file with the .zst suffix
+# Compress a file into a new file with the `.zst` suffix
 zstd <file>
 
 # Decompress a file
 zstd -d <file>.zst
 
-# Decompress to `stdout`
+# Decompress to stdout
 zstd -dc <file>.zst
 
 # Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default

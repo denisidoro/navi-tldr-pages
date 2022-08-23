@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dirb.md
+
+% dirb, linux
+
+# Scan a webserver using the default wordlist
+dirb <https___example_org>
+
+# Scan a webserver using a custom wordlist
+dirb <https___example_org> <path_to_wordlist_txt>
+
+# Scan a webserver non-recursively
+dirb <https___example_org> -r
+
+# Scan a webserver using a specified user-agent and cookie for HTTP-requests
+dirb <https___example_org> -a <user_agent_string> -c <cookie_string>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/inotifywait.md
+
+% inotifywait, linux
+
+# Watch a specific file for events, exiting after the first one
+inotifywait <path_to_file>
+
+# Continuously watch a specific file for events without exiting
+inotifywait --monitor <path_to_file>
+
+# Watch a directory recursively for events
+inotifywait --monitor --recursive <path_to_directory>
+
+# Watch a directory for changes, excluding files, whose names match a regular expression
+inotifywait --monitor --recursive --exclude "<regular_expression>" <path_to_directory>
+
+# Watch a file for changes, exiting when no event occurs for 30 seconds
+inotifywait --monitor --timeout <30> <path_to_file>
+
+# Only watch a file for file modification events
+inotifywait --event <modify> <path_to_file>
+
+# Watch a file printing only events, and no status messages
+inotifywait --quiet <path_to_file>
+
+# Run a command when a file is accessed
+inotifywait --event <access> <path_to_file> && <command>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/arch-chroot.md
+
+% arch-chroot, linux
+
+# Start an interactive shell (`bash`, by default) in a new root directory
+arch-chroot <path_to_new_root>
+
+# Specify the user (other than the current user) to run the shell as
+arch-chroot -u <user> <path_to_new_root>
+
+# Run a custom command (instead of the default `bash`) in the new root directory
+arch-chroot <path_to_new_root> <command> <command_arguments>
+
+# Specify the shell, other than the default `bash` (in this case, the `zsh` package should have been installed in the target system)
+arch-chroot <path_to_new_root> <zsh>

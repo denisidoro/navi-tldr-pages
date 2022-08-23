@@ -13,4 +13,4 @@ md5 <filename1> <filename2>
 md5 -q <filename>
 
 # Print a checksum of the given string
-md5 -s <string>
+md5 -s "<string>"

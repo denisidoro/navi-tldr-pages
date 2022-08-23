@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-var.md
+
+% git-var, common
+
+# Print the value of a Git logical variable
+git var <GIT_AUTHOR_IDENT_GIT_COMMITTER_IDENT_GIT_EDITOR_GIT_PAGER>
+
+# [l]ist all Git logical variables
+git var -l

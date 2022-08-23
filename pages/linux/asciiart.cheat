@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/asciiart.md
+
+% asciiart, linux
+
+# Read an image from a file and print in ASCII
+asciiart <path_to_image_jpg>
+
+# Read an image from a URL and print in ASCII
+asciiart <www_example_com_image_jpg>
+
+# Choose the output width (default is 100)
+asciiart --width <50> <path_to_image_jpg>
+
+# Colorize the ASCII output
+asciiart --color <path_to_image_jpg>
+
+# Choose the output format (default format is text)
+asciiart --format <text_html> <path_to_image_jpg>
+
+# Invert the character map
+asciiart --invert-chars <path_to_image_jpg>

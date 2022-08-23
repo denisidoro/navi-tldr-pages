@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/archlinux-java.md
+
+% archlinux-java, linux
+
+# List installed Java environments
+archlinux-java status
+
+# Set the default Java environment
+archlinux-java set <java_environment>
+
+# Unset the default Java environment
+archlinux-java unset
+
+# Set the default Java environment automatically
+archlinux-java fix

@@ -7,7 +7,7 @@
 lwp-request -m GET <http___example_com_some_path>
 
 # Upload a file with a POST request
-cat <_path_to_file> | lwp-request -m POST <http___example_com_some_path>
+lwp-request -m POST <http___example_com_some_path> < <path_to_file>
 
 # Make a request with a custom user agent
 lwp-request -H 'User-Agent: <user_agent> -m <METHOD> <http___example_com_some_path>

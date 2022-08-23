@@ -9,6 +9,9 @@ gzip <file_ext>
 # Decompress a file, replacing it with the original uncompressed version
 gzip -d <file_ext>.gz
 
+# Compress a file, keeping the original file
+gzip --keep <file_ext>
+
 # Compress a file specifying the output filename
 gzip -c <file_ext> > <compressed_file_ext_gz>
 

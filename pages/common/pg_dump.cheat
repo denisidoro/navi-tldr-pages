@@ -3,7 +3,7 @@
 
 % pg_dump, common
 
-# Dump database into a SQL-script file
+# Dump database into an SQL-script file
 pg_dump <db_name> > <output_file_sql>
 
 # Same as above, customize username

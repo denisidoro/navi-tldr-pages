@@ -3,7 +3,7 @@
 
 % mkfs.vfat, linux
 
-# Create a.vfat filesystem inside partition 1 on device b (`sdb1`)
+# Create a vfat filesystem inside partition 1 on device b (`sdb1`)
 mkfs.vfat <_dev_sdb1>
 
 # Create filesystem with a volume-name

@@ -3,7 +3,7 @@
 
 % hostess, common
 
-# List domains, target ips and on/off status
+# List domains, target IP addresses and on/off status
 hostess list
 
 # Add a domain pointing to your machine to your hosts file
@@ -12,5 +12,5 @@ hostess add <local_example_com> <127_0_0_1>
 # Remove a domain from your hosts file
 hostess del <local_example_com>
 
-# Disable a domain (but don't remove it completely)
+# Disable a domain (but don't remove it)
 hostess off <local_example_com>

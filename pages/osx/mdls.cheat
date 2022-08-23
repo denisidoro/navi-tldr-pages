@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/mdls.md
+
+% mdls, osx
+
+# Display the list of metadata attributes for file
+mdls <path_to_file>
+
+# Display a specific metadata attribute
+mdls -name <attribute> <path_to_file>

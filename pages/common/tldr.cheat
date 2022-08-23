@@ -3,11 +3,14 @@
 
 % tldr, common
 
-# Get typical usages of a command (hint: this is how you got here!)
+# Show the tldr page for a command (hint: this is how you got here!)
 tldr <command>
 
-# Show the tar tldr page for Linux
-tldr -p <linux> <tar>
+# Show the tldr page for `cd`, overriding the default platform
+tldr -p <android_linux_osx_sunos_windows> <cd>
 
-# Get help for a git subcommand
+# Show the tldr page for a subcommand
 tldr <git_checkout>
+
+# Update local pages (if the client supports caching)
+tldr -u

@@ -3,7 +3,7 @@
 
 % mutool, common
 
-# Convert pages 1-10 into 10 PNG images
+# Convert pages 1-10 into 10 PNGs
 mutool convert -o <image_d_png> <file_pdf> <1_10>
 
 # Convert pages 2, 3 and 5 of a PDF into text in the standard output
@@ -17,3 +17,6 @@ mutool info <input_pdf>
 
 # Extract all images, fonts and resources embedded in a PDF out into the current directory
 mutool extract <input_pdf>
+
+# Print the outline (table of contents) of a PDF
+mutool show <input_pdf> outline

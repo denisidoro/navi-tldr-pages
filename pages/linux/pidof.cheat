@@ -13,4 +13,4 @@ pidof -s <bash>
 pidof -x <script_py>
 
 # Kill all processes with given name
-kill "$(pidof <name>)" 
+kill $(pidof <name>)

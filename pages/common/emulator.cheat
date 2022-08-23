@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/emulator.md
+
+% emulator, common
+
+# Display the help
+emulator -help
+
+# Start an Android emulator device
+emulator -avd <name>
+
+# Display the webcams on your development computer that are available for emulation
+emulator -avd <name> -webcam-list
+
+# Start an emulator overriding the facing back camera setting (use `-camera-front` for front camera)
+emulator -avd <name> -camera-back <none_emulated_webcamN>
+
+# Start an emulator, with a maximum network speed
+emulator -avd <name> -netspeed <gsm_hscsd_gprs_edge_hsdpa_lte_evdo_full>
+
+# Start an emulator with network latency
+emulator -avd <name> -netdelay <gsm_hscsd_gprs_edge_hsdpa_lte_evdo_none>
+
+# Start an emulator, making all TCP connections through a specified HTTP/HTTPS proxy (port number is required)
+emulator -avd <name> -http-proxy <http___example_com_80>
+
+# Start an emulator with a given SD card partition image file
+emulator -avd <name> -sdcard <path_to_sdcard_img>

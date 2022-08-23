@@ -7,7 +7,10 @@
 gunzip <archive_tar_gz>
 
 # Extract a file to a target destination
-gunzip -c <archive_tar_gz> > <archive_tar>
+gunzip --stdout <archive_tar_gz> > <archive_tar>
+
+# Extract a file and keep the archive file
+gunzip --keep <archive_tar_gz>
 
 # List the contents of a compressed file
-gunzip -l <file_txt_gz>
+gunzip --list <file_txt_gz>

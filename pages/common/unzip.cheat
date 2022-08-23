@@ -7,13 +7,13 @@
 unzip <file_s_>
 
 # Extract zip files(s) to given path
-unzip <compressed_file_s_> -d <_path_to_put_extracted_file_s_>
+unzip <compressed_file_s_> -d <path_to_put_extracted_file_s_>
 
 # List the contents of a zip file without extracting
 unzip -l <file_zip>
 
-# Extract the contents of the file(s) to `stdout` alongside the extracted file names
+# Extract the contents of the file(s) to stdout alongside the extracted file names
 unzip -c <file_zip>
 
-# Extract a zip file created in windows, containing files with non-ascii (chinese) filenames
+# Extract a zip file created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames
 unzip -O <gbk> <file_zip>

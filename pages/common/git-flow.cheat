@@ -3,7 +3,7 @@
 
 % git-flow, common
 
-# Initialize it inside an existing git repository
+# Initialize it inside an existing Git repository
 git flow init
 
 # Start developing on a feature branch based on `develop`

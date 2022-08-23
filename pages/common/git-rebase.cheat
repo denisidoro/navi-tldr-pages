@@ -3,8 +3,8 @@
 
 % git-rebase, common
 
-# Rebase the current branch on top of the master branch
-git rebase <master>
+# Rebase the current branch on top of another specified branch
+git rebase <new_base_branch>
 
 # Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified
 git rebase -i <target_base_branch_or_commit_hash>
@@ -25,4 +25,4 @@ git rebase --onto <new_base> <old_base>
 git rebase -i <HEAD_5>
 
 # Auto-resolve any conflicts by favoring the working branch version (`theirs` keyword has reversed meaning in this case)
-git rebase -X theirs <master>
+git rebase -X theirs <branch_name>

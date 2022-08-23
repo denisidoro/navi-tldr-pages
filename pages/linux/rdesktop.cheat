@@ -18,5 +18,5 @@ rdesktop -u <username> -p <password> -g 1366x768 <host_port>
 # Connect to a remote computer using domain user
 rdesktop -u <username> -p <password> -d <domainname> <host_port>
 
-# Use the 16 bit color (speed up)
+# Use the 16-bit color (speed up)
 rdesktop -u <username> -p <password> -a 16 <host_port>

@@ -12,7 +12,7 @@ phpcs -i
 # Specify a coding standard to validate against
 phpcs <path_to_directory> --standard <standard>
 
-# Specify file extension(s) to include when sniffing
+# Specify comma-separated file extensions to include when sniffing
 phpcs <path_to_directory> --extensions <file_extension_s_>
 
 # Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`)

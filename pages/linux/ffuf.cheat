@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ffuf.md
+
+% ffuf, linux
+
+# Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose output
+ffuf -w <path_to_wordlist> -u <https___target_FUZZ> -c -v
+
+# Fuzz host-[H]eaders with a host file on a target website and [m]atch HTTP 200 [c]ode responses
+ffuf -w <hosts_txt> -u <https___example_org> -H "{{Host: FUZZ}}" -mc <200>
+
+# Discover directories using a [w]ordlist on a target website with a max individual job time of 60 seconds and recursion discovery depth of 2 levels
+ffuf -w <path_to_wordlist> -u <https___target_FUZZ> -maxtime-job <60> -recursion -recursion-depth <2>
+
+# Fuzz GET parameter on a target website and [f]ilter out message [s]ize response of 4242 bytes
+ffuf -w <path_to_param_names_txt> -u <https___target_script_php_FUZZ_test_value> -fs <4242>
+
+# Fuzz POST method with POST [d]ata of password on a target website and [f]ilter out HTTP response [c]ode 401
+ffuf -w <path_to_postdata_txt> -X <POST> -d "{{username=admin\&password=FUZZ}}" -u <https___target_login_php> -fc <401>
+
+# Discover subdomains using a subdoomain list on a target website
+ffuf -w <subdomains_txt> -u <https___website_com> -H "{{Host: FUZZ.website.com}}"

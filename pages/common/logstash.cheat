@@ -3,11 +3,11 @@
 
 % logstash, common
 
-# Check validity of a logstash configuration
+# Check validity of a Logstash configuration
 logstash --configtest --config <logstash_config_conf>
 
-# Run logstash using configuration
+# Run Logstash using configuration
 sudo logstash --config <logstash_config_conf>
 
-# Run logstash with the most basic inline configuration string
+# Run Logstash with the most basic inline configuration string
 sudo logstash -e 'input {} filter {} output {}'

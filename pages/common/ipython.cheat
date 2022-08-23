@@ -3,7 +3,7 @@
 
 % ipython, common
 
-# Start an interactive IPython session
+# Start a REPL (interactive shell)
 ipython
 
 # Enter an interactive IPython session after running a Python script

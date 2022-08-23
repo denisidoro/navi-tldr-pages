@@ -3,17 +3,17 @@
 
 % test, common
 
-# Test if given variable is equal to given string
-test $MY_VAR == '/bin/zsh'
+# Test if a given variable is equal to a given string
+test "<_MY_VAR>" == "<_bin_zsh>"
 
-# Test if given variable is empty
-test -z $GIT_BRANCH
+# Test if a given variable is empty
+test -z "<_GIT_BRANCH>"
 
-# Test if file exists
-test -e <filename>
+# Test if a file exists
+test -f "<path_to_file_or_directory>"
 
-# Test if directory not exists
-test ! -d <path_to_directory>
+# Test if a directory does not exist
+test ! -d "<path_to_directory>"
 
 # If-else statement
-test <condition> && echo "true" || echo "false"
+test <condition> && {{echo "true"}} || {{echo "false"}}

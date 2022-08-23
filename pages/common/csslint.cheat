@@ -18,5 +18,5 @@ csslint --errors=<errors_universal_selector_imports> <file_css>
 # Specify certain rules as warnings
 csslint --warnings=<box_sizing_selector_max_floats> <file_css>
 
-# Specify certain rules to completely ignore
+# Specify certain rules to ignore
 csslint --ignore=<ids_rules_count_shorthand> <file_css>

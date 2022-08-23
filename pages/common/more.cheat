@@ -4,9 +4,15 @@
 % more, common
 
 # Open a file
-more <source_file>
+more <path_to_file>
 
-# Page down
+# Open a file displaying from a specific line
+more +<line_number> <path_to_file>
+
+# Display help
+more --help
+
+# Go to the next page
 <Space>
 
 # Search for a string (press `n` to go to the next match)
@@ -14,3 +20,6 @@ more <source_file>
 
 # Exit
 q
+
+# Display help about interactive commands
+h

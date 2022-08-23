@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/openfortivpn.md
+
+% openfortivpn, linux
+
+# Connect to a VPN with a username and password
+openfortivpn --username=<username> --password=<password>
+
+# Connect to a VPN using a specific configuration file (defaults to `/etc/openfortivpn/config`)
+sudo openfortivpn --config=<path_to_config>
+
+# Connect to a VPN by specifying the host and port
+openfortivpn <host>:<port>
+
+# Trust a given gateway by passing in its certificate's sha256 sum
+openfortivpn --trusted-cert=<sha256_sum>

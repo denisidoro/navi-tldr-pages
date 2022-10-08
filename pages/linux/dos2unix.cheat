@@ -8,3 +8,6 @@ dos2unix <filename>
 
 # Create a copy with Unix-style line endings
 dos2unix -n <filename> <new_filename>
+
+# Change the line endings of all files in directory. Use a dot (.) for all files in current directory.
+find <directory> -type f -print0 | xargs -0 dos2unix

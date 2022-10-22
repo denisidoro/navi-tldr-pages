@@ -4,8 +4,8 @@ set -euo pipefail
 ESCAPE_CHAR="$(printf "\034")"
 
 extract_variables() {
-    grep -Eo '{{[^}]+}}' \
-        | sed -E 's/^{{//' \
+    grep -Eo '\{\{[\^\}]+\}\}' \
+        | sed -E 's/^\{\{//' \
         | sed -E 's/}}$//g' \
         | sort -u
 }

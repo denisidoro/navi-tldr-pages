@@ -3,11 +3,11 @@
 
 % jigsaw, common
 
-# Initialise a project
+# Initialize a project
 jigsaw init
 
-# Initialise a project using a starter template
-jigsaw init <template_name>
+# Initialize a project using a starter template
+jigsaw init {{template_name}}
 
 # Build the site for development
 jigsaw build
@@ -19,4 +19,4 @@ jigsaw serve
 jigsaw build production
 
 # Preview the site from the "build_production" directory
-jigsaw serve <build_production>
+jigsaw serve {{build_production}}

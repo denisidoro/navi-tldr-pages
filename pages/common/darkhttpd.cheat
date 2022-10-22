@@ -4,10 +4,10 @@
 % darkhttpd, common
 
 # Start server serving the specified document root
-darkhttpd <path_to_docroot>
+darkhttpd {{path/to/docroot}}
 
 # Start server on specified port (port 8080 by default if running as non-root user)
-darkhttpd <path_to_docroot> --port <port>
+darkhttpd {{path/to/docroot}} --port {{port}}
 
 # Listen only on specified IP address (by default, the server listens on all interfaces)
-darkhttpd <path_to_docroot> --addr <ip_address>
+darkhttpd {{path/to/docroot}} --addr {{ip_address}}

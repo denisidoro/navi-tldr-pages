@@ -4,19 +4,19 @@
 % plantuml, common
 
 # Render diagrams to default format (PNG)
-plantuml <diagram1_puml> <diagram2_puml>
+plantuml {{diagram1.puml}} {{diagram2.puml}}
 
 # Render a diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`)
-plantuml -t <format> <diagram_puml>
+plantuml -t {{format}} {{diagram.puml}}
 
 # Render all diagrams of a directory
-plantuml <path_to_diagrams>
+plantuml {{path/to/diagrams}}
 
 # Render a diagram to the output directory
-plantuml -o <path_to_output> <diagram_puml>
+plantuml -o {{path/to/output}} {{diagram.puml}}
 
 # Render a diagram with the configuration file
-plantuml -config <config_cfg> <diagram_puml>
+plantuml -config {{config.cfg}} {{diagram.puml}}
 
 # Display help
 plantuml -help

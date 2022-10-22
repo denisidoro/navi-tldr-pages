@@ -7,7 +7,7 @@
 mandb
 
 # Update a single entry
-mandb --filename <path_to_file>
+mandb --filename {{path/to/file}}
 
 # Create entries from scratch instead of updating
 mandb --create

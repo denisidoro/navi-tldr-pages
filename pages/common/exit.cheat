@@ -7,4 +7,4 @@
 exit
 
 # Exit the shell with the specified exit code
-exit <exit_code>
+exit {{exit_code}}

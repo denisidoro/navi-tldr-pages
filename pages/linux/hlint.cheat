@@ -4,16 +4,16 @@
 % hlint, linux
 
 # Display suggestions for a given file
-hlint <path_to_file> options
+hlint {{path/to/file}} options
 
 # Check all Haskell files and generate a report
-hlint <path_to_directory> --report
+hlint {{path/to/directory}} --report
 
 # Automatically apply most suggestions
-hlint <path_to_file> --refactor
+hlint {{path/to/file}} --refactor
 
 # Display additional options
-hlint <path_to_file> --refactor-options
+hlint {{path/to/file}} --refactor-options
 
 # Generate a settings file ignoring all outstanding hints
-hlint <path_to_file> --default > <_hlint_yaml>
+hlint {{path/to/file}} --default > {{.hlint.yaml}}

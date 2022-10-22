@@ -3,14 +3,14 @@
 
 % tslint, common
 
-# Create tslint config
+# Create TSLint config
 tslint --init
 
 # Lint on a given set of files
-tslint <filename>.js <filename1>.js
+tslint {{filename}}.js {{filename1}}.js
 
 # Fix lint issues
 tslint --fix
 
 # Lint with the config file in the project root
-tslint --project <path_to_project_root>
+tslint --project {{path/to/project_root}}

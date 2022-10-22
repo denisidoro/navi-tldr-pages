@@ -4,7 +4,7 @@
 % trash-cli, common
 
 # Trash files and directories
-trash-put <filename>
+trash-put {{filename}}
 
 # Empty the trashcan
 trash-empty
@@ -16,4 +16,4 @@ trash-list
 trash-restore
 
 # Remove individual files from the trashcan
-trash-rm <filename>
+trash-rm {{filename}}

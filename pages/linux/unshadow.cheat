@@ -3,8 +3,8 @@
 
 % unshadow, linux
 
-# Combine the /etc/shadow and /etc/passwd of the current system
+# Combine the `/etc/shadow` and `/etc/passwd` of the current system
 sudo unshadow /etc/passwd /etc/shadow
 
 # Combine two arbitrary shadow and password files
-sudo unshadow <_path_to_passwd> <_path_to_shadow>
+sudo unshadow {{path/to/passwd}} {{path/to/shadow}}

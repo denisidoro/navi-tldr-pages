@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-show-unmerged-branches.md
+
+% git-show-unmerged-branches, common
+
+# Print all branches which are not merged into the current HEAD
+git show-unmerged-branches

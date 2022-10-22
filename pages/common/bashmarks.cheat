@@ -7,13 +7,13 @@
 l
 
 # Save the current directory as "bookmark_name"
-s <bookmark_name>
+s {{bookmark_name}}
 
 # Go to a bookmarked directory
-g <bookmark_name>
+g {{bookmark_name}}
 
 # Print a bookmarked directory's contents
-p <bookmark_name>
+p {{bookmark_name}}
 
 # Delete a bookmark
-d <bookmark_name>
+d {{bookmark_name}}

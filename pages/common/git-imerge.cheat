@@ -4,10 +4,10 @@
 % git-imerge, common
 
 # Start imerge-based rebase (checkout the branch to be rebased, first)
-git imerge rebase <branch_to_rebase_onto>
+git imerge rebase {{branch_to_rebase_onto}}
 
 # Start imerge-based merge (checkout the branch to merge into, first)
-git imerge merge <branch_to_be_merged>
+git imerge merge {{branch_to_be_merged}}
 
 # Show ASCII diagram of in-progress merge or rebase
 git imerge diagram
@@ -19,4 +19,4 @@ git imerge continue --no-edit
 git imerge finish
 
 # Abort imerge operation, and return to the previous branch
-git-imerge remove && git checkout <previous_branch>
+git-imerge remove && git checkout {{previous_branch}}

@@ -4,13 +4,13 @@
 % chflags, osx
 
 # Set the `hidden` flag for a file
-chflags <hidden> <path_to_file>
+chflags {{hidden}} {{path/to/file}}
 
 # Unset the `hidden` flag for a file
-chflags <nohidden> <path_to_file>
+chflags {{nohidden}} {{path/to/file}}
 
 # Recursively set the `uchg` flag for a directory
-chflags -R <uchg> <path_to_directory>
+chflags -R {{uchg}} {{path/to/directory}}
 
 # Recursively unset the `uchg` flag for a directory
-chflags -R <nouchg> <path_to_directory>
+chflags -R {{nouchg}} {{path/to/directory}}

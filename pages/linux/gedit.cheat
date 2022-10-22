@@ -4,13 +4,13 @@
 % gedit, linux
 
 # Open a text file
-gedit <path_to_file>
+gedit {{path/to/file}}
 
 # Open multiple text files
 gedit {{file1 file2 ...}}
 
 # Open a text file with a specific encoding
-gedit --encoding=<UTF_8> <path_to_file>
+gedit --encoding={{UTF-8}} {{path/to/file}}
 
 # Display a list of supported encodings
 gedit --list-encodings

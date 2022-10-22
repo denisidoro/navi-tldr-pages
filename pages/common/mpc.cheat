@@ -19,4 +19,4 @@ mpc next
 mpc prev
 
 # Forward or rewind the currently playing song
-mpc [+-]<seconds>
+mpc [+-]{{seconds}}

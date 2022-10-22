@@ -6,7 +6,7 @@
 # List files and directories in the current directory, one per line, with details
 vdir
 
-# List with sizes displayed in human readable units (KB, MB, GB)
+# List with sizes displayed in human-readable units (KB, MB, GB)
 vdir -h
 
 # List including hidden files (starting with a dot)
@@ -22,4 +22,4 @@ vdir -t
 vdir --group-directories-first
 
 # Recursively list all files and directories in a specific directory
-vdir --recursive <path_to_directory>
+vdir --recursive {{path/to/directory}}

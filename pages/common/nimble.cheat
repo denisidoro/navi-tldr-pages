@@ -4,10 +4,10 @@
 % nimble, common
 
 # Search for packages
-nimble search <search_string>
+nimble search {{search_string}}
 
 # Install a package
-nimble install <package_name>
+nimble install {{package_name}}
 
 # List installed packages
 nimble list -i

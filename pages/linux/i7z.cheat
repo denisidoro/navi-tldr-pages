@@ -3,5 +3,5 @@
 
 % i7z, linux
 
-# Start i7z (needs to be run in super user mode)
+# Start i7z (needs to be run in superuser mode)
 sudo i7z

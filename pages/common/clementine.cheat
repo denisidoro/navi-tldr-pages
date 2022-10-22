@@ -7,7 +7,7 @@
 clementine
 
 # Start playing a music file
-clementine <url_or_path_to_file_ext>
+clementine {{url/or/path/to/file.ext}}
 
 # Toggle between pausing and playing
 clementine --play-pause
@@ -22,7 +22,7 @@ clementine --next
 clementine --previous
 
 # Load a playlist file
-clementine --load <path_to_playlist_ext>
+clementine --load {{path/to/playlist.ext}}
 
 # Play the 5th track in the currently loaded playlist
-clementine --play-track <5>
+clementine --play-track {{5}}

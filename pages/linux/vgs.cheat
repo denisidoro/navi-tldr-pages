@@ -13,10 +13,10 @@ vgs -a
 vgs -v
 
 # Display only specific fields
-vgs -o <field_name_1>,<field_name_2>
+vgs -o {{field_name_1}},{{field_name_2}}
 
 # Append field to default display
-vgs -o +<field_name>
+vgs -o +{{field_name}}
 
 # Suppress heading line
 vgs --noheadings

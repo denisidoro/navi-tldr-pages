@@ -10,7 +10,7 @@ rails routes
 rails routes --expanded
 
 # List routes partially matching URL helper method name, HTTP verb, or URL path
-rails routes -g <posts_path_GET__posts>
+rails routes -g {{posts_path|GET|/posts}}
 
 # List routes that map to a specified controller
-rails routes -c <posts_Posts_Blogs__PostsController>
+rails routes -c {{posts|Posts|Blogs::PostsController}}

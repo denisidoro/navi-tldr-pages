@@ -3,5 +3,14 @@
 
 % chsh, common
 
-# Change shell
-chsh -s <path_to_shell_binary> <username>
+# Change the current user's login shell interactively
+chsh
+
+# Change the login shell of the current user
+chsh -s {{path/to/shell}}
+
+# Change the login shell for a given user
+chsh -s {{path/to/shell}} {{username}}
+
+# List available shells
+chsh --list-shells

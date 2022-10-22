@@ -7,13 +7,13 @@
 swapon -s
 
 # Enable a given swap partition
-swapon <_dev_sdb7>
+swapon {{/dev/sdb7}}
 
 # Enable a given swap file
-swapon <path_to_file>
+swapon {{path/to/file}}
 
 # Enable all swap areas
 swapon -a
 
 # Enable swap by label of a device or file
-swapon -L <swap1>
+swapon -L {{swap1}}

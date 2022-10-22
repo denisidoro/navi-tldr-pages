@@ -10,10 +10,10 @@ ipconfig
 ipconfig /all
 
 # Renew the IP addresses for a network adapter
-ipconfig /renew <adapter>
+ipconfig /renew {{adapter}}
 
 # Free up the IP addresses for a network adapter
-ipconfig /release <adapter>
+ipconfig /release {{adapter}}
 
 # Remove all data from the DNS cache
 ipconfig /flushdns

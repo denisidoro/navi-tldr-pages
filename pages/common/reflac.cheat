@@ -4,16 +4,16 @@
 % reflac, common
 
 # Recompress a directory of FLAC files
-reflac <path_to_directory>
+reflac {{path/to/directory}}
 
 # Enable maximum compression (very slow)
-reflac --best <path_to_directory>
+reflac --best {{path/to/directory}}
 
 # Display filenames as they are processed
-reflac --verbose <path_to_directory>
+reflac --verbose {{path/to/directory}}
 
 # Recurse into subdirectories
-reflac --recursive <path_to_directory>
+reflac --recursive {{path/to/directory}}
 
-# Perserve file modification times
-reflac --preserve <path_to_directory>
+# Preserve file modification times
+reflac --preserve {{path/to/directory}}

@@ -16,7 +16,7 @@ sudo timeshift --create
 sudo timeshift --restore
 
 # Restore a specific snapshot
-sudo timeshift --restore --snapshot '<snapshot>'
+sudo timeshift --restore --snapshot '{{snapshot}}'
 
 # Delete a specific snapshot
-sudo timeshift --delete --snapshot '<snapshot>'
+sudo timeshift --delete --snapshot '{{snapshot}}'

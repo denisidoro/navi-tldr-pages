@@ -7,7 +7,7 @@
 sudo ldconfig
 
 # Update the symlinks for a given directory
-sudo ldconfig -n <path_to_directory>
+sudo ldconfig -n {{path/to/directory}}
 
 # Print the libraries in the cache and check whether a given library is present
-ldconfig -p | grep <library_name>
+ldconfig -p | grep {{library_name}}

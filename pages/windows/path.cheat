@@ -7,10 +7,10 @@
 path
 
 # Set the path to one or more semicolon-separated directories
-path <path_to_directory_s_>
+path {{path/to/directory(s)}}
 
 # Append a new directory to the original path
-path <path_to_directory>;%path%
+path {{path/to/directory}};%path%
 
 # Set command prompt to only search the current directory for executables
 path ;

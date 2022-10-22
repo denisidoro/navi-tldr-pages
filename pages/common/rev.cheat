@@ -6,5 +6,5 @@
 # Reverse the text string "hello"
 echo "hello" | rev
 
-# Reverse an entire file and print to `stdout`
-rev <file>
+# Reverse an entire file and print to stdout
+rev {{file}}

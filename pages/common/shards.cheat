@@ -3,10 +3,10 @@
 
 % shards, common
 
-# Create a skeleton shard.yml file
+# Create a skeleton `shard.yml` file
 shards init
 
-# Install dependencies from a shard.yml file
+# Install dependencies from a `shard.yml` file
 shards install
 
 # Update all dependencies
@@ -16,4 +16,4 @@ shards update
 shards list
 
 # List version of dependency
-shards version <path_to_dependency_directory>
+shards version {{path/to/dependency_directory}}

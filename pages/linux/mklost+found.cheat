@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mklost+found.md
+
+% mklost+found, linux
+
+# Create a `lost+found` directory in the current directory
+mklost+found

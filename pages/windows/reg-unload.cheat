@@ -4,4 +4,4 @@
 % reg-unload, windows
 
 # Remove data from the registry for a specified key
-reg unload <key_name>
+reg unload {{key_name}}

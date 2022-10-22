@@ -4,7 +4,7 @@
 % spike, common
 
 # Create a new project using the default template
-spike new <project_name>
+spike new {{project_name}}
 
 # Compile your project, watch for changes, and auto-reload the browser
 spike watch

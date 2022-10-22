@@ -7,7 +7,7 @@
 hr
 
 # Print a horizontal rule with a custom string
-hr <string>
+hr {{string}}
 
 # Print a multiline horizontal rule
-hr <string_a> <string_b> <string_c>
+hr {{string_a}} {{string_b}} {{string_c}}

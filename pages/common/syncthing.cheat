@@ -3,23 +3,26 @@
 
 % syncthing, common
 
-# Start syncthing
+# Start Syncthing
 syncthing
+
+# Start Syncthing without opening a web browser
+syncthing -no-browser
 
 # Print the device ID
 syncthing -device-id
 
 # Change the home directory
-syncthing -home=<path_to_directory>
+syncthing -home={{path/to/directory}}
 
 # Force a full index exchange
 syncthing -reset-deltas
 
 # Change the address upon which the web interface listens
-syncthing -gui-address=<ip_address_port_path_to_socket_sock>
+syncthing -gui-address={{ip_address:port|path/to/socket.sock}}
 
-# Show filepaths to the files used by syncthing
+# Show filepaths to the files used by Syncthing
 syncthing -paths
 
-# Disable the syncthing monitor process
+# Disable the Syncthing monitor process
 syncthing -no-restart

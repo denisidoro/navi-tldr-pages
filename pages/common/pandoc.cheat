@@ -3,14 +3,14 @@
 
 % pandoc, common
 
-# Convert file to pdf (the output format is determined by file extension)
-pandoc <input_md> -o <output_pdf>
+# Convert file to PDF (the output format is determined by file extension)
+pandoc {{input.md}} -o {{output.pdf}}
 
 # Force conversion to use a specific format
-pandoc <input_docx> --to <gfm> -o <output_md>
+pandoc {{input.docx}} --to {{gfm}} -o {{output.md}}
 
 # Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.)
-pandoc <input_md> -s -o <output_tex>
+pandoc {{input.md}} -s -o {{output.tex}}
 
 # List all supported input formats
 pandoc --list-input-formats

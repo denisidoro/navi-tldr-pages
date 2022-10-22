@@ -7,10 +7,10 @@
 kubectx
 
 # Switch to a named context
-kubectx <name>
+kubectx {{name}}
 
 # Switch to the previous context
 kubectx -
 
 # Delete a named context
-kubectx -d <name>
+kubectx -d {{name}}

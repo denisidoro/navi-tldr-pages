@@ -7,13 +7,13 @@
 echo 123 | xsel -ib
 
 # Use the contents of a file as input of the clipboard
-cat <file> | xsel -ib
+cat {{file}} | xsel -ib
 
 # Output the clipboard's contents into the terminal (equivalent to `Ctrl + V`)
 xsel -ob
 
 # Output the clipboard's contents into a file
-xsel -ob > <file>
+xsel -ob > {{file}}
 
 # Clear the clipboard
 xsel -cb

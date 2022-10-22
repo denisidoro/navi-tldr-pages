@@ -12,11 +12,11 @@ jhipster --skip-server
 # Generate a simple backend project
 jhipster --skip-client
 
-# Apply lastest JHipster updates to the project
+# Apply latest JHipster updates to the project
 jhipster upgrade
 
 # Add a new entity to a generated project
-jhipster entity <entity_name>
+jhipster entity {{entity_name}}
 
 # Import a JDL file to configure your application (see: https://start.jhipster.tech/jdl-studio/)
 jhipster import-jdl {{first_file.jh second_file.jh ... n_file.jh}}

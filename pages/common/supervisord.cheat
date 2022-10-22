@@ -4,7 +4,7 @@
 % supervisord, common
 
 # Start supervisord with specified configuration file
-supervisord -c <path_to_file>
+supervisord -c {{path/to/file}}
 
 # Run supervisord in the foreground
 supervisord -n

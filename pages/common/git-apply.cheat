@@ -4,19 +4,19 @@
 % git-apply, common
 
 # Print messages about the patched files
-git apply --verbose <path_to_file>
+git apply --verbose {{path/to/file}}
 
 # Apply and add the patched files to the index
-git apply --index <path_to_file>
+git apply --index {{path/to/file}}
 
 # Apply a remote patch file
-curl <https___example_com_file_patch> | git apply
+curl {{https://example.com/file.patch}} | git apply
 
 # Output diffstat for the input and apply the patch
-git apply --stat --apply <path_to_file>
+git apply --stat --apply {{path/to/file}}
 
 # Apply the patch in reverse
-git apply --reverse <path_to_file>
+git apply --reverse {{path/to/file}}
 
 # Store the patch result in the index without modifying the working tree
-git apply --cache <path_to_file>
+git apply --cache {{path/to/file}}

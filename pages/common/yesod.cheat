@@ -3,8 +3,8 @@
 
 % yesod, common
 
-# Create a new scaffolded site, with sqlite as backend, in the "my-project" directory
-stack new <my_project> <yesod_sqlite>
+# Create a new scaffolded site, with SQLite as backend, in the `my-project` directory
+stack new {{my-project}} {{yesod-sqlite}}
 
 # Install the Yesod CLI tool within a Yesod scaffolded site
 stack build yesod-bin cabal-install --install-ghc

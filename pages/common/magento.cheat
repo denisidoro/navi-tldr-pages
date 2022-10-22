@@ -4,10 +4,10 @@
 % magento, common
 
 # Enable one or more space-separated modules
-magento module:enable <module_s_>
+magento module:enable {{module(s)}}
 
 # Disable one or more space-separated modules
-magento module:disable <module_s_>
+magento module:disable {{module(s)}}
 
 # Update the database after enabling modules
 magento setup:upgrade

@@ -4,13 +4,13 @@
 % autorandr, linux
 
 # Save the current screen layout
-autorandr -s <profile_name>
+autorandr -s {{profile_name}}
 
 # Show the saved profiles
 autorandr
 
 # Change the profile
-autorandr -l <profile_name>
+autorandr -l {{profile_name}}
 
 # Set the default profile
-autorandr -d <profile_name>
+autorandr -d {{profile_name}}

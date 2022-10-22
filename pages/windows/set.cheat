@@ -7,10 +7,10 @@
 set
 
 # Set an environment variable to a specific value
-set <name>=<value>
+set {{name}}={{value}}
 
 # List environment variables starting with the specified string
-set <name>
+set {{name}}
 
 # Prompt the user for a value for the specified variable
-set /p <name>=<prompt_string>
+set /p {{name}}={{prompt_string}}

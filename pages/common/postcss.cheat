@@ -4,25 +4,25 @@
 % postcss, common
 
 # Parse and transform a CSS file
-postcss <path_to_file>
+postcss {{path/to/file}}
 
 # Parse and transform a CSS file and output to a specific file
-postcss <path_to_file> --output <path_to_file>
+postcss {{path/to/file}} --output {{path/to/file}}
 
 # Parse and transform a CSS file and output to a specific directory
-postcss <path_to_file> --dir <path_to_directory>
+postcss {{path/to/file}} --dir {{path/to/directory}}
 
 # Parse and transform a CSS file in-place
-postcss <path_to_file> --replace
+postcss {{path/to/file}} --replace
 
 # Specify a custom PostCSS parser
-postcss <path_to_file> --parser <parser>
+postcss {{path/to/file}} --parser {{parser}}
 
 # Specify a custom PostCSS syntax
-postcss <path_to_file> --syntax <syntax>
+postcss {{path/to/file}} --syntax {{syntax}}
 
 # Watch for changes to a CSS file
-postcss <path_to_file> --watch
+postcss {{path/to/file}} --watch
 
 # Display available options and examples
 postcss --help

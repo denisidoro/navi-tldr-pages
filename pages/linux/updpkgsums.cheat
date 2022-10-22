@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/updpkgsums.md
+
+% updpkgsums, linux
+
+# Update the checksums in a `PKGBUILD`
+updpkgsums
+
+# Display Version
+updpkgsums -v
+
+# Display help
+updpkgsums -h

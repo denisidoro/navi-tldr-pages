@@ -4,10 +4,10 @@
 % expect, linux
 
 # Execute an expect script from a file
-expect <path_to_file>
+expect {{path/to/file}}
 
 # Execute a specified expect script
-expect -c "<commands>"
+expect -c "{{commands}}"
 
 # Enter an interactive REPL (use `exit` or Ctrl + D to exit)
 expect -i

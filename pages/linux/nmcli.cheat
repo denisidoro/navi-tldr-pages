@@ -3,14 +3,14 @@
 
 % nmcli, linux
 
-# Check the nmcli version
+# Run an `nmcli` subcommand
+nmcli {{agent|connection|device|general|help|monitor|networking|radio}} {{command_options}}
+
+# Display the current version of NetworkManager
 nmcli --version
 
-# Call general help
+# Display help
 nmcli --help
 
-# Call help on a command
-nmcli <command> --help
-
-# Execute an `nmcli` command
-nmcli <command>
+# Display help for a subcommand
+nmcli {{subcommand}} --help

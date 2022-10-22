@@ -7,7 +7,7 @@
 picard
 
 # Open a set of files
-picard <path_to_file1_mp3> <path_to_file2_mp3>
+picard {{path/to/file1.mp3}} {{path/to/file2.mp3}}
 
 # Display the version of Picard installed
 picard --long-version

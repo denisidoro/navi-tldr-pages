@@ -7,7 +7,7 @@
 thunderbird
 
 # Use a specific user profile
-thunderbird -P <profile_name>
+thunderbird -P {{profile_name}}
 
 # Use a specific user profile directory
-thunderbird --profile <path_to_profile_directory>
+thunderbird --profile {{path/to/profile/directory}}

@@ -4,7 +4,7 @@
 % qr, common
 
 # Generate a QR code
-echo "<data>" | qr
+echo "{{data}}" | qr
 
 # Specify the error correction level (defaults to M)
-echo "<data>" | qr --error-correction=<L_M_Q_H>
+echo "{{data}}" | qr --error-correction={{L|M|Q|H}}

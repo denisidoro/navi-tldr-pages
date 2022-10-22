@@ -10,7 +10,7 @@ bmon -a
 bmon -b
 
 # Set policy to define which network interface(s) is/are displayed
-bmon -p <interface_1_interface_2_interface_3>
+bmon -p {{interface_1,interface_2,interface_3}}
 
 # Set interval (in seconds) in which rate per counter is calculated
-bmon -R <2_0>
+bmon -R {{2.0}}

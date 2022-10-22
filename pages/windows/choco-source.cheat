@@ -7,19 +7,19 @@
 choco source list
 
 # Add a new package source
-choco source add --name <name> --source <url>
+choco source add --name {{name}} --source {{url}}
 
 # Add a new package source with credentials
-choco source add --name <name> --source <url> --user <username> --password <password>
+choco source add --name {{name}} --source {{url}} --user {{username}} --password {{password}}
 
 # Add a new package source with a client certificate
-choco source add --name <name> --source <url> --cert <path_to_certificate>
+choco source add --name {{name}} --source {{url}} --cert {{path/to/certificate}}
 
 # Enable a package source
-choco source enable --name <name>
+choco source enable --name {{name}}
 
 # Disable a package source
-choco source disable --name <name>
+choco source disable --name {{name}}
 
 # Remove a package source
-choco source remove --name <name>
+choco source remove --name {{name}}

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-delete-merged-branches.md
+
+% git-delete-merged-branches, common
+
+# Delete merged branches
+git delete-merged-branches

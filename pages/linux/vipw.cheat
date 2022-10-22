@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vipw.md
+
+% vipw, linux
+
+# Edit the password file
+vipw
+
+# Display the current version of `vipw`
+vipw --version

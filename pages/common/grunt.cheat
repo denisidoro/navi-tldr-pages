@@ -7,16 +7,16 @@
 grunt
 
 # Run one or more specific space-separated task(s)
-grunt <task_name>
+grunt {{task_name}}
 
 # Specify an alternative configuration file
-grunt --gruntfile <path_to_file>
+grunt --gruntfile {{path/to/file}}
 
 # Specify an alternative base path for relative files
-grunt --base <path_to_directory>
+grunt --base {{path/to/directory}}
 
 # Specify an additional directory to scan for tasks in
-grunt --tasks <path_to_directory>
+grunt --tasks {{path/to/directory}}
 
 # Perform a dry-run without writing any files
 grunt --no-write

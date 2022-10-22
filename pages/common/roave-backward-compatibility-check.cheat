@@ -7,10 +7,10 @@
 roave-backward-compatibility-check
 
 # Check for breaking changes since a specific tag
-roave-backward-compatibility-check --from=<git_reference>
+roave-backward-compatibility-check --from={{git_reference}}
 
 # Check for breaking changes between the last tag and a specific reference
-roave-backward-compatibility-check --to=<git_reference>
+roave-backward-compatibility-check --to={{git_reference}}
 
-# Check for breaking changes and output to markdown
-roave-backward-compatibility-check --format=markdown > <results_md>
+# Check for breaking changes and output to Markdown
+roave-backward-compatibility-check --format=markdown > {{results.md}}

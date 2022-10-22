@@ -4,10 +4,13 @@
 % gunzip, common
 
 # Extract a file from an archive, replacing the original file if it exists
-gunzip <archive_tar_gz>
+gunzip {{archive.tar.gz}}
 
 # Extract a file to a target destination
-gunzip -c <archive_tar_gz> > <archive_tar>
+gunzip --stdout {{archive.tar.gz}} > {{archive.tar}}
+
+# Extract a file and keep the archive file
+gunzip --keep {{archive.tar.gz}}
 
 # List the contents of a compressed file
-gunzip -l <file_txt_gz>
+gunzip --list {{file.txt.gz}}

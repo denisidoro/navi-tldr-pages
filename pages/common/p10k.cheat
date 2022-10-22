@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/p10k.md
+
+% p10k, common
+
+# Configure powerlevel10k interactively
+p10k configure
+
+# Reload powerlevel10k
+p10k reload
+
+# Display help
+p10k help

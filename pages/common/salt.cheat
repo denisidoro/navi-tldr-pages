@@ -13,4 +13,4 @@ salt '*' state.highstate
 salt '*.example.com' pkg.upgrade
 
 # Execute an arbitrary command on a particular minion
-salt '<minion_id>' cmd.run "ls "
+salt '{{minion_id}}' cmd.run "ls "

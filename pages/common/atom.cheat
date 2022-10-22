@@ -4,13 +4,13 @@
 % atom, common
 
 # Open a file or directory
-atom <path_to_file_or_directory>
+atom {{path/to/file_or_directory}}
 
 # Open a file or directory in a new window
-atom -n <path_to_file_or_directory>
+atom -n {{path/to/file_or_directory}}
 
 # Open a file or directory in an existing window
-atom --add <path_to_file_or_directory>
+atom --add {{path/to/file_or_directory}}
 
 # Open Atom in safe mode (does not load any additional packages)
 atom --safe
@@ -18,5 +18,5 @@ atom --safe
 # Prevent Atom from forking into the background, keeping Atom attached to the terminal
 atom --foreground
 
-# Wait for Atom window to close before returning (useful for git commit editor)
+# Wait for Atom window to close before returning (useful for Git commit editor)
 atom --wait

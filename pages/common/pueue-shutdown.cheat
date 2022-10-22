@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pueue-shutdown.md
+
+% pueue-shutdown, common
+
+# Shutdown the daemon without a service manager
+pueue shutdown

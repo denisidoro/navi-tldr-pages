@@ -10,4 +10,4 @@ sudo lynis update info
 sudo lynis audit system
 
 # Run a security audit of a Dockerfile
-sudo lynis audit dockerfile <path_to_dockerfile>
+sudo lynis audit dockerfile {{path/to/dockerfile}}

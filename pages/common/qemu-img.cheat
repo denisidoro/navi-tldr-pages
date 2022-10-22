@@ -4,16 +4,16 @@
 % qemu-img, common
 
 # Create disk image with a specific size (in gigabytes)
-qemu-img create <image_name_img> <gigabytes>G
+qemu-img create {{image_name.img}} {{gigabytes}}G
 
 # Show information about a disk image
-qemu-img info <image_name_img>
+qemu-img info {{image_name.img}}
 
 # Increase or decrease image size
-qemu-img resize <image_name_img> <gigabytes>G
+qemu-img resize {{image_name.img}} {{gigabytes}}G
 
 # Dump the allocation state of every sector of the specified disk image
-qemu-img map <image_name_img>
+qemu-img map {{image_name.img}}
 
-# Convert a VMWare .vmdk disk image to a KVM .qcow2 disk image
-qemu-img convert -O qcow2 <_path_to_file_foo_vmdk> <_path_to_file_foo_qcow2>
+# Convert a VMware .vmdk disk image to a KVM .qcow2 disk image
+qemu-img convert -f {{vmdk}} -O {{qcow2}} {{path/to/file/foo.vmdk}} {{path/to/file/foo.qcow2}}

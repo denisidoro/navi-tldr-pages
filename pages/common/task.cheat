@@ -3,17 +3,26 @@
 
 % task, common
 
-# Add new task
-task add <thing_to_do>
+# Add a new task which is due tomorrow
+task add {{description}} due:{{tomorrow}}
 
-# List tasks
+# Update a task's priority
+task {{task_id}} modify priority:{{H|M|L}}
+
+# Complete a task
+task {{task_id}} done
+
+# Delete a task
+task {{task_id}} delete
+
+# List all open tasks
 task list
 
-# Mark task as completed
-task <task_id> done
+# List open tasks due before the end of the week
+task list due.before:{{eow}}
 
-# Modify task
-task <task_id> modify <new_thing_to_do>
+# Show a graphical burndown chart, by day
+task burndown.daily
 
-# Delete task
-task <task_id> delete
+# List all reports
+task reports

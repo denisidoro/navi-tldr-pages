@@ -7,7 +7,7 @@
 lsattr
 
 # List the attributes of files in a particular path
-lsattr <path>
+lsattr {{path}}
 
 # List file attributes recursively in the current and subsequent directories
 lsattr -R

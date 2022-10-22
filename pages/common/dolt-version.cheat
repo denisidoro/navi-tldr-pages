@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dolt-version.md
+
+% dolt-version, common
+
+# Display version
+dolt version

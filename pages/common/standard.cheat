@@ -7,19 +7,19 @@
 standard
 
 # Lint specific JavaScript file(s)
-standard <path_to_file_s_>
+standard {{path/to/file(s)}}
 
 # Apply automatic fixes during linting
 standard --fix
 
 # Declare any available global variables
-standard --global <variable>
+standard --global {{variable}}
 
 # Use a custom ESLint plugin when linting
-standard --plugin <plugin>
+standard --plugin {{plugin}}
 
 # Use a custom JS parser when linting
-standard --parser <parser>
+standard --parser {{parser}}
 
 # Use a custom ESLint environment when linting
-standard --env <environment>
+standard --env {{environment}}

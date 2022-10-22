@@ -4,16 +4,16 @@
 % mas, osx
 
 # Sign into the Mac App Store for the first time
-mas signin <user_example_com>
+mas signin "{{user@example.com}}"
 
 # Show all installed applications and their product identifiers
 mas list
 
 # Search for an application, displaying the price alongside the results
-mas search <application> --price
+mas search "{{application}}" --price
 
 # Install or update an application
-mas install <product_identifier>
+mas install {{product_identifier}}
 
 # Install all pending updates
 mas upgrade

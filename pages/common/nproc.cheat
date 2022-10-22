@@ -10,4 +10,4 @@ nproc
 nproc --all
 
 # If possible, subtract a given number of units from the returned value
-nproc --ignore <count>
+nproc --ignore {{count}}

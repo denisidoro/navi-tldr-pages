@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/snake4scores.md
+
+% snake4scores, linux
+
+# Show the highscores
+snake4scores

@@ -3,11 +3,11 @@
 
 % fsck, linux
 
-# Check filesystem /dev/sda, reporting any damaged blocks
-fsck <_dev_sda>
+# Check filesystem `/dev/sdXN`, reporting any damaged blocks
+sudo fsck {{/dev/sdXN}}
 
-# Check filesystem /dev/sda, reporting any damaged blocks and interactively letting the user choose to repair each one
-fsck -r <_dev_sda>
+# Check filesystem `/dev/sdXN`, reporting any damaged blocks and interactively letting the user choose to repair each one
+sudo fsck -r {{/dev/sdXN}}
 
-# Check filesystem /dev/sda, reporting any damaged blocks and automatically repairing them
-fsck -a <_dev_sda>
+# Check filesystem `/dev/sdXN`, reporting any damaged blocks and automatically repairing them
+sudo fsck -a {{/dev/sdXN}}

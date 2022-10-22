@@ -7,13 +7,13 @@
 fdroidcl update
 
 # Display info about an app
-fdroidcl show <app_id>
+fdroidcl show {{app_id}}
 
 # Download an APK file
-fdroidcl download <app_id>
+fdroidcl download {{app_id}}
 
 # Search for an app in the index
-fdroidcl search <search_pattern>
+fdroidcl search {{search_pattern}}
 
 # Install an app on a connected device
-fdroidcl install <app_id>
+fdroidcl install {{app_id}}

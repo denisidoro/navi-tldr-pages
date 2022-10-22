@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jetifier.md
+
+% jetifier, common
+
+# Migrate project dependencies to the AndroidX format
+jetifier
+
+# Migrate project dependencies from the AndroidX format
+jetifier reverse

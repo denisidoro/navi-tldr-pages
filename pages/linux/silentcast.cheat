@@ -7,4 +7,4 @@
 silentcast
 
 # Launch silentcast on a specific display
-silentcast --display=<display>
+silentcast --display={{display}}

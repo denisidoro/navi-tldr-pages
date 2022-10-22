@@ -9,11 +9,11 @@ cal
 # Display previous, current and next month
 cal -3
 
-# Use monday as the first day of the week
+# Use Monday as the first day of the week
 cal --monday
 
 # Display a calendar for a specific year (4 digits)
-cal <year>
+cal {{year}}
 
 # Display a calendar for a specific month and year
-cal <month> <year>
+cal {{month}} {{year}}

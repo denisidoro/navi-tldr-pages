@@ -3,14 +3,14 @@
 
 % lastcomm, linux
 
-# Print informations about all of the commands in the acct (record file)
+# Print information about all the commands in the acct (record file)
 lastcomm
 
 # Display commands executed by a given user
-lastcomm --user <user>
+lastcomm --user {{user}}
 
 # Display information about a given command executed on the system
-lastcomm --command <command>
+lastcomm --command {{command}}
 
 # Display information about commands executed on a given terminal
-lastcomm --tty <terminal_name>
+lastcomm --tty {{terminal_name}}

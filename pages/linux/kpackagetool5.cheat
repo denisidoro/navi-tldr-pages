@@ -7,13 +7,13 @@
 kpackagetool5 --list-types
 
 # Install the package from a directory
-kpackagetool5 --type <package_type> --install <path_to_directory>
+kpackagetool5 --type {{package_type}} --install {{path/to/directory}}
 
 # Update installed package from a directory
-kpackagetool5 --type <package_type> --upgrade <path_to_directory>
+kpackagetool5 --type {{package_type}} --upgrade {{path/to/directory}}
 
 # List installed plasmoids (--global for all users)
 kpackagetool5 --type Plasma/Applet --list --global
 
 # Remove a plasmoid by name
-kpackagetool5 --type Plasma/Applet --remove "<name>"
+kpackagetool5 --type Plasma/Applet --remove "{{name}}"

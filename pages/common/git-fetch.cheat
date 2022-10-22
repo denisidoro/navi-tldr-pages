@@ -7,7 +7,7 @@
 git fetch
 
 # Fetch new branches from a specific remote upstream repository
-git fetch <remote_name>
+git fetch {{remote_name}}
 
 # Fetch the latest changes from all remote upstream repositories
 git fetch --all

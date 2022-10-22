@@ -4,7 +4,7 @@
 % symfony, common
 
 # Create a new Symfony project
-symfony new <name>
+symfony new {{name}}
 
 # Run a local web server
 symfony serve

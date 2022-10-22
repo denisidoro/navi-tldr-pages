@@ -4,10 +4,10 @@
 % makensis, common
 
 # Compile a NSIS script
-makensis <path_to_file_nsi>
+makensis {{path/to/file.nsi}}
 
 # Compile a NSIS script in strict mode (treat warnings as errors)
-makensis -WX <path_to_file_nsi>
+makensis -WX {{path/to/file.nsi}}
 
 # Print help for a specific command
-makensis -CMDHELP <command>
+makensis -CMDHELP {{command}}

@@ -4,13 +4,13 @@
 % phpstorm, common
 
 # Open a specific directory
-phpstorm <path_to_directory>
+phpstorm {{path/to/directory}}
 
 # Open a file
-phpstorm <path_to_file>
+phpstorm {{path/to/file}}
 
 # Open a file at a specific line
-phpstorm --line <line_number> <path_to_file>
+phpstorm --line {{line_number}} {{path/to/file}}
 
 # View the differences between two files
-phpstorm diff <path_to_left_file> <path_to_right_file>
+phpstorm diff {{path/to/left_file}} {{path/to/right_file}}

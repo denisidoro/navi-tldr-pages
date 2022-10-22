@@ -10,7 +10,7 @@ cargo doc --open
 cargo doc --offline
 
 # View a particular package's documentation
-cargo doc --open --package <package>
+cargo doc --open --package {{package}}
 
 # View a particular package's documentation offline
-cargo doc --open --offline --package <package>
+cargo doc --open --offline --package {{package}}

@@ -4,7 +4,7 @@
 % unix2dos, linux
 
 # Change the line endings of a file
-unix2dos <filename>
+unix2dos {{filename}}
 
 # Create a copy with DOS-style line endings
-unix2dos -n <filename> <new_filename>
+unix2dos -n {{filename}} {{new_filename}}

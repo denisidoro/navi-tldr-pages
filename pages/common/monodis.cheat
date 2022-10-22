@@ -4,22 +4,22 @@
 % monodis, common
 
 # Disassemble an assembly to textual CIL
-monodis <path_to_assembly_exe>
+monodis {{path/to/assembly.exe}}
 
 # Save the output to a file
-monodis --output=<path_to_output_il> <path_to_assembly_exe>
+monodis --output={{path/to/output.il}} {{path/to/assembly.exe}}
 
 # Show information about an assembly
-monodis --assembly <path_to_assembly_dll>
+monodis --assembly {{path/to/assembly.dll}}
 
 # List the references of an assembly
-monodis --assemblyref <path_to_assembly_exe>
+monodis --assemblyref {{path/to/assembly.exe}}
 
 # List all the methods in an assembly
-monodis --method <path_to_assembly_exe>
+monodis --method {{path/to/assembly.exe}}
 
 # Show a list of resources embedded within an assembly
-monodis --manifest <path_to_assembly_dll>
+monodis --manifest {{path/to/assembly.dll}}
 
 # Extract all the embedded resources to the current directory
-monodis --mresources <path_to_assembly_dll>
+monodis --mresources {{path/to/assembly.dll}}

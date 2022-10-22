@@ -7,13 +7,13 @@
 go doc
 
 # Show package documentation and exported symbols
-go doc <encoding_json>
+go doc {{encoding/json}}
 
 # Show also documentation of symbols
-go doc -all <encoding_json>
+go doc -all {{encoding/json}}
 
 # Show also sources
-go doc -all -src <encoding_json>
+go doc -all -src {{encoding/json}}
 
 # Show a specific symbol
-go doc -all -src <encoding_json_Number>
+go doc -all -src {{encoding/json.Number}}

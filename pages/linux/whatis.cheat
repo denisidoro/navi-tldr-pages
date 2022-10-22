@@ -4,10 +4,10 @@
 % whatis, linux
 
 # Display a description from a man page
-whatis <command>
+whatis {{command}}
 
 # Don't cut the description off at the end of the line
-whatis --long <command>
+whatis --long {{command}}
 
 # Display descriptions for all commands matching a glob
 whatis --wildcard {{net*}}

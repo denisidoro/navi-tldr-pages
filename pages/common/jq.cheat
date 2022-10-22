@@ -3,29 +3,23 @@
 
 % jq, common
 
-# Output a JSON file, in pretty-print format
-jq . <file_json>
+# Execute a specific expression (print a colored and formatted json)
+{{cat path/to/file.json}} | jq '{{.}}'
 
-# Output all elements from arrays (or all key-value pairs from objects) in a JSON file
-jq '.[]' <file_json>
+# Execute a specific script
+{{cat path/to/file.json}} | jq --from-file {{path/to/script.jq}}
 
-# Read JSON objects from a file into an array, and output it (inverse of `jq .[]`)
-jq --slurp . <file_json>
+# Pass specific arguments
+{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'
 
-# Output the first element in a JSON file
-jq '.[0]' <file_json>
+# Print specific keys
+{{cat path/to/file.json}} | jq '{{.key1, .key2, ...}}'
 
-# Output the value of a given key of the first element in a JSON text from `stdin`
-cat <file_json> | jq '.[0].<key_name>'
+# Print specific array items
+{{cat path/to/file.json}} | jq '{{.[index1], .[index2], ...}}'
 
-# Output the value of a given key of each element in a JSON text from `stdin`
-cat <file_json> | jq 'map(.<key_name>)'
+# Print all array items/object keys
+{{cat path/to/file.json}} | jq '.[]'
 
-# Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name` and `other_key_name`)
-cat <file_json> | jq '<_my_new_key>: .<key_name>, <my_other_key>: .<other_key_name>}'
-
-# Combine multiple filters
-cat <file_json> | jq 'unique | sort | reverse'
-
-# Output the value of a given key to a string (and disable JSON output)
-cat <file_json> | jq --raw-output '"some text: \(.<key_name>)"'
+# Add/remove specific keys
+{{cat path/to/file.json}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'

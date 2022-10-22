@@ -4,19 +4,19 @@
 % most, common
 
 # Open a file
-most <path_to_file>
+most {{path/to/file}}
 
 # Open several files
-most <path_to_file1> <path_to_file2>
+most {{path/to/file1}} {{path/to/file2}}
 
 # Open a file at the first occurrence of "string"
-most <file> +/<string>
+most {{file}} +/{{string}}
 
 # Move through opened files
 :O n
 
 # Jump to the 100th line
-<100>j
+{{100}}j
 
 # Edit current file
 e

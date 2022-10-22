@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ivpn.md
+
+% ivpn, common
+
+# Print the current state of IVPN, including the connection and firewall status
+ivpn status
+
+# Print a list of available servers to connect to
+ivpn servers

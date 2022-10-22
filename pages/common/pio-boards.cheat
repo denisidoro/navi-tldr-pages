@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pio-boards.md
+
+% pio-boards, common
+
+# List all available boards
+pio boards
+
+# List only boards from installed platforms
+pio boards --installed

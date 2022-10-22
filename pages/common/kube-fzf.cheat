@@ -16,7 +16,7 @@ describepod
 tailpod
 
 # Exec into a pod's container
-execpod <shell_command>
+execpod {{shell_command}}
 
 # Port-forward a pod
-pfpod <port_number>
+pfpod {{port_number}}

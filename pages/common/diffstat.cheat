@@ -4,7 +4,7 @@
 % diffstat, common
 
 # Display changes in a histogram
-diff <file1> <file2> | diffstat
+diff {{file1}} {{file2}} | diffstat
 
 # Display inserted, deleted and modified changes as a table
-diff <file1> <file2> | diffstat -t
+diff {{file1}} {{file2}} | diffstat -t

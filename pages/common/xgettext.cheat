@@ -4,13 +4,13 @@
 % xgettext, common
 
 # Scan file and output strings to `messages.po`
-xgettext <path_to_input_file>
+xgettext {{path/to/input_file}}
 
 # Use a different output filename
-xgettext --output <path_to_output_file> <path_to_input_file>
+xgettext --output {{path/to/output_file}} {{path/to/input_file}}
 
 # Append new strings to an existing file
-xgettext --join-existing --output <path_to_output_file> <path_to_input_file>
+xgettext --join-existing --output {{path/to/output_file}} {{path/to/input_file}}
 
 # Don't add a header containing metadata to the output file
-xgettext --omit-header <path_to_input_file>
+xgettext --omit-header {{path/to/input_file}}

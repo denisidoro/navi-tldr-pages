@@ -4,4 +4,4 @@
 % view, common
 
 # Open a file
-view <file>
+view {{file}}

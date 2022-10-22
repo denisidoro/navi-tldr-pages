@@ -13,10 +13,10 @@ scutil --proxy
 scutil --get ComputerName
 
 # Set computer name
-sudo scutil --set ComputerName <computer_name>
+sudo scutil --set ComputerName {{computer_name}}
 
 # Get hostname
 scutil --get HostName
 
 # Set hostname
-scutil --set HostName <hostname>
+scutil --set HostName {{hostname}}

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/coreaudiod.md
+
+% coreaudiod, osx
+
+# Start the daemon
+coreaudiod

@@ -10,16 +10,19 @@ pipenv
 pipenv --three
 
 # Install a package
-pipenv install <package_name>
+pipenv install {{package_name}}
 
-# Install all the dependencies for a project (including dev)
+# Install all the dependencies for a project
+pipenv install
+
+# Install all the dependencies for a project (including dev packages)
 pipenv install --dev
 
 # Uninstall a package
-pipenv uninstall <package_name>
+pipenv uninstall {{package_name}}
 
 # Start a shell within the created virtual environment
 pipenv shell
 
-# Generate a requirements.txt for a project
+# Generate a `requirements.txt` (list of dependencies) for a project
 pipenv lock --requirements

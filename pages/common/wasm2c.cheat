@@ -4,7 +4,7 @@
 % wasm2c, common
 
 # Convert a file to a C source file and header and display it to the console
-wasm2c <file_wasm>
+wasm2c {{file.wasm}}
 
-# Write the output to a given file (file.h gets additionally generated)
-wasm2c <file_wasm> -o <file_c>
+# Write the output to a given file (`file.h` gets additionally generated)
+wasm2c {{file.wasm}} -o {{file.c}}

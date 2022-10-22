@@ -6,11 +6,11 @@
 # List all currently available disks, partitions and mounted volumes
 diskutil list
 
-# Repair the file system data structures of a volume
-diskutil repairVolume <_dev_diskX>
+# Repair the filesystem data structures of a volume
+diskutil repairVolume {{/dev/diskX}}
 
 # Unmount a volume
-diskutil unmountDisk <_dev_diskX>
+diskutil unmountDisk {{/dev/diskX}}
 
 # Eject a CD/DVD (unmount first)
-diskutil eject <_dev_disk1>
+diskutil eject {{/dev/disk1}}

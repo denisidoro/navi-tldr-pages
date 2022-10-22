@@ -3,20 +3,20 @@
 
 % cordova, common
 
-# Create a cordova project
-cordova create <path> <package_name> <project_name>
+# Create a Cordova project
+cordova create {{path}} {{package_name}} {{project_name}}
 
 # Display the current workspace status
 cordova info
 
-# Add a cordova platform
-cordova platform add <platform>
+# Add a Cordova platform
+cordova platform add {{platform}}
 
-# Remove a cordova platform
-cordova platform remove <platform>
+# Remove a Cordova platform
+cordova platform remove {{platform}}
 
-# Add a cordova plugin
-cordova plugin add <pluginid>
+# Add a Cordova plugin
+cordova plugin add {{pluginid}}
 
-# Remove a cordova plugin
-cordova plugin remove <pluginid>
+# Remove a Cordova plugin
+cordova plugin remove {{pluginid}}

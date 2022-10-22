@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/auvaltool.md
+
+% auvaltool, osx
+
+# List all [a]vailable AudioUnits of any type
+auvaltool -a
+
+# List all [a]vailable AudioUnits of any type with their [l]ocation
+auvaltool -al

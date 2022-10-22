@@ -4,7 +4,7 @@
 % sc-im, common
 
 # Start SC-IM
-scim <filename>.csv
+scim {{filename}}.csv
 
 # Enter a string into the current cell
 < or >

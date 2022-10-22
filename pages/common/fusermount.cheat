@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fusermount.md
+
+% fusermount, common
+
+# Unmount a FUSE filesystem
+fusermount -u {{path/to/mount_point}}
+
+# Unmount a FUSE filesystem as soon as it becomes unused
+fusermount -z {{path/to/mount_point}}
+
+# Display version
+fusermount --version

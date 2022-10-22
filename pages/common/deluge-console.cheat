@@ -7,22 +7,22 @@
 deluge-console
 
 # Connect to a Deluge daemon instance
-connect <hostname>:<port>
+connect {{hostname}}:{{port}}
 
 # Add a torrent to the daemon
-add <url_magnet_path_to_file>
+add {{url|magnet|path/to/file}}
 
 # Display information about all torrents
 info
 
 # Display information about a specific torrent
-info <torrent_id>
+info {{torrent_id}}
 
 # Pause a torrent
-pause <torrent_id>
+pause {{torrent_id}}
 
 # Resume a torrent
-resume <torrent_id>
+resume {{torrent_id}}
 
 # Remove a torrent from the daemon
-rm <torrent_id>
+rm {{torrent_id}}

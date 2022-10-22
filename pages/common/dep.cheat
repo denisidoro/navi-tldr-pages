@@ -3,17 +3,23 @@
 
 % dep, common
 
-# Initialize the current directory as the root of a Go project
+# Interactively initialize deployer in the local path (use a framework template with `--template={{template}}`)
 dep init
 
-# Install any missing dependencies (Scans Gopkg.toml and your .go files)
-dep ensure
+# Deploy an application to a remote host
+dep deploy {{hostname}}
 
-# Report the status of the project's dependencies
-dep status
+# Rollback to the previous working release
+dep rollback
 
-# Add a dependency to the project
-dep ensure -add <package_url>
+# Connect to a remote host via ssh
+dep ssh {{hostname}}
 
-# Update the locked versions of all dependencies
-dep ensure -update
+# List commands
+dep list
+
+# Run any arbitrary command on the remote hosts
+dep run "{{command}}"
+
+# Display help for a command
+dep help {{command}}

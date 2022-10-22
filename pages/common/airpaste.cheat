@@ -3,17 +3,17 @@
 
 % airpaste, common
 
-# Wait for message and display when received
+# Wait for a message and display it when received
 airpaste
 
 # Send text
-echo <text> | airpaste
+echo {{text}} | airpaste
 
-# Send file
-airpaste < <path_to_file>
+# Send a file
+airpaste < {{path/to/file}}
 
-# Receive file
-airpaste > <path_to_file>
+# Receive a file
+airpaste > {{path/to/file}}
 
-# Create/Join channel
-airpaste <channel_name>
+# Create or join a channel
+airpaste {{channel_name}}

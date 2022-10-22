@@ -4,7 +4,7 @@
 % dos2unix, linux
 
 # Change the line endings of a file
-dos2unix <filename>
+dos2unix {{filename}}
 
 # Create a copy with Unix-style line endings
-dos2unix -n <filename> <new_filename>
+dos2unix -n {{filename}} {{new_filename}}

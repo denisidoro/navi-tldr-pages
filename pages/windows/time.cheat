@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/time.md
+
+% time, windows
+
+# Display the current system time and prompt to enter a new time (leave empty to keep unchanged)
+time
+
+# Display the current system time without prompting for a new time
+time /t

@@ -4,4 +4,4 @@
 % ntfsfix, linux
 
 # Fix a given NTFS partition
-sudo ntfsfix <_dev_sdb2>
+sudo ntfsfix {{/dev/sdXN}}

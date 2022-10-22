@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/distrobox-rm.md
+
+% distrobox-rm, linux
+
+# Remove a distrobox
+distrobox-rm {{container_name}}
+
+# Remove a distrobox forcefully
+distrobox-rm {{container_name}} --force

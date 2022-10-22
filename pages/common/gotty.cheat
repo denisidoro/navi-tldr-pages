@@ -4,10 +4,10 @@
 % gotty, common
 
 # Share result of command
-gotty <command>
+gotty {{command}}
 
 # Share with write permission
-gotty -w <shell>
+gotty -w {{shell}}
 
 # Share with credential (Basic Auth)
-gotty -w -c <username>:<password> <shell>
+gotty -w -c {{username}}:{{password}} {{shell}}

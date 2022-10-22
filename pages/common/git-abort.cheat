@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-abort.md
+
+% git-abort, common
+
+# Abort a Git rebase, merge, or cherry-pick
+git abort

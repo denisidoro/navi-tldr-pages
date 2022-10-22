@@ -7,4 +7,4 @@
 sync
 
 # Flush all pending write operations on a single file to disk
-sync <path_to_file>
+sync {{path/to/file}}

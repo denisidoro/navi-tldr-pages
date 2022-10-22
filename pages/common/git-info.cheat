@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-info.md
+
+% git-info, common
+
+# Display remote locations, remote and local branches, most recent commit data and `.git/config` settings
+git info
+
+# Display remote locations, remote and local branches and most recent commit data
+git info --no-config

@@ -4,10 +4,10 @@
 % cipher, windows
 
 # Encrypt a file or directory
-cipher /e:<path_to_file_or_directory>
+cipher /e:{{path/to/file_or_directory}}
 
 # Decrypt a file or directory
-cipher /d:<path_to_file_or_directory>
+cipher /d:{{path/to/file_or_directory}}
 
 # Securely remove a file or directory
-cipher /w:<path_to_file_or_directory>
+cipher /w:{{path/to/file_or_directory}}

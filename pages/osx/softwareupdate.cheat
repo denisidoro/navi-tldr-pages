@@ -4,13 +4,13 @@
 % softwareupdate, osx
 
 # List all available updates
-softwareupdate -l
+softwareupdate --list
 
 # Download and install all updates
-softwareupdate -ia
+softwareupdate --install --all
 
 # Download and install all recommended updates
-softwareupdate -ir
+softwareupdate --install --req
 
 # Download and install a specific app
-softwareupdate -i <update_name>
+softwareupdate --install {{update_name}}

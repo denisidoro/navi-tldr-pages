@@ -3,23 +3,23 @@
 
 % box, common
 
-# Build a new Phar file
-box build
+# Compile a new Phar file
+box compile
 
-# Build a new Phar file using a specific config file
-box build -c <path_to_config>
+# Compile a new Phar file using a specific config file
+box compile -c {{path/to/config}}
 
 # Display information about the PHAR PHP extension
 box info
 
 # Display information about a specific Phar file
-box info <path_to_phar_file>
+box info {{path/to/phar_file}}
 
 # Validate the first found config file in the working directory
 box validate
 
 # Verify the signature of a specific Phar file
-box verify <path_to_phar_file>
+box verify {{path/to/phar_file}}
 
 # Display all available commands and options
 box help

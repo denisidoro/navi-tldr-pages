@@ -19,7 +19,7 @@ pod outdated
 pod update
 
 # Update a specific (previously installed) pod to its newest version
-pod update <pod_name>
+pod update {{pod_name}}
 
 # Remove CocoaPods from a Xcode project
-pod deintegrate <xcode_project>
+pod deintegrate {{xcode_project}}

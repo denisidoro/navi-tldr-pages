@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/openscad.md
+
+% openscad, common
+
+# Open a file
+openscad {{path/to/button.scad}}
+
+# Convert a file to STL
+openscad -o {{path/to/button.stl}} {{path/to/button.scad}}
+
+# Render a file to PNG in a specific colorscheme
+openscad -o {{path/to/button.png}} --colorscheme {{Sunset}} {{path/to/button.scad}}

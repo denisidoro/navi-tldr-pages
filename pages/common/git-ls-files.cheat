@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-ls-files.md
+
+% git-ls-files, common
+
+# Show deleted files
+git ls-files --deleted
+
+# Show modified and deleted files
+git ls-files --modified
+
+# Show ignored and untracked files
+git ls-files --others
+
+# Show untracked files, not ignored
+git ls-files --others --exclude-standard

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mpd.md
+
+% mpd, common
+
+# Start MPD
+mpd
+
+# Start MPD but don't read from the configuration file
+mpd --no-config
+
+# Start MPD and don't detach it from the console
+mpd --no-daemon
+
+# Kill the currently running MPD session
+mpd --kill

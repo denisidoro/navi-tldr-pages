@@ -4,7 +4,7 @@
 % chcpu, linux
 
 # Disable CPUs via a list of CPU ID numbers
-chcpu -d <1_3>
+chcpu -d {{1,3}}
 
 # Enable a set of CPUs via a range of CPU ID numbers
-chcpu -e <1_10>
+chcpu -e {{1-10}}

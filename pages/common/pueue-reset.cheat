@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pueue-reset.md
+
+% pueue-reset, common
+
+# Kill all tasks and remove everything (logs, status, groups, task IDs)
+pueue reset
+
+# Kill all tasks, terminate their children, and reset everything
+pueue reset --children
+
+# Reset without asking for confirmation
+pueue reset --force

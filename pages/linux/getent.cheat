@@ -7,7 +7,7 @@
 getent group
 
 # See the members of a group
-getent group <group_name>
+getent group {{group_name}}
 
 # Get list of all services
 getent services
@@ -16,4 +16,4 @@ getent services
 getent passwd 1000
 
 # Perform a reverse DNS lookup
-getent hosts <host>
+getent hosts {{host}}

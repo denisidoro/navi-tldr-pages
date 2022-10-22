@@ -7,7 +7,7 @@
 kubens
 
 # Change the active namespace
-kubens <name>
+kubens {{name}}
 
 # Switch to the previous namespace
 kubens -

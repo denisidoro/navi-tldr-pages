@@ -4,10 +4,10 @@
 % wat2wasm, common
 
 # Parse and check a file for errors
-wat2wasm <file_wat>
+wat2wasm {{file.wat}}
 
 # Write the output binary to a given file
-wat2wasm <file_wat> -o <file_wasm>
+wat2wasm {{file.wat}} -o {{file.wasm}}
 
 # Display simplified representation of every byte
-wat2wasm -v <file_wat>
+wat2wasm -v {{file.wat}}

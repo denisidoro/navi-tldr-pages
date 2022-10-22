@@ -10,4 +10,4 @@ tzutil /g
 tzutil /l
 
 # Set the system time zone to the specific value
-tzutil /s <timezone_id>
+tzutil /s {{timezone_id}}

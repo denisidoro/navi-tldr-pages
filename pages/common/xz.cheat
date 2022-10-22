@@ -4,25 +4,25 @@
 % xz, common
 
 # Compress a file to the xz file format
-xz <file>
+xz {{file}}
 
 # Decompress a xz file
-xz -d <file_xz>
+xz -d {{file.xz}}
 
-# Compress a file to the lzma file format
-xz --format=lzma <file>
+# Compress a file to the LZMA file format
+xz --format={{lzma}} {{file}}
 
-# Decompress an lzma file
-xz -d --format=lzma <file_lzma>
+# Decompress an LZMA file
+xz -d --format={{lzma}} {{file.lzma}}
 
-# Decompress a file and write to `stdout`
-xz -dc <file_xz>
+# Decompress a file and write to stdout
+xz -dc {{file.xz}}
 
 # Compress a file, but don't delete the original
-xz -k <file>
+xz -k {{file}}
 
 # Compress a file using the fastest compression
-xz -0 <file>
+xz -0 {{file}}
 
 # Compress a file using the best compression
-xz -9 <file>
+xz -9 {{file}}

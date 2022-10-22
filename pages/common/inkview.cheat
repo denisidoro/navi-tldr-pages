@@ -4,7 +4,7 @@
 % inkview, common
 
 # Preview an SVG
-inkview <path_to_file_svg>
+inkview {{path/to/file.svg}}
 
 # Preview multiple SVGs (use arrow keys to navigate)
-inkview <path_to_file_a_svg> <path_to_file_b_svg> <path_to_file_c_svg>
+inkview {{path/to/file_a.svg}} {{path/to/file_b.svg}} {{path/to/file_c.svg}}

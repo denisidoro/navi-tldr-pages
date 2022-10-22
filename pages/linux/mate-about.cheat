@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mate-about.md
+
+% mate-about, linux
+
+# Print MATE version
+mate-about --version

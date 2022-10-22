@@ -4,13 +4,13 @@
 % finger, windows
 
 # Display information about a specific user
-finger <user>@<host>
+finger {{user}}@{{host}}
 
 # Display information about all users on the specified host
-finger @<host>
+finger @{{host}}
 
 # Display information in a longer format
-finger <user>@<host> -l
+finger {{user}}@{{host}} -l
 
 # Display help information
 finger /?

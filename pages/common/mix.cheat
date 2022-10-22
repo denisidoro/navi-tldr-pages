@@ -4,10 +4,10 @@
 % mix, common
 
 # Execute a particular file
-mix run <my_script_exs>
+mix run {{my_script.exs}}
 
 # Create a new project
-mix new <project_name>
+mix new {{project_name}}
 
 # Compile project
 mix compile

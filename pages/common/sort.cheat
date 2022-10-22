@@ -4,22 +4,25 @@
 % sort, common
 
 # Sort a file in ascending order
-sort <filename>
+sort {{path/to/file}}
 
 # Sort a file in descending order
-sort -r <filename>
+sort --reverse {{path/to/file}}
 
 # Sort a file in case-insensitive way
-sort --ignore-case <filename>
+sort --ignore-case {{path/to/file}}
 
 # Sort a file using numeric rather than alphabetic order
-sort -n <filename>
+sort --numeric-sort {{path/to/file}}
 
-# Sort the passwd file by the 3rd field, numerically
-sort -t: -k 3n /etc/passwd
+# Sort `/etc/passwd` by the 3rd field of each line numerically, using ":" as a field separator
+sort --field-separator={{:}} --key={{3n}} {{/etc/passwd}}
 
 # Sort a file preserving only unique lines
-sort -u <filename>
+sort --unique {{path/to/file}}
 
-# Sort human-readable numbers (in this case the 5th field of `ls -lh`)
-ls -lh | sort -h -k 5
+# Sort a file, printing the output to the specified output file (can be used to sort a file in-place)
+sort --output={{path/to/file}} {{path/to/file}}
+
+# Sort numbers with exponents
+sort --general-numeric-sort {{path/to/file}}

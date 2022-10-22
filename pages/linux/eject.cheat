@@ -10,16 +10,16 @@ eject -d
 eject
 
 # Eject a specific device (the default order is cd-rom, scsi, floppy and tape)
-eject <_dev_cdrom>
+eject {{/dev/cdrom}}
 
 # Toggle whether a device's tray is open or closed
-eject -T <_dev_cdrom>
+eject -T {{/dev/cdrom}}
 
 # Eject a cd drive
-eject -r <_dev_cdrom>
+eject -r {{/dev/cdrom}}
 
 # Eject a floppy drive
-eject -f <_mnt_floppy>
+eject -f {{/mnt/floppy}}
 
 # Eject a tape drive
-eject -q <_mnt_tape>
+eject -q {{/mnt/tape}}

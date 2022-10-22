@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-hash-object.md
+
+% git-hash-object, common
+
+# Compute the object ID without storing it
+git hash-object {{path/to/file}}
+
+# Compute the object ID and store it in the Git database
+git hash-object -w {{path/to/file}}
+
+# Compute the object ID specifying the object type
+git hash-object -t {{blob|commit|tag|tree}} {{path/to/file}}
+
+# Compute the object ID from stdin
+cat {{path/to/file}} | git hash-object --stdin

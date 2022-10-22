@@ -7,7 +7,7 @@
 ftype
 
 # Display the associated program for a specific file type
-ftype <file_type>
+ftype {{file_type}}
 
 # Set the associated program for a specific file type
-ftype <file_type>="<path_to_executable_command>"
+ftype {{file_type}}="{{path/to/executable_command}}"

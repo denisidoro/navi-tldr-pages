@@ -4,13 +4,13 @@
 % swagger-codegen, common
 
 # Generate documentation and code from an OpenAPI/swagger file
-swagger-codegen generate -i <swagger_file> -l <language>
+swagger-codegen generate -i {{swagger_file}} -l {{language}}
 
-# Generate java code using the library retrofit2 and the option useRxJava2
-swagger-codegen generate -i <http___petstore_swagger_io_v2_swagger_json> -l <java> --library <retrofit2> -D<useRxJava2>=<true>
+# Generate Java code using the library retrofit2 and the option useRxJava2
+swagger-codegen generate -i {{http://petstore.swagger.io/v2/swagger.json}} -l {{java}} --library {{retrofit2}} -D{{useRxJava2}}={{true}}
 
 # List available languages
 swagger-codegen langs
 
 # Display help options for the generate command
-swagger-codegen help <generate>
+swagger-codegen help {{generate}}

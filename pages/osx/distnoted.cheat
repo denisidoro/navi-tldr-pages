@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/distnoted.md
+
+% distnoted, osx
+
+# Start the daemon
+distnoted

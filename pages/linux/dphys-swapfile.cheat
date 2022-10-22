@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dphys-swapfile.md
+
+% dphys-swapfile, linux
+
+# Disable the swap file
+dphys-swapfile swapoff
+
+# Enable the swap file
+dphys-swapfile swapon
+
+# Create a new swap file
+dphys-swapfile setup

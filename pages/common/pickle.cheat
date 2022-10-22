@@ -4,13 +4,13 @@
 % pickle, common
 
 # Install a specific PHP extension
-pickle install <extension_name>
+pickle install {{extension_name}}
 
 # Convert an existing PECL extension configuration to a Pickle configuration file
-pickle convert <path_to_directory>
+pickle convert {{path/to/directory}}
 
 # Validate a PECL extension
-pickle validate <path_to_directory>
+pickle validate {{path/to/directory}}
 
 # Package a PECL extension for release
-pickle release <path_to_directory>
+pickle release {{path/to/directory}}

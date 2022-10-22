@@ -7,13 +7,13 @@
 terminalizer init
 
 # Record the terminal and create a recording file
-terminalizer record <filename>
+terminalizer record {{filename}}
 
 # Play a recorded file on the terminal
-terminalizer play <filename>
+terminalizer play {{filename}}
 
-# Render a recording file as an animated gif image
-terminalizer render <filename>
+# Render a recording file as an animated GIF image
+terminalizer render {{filename}}
 
 # Upload a video to terminalizer.com
-terminalizer share <filename>
+terminalizer share {{filename}}

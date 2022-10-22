@@ -4,10 +4,10 @@
 % hexo, common
 
 # Initialize a website
-hexo init <path_to_directory>
+hexo init {{path/to/directory}}
 
 # Create a new article
-hexo new <layout> <title>
+hexo new {{layout}} {{title}}
 
 # Generate static files
 hexo generate

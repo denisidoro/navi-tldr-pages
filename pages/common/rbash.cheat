@@ -3,14 +3,20 @@
 
 % rbash, common
 
-# Start rbash
+# Start an interactive shell session
 rbash
 
-# Execute a command
-rbash -c "<command>"
+# Execute a command and then exit
+rbash -c "{{command}}"
 
-# Run commands from a file
-rbash <file_sh>
+# Execute a script
+rbash {{path/to/script.sh}}
 
-# Print the version information of rbash
-rbash --version
+# Execute a script, printing each command before executing it
+rbash -x {{path/to/script.sh}}
+
+# Execute commands from a script, stopping at the first error
+rbash -e {{path/to/script.sh}}
+
+# Read and execute commands from stdin
+rbash -s

@@ -4,16 +4,16 @@
 % coffee, common
 
 # Run a script
-coffee <path_to_file_coffee>
+coffee {{path/to/file.coffee}}
 
 # Compile to JavaScript and save to a file with the same name
-coffee --compile <path_to_file_coffee>
+coffee --compile {{path/to/file.coffee}}
 
 # Compile to JavaScript and save to a given output file
-coffee --compile <path_to_file_coffee> --output <path_to_file_js>
+coffee --compile {{path/to/file.coffee}} --output {{path/to/file.js}}
 
-# Run interactive REPL
+# Start a REPL (interactive shell)
 coffee --interactive
 
 # Watch script for changes and re-run script
-coffee --watch <path_to_file_coffee>
+coffee --watch {{path/to/file.coffee}}

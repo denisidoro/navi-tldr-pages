@@ -4,13 +4,13 @@
 % hg-remove, common
 
 # Remove files or directories from the staging area
-hg remove <path_to_file>
+hg remove {{path/to/file}}
 
 # Remove all staged files matching a specified pattern
-hg remove --include <pattern>
+hg remove --include {{pattern}}
 
 # Remove all staged files, excluding those that match a specified pattern
-hg remove --exclude <pattern>
+hg remove --exclude {{pattern}}
 
 # Recursively remove sub-repositories
 hg remove --subrepos

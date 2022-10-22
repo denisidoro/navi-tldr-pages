@@ -3,26 +3,23 @@
 
 % ed, common
 
-# Start ed, editing an empty document (which can be saved as a new file in the current directory)
+# Start an interactive editor session with an empty document
 ed
 
-# Start ed, editing an empty document, with `:` as a command prompt indicator
-ed -p :
+# Start an interactive editor session with an empty document and a specific prompt
+ed --prompt='> '
 
-# Start ed editing an existing file (this shows the byte count of the loaded file)
-ed -p : <path_to_file>
+# Start an interactive editor session with user-friendly errors
+ed --verbose
 
-# Toggle the printing of error explanations. (By default, explanations are not printed and only a `?` appears)
-H
+# Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt
+ed --quiet
 
-# Add text to the current document. Mark completion by entering a period by itself in a new line
-a<Enter><text_to_insert><Enter>.
+# Start an interactive editor session without exit status change when command fails
+ed --loose-exit-status
 
-# Print the entire document (`,` is a shortcut to the range `1,$` which covers the start to the end of the document)
-,p
+# Edit a specific file (this shows the byte count of the loaded file)
+ed {{path/to/file}}
 
-# Write the current document to a new file (the filename can be omitted if `ed` was called with an existing file)
-w <filename>
-
-# Quit ed
-q
+# Replace a string with a specific replacement for all lines
+,s/{{regular_expression}}/{{replacement}}/g

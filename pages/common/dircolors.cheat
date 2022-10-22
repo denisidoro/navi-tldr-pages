@@ -7,7 +7,7 @@
 dircolors
 
 # Output commands to set LS_COLOR using colors from a file
-dircolors <file>
+dircolors {{file}}
 
 # Output commands for Bourne shell
 dircolors --bourne-shell

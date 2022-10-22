@@ -4,16 +4,16 @@
 % skaffold, common
 
 # Build the artifacts
-skaffold build -f <skaffold_yaml>
+skaffold build -f {{skaffold.yaml}}
 
 # Build and deploy your app every time your code changes
-skaffold dev -f <skaffold_yaml>
+skaffold dev -f {{skaffold.yaml}}
 
 # Run a pipeline file
-skaffold run -f <skaffold_yaml>
+skaffold run -f {{skaffold.yaml}}
 
 # Run a diagnostic on Skaffold
-skaffold diagnose -f <skaffold_yaml>
+skaffold diagnose -f {{skaffold.yaml}}
 
 # Deploy the artifacts
-skaffold deploy -f <skaffold_yaml>
+skaffold deploy -f {{skaffold.yaml}}

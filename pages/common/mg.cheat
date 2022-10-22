@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mg.md
+
+% mg, common
+
+# Open a file for editing
+mg {{path/to/file}}
+
+# Open a file at a specified line number
+mg +{{line_number}} {{path/to/file}}
+
+# Open files in a read-only mode
+mg -R {{path/to/file1 path/to/file2 ...}}
+
+# Disable `~` backup files while editing
+mg -n {{path/to/file}}

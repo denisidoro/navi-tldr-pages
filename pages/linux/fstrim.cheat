@@ -7,7 +7,7 @@
 sudo fstrim --all
 
 # Trim unused blocks on a specified partition
-sudo fstrim <_>
+sudo fstrim {{/}}
 
 # Display statistics after trimming
-sudo fstrim --verbose <_>
+sudo fstrim --verbose {{/}}

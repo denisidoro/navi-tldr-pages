@@ -4,10 +4,10 @@
 % dirname, common
 
 # Calculate the parent directory of a given path
-dirname <path_to_file_or_directory>
+dirname {{path/to/file_or_directory}}
 
 # Calculate the parent directory of multiple paths
-dirname <path_to_file_a> <path_to_directory_b>
+dirname {{path/to/file_a}} {{path/to/directory_b}}
 
 # Delimit output with a NUL character instead of a newline (useful when combining with `xargs`)
-dirname --zero <path_to_directory_a> <path_to_file_b>
+dirname --zero {{path/to/directory_a}} {{path/to/file_b}}

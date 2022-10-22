@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/clist.md
+
+% clist, windows
+
+# View documentation for the original command
+tldr choco list

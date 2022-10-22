@@ -4,7 +4,7 @@
 % uncrustify, common
 
 # Format a single file
-uncrustify -f <path_to_file_cpp> -o <path_to_output_cpp>
+uncrustify -f {{path/to/file.cpp}} -o {{path/to/output.cpp}}
 
 # Read filenames from stdin, and take backups before writing output back to the original filepaths
 find . -name "*.cpp" | uncrustify -F - --replace
@@ -13,10 +13,10 @@ find . -name "*.cpp" | uncrustify -F - --replace
 find . -name "*.cpp" | uncrustify -F - --no-backup
 
 # Use a custom configuration file and write the result to stdout
-uncrustify -c <path_to_uncrustify_cfg> -f <path_to_file_cpp>
+uncrustify -c {{path/to/uncrustify.cfg}} -f {{path/to/file.cpp}}
 
 # Explicitly set a configuration variable's value
-uncrustify --set <option>=<value>
+uncrustify --set {{option}}={{value}}
 
 # Generate a new configuration file
-uncrustify --update-config -o <path_to_new_cfg>
+uncrustify --update-config -o {{path/to/new.cfg}}

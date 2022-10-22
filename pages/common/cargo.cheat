@@ -4,22 +4,25 @@
 % cargo, common
 
 # Search for crates
-cargo search <search_string>
+cargo search {{search_string}}
 
 # Install a crate
-cargo install <crate_name>
+cargo install {{crate_name}}
 
 # List installed crates
 cargo install --list
 
 # Create a new binary or library Rust project in the current directory
-cargo init --<bin_lib>
+cargo init --{{bin|lib}}
 
 # Create a new binary or library Rust project in the specified directory
-cargo new <path_to_directory> --<bin_lib>
+cargo new {{path/to/directory}} --{{bin|lib}}
 
 # Build the Rust project in the current directory
 cargo build
 
+# Build the rust project in the current directory using the nightly compiler
+cargo +nightly build
+
 # Build using a specific number of threads (default is the number of CPU cores)
-cargo build -j <jobs>
+cargo build --jobs {{number_of_threads}}

@@ -13,7 +13,7 @@ glances -w
 glances -s
 
 # Connect to a Glances server
-glances -c <hostname>
+glances -c {{hostname}}
 
 # Require a password in (web) server mode
 glances -s --password

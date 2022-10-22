@@ -13,4 +13,4 @@ showmount -a
 showmount -d
 
 # Display all exported filesystems for a remote server
-showmount -e <server_address>
+showmount -e {{server_address}}

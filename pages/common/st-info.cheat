@@ -6,7 +6,7 @@
 # Display amount of program memory available
 st-info --flash
 
-# Display amount of sram memory available
+# Display amount of SRAM memory available
 st-info --sram
 
 # Display summarized information of the device

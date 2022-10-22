@@ -7,10 +7,10 @@
 shopt
 
 # Set an option
-shopt -s <option_name>
+shopt -s {{option_name}}
 
 # Unset an option
-shopt -u <option_name>
+shopt -u {{option_name}}
 
 # Print a list of all options and their status formatted as runnable `shopt` commands
 shopt -p

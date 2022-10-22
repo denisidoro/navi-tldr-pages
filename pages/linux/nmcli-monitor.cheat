@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nmcli-monitor.md
+
+% nmcli-monitor, linux
+
+# Start monitoring NetworkManager changes
+nmcli monitor

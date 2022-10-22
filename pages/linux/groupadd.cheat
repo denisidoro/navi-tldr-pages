@@ -3,8 +3,11 @@
 
 % groupadd, linux
 
-# Create a new Linux group
-groupadd <group_name>
+# Create a new group
+sudo groupadd {{group_name}}
 
-# Create new group with a specific groupid
-groupadd <group_name> -g <group_id>
+# Create a new system group
+sudo groupadd --system {{group_name}}
+
+# Create a new group with the specific groupid
+sudo groupadd --gid {{id}} {{group_name}}

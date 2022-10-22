@@ -4,19 +4,19 @@
 % parallel-lint, common
 
 # Lint a specific directory
-parallel-lint <path_to_directory>
+parallel-lint {{path/to/directory}}
 
 # Lint a directory using the specified number of parallel processes
-parallel-lint -j <processes> <path_to_directory>
+parallel-lint -j {{processes}} {{path/to/directory}}
 
 # Lint a directory, excluding the specified directory
-parallel-lint --exclude <path_to_excluded_directory> <path_to_directory>
+parallel-lint --exclude {{path/to/excluded_directory}} {{path/to/directory}}
 
 # Lint a directory of files using a comma-separated list of extension(s)
-parallel-lint -e <php_html_phpt> <path_to_directory>
+parallel-lint -e {{php,html,phpt}} {{path/to/directory}}
 
 # Lint a directory and output the results as JSON
-parallel-lint --json <path_to_directory>
+parallel-lint --json {{path/to/directory}}
 
 # Lint a directory and show Git Blame results for rows containing errors
-parallel-lint --blame <path_to_directory>
+parallel-lint --blame {{path/to/directory}}

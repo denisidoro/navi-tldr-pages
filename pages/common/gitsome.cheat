@@ -3,7 +3,7 @@
 
 % gitsome, common
 
-# Enter the gitsome shell (optional), to enable autocompletion and interactive help for git (and gh) commands
+# Enter the gitsome shell (optional), to enable autocompletion and interactive help for Git (and gh) commands
 gitsome
 
 # Setup GitHub integration with the current account
@@ -16,7 +16,7 @@ gh notifications
 gh starred "{{python 3}}"
 
 # View the recent activity feed of a given GitHub repository
-gh feed <tldr_pages_tldr>
+gh feed {{tldr-pages/tldr}}
 
 # View the recent activity feed for a given GitHub user, using the default pager (e.g. `less`)
-gh feed <torvalds> -p
+gh feed {{torvalds}} -p

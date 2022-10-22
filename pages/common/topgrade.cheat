@@ -13,10 +13,10 @@ topgrade -y
 topgrade -c
 
 # Disable a certain update operation
-topgrade -disable <operation>
+topgrade --disable {{operation}}
 
 # Only perform a certain update operation
-topgrade --only <operation>
+topgrade --only {{operation}}
 
 # Edit the config file with default editor
 topgrade --edit-config

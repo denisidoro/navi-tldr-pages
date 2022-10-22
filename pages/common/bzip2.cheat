@@ -4,10 +4,10 @@
 % bzip2, common
 
 # Compress a file
-bzip2 <path_to_file_to_compress>
+bzip2 {{path/to/file_to_compress}}
 
 # Decompress a file
-bzip2 -d <path_to_compressed_file_bz2>
+bzip2 -d {{path/to/compressed_file.bz2}}
 
 # Decompress a file to standard output
-bzip2 -dc <path_to_compressed_file_bz2>
+bzip2 -dc {{path/to/compressed_file.bz2}}

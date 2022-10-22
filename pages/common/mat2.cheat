@@ -7,13 +7,13 @@
 mat2 --list
 
 # Remove metadata from a file
-mat2 <path_to_file>
+mat2 {{path/to/file}}
 
 # Remove metadata from a file and print detailed output to the console
-mat2 --verbose <path_to_file>
+mat2 --verbose {{path/to/file}}
 
 # Show metadata in a file without removing it
-mat2 --show <path_to_file>
+mat2 --show {{path/to/file}}
 
 # Partially remove metadata from a file
-mat2 --lightweight <path_to_file>
+mat2 --lightweight {{path/to/file}}

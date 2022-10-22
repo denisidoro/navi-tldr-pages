@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nmcli-radio.md
+
+% nmcli-radio, linux
+
+# Show status of Wi-Fi in NetworkManager
+nmcli radio wifi
+
+# Turn Wi-Fi on or off in NetworkManager
+nmcli radio wifi {{on|off}}
+
+# Show status of WWAN in NetworkManager
+nmcli radio wwan
+
+# Turn WWAN on or off in NetworkManager
+nmcli radio wwan {{on|off}}
+
+# Show status of both switches in NetworkManager
+nmcli radio all
+
+# Turn both switches on or off in NetworkManager
+nmcli radio all {{on|off}}

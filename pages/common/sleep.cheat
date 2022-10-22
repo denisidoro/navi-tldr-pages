@@ -4,10 +4,10 @@
 % sleep, common
 
 # Delay in seconds
-sleep <seconds>
+sleep {{seconds}}
 
 # Delay in minutes
-sleep <minutes>m
+sleep {{minutes}}m
 
 # Delay in hours
-sleep <hours>h
+sleep {{hours}}h

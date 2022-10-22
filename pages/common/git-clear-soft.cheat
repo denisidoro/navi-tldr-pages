@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-clear-soft.md
+
+% git-clear-soft, common
+
+# Reset all tracked files and delete all untracked files
+git clear-soft

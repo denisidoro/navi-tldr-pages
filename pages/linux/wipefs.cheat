@@ -4,13 +4,13 @@
 % wipefs, linux
 
 # Display signatures for specified device
-sudo wipefs <_dev_sda>
+sudo wipefs {{/dev/sdX}}
 
 # Wipe all available signatures for specified device
-sudo wipefs --all <_dev_sda>
+sudo wipefs --all {{/dev/sdX}}
 
 # Perform dry run
-sudo wipefs --all --no-act <_dev_sda>
+sudo wipefs --all --no-act {{/dev/sdX}}
 
 # Force wipe, even if the filesystem is mounted
-sudo wipefs --all --force <_dev_sda>
+sudo wipefs --all --force {{/dev/sdX}}

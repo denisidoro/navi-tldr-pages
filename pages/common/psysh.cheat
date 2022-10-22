@@ -7,7 +7,7 @@
 psysh
 
 # Open a shell in a specific directory
-psysh --cwd <path_to_directory>
+psysh --cwd {{path/to/directory}}
 
 # Use a specific configuration file
-psysh --config <path_to_file>
+psysh --config {{path/to/file}}

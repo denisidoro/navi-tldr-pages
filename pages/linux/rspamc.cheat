@@ -4,13 +4,13 @@
 % rspamc, linux
 
 # Train the bayesian filter to recognise an email as spam
-rspamc learn_spam <path_to_email_file>
+rspamc learn_spam {{path/to/email_file}}
 
 # Train the bayesian filter to recognise an email as ham
-rspamc learn_ham <path_to_email_file>
+rspamc learn_ham {{path/to/email_file}}
 
 # Generate a manual report on an email
-rspamc symbols <path_to_email_file>
+rspamc symbols {{path/to/email_file}}
 
 # Show server statistics
 rspamc stat

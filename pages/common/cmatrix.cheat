@@ -7,10 +7,10 @@
 cmatrix -a
 
 # Display red text
-cmatrix -C <red>
+cmatrix -C {{red}}
 
 # Enable rainbow mode
 cmatrix -r
 
-# Set screen update delay to 2 centiseconds
-cmatrix -u <2>
+# Set screen update delay to 2 centiseconds (20 milliseconds)
+cmatrix -u {{2}}

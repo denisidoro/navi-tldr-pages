@@ -3,20 +3,20 @@
 
 % attrib, windows
 
-# Display the attributes of the files in the current directory
+# Display all set attributes of files in the current directory
 attrib
 
-# Display the attributes of the files in the current directory and sub-directories
-attrib /S
+# Display all set attributes of files in a specific directory
+attrib {{path\to\directory}}
 
-# Display the attributes of the files and directories in the current directory and sub-directories
-attrib /S /D
+# Display all set attributes of files and [d]irectories in the current directory
+attrib /d
 
-# Add the read-only attribute to a file
-attrib +R <document_txt>
+# Display all set attributes of files in the current directory and [s]ub-directories
+attrib /s
 
-# Remove the system and hidden attributes of a file
-attrib -S -H <document_txt>
+# Add the `[r]ead-only` or `[a]rchive` or `[s]ystem` or `[h]idden` or `not content [i]ndexed` attribute to files or directories
+attrib +{{r|a|s|h|i}} {{path\to\file_or_directory1 path\to\file_or_directory2 ...}}
 
-# Add the hidden attribute to a directory
-attrib +H {{path\to\directory}}
+# Remove a specific attribute of files or directories
+attrib -{{r|a|s|h|i}} {{path\to\file_or_directory1 path\to\file_or_directory2 ...}}

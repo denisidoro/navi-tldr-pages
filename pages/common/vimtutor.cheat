@@ -4,7 +4,7 @@
 % vimtutor, common
 
 # Launch the vim tutor using the given language (en, fr, de, ...)
-vimtutor <language>
+vimtutor {{language}}
 
 # Exit the tutor
 <Esc> :q <Enter>

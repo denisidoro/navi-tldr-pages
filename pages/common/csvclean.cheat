@@ -4,7 +4,7 @@
 % csvclean, common
 
 # Clean a CSV file
-csvclean <bad_csv>
+csvclean {{bad.csv}}
 
 # List locations of syntax errors in a CSV file
-csvclean -n <bad_csv>
+csvclean -n {{bad.csv}}

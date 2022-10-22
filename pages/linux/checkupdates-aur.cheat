@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/checkupdates-aur.md
+
+% checkupdates-aur, linux
+
+# List pending updates for AUR packages
+checkupdates-aur
+
+# List pending updates for AUR packages in debug mode
+CHECKUPDATES_DEBUG=1 checkupdates-aur
+
+# Display help
+checkupdates-aur --help

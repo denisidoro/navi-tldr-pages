@@ -4,19 +4,19 @@
 % duti, osx
 
 # Set Safari as the default handler for HTML documents
-duti -s <com_apple_Safari> <public_html> all
+duti -s {{com.apple.Safari}} {{public.html}} all
 
-# Set VLC as the default viewer for files with .m4v extensions
-duti -s <org_videolan_vlc> <m4v> viewer
+# Set VLC as the default viewer for files with `.m4v` extensions
+duti -s {{org.videolan.vlc}} {{m4v}} viewer
 
 # Set Finder as the default handler for the ftp:// URL scheme
-duti -s <com_apple_Finder> <ftp>
+duti -s {{com.apple.Finder}} "{{ftp}}"
 
 # Display information about the default application for a given extension
-duti -x <ext>
+duti -x {{ext}}
 
 # Display the default handler for a given UTI
-duti -d <uti>
+duti -d {{uti}}
 
 # Display all handlers of a given UTI
-duti -l <uti>
+duti -l {{uti}}

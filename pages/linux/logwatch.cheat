@@ -3,8 +3,8 @@
 
 % logwatch, linux
 
-# Analyze logs for a range of dates at certain level of detail
-logwatch --range <yesterday_today_all_help> --detail <low_medium_others>'
+# Analyze logs for a range of dates at a certain level of detail
+logwatch --range {{yesterday|today|all|help}} --detail {{low|medium|others}}'
 
 # Restrict report to only include information for a selected service
-logwatch --range <all> --service <apache_pam_unix_etc>
+logwatch --range {{all}} --service {{apache|pam_unix|etc}}

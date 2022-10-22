@@ -4,7 +4,7 @@
 % csvpy, common
 
 # Load a CSV file into a `CSVKitReader` object
-csvpy <data_csv>
+csvpy {{data.csv}}
 
 # Load a CSV file into a `CSVKitDictReader` object
-csvpy --dict <data_csv>
+csvpy --dict {{data.csv}}

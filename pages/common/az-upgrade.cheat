@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-upgrade.md
+
+% az-upgrade, common
+
+# Upgrade Azure CLI
+az upgrade
+
+# Upgrade Azure CLI and Extensions
+az upgrade --all
+
+# Upgrade Azure CLI and Extensions without prompting for confirmation
+az version --all --yes

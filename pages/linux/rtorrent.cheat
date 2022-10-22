@@ -4,7 +4,7 @@
 % rtorrent, linux
 
 # Add a torrent file or magnet to be downloaded
-rtorrent <torrent_or_magnet>
+rtorrent {{torrent_or_magnet}}
 
 # Start the download
 <Ctrl>S

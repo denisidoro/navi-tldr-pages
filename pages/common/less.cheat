@@ -4,7 +4,7 @@
 % less, common
 
 # Open a file
-less <source_file>
+less {{source_file}}
 
 # Page down / up
 <Space> (down), b (up)
@@ -13,10 +13,10 @@ less <source_file>
 G (end), g (start)
 
 # Forward search for a string (press `n`/`N` to go to next/previous match)
-/<something>
+/{{something}}
 
 # Backward search for a string (press `n`/`N` to go to next/previous match)
-?<something>
+?{{something}}
 
 # Follow the output of the currently opened file
 F

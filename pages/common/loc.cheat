@@ -7,7 +7,7 @@
 loc
 
 # Print lines of code in the target directory
-loc <path_to_directory>
+loc {{path/to/directory}}
 
 # Print lines of code with stats for individual files
 loc --files

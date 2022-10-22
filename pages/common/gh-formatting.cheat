@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gh-formatting.md
+
+% gh-formatting, common
+
+# Display help about formatting JSON output from `gh` using `jq`
+gh formatting

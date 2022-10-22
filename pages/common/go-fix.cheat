@@ -4,4 +4,4 @@
 % go-fix, common
 
 # Update packages to use new APIs
-go fix <packages>
+go fix {{packages}}

@@ -3,11 +3,11 @@
 
 % progpilot, common
 
-# Analyse the current directory
+# Analyze the current directory
 progpilot
 
-# Analyse a specific file or directory
-progpilot <path_to_file_or_directory>
+# Analyze a specific file or directory
+progpilot {{path/to/file_or_directory}}
 
 # Specify a custom configuration file
-progpilot --configuration <path_to_configuration_yml>
+progpilot --configuration {{path/to/configuration.yml}}

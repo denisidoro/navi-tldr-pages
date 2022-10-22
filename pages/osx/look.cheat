@@ -4,7 +4,7 @@
 % look, osx
 
 # Look for lines which begins with the given prefix
-look <prefix> <file>
+look {{prefix}} {{file}}
 
 # Look for lines ignoring case
-look -f <prefix> <file>
+look --ignore-case {{prefix}} {{file}}

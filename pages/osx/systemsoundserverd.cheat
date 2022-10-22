@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/systemsoundserverd.md
+
+% systemsoundserverd, osx
+
+# Start the daemon
+systemsoundserverd

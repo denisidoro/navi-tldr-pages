@@ -4,10 +4,10 @@
 % opkg, linux
 
 # Install a package
-opkg install <package>
+opkg install {{package}}
 
 # Remove a package
-opkg remove <package>
+opkg remove {{package}}
 
 # Update the list of available packages
 opkg update
@@ -16,10 +16,10 @@ opkg update
 opkg upgrade
 
 # Upgrade one or more specific package(s)
-opkg upgrade <package_s_>
+opkg upgrade {{package(s)}}
 
-# Display informations for a specific package
-opkg info <package>
+# Display information for a specific package
+opkg info {{package}}
 
 # List all the available packages
 opkg list

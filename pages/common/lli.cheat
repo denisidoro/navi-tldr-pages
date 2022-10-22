@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lli.md
+
+% lli, common
+
+# Execute a bitcode or IR file
+lli {{path/to/file.ll}}
+
+# Execute with command line arguments
+lli {{path/to/file.ll}} {{argument1 argument2 ...}}
+
+# Enable all optimizations
+lli -O3 {{path/to/file.ll}}
+
+# Load a dynamic library before linking
+lli --dlopen={{path/to/library.dll}} {{path/to/file.ll}}

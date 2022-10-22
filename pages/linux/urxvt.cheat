@@ -7,13 +7,13 @@
 urxvt
 
 # Run in a specific directory
-urxvt -cd <path_to_directory>
+urxvt -cd {{path/to/directory}}
 
 # Run a command in a new urxvt window
-urxvt -e <command>
+urxvt -e {{command}}
 
 # Run a command and keep the window open
-urxvt --hold -e <command>
+urxvt --hold -e {{command}}
 
-# Run a command within the "sh" shell
-urxvt -e <sh> -c <command>
+# Run a command within the `sh` shell
+urxvt -e {{sh}} -c {{command}}

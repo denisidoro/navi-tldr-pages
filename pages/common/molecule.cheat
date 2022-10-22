@@ -3,8 +3,8 @@
 
 % molecule, common
 
-# Create a new ansible role
-molecule init role --role-name <role_name>
+# Create a new Ansible role
+molecule init role --role-name {{role_name}}
 
 # Run tests
 molecule test
@@ -15,5 +15,5 @@ molecule create
 # Configure the instance
 molecule converge
 
-# Login into the instance
+# Log in into the instance
 molecule login

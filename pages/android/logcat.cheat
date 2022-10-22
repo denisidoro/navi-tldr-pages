@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/android/logcat.md
+
+% logcat, android
+
+# Display system logs
+logcat
+
+# Write system logs to a file
+logcat -f {{path/to/file}}
+
+# Display lines that match a regular expression
+logcat --regex {{regular_expression}}

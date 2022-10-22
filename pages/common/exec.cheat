@@ -13,4 +13,4 @@ exec -c {{command -with -flags}}
 exec -l {{command -with -flags}}
 
 # Replace with the specified command and change the process name
-exec -a <process_name> {{command -with -flags}}
+exec -a {{process_name}} {{command -with -flags}}

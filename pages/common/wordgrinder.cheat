@@ -7,7 +7,7 @@
 wordgrinder
 
 # Open a given file
-wordgrinder <filename>
+wordgrinder {{filename}}
 
 # Show the menu
 Alt + M

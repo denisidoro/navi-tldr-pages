@@ -7,16 +7,19 @@
 docker build .
 
 # Build a docker image from a Dockerfile at a specified URL
-docker build <github_com_creack_docker_firefox>
+docker build {{github.com/creack/docker-firefox}}
 
 # Build a docker image and tag it
-docker build --tag <name_tag> .
+docker build --tag {{name:tag}} .
+
+# Build a docker image with no build context
+docker build --tag {{name:tag}} - < {{Dockerfile}}
 
 # Do not use the cache when building the image
-docker build --no-cache --tag <name_tag> .
+docker build --no-cache --tag {{name:tag}} .
 
 # Build a docker image using a specific Dockerfile
-docker build --file <Dockerfile> .
+docker build --file {{Dockerfile}} .
 
 # Build with custom build-time variables
-docker build --build-arg <HTTP_PROXY_http___10_20_30_2_1234> --build-arg <FTP_PROXY_http___40_50_60_5_4567> .
+docker build --build-arg {{HTTP_PROXY=http://10.20.30.2:1234}} --build-arg {{FTP_PROXY=http://40.50.60.5:4567}} .

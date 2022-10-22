@@ -7,10 +7,10 @@
 git reset
 
 # Unstage specific file(s)
-git reset <path_to_file_s_>
+git reset {{path/to/file(s)}}
 
-# Unstage portions of a file
-git reset -p <path_to_file>
+# Interactively unstage portions of a file
+git reset --patch {{path/to/file}}
 
 # Undo the last commit, keeping its changes (and any further uncommitted changes) in the filesystem
 git reset HEAD~
@@ -22,4 +22,4 @@ git reset --soft HEAD~2
 git reset --hard
 
 # Reset the repository to a given commit, discarding committed, staged and uncommitted changes since then
-git reset --hard <commit>
+git reset --hard {{commit}}

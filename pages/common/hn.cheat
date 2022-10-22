@@ -7,7 +7,7 @@
 hn
 
 # View _number_ of stories on Hacker News
-hn --limit <number>
+hn --limit {{number}}
 
 # View stories on Hacker News, and keep the list open after selecting a link
 hn --keep-open

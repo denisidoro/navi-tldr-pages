@@ -3,5 +3,11 @@
 
 % identify, common
 
-# Collect dimensions of all jpeg files under current directory
-identify -format "%f,%w,%h\n" *.<jpg> > <filelist_csv>
+# Describe the format and basic characteristics of an image
+identify {{path/to/image}}
+
+# Describe the format and verbose characteristics of an image
+identify -verbose {{path/to/image}}
+
+# Collect dimensions of all JPEG files under current directory
+identify -format "%f,%w,%h\n" *.{{jpg}} > {{path/to/filelist.csv}}

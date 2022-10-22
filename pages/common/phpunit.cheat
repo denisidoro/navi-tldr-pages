@@ -7,10 +7,10 @@
 phpunit
 
 # Run tests in a specific file
-phpunit <path_to_TestFile_php>
+phpunit {{path/to/TestFile.php}}
 
 # Run tests annotated with the given group
-phpunit --group <name>
+phpunit --group {{name}}
 
 # Run tests and generate a coverage report in HTML
-phpunit --coverage-html <directory>
+phpunit --coverage-html {{directory}}

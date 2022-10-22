@@ -6,11 +6,17 @@
 # Check the Git version
 git --version
 
-# Call general help
+# Show general help
 git --help
 
-# Call help on a command
-git help <command>
+# Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.)
+git help {{subcommand}}
 
-# Execute Git command
-git <command>
+# Execute a Git subcommand
+git {{subcommand}}
+
+# Execute a Git subcommand on a custom repository root path
+git -C {{path/to/repo}} {{subcommand}}
+
+# Execute a Git subcommand with a given configuration set
+git -c '{{config.key}}={{value}}' {{subcommand}}

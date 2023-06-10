@@ -4,7 +4,7 @@
 % func, common
 
 # Create a new functions project
-func init {{project}}
+func init <project>
 
 # Create a new function
 func new
@@ -13,10 +13,10 @@ func new
 func start
 
 # Publish your code to a function app in Azure
-func azure functionapp publish {{function}}
+func azure functionapp publish <function>
 
 # Download all settings from an existing function app
-func azure functionapp fetch-app-settings {{function}}
+func azure functionapp fetch-app-settings <function>
 
 # Get the connection string for a specific storage account
-func azure storage fetch-connection-string {{storage_account}}
+func azure storage fetch-connection-string <storage_account>

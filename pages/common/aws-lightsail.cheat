@@ -13,13 +13,13 @@ aws lightsail list-bundles
 aws lightsail list-blueprints
 
 # Create an instance
-aws lightsail create-instances --instance-names {{name}} --availability-zone {{region}} --bundle-id {{nano_2_0}} --blueprint-id {{blueprint_id}}
+aws lightsail create-instances --instance-names <name> --availability-zone <region> --bundle-id <nano_2_0> --blueprint-id <blueprint_id>
 
 # Print the state of a specific instance
-aws lightsail get-instance-state --instance-name {{name}}
+aws lightsail get-instance-state --instance-name <name>
 
 # Stop a specific instance
-aws lightsail stop-instance --instance-name {{name}}
+aws lightsail stop-instance --instance-name <name>
 
 # Delete a specific instance
-aws lightsail delete-instance --instance-name {{name}}
+aws lightsail delete-instance --instance-name <name>

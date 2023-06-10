@@ -10,7 +10,7 @@ progress
 progress -q
 
 # Launch and monitor a single long-running command
-{{command}} & progress --monitor --pid $!
+<command> & progress --monitor --pid $!
 
 # Include an estimate of time remaining for completion
-progress --wait --command {{firefox}}
+progress --wait --command <firefox>

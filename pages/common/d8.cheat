@@ -7,7 +7,7 @@
 d8
 
 # Run a JavaScript file
-d8 {{path/to/file.js}}
+d8 <path_to_file.js>
 
 # Evaluate a JavaScript expression
-d8 -e "{{code}}
+d8 -e "<code>

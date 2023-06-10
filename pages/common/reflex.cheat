@@ -7,13 +7,13 @@
 reflex make
 
 # Compile and run Go application if any `.go` file changes
-reflex --regex='{{\.go$}}' {{go run .}}
+reflex --regex='<\.go$>' <go run .>
 
 # Ignore a directory when watching for changes
-reflex --inverse-regex='{{^dir/}}' {{command}}
+reflex --inverse-regex='<^dir_>' <command>
 
 # Run command when reflex starts and restarts on file changes
-reflex --start-service=true {{command}}
+reflex --start-service=true <command>
 
 # Substitute the filename that changed in
 reflex -- echo {}

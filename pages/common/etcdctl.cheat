@@ -4,25 +4,25 @@
 % etcdctl, common
 
 # Display the value associated with a specified key
-etcdctl get {{my/key}}
+etcdctl get <my_key>
 
 # Store a key-value pair
-etcdctl put {{my/key}} {{my_value}}
+etcdctl put <my_key> <my_value>
 
 # Delete a key-value pair
-etcdctl del {{my/key}}
+etcdctl del <my_key>
 
 # Store a key-value pair, reading the value from a file
-etcdctl put {{my/file}} < {{path/to/file.txt}}
+etcdctl put <my_file> < <path_to_file.txt>
 
 # Save a snapshot of the etcd keystore
-etcdctl snapshot save {{path/to/snapshot.db}}
+etcdctl snapshot save <path_to_snapshot.db>
 
 # Restore a snapshot of an etcd keystore (restart the etcd server afterwards)
-etcdctl snapshot restore {{path/to/snapshot.db}}
+etcdctl snapshot restore <path_to_snapshot.db>
 
 # Add a user
-etcdctl user add {{my_user}}
+etcdctl user add <my_user>
 
 # Watch a key for changes
-etcdctl watch {{my/key}}
+etcdctl watch <my_key>

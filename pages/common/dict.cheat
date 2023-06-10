@@ -7,13 +7,13 @@
 dict -D
 
 # Get information about a database
-dict -i {{database_name}}
+dict -i <database_name>
 
 # Look up a word in a specific database
-dict -d {{database_name}} {{word}}
+dict -d <database_name> <word>
 
 # Look up a word in all available databases
-dict {{word}}
+dict <word>
 
 # Show information about the DICT server
 dict -I

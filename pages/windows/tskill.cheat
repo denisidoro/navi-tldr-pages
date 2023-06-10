@@ -4,7 +4,7 @@
 % tskill, windows
 
 # Terminate a process by its process identifier
-tskill {{process_id}}
+tskill <process_id>
 
 # Terminate a process by its name
-tskill {{process_name}}
+tskill <process_name>

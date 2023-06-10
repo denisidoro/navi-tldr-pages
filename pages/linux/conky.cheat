@@ -7,16 +7,16 @@
 conky
 
 # Create a new default config
-conky -C > ~/.conkyrc
+conky -C > ~.conkyrc
 
 # Launch Conky with a given config file
-conky -c {{path/to/config}}
+conky -c <path_to_config>
 
 # Start in the background (daemonize)
 conky -d
 
 # Align Conky on the desktop
-conky -a {{{top,bottom,middle}_{left,right,middle}}}
+conky -a <top|bottom|middle>_<left|right|middle>
 
 # Pause for 5 seconds at startup before launching
-conky -p {{5}}
+conky -p <5>

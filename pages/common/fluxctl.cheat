@@ -4,7 +4,7 @@
 % fluxctl, common
 
 # List workloads currently running in the cluster on specific namespace
-fluxctl --k8s-fwd-ns={{namespace}} list-workloads
+fluxctl --k8s-fwd-ns=<namespace> list-workloads
 
 # Show deployed and available images
 fluxctl list-images

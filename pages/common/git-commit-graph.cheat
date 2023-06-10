@@ -10,4 +10,4 @@ git commit-graph write
 git show-ref --hash | git commit-graph write --stdin-commits
 
 # Write a commit-graph file containing all commits in the current commit-graph file along with those reachable from `HEAD`
-git rev-parse {{HEAD}} | git commit-graph write --stdin-commits --append
+git rev-parse <HEAD> | git commit-graph write --stdin-commits --append

@@ -19,7 +19,7 @@ mate-screenshot --interactive
 mate-screenshot --window --remove-border
 
 # Create a screenshot with a specific effect
-mate-screenshot --effect={{shadow|border|none}}
+mate-screenshot --effect=<shadow|border|none>
 
 # Create a screenshot with a specific delay in seconds
-mate-screenshot --delay={{5}}
+mate-screenshot --delay=<5>

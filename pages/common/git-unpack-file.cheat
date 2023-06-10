@@ -4,4 +4,4 @@
 % git-unpack-file, common
 
 # Create a file holding the contents of the blob specified by its ID then print the name of the temporary file
-git unpack-file {{blob_id}}
+git unpack-file <blob_id>

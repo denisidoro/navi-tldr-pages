@@ -4,19 +4,19 @@
 % gobuster, common
 
 # Discover directories and files that match in the wordlist
-gobuster dir --url {{https://example.com/}} --wordlist {{path/to/file}}
+gobuster dir --url <https:__example.com_> --wordlist <path_to_file>
 
 # Discover subdomains
-gobuster dns --domain {{example.com}} --wordlist {{path/to/file}}
+gobuster dns --domain <example.com> --wordlist <path_to_file>
 
 # Discover Amazon S3 buckets
-gobuster s3 --wordlist {{path/to/file}}
+gobuster s3 --wordlist <path_to_file>
 
 # Discover other virtual hosts on the server
-gobuster vhost --url {{https://example.com/}} --wordlist {{path/to/file}}
+gobuster vhost --url <https:__example.com_> --wordlist <path_to_file>
 
 # Fuzz the value of a parameter
-gobuster fuzz --url {{https://example.com/?parameter=FUZZ}} --wordlist {{path/to/file}}
+gobuster fuzz --url <https:__example.com_?parameter=FUZZ> --wordlist <path_to_file>
 
 # Fuzz the name of a parameter
-gobuster fuzz --url {{https://example.com/?FUZZ=value}} --wordlist {{path/to/file}}
+gobuster fuzz --url <https:__example.com_?FUZZ=value> --wordlist <path_to_file>

@@ -7,16 +7,16 @@
 trizen -Syua
 
 # Install a new package
-trizen -S {{package}}
+trizen -S <package>
 
 # Remove a package and its dependencies
-trizen -Rs {{package}}
+trizen -Rs <package>
 
 # Search the package database for a keyword
-trizen -Ss {{keyword}}
+trizen -Ss <keyword>
 
 # Show information about a package
-trizen -Si {{package}}
+trizen -Si <package>
 
 # List installed packages and versions
 trizen -Qe

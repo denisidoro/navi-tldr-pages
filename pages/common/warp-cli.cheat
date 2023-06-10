@@ -19,4 +19,4 @@ warp-cli status
 warp-cli help
 
 # Display help for a subcommand
-warp-cli help {{subcommand}}
+warp-cli help <subcommand>

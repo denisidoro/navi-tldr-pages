@@ -7,7 +7,7 @@
 spctl --master-disable
 
 # Add a rule to allow an application to run (labeling of rule is optional)
-spctl --add --label {{rule_name}} {{path/to/file}}
+spctl --add --label <rule_name> <path_to_file>
 
 # Turn on Gatekeeper
 spctl --master-enable

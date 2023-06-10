@@ -7,4 +7,4 @@
 toolbox help
 
 # Display the `toolbox` manual for a specific subcommand
-toolbox help {{subcommand}}
+toolbox help <subcommand>

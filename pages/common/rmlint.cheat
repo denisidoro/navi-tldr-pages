@@ -4,22 +4,22 @@
 % rmlint, common
 
 # Check a directory for duplicates, empty files, and other issues
-rmlint {{path/to/directory}}
+rmlint <path_to_directory>
 
 # Delete duplicate files found by an execution of `rmlint`
-./rmlint.sh
+._rmlint.sh
 
 # Find duplicate directory trees
-rmlint --merge-directories {{path/to/directory}}
+rmlint --merge-directories <path_to_directory>
 
 # Mark files at lower path [d]epth as originals
-rmlint --rank-by={{d}} {{path/to/directory}}
+rmlint --rank-by=<d> <path_to_directory>
 
 # Mark files with shortest name [l]ength as originals
-rmlint --rank-by={{l}} {{path/to/directory}}
+rmlint --rank-by=<l> <path_to_directory>
 
 # Find only duplicates that have the same filename in addition to the same contents
-rmlint --match-basename {{path/to/directory}}
+rmlint --match-basename <path_to_directory>
 
 # Find all duplicates with the same extension
-rmlint --match-extension {{path/to/directory}}
+rmlint --match-extension <path_to_directory>

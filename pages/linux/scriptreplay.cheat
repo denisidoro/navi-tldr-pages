@@ -4,10 +4,10 @@
 % scriptreplay, linux
 
 # Replay a typescript at the speed it was recorded
-scriptreplay {{path/to/timing_file}} {{path/to/typescript}}
+scriptreplay <path_to_timing_file> <path_to_typescript>
 
 # Replay a typescript at double the original speed
-scriptreplay {{path/to/timingfile}} {{path/to/typescript}} 2
+scriptreplay <path_to_timingfile> <path_to_typescript> 2
 
 # Replay a typescript at half the original speed
-scriptreplay {{path/to/timingfile}} {{path/to/typescript}} 0.5
+scriptreplay <path_to_timingfile> <path_to_typescript> 0.5

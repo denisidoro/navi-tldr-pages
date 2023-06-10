@@ -16,7 +16,7 @@ mozillavpn status
 mozillavpn servers
 
 # Select a specific server
-mozillavpn select {{server_name}}
+mozillavpn select <server_name>
 
 # Disconnect from Mozilla VPN
 mozillavpn deactivate
@@ -25,4 +25,4 @@ mozillavpn deactivate
 mozillavpn logout
 
 # Display help for a subcommand
-mozillavpn {{subcommand}} --help
+mozillavpn <subcommand> --help

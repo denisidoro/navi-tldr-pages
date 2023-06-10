@@ -4,7 +4,7 @@
 % az-term, common
 
 # Print marketplace terms
-az term show --product "{{product_identifier}}" --plan "{{plan_identifier}}" --publisher "{{publisher_identifier}}"
+az term show --product "<product_identifier>" --plan "<plan_identifier>" --publisher "<publisher_identifier>"
 
 # Accept marketplace terms
-az term accept --product "{{product_identifier}}" --plan "{{plan_identifier}}" --publisher "{{publisher_identifier}}"
+az term accept --product "<product_identifier>" --plan "<plan_identifier>" --publisher "<publisher_identifier>"

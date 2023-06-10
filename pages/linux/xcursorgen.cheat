@@ -4,10 +4,10 @@
 % xcursorgen, linux
 
 # Create an X cursor file using a config file
-xcursorgen {{path/to/config.cursor}} {{path/to/output_file}}
+xcursorgen <path_to_config.cursor> <path_to_output_file>
 
 # Create an X cursor file using a config file and specify the path to the image files
-xcursorgen --prefix {{path/to/image_directory/}} {{path/to/config.cursor}} {{path/to/output_file}}
+xcursorgen --prefix <path_to_image_directory_> <path_to_config.cursor> <path_to_output_file>
 
-# Create an X cursor file using a config file and write the output to stdout
-xcursorgen {{path/to/config.cursor}}
+# Create an X cursor file using a config file and write the output to `stdout`
+xcursorgen <path_to_config.cursor>

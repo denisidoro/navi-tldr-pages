@@ -4,19 +4,19 @@
 % declare, common
 
 # Declare a string variable with the specified value
-declare {{variable}}="{{value}}"
+declare <variable>="<value>"
 
 # Declare an integer variable with the specified value
-declare -i {{variable}}="{{value}}"
+declare -i <variable>="<value>"
 
 # Declare an array variable with the specified value
-declare -a {{variable}}=({{item_a item_b item_c}})
+declare -a <variable>=(<item_a item_b item_c>)
 
 # Declare an associative array variable with the specified value
-declare -A {{variable}}=({{[key_a]=item_a [key_b]=item_b [key_c]=item_c}})
+declare -A <variable>=(<[key_a]=item_a [key_b]=item_b [key_c]=item_c>)
 
 # Declare a readonly string variable with the specified value
-declare -r {{variable}}="{{value}}"
+declare -r <variable>="<value>"
 
 # Declare a global variable within a function with the specified value
-declare -g {{variable}}="{{value}}"
+declare -g <variable>="<value>"

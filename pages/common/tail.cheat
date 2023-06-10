@@ -4,19 +4,19 @@
 % tail, common
 
 # Show last 'count' lines in file
-tail --lines {{count}} {{path/to/file}}
+tail --lines <count> <path_to_file>
 
 # Print a file from a specific line number
-tail --lines +{{count}} {{path/to/file}}
+tail --lines +<count> <path_to_file>
 
 # Print a specific count of bytes from the end of a given file
-tail --bytes {{count}} {{path/to/file}}
+tail --bytes <count> <path_to_file>
 
 # Print the last lines of a given file and keep reading file until `Ctrl + C`
-tail --follow {{path/to/file}}
+tail --follow <path_to_file>
 
 # Keep reading file until `Ctrl + C`, even if the file is inaccessible
-tail --retry --follow {{path/to/file}}
+tail --retry --follow <path_to_file>
 
 # Show last 'num' lines in 'file' and refresh every 'n' seconds
-tail --lines {{count}} --sleep-interval {{seconds}} --follow {{path/to/file}}
+tail --lines <count> --sleep-interval <seconds> --follow <path_to_file>

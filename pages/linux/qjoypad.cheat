@@ -7,7 +7,7 @@
 qjoypad
 
 # Start QJoyPad and look for devices in a specific directory
-qjoypad --device={{path/to/directory}}
+qjoypad --device=<path_to_directory>
 
 # Start QJoyPad but don't show a system tray icon
 qjoypad --notray
@@ -19,4 +19,4 @@ qjoypad --force-tray
 qjoypad --update
 
 # Load the given layout in an already running instance of QJoyPad, or start QJoyPad using the given layout
-qjoypad "{{layout}}"
+qjoypad "<layout>"

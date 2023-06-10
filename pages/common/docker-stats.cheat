@@ -7,10 +7,10 @@
 docker stats
 
 # Display a live stream of statistics for a space-separated list of containers
-docker stats {{container_name}}
+docker stats <container_name>
 
 # Change the columns format to display container's CPU usage percentage
-docker stats --format "{{.Name}}:\t{{.CPUPerc}}"
+docker stats --format "<.Name>:\t<.CPUPerc>"
 
 # Display statistics for all containers (both running and stopped)
 docker stats --all

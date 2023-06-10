@@ -4,19 +4,19 @@
 % dpkg, linux
 
 # Install a package
-dpkg -i {{path/to/file.deb}}
+dpkg -i <path_to_file.deb>
 
 # Remove a package
-dpkg -r {{package_name}}
+dpkg -r <package_name>
 
 # List installed packages
-dpkg -l {{pattern}}
+dpkg -l <pattern>
 
 # List a package's contents
-dpkg -L {{package_name}}
+dpkg -L <package_name>
 
 # List contents of a local package file
-dpkg -c {{path/to/file.deb}}
+dpkg -c <path_to_file.deb>
 
 # Find out which package owns a file
-dpkg -S {{filename}}
+dpkg -S <filename>

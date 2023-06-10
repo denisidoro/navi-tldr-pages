@@ -4,10 +4,10 @@
 % kreadconfig5, linux
 
 # Read a key from the global configuration
-kreadconfig5 --group {{group_name}} --key {{key_name}}
+kreadconfig5 --group <group_name> --key <key_name>
 
 # Read a key from a specific configuration file
-kwriteconfig5 --file {{path/to/file}} --group {{group_name}} --key {{key_name}}
+kwriteconfig5 --file <path_to_file> --group <group_name> --key <key_name>
 
 # Check if systemd is used to start the Plasma session
-kreadconfig5 --file {{startkderc}} --group {{General}} --key {{systemdBoot}}
+kreadconfig5 --file <startkderc> --group <General> --key <systemdBoot>

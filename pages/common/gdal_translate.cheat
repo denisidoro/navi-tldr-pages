@@ -4,13 +4,13 @@
 % gdal_translate, common
 
 # Convert a raster dataset to JPEG format
-gdal_translate -of {{JPEG}} {{path/to/input.tif}} {{path/to/output.jpeg}}
+gdal_translate -of <JPEG> <path_to_input.tif> <path_to_output.jpeg>
 
 # Assign a projection to a raster dataset
-gdal_translate -a_srs {{EPSG:4326}} {{path/to/input.tif}} {{path/to/output.tif}}
+gdal_translate -a_srs <EPSG:4326> <path_to_input.tif> <path_to_output.tif>
 
 # Reduce the size of a raster dataset to a specific fraction
-gdal_translate -outsize {{40%}} {{40%}} {{path/to/input.tif}} {{path/to/output.tif}}
+gdal_translate -outsize <40%> <40%> <path_to_input.tif> <path_to_output.tif>
 
 # Convert a GeoTiff to a Cloud Optimized GeoTiff
-gdal_translate {{path/to/input.tif}} {{path/to/output.tif}} -of COG -co COMPRESS=LZW
+gdal_translate <path_to_input.tif> <path_to_output.tif> -of COG -co COMPRESS=LZW

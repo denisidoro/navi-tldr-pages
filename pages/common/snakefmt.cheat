@@ -4,16 +4,16 @@
 % snakefmt, common
 
 # Format a specific Snakefile
-snakefmt {{path/to/snakefile}}
+snakefmt <path_to_snakefile>
 
 # Format all Snakefiles recursively in a specific directory
-snakefmt {{path/to/directory}}
+snakefmt <path_to_directory>
 
 # Format a file using a specific configuration file
-snakefmt --config {{path/to/config.toml}} {{path/to/snakefile}}
+snakefmt --config <path_to_config.toml> <path_to_snakefile>
 
 # Format a file using a specific maximum line length
-snakefmt --line-length {{100}} {{path/to/snakefile}}
+snakefmt --line-length <100> <path_to_snakefile>
 
 # Display the changes that would be performed without performing them (dry-run)
-snakefmt --diff {{path/to/snakefile}}
+snakefmt --diff <path_to_snakefile>

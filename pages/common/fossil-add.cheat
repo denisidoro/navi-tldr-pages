@@ -4,7 +4,7 @@
 % fossil-add, common
 
 # Put a file or directory under version control, so it will be in the current checkout
-fossil add {{path/to/file_or_directory}}
+fossil add <path_to_file_or_directory>
 
 # Remove all added files from the current checkout
 fossil add --reset

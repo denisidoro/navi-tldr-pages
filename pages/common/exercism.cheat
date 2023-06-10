@@ -4,13 +4,13 @@
 % exercism, common
 
 # Configure the application token and the preferred workspace for Exercism
-exercism configure --token={{your-application-token}} --workspace={{/path/to/preferred/workspace}}
+exercism configure --token=<your-application-token> --workspace=<_path_to_preferred_workspace>
 
 # Download a specific exercise
-exercism download --exercise={{exercise_slug}} --track={{track_slug}}
+exercism download --exercise=<exercise_slug> --track=<track_slug>
 
 # Submit an exercise
-exercism submit {{path/to/file}}
+exercism submit <path_to_file>
 
 # Print the path to the solution workspace
 exercism workspace

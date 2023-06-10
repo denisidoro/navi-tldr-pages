@@ -7,16 +7,16 @@
 ghc Main
 
 # Compile a single file
-ghc {{file.hs}}
+ghc <file.hs>
 
 # Compile using extra optimization
-ghc -O {{file.hs}}
+ghc -O <file.hs>
 
 # Stop compilation after generating object files (.o)
-ghc -c {{file.hs}}
+ghc -c <file.hs>
 
 # Start a REPL (interactive shell)
 ghci
 
 # Evaluate a single expression
-ghc -e {{expression}}
+ghc -e <expression>

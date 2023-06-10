@@ -7,13 +7,13 @@
 xdg-open .
 
 # Open a URL in the default browser
-xdg-open {{https://example.com}}
+xdg-open <https:__example.com>
 
 # Open an image in the default image viewer
-xdg-open {{path/to/image}}
+xdg-open <path_to_image>
 
 # Open a PDF in the default PDF viewer
-xdg-open {{path/to/pdf}}
+xdg-open <path_to_pdf>
 
 # Display help
 xdg-open --help

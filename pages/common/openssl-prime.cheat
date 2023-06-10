@@ -7,4 +7,4 @@
 openssl prime -generate -bits 2048 -hex
 
 # Check if a given number is prime
-openssl prime {{number}}
+openssl prime <number>

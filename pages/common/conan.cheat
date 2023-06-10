@@ -4,19 +4,19 @@
 % conan, common
 
 # Install packages based on `conanfile.txt`
-conan install {{.}}
+conan install <.>
 
 # Install packages and create configuration files for a specific generator
-conan install -g {{generator}}
+conan install -g <generator>
 
 # Install packages, building from source
-conan install {{.}} --build
+conan install <.> --build
 
 # Search for locally installed packages
-conan search {{package}}
+conan search <package>
 
 # Search for remote packages
-conan search {{package}} -r {{remote}}
+conan search <package> -r <remote>
 
 # List remotes
 conan remote list

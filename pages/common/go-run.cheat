@@ -4,7 +4,7 @@
 % go-run, common
 
 # Run a Go file
-go run {{path/to/file.go}}
+go run <path_to_file.go>
 
 # Run a main Go package
-go run {{path/to/package}}
+go run <path_to_package>

@@ -7,4 +7,4 @@
 distrobox-list
 
 # List all distrobox containers with verbose information
-distrobox-list -v
+distrobox-list --verbose

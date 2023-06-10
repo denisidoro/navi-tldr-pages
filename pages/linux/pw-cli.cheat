@@ -7,7 +7,7 @@
 pw-cli list-objects Node
 
 # Print information about an object with a specific ID
-pw-cli info {{4}}
+pw-cli info <4>
 
 # Print all objects' information
 pw-cli info all

@@ -10,7 +10,7 @@ dm-tool switch-to-greeter
 dm-tool lock
 
 # Switch to a specific user, showing an authentication prompt if required
-dm-tool switch-to-user {{username}} {{session}}
+dm-tool switch-to-user <username> <session>
 
 # Add a dynamic seat from within a running LightDM session
-dm-tool add-seat {{xlocal}} {{name}}={{value}}
+dm-tool add-seat <xlocal> <name>=<value>

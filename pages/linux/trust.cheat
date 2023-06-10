@@ -7,16 +7,16 @@
 trust list
 
 # List information about specific items in the trust policy store
-trust list --filter={{blocklist|ca-anchors|certificates|trust-policy}}
+trust list --filter=<blocklist|ca-anchors|certificates|trust-policy>
 
 # Store a specific trust anchor in the trust policy store
-trust anchor {{path/to/certificate.crt}}
+trust anchor <path_to_certificate.crt>
 
 # Remove a specific anchor from the trust policy store
-trust anchor --remove {{path/to/certificate.crt}}
+trust anchor --remove <path_to_certificate.crt>
 
 # Extract trust policy from the shared trust policy store
-trust extract --format=x509-directory --filter=ca-anchors {{path/to/directory}}
+trust extract --format=x509-directory --filter=ca-anchors <path_to_directory>
 
 # Display help for a subcommand
-trust {{subcommand}} --help
+trust <subcommand> --help

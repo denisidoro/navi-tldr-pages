@@ -4,7 +4,7 @@
 % launchd, osx
 
 # Run init
-/sbin/launchd
+_sbin_launchd
 
 # View documentation for interacting with launchd using launchctl
 tldr launchctl

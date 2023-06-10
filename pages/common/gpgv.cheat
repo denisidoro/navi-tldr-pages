@@ -4,10 +4,10 @@
 % gpgv, common
 
 # Verify a signed file
-gpgv {{path/to/file}}
+gpgv <path_to_file>
 
 # Verify a signed file using a detached signature
-gpgv {{path/to/signature}} {{path/to/file}}
+gpgv <path_to_signature> <path_to_file>
 
 # Add a file to the list of keyrings (a single exported key also counts as a keyring)
-gpgv --keyring {{./alice.keyring}} {{path/to/signature}} {{path/to/file}}
+gpgv --keyring <._alice.keyring> <path_to_signature> <path_to_file>

@@ -7,7 +7,7 @@
 check-language-support
 
 # List packages for a specific locale
-check-language-support --language {{en}}
+check-language-support --language <en>
 
 # Display installed packages as well as missing ones
 check-language-support --show-installed

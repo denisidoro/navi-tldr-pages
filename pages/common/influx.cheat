@@ -7,16 +7,16 @@
 influx
 
 # Connect with a specific username (will prompt for a password)
-influx -username {{username}} -password ""
+influx -username <username> -password ""
 
 # Connect to a specific host
-influx -host {{hostname}}
+influx -host <hostname>
 
 # Use a specific database
-influx -database {{database_name}}
+influx -database <database_name>
 
 # Execute a given command
-influx -execute "{{influxql_command}}"
+influx -execute "<influxql_command>"
 
 # Return output in a specific format
-influx -execute "{{influxql_command}}" -format {{json|csv|column}}
+influx -execute "<influxql_command>" -format <json|csv|column>

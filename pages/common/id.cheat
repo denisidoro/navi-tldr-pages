@@ -13,4 +13,4 @@ id -u
 id -g
 
 # Display an arbitrary user's ID (UID), group ID (GID) and groups to which they belong
-id {{username}}
+id <username>

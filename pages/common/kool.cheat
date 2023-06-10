@@ -4,13 +4,13 @@
 % kool, common
 
 # Create a project using a specific preset
-kool create {{preset}} {{project_name}}
+kool create <preset> <project_name>
 
 # Run a specific script defined in the `kool.yml` file in the current directory
-kool run {{script}}
+kool run <script>
 
-# Start/stop services in the current directory
-kool {{start|stop}}
+# Start_stop services in the current directory
+kool <start|stop>
 
 # Display status of the services in the current directory
 kool status
@@ -19,4 +19,4 @@ kool status
 kool self-update
 
 # Print the completion script for the specified shell
-kool completion {{bash|fish|powershell|zsh}}
+kool completion <bash|fish|powershell|zsh>

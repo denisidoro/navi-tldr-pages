@@ -13,7 +13,7 @@ travis login
 travis repos
 
 # Encrypt values in `.travis.yml`
-travis encrypt {{token}}
+travis encrypt <token>
 
 # Generate a `.travis.yml` file and enable the project
 travis init

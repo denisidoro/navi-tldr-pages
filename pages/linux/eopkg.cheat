@@ -4,10 +4,10 @@
 % eopkg, linux
 
 # Install a specific package
-sudo eopkg install {{package_name}}
+sudo eopkg install <package_name>
 
 # Update all packages
 sudo eopkg upgrade
 
 # Search for packages
-sudo eopkg search {{search_term}}
+sudo eopkg search <search_term>

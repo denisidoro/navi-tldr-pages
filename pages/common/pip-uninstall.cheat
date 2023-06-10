@@ -4,10 +4,10 @@
 % pip-uninstall, common
 
 # Uninstall a package
-pip uninstall {{package_name}}
+pip uninstall <package_name>
 
 # Uninstall packages listed in a specific file
-pip uninstall --requirement {{path/to/requirements.txt}}
+pip uninstall --requirement <path_to_requirements.txt>
 
 # Uninstall package without asking for confirmation
-pip uninstall --yes {{package_name}}
+pip uninstall --yes <package_name>

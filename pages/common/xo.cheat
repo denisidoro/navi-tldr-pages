@@ -7,7 +7,7 @@
 xo
 
 # Lint a given set of files
-xo {{file1}}.js {{file2}}.js
+xo <file1>.js <file2>.js
 
 # Automatically fix any lint issues found
 xo --fix

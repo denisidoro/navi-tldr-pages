@@ -13,7 +13,7 @@ sudo tailscale down
 tailscale ip
 
 # Ping a peer node at the Tailscale layer and display which route it took for each response
-tailscale ping {{ip|hostname}}
+tailscale ping <ip|hostname>
 
 # Analyze the local network conditions and display the result
 tailscale netcheck
@@ -25,4 +25,4 @@ tailscale web
 tailscale bugreport
 
 # Display help for a subcommand
-tailscale {{subcommand}} --help
+tailscale <subcommand> --help

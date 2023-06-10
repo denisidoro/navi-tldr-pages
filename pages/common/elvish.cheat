@@ -7,7 +7,7 @@
 elvish
 
 # Execute specific [c]ommands
-elvish -c "{{echo 'elvish is executed'}}"
+elvish -c "<echo 'elvish is executed'>"
 
 # Execute a specific script
-elvish {{path/to/script.elv}}
+elvish <path_to_script.elv>

@@ -4,7 +4,7 @@
 % jadx, common
 
 # Decompile a Dex file into a directory
-jadx {{path/to/file}}
+jadx <path_to_file>
 
 # Decompile a Dex file into a specific directory
-jadx --output-dir {{path/to/directory}} {{path/to/file}}
+jadx --output-dir <path_to_directory> <path_to_file>

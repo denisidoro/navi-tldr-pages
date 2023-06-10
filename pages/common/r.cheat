@@ -13,13 +13,13 @@ R --version
 R --vanilla
 
 # Execute a file
-R -f {{path/to/file.R}}
+R -f <path_to_file.R>
 
 # Execute an R expression and then exit
-R -e {{expr}}
+R -e <expr>
 
 # Run R with a debugger
-R -d {{debugger}}
+R -d <debugger>
 
 # Check R packages from package sources
-R CMD check {{path/to/package_source}}
+R CMD check <path_to_package_source>

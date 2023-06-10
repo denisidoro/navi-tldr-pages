@@ -4,10 +4,10 @@
 % drupal, common
 
 # Install a module
-drupal module:install {{module_name}}
+drupal module:install <module_name>
 
 # Uninstall a module
-drupal module:uninstall {{module_name}}
+drupal module:uninstall <module_name>
 
 # Clear all caches
 drupal cache:rebuild

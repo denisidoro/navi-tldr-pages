@@ -4,10 +4,10 @@
 % pdf-parser, common
 
 # Display statistics for a PDF file
-pdf-parser --stats {{path/to/file.pdf}}
+pdf-parser --stats <path_to_file.pdf>
 
-# Display objects of type `/Font` in a PDF file
-pdf-parser --type={{/Font}} {{path/to/file.pdf}}
+# Display objects of type `_Font` in a PDF file
+pdf-parser --type=<_Font> <path_to_file.pdf>
 
 # Search for strings in indirect objects
-pdf-parser --search={{search_string}} {{path/to/file.pdf}}
+pdf-parser --search=<search_string> <path_to_file.pdf>

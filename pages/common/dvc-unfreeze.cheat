@@ -4,4 +4,4 @@
 % dvc-unfreeze, common
 
 # Unfreeze 1 or more specified stages
-dvc unfreeze {{stage_name_a}} [{{stage_name_b}} ...]
+dvc unfreeze <stage_name_a> [<stage_name_b> ...]

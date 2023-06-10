@@ -4,7 +4,7 @@
 % ul, linux
 
 # Display the contents of the file with underlines where applicable
-ul {{file.txt}}
+ul <file.txt>
 
 # Display the contents of the file with underlines made of dashes `-`
-ul -i {{file.txt}}
+ul -i <file.txt>

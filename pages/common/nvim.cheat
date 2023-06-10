@@ -4,22 +4,22 @@
 % nvim, common
 
 # Open a file
-nvim {{file}}
+nvim <path_to_file>
 
 # Enter text editing mode (insert mode)
 <Esc>i
 
 # Copy ("yank") or cut ("delete") the current line (paste it with `P`)
-<Esc>{{yy|dd}}
+<Esc><yy|dd>
 
 # Enter normal mode and undo the last operation
 <Esc>u
 
-# Search for a pattern in the file (press `n`/`N` to go to next/previous match)
-<Esc>/{{search_pattern}}<Enter>
+# Search for a pattern in the file (press `n`_`N` to go to next_previous match)
+<Esc>_<search_pattern><Enter>
 
 # Perform a regular expression substitution in the whole file
-<Esc>:%s/{{regular_expression}}/{{replacement}}/g<Enter>
+<Esc>:%s_<regular_expression>_<replacement>_g<Enter>
 
 # Enter normal mode and save (write) the file, and quit
 <Esc>:wq<Enter>

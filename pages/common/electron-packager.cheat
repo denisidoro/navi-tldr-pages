@@ -4,13 +4,13 @@
 % electron-packager, common
 
 # Package an application for the current architecture and platform
-electron-packager "{{path/to/app}}" "{{app_name}}"
+electron-packager "<path_to_app>" "<app_name>"
 
 # Package an application for all architectures and platforms
-electron-packager "{{path/to/app}}" "{{app_name}}" --all
+electron-packager "<path_to_app>" "<app_name>" --all
 
 # Package an application for 64-bit Linux
-electron-packager "{{path/to/app}}" "{{app_name}}" --platform="{{linux}}" --arch="{{x64}}"
+electron-packager "<path_to_app>" "<app_name>" --platform="<linux>" --arch="<x64>"
 
 # Package an application for ARM macOS
-electron-packager "{{path/to/app}}" "{{app_name}}" --platform="{{darwin}}" --arch="{{arm64}}"
+electron-packager "<path_to_app>" "<app_name>" --platform="<darwin>" --arch="<arm64>"

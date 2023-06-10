@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xsp.md
+
+% xsp, common
+
+# Listen on all interfaces (`0.0.0.0`) and port `8080`
+xsp
+
+# Listen on a specific IP address and port
+xsp --address <127.0.0.1> --port <8000>

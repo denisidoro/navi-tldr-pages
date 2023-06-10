@@ -7,7 +7,7 @@
 serverless create
 
 # Create a serverless project from a template
-serverless create --template {{template_name}}
+serverless create --template <template_name>
 
 # Deploy to a cloud provider
 serverless deploy
@@ -16,7 +16,7 @@ serverless deploy
 serverless info
 
 # Invoke a deployed function
-serverless invoke -f {{function_name}}
+serverless invoke -f <function_name>
 
 # Follow the logs for a project
 serverless logs -t

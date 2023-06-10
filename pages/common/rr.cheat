@@ -4,7 +4,7 @@
 % rr, common
 
 # Record an application
-rr record {{path/to/binary --arg1 --arg2}}
+rr record <path_to_binary --arg1 --arg2>
 
 # Replay latest recorded execution
 rr replay

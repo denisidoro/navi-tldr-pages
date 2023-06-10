@@ -4,7 +4,7 @@
 % pyats, common
 
 # Run a `pyATS` subcommand
-pyats {{subcommand}}
+pyats <subcommand>
 
 # Display version
 pyats version check
@@ -13,4 +13,4 @@ pyats version check
 pyats --help
 
 # Display help about a specific subcommand
-pyats {{subcommand}} --help
+pyats <subcommand> --help

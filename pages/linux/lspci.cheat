@@ -13,7 +13,7 @@ lspci -v
 lspci -k
 
 # Show a specific device
-lspci -s {{00:18.3}}
+lspci -s <00:18.3>
 
 # Dump info in a readable form
 lspci -vm

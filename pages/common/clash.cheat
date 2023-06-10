@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/clash.md
+
+% clash, common
+
+# Specify a configuration [d]irectory
+clash -d <path_to_directory>
+
+# Specify a configuration [f]ile
+clash -f <path_to_configuration_file>

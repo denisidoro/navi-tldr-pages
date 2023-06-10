@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/argocd.md
+
+% argocd, common
+
+# Login to Argo CD server
+argocd login --insecure --username <user> --password <password> <argocd_server:port>
+
+# List applications
+argocd app list

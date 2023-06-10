@@ -7,7 +7,10 @@
 assoc
 
 # Display the associated file type for a specific extension
-assoc {{.txt}}
+assoc <.txt>
 
 # Set the associated file type for a specific extension
-assoc .{{txt}}={{txtfile}}
+assoc .<txt>=<txtfile>
+
+# View the output of `assoc` one screen at a time
+assoc | <more>

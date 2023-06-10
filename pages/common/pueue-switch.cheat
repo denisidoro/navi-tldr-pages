@@ -4,4 +4,4 @@
 % pueue-switch, common
 
 # Switch the priority of two tasks
-pueue switch {{task_id1}} {{task_id2}}
+pueue switch <task_id1> <task_id2>

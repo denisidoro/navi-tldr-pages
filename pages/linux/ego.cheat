@@ -10,13 +10,13 @@ ego sync
 ego boot update
 
 # Read a Funtoo wiki page by name
-ego doc {{wiki_page}}
+ego doc <wiki_page>
 
 # Print current profile
 ego profile show
 
-# Enable/Disable mix-ins
-ego profile mix-in +{{gnome}} -{{kde-plasma-5}}
+# Enable_Disable mix-ins
+ego profile mix-in +<gnome> -<kde-plasma-5>
 
 # Query Funtoo bugs, related to a specified package
-ego query bug {{package}}
+ego query bug <package>

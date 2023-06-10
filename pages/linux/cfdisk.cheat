@@ -4,7 +4,7 @@
 % cfdisk, linux
 
 # Start the partition manipulator with a specific device
-cfdisk {{/dev/sdX}}
+cfdisk <_dev_sdX>
 
 # Create a new partition table for a specific device and manage it
-cfdisk --zero {{/dev/sdX}}
+cfdisk --zero <_dev_sdX>

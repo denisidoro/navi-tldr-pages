@@ -3,14 +3,14 @@
 
 % veracrypt, linux
 
-# Create a new volume through a text user interface and use `/dev/urandom` as a source of random data
-veracrypt --text --create --random-source={{/dev/urandom}}
+# Create a new volume through a text user interface and use `_dev_urandom` as a source of random data
+veracrypt --text --create --random-source=<_dev_urandom>
 
 # Decrypt a volume interactively through a text user interface and mount it to a directory
-veracrypt --text {{path/to/volume}} {{path/to/mount_point}}
+veracrypt --text <path_to_volume> <path_to_mount_point>
 
 # Decrypt a partition using a keyfile and mount it to a directory
-veracrypt --keyfiles={{path/to/keyfile}} {{/dev/sdXN}} {{path/to/mount_point}}
+veracrypt --keyfiles=<path_to_keyfile> <_dev_sdXN> <path_to_mount_point>
 
 # Dismount a volume on the directory it is mounted to
-veracrypt --dismount {{path/to/mounted_point}}
+veracrypt --dismount <path_to_mounted_point>

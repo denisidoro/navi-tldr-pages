@@ -4,7 +4,7 @@
 % svgcleaner, common
 
 # Optimize an SVG
-svgcleaner {{input.svg}} {{output.svg}}
+svgcleaner <input.svg> <output.svg>
 
 # Optimize an SVG multiple times
-svgcleaner --multipass {{input.svg}} {{output.svg}}
+svgcleaner --multipass <input.svg> <output.svg>

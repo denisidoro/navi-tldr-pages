@@ -7,7 +7,7 @@
 tlmgr shell
 
 # Run any `tlmgr` sub-command in the interactive shell
-{{sub_command}} {{arguments}}
+<sub_command> <arguments>
 
 # Quit the interactive shell
 quit
@@ -16,10 +16,10 @@ quit
 get
 
 # Get the value of a TeX Live variable
-get {{variable}}
+get <variable>
 
 # Set the value of a TeX Live variable
-set {{variable}} {{value}}
+set <variable> <value>
 
 # Restart the interactive shell
 restart

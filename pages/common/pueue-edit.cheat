@@ -4,10 +4,10 @@
 % pueue-edit, common
 
 # Edit a task, see `pueue status` to get the task ID
-pueue edit {{task_id}}
+pueue edit <task_id>
 
 # Edit the path from which a task is executed
-pueue edit {{task_id}} --path
+pueue edit <task_id> --path
 
 # Edit a command with the specified editor
-EDITOR={{nano}} pueue edit {{task_id}}
+EDITOR=<nano> pueue edit <task_id>

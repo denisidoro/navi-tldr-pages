@@ -7,10 +7,10 @@
 docker swarm init
 
 # Display the token to join a manager or a worker
-docker swarm join-token {{worker|manager}}
+docker swarm join-token <worker|manager>
 
 # Join a new node to the cluster
-docker swarm join --token {{token}} {{manager_node_url:2377}}
+docker swarm join --token <token> <manager_node_url:2377>
 
 # Remove a worker from the swarm (run inside the worker node)
 docker swarm leave
@@ -22,4 +22,4 @@ docker swarm ca
 docker swarm ca --rotate
 
 # Change the valid period for node certificates
-docker swarm update --cert-expiry {{hours}}h{{minutes}}m{{seconds}}s
+docker swarm update --cert-expiry <hours>h<minutes>m<seconds>s

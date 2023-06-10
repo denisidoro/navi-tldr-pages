@@ -7,22 +7,22 @@
 typeorm init
 
 # Create an empty migration file
-typeorm migration:create --name {{migration_name}}
+typeorm migration:create --name <migration_name>
 
 # Create a migration file with the SQL statements to update the schema
-typeorm migration:generate --name {{migration_name}}
+typeorm migration:generate --name <migration_name>
 
 # Run all pending migrations
 typeorm migration:run
 
 # Create a new entity file in a specific directory
-typeorm entity:create --name {{entity}} --dir {{path/to/directory}}
+typeorm entity:create --name <entity> --dir <path_to_directory>
 
 # Display the SQL statements to be executed by `typeorm schema:sync` on the default connection
 typeorm schema:log
 
 # Execute a specific SQL statement on the default connection
-typeorm query {{sql_sentence}}
+typeorm query <sql_sentence>
 
 # Display help for a subcommand
-typeorm {{subcommand}} --help
+typeorm <subcommand> --help

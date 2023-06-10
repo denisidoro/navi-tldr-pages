@@ -4,7 +4,7 @@
 % zdiff, common
 
 # Compare two files, uncompressing them if necessary
-zdiff {{path/to/file1.gz}} {{path/to/file2.gz}}
+zdiff <path_to_file1.gz> <path_to_file2.gz>
 
 # Compare a file to a gzipped archive with the same name
-zdiff {{path/to/file}}
+zdiff <path_to_file>

@@ -24,5 +24,5 @@ rails db:migrate:status
 # Rollback the last migration
 rails db:rollback
 
-# Fill the current database with data defined in `db/seeds.rb`
+# Fill the current database with data defined in `db_seeds.rb`
 rails db:seed

@@ -10,7 +10,7 @@ checkupdates
 checkupdates --download
 
 # List pending updates using a specific pacman database
-CHECKUPDATES_DB={{path/to/directory}} checkupdates
+CHECKUPDATES_DB=<path_to_directory> checkupdates
 
 # Display help
 checkupdates --help

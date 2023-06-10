@@ -4,4 +4,4 @@
 % cksum, common
 
 # Display a 32-bit checksum, size in bytes and filename
-cksum {{path/to/file}}
+cksum <path_to_file>

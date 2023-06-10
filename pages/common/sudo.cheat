@@ -4,13 +4,13 @@
 % sudo, common
 
 # Run a command as the superuser
-sudo {{less /var/log/syslog}}
+sudo <less _var_log_syslog>
 
 # Edit a file as the superuser with your default editor
-sudo --edit {{/etc/fstab}}
+sudo --edit <_etc_fstab>
 
-# Run a command as another user and/or group
-sudo --user={{user}} --group={{group}} {{id -a}}
+# Run a command as another user and_or group
+sudo --user=<user> --group=<group> <id -a>
 
 # Repeat the last command prefixed with `sudo` (only in `bash`, `zsh`, etc.)
 sudo !!
@@ -22,7 +22,7 @@ sudo --login
 sudo --shell
 
 # Launch the default shell as the specified user, loading the user's environment and reading login-specific files (`.profile`, `.bash_profile`, etc.)
-sudo --login --user={{user}}
+sudo --login --user=<user>
 
 # List the allowed (and forbidden) commands for the invoking user
 sudo --list

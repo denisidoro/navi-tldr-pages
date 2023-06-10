@@ -7,13 +7,13 @@
 lxterminal
 
 # Open an LXTerminal window, run a command, and then exit
-lxterminal -e "{{command}}"
+lxterminal -e "<command>"
 
 # Open an LXTerminal window with multiple tabs
-lxterminal --tabs={{tab_name1,tab_name2,...}}
+lxterminal --tabs=<tab_name1,tab_name2,...>
 
 # Open an LXTerminal window with a specific title
-lxterminal --title={{title_name}}
+lxterminal --title=<title_name>
 
 # Open an LXTerminal window with a specific working directory
-lxterminal --working-directory={{path/to/directory}}
+lxterminal --working-directory=<path_to_directory>

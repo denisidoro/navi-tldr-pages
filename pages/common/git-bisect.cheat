@@ -4,10 +4,10 @@
 % git-bisect, common
 
 # Start a bisect session on a commit range bounded by a known buggy commit, and a known clean (typically older) one
-git bisect start {{bad_commit}} {{good_commit}}
+git bisect start <bad_commit> <good_commit>
 
 # For each commit that `git bisect` selects, mark it as "bad" or "good" after testing it for the issue
-git bisect {{good|bad}}
+git bisect <good|bad>
 
 # After `git bisect` pinpoints the faulty commit, end the bisect session and return to the previous branch
 git bisect reset

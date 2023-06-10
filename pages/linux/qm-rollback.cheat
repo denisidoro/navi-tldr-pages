@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-rollback.md
+
+% qm-rollback, linux
+
+# Rollback the state of a specific VM to a specified snapshot
+qm rollback <vm_id> <snap_name>

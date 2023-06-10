@@ -3,17 +3,14 @@
 
 % touch, common
 
-# Create a new empty file(s) or change the times for existing file(s) to current time
-touch {{path/to/file}}
+# Create specific files
+touch <path_to_file1 path_to_file2 ...>
 
-# Set the times on a file to a specific date and time
-touch -t {{YYYYMMDDHHMM.SS}} {{path/to/file}}
+# Set the file [a]ccess or [m]odification times to the current one and don't [c]reate file if it doesn't exist
+touch -c -<a|m> <path_to_file1 path_to_file2 ...>
 
-# Set the time on a file to one hour in the past
-touch -d "{{-1 hour}}" {{path/to/file}}
+# Set the file [t]ime to a specific value and don't [c]reate file if it doesn't exist
+touch -c -t <YYYYMMDDHHMM.SS> <path_to_file1 path_to_file2 ...>
 
-# Use the times from a file to set the times on a second file
-touch -r {{path/to/file1}} {{path/to/file2}}
-
-# Create multiple files
-touch {{path/to/file{1,2,3}.txt}}
+# Set the file time of a specific file to the time of anothe[r] file and don't [c]reate file if it doesn't exist
+touch -c -r <~.emacs> <path_to_file1 path_to_file2 ...>

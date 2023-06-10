@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/head.md
+
+% head, linux
+
+# Output the first few lines of a file
+head --lines <count> <path_to_file>
+
+# Output the first few bytes of a file
+head --bytes <count> <path_to_file>
+
+# Output everything but the last few lines of a file
+head --lines -<count> <path_to_file>
+
+# Output everything but the last few bytes of a file
+head --bytes -<count> <path_to_file>

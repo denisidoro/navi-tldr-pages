@@ -16,10 +16,10 @@ collectd -T
 collectd
 
 # Specify a custom configuration file location
-collectd -C {{path/to/file}}
+collectd -C <path_to_file>
 
 # Specify a custom PID file location
-collectd -P {{path/to/file}}
+collectd -P <path_to_file>
 
 # Don't fork into the background
 collectd -f

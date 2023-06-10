@@ -7,16 +7,16 @@
 clj
 
 # Execute a function
-clj -X {{namespace/function_name}}
+clj -X <namespace_function_name>
 
 # Run the main function of a specified namespace
-clj -M -m {{namespace}} {{args}}
+clj -M -m <namespace> <args>
 
-# Prepare a project by resolving dependencies, downloading libraries, and making / caching classpaths
+# Prepare a project by resolving dependencies, downloading libraries, and making _ caching classpaths
 clj -P
 
 # Start an nREPL server with the CIDER middleware
-clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}}}' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive
+clj -Sdeps '{:deps {nrepl {:mvn_version "0.7.0"} cider_cider-nrepl {:mvn_version "0.25.2"}}}' -m nrepl.cmdline --middleware '["cider.nrepl_cider-middleware"]' --interactive
 
 # Start a REPL for ClojureScript and open a web browser
-clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}}}' --main cljs.main --repl
+clj -Sdeps '{:deps {org.clojure_clojurescript {:mvn_version "1.10.758"}}}' --main cljs.main --repl

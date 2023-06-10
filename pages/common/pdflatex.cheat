@@ -4,10 +4,10 @@
 % pdflatex, common
 
 # Compile a PDF document
-pdflatex {{source.tex}}
+pdflatex <source.tex>
 
 # Compile a PDF document specifying an output directory
-pdflatex -output-directory={{path/to/directory}} {{source.tex}}
+pdflatex -output-directory=<path_to_directory> <source.tex>
 
 # Compile a PDF document, exiting on each error
-pdflatex -halt-on-error {{source.tex}}
+pdflatex -halt-on-error <source.tex>

@@ -4,16 +4,16 @@
 % vlc, common
 
 # Play a file
-vlc {{path/to/file}}
+vlc <path_to_file>
 
 # Play in fullscreen
-vlc --fullscreen {{path/to/file}}
+vlc --fullscreen <path_to_file>
 
 # Play muted
-vlc --no-audio {{path/to/file}}
+vlc --no-audio <path_to_file>
 
 # Play repeatedly
-vlc --loop {{path/to/file}}
+vlc --loop <path_to_file>
 
 # Play video from a URL
-vlc {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}
+vlc <https:__www.youtube.com_watch?v=oHg5SJYRHA0>

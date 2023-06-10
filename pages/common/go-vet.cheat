@@ -7,16 +7,16 @@
 go vet
 
 # Check the Go package in the specified path
-go vet {{path/to/file_or_directory}}
+go vet <path_to_file_or_directory>
 
 # List available checks that can be run with go vet
 go tool vet help
 
 # View details and flags for a particular check
-go tool vet help {{check_name}}
+go tool vet help <check_name>
 
 # Display offending lines plus N lines of surrounding context
-go vet -c={{N}}
+go vet -c=<N>
 
 # Output analysis and errors in JSON format
 go vet -json

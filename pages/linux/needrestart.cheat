@@ -10,7 +10,7 @@ needrestart
 sudo needrestart
 
 # List outdated processes in [v]erbose or [q]uiet mode
-needrestart -{{v|q}}
+needrestart -<v|q>
 
 # Check if the [k]ernel is outdated
 needrestart -k
@@ -22,7 +22,7 @@ needrestart -w
 needrestart -b
 
 # List outdated processed using a specific [c]onfiguration file
-needrestart -c {{path/to/config}}
+needrestart -c <path_to_config>
 
 # Display help
 needrestart --help

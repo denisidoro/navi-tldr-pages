@@ -7,4 +7,4 @@
 git browse
 
 # Open a specific upstream in the default browser
-git browse {{upstream}}
+git browse <upstream>

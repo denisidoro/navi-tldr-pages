@@ -3,20 +3,20 @@
 
 % skicka, common
 
-# Upload a file/folder to Google Drive
-skicka upload {{path/to/local}} {{path/to/remote}}
+# Upload a file_folder to Google Drive
+skicka upload <path_to_local> <path_to_remote>
 
-# Download a file/folder from Google Drive
-skicka download {{path/to/remote}} {{path/to/local}}
+# Download a file_folder from Google Drive
+skicka download <path_to_remote> <path_to_local>
 
 # List files
-skicka ls {{path/to/folder}}
+skicka ls <path_to_folder>
 
 # Show amount of space used by children folders
-skicka du {{path/to/parent/folder}}
+skicka du <path_to_parent_folder>
 
 # Create a folder
-skicka mkdir {{path/to/folder}}
+skicka mkdir <path_to_folder>
 
 # Delete a file
-skicka rm {{path/to/file}}
+skicka rm <path_to_file>

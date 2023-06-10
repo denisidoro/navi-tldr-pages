@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/gmd5sum.md
+
+% gmd5sum, osx
+
+# View documentation for the original command
+tldr -p linux md5sum

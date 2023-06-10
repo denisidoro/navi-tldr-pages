@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mysqlcheck.md
+
+% mysqlcheck, common
+
+# Check a table
+mysqlcheck --check <table>
+
+# Check a table and provide credentials to access it
+mysqlcheck --check <table> --user <username> --password <password>
+
+# Repair a table
+mysqlcheck --repair <table>
+
+# Optimize a table
+mysqlcheck --optimize <table>

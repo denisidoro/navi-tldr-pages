@@ -4,4 +4,4 @@
 % llvm-cat, common
 
 # Concatenate Bitcode files
-llvm-cat {{path/to/file1.bc}} {{path/to/file2.bc}} -o {{path/to/out.bc}}
+llvm-cat <path_to_file1.bc> <path_to_file2.bc> -o <path_to_out.bc>

@@ -4,4 +4,4 @@
 % git-check-mailmap, common
 
 # Look up the canonical name associated with an email address
-git check-mailmap "<{{email@example.com}}>"
+git check-mailmap "<<email@example.com>>"

@@ -4,7 +4,7 @@
 % git-obliterate, common
 
 # Erase the existence of specific files
-git obliterate {{file_1 file_2 ...}}
+git obliterate <file_1 file_2 ...>
 
 # Erase the existence of specific files between 2 commits
-git obliterate {{file_1 file_2 ...}} -- {{commit_hash_1}}..{{commit_hash_2}}
+git obliterate <file_1 file_2 ...> -- <commit_hash_1>..<commit_hash_2>

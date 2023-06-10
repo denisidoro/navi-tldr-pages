@@ -4,4 +4,4 @@
 % reptyr, linux
 
 # Move a running process to your current terminal
-reptyr {{pid}}
+reptyr <pid>

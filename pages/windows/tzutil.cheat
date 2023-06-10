@@ -4,10 +4,10 @@
 % tzutil, windows
 
 # Get the current time zone
-tzutil /g
+tzutil _g
 
 # Display a list of available time zones
-tzutil /l
+tzutil _l
 
 # Set the system time zone to the specific value
-tzutil /s {{timezone_id}}
+tzutil _s <timezone_id>

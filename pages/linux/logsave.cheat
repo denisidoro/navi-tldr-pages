@@ -4,13 +4,13 @@
 % logsave, linux
 
 # Execute command with specified argument(s) and save its output to log file
-logsave {{path/to/logfile}} {{command}}
+logsave <path_to_logfile> <command>
 
 # Take input from standard input and save it in a log file
-logsave {{logfile}} -
+logsave <logfile> -
 
 # Append the output to a log file, instead of replacing its current contents
-logsave -a {{logfile}} {{command}}
+logsave -a <logfile> <command>
 
 # Show verbose output
-logsave -v {{logfile}} {{command}}
+logsave -v <logfile> <command>

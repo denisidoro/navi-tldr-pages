@@ -7,7 +7,7 @@
 cpufreq-info
 
 # Show CPU frequency information for the specified CPU
-cpufreq-info -c {{cpu_number}}
+cpufreq-info -c <cpu_number>
 
 # Show the allowed minimum and maximum CPU frequency
 cpufreq-info -l

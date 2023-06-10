@@ -13,7 +13,7 @@ godot -e
 godot -p
 
 # Export a project for a given export preset (the preset must be defined in the project)
-godot --export {{preset}} {{output_path}}
+godot --export <preset> <output_path>
 
 # Execute a standalone GDScript file (the script must inherit from `SceneTree` or `MainLoop`)
-godot -s {{script.gd}}
+godot -s <script.gd>

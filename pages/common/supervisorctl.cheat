@@ -3,17 +3,17 @@
 
 % supervisorctl, common
 
-# Start/stop/restart a process
-supervisorctl {{start|stop|restart}} {{process_name}}
+# Start_stop_restart a process
+supervisorctl <start|stop|restart> <process_name>
 
-# Start/stop/restart all processes in a group
-supervisorctl {{start|stop|restart}} {{group_name}}:*
+# Start_stop_restart all processes in a group
+supervisorctl <start|stop|restart> <group_name>:*
 
-# Show last 100 **bytes** of process stderr
-supervisorctl tail -100 {{process_name}} stderr
+# Show last 100 **bytes** of process `stderr`
+supervisorctl tail -100 <process_name> stderr
 
-# Keep displaying stdout of a process
-supervisorctl tail -f {{process_name}} stdout
+# Keep displaying `stdout` of a process
+supervisorctl tail -f <process_name> stdout
 
-# Reload process config file to add/remove processes as necessary
+# Reload process config file to add_remove processes as necessary
 supervisorctl update

@@ -3,8 +3,8 @@
 
 % rmdir, common
 
-# Remove directory, provided it is empty. Use `rm -r` to remove non-empty directories
-rmdir {{path/to/directory}}
+# Remove specific directories
+rmdir <path_to_directory1 path_to_directory2 ...>
 
-# Remove the target and its parent directories (useful for nested dirs)
-rmdir -p {{path/to/directory}}
+# Remove specific nested directories recursively
+rmdir -p <path_to_directory1 path_to_directory2 ...>

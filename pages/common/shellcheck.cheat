@@ -4,22 +4,22 @@
 % shellcheck, common
 
 # Check a shell script
-shellcheck {{path/to/script.sh}}
+shellcheck <path_to_script.sh>
 
 # Check a shell script interpreting it as the specified shell dialect (overrides the shebang at the top of the script)
-shellcheck --shell {{sh|bash|dash|ksh}} {{path/to/script.sh}}
+shellcheck --shell <sh|bash|dash|ksh> <path_to_script.sh>
 
 # Ignore one or more error types
-shellcheck --exclude {{SC1009,SC1073}} {{path/to/script.sh}}
+shellcheck --exclude <SC1009,SC1073> <path_to_script.sh>
 
 # Also check any sourced shell scripts
-shellcheck --checked-sourced {{path/to/script.sh}}
+shellcheck --checked-sourced <path_to_script.sh>
 
 # Display output in the specified format (defaults to `tty`)
-shellcheck --format {{tty|checkstyle|diff|gcc|json|json1|quiet}} {{path/to/script.sh}}
+shellcheck --format <tty|checkstyle|diff|gcc|json|json1|quiet> <path_to_script.sh>
 
 # Enable one or more optional checks
-shellcheck --enable={{add-default-case|avoid-nullary-conditions}}
+shellcheck --enable=<add-default-case|avoid-nullary-conditions>
 
 # List all available optional checks that are disabled by default
 shellcheck --list-optional

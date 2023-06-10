@@ -4,7 +4,7 @@
 % valac, common
 
 # Compile a vala file, with gtk+
-valac {{path/to/file.vala}} --pkg {{gtk+-3.0}}
+valac <path_to_file.vala> --pkg <gtk+-3.0>
 
 # Display version info
 valac --version

@@ -7,13 +7,13 @@
 ia configure
 
 # Upload one or more items to `archive.org`
-ia upload {{identifier}} {{path/to/file}} --metadata="{{mediatype:data}}" --metadata="{{title:example}}"
+ia upload <identifier> <path_to_file> --metadata="<mediatype:data>" --metadata="<title:example>"
 
 # Download one or more items from `archive.org`
-ia download {{item}}
+ia download <item>
 
 # Delete one or more items from `archive.org`
-ia delete {{identifier}} {{file}}
+ia delete <identifier> <file>
 
 # Search on `archive.org`, returning results as JSON
-ia search '{{subject:"subject" collection:collection}}'
+ia search '<subject:"subject" collection:collection>'

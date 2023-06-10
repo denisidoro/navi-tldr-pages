@@ -10,7 +10,7 @@ git mergetool
 git mergetool --tool-help
 
 # Launch the merge tool identified by a name
-git mergetool --tool {{tool_name}}
+git mergetool --tool <tool_name>
 
 # Don't prompt before each invocation of the merge tool
 git mergetool --no-prompt

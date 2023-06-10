@@ -7,10 +7,10 @@
 joe
 
 # Open a specific file
-joe {{path/to/file}}
+joe <path_to_file>
 
 # Open a specific file, positioning the cursor at the specified line
-joe +{{line}} {{path/to/file}}
+joe +<line> <path_to_file>
 
 # Open a specific file in read-only mode
-joe -rdonly {{path/to/file}}
+joe -rdonly <path_to_file>

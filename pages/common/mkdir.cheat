@@ -3,11 +3,11 @@
 
 % mkdir, common
 
-# Create a directory in current directory or given path
-mkdir {{directory}}
+# Create specific directories
+mkdir <path_to_directory1 path_to_directory2 ...>
 
-# Create multiple directories in the current directory
-mkdir {{directory_1 directory_2 ...}}
+# Create specific directories and their [p]arents if needed
+mkdir -p <path_to_directory1 path_to_directory2 ...>
 
-# Create directories recursively (useful for creating nested dirs)
-mkdir -p {{path/to/directory}}
+# Create directories with specific permissions
+mkdir -m <rwxrw-r--> <path_to_directory1 path_to_directory2 ...>

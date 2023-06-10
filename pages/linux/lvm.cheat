@@ -10,19 +10,19 @@ sudo lvm
 sudo lvm help
 
 # Initialize a drive or partition to be used as a physical volume
-sudo lvm pvcreate {{/dev/sdXY}}
+sudo lvm pvcreate <_dev_sdXY>
 
 # Display information about physical volumes
 sudo lvm pvdisplay
 
-# Create a volume group called vg1 from the physical volume on `/dev/sdXY`
-sudo lvm vgcreate {{vg1}} {{/dev/sdXY}}
+# Create a volume group called vg1 from the physical volume on `_dev_sdXY`
+sudo lvm vgcreate <vg1> <_dev_sdXY>
 
 # Display information about volume groups
 sudo lvm vgdisplay
 
 # Create a logical volume with size 10G from volume group vg1
-sudo lvm lvcreate -L {{10G}} {{vg1}}
+sudo lvm lvcreate -L <10G> <vg1>
 
 # Display information about logical volumes
 sudo lvm lvdisplay

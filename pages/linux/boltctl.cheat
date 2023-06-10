@@ -10,13 +10,13 @@ boltctl
 boltctl list
 
 # Authorize a device temporarily
-boltctl authorize {{device_uuid}}
+boltctl authorize <device_uuid>
 
 # Authorize and remember a device
-boltctl enroll {{device_uuid}}
+boltctl enroll <device_uuid>
 
 # Revoke a previously authorized device
-boltctl forget {{device_uuid}}
+boltctl forget <device_uuid>
 
 # Show more information about a device
-boltctl info {{device_uuid}}
+boltctl info <device_uuid>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wpaclean.md
+
+% wpaclean, common
+
+# Clean capture and save only the 4-way handshake and a beacon in the result
+wpaclean <path_to_result.cap> <path_to_capture.cap>
+
+# Clean multiple captures and save 4-way handshakes and beacons in the result
+wpaclean <path_to_result.cap> <path_to_capture1.cap path_to_capture2.cap ...>

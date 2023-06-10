@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-cleanup.md
+
+% qm-cleanup, linux
+
+# Clean up resources
+qm cleanup <vm_id> <clean-shutdown> <guest-requested>

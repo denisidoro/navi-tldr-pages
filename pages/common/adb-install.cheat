@@ -3,20 +3,20 @@
 
 % adb-install, common
 
-# Push an Android application to an emulator/device
-adb install {{path/to/file.apk}}
+# Push an Android application to an emulator_device
+adb install <path_to_file.apk>
 
-# Push an Android application to a specific emulator/device (overrides `$ANDROID_SERIAL`)
-adb -s {{serial_number}} install {{path/to/file.apk}}
+# Push an Android application to a specific emulator_device (overrides `$ANDROID_SERIAL`)
+adb -s <serial_number> install <path_to_file.apk>
 
 # Reinstall an existing app, keeping its data
-adb install -r {{path/to/file.apk}}
+adb install -r <path_to_file.apk>
 
 # Push an Android application allowing version code downgrade (debuggable packages only)
-adb install -d {{path/to/file.apk}}
+adb install -d <path_to_file.apk>
 
 # Grant all permissions listed in the app manifest
-adb install -g {{path/to/file.apk}}
+adb install -g <path_to_file.apk>
 
 # Quickly update an installed package by only updating the parts of the APK that changed
-adb install --fastdeploy {{path/to/file.apk}}
+adb install --fastdeploy <path_to_file.apk>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/b3sum.md
+
+% b3sum, common
+
+# Calculate the BLAKE3 checksum for one or more files
+b3sum <path_to_file1 path_to_file2 ...>
+
+# Calculate and save the list of BLAKE3 checksums to a file
+b3sum <path_to_file1 path_to_file2 ...> > <path_to_file.b3>
+
+# Calculate a BLAKE3 checksum from `stdin`
+<command> | b3sum
+
+# Read a file of BLAKE3 sums and filenames and verify all files have matching checksums
+b3sum --check <path_to_file.b3>
+
+# Only show a message for missing files or when verification fails
+b3sum --check --quiet <path_to_file.b3>

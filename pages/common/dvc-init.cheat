@@ -10,4 +10,4 @@ dvc init
 dvc init --no-scm
 
 # Initialize DVC in a subdirectory
-cd {{path/to/subdir}} && dvc init --sudir
+cd <path_to_subdir> && dvc init --sudir

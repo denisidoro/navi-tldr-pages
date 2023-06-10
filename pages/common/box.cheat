@@ -7,19 +7,19 @@
 box compile
 
 # Compile a new Phar file using a specific config file
-box compile -c {{path/to/config}}
+box compile -c <path_to_config>
 
 # Display information about the PHAR PHP extension
 box info
 
 # Display information about a specific Phar file
-box info {{path/to/phar_file}}
+box info <path_to_phar_file>
 
 # Validate the first found config file in the working directory
 box validate
 
 # Verify the signature of a specific Phar file
-box verify {{path/to/phar_file}}
+box verify <path_to_phar_file>
 
 # Display all available commands and options
 box help

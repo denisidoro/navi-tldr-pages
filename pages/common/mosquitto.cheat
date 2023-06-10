@@ -7,10 +7,10 @@
 mosquitto
 
 # Specify a configuration file to use
-mosquitto --config-file {{path/to/file.conf}}
+mosquitto --config-file <path_to_file.conf>
 
 # Listen on a specific port
-mosquitto --port {{8883}}
+mosquitto --port <8883>
 
 # Daemonize by forking into the background
 mosquitto --daemon

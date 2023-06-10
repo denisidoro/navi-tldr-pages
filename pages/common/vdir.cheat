@@ -22,4 +22,4 @@ vdir -t
 vdir --group-directories-first
 
 # Recursively list all files and directories in a specific directory
-vdir --recursive {{path/to/directory}}
+vdir --recursive <path_to_directory>

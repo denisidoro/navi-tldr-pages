@@ -4,10 +4,10 @@
 % zipsplit, linux
 
 # Split zipfile into pieces that are no larger than a particular size [n]
-zipsplit -n {{size}} {{path/to/archive.zip}}
+zipsplit -n <size> <path_to_archive.zip>
 
 # [p]ause between the creation of each split zipfile
-zipsplit -p -n {{size}} {{path/to/archive.zip}}
+zipsplit -p -n <size> <path_to_archive.zip>
 
 # Output the split zipfiles into the `archive` directory
-zipsplit -b {{archive}} -n {{size}} {{path/to/archive.zip}}
+zipsplit -b <archive> -n <size> <path_to_archive.zip>

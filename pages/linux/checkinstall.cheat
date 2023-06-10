@@ -7,13 +7,13 @@
 sudo checkinstall --default
 
 # Create a package but don't install it
-sudo checkinstall --install={{no}}
+sudo checkinstall --install=<no>
 
 # Create a package without documentation
 sudo checkinstall --nodoc
 
 # Create a package and set the name
-sudo checkinstall --pkgname {{package}}
+sudo checkinstall --pkgname <package>
 
 # Create a package and specify where to save it
-sudo checkinstall --pakdir {{path/to/directory}}
+sudo checkinstall --pakdir <path_to_directory>

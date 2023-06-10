@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-search.md
+
+% nix3-search, common
+
+# Search `nixpkgs` for a package based on its name or description
+nix search <nixpkgs> <search_term...>
+
+# Show description of a package from nixpkgs
+nix search <nixpkgs#pkg>
+
+# Show all packages available from a flake on github
+nix search <github:owner_repo>

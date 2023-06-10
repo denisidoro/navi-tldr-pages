@@ -4,10 +4,10 @@
 % userdel, linux
 
 # Remove a user
-sudo userdel {{username}}
+sudo userdel <username>
 
 # Remove a user in other root directory
-sudo userdel --root {{path/to/other/root}} {{username}}
+sudo userdel --root <path_to_other_root> <username>
 
 # Remove a user along with the home directory and mail spool
-sudo userdel --remove {{username}}
+sudo userdel --remove <username>

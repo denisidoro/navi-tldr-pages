@@ -4,13 +4,13 @@
 % ccomps, common
 
 # Decompose one or more graphs into their connected components
-ccomps {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}
+ccomps <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
 
 # Print the number of nodes, edges, and connected components in one or more graphs
-ccomps -v -s {{path/to/input1.gv}} {{path/to/input2.gv ...}}
+ccomps -v -s <path_to_input1.gv> <path_to_input2.gv ...>
 
 # Write each connected component to numbered filenames based on `output.gv`
-ccomps -x -o {{path/to/output.gv}} {{path/to/input1.gv}} {{path/to/input2.gv ...}}
+ccomps -x -o <path_to_output.gv> <path_to_input1.gv> <path_to_input2.gv ...>
 
 # Display help for `ccomps`
 ccomps -?

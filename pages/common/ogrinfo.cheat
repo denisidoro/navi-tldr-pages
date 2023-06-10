@@ -7,19 +7,19 @@
 ogrinfo --formats
 
 # List layers of a data source
-ogrinfo {{path/to/input.gpkg}}
+ogrinfo <path_to_input.gpkg>
 
 # Get detailed information about a specific layer of a data source
-ogrinfo {{path/to/input.gpkg}} {{layer_name}}
+ogrinfo <path_to_input.gpkg> <layer_name>
 
 # Show summary information about a specific layer of a data source
-ogrinfo -so {{path/to/input.gpkg}} {{layer_name}}
+ogrinfo -so <path_to_input.gpkg> <layer_name>
 
 # Show summary of all layers of the data source
-ogrinfo -so -al {{path/to/input.gpkg}}
+ogrinfo -so -al <path_to_input.gpkg>
 
 # Show detailed information of features matching a condition
-ogrinfo -where '{{attribute_name > 42}}' {{path/to/input.gpkg}} {{layer_name}}
+ogrinfo -where '<attribute_name > 42>' <path_to_input.gpkg> <layer_name>
 
 # Update a layer in the data source with SQL
-ogrinfo {{path/to/input.geojson}} -dialect SQLite -sql "{{UPDATE input SET attribute_name = 'foo'}}"
+ogrinfo <path_to_input.geojson> -dialect SQLite -sql "<UPDATE input SET attribute_name = 'foo'>"

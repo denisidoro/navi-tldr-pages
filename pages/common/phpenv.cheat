@@ -4,7 +4,7 @@
 % phpenv, common
 
 # Install a PHP version globally
-phpenv install {{version}}
+phpenv install <version>
 
 # Refresh shim files for all PHP binaries known to `phpenv`
 phpenv rehash
@@ -16,10 +16,10 @@ phpenv versions
 phpenv version
 
 # Set the global PHP version
-phpenv global {{version}}
+phpenv global <version>
 
 # Set the local PHP version, which overrides the global version
-phpenv local {{version}}
+phpenv local <version>
 
 # Unset the local PHP version
 phpenv local --unset

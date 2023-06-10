@@ -4,7 +4,7 @@
 % dua, common
 
 # Analyze specific directory
-dua {{path/to/directory}}
+dua <path_to_directory>
 
 # Display apparent size instead of disk usage
 dua --apparent-size
@@ -19,7 +19,7 @@ dua aggregate
 dua interactive
 
 # Format printing byte counts
-dua --format {{metric|binary|bytes|GB|GiB|MB|MiB}}
+dua --format <metric|binary|bytes|GB|GiB|MB|MiB>
 
 # Set the number of threads to be used
-dua --threads {{count}}
+dua --threads <count>

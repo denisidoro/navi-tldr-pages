@@ -4,4 +4,4 @@
 % where, common
 
 # Find all instances of a command
-where {{command}}
+where <command>

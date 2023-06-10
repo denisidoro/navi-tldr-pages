@@ -13,7 +13,7 @@ slop -D
 slop -l
 
 # Specify the output format
-slop -f {{format_string}}
+slop -f <format_string>
 
 # Specify the selection rectangle's color
-slop -c {{red}},{{green}},{{blue}},{{alpha}}
+slop -c <red>,<green>,<blue>,<alpha>

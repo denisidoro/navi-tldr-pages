@@ -4,13 +4,13 @@
 % unison, common
 
 # Sync two directories (creates log first time these two directories are synchronized)
-unison {{path/to/directory_1}} {{path/to/directory_2}}
+unison <path_to_directory_1> <path_to_directory_2>
 
 # Automatically accept the (non-conflicting) defaults
-unison {{path/to/directory_1}} {{path/to/directory_2}} -auto
+unison <path_to_directory_1> <path_to_directory_2> -auto
 
 # Ignore some files using a pattern
-unison {{path/to/directory_1}} {{path/to/directory_2}} -ignore {{pattern}}
+unison <path_to_directory_1> <path_to_directory_2> -ignore <pattern>
 
 # Show documentation
-unison -doc {{topics}}
+unison -doc <topics>

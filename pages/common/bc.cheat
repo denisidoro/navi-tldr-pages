@@ -10,13 +10,13 @@ bc
 bc --mathlib
 
 # Calculate an expression
-echo '{{5 / 3}}' | bc
+echo '<5 _ 3>' | bc
 
 # Execute a script
-bc {{path/to/script.bc}}
+bc <path_to_script.bc>
 
 # Calculate an expression with the specified scale
-echo 'scale = {{10}}; {{5 / 3}}' | bc
+echo 'scale = <10>; <5 _ 3>' | bc
 
-# Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`
-echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib
+# Calculate a sine_cosine_arctangent_natural logarithm_exponential function using `mathlib`
+echo '<s|c|a|l|e>(<1>)' | bc --mathlib

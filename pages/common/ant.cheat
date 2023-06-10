@@ -7,7 +7,7 @@
 ant
 
 # Build a project using build file other than `build.xml`
-ant -f {{buildfile.xml}}
+ant -f <buildfile.xml>
 
 # Print information on possible targets for this project
 ant -p

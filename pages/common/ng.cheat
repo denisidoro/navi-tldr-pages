@@ -4,16 +4,16 @@
 % ng, common
 
 # Create a new Angular application inside a directory
-ng new {{project_name}}
+ng new <project_name>
 
 # Add a new component to one's application
-ng generate component {{component_name}}
+ng generate component <component_name>
 
 # Add a new class to one's application
-ng generate class {{class_name}}
+ng generate class <class_name>
 
 # Add a new directive to one's application
-ng generate directive {{directive_name}}
+ng generate directive <directive_name>
 
 # Run the application with the following command in its root directory
 ng serve

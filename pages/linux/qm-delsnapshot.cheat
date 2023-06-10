@@ -4,7 +4,7 @@
 % qm-delsnapshot, linux
 
 # Delete a snapshot
-qm delsnapshot {{vm_id}} {{snapshot_name}}
+qm delsnapshot <vm_id> <snapshot_name>
 
 # Delete a snapshot from a configuration file (even if removing the disk snapshot fails)
-qm delsnapshot {{vm_id}} {{snapshot_name}} --force 1
+qm delsnapshot <vm_id> <snapshot_name> --force 1

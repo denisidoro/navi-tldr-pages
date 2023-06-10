@@ -10,10 +10,10 @@ git instaweb --start
 git instaweb --start --local
 
 # Listen on a specific port
-git instaweb --start --port {{1234}}
+git instaweb --start --port <1234>
 
 # Use a specified HTTP daemon
-git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}
+git instaweb --start --httpd <lighttpd|apache2|mongoose|plackup|webrick>
 
 # Also auto-launch a web browser
 git instaweb --start --browser

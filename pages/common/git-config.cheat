@@ -3,13 +3,13 @@
 
 % git-config, common
 
-# List only local configuration entries (stored in `.git/config` in the current repository)
+# List only local configuration entries (stored in `.git_config` in the current repository)
 git config --list --local
 
-# List only global configuration entries (stored in `~/.gitconfig`)
+# List only global configuration entries (stored in `~.gitconfig`)
 git config --list --global
 
-# List only system configuration entries (stored in `/etc/gitconfig`), and show their file location
+# List only system configuration entries (stored in `_etc_gitconfig`), and show their file location
 git config --list --system --show-origin
 
 # Get the value of a given configuration entry

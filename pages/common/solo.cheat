@@ -10,10 +10,10 @@ solo ls
 solo key update
 
 # Blink the LED of a specific Solo
-solo key wink --serial {{serial_number}}
+solo key wink --serial <serial_number>
 
 # Generate random bytes using the currently connected Solo's secure random number generator
 solo key rng raw
 
 # Monitor the serial output of a Solo
-solo monitor {{path/to/serial_port}}
+solo monitor <path_to_serial_port>

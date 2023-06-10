@@ -7,7 +7,7 @@
 lslogins
 
 # Display users belonging to a specific group
-lslogins --groups={{groups}}
+lslogins --groups=<groups>
 
 # Display user accounts
 lslogins --user-accs

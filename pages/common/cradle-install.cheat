@@ -16,4 +16,4 @@ cradle install --skip-sql
 cradle install --skip-versioning
 
 # Use specific database details
-cradle install -h {{hostname}} -u {{username}} -p {{password}}
+cradle install -h <hostname> -u <username> -p <password>

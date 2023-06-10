@@ -4,16 +4,16 @@
 % schroot, linux
 
 # Run a command in a specific chroot
-schroot --chroot {{chroot}} {{command}}
+schroot --chroot <chroot> <command>
 
 # Run a command with options in a specific chroot
-schroot --chroot {{chroot}} {{command}} -- {{command_options}}
+schroot --chroot <chroot> <command> -- <command_options>
 
 # Run a command in all available chroots
-schroot --all {{command}}
+schroot --all <command>
 
 # Start an interactive shell within a specific chroot as a specific user
-schroot --chroot {{chroot}} --user {{user}}
+schroot --chroot <chroot> --user <user>
 
 # List available chroots
 schroot --list

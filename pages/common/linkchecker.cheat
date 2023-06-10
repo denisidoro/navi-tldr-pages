@@ -3,14 +3,14 @@
 
 % linkchecker, common
 
-# Find broken links on https://example.com/
-linkchecker {{https://example.com/}}
+# Find broken links on https:__example.com_
+linkchecker <https:__example.com_>
 
 # Also check URLs that point to external domains
-linkchecker --check-extern {{https://example.com/}}
+linkchecker --check-extern <https:__example.com_>
 
 # Ignore URLs that match a specific regular expression
-linkchecker --ignore-url {{regular_expression}} {{https://example.com/}}
+linkchecker --ignore-url <regular_expression> <https:__example.com_>
 
 # Output results to a CSV file
-linkchecker --file-output {{csv}}/{{path/to/file}} {{https://example.com/}}
+linkchecker --file-output <csv>_<path_to_file> <https:__example.com_>

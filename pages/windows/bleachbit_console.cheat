@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/bleachbit_console.md
+
+% bleachbit_console, windows
+
+# Perform the clean-up operation and delete files
+bleachbit_console.exe --clean
+
+# Preview the files that will be deleted and other changes that will be made before actually performing the clean-up operation
+bleachbit_console.exe --preview
+
+# Display system information
+bleachbit_console.exe --sysinfo
+
+# Start the graphical user interface (GUI) version of Bleachbit
+bleachbit_console.exe --gui
+
+# Display version
+bleachbit_console.exe --version

@@ -7,7 +7,7 @@
 scrot
 
 # Capture a screenshot and save it as `capture.png`
-scrot {{capture.png}}
+scrot <capture.png>
 
 # Capture a screenshot interactively
 scrot --select
@@ -16,4 +16,4 @@ scrot --select
 scrot --focused
 
 # Display a countdown of 10 seconds before taking a screenshot
-scrot --count --delay {{10}}
+scrot --count --delay <10>

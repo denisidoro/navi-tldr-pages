@@ -4,4 +4,4 @@
 % f3read, common
 
 # Validate a device by checking the files in a given directory
-f3read {{path/to/mount_point}}
+f3read <path_to_mount_point>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tuckr.md
+
+% tuckr, common
+
+# Check dotfile status
+tuckr status
+
+# Add all dotfiles to system
+tuckr add \*
+
+# Add all dotfiles except specified programs
+tuckr add \* -e <program1>,<program2>
+
+# Remove all dotfiles from the system
+tuckr rm \*
+
+# Add a program dotfile and run its setup script
+tuckr set <program>

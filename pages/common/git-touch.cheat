@@ -4,4 +4,4 @@
 % git-touch, common
 
 # Create new files and add them to the index
-git touch {{path/to/file1 path/to/file2 ...}}
+git touch <path_to_file1 path_to_file2 ...>

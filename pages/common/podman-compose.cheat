@@ -13,7 +13,7 @@ podman-compose up -d
 podman-compose up --build
 
 # Start all containers using an alternate compose file
-podman-compose {{path/to/file}} up
+podman-compose <path_to_file> up
 
 # Stop all running containers
 podman-compose stop
@@ -22,7 +22,7 @@ podman-compose stop
 podman-compose down --volumes
 
 # Follow logs for a container (omit all container names)
-podman-compose logs --follow {{container_name}}
+podman-compose logs --follow <container_name>
 
 # Run a one-time command in a service with no ports mapped
-podman-compose run {{service_name}} {{command}}
+podman-compose run <service_name> <command>

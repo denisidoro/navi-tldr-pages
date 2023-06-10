@@ -4,10 +4,10 @@
 % forever, common
 
 # Start running a file forever (as a daemon)
-forever {{script}}
+forever <script>
 
 # List running "forever" processes (along with IDs and other details of "forever" processes)
 forever list
 
 # Stop a running "forever" process
-forever stop {{ID|pid|script}}
+forever stop <ID|pid|script>

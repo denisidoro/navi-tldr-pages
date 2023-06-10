@@ -7,16 +7,16 @@
 calibredb list
 
 # Search for e-books displaying additional information
-calibredb list --search {{search_term}}
+calibredb list --search <search_term>
 
 # Search for just ids of e-books
-calibredb search {{search_term}}
+calibredb search <search_term>
 
 # Add one or more e-books to the library
-calibredb add {{file1 file2 …}}
+calibredb add <file1 file2 …>
 
 # Recursively add all e-books under a directory to the library
-calibredb add -r {{path/to/directory}}
+calibredb add -r <path_to_directory>
 
 # Remove one or more e-books from the library. You need the e-book IDs (see above)
-calibredb remove {{id1 id2 …}}
+calibredb remove <id1 id2 …>

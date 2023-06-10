@@ -4,13 +4,13 @@
 % mplayer, common
 
 # Play the specified file or URL
-mplayer {{path/to/file|url}}
+mplayer <path_to_file|url>
 
 # Play multiple files
-mplayer {{path/to/file1 path/to/file2 ...}}
+mplayer <path_to_file1 path_to_file2 ...>
 
 # Play a specific file repeatedly
-mplayer -loop {{0}} {{path/to/file}}
+mplayer -loop <0> <path_to_file>
 
 # Pause playback
 <Space>

@@ -4,13 +4,13 @@
 % xplr, common
 
 # Open a directory
-xplr {{path/to/directory}}
+xplr <path_to_directory>
 
 # Focus on a file
-xplr {{path/to/file}}
+xplr <path_to_file>
 
 # Focus on a directory
-xplr --force-focus {{path/to/directory}}
+xplr --force-focus <path_to_directory>
 
 # Open a directory with specific files or directories selected
-xplr {{path/to/directory}} {{path/to/selected_file_or_directory1}} {{path/to/selected_file_or_directory2}}
+xplr <path_to_directory> <path_to_selected_file_or_directory1> <path_to_selected_file_or_directory2>

@@ -10,7 +10,7 @@ avo init
 avo login
 
 # Switch to an existing Avo branch
-avo checkout {{branch_name}}
+avo checkout <branch_name>
 
 # Pull analytics wrappers for the current path
 avo pull
@@ -25,4 +25,4 @@ avo conflict
 avo edit
 
 # Display help for a subcommand
-avo {{subcommand}} --help
+avo <subcommand> --help

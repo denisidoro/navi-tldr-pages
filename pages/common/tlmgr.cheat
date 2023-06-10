@@ -4,13 +4,13 @@
 % tlmgr, common
 
 # Install a package and its dependencies
-tlmgr install {{package}}
+tlmgr install <package>
 
 # Remove a package and its dependencies
-tlmgr remove {{package}}
+tlmgr remove <package>
 
 # Display information about a package
-tlmgr info {{package}}
+tlmgr info <package>
 
 # Update all packages
 tlmgr update --all

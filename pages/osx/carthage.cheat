@@ -16,4 +16,4 @@ carthage update --no-build
 carthage bootstrap
 
 # Rebuild a specific dependency
-carthage build {{dependency}}
+carthage build <dependency>

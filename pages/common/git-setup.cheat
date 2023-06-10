@@ -7,4 +7,4 @@
 git setup
 
 # Create a Git repository in a specific directory and commit all files
-git setup {{path/to/directory}}
+git setup <path_to_directory>

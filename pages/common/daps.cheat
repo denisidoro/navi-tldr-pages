@@ -4,13 +4,13 @@
 % daps, common
 
 # Check if a DocBook XML file is valid
-daps -d {{path/to/file.xml}} validate
+daps -d <path_to_file.xml> validate
 
 # Convert a DocBook XML file into PDF
-daps -d {{path/to/file.xml}} pdf
+daps -d <path_to_file.xml> pdf
 
 # Convert a DocBook XML file into a single HTML file
-daps -d {{path/to/file.xml}} html --single
+daps -d <path_to_file.xml> html --single
 
 # Display help
 daps --help

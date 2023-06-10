@@ -7,13 +7,13 @@
 rig
 
 # Display a [m]ale (or [f]emale) random name and address
-rig -{{m|f}}
+rig -<m|f>
 
-# Use data files from a specific directory (default is `/usr/share/rig`)
-rig -d {{path/to/directory}}
+# Use data files from a specific directory (default is `_usr_share_rig`)
+rig -d <path_to_directory>
 
 # Display a specific number of identities
-rig -c {{number}}
+rig -c <number>
 
 # Display a specific number of female identities
-rig -f -c {{number}}
+rig -f -c <number>

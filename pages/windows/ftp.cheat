@@ -4,25 +4,25 @@
 % ftp, windows
 
 # Connect to a remote FTP server interactively
-ftp {{host}}
+ftp <host>
 
 # Log in as an anonymous user
-ftp -A {{host}}
+ftp -A <host>
 
 # Disable automatic login upon initial connection
-ftp -n {{host}}
+ftp -n <host>
 
 # Run a file containing a list of FTP commands
-ftp -s:{{path/to/file}} {{host}}
+ftp -s:<path\to\file> <host>
 
 # Download multiple files (glob expression)
-mget {{*.png}}
+mget <*.png>
 
 # Upload multiple files (glob expression)
-mput {{*.zip}}
+mput <*.zip>
 
 # Delete multiple files on the remote server
-mdelete {{*.txt}}
+mdelete <*.txt>
 
 # Display detailed help
 ftp --help

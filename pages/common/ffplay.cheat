@@ -4,10 +4,10 @@
 % ffplay, common
 
 # Play a media file
-ffplay {{path/to/file}}
+ffplay <path_to_file>
 
 # Play a video and show motion vectors in real time
-ffplay -flags2 +export_mvs -vf codecview=mv=pf+bf+bb {{path/to/file}}
+ffplay -flags2 +export_mvs -vf codecview=mv=pf+bf+bb <path_to_file>
 
 # Show only video keyframes
-ffplay -vf select="{{eq(pict_type\,PICT_TYPE_I)}}" {{path/to/file}}
+ffplay -vf select="<eq(pict_type\,PICT_TYPE_I)>" <path_to_file>

@@ -4,16 +4,16 @@
 % reg-query, windows
 
 # Display all values of a key
-reg query {{key_name}}
+reg query <key_name>
 
 # Display a specific value of a key
-reg query {{key_name}} /v {{value}}
+reg query <key_name> _v <value>
 
 # Display all values of a key and its sub keys
-reg query {{key_name}} /s
+reg query <key_name> _s
 
 # Search for keys and values matching a specific pattern
-reg query {{key_name}} /f "{{query_pattern}}"
+reg query <key_name> _f "<query_pattern>"
 
 # Display a value of a key matching a specified data type
-reg query {{key_name}} /t {{type}}
+reg query <key_name> _t <type>

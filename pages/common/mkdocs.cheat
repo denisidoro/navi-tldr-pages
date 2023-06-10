@@ -4,7 +4,7 @@
 % mkdocs, common
 
 # Create a new mkdocs project
-mkdocs new {{project_name}}
+mkdocs new <project_name>
 
 # Serve the project in the current directory using the mkdocs dev-server
 mkdocs serve

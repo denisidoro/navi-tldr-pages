@@ -4,19 +4,19 @@
 % afinfo, osx
 
 # Display info of a given audio file
-afinfo {{path/to/file}}
+afinfo <path_to_file>
 
 # Print a one line description of the audio file
-afinfo --brief {{path/to/file}}
+afinfo --brief <path_to_file>
 
 # Print metadata info and contents of the audio file's InfoDictionary
-afinfo --info {{path/to/file}}
+afinfo --info <path_to_file>
 
 # Print output in XML format
-afinfo --xml {{path/to/file}}
+afinfo --xml <path_to_file>
 
 # Print warnings for the audio file if any
-afinfo --warnings {{path/to/file}}
+afinfo --warnings <path_to_file>
 
 # Display help for full usage
 afinfo --help

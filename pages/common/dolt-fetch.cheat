@@ -7,7 +7,7 @@
 dolt fetch
 
 # Fetch latest changes from a specific remote upstream repository
-dolt fetch {{remote_name}}
+dolt fetch <remote_name>
 
 # Update branches with the current state of the remote, overwriting any conflicting history
 dolt fetch -f

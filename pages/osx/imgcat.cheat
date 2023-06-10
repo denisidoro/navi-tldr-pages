@@ -4,4 +4,4 @@
 % imgcat, osx
 
 # Display an image on the command-line
-imgcat {{filename}}
+imgcat <filename>

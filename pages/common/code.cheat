@@ -6,17 +6,17 @@
 # Start Visual Studio Code
 code
 
-# Open specific files/directories
-code {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}
+# Open specific files_directories
+code <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
 # Compare two specific files
-code --diff {{path/to/file1}} {{path/to/file2}}
+code --diff <path_to_file1> <path_to_file2>
 
-# Open specific files/directories in a new window
-code --new-window {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}
+# Open specific files_directories in a new window
+code --new-window <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
-# Install/uninstall a specific extension
-code --{{install|uninstall}}-extension {{publisher.extension}}
+# Install_uninstall a specific extension
+code --<install|uninstall>-extension <publisher.extension>
 
 # Print installed extensions
 code --list-extensions
@@ -25,4 +25,4 @@ code --list-extensions
 code --list-extensions --show-versions
 
 # Start the editor as a superuser (root) while storing user data in a specific directory
-sudo code --user-data-dir {{path/to/directory}}
+sudo code --user-data-dir <path_to_directory>

@@ -10,13 +10,13 @@ git --version
 git --help
 
 # Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.)
-git help {{subcommand}}
+git help <subcommand>
 
 # Execute a Git subcommand
-git {{subcommand}}
+git <subcommand>
 
 # Execute a Git subcommand on a custom repository root path
-git -C {{path/to/repo}} {{subcommand}}
+git -C <path_to_repo> <subcommand>
 
 # Execute a Git subcommand with a given configuration set
-git -c '{{config.key}}={{value}}' {{subcommand}}
+git -c '<config.key>=<value>' <subcommand>

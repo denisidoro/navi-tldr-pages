@@ -4,7 +4,7 @@
 % mate-dictionary, common
 
 # Print a specific word definition
-mate-dictionary --no-window --look-up '{{word}}'
+mate-dictionary --no-window --look-up '<word>'
 
 # Show similar words for a specific one in a new window
-mate-dictionary --match '{{word}}'
+mate-dictionary --match '<word>'

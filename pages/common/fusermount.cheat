@@ -4,10 +4,10 @@
 % fusermount, common
 
 # Unmount a FUSE filesystem
-fusermount -u {{path/to/mount_point}}
+fusermount -u <path_to_mount_point>
 
 # Unmount a FUSE filesystem as soon as it becomes unused
-fusermount -z {{path/to/mount_point}}
+fusermount -z <path_to_mount_point>
 
 # Display version
 fusermount --version

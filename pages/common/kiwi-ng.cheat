@@ -4,10 +4,10 @@
 % kiwi-ng, common
 
 # Build an appliance
-kiwi-ng system build --description={{path/to/directory}} --target-dir={{path/to/directory}}
+kiwi-ng system build --description=<path_to_directory> --target-dir=<path_to_directory>
 
 # Show build result of built appliance
-kiwi-ng result list --target-dir={{path/to/directory}}
+kiwi-ng result list --target-dir=<path_to_directory>
 
 # Display help
 kiwi-ng help

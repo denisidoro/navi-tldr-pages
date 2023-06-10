@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mmdebstrap.md
+
+% mmdebstrap, linux
+
+# Create a Debian Stable directory chroot
+sudo mmdebstrap stable <path_to_debian-root_>
+
+# Create a Debian Bookworm tarball chroot using a mirror
+mmdebstrap bookworm <path_to_debian-bookworm.tar> <http:__mirror.example.org_debian>
+
+# Create a Debian Sid tarball chroot with additional packages
+mmdebstrap sid <path_to_debian-sid.tar> --include=<pkg1,pkg2>

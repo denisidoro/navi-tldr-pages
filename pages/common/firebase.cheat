@@ -3,7 +3,7 @@
 
 % firebase, common
 
-# Log in to <https://console.firebase.google.com>
+# Log in to <https:__console.firebase.google.com>
 firebase login
 
 # List existing Firebase projects

@@ -10,10 +10,10 @@ gpgconf --list-components
 gpgconf --list-dirs
 
 # List all options of a component
-gpgconf --list-options {{component}}
+gpgconf --list-options <component>
 
 # List programs and test whether they are runnable
 gpgconf --check-programs
 
 # Reload a component
-gpgconf --reload {{component}}
+gpgconf --reload <component>

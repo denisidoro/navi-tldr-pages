@@ -4,10 +4,10 @@
 % namcap, linux
 
 # Check a specific `PKGBUILD` file
-namcap {{path/to/pkgbuild}}
+namcap <path_to_pkgbuild>
 
 # Check a specific package file
-namcap {{path/to/package.pkg.tar.zst}}
+namcap <path_to_package.pkg.tar.zst>
 
 # Check a file, printing extra [i]nformational messages
-namcap -i {{path/to/file}}
+namcap -i <path_to_file>

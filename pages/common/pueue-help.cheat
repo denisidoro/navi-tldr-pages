@@ -7,4 +7,4 @@
 pueue help
 
 # Show help for a specific subcommand
-pueue help {{subcommand}}
+pueue help <subcommand>

@@ -4,10 +4,10 @@
 % miniserve, common
 
 # Serve a directory
-miniserve {{path/to/directory}}
+miniserve <path_to_directory>
 
 # Serve a single file
-miniserve {{path/to/file}}
+miniserve <path_to_file>
 
 # Serve a directory using HTTP basic authentication
-miniserve --auth {{username}}:{{password}} {{path/to/directory}}
+miniserve --auth <username>:<password> <path_to_directory>

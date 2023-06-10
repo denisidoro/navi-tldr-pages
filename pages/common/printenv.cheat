@@ -7,7 +7,7 @@
 printenv
 
 # Display the value of a specific variable
-printenv {{HOME}}
+printenv <HOME>
 
 # Display the value of a variable and end with NUL instead of newline
-printenv --null {{HOME}}
+printenv --null <HOME>

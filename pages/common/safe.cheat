@@ -4,25 +4,25 @@
 % safe, common
 
 # Add a safe target
-safe target {{vault_addr}} {{target_name}}
+safe target <vault_addr> <target_name>
 
 # Authenticate the CLI client against the Vault server, using an authentication token
-safe auth {{authentication_token}}
+safe auth <authentication_token>
 
 # Print the environment variables describing the current target
 safe env
 
 # Display a tree hierarchy of all reachable keys for a given path
-safe tree {{path}}
+safe tree <path>
 
 # Move a secret from one path to another
-safe move {{old/path/to/secret}} {{new/path/to/secret}}
+safe move <old_path_to_secret> <new_path_to_secret>
 
 # Generate a new 2048-bit SSH key-pair and store it
-safe ssh {{2048}} {{path/to/secret}}
+safe ssh <2048> <path_to_secret>
 
 # Set non-sensitive keys for a secret
-safe set {{path/to/secret}} {{key}}={{value}}
+safe set <path_to_secret> <key>=<value>
 
 # Set auto-generated password in a secret
-safe gen {{path/to/secret}} {{key}}
+safe gen <path_to_secret> <key>

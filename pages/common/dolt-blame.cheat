@@ -4,10 +4,10 @@
 % dolt-blame, common
 
 # Display the latest commit for each row of a table
-dolt blame {{table}}
+dolt blame <table>
 
 # Display the latest commits for each row of a table when the specified commit was made
-dolt blame {{commit}} {{table}}
+dolt blame <commit> <table>
 
 # View help
 dolt blame --help

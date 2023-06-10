@@ -7,10 +7,10 @@
 gpupdate
 
 # Specify the target Group Policy settings to check for update
-gpupdate /target:{{computer|user}}
+gpupdate _target:<computer|user>
 
 # Force all Group Policy settings to be reapplied
-gpupdate /force
+gpupdate _force
 
 # Display detailed usage information
-gpupdate /?
+gpupdate _?

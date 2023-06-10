@@ -10,7 +10,7 @@ trace-cmd stat
 trace-cmd list -t
 
 # Start tracing with a specific plugin
-trace-cmd start -p {{timerlat|osnoise|hwlat|blk|mmiotrace|function_graph|wakeup_dl|wakeup_rt|wakeup|function|nop}}
+trace-cmd start -p <timerlat|osnoise|hwlat|blk|mmiotrace|function_graph|wakeup_dl|wakeup_rt|wakeup|function|nop>
 
 # View the trace output
 trace-cmd show

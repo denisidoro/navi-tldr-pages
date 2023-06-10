@@ -4,13 +4,13 @@
 % clip, windows
 
 # Pipe command-line output to the Windows clipboard
-{{dir}} | clip
+<dir> | clip
 
 # Copy the contents of a file to the Windows clipboard
-clip < {{path/to/file.ext}}
+clip < <path\to\file.ext>
 
 # Copy text with a trailing newline to the Windows clipboard
-echo {{some text}} | clip
+echo <some text> | clip
 
 # Copy text without a trailing newline to the Windows clipboard
-echo | set /p="some text" | clip
+echo | set _p="some text" | clip

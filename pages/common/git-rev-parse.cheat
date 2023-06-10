@@ -4,10 +4,10 @@
 % git-rev-parse, common
 
 # Get the commit hash of a branch
-git rev-parse {{branch_name}}
+git rev-parse <branch_name>
 
 # Get the current branch name
-git rev-parse --abbrev-ref {{HEAD}}
+git rev-parse --abbrev-ref <HEAD>
 
 # Get the absolute path to the root directory
 git rev-parse --show-toplevel

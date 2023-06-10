@@ -4,16 +4,16 @@
 % sxiv, linux
 
 # Open an image
-sxiv {{path/to/file}}
+sxiv <path_to_file>
 
 # Open an image in fullscreen mode
-sxiv -f {{path/to/file}}
+sxiv -f <path_to_file>
 
 # Open a newline-separated list of images, reading filenames from standard input
-echo {{path/to/file}} | sxiv -i
+echo <path_to_file> | sxiv -i
 
 # Open a space-separated list of images as a slideshow
-sxiv -S {{seconds}} {{path/to/file}}
+sxiv -S <seconds> <path_to_file>
 
 # Open a space-separated list of images in thumbnail mode
-sxiv -t {{path/to/file}}
+sxiv -t <path_to_file>

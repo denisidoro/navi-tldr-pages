@@ -7,10 +7,10 @@
 sudo debtap --update
 
 # Convert the specified package
-debtap {{path/to/package.deb}}
+debtap <path_to_package.deb>
 
 # Convert the specified package bypassing all questions, except for editing metadata files
-debtap --quiet {{path/to/package.deb}}
+debtap --quiet <path_to_package.deb>
 
 # Generate a PKGBUILD file
-debtap --pkgbuild {{path/to/package.deb}}
+debtap --pkgbuild <path_to_package.deb>

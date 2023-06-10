@@ -4,10 +4,10 @@
 % register_new_matrix_user, linux
 
 # Create a user interactively
-register_new_matrix_user --config {{path/to/homeserver.yaml}}
+register_new_matrix_user --config <path_to_homeserver.yaml>
 
 # Create an admin user interactively
-register_new_matrix_user --config {{path/to/homeserver.yaml}} --admin
+register_new_matrix_user --config <path_to_homeserver.yaml> --admin
 
 # Create an admin user non-interactively (not recommended)
-register_new_matrix_user --config {{path/to/homeserver.yaml}} --user {{username}} --password {{password}} --admin
+register_new_matrix_user --config <path_to_homeserver.yaml> --user <username> --password <password> --admin

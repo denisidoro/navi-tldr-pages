@@ -7,7 +7,7 @@
 offlineimap -o
 
 # Synchronize a specific account
-offlineimap -a {{account}}
+offlineimap -a <account>
 
 # Synchronize a specific folder
-offlineimap -f {{folder}}
+offlineimap -f <folder>

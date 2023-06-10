@@ -10,4 +10,4 @@ aws help
 aws help topics
 
 # Display help about a specific topic
-aws help {{topic_name}}
+aws help <topic_name>

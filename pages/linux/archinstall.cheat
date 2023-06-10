@@ -7,4 +7,4 @@
 archinstall
 
 # Start a preset installer
-archinstall {{minimal|unattended}}
+archinstall <minimal|unattended>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rgpt.md
+
+% rgpt, common
+
+# Ask GPT to improve the code with no extra options
+rgpt --i "$(git diff <path_to_file>)"
+
+# Get a more detailed verbose output from `rgpt` while reviewing the code
+rgpt --v --i "$(git diff <path_to_file>)"
+
+# Ask GPT to improve the code and limit it to a certain amount of GPT3 tokens
+rgpt --max <300> --i "$(git diff <path_to_file>)"
+
+# Ask GPT for a more unique result using a float value between 0 and 2. (higher = more unique)
+rgpt --pres <1.2> --i "$(git diff <path_to_file>)"
+
+# Ask GPT to review your code using a specific model
+rgpt --model <davinci> --i "$(git diff <path_to_file>)"
+
+# Make `rgpt` use a JSON output
+rgpt --json --i "$(git diff <path_to_file>)"

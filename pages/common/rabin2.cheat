@@ -4,16 +4,16 @@
 % rabin2, common
 
 # Display general information about a binary (architecture, type, endianness)
-rabin2 -I {{path/to/binary}}
+rabin2 -I <path_to_binary>
 
 # Display linked libraries
-rabin2 -l {{path/to/binary}}
+rabin2 -l <path_to_binary>
 
 # Display symbols imported from libraries
-rabin2 -i {{path/to/binary}}
+rabin2 -i <path_to_binary>
 
 # Display strings contained in the binary
-rabin2 -z {{path/to/binary}}
+rabin2 -z <path_to_binary>
 
 # Display the output in JSON
-rabin2 -j -I {{path/to/binary}}
+rabin2 -j -I <path_to_binary>

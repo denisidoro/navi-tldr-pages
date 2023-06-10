@@ -10,10 +10,10 @@ psalm --init
 psalm
 
 # Analyze a specific directory or file
-psalm {{path/to/file_or_directory}}
+psalm <path_to_file_or_directory>
 
 # Analyze a project with a specific configuration file
-psalm --config {{path/to/psalm.xml}}
+psalm --config <path_to_psalm.xml>
 
 # Include informational findings in the output
 psalm --show-info
@@ -22,4 +22,4 @@ psalm --show-info
 psalm --stats
 
 # Analyze a project in parallel with 4 threads
-psalm --threads {{4}}
+psalm --threads <4>

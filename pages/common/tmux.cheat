@@ -7,7 +7,7 @@
 tmux
 
 # Start a new named session
-tmux new -s {{name}}
+tmux new -s <name>
 
 # List existing sessions
 tmux ls
@@ -25,4 +25,4 @@ Ctrl-B c
 Ctrl-B w
 
 # Kill a session by name
-tmux kill-session -t {{name}}
+tmux kill-session -t <name>

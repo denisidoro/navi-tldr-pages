@@ -7,10 +7,10 @@
 bitwise
 
 # Convert from decimal
-bitwise {{12345}}
+bitwise <12345>
 
 # Convert from hexadecimal
-bitwise {{0x563d}}
+bitwise <0x563d>
 
 # Convert a C-style calculation
-bitwise "{{0x123 + 0x20 - 30 / 50}}"
+bitwise "<0x123 + 0x20 - 30 _ 50>"

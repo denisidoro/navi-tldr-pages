@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/getfileinfo.md
+
+% getfileinfo, osx
+
+# Display information about a given file
+GetFileInfo <path_to_filename>
+
+# Display the date and time a given file was created
+GetFileInfo -d <path_to_filename>
+
+# Display the date and time a given file was last modified
+GetFileInfo -m <path_to_filename>
+
+# Display the creator of a given file
+GetFileInfo -c <path_to_filename>

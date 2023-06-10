@@ -13,10 +13,10 @@ tlmgr option show
 tlmgr option showall --json
 
 # Show the value of a specific TeX Live setting
-tlmgr option {{setting}}
+tlmgr option <setting>
 
 # Modify the value of a specific TeX Live setting
-tlmgr option {{setting}} {{value}}
+tlmgr option <setting> <value>
 
 # Set TeX Live to get future updates from the internet after installing from DVD
-tlmgr option {{repository}} {{https://mirror.ctan.org/systems/texlive/tlnet}}
+tlmgr option <repository> <https:__mirror.ctan.org_systems_texlive_tlnet>

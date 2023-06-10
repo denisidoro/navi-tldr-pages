@@ -7,13 +7,13 @@
 apt-get update
 
 # Install a package, or update it to the latest available version
-apt-get install {{package}}
+apt-get install <package>
 
 # Remove a package
-apt-get remove {{package}}
+apt-get remove <package>
 
 # Remove a package and its configuration files
-apt-get purge {{package}}
+apt-get purge <package>
 
 # Upgrade all installed packages to their newest available versions
 apt-get upgrade

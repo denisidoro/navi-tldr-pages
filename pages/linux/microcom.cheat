@@ -4,7 +4,7 @@
 % microcom, linux
 
 # Open a serial port using the specified baud rate
-microcom --port {{path/to/serial_port}} --speed {{baud_rate}}
+microcom --port <path_to_serial_port> --speed <baud_rate>
 
 # Establish a telnet connection to the specified host
-microcom --telnet {{hostname}}:{{port}}
+microcom --telnet <hostname>:<port>

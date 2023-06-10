@@ -4,7 +4,7 @@
 % kak, common
 
 # Open a file and enter normal mode, to execute commands
-kak {{path/to/file}}
+kak <path_to_file>
 
 # Enter insert mode from normal mode, to write text into the file
 i
@@ -13,16 +13,16 @@ i
 <Escape>
 
 # Replace all instances of "foo" in the current file with "bar"
-%s{{foo}}<Enter>c{{bar}}<Escape>
+%s<foo><Enter>c<bar><Escape>
 
 # Unselect all secondary selections, and keep only the main one
 <Space>
 
 # Search for numbers and select the first two
-/\d+<Enter>N
+_\d+<Enter>N
 
 # Insert the contents of a file
-!cat {{path/to/file}}<Enter>
+!cat <path_to_file><Enter>
 
 # Save the current file
 :w<Enter>

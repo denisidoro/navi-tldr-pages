@@ -7,7 +7,7 @@
 gh pr create
 
 # Check out a specific pull request locally
-gh pr checkout {{pr_number}}
+gh pr checkout <pr_number>
 
 # View the changes made in the pull request for the current branch
 gh pr diff
@@ -22,7 +22,7 @@ gh pr merge
 gh pr edit
 
 # Edit the base branch of a pull request
-gh pr edit --base {{branch_name}}
+gh pr edit --base <branch_name>
 
 # Check the status of the current repository's pull requests
 gh pr status

@@ -4,7 +4,7 @@
 % piactl, common
 
 # Log in to Private Internet Access
-piactl login {{path/to/login_file}}
+piactl login <path_to_login_file>
 
 # Connect to Private Internet Access
 piactl connect
@@ -13,7 +13,7 @@ piactl connect
 piactl disconnect
 
 # Enable or disable the Private Internet Access daemon in the background
-piactl background {{enable|disable}}
+piactl background <enable|disable>
 
 # List all available VPN regions
 piactl get regions
@@ -22,7 +22,7 @@ piactl get regions
 piactl get region
 
 # Set your VPN region
-piactl set region {{region}}
+piactl set region <region>
 
 # Log out of Private Internet Access
 piactl logout

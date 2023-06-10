@@ -13,4 +13,4 @@ softwareupdate --install --all
 softwareupdate --install --req
 
 # Download and install a specific app
-softwareupdate --install {{update_name}}
+softwareupdate --install <update_name>

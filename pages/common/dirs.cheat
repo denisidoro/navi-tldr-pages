@@ -10,7 +10,7 @@ dirs
 dirs -p
 
 # Display only the nth entry in the directory stack, starting at 0
-dirs +{{N}}
+dirs +<N>
 
 # Clear the directory stack
 dirs -c

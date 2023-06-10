@@ -13,16 +13,16 @@ cupsd -f
 cupsd -l
 
 # Start `cupsd` using the specified [`c`]`upsd.conf` configuration file
-cupsd -c {{path/to/cupsd.conf}}
+cupsd -c <path_to_cupsd.conf>
 
 # Start `cupsd` using the specified `cups-file`[`s`]`.conf` configuration file
-cupsd -s {{path/to/cups-files.conf}}
+cupsd -s <path_to_cups-files.conf>
 
 # [t]est the [`c`]`upsd.conf` configuration file for errors
-cupsd -t -c {{path/to/cupsd.conf}}
+cupsd -t -c <path_to_cupsd.conf>
 
 # [t]est the `cups-file`[`s`]`.conf` configuration file for errors
-cupsd -t -s {{path/to/cups-files.conf}}
+cupsd -t -s <path_to_cups-files.conf>
 
 # Display all available options
 cupsd -h

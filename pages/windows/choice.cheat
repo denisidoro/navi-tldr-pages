@@ -7,16 +7,16 @@
 choice
 
 # Prompt the current user to select a [c]hoice from a specific set
-choice /c {{AB}}
+choice _c <AB>
 
 # Prompt the current user to select a choice with a specific [m]essage
-choice /m "{{message}}"
+choice _m "<message>"
 
 # Prompt the current user to select a [c]ase-[s]ensitive [c]hoice from a specific set
-choice /cs /c {{Ab}}
+choice _cs _c <Ab>
 
 # Prompt the current user to select a choice and prefer the [d]efault choice in a specific [t]ime
-choice /t {{5}} /d {{N}}
+choice _t <5> _d <N>
 
 # Display help
-choice /?
+choice _?

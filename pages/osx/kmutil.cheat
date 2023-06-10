@@ -10,7 +10,7 @@ kmutil find
 kmutil log
 
 # Inspect and display a kext collection's contents according to the options provided
-kmutil inspect {{options}}
+kmutil inspect <options>
 
 # Check the consistency of kext collections against each other
 kmutil check
@@ -19,4 +19,4 @@ kmutil check
 sudo kmutil dumpstate
 
 # Load one or more extensions based on the bundle specified at this path in the results
-kmutil load --bundle-path {{path/to/extension.kext}}
+kmutil load --bundle-path <path_to_extension.kext>

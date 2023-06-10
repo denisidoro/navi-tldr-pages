@@ -10,7 +10,7 @@ from
 from --count
 
 # List mail in the specified mailbox directory
-MAIL={{path/to/mailbox}} from
+MAIL=<path_to_mailbox> from
 
 # Print the mail from the specified address
-from --sender={{me@example.com}}
+from --sender=<me@example.com>

@@ -9,14 +9,14 @@ gitsome
 # Setup GitHub integration with the current account
 gh configure
 
-# List notifications for the current account (as would be seen in https://github.com/notifications)
+# List notifications for the current account (as would be seen in https:__github.com_notifications)
 gh notifications
 
 # List the current account's starred repos, filtered by a given search string
-gh starred "{{python 3}}"
+gh starred "<python 3>"
 
 # View the recent activity feed of a given GitHub repository
-gh feed {{tldr-pages/tldr}}
+gh feed <tldr-pages_tldr>
 
 # View the recent activity feed for a given GitHub user, using the default pager (e.g. `less`)
-gh feed {{torvalds}} -p
+gh feed <torvalds> -p

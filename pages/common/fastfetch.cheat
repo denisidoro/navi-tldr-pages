@@ -7,13 +7,13 @@
 fastfetch
 
 # Set the structure of the fetch
-fastfetch --structure {{structure}}
+fastfetch --structure <structure>
 
 # Load a custom config file
-fastfetch --load-config {{path/to/config_file}}
+fastfetch --load-config <path_to_config_file>
 
 # Set the logo to use
-fastfetch --logo {{logo}}
+fastfetch --logo <logo>
 
 # Set the color of the keys and title
-fastfetch --color {{blue}}
+fastfetch --color <blue>

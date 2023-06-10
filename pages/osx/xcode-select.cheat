@@ -7,10 +7,10 @@
 xcode-select --install
 
 # Select a given path as the active developer directory
-xcode-select --switch {{path/to/Xcode.app/Contents/Developer}}
+xcode-select --switch <path_to_Xcode.app_Contents_Developer>
 
 # Select a given Xcode instance and use its developer directory as the active one
-xcode-select --switch {{path/to/Xcode.app}}
+xcode-select --switch <path_to_Xcode_file.app>
 
 # Print the currently selected developer directory
 xcode-select --print-path

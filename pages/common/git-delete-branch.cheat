@@ -4,7 +4,7 @@
 % git-delete-branch, common
 
 # Delete a local and remote Git branch
-git delete-branch {{branch_name}}
+git delete-branch <branch_name>
 
 # Delete multiple local and remote Git branches
-git delete-branch {{branch_name1 branch_name2 ...}}
+git delete-branch <branch_name1 branch_name2 ...>

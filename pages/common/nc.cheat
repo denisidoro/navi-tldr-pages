@@ -3,23 +3,26 @@
 
 % nc, common
 
-# Listen on a specified port and print any data received
-nc -l {{port}}
-
-# Connect to a certain port
-nc {{ip_address}} {{port}}
+# Establish a TCP connection
+nc <ip_address> <port>
 
 # Set a timeout
-nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}
+nc -w <timeout_in_seconds> <ipaddress> <port>
+
+# Scan the open TCP ports of a specified host
+nc -v -z <ip_address> <port>
+
+# Listen on a specified TCP port and print any data received
+nc -l <port>
 
 # Keep the server up after the client detaches
-nc -k -l {{port}}
+nc -k -l <port>
 
-# Keep the client up even after EOF
-nc -q {{timeout}} {{ip_address}}
-
-# Scan the open ports of a specified host
-nc -v -z {{ip_address}} {{port}}
+# Listen on a specified UDP port and print connection details and any data received
+nc -u -l <port>
 
 # Act as proxy and forward data from a local TCP port to the given remote host
-nc -l {{local_port}} | nc {{hostname}} {{remote_port}}
+nc -l <local_port> | nc <hostname> <remote_port>
+
+# Send a HTTP request
+echo -e "GET _ HTTP_1.1\nHost: <hostname>\n\n" | nc <hostname> 80

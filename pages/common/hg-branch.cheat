@@ -7,4 +7,4 @@
 hg branch
 
 # Create a new branch for the next commit
-hg branch {{branch_name}}
+hg branch <branch_name>

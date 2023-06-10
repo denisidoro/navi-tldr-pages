@@ -7,10 +7,10 @@
 snake4
 
 # Choose level
-{{1|2|3|4|5}}
+<1|2|3|4|5>
 
 # Navigate the snake
-{{Up|Down|Left|Right}} arrow key
+<Up|Down|Left|Right> arrow key
 
 # Pause game
 Spacebar

@@ -4,7 +4,7 @@
 % xsltproc, osx
 
 # Transform an XML file with a specific XSLT stylesheet
-xsltproc --output {{output.html}} {{stylesheet.xslt}} {{xmlfile.xml}}
+xsltproc --output <path_to_output_file.html> <path_to_stylesheet_file.xslt> <path_to_file.xml>
 
 # Pass a value to a parameter in the stylesheet
-xsltproc --output {{output.html}} --stringparam "{{name}}" "{{value}}" {{stylesheet.xslt}} {{xmlfile.xml}}
+xsltproc --output <path_to_output_file.html> --stringparam "<name>" "<value>" <path_to_stylesheet_file.xslt> <path_to_xml_file.xml>

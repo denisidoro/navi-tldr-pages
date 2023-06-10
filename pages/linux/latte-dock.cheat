@@ -10,7 +10,7 @@ latte-dock --clear-cache
 latte-dock --default-layout
 
 # Load a specific layout on startup
-latte-dock --layout {{layout_name}}
+latte-dock --layout <layout_name>
 
 # Import and load a specific layout
-latte-dock --import-layout {{path/to/file}}
+latte-dock --import-layout <path_to_file>

@@ -10,4 +10,4 @@ genie -i
 genie -s
 
 # Run a specified command inside the bottle
-genie -c {{command}}
+genie -c <command>

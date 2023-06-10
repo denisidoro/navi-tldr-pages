@@ -4,10 +4,10 @@
 % tic, linux
 
 # Compile and install terminfo for a terminal
-tic -xe {{terminal}} {{path/to/terminal.info}}
+tic -xe <terminal> <path_to_terminal.info>
 
 # Check terminfo file for errors
-tic -c {{path/to/terminal.info}}
+tic -c <path_to_terminal.info>
 
 # Print database locations
 tic -D

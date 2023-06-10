@@ -4,13 +4,13 @@
 % quilt, common
 
 # Import an existing patch from a file
-quilt import {{path/to/filename.patch}}
+quilt import <path_to_filename.patch>
 
 # Create a new patch
-quilt new {{filename.patch}}
+quilt new <filename.patch>
 
 # Add a file to the current patch
-quilt add {{path/to/file}}
+quilt add <path_to_file>
 
 # After editing the file, refresh the current patch with the changes
 quilt refresh

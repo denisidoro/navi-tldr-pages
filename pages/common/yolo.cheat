@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yolo.md
+
+% yolo, common
+
+# Create a copy of the default configuration in your current working directory
+yolo task=init
+
+# Train the object detection, instance segment, or classification model with the specified configuration file
+yolo task=<detect|segment|classify> mode=train cfg=<path_to_config.yaml>

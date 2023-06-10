@@ -13,4 +13,4 @@ git show-ref --heads
 git show-ref --tags
 
 # Verify that a given reference exists
-git show-ref --verify {{path/to/ref}}
+git show-ref --verify <path_to_ref>

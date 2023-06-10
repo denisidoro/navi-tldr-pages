@@ -4,10 +4,10 @@
 % mcs, common
 
 # Compile the specified files
-mcs {{path/to/input_file1.cs path/to/input_file2.cs ...}}
+mcs <path_to_input_file1.cs path_to_input_file2.cs ...>
 
 # Specify the output program name
-mcs -out:{{path/to/file.exe}} {{path/to/input_file1.cs path/to/input_file2.cs ...}}
+mcs -out:<path_to_file.exe> <path_to_input_file1.cs path_to_input_file2.cs ...>
 
 # Specify the output program type
-mcs -target:{{exe|winexe|library|module}} {{path/to/input_file1.cs path/to/input_file2.cs ...}}
+mcs -target:<exe|winexe|library|module> <path_to_input_file1.cs path_to_input_file2.cs ...>

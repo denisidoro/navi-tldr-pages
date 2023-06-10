@@ -4,7 +4,7 @@
 % shortcuts, osx
 
 # Run the specified shortcut (`Count holidays`)
-shortcuts run "{{Count holidays}}"
+shortcuts run "<Count holidays>"
 
 # Print all shortcuts
 shortcuts list
@@ -13,4 +13,4 @@ shortcuts list
 shortcuts list --folders
 
 # Open the specified shortcut (`Count holidays`) in the Shortcuts editor
-shortcuts view "{{Count holidays}}"
+shortcuts view "<Count holidays>"

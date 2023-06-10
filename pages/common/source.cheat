@@ -4,7 +4,7 @@
 % source, common
 
 # Evaluate contents of a given file
-source {{path/to/file}}
+source <path_to_file>
 
 # Evaluate contents of a given file (alternatively replacing `source` with `.`)
-. {{path/to/file}}
+. <path_to_file>

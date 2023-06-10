@@ -7,22 +7,22 @@
 python
 
 # Execute a specific Python file
-python {{path/to/file.py}}
+python <path_to_file.py>
 
 # Execute a specific Python file and start a REPL
-python -i {{path/to/file.py}}
+python -i <path_to_file.py>
 
 # Execute a Python expression
-python -c "{{expression}}"
+python -c "<expression>"
 
 # Run the script of the specified library module
-python -m {{module}} {{arguments}}
+python -m <module> <arguments>
 
 # Install a package using `pip`
-python -m {{pip}} install {{package_name}}
+python -m <pip> install <package_name>
 
 # Interactively debug a Python script
-python -m {{pdb}} {{path/to/file.py}}
+python -m <pdb> <path_to_file.py>
 
 # Start the built-in HTTP server on port 8000 in the current directory
-python -m {{http.server}}
+python -m <http.server>

@@ -4,10 +4,10 @@
 % runsvdir, common
 
 # Start and manage all services in a directory as the current user
-runsvdir {{path/to/services}}
+runsvdir <path_to_services>
 
 # Start and manage all services in a directory as root
-sudo runsvdir {{path/to/services}}
+sudo runsvdir <path_to_services>
 
 # Start services in separate sessions
-runsvdir -P {{path/to/services}}
+runsvdir -P <path_to_services>

@@ -4,7 +4,7 @@
 % qm-reset, linux
 
 # Reset a virtual machine
-qm reset {{vm_id}}
+qm reset <vm_id>
 
 # Reset a virtual machine and skip lock (only root can use this option)
-qm reset --skiplock {{true}} {{vm_id}}
+qm reset --skiplock <true> <vm_id>

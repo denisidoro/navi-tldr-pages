@@ -7,7 +7,7 @@
 hledger add
 
 # Show the account hierarchy, using a specific journal file
-hledger --file {{path/to/file.journal}} accounts --tree
+hledger --file <path_to_file.journal> accounts --tree
 
 # Show a monthly income statement
 hledger incomestatement --monthly --depth 2

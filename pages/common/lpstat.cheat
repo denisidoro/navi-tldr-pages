@@ -13,4 +13,4 @@ lpstat -d
 lpstat -t
 
 # Show a list of print jobs queued by the specified user
-lpstat -u {{user}}
+lpstat -u <user>

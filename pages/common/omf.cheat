@@ -4,7 +4,7 @@
 % omf, common
 
 # Install one or more packages
-omf install {{name}}
+omf install <name>
 
 # List installed packages
 omf list
@@ -13,10 +13,10 @@ omf list
 omf theme
 
 # Apply a theme
-omf theme {{name}}
+omf theme <name>
 
 # Remove a theme or package
-omf remove {{name}}
+omf remove <name>
 
 # Uninstall Oh My Fish
 omf destroy

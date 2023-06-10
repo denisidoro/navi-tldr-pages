@@ -4,10 +4,10 @@
 % openscad, common
 
 # Open a file
-openscad {{path/to/button.scad}}
+openscad <path_to_button.scad>
 
 # Convert a file to STL
-openscad -o {{path/to/button.stl}} {{path/to/button.scad}}
+openscad -o <path_to_button.stl> <path_to_button.scad>
 
 # Render a file to PNG in a specific colorscheme
-openscad -o {{path/to/button.png}} --colorscheme {{Sunset}} {{path/to/button.scad}}
+openscad -o <path_to_button.png> --colorscheme <Sunset> <path_to_button.scad>

@@ -10,19 +10,19 @@ atoum --init
 atoum
 
 # Run tests using the specified configuration file
-atoum -c {{path/to/file}}
+atoum -c <path_to_file>
 
 # Run a specific test file
-atoum -f {{path/to/file}}
+atoum -f <path_to_file>
 
 # Run a specific directory of tests
-atoum -d {{path/to/directory}}
+atoum -d <path_to_directory>
 
 # Run all tests under a specific namespace
-atoum -ns {{namespace}}
+atoum -ns <namespace>
 
 # Run all tests with a specific tag
-atoum -t {{tag}}
+atoum -t <tag>
 
 # Load a custom bootstrap file before running tests
-atoum --bootstrap-file {{path/to/file}}
+atoum --bootstrap-file <path_to_file>

@@ -4,10 +4,10 @@
 % gatsby, common
 
 # Create a new site
-gatsby new {{site_name}}
+gatsby new <site_name>
 
 # Create a new site with a Gatsby 'starter'
-gatsby new {{site_name}} {{url_of_starter_github_repo}}
+gatsby new <site_name> <url_of_starter_github_repo>
 
 # Start a live-reloading local development server
 gatsby develop

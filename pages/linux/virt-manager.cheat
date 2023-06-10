@@ -7,7 +7,7 @@
 virt-manager
 
 # Connect to a hypervisor
-virt-manager --connect {{hypervisor_uri}}
+virt-manager --connect <hypervisor_uri>
 
 # Don't fork virt-manager process into background on startup
 virt-manager --no-fork
@@ -19,10 +19,10 @@ virt-manager --debug
 virt-manager --show-domain-creator
 
 # Show domain details window
-virt-manager --show-domain-editor {{name|id|uuid}}
+virt-manager --show-domain-editor <name|id|uuid>
 
 # Show domain performance window
-virt-manager --show-domain-performance {{name|id|uuid}}
+virt-manager --show-domain-performance <name|id|uuid>
 
 # Show connection details window
 virt-manager --show-host-summary

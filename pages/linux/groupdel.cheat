@@ -4,4 +4,4 @@
 % groupdel, linux
 
 # Delete an existing group
-sudo groupdel {{group_name}}
+sudo groupdel <group_name>

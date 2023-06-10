@@ -16,10 +16,10 @@ cargo build --locked
 cargo build --workspace
 
 # Build a specific package
-cargo build --package {{package}}
+cargo build --package <package>
 
 # Build only the specified binary
-cargo build --bin {{name}}
+cargo build --bin <name>
 
 # Build only the specified test target
-cargo build --test {{testname}}
+cargo build --test <testname>

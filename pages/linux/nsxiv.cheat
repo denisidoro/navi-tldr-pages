@@ -4,13 +4,13 @@
 % nsxiv, linux
 
 # Open images
-nsxiv {{path/to/file1 path/to/file2 ...}}
+nsxiv <path_to_file1 path_to_file2 ...>
 
 # Open images from directories in image mode
-nsxiv {{path/to/directory1 path/to/directory2 ...}}
+nsxiv <path_to_directory1 path_to_directory2 ...>
 
 # Search directories recursively for images to view
-nsxiv -r {{path/to/directory1 path/to/directory2 ...}}
+nsxiv -r <path_to_directory1 path_to_directory2 ...>
 
 # Quit nsxiv
 q

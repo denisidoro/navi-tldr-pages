@@ -7,16 +7,16 @@
 dumpsys
 
 # Get diagnostic output for a specific system service
-dumpsys {{service}}
+dumpsys <service>
 
 # List all services `dumpsys` can give information about
 dumpsys -l
 
 # List service-specific arguments for a service
-dumpsys {{service}} -h
+dumpsys <service> -h
 
 # Exclude a specific service from the diagnostic output
-dumpsys --skip {{service}}
+dumpsys --skip <service>
 
 # Specify a timeout period in seconds (defaults to 10s)
-dumpsys -t {{seconds}}
+dumpsys -t <8>

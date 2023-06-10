@@ -4,22 +4,22 @@
 % hugo, common
 
 # Create a new Hugo site
-hugo new site {{path/to/site}}
+hugo new site <path_to_site>
 
-# Create a new Hugo theme (themes may also be downloaded from https://themes.gohugo.io/)
-hugo new theme {{theme_name}}
+# Create a new Hugo theme (themes may also be downloaded from https:__themes.gohugo.io_)
+hugo new theme <theme_name>
 
 # Create a new page
-hugo new {{section_name}}/{{filename}}
+hugo new <section_name>_<page_name>
 
-# Build a site to the `./public/` directory
+# Build a site to the `._public_` directory
 hugo
 
 # Build a site including pages that are marked as a "draft"
 hugo --buildDrafts
 
 # Build a site to a given directory
-hugo --destination {{path/to/destination}}
+hugo --destination <path_to_destination>
 
 # Build a site, start up a webserver to serve it, and automatically reload when pages are edited
 hugo server

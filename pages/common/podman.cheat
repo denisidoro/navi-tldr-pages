@@ -7,22 +7,22 @@
 podman ps --all
 
 # Create a container from an image, with a custom name
-podman run --name {{container_name}} {{image}}
+podman run --name <container_name> <image>
 
 # Start or stop an existing container
-podman {{start|stop}} {{container_name}}
+podman <start|stop> <container_name>
 
 # Pull an image from a registry (defaults to Docker Hub)
-podman pull {{image}}
+podman pull <image>
 
 # Display the list of already downloaded images
 podman images
 
 # Open a shell inside an already running container
-podman exec --interactive --tty {{container_name}} {{sh}}
+podman exec --interactive --tty <container_name> <sh>
 
 # Remove a stopped container
-podman rm {{container_name}}
+podman rm <container_name>
 
 # Display the logs of one or more containers and follow log output
-podman logs --follow {{container_name}} {{container_id}}
+podman logs --follow <container_name> <container_id>

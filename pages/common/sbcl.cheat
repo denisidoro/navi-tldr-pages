@@ -7,4 +7,4 @@
 sbcl
 
 # Execute a Lisp script
-sbcl --script {{path/to/script.lisp}}
+sbcl --script <path_to_script.lisp>

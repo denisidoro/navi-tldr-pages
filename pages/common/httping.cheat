@@ -4,13 +4,13 @@
 % httping, common
 
 # Ping the specified URL
-httping -g {{url}}
+httping -g <url>
 
 # Ping the web server on `host` and `port`
-httping -h {{host}} -p {{port}}
+httping -h <host> -p <port>
 
 # Ping the web server on `host` using a TLS connection
-httping -l -g https://{{host}}
+httping -l -g https:__<host>
 
 # Ping the web server on `host` using HTTP basic authentication
-httping -g http://{{host}} -U {{username}} -P {{password}}
+httping -g http:__<host> -U <username> -P <password>

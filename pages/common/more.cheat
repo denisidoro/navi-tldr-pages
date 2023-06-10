@@ -4,10 +4,10 @@
 % more, common
 
 # Open a file
-more {{path/to/file}}
+more <path_to_file>
 
 # Open a file displaying from a specific line
-more +{{line_number}} {{path/to/file}}
+more +<line_number> <path_to_file>
 
 # Display help
 more --help
@@ -16,7 +16,7 @@ more --help
 <Space>
 
 # Search for a string (press `n` to go to the next match)
-/{{something}}
+_<something>
 
 # Exit
 q

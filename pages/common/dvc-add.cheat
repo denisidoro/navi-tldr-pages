@@ -4,13 +4,13 @@
 % dvc-add, common
 
 # Add a single target file to the index
-dvc add {{path/to/file}}
+dvc add <path_to_file>
 
 # Add a target directory to the index
-dvc add {{path/to/directory}}
+dvc add <path_to_directory>
 
 # Recursively add all the files in a given target directory
-dvc add --recursive {{path/to/directory}}
+dvc add --recursive <path_to_directory>
 
 # Add a target file with a custom `.dvc` filename
-dvc add --file {{custom_name.dvc}} {{path/to/file}}
+dvc add --file <custom_name.dvc> <path_to_file>

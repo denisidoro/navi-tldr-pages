@@ -7,10 +7,10 @@
 doctl apps create
 
 # Create a deployment for a specific app
-doctl apps create-deployment {{app_id}}
+doctl apps create-deployment <app_id>
 
 # Delete an app interactively
-doctl apps delete {{app_id}}
+doctl apps delete <app_id>
 
 # Get an app
 doctl apps get
@@ -19,10 +19,10 @@ doctl apps get
 doctl apps list
 
 # List all deployments from a specific app
-doctl apps list-deployments {{app_id}}
+doctl apps list-deployments <app_id>
 
 # Get logs from a specific app
-doctl apps logs {{app_id}}
+doctl apps logs <app_id>
 
 # Update a specific app with a given app spec
-doctl apps update {{app_id}} --spec {{path/to/spec.yml}}
+doctl apps update <app_id> --spec <path_to_spec.yml>

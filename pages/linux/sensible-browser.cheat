@@ -7,4 +7,4 @@
 sensible-browser
 
 # Open a URL in the default browser
-sensible-browser {{url}}
+sensible-browser <url>

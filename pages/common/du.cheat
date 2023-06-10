@@ -3,20 +3,20 @@
 
 % du, common
 
-# List the sizes of a directory and any subdirectories, in the given unit (B/KiB/MiB)
-du -{{b|k|m}} {{path/to/directory}}
+# List the sizes of a directory and any subdirectories, in the given unit (B_KiB_MiB)
+du -<b|k|m> <path_to_directory>
 
 # List the sizes of a directory and any subdirectories, in human-readable form (i.e. auto-selecting the appropriate unit for each size)
-du -h {{path/to/directory}}
+du -h <path_to_directory>
 
 # Show the size of a single directory, in human-readable units
-du -sh {{path/to/directory}}
+du -sh <path_to_directory>
 
 # List the human-readable sizes of a directory and of all the files and directories within it
-du -ah {{path/to/directory}}
+du -ah <path_to_directory>
 
 # List the human-readable sizes of a directory and any subdirectories, up to N levels deep
-du -h --max-depth=N {{path/to/directory}}
+du -h --max-depth=N <path_to_directory>
 
 # List the human-readable size of all `.jpg` files in subdirectories of the current directory, and show a cumulative total at the end
-du -ch {{*/*.jpg}}
+du -ch <*_*.jpg>

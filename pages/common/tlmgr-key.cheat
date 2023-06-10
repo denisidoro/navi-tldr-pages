@@ -7,10 +7,10 @@
 tlmgr key list
 
 # Add a key from a specific file
-sudo tlmgr key add {{path/to/key.gpg}}
+sudo tlmgr key add <path_to_key.gpg>
 
-# Add a key from stdin
-cat {{path/to/key.gpg}} | sudo tlmgr key add -
+# Add a key from `stdin`
+cat <path_to_key.gpg> | sudo tlmgr key add -
 
 # Remove a specific key by its ID
-sudo tlmgr key remove {{key_id}}
+sudo tlmgr key remove <key_id>

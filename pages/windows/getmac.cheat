@@ -7,16 +7,16 @@
 getmac
 
 # Display the details in a specific format
-getmac /fo {{table|list|csv}}
+getmac _fo <table|list|csv>
 
 # Exclude the header in the output list
-getmac /nh
+getmac _nh
 
 # Display the MAC addresses for a remote machine
-getmac /s {{hostname}} /u {{username}} /p {{password}}
+getmac _s <hostname> _u <username> _p <password>
 
 # Display the MAC addresses with verbose information
-getmac /v
+getmac _v
 
 # Display detailed usage information
-getmac /?
+getmac _?

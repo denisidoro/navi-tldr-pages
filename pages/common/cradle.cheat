@@ -4,13 +4,13 @@
 % cradle, common
 
 # Connect to a server
-cradle connect {{server_name}}
+cradle connect <server_name>
 
 # Display general help
 cradle help
 
 # Display help for a specific command
-cradle {{command}} help
+cradle <command> help
 
 # Execute a Cradle command
-cradle {{command}}
+cradle <command>

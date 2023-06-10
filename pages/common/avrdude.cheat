@@ -4,10 +4,10 @@
 % avrdude, common
 
 # Read AVR microcontroller
-avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{file.hex}}:i
+avrdude -p <AVR_device> -c <programmer> -U flash:r:<file.hex>:i
 
 # Write AVR microcontroller
-avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{file.hex}}
+avrdude -p <AVR_device> -c <programmer> -U flash:w:<file.hex>
 
 # List available AVR devices
 avrdude -p \?

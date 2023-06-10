@@ -7,10 +7,10 @@
 phpbu
 
 # Run backups using a specific configuration file
-phpbu --configuration={{path/to/configuration_file.xml}}
+phpbu --configuration=<path_to_configuration_file.xml>
 
 # Only run the specified backups
-phpbu --limit={{backup_task_name}}
+phpbu --limit=<backup_task_name>
 
 # Simulate the actions that would have been performed
 phpbu --simulate

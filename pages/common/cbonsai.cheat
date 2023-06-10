@@ -10,7 +10,7 @@ cbonsai -l
 cbonsai -i
 
 # Append a message to the bonsai
-cbonsai -m "{{message}}"
+cbonsai -m "<message>"
 
 # Display extra information about the bonsai
 cbonsai -v

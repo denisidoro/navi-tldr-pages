@@ -3,5 +3,5 @@
 
 % initdb, common
 
-# Create a database at `/usr/local/var/postgres`
-initdb -D /usr/local/var/postgres
+# Create a database at `_usr_local_var_postgres`
+initdb -D _usr_local_var_postgres

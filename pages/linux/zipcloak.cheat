@@ -4,10 +4,10 @@
 % zipcloak, linux
 
 # Encrypt the contents of a zipfile
-zipcloak {{path/to/archive.zip}}
+zipcloak <path_to_archive.zip>
 
 # [d]ecrypt the contents of a zipfile
-zipcloak -d {{path/to/archive.zip}}
+zipcloak -d <path_to_archive.zip>
 
 # [O]utput the encrypted contents into a new zipfile
-zipcloak {{path/to/archive.zip}} -O {{path/to/encrypted.zip}}
+zipcloak <path_to_archive.zip> -O <path_to_encrypted.zip>

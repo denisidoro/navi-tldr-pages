@@ -4,10 +4,10 @@
 % go-get, common
 
 # Add a specified package to `go.mod` in module-mode or install the package in GOPATH-mode
-go get {{example.com/pkg}}
+go get <example.com_pkg>
 
 # Modify the package with a given version in module-aware mode
-go get {{example.com/pkg}}@{{v1.2.3}}
+go get <example.com_pkg>@<v1.2.3>
 
 # Remove a specified package
-go get {{example.com/pkg}}@{{none}}
+go get <example.com_pkg>@<none>

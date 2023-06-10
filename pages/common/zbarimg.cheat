@@ -4,4 +4,4 @@
 % zbarimg, common
 
 # Process an image file
-zbarimg {{image_file}}
+zbarimg <image_file>

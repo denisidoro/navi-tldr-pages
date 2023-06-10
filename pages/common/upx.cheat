@@ -4,10 +4,10 @@
 % upx, common
 
 # Compress executable
-upx {{file}}
+upx <path_to_file>
 
 # Decompress executable
-upx -d {{file}}
+upx -d <path_to_file>
 
 # Detailed help
 upx --help

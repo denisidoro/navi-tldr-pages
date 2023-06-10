@@ -4,7 +4,7 @@
 % unshare, linux
 
 # Execute a command without sharing access to connected networks
-unshare --net {{command}} {{command_arguments}}
+unshare --net <command> <command_arguments>
 
 # Execute a command as a child process without sharing mounts, processes, or networks
-unshare --mount --pid --net --fork {{command}} {{command_arguments}}
+unshare --mount --pid --net --fork <command> <command_arguments>

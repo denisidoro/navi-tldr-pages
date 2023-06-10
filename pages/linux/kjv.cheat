@@ -7,22 +7,22 @@
 kjv -l
 
 # Open a specific book
-kjv {{Genesis}}
+kjv <Genesis>
 
 # Open a specific chapter of a book
-kjv {{Genesis}} {{2}}
+kjv <Genesis> <2>
 
 # Open a specific verse of a specific chapter of a book
-kjv {{John}} {{3}}:{{16}}
+kjv <John> <3>:<16>
 
 # Open a specific range of verses of a book's chapter
-kjv {{Proverbs}} {{3}}:{{1-6}}
+kjv <Proverbs> <3>:<1-6>
 
 # Display a specific range of verses of a book from different chapters
-kjv {{Matthew}} {{1}}:{{7}}-{{2}}:{{6}}
+kjv <Matthew> <1>:<7>-<2>:<6>
 
 # Display all verses that match a pattern
-kjv /{{Plagues}}
+kjv _<Plagues>
 
 # Display all verses that match a pattern in a specific book
-kjv {{1Jn}}/{{antichrist}}
+kjv <1Jn>_<antichrist>

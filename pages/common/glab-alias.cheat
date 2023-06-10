@@ -10,10 +10,10 @@ glab alias
 glab alias list
 
 # Create a `glab` subcommand alias
-glab alias set {{mrv}} '{{mr view}}'
+glab alias set <mrv> '<mr view>'
 
 # Set a shell command as a `glab` subcommand
-glab alias set --shell {{alias_name}} {{command}}
+glab alias set --shell <alias_name> <command>
 
 # Delete a command shortcut
-glab alias delete {{alias_name}}
+glab alias delete <alias_name>

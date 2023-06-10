@@ -7,13 +7,13 @@
 kotlinc
 
 # Compile a Kotlin file
-kotlinc {{path/to/file.kt}}
+kotlinc <path_to_file.kt>
 
 # Compile several Kotlin files
-kotlinc {{path/to/file1.kt path/to/file2.kt ...}}
+kotlinc <path_to_file1.kt path_to_file2.kt ...>
 
 # Execute a specific Kotlin Script file
-kotlinc -script {{path/to/file.kts}}
+kotlinc -script <path_to_file.kts>
 
 # Compile a Kotlin file into a self contained jar file with the Kotlin runtime library included
-kotlinc {{path/to/file.kt}} -include-runtime -d {{path/to/file.jar}}
+kotlinc <path_to_file.kt> -include-runtime -d <path_to_file.jar>

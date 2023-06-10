@@ -13,7 +13,7 @@ spicetify backup
 spicetify config
 
 # Change the value of a configuration field
-spicetify config {{field}} {{value}}
+spicetify config <field> <value>
 
 # Apply the customization changes to Spotify
 spicetify apply

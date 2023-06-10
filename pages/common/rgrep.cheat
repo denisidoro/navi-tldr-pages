@@ -4,16 +4,16 @@
 % rgrep, common
 
 # Recursively search for a pattern in the current working directory
-rgrep "{{search_pattern}}"
+rgrep "<search_pattern>"
 
 # Recursively search for a case-insensitive pattern in the current working directory
-rgrep --ignore-case "{{search_pattern}}"
+rgrep --ignore-case "<search_pattern>"
 
 # Recursively search for an extended regular expression pattern (supports `?`, `+`, `{}`, `()` and `|`) in the current working directory
-rgrep --extended-regexp "{{search_pattern}}"
+rgrep --extended-regexp "<search_pattern>"
 
 # Recursively search for an exact string (disables regular expressions) in the current working directory
-rgrep --fixed-strings "{{exact_string}}"
+rgrep --fixed-strings "<exact_string>"
 
 # Recursively search for a pattern in a specified directory (or file)
-rgrep "{{search_pattern}}" {{path/to/file_or_directory}}
+rgrep "<search_pattern>" <path_to_file_or_directory>

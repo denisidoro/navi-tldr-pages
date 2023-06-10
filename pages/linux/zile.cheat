@@ -7,7 +7,7 @@
 zile
 
 # Open a file
-zile {{path/to/file}}
+zile <path_to_file>
 
 # Save a file
 Ctrl + X, Ctrl + S
@@ -16,7 +16,7 @@ Ctrl + X, Ctrl + S
 Ctrl + X, Ctrl + C
 
 # Open a file at a specified line number
-zile +{{line_number}} {{path/to/file}}
+zile +<line_number> <path_to_file>
 
 # Undo changes
 Ctrl + X, U

@@ -4,10 +4,10 @@
 % packtpub, common
 
 # Download the daily offer book into the current directory with the specified book format (defaults to `pdf`)
-packtpub download --type {{pdf|ebup|mobi}}
+packtpub download --type <pdf|ebup|mobi>
 
 # Download the daily offer book into the specified directory
-packtpub download --dir {{path/to/directory}}
+packtpub download --dir <path_to_directory>
 
 # Start an interactive login to packtpub.com
 packtpub login

@@ -7,10 +7,10 @@
 dvc fetch
 
 # Fetch changes from a specific remote upstream repository
-dvc fetch --remote {{remote_name}}
+dvc fetch --remote <remote_name>
 
-# Fetch the latest changes for a specific target/s
-dvc fetch {{target/s}}
+# Fetch the latest changes for a specific target_s
+dvc fetch <target_s>
 
 # Fetch changes for all branch and tags
 dvc fetch --all-branches --all-tags

@@ -10,10 +10,10 @@ x11vnc -shared
 x11vnc -forever -viewonly
 
 # Launch a VNC server on a specific display and screen (both starting at index zero)
-x11vnc -display :{{display}}.{{screen}}
+x11vnc -display :<display>.<screen>
 
 # Launch a VNC server on the third display's default screen
-x11vnc -display :{{2}}
+x11vnc -display :<2>
 
 # Launch a VNC server on the first display's second screen
-x11vnc -display :{{0}}.{{1}}
+x11vnc -display :<0>.<1>

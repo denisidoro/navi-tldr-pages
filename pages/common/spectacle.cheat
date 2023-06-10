@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/spectacle.md
+
+% spectacle, common
+
+# Capture a screenshot of the entire desktop
+spectacle
+
+# Capture a screenshot of the active window
+spectacle --activewindow
+
+# Capture a screenshot of a specific region
+spectacle --region

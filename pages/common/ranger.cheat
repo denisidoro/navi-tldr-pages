@@ -10,10 +10,10 @@ ranger
 ranger --show-only-dirs
 
 # Change the configuration directory
-ranger --confdir={{path/to/directory}}
+ranger --confdir=<path_to_directory>
 
 # Change the data directory
-ranger --datadir={{path/to/directory}}
+ranger --datadir=<path_to_directory>
 
 # Print CPU usage statistics on exit
 ranger --profile

@@ -4,7 +4,7 @@
 % bazel, common
 
 # Build the specified target in the workspace
-bazel build {{target}}
+bazel build <target>
 
 # Remove output files and stop the server if running
 bazel clean

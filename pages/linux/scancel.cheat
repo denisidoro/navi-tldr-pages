@@ -4,7 +4,7 @@
 % scancel, linux
 
 # Cancel a job using its ID
-scancel {{job_id}}
+scancel <job_id>
 
 # Cancel all jobs from a user
-scancel {{user_name}}
+scancel <user_name>

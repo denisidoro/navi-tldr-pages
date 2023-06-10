@@ -4,13 +4,13 @@
 % wsl-open, windows
 
 # Open the current directory in Windows Explorer
-wsl-open {{.}}
+wsl-open <.>
 
 # Open a URL in the user's default web browser in Windows
-wsl-open {{https://example.com}}
+wsl-open <https:__example.com>
 
 # Open a specific file in the user's default application in Windows
-wsl-open {{path/to/file}}
+wsl-open <path\to\file>
 
 # Set `wsl-open` as the shell's web browser (open links with `wsl-open`)
 wsl-open -w

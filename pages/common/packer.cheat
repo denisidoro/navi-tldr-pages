@@ -4,7 +4,7 @@
 % packer, common
 
 # Build an image
-packer build {{path/to/config.json}}
+packer build <path_to_config.json>
 
 # Check the syntax of a Packer image config
-packer validate {{path/to/config.json}}
+packer validate <path_to_config.json>

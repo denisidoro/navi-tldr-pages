@@ -13,7 +13,7 @@ bandwhich --show-dns
 bandwhich --total-utilization
 
 # Show the network utilization for a specific network interface
-bandwhich --interface {{eth0}}
+bandwhich --interface <eth0>
 
 # Show DNS queries with a given DNS server
-bandwhich --show-dns --dns-server {{dns_server_ip}}
+bandwhich --show-dns --dns-server <dns_server_ip>

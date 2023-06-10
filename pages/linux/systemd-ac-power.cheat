@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-ac-power.md
+
+% systemd-ac-power, linux
+
+# Silently check and return a 0 status code when running on AC power, and a non-zero code otherwise
+systemd-ac-power
+
+# Additionally print `yes` or `no` to `stdout`
+systemd-ac-power --verbose

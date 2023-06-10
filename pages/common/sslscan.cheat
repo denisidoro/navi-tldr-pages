@@ -4,10 +4,10 @@
 % sslscan, common
 
 # Test a server on port 443
-sslscan {{example.com}}
+sslscan <example.com>
 
 # Test a specified port
-sslscan {{example.com}}:{{465}}
+sslscan <example.com>:<465>
 
 # Show certificate information
-testssl --show-certificate {{example.com}}
+testssl --show-certificate <example.com>

@@ -4,10 +4,10 @@
 % qcp, common
 
 # Copy a single file (open an editor with the source filename on the left and the target filename on the right)
-qcp {{source_file}}
+qcp <source_file>
 
 # Copy multiple JPG files
-qcp {{*.jpg}}
+qcp <*.jpg>
 
 # Copy files, but swap the positions of the source and the target filenames in the editor
-qcp --option swap {{*.jpg}}
+qcp --option swap <*.jpg>

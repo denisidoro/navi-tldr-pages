@@ -13,13 +13,13 @@ pio device list --logical
 pio device monitor
 
 # Start an interactive device monitor and listen to a specific port
-pio device monitor --port {{/dev/ttyUSBX}}
+pio device monitor --port <_dev_ttyUSBX>
 
 # Start an interactive device monitor and set a specific baud rate (defaults to 9600)
-pio device monitor --baud {{57600}}
+pio device monitor --baud <57600>
 
 # Start an interactive device monitor and set a specific EOL character (defaults to `CRLF`)
-pio device monitor --eol {{CRLF|CR|LF}}
+pio device monitor --eol <CRLF|CR|LF>
 
 # Go to the menu of the interactive device monitor
 Ctrl + T

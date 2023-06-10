@@ -4,19 +4,19 @@
 % badblocks, common
 
 # Search a disk for bad blocks by using a non-destructive read-only test
-sudo badblocks {{/dev/sdX}}
+sudo badblocks <_dev_sdX>
 
 # Search an unmounted disk for bad blocks with a non-destructive read-write test
-sudo badblocks -n {{/dev/sdX}}
+sudo badblocks -n <_dev_sdX>
 
 # Search an unmounted disk for bad blocks with a destructive write test
-sudo badblocks -w {{/dev/sdX}}
+sudo badblocks -w <_dev_sdX>
 
 # Search an unmounted disk for bad blocks with a destructive write test and show verbose status
-sudo badblocks -svw {{/dev/sdX}}
+sudo badblocks -svw <_dev_sdX>
 
 # Search an unmounted disk in destructive mode and output found blocks to a file
-sudo badblocks -o {{path/to/file}} -w {{/dev/sdX}}
+sudo badblocks -o <path_to_file> -w <_dev_sdX>
 
 # Search an unmounted disk in destructive mode with improved speed using 4K block size and 64K block count
-sudo badblocks -w -b {{4096}} -c {{65536}} {{/dev/sdX}}
+sudo badblocks -w -b <4096> -c <65536> <_dev_sdX>

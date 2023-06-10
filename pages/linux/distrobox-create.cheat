@@ -3,8 +3,8 @@
 
 % distrobox-create, linux
 
-# Create a distrobox using the Alpine image
-distrobox-create {{container_name}} --image alpine
+# Create a distrobox container using the Ubuntu image
+distrobox-create <container_name> --image <ubuntu:latest>
 
-# Clone a distrobox
-distrobox-create --clone {{container_name}} {{cloned_container_name}}
+# Clone a distrobox container
+distrobox-create --clone <container_name> <cloned_container_name>

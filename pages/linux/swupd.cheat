@@ -13,13 +13,13 @@ swupd check-update
 swupd bundle-list
 
 # Locate the bundle where a wanted package exists
-swupd search -b {{package}}
+swupd search -b <package>
 
 # Install a new bundle
-sudo swupd bundle-add {{bundle}}
+sudo swupd bundle-add <bundle>
 
 # Remove a bundle
-sudo swupd bundle-remove {{bundle}}
+sudo swupd bundle-remove <bundle>
 
 # Correct broken or missing files
 sudo swupd verify

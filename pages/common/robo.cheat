@@ -7,7 +7,7 @@
 robo list
 
 # Run a specific command
-robo {{foo}}
+robo <foo>
 
 # Simulate running a specific command
-robo --simulate {{foo}}
+robo --simulate <foo>

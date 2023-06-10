@@ -4,25 +4,25 @@
 % mpv, common
 
 # Play a video or audio file
-mpv {{path/to/file}}
+mpv <path_to_file>
 
 # Play a video or audio file from a URL
-mpv '{{https://www.youtube.com/watch?v=dQw4w9WgXcQ}}'
+mpv '<https:__www.youtube.com_watch?v=dQw4w9WgXcQ>'
 
-# Jump backward/forward 5 seconds
+# Jump backward_forward 5 seconds
 LEFT <or> RIGHT
 
-# Jump backward/forward 1 minute
+# Jump backward_forward 1 minute
 DOWN <or> UP
 
 # Decrease or increase playback speed by 10%
 [ <or> ]
 
 # Play a file at a specified speed (0.01 to 100, default 1)
-mpv --speed {{speed}} {{path/to/file}}
+mpv --speed <speed> <path_to_file>
 
 # Play a file using a profile defined in the `mpv.conf` file
-mpv --profile {{profile_name}} {{path/to/file}}
+mpv --profile <profile_name> <path_to_file>
 
 # Display the output of webcam or other video input device
-mpv /dev/{{video0}}
+mpv _dev_<video0>

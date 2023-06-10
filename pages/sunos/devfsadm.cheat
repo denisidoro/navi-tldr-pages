@@ -6,7 +6,7 @@
 # Scan for new disks
 devfsadm -c disk
 
-# Cleanup any dangling /dev links and scan for new device
+# Cleanup any dangling _dev links and scan for new device
 devfsadm -C -v
 
 # Dry-run - output what would be changed but make no modifications

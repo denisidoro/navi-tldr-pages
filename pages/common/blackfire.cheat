@@ -10,19 +10,19 @@ blackfire config
 blackfire agent
 
 # Launch the Blackfire agent on a specific socket
-blackfire agent --socket="{{tcp://127.0.0.1:8307}}"
+blackfire agent --socket="<tcp:__127.0.0.1:8307>"
 
 # Run the profiler on a specific program
-blackfire run {{php path/to/file.php}}
+blackfire run <php path_to_file.php>
 
 # Run the profiler and collect 10 samples
-blackfire --samples={{10}} run {{php path/to/file.php}}
+blackfire --samples=<10> run <php path_to_file.php>
 
 # Run the profiler and output results as JSON
-blackfire --json run {{php path/to/file.php}}
+blackfire --json run <php path_to_file.php>
 
 # Upload a profiler file to the Blackfire web service
-blackfire upload {{path/to/file}}
+blackfire upload <path_to_file>
 
 # View the status of profiles on the Blackfire web service
 blackfire status

@@ -9,7 +9,7 @@ ls -1
 # List all files, including hidden files
 ls -a
 
-# List all files, with trailing `/` added to directory names
+# List all files, with trailing `_` added to directory names
 ls -F
 
 # Long format list (permissions, ownership, size, and modification date) of all files
@@ -25,4 +25,4 @@ ls -lS
 ls -ltr
 
 # Only list directories
-ls -d */
+ls -d *_

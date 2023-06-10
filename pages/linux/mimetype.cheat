@@ -4,22 +4,22 @@
 % mimetype, linux
 
 # Print the MIME type of a given file
-mimetype {{path/to/file}}
+mimetype <path_to_file>
 
 # Display only the MIME type, and not the filename
-mimetype --brief {{path/to/file}}
+mimetype --brief <path_to_file>
 
 # Display a description of the MIME type
-mimetype --describe {{path/to/file}}
+mimetype --describe <path_to_file>
 
-# Determine the MIME type of stdin (does not check a filename)
-{{some_command}} | mimetype --stdin
+# Determine the MIME type of `stdin` (does not check a filename)
+<command> | mimetype --stdin
 
 # Display debug information about how the MIME type was determined
-mimetype --debug {{path/to/file}}
+mimetype --debug <path_to_file>
 
 # Display all the possible MIME types of a given file in confidence order
-mimetype --all {{path/to/file}}
+mimetype --all <path_to_file>
 
 # Explicitly specify the 2-letter language code of the output
-mimetype --language {{path/to/file}}
+mimetype --language <path_to_file>

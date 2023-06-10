@@ -4,7 +4,7 @@
 % tea, common
 
 # Log into a Gitea server
-tea login add --name "{{name}}" --url "{{url}}" --token "{{token}}"
+tea login add --name "<name>" --url "<url>" --token "<token>"
 
 # Display all repositories
 tea repos ls
@@ -13,10 +13,10 @@ tea repos ls
 tea issues ls
 
 # Display a list of issues for a specific repository
-tea issues ls --repo "{{repository}}"
+tea issues ls --repo "<repository>"
 
 # Create a new issue
-tea issues create --title "{{title}}" --body "{{body}}"
+tea issues create --title "<title>" --body "<body>"
 
 # Display a list of open pull requests
 tea pulls ls

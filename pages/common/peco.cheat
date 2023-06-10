@@ -4,10 +4,10 @@
 % peco, common
 
 # Start peco on all files in the specified directory
-find {{path/to/directory}} -type f | peco
+find <path_to_directory> -type f | peco
 
 # Start peco for running processes
 ps aux | peco
 
 # Start peco with a specified query
-peco --query "{{query}}"
+peco --query "<query>"

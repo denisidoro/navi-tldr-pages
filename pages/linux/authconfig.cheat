@@ -7,7 +7,7 @@
 authconfig --test
 
 # Configure the server to use a different password hashing algorithm
-authconfig --update --passalgo={{algorithm}}
+authconfig --update --passalgo=<algorithm>
 
 # Enable LDAP authentication
 authconfig --update --enableldapauth

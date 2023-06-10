@@ -7,7 +7,7 @@
 uuidd --random
 
 # Generate a bulk number of random UUIDs
-uuidd --random --uuids {{number_of_uuids}}
+uuidd --random --uuids <number_of_uuids>
 
 # Generate a time-based UUID, based on the current time and MAC address of the system
 uuidd --time

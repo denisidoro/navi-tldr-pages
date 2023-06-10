@@ -4,10 +4,10 @@
 % pdfinfo, common
 
 # Print PDF file information
-pdfinfo {{path/to/file.pdf}}
+pdfinfo <path_to_file.pdf>
 
 # Specify user password for PDF file to bypass security restrictions
-pdfinfo -upw {{password}} {{path/to/file.pdf}}
+pdfinfo -upw <password> <path_to_file.pdf>
 
 # Specify owner password for PDF file to bypass security restrictions
-pdfinfo -opw {{password}} {{path/to/file.pdf}}
+pdfinfo -opw <password> <path_to_file.pdf>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/funzip.md
+
+% funzip, common
+
+# Print the content of the first member in a `.zip` archive
+funzip <path_to_archive.zip>
+
+# Print the content in a `.gz` archive
+funzip <path_to_archive.gz>
+
+# Decrypt a `.zip` or `.gz` archive and print the content
+funzip -password <password> <path_to_archive>

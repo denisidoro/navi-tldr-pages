@@ -4,16 +4,16 @@
 % newsboat, common
 
 # First import feed URLs from an OPML file
-newsboat -i {{my-feeds.xml}}
+newsboat -i <my-feeds.xml>
 
 # Alternatively, add feeds manually
-echo {{http://example.com/path/to/feed}} >> "${HOME}/.newsboat/urls"
+echo <http:__example.com_path_to_feed> >> "${HOME}.newsboat_urls"
 
 # Start newsboat and refresh all feeds on startup
 newsboat -r
 
 # Execute a space-separated list of commands in non-interactive mode
-newsboat -x {{reload print-unread ...}}
+newsboat -x <reload print-unread ...>
 
 # See keyboard shortcuts (the most relevant are visible in the status line)
 ?

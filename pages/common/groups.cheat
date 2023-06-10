@@ -7,4 +7,4 @@
 groups
 
 # Print group memberships for a list of users
-groups {{username1 username2 ...}}
+groups <username1 username2 ...>

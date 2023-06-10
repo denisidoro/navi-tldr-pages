@@ -4,16 +4,16 @@
 % pip-install, common
 
 # Install a package
-pip install {{package_name}}
+pip install <package_name>
 
 # Install a specific version of a package
-pip install {{package_name}}=={{package_version}}
+pip install <package_name>==<package_version>
 
 # Install packages listed in a file
-pip install --requirement {{path/to/requirements.txt}}
+pip install --requirement <path_to_requirements.txt>
 
 # Install packages from an URL or local file archive (.tar.gz | .whl)
-pip install --find-links {{url|path/to/file}}
+pip install --find-links <url|path_to_file>
 
 # Install the local package in the current directory in develop (editable) mode
-pip install --editable {{.}}
+pip install --editable <.>

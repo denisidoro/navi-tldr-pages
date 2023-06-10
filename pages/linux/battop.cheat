@@ -7,4 +7,4 @@
 battop
 
 # Change battery information measurement [u]nit (default: human)
-battop -u {{human|si}}
+battop -u <human|si>

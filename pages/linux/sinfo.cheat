@@ -10,10 +10,10 @@ sinfo --summarize
 sinfo
 
 # View the detailed status of a specific partition
-sinfo --partition {{partition_name}}
+sinfo --partition <partition_name>
 
 # View information about idle nodes
-sinfo --states {{idle}}
+sinfo --states <idle>
 
 # Summarise dead nodes
 sinfo --dead

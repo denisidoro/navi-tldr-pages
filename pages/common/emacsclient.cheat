@@ -4,19 +4,19 @@
 % emacsclient, common
 
 # Open a file in an existing Emacs server (using GUI if available)
-emacsclient {{path/to/file}}
+emacsclient <path_to_file>
 
 # Open a file in console mode (without an X window)
-emacsclient --no-window-system {{path/to/file}}
+emacsclient --no-window-system <path_to_file>
 
 # Open a file in a new Emacs window
-emacsclient --create-frame {{path/to/file}}
+emacsclient --create-frame <path_to_file>
 
-# Evaluate a command, printing the output to stdout, and then quit
-emacsclient --eval '({{command}})'
+# Evaluate a command, printing the output to `stdout`, and then quit
+emacsclient --eval '(<command>)'
 
 # Specify an alternative editor in case no Emacs server is running
-emacsclient --alternate-editor {{editor}} {{path/to/file}}
+emacsclient --alternate-editor <editor> <path_to_file>
 
 # Stop a running Emacs server and all its instances, asking for confirmation on unsaved files
 emacsclient --eval '(save-buffers-kill-emacs)'

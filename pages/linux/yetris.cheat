@@ -7,10 +7,10 @@
 yetris
 
 # Navigate the piece horizontally
-{{Left|Right}} arrow key
+<Left|Right> arrow key
 
 # Rotate the piece clockwise or counterclockwise
-{{x|z}}
+<x|z>
 
 # Hold a piece (only one allowed at a time)
 c
@@ -21,7 +21,7 @@ Down arrow key
 # Hard drop the piece
 Spacebar
 
-# Pause/unpause the game
+# Pause_unpause the game
 p
 
 # Quit the game

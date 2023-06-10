@@ -13,7 +13,7 @@ pacdiff --sudo
 pacdiff --sudo --backup
 
 # Use a specific editor to view and merge configuration files (default is `vim -d`)
-DIFFPROG={{editor}} pacdiff
+DIFFPROG=<editor> pacdiff
 
 # Scan for configuration files with `locate` instead of using pacman database
 pacdiff --locate

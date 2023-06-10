@@ -7,19 +7,19 @@
 msbuild
 
 # Build a specific project file
-msbuild {{path/to/project_file}}
+msbuild <path_to_project_file>
 
 # Set one or more semicolon-separated targets to build
-msbuild {{path/to/project_file}} /target:{{targets}}
+msbuild <path_to_project_file> _target:<targets>
 
 # Set one or more semicolon-separated properties
-msbuild {{path/to/project_file}} /property:{{name=value}}
+msbuild <path_to_project_file> _property:<name=value>
 
 # Set the build tools version to use
-msbuild {{path/to/project_file}} /toolsversion:{{version}}
+msbuild <path_to_project_file> _toolsversion:<version>
 
 # Display detailed information at the end of the log about how the project was configured
-msbuild {{path/to/project_file}} /detailedsummary
+msbuild <path_to_project_file> _detailedsummary
 
 # Display detailed help information
-msbuild /help
+msbuild _help

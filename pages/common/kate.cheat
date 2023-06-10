@@ -3,23 +3,23 @@
 
 % kate, common
 
-# Launch Kate and open specific files
-kate {{path/to/file1}} {{path/to/file2}}
+# Open specific files
+kate <path_to_file1 path_to_file2 ...>
 
-# Open a remote document in Kate
-kate {{https://example.com/path/to/file}}
+# Open specific remote files
+kate <https:__example.com_path_to_file1 https:__example.com_path_to_file2 ...>
 
-# Launch Kate, creating a new instance even if one is already open
+# Create a new editor instance even if one is already open
 kate --new
 
-# Open a file in Kate with the cursor at the specific line
-kate --line {{line_number}} {{path/to/file}}
+# Open a file with the cursor at the specific line
+kate --line <line_number> <path_to_file>
 
-# Open a file in Kate with the cursor at the specific line and column
-kate --line {{line_number}} --column {{column_number}} {{path/to/file}}
+# Open a file with the cursor at the specific line and column
+kate --line <line_number> --column <column_number> <path_to_file>
 
-# Launch Kate, creating a new temporary file with contents read from stdin
-cat {{path/to/file}} | kate --stdin
+# Create a file from `stdin`
+cat <path_to_file> | kate --stdin
 
 # Display help
 kate --help

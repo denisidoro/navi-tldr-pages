@@ -4,7 +4,7 @@
 % tpp, common
 
 # View a presentation
-tpp {{filename}}
+tpp <path_to_file>
 
 # Output a presentation
-tpp -t {{type}} -o {{outputname}} {{filename}}
+tpp -t <type> -o <path_to_output> <path_to_file>

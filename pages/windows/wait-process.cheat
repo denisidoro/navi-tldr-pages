@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/wait-process.md
+
+% wait-process, windows
+
+# Stop a process and wait
+Stop-Process -Id <process_id>; Wait-Process -Id <process_id>
+
+# Wait for processes for a specified time
+Wait-Process -Name <process_name> -Timeout <30>

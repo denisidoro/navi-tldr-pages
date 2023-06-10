@@ -13,7 +13,7 @@ cloud-init status --wait
 cloud-init query --list-keys
 
 # Query cached instance metadata for data
-cloud-init query {{dot_delimited_variable_path}}
+cloud-init query <dot_delimited_variable_path>
 
 # Clean logs and artifacts to allow cloud-init to rerun
 cloud-init clean

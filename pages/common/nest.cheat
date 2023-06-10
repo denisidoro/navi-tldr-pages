@@ -7,13 +7,13 @@
 nest info
 
 # Create a new NestJS project in a directory of the same name
-nest new {{project_name}}
+nest new <project_name>
 
 # Build a specific NestJS project
-nest build {{project_name}}
+nest build <project_name>
 
 # Run a specific NestJS project
-nest start {{project_name}}
+nest start <project_name>
 
 # Import a library into the current NestJS project
-nest add {{library_name}}
+nest add <library_name>

@@ -4,19 +4,19 @@
 % gource, common
 
 # Run gource in a directory (if it isn't the repository's root directory, the root is sought up from there)
-gource {{path/to/repository}}
+gource <path_to_repository>
 
 # Run gource in the current directory, with a custom output resolution
-gource -{{width}}x{{height}}
+gource -<width>x<height>
 
 # Set a custom timescale for the animation
-gource -c {{time_scale_multiplier}}
+gource -c <time_scale_multiplier>
 
 # Set how long each day should be in the animation (this combines with -c, if provided)
-gource -s {{seconds}}
+gource -s <seconds>
 
 # Set fullscreen mode and a custom background color
-gource -f -b {{hex_color_code}}
+gource -f -b <hex_color_code>
 
 # Set a title for the animation
-gource --title {{title}}
+gource --title <title>

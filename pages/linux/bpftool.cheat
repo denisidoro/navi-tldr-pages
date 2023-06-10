@@ -22,7 +22,7 @@ bpftool btf list
 bpftool map list
 
 # Probe a network device "eth0" for supported `eBPF` features
-bpftool feature probe dev {{eth0}}
+bpftool feature probe dev <eth0>
 
 # Run commands in batch mode from a file
-bpftool batch file {{myfile}}
+bpftool batch file <myfile>

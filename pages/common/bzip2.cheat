@@ -4,10 +4,22 @@
 % bzip2, common
 
 # Compress a file
-bzip2 {{path/to/file_to_compress}}
+bzip2 <path_to_file_to_compress>
 
 # Decompress a file
-bzip2 -d {{path/to/compressed_file.bz2}}
+bzip2 -d <path_to_compressed_file.bz2>
 
 # Decompress a file to standard output
-bzip2 -dc {{path/to/compressed_file.bz2}}
+bzip2 -dc <path_to_compressed_file.bz2>
+
+# Test the integrity of each file inside the archive file
+bzip2 --test <path_to_compressed_file.bz2>
+
+# Show the compression ratio for each file processed with detailed information
+bzip2 --verbose <path_to_compressed_files.bz2>
+
+# Decompress a file overwriting existing files
+bzip2 --force <path_to_compressed_file.bz2>
+
+# Display help
+bzip2 -h

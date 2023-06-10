@@ -4,10 +4,10 @@
 % chntpw, linux
 
 # List all users in the SAM file
-chntpw -l {{path/to/sam_file}}
+chntpw -l <path_to_sam_file>
 
 # Edit [u]ser interactively
-chntpw -u {{username}} {{path/to/sam_file}}
+chntpw -u <username> <path_to_sam_file>
 
 # Use chntpw [i]nteractively
-chntpw -i {{path/to/sam_file}}
+chntpw -i <path_to_sam_file>

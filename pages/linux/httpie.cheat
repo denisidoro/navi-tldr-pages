@@ -4,25 +4,25 @@
 % httpie, linux
 
 # Send a GET request (default method with no request data)
-http {{https://example.com}}
+http <https:__example.com>
 
 # Send a POST request (default method with request data)
-http {{https://example.com}} {{hello=World}}
+http <https:__example.com> <hello=World>
 
 # Send a POST request with redirected input
-http {{https://example.com}} < {{file.json}}
+http <https:__example.com> < <file.json>
 
 # Send a PUT request with a given JSON body
-http PUT {{https://example.com/todos/7}} {{hello=world}}
+http PUT <https:__example.com_todos_7> <hello=world>
 
 # Send a DELETE request with a given request header
-http DELETE {{https://example.com/todos/7}} {{API-Key:foo}}
+http DELETE <https:__example.com_todos_7> <API-Key:foo>
 
 # Show the whole HTTP exchange (both request and response)
-http -v {{https://example.com}}
+http -v <https:__example.com>
 
 # Download a file
-http --download {{https://example.com}}
+http --download <https:__example.com>
 
 # Follow redirects and show intermediary requests and responses
-http --follow --all {{https://example.com}}
+http --follow --all <https:__example.com>

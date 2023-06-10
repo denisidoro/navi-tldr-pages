@@ -4,16 +4,16 @@
 % colordiff, common
 
 # Compare files
-colordiff {{file1}} {{file2}}
+colordiff <file1> <file2>
 
 # Output in two columns
-colordiff -y {{file1}} {{file2}}
+colordiff -y <file1> <file2>
 
 # Ignore case differences in file contents
-colordiff -i {{file1}} {{file2}}
+colordiff -i <file1> <file2>
 
 # Report when two files are the same
-colordiff -s {{file1}} {{file2}}
+colordiff -s <file1> <file2>
 
 # Ignore white spaces
-colordiff -w {{file1}} {{file2}}
+colordiff -w <file1> <file2>

@@ -3,26 +3,26 @@
 
 % [[, common
 
-# Test if a given variable is equal/not equal to the specified string
-[[ ${{variable}} {{==|!=}} "{{string}}" ]]
+# Test if a given variable is equal_not equal to the specified string
+[[ $<variable> <==|!=> "<string>" ]]
 
-# Test if a given string conforms the specified glob/regex
-[[ ${{variable}} {{==|=~}} {{pattern}} ]]
+# Test if a given string conforms the specified glob_regex
+[[ $<variable> <==|=~> <pattern> ]]
 
-# Test if a given variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to the specified number
-[[ ${{variable}} -{{eq|ne|gt|lt|ge|le}} {{integer}} ]]
+# Test if a given variable is [eq]ual_[n]ot [e]qual_[g]reater [t]han_[l]ess [t]han_[g]reater than or [e]qual_[l]ess than or [e]qual to the specified number
+[[ $<variable> -<eq|ne|gt|lt|ge|le> <integer> ]]
 
 # Test if the specified variable has a [n]on-empty value
-[[ -n ${{variable}} ]]
+[[ -n $<variable> ]]
 
 # Test if the specified variable has an empty value
-[[ -z ${{variable}} ]]
+[[ -z $<variable> ]]
 
 # Test if the specified [f]ile exists
-[[ -f {{path/to/file}} ]]
+[[ -f <path_to_file> ]]
 
 # Test if the specified [d]irectory exists
-[[ -d {{path/to/directory}} ]]
+[[ -d <path_to_directory> ]]
 
 # Test if the specified file or directory [e]xists
-[[ -e {{path/to/file_or_directory}} ]]
+[[ -e <path_to_file_or_directory> ]]

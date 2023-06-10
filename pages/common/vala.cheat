@@ -4,7 +4,7 @@
 % vala, common
 
 # Run a vala file, with gtk+
-vala {{path/to/file.vala}} --pkg {{gtk+-3.0}}
+vala <path_to_file.vala> --pkg <gtk+-3.0>
 
 # Display version info
 vala --version

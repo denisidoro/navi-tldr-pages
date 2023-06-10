@@ -4,22 +4,22 @@
 % del, windows
 
 # Delete one or more space-separated files or patterns
-del {{file_pattern}}
+del <file_pattern>
 
 # Prompt for confirmation before deleting each file
-del {{file_pattern}} /p
+del <file_pattern> _p
 
 # Force the deletion of read-only files
-del {{file_pattern}} /f
+del <file_pattern> _f
 
 # Recursively delete file(s) from all subdirectories
-del {{file_pattern}} /s
+del <file_pattern> _s
 
 # Do not prompt when deleting files based on a global wildcard
-del {{file_pattern}} /q
+del <file_pattern> _q
 
 # Display the help and list available attributes
-del /?
+del _?
 
 # Delete files based on specified attributes
-del {{file_pattern}} /a {{attribute}}
+del <file_pattern> _a <attribute>

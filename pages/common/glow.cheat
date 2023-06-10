@@ -7,13 +7,13 @@
 glow
 
 # Render a Markdown file to the terminal
-glow {{path/to/file}}
+glow <path_to_file>
 
 # View a Markdown file using a paginator
-glow -p {{path/to/file}}
+glow -p <path_to_file>
 
 # View a file from a URL
-glow {{https://example.com/file.md}}
+glow <https:__example.com_file.md>
 
-# View a GitHub/GitLab README
-glow {{github.com/owner/repository}}
+# View a GitHub_GitLab README
+glow <github.com_owner_repository>

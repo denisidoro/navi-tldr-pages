@@ -7,16 +7,16 @@
 dolt config --list
 
 # Display the value of a local or global configuration variable
-dolt config --get {{name}}
+dolt config --get <name>
 
 # Modify the value of a local configuration variable, creating it if it doesn't exist
-dolt config --add {{name}} {{value}}
+dolt config --add <name> <value>
 
 # Modify the value of a global configuration variable, creating it if it doesn't exist
-dolt config --global --add {{name}} {{value}}
+dolt config --global --add <name> <value>
 
 # Delete a local configuration variable
-dolt config --unset {{name}}
+dolt config --unset <name>
 
 # Delete a global configuration variable
-dolt config --global --unset {{name}}
+dolt config --global --unset <name>

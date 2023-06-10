@@ -7,22 +7,22 @@
 gdu
 
 # Interactively show the disk usage of a given directory
-gdu {{path/to/directory}}
+gdu <path_to_directory>
 
 # Interactively show the disk usage of all mounted disks
 gdu --show-disks
 
 # Interactively show the disk usage of the current directory but ignore some sub-directories
-gdu --ignore-dirs {{path/to/directory1,path/to/directory2,...}}
+gdu --ignore-dirs <path_to_directory1,path_to_directory2,...>
 
 # Ignore paths by regular expression
-gdu --ignore-dirs-pattern '{{.*[abc]+}}'
+gdu --ignore-dirs-pattern '<.*[abc]+>'
 
 # Ignore hidden directories
 gdu --no-hidden
 
 # Only print the result, do not enter interactive mode
-gdu --non-interactive {{path/to/directory}}
+gdu --non-interactive <path_to_directory>
 
 # Do not show the progress in non-interactive mode (useful in scripts)
-gdu --no-progress {{path/to/directory}}
+gdu --no-progress <path_to_directory>

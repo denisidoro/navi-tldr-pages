@@ -4,7 +4,7 @@
 % mdls, osx
 
 # Display the list of metadata attributes for file
-mdls {{path/to/file}}
+mdls <path_to_file>
 
 # Display a specific metadata attribute
-mdls -name {{attribute}} {{path/to/file}}
+mdls -name <attribute> <path_to_file>

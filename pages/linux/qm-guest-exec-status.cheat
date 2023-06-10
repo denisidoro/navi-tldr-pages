@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-guest-exec-status.md
+
+% qm-guest-exec-status, linux
+
+# Print the status of a specific PID
+qm guest exec-status <vm_id> <pid>

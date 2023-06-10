@@ -4,4 +4,4 @@
 % qm-nbdstop, common
 
 # Stop embedded nbd server
-qm nbdstop {{VM_ID}}
+qm nbdstop <VM_ID>

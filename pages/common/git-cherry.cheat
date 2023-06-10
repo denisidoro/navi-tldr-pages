@@ -7,7 +7,7 @@
 git cherry -v
 
 # Specify a different upstream and topic branch
-git cherry {{origin}} {{topic}}
+git cherry <origin> <topic>
 
 # Limit commits to those within a given limit
-git cherry {{origin}} {{topic}} {{base}}
+git cherry <origin> <topic> <base>

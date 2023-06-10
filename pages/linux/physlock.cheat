@@ -13,7 +13,7 @@ physlock -m
 physlock -s
 
 # Display a message before the password prompt
-physlock -p "{{Locked!}}"
+physlock -p "<Locked!>"
 
 # Fork and detach physlock (useful for suspend or hibernate scripts)
 physlock -d

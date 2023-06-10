@@ -4,13 +4,13 @@
 % zmv, common
 
 # Move files using a regular expression-like pattern
-zmv '{{(*).log}}' '{{$1.txt}}'
+zmv '<(*).log>' '<$1.txt>'
 
 # Preview the result of a move, without making any actual changes
-zmv -n '{{(*).log}}' '{{$1.txt}}'
+zmv -n '<(*).log>' '<$1.txt>'
 
 # Interactively move files, with a prompt before every change
-zmv -i '{{(*).log}}' '{{$1.txt}}'
+zmv -i '<(*).log>' '<$1.txt>'
 
 # Verbosely print each action as it's being executed
-zmv -v '{{(*).log}}' '{{$1.txt}}'
+zmv -v '<(*).log>' '<$1.txt>'

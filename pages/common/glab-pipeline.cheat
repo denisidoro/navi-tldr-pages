@@ -7,7 +7,7 @@
 glab pipeline status
 
 # View a running pipeline on a specific branch
-glab pipeline status --branch {{branch_name}}
+glab pipeline status --branch <branch_name>
 
 # Get the list of pipelines
 glab pipeline list
@@ -16,4 +16,4 @@ glab pipeline list
 glab pipeline run
 
 # Run a manual pipeline on a specific branch
-glab pipeline run --branch {{branch_name}}
+glab pipeline run --branch <branch_name>

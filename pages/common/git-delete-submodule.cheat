@@ -4,4 +4,4 @@
 % git-delete-submodule, common
 
 # Delete a specific submodule
-git delete-submodule {{path/to/submodule}}
+git delete-submodule <path_to_submodule>

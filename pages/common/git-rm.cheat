@@ -4,10 +4,10 @@
 % git-rm, common
 
 # Remove file from repository index and filesystem
-git rm {{file}}
+git rm <path_to_file>
 
 # Remove directory
-git rm -r {{directory}}
+git rm -r <path_to_directory>
 
 # Remove file from repository index but keep it untouched locally
-git rm --cached {{file}}
+git rm --cached <path_to_file>

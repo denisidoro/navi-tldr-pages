@@ -4,7 +4,7 @@
 % avifenc, linux
 
 # Convert a specific PNG image to AVIF
-avifenc {{path/to/image.png}} {{path/to/image.avif}}
+avifenc <path_to_image.png> <path_to_image.avif>
 
 # Encode with a specific speed, where 0=slowest, 10=fastest, and 6=default
-avifenc --speed {{2}} {{path/to/image.png}} {{path/to/image.avif}}
+avifenc --speed <2> <path_to_image.png> <path_to_image.avif>

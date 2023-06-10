@@ -7,13 +7,13 @@
 gow run .
 
 # Start the application with the specified arguments
-gow run . {{argument1 argument2 ...}}
+gow run . <argument1 argument2 ...>
 
 # Watch subdirectories in verbose mode
-gow -v -w={{path/to/directory1,path/to/directory2,...}} run .
+gow -v -w=<path_to_directory1,path_to_directory2,...> run .
 
 # Watch the specified file extensions
-gow -e={{go,html}} run .
+gow -e=<go,html> run .
 
 # Display help
 gow -h

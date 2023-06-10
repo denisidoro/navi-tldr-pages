@@ -4,7 +4,7 @@
 % wtf, linux
 
 # Expand a given acronym
-wtf {{IMO}}
+wtf <IMO>
 
 # Specify a computer related search type
-wtf -t {{comp}} {{WWW}}
+wtf -t <comp> <WWW>

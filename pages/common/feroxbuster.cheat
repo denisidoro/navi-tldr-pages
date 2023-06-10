@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/feroxbuster.md
+
+% feroxbuster, common
+
+# Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user-agent
+feroxbuster --url "<https:__example.com>" --wordlist <path_to_file> --threads <100> --extensions "<php,txt>" --random-agent
+
+# Enumerate directories without recursion through a specific proxy
+feroxbuster --url "<https:__example.com>" --wordlist <path_to_file> --no-recursion --proxy "<http:__127.0.0.1:8080>"
+
+# Find links in webpages
+feroxbuster --url "<https:__example.com>" --extract-links
+
+# Filter by a specific status code and a number of chars
+feroxbuster --url "<https:__example.com>" --filter-status <301> --filter-size <4092>

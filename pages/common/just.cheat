@@ -4,7 +4,7 @@
 % just, common
 
 # Run a recipe specified in the justfile
-just {{recipe}}
+just <recipe>
 
 # Initialize new justfile in project root
 just --init

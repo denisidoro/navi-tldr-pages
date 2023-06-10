@@ -4,25 +4,25 @@
 % curl, common
 
 # Download the contents of a URL to a file
-curl {{http://example.com}} --output {{filename}}
+curl <http:__example.com> --output <path_to_file>
 
 # Download a file, saving the output under the filename indicated by the URL
-curl --remote-name {{http://example.com/filename}}
+curl --remote-name <http:__example.com_filename>
 
 # Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error
-curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}
+curl --fail --remote-name --location --continue-at - <http:__example.com_filename>
 
-# Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN
-curl --data {{'name=bob'}} {{http://example.com/form}}
+# Send form-encoded data (POST request of type `application_x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN
+curl --data <'name=bob'> <http:__example.com_form>
 
 # Send a request with an extra header, using a custom HTTP method
-curl --header {{'X-My-Header: 123'}} --request {{PUT}} {{http://example.com}}
+curl --header <'X-My-Header: 123'> --request <PUT> <http:__example.com>
 
 # Send data in JSON format, specifying the appropriate content-type header
-curl --data {{'{"name":"bob"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/1234}}
+curl --data {{'{"name":"bob"}'}} --header <'Content-Type: application_json'> <http:__example.com_users_1234>
 
 # Pass a username and password for server authentication
-curl --user myusername:mypassword {{http://example.com}}
+curl --user myusername:mypassword <http:__example.com>
 
 # Pass client certificate and key for a resource, skipping certificate validation
-curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}
+curl --cert <client.pem> --key <key.pem> --insecure <https:__example.com>

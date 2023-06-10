@@ -4,7 +4,7 @@
 % react-native, common
 
 # Initialize a new React Native project in a directory of the same name
-react-native init {{project_name}}
+react-native init <project_name>
 
 # Start the metro bundler
 react-native start
@@ -19,10 +19,10 @@ react-native run-android
 react-native run-ios
 
 # Build the current application in `release` mode and start it on a connected Android device or emulator
-react-native run-android --variant={{release}}
+react-native run-android --variant=<release>
 
-# Start `logkitty` and print logs to stdout
+# Start `logkitty` and print logs to `stdout`
 react-native log-android
 
-# Start `tail system.log` for an iOS simulator and print logs to stdout
+# Start `tail system.log` for an iOS simulator and print logs to `stdout`
 react-native log-ios

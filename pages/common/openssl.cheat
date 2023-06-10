@@ -7,7 +7,7 @@
 openssl help
 
 # Print options for a specific subcommand
-openssl help {{x509}}
+openssl help <x509>
 
 # Print the version of OpenSSL
 openssl version

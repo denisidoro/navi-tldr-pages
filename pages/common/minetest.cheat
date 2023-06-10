@@ -7,10 +7,10 @@
 minetest
 
 # Start Minetest in server mode by hosting a specific world
-minetest --server --world {{name}}
+minetest --server --world <name>
 
 # Write logs to a specific file
-minetest --logfile {{path/to/file}}
+minetest --logfile <path_to_file>
 
 # Only write errors to the console
 minetest --quiet

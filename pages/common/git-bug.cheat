@@ -19,7 +19,7 @@ git bug pull
 git bug ls
 
 # Filter and sort bugs using a query
-git bug ls "{{status}}:{{open}} {{sort}}:{{edit}}"
+git bug ls "<status>:<open> <sort>:<edit>"
 
 # Search for bugs by text content
-git bug ls "{{search_query}}" baz
+git bug ls "<search_query>" baz

@@ -7,13 +7,13 @@
 tasklist
 
 # Display running processes in a specified output format
-tasklist /fo {{table|list|csv}}
+tasklist _fo <table|list|csv>
 
 # Display running processes using the specified `.exe` or `.dll` file name
-tasklist /m {{module_pattern}}
+tasklist _m <module_pattern>
 
 # Display processes running on a remote machine
-tasklist /s {{remote_name}} /u {{username}} /p {{password}}
+tasklist _s <remote_name> _u <username> _p <password>
 
 # Display services using each process
-tasklist /svc
+tasklist _svc

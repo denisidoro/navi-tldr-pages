@@ -4,10 +4,10 @@
 % watson, common
 
 # Start monitoring time in project
-watson start {{project}}
+watson start <project>
 
 # Start monitoring time in project with tags
-watson start {{project}} +{{tag}}
+watson start <project> +<tag>
 
 # Stop monitoring time for the current project
 watson stop

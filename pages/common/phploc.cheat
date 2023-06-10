@@ -4,22 +4,22 @@
 % phploc, common
 
 # Analyze a directory and print the result
-phploc {{path/to/directory}}
+phploc <path_to_directory>
 
 # Include only specific files from a comma-separated list (globs are allowed)
-phploc {{path/to/directory}} --names {{files}}
+phploc <path_to_directory> --names <files>
 
 # Exclude specific files from a comma-separated list (globs are allowed)
-phploc {{path/to/directory}} --names-exclude {{files}}
+phploc <path_to_directory> --names-exclude <files>
 
 # Exclude a specific directory from analysis
-phploc {{path/to/directory}} --exclude {{path/to/exclude_directory}}
+phploc <path_to_directory> --exclude <path_to_exclude_directory>
 
 # Log the results to a specific CSV file
-phploc {{path/to/directory}} --log-csv {{path/to/file}}
+phploc <path_to_directory> --log-csv <path_to_file>
 
 # Log the results to a specific XML file
-phploc {{path/to/directory}} --log-xml {{path/to/file}}
+phploc <path_to_directory> --log-xml <path_to_file>
 
 # Count PHPUnit test case classes and test methods
-phploc {{path/to/directory}} --count-tests
+phploc <path_to_directory> --count-tests

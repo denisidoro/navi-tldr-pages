@@ -10,7 +10,7 @@ pipenv
 pipenv --three
 
 # Install a package
-pipenv install {{package_name}}
+pipenv install <package_name>
 
 # Install all the dependencies for a project
 pipenv install
@@ -19,7 +19,7 @@ pipenv install
 pipenv install --dev
 
 # Uninstall a package
-pipenv uninstall {{package_name}}
+pipenv uninstall <package_name>
 
 # Start a shell within the created virtual environment
 pipenv shell

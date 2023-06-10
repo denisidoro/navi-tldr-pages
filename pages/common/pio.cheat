@@ -10,4 +10,4 @@ pio --help
 pio --version
 
 # Show help for a specific subcommand
-pio {{subcommand}} --help
+pio <subcommand> --help

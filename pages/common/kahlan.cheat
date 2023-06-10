@@ -7,10 +7,10 @@
 kahlan
 
 # Run specifications using a specific configuration file
-kahlan --config={{path/to/configuration_file}}
+kahlan --config=<path_to_configuration_file>
 
 # Run specifications and output using a reporter
-kahlan --reporter={{dot|bar|json|tap|verbose}}
+kahlan --reporter=<dot|bar|json|tap|verbose>
 
 # Run specifications with code coverage (detail can be between 0 and 4)
-kahlan --coverage={{detail_level}}
+kahlan --coverage=<detail_level>

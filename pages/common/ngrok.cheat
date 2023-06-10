@@ -4,16 +4,16 @@
 % ngrok, common
 
 # Expose a local HTTP service on a given port
-ngrok http {{80}}
+ngrok http <80>
 
 # Expose a local HTTP service on a specific host
-ngrok http {{foo.dev}}:{{80}}
+ngrok http <foo.dev>:<80>
 
 # Expose a local HTTPS server
-ngrok http https://localhost
+ngrok http https:__localhost
 
 # Expose TCP traffic on a given port
-ngrok tcp {{22}}
+ngrok tcp <22>
 
 # Expose TLS traffic for a specific host and port
-ngrok tls -hostname={{foo.com}} {{443}}
+ngrok tls -hostname=<foo.com> <443>

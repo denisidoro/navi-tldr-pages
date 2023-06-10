@@ -22,7 +22,7 @@ gh help formatting
 gh help mintty
 
 # Display help for a subcommand
-gh help {{subcommand}}
+gh help <subcommand>
 
 # Display help for a subcommand action
-gh help {{pr}} {{create}}
+gh help <pr> <create>

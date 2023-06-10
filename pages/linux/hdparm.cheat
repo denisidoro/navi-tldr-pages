@@ -4,22 +4,22 @@
 % hdparm, linux
 
 # Request the identification info of a given device
-sudo hdparm -I /dev/{{device}}
+sudo hdparm -I _dev_<device>
 
 # Get the Advanced Power Management level
-sudo hdparm -B /dev/{{device}}
+sudo hdparm -B _dev_<device>
 
 # Set the Advanced Power Management value (values 1-127 permit spin-down, and values 128-254 do not)
-sudo hdparm -B {{1}} /dev/{{device}}
+sudo hdparm -B <1> _dev_<device>
 
 # Display the device's current power mode status
-sudo hdparm -C /dev/{{device}}
+sudo hdparm -C _dev_<device>
 
 # Force a drive to immediately enter standby mode (usually causes a drive to spin down)
-sudo hdparm -y /dev/{{device}}
+sudo hdparm -y _dev_<device>
 
 # Put the drive into idle (low-power) mode, also setting its standby timeout
-sudo hdparm -S {{standby_timeout}} {{device}}
+sudo hdparm -S <standby_timeout> <device>
 
 # Test the read speed of a specific device
-sudo hdparm -tT {{device}}
+sudo hdparm -tT <device>

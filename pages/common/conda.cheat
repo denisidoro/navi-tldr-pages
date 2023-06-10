@@ -4,22 +4,22 @@
 % conda, common
 
 # Create a new environment, installing named packages into it
-conda create --name {{environment_name}} {{python=3.9 matplotlib}}
+conda create --name <environment_name> <python=3.9 matplotlib>
 
 # List all environments
 conda info --envs
 
 # Load an environment
-conda {{activate environment_name}}
+conda activate <environment_name>
 
 # Unload an environment
-conda {{deactivate}}
+conda deactivate
 
 # Delete an environment (remove all packages)
-conda remove --name {{environment_name}} --all
+conda remove --name <environment_name> --all
 
 # Install packages into the current environment
-conda install {{python=3.4 numpy}}
+conda install <python=3.4 numpy>
 
 # List currently installed packages in current environment
 conda list

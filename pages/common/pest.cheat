@@ -10,10 +10,10 @@ pest --init
 pest
 
 # Run tests annotated with the given group
-pest --group {{name}}
+pest --group <name>
 
-# Run tests and print the coverage report to stdout
+# Run tests and print the coverage report to `stdout`
 pest --coverage
 
 # Run tests with coverage and fail if the coverage is less than the minimum percentage
-pest --coverage --min={{80}}
+pest --coverage --min=<80>

@@ -7,13 +7,13 @@
 racket
 
 # Execute a Racket script
-racket {{path/to/script.rkt}}
+racket <path_to_script.rkt>
 
 # Execute a Racket expression
-racket --eval "{{expression}}"
+racket --eval "<expression>"
 
 # Run module as a script (terminates option list)
-racket --lib {{module_name}} --main {{arguments}}
+racket --lib <module_name> --main <arguments>
 
-# Start a REPL (interactive shell) for the `typed/racket` hashlang
-racket -I typed/racket
+# Start a REPL (interactive shell) for the `typed_racket` hashlang
+racket -I typed_racket

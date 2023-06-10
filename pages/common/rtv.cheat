@@ -4,12 +4,12 @@
 % rtv, common
 
 # Open the front page
-/front
+_front
 
 # Open a subreddit
-/r/{{subreddit_name}}
+_r_<subreddit_name>
 
-# Expand/collapse comments
+# Expand_collapse comments
 [space]
 
 # Open link

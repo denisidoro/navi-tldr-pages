@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/calligrastage.md
+
+% calligrastage, common
+
+# Launch the presentation application
+calligrastage
+
+# Open a specific presentation
+calligrastage <path_to_presentation>
+
+# Display help or version
+calligrastage --<help|version>

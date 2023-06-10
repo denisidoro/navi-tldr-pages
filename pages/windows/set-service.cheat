@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/set-service.md
+
+% set-service, windows
+
+# Change a display name
+Set-Service -Name <hostname> -DisplayName "<name>"
+
+# Change the startup type of services
+Set-Service -Name <service_name> -StartupType <Automatic>
+
+# Change the description of a service
+Set-Service -Name <service_name> -Description "<description>"

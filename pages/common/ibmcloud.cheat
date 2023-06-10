@@ -19,4 +19,4 @@ ibmcloud version
 ibmcloud help
 
 # Display help for a subcommand
-ibmcloud help {{subcommand}}
+ibmcloud help <subcommand>

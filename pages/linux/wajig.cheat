@@ -7,10 +7,10 @@
 wajig update
 
 # Install a package, or update it to the latest available version
-wajig install {{package}}
+wajig install <package>
 
 # Remove a package and its configuration files
-wajig purge {{package}}
+wajig purge <package>
 
 # Perform an update and then a dist-upgrade
 wajig daily-upgrade
@@ -25,4 +25,4 @@ wajig versions
 wajig toupgrade
 
 # Display packages which have some form of dependency on the given package
-wajig dependents {{package}}
+wajig dependents <package>

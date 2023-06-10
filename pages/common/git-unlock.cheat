@@ -4,4 +4,4 @@
 % git-unlock, common
 
 # Enable the ability to commit changes of a previously-locked local file
-git unlock {{path/to/file}}
+git unlock <path_to_file>

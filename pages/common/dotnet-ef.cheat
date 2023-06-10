@@ -4,7 +4,7 @@
 % dotnet-ef, common
 
 # Update the database to a specified migration
-dotnet ef database update {{migration}}
+dotnet ef database update <migration>
 
 # Drop the database
 dotnet ef database drop
@@ -13,10 +13,10 @@ dotnet ef database drop
 dotnet ef dbcontext list
 
 # Generate code for a `DbContext` and entity types for a database
-dotnet ef dbcontext scaffold {{connection_string}} {{provider}}
+dotnet ef dbcontext scaffold <connection_string> <provider>
 
 # Add a new migration
-dotnet ef migrations add {{name}}
+dotnet ef migrations add <name>
 
 # Remove the last migration, rolling back the code changes that were done for the latest migration
 dotnet ef migrations remove
@@ -25,4 +25,4 @@ dotnet ef migrations remove
 dotnet ef migrations list
 
 # Generate a SQL script from migrations range
-dotnet ef migrations script {{from_migration}} {{to_migration}}
+dotnet ef migrations script <from_migration> <to_migration>

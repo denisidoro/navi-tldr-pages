@@ -4,10 +4,10 @@
 % repo-add, linux
 
 # Add all package binaries in the current directory and remove the old database file
-repo-add --remove {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}
+repo-add --remove <path_to_database.db.tar.gz> <*.pkg.tar.zst>
 
 # Add all package binaries in the current directory in silent mode except for warning and error messages
-repo-add --quiet {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}
+repo-add --quiet <path_to_database.db.tar.gz> <*.pkg.tar.zst>
 
 # Add all package binaries in the current directory without showing color
-repo-add --nocolor {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}
+repo-add --nocolor <path_to_database.db.tar.gz> <*.pkg.tar.zst>

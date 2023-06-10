@@ -4,13 +4,13 @@
 % tmutil, osx
 
 # Set an HFS+ drive as the backup destination
-sudo tmutil setdestination {{path/to/disk_mount_point}}
+sudo tmutil setdestination <path_to_disk_mount_point>
 
 # Set an APF share or SMB share as the backup destination
-sudo tmutil setdestination "{{protocol://user[:password]@host/share}}"
+sudo tmutil setdestination "<protocol:__user[:password]@host_share>"
 
 # Append the given destination to the list of destinations
-sudo tmutil setdestination -a {{destination}}
+sudo tmutil setdestination -a <destination>
 
 # Enable automatic backups
 sudo tmutil enable

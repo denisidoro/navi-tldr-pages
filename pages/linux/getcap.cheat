@@ -4,10 +4,10 @@
 % getcap, linux
 
 # Get capabilities for the given files
-getcap {{path/to/file1 path/to/file2 ...}}
+getcap <path_to_file1 path_to_file2 ...>
 
 # Get capabilities for all the files recursively under the given directories
-getcap -r {{path/to/directory1 path/to/directory2 ...}}
+getcap -r <path_to_directory1 path_to_directory2 ...>
 
 # Displays all searched entries even if no capabilities are set
-getcap -v {{path/to/file1 path/to/file2 ...}}
+getcap -v <path_to_file1 path_to_file2 ...>

@@ -6,11 +6,11 @@
 # List the name and status of all services
 service --status-all
 
-# Start/Stop/Restart/Reload service (start/stop should always be available)
-service {{service_name}} {{start|stop|restart|reload}}
+# Start_Stop_Restart_Reload service (start_stop should always be available)
+service <service_name> <start|stop|restart|reload>
 
 # Do a full restart (runs script twice with start and stop)
-service {{service_name}} --full-restart
+service <service_name> --full-restart
 
 # Show the current status of a service
-service {{service_name}} status
+service <service_name> status

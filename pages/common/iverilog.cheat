@@ -4,16 +4,16 @@
 % iverilog, common
 
 # Compile a source file into an executable
-iverilog {{source.v}} -o {{executable}}
+iverilog <path_to_source.v> -o <path_to_executable>
 
-# Also display all warnings
-iverilog {{source.v}} -Wall -o {{executable}}
+# Compile a source file into an executable while displaying all warnings
+iverilog <path_to_source.v> -Wall -o <path_to_executable>
 
 # Compile and run explicitly using the VVP runtime
-iverilog -o {{executable}} -tvvp {{source.v}}
+iverilog -o <path_to_executable> -tvvp <path_to_source.v>
 
 # Compile using Verilog library files from a different path
-iverilog {{source.v}} -o {{executable}} -I{{path/to/library_directory}}
+iverilog <path_to_source.v> -o <path_to_executable> -I<path_to_library_directory>
 
 # Preprocess Verilog code without compiling
-iverilog -E {{source.v}}
+iverilog -E <path_to_source.v>

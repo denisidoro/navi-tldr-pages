@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/audacious.md
+
+% audacious, common
+
+# Launch the program
+audacious
+
+# Enqueue a specific directory of audio files
+audacious --enqueue <path_to_directory>
+
+# Start or stop playback
+audacious --play-pause
+
+# Skip forwards or backwards in the playlist
+audacious --<fwd|rew>
+
+# Stop playback
+audacious --stop
+
+# Start a headless version
+audacious --headless
+
+# Exit as soon as playback stops or there is nothing to playback
+audacious --quit-after-play

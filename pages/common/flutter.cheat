@@ -4,13 +4,13 @@
 % flutter, common
 
 # Initialize a new Flutter project in a directory of the same name
-flutter create {{project_name}}
+flutter create <project_name>
 
 # Check if all external tools are correctly installed
 flutter doctor
 
 # List or change Flutter channel
-flutter channel {{stable|beta|dev|master}}
+flutter channel <stable|beta|dev|master>
 
 # Run Flutter on all started emulators and connected devices
 flutter run -d all
@@ -19,10 +19,10 @@ flutter run -d all
 flutter pub get
 
 # Run tests in a terminal from the root of the project
-flutter test {{test/example_test.dart}}
+flutter test <test_example_test.dart>
 
 # Build a release APK targeting most modern smartphones
-flutter build apk --target-platform {{android-arm}},{{android-arm64}}
+flutter build apk --target-platform <android-arm>,<android-arm64>
 
 # Display help about a specific command
-flutter help {{command}}
+flutter help <command>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-vncproxy.md
+
+% qm-vncproxy, linux
+
+# Proxy a specific virtual machine
+qm vncproxy <vm_id>

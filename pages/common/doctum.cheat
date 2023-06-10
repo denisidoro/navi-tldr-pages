@@ -13,7 +13,7 @@ doctum render
 doctum update
 
 # Parse and render only a specific version of a project
-doctum update --only-version={{version}}
+doctum update --only-version=<version>
 
 # Parse and render a project using a specific configuration
-doctum update {{path/to/config.php}}
+doctum update <path_to_config.php>

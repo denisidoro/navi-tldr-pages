@@ -4,16 +4,16 @@
 % tmuxinator, common
 
 # Create a new project
-tmuxinator new {{project}}
+tmuxinator new <project>
 
 # Edit a project
-tmuxinator edit {{project}}
+tmuxinator edit <project>
 
 # List projects
 tmuxinator list
 
 # Start a tmux session based on project
-tmuxinator start {{project}}
+tmuxinator start <project>
 
 # Stop a project's tmux session
-tmuxinator stop {{project}}
+tmuxinator stop <project>

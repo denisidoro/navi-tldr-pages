@@ -4,16 +4,16 @@
 % pmap, linux
 
 # Print memory map for a specific process id (PID)
-pmap {{pid}}
+pmap <pid>
 
 # Show the extended format
-pmap --extended {{pid}}
+pmap --extended <pid>
 
 # Show the device format
-pmap --device {{pid}}
+pmap --device <pid>
 
 # Limit results to a memory address range specified by `low` and `high`
-pmap --range {{low}},{{high}}
+pmap --range <low>,<high>
 
 # Print memory maps for multiple processes
-pmap {{pid1 pid2 ...}}
+pmap <pid1 pid2 ...>

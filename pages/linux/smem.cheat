@@ -10,7 +10,7 @@ smem
 smem --users
 
 # Print memory usage for current processes for a specified user
-smem --userfilter {{username}}
+smem --userfilter <username>
 
 # Print system memory information
 smem --system

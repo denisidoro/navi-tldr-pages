@@ -4,16 +4,16 @@
 % hadolint, common
 
 # Lint a Dockerfile
-hadolint {{path/to/Dockerfile}}
+hadolint <path_to_Dockerfile>
 
 # Lint a Dockerfile, displaying the output in JSON format
-hadolint --format {{json}} {{path/to/Dockerfile}}
+hadolint --format <json> <path_to_Dockerfile>
 
 # Lint a Dockerfile, displaying the output in a specific format
-hadolint --format {{tty|json|checkstyle|codeclimate|codacy}} {{path/to/Dockerfile}}
+hadolint --format <tty|json|checkstyle|codeclimate|codacy> <path_to_Dockerfile>
 
 # Lint a Dockerfile ignoring specific rules
-hadolint --ignore {{DL3006}} --ignore {{DL3008}} {{path/to/Dockerfile}}
+hadolint --ignore <DL3006> --ignore <DL3008> <path_to_Dockerfile>
 
 # Lint multiple Dockerfiles using specific trusted registries
-hadolint --trusted-registry {{docker.io}} --trusted-registry {{example.com}}:{{5000}} {{path/to/Dockerfile}} {{path/to/another/Dockerfile}}
+hadolint --trusted-registry <docker.io> --trusted-registry <example.com>:<5000> <path_to_Dockerfile> <path_to_another_Dockerfile>

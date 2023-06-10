@@ -4,7 +4,7 @@
 % vue, common
 
 # Create a new Vue project interactively
-vue create {{project_name}}
+vue create <project_name>
 
 # Create a new project with web UI
 vue ui

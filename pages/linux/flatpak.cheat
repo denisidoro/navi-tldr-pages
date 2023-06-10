@@ -4,10 +4,10 @@
 % flatpak, linux
 
 # Run an installed application
-flatpak run {{name}}
+flatpak run <name>
 
 # Install an application from a remote source
-flatpak install {{remote}} {{name}}
+flatpak install <remote> <name>
 
 # List all installed applications and runtimes
 flatpak list
@@ -16,13 +16,13 @@ flatpak list
 flatpak update
 
 # Add a remote source
-flatpak remote-add --if-not-exists {{remote_name}} {{remote_url}}
+flatpak remote-add --if-not-exists <remote_name> <remote_url>
 
 # Remove an installed application
-flatpak remove {{name}}
+flatpak remove <name>
 
 # Remove all unused applications
 flatpak remove --unused
 
 # Show information about an installed application
-flatpak info {{name}}
+flatpak info <name>

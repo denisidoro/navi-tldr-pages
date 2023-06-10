@@ -7,13 +7,13 @@
 scalafmt
 
 # Reformat specific files or directories with a custom formatting configuration
-scalafmt --config {{path/to/.scalafmt.conf}} {{path/to/file_or_directory}} {{path/to/file_or_directory}} {{...}}
+scalafmt --config <path_to.scalafmt.conf> <path_to_file_or_directory> <path_to_file_or_directory> <...>
 
 # Check if files are correctly formatted, returning `0` if all files respect the formatting style
-scalafmt --config {{path/to/.scalafmt.conf}} --test
+scalafmt --config <path_to.scalafmt.conf> --test
 
 # Exclude files or directories
-scalafmt --exclude {{path/to/file_or_directory}} {{...}}
+scalafmt --exclude <path_to_file_or_directory> <...>
 
 # Format only files that were edited against the current Git branch
-scalafmt --config {{path/to/.scalafmt.conf}} --mode diff
+scalafmt --config <path_to.scalafmt.conf> --mode diff

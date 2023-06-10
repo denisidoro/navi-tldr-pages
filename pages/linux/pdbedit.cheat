@@ -7,10 +7,10 @@
 sudo pdbedit --list --verbose
 
 # Add an existing Unix user to Samba (will prompt for password)
-sudo pdbedit --user {{username}} --create
+sudo pdbedit --user <username> --create
 
 # Remove a Samba user
-sudo pdbedit --user {{username}} --delete
+sudo pdbedit --user <username> --delete
 
 # Reset a Samba user's failed password counter
-sudo pdbedit --user {{username}} --bad-password-count-reset
+sudo pdbedit --user <username> --bad-password-count-reset

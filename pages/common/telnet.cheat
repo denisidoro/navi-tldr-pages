@@ -4,10 +4,10 @@
 % telnet, common
 
 # Telnet to the default port of a host
-telnet {{host}}
+telnet <host>
 
 # Telnet to a specific port of a host
-telnet {{ip_address}} {{port}}
+telnet <ip_address> <port>
 
 # Exit a telnet session
 quit
@@ -16,7 +16,7 @@ quit
 Ctrl + ]
 
 # Start telnet with "x" as the session termination character
-telnet -e {{x}} {{ip_address}} {{port}}
+telnet -e <x> <ip_address> <port>
 
 # Telnet to Star Wars animation
-telnet {{towel.blinkenlights.nl}}
+telnet <towel.blinkenlights.nl>

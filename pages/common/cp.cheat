@@ -4,19 +4,25 @@
 % cp, common
 
 # Copy a file to another location
-cp {{path/to/source_file.ext}} {{path/to/target_file.ext}}
+cp <path_to_source_file.ext> <path_to_target_file.ext>
 
 # Copy a file into another directory, keeping the filename
-cp {{path/to/source_file.ext}} {{path/to/target_parent_directory}}
+cp <path_to_source_file.ext> <path_to_target_parent_directory>
 
 # Recursively copy a directory's contents to another location (if the destination exists, the directory is copied inside it)
-cp -R {{path/to/source_directory}} {{path/to/target_directory}}
+cp -R <path_to_source_directory> <path_to_target_directory>
 
 # Copy a directory recursively, in verbose mode (shows files as they are copied)
-cp -vR {{path/to/source_directory}} {{path/to/target_directory}}
+cp -vR <path_to_source_directory> <path_to_target_directory>
+
+# Copy multiple files at once to a directory
+cp -t <path_to_destination_directory> <path_to_file1 path_to_file2 ...>
 
 # Copy text files to another location, in interactive mode (prompts user before overwriting)
-cp -i {{*.txt}} {{path/to/target_directory}}
+cp -i <*.txt> <path_to_target_directory>
 
 # Follow symbolic links before copying
-cp -L {{link}} {{path/to/target_directory}}
+cp -L <link> <path_to_target_directory>
+
+# Use the first argument as the destination directory (useful for `xargs ... | cp -t <DEST_DIR>`)
+cp -t <path_to_target_directory> <path_to_file_or_directory1 path_to_file_or_directory2 ...>

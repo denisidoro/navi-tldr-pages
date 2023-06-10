@@ -7,7 +7,7 @@
 swift
 
 # Execute a program
-swift {{file.swift}}
+swift <file.swift>
 
 # Start a new project with the package manager
 swift package init

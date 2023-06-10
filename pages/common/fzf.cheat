@@ -4,16 +4,16 @@
 % fzf, common
 
 # Start fzf on all files in the specified directory
-find {{path/to/directory}} -type f | fzf
+find <path_to_directory> -type f | fzf
 
 # Start fzf for running processes
 ps aux | fzf
 
 # Select multiple files with `Shift + Tab` and write to a file
-find {{path/to/directory}} -type f | fzf --multi > {{filename}}
+find <path_to_directory> -type f | fzf --multi > <path_to_file>
 
 # Start fzf with a specified query
-fzf --query "{{query}}"
+fzf --query "<query>"
 
 # Start fzf on entries that start with core and end with either go, rb, or py
 fzf --query "^core go$ | rb$ | py$"

@@ -4,13 +4,13 @@
 % genfstab, linux
 
 # Display an fstab compatible output based on a volume label
-genfstab -L {{path/to/mount_point}}
+genfstab -L <path_to_mount_point>
 
 # Display an fstab compatible output based on a volume UUID
-genfstab -U {{path/to/mount_point}}
+genfstab -U <path_to_mount_point>
 
 # A usual way to generate an fstab file, requires root permissions
-genfstab -U {{/mnt}} >> {{/mnt/etc/fstab}}
+genfstab -U <_mnt> >> <_mnt_etc_fstab>
 
 # Append a volume into an fstab file to mount it automatically
-genfstab -U {{path/to/mount_point}} | sudo tee -a /etc/fstab
+genfstab -U <path_to_mount_point> | sudo tee -a _etc_fstab

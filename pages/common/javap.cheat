@@ -4,13 +4,13 @@
 % javap, common
 
 # Disassemble and list a `.class` file
-javap {{path/to/file.class}}
+javap <path_to_file.class>
 
 # Disassemble and list multiple `.class` files
-javap {{path/to/file1.class path/to/file2.class ...}}
+javap <path_to_file1.class path_to_file2.class ...>
 
 # Disassemble and list a built-in class file
-javap java.{{package}}.{{class}}
+javap java.<package>.<class>
 
 # Display help
 javap -help

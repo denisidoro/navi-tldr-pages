@@ -4,10 +4,10 @@
 % recsel, common
 
 # Extract name and version field
-recsel -p name,version {{data.rec}}
+recsel -p name,version <data.rec>
 
 # Use "~" to match a string with a given regular expression
-recsel -e "{{field_name}} ~ '{{regular_expression}}' {{data.rec}}"
+recsel -e "<field_name> ~ '<regular_expression>' <data.rec>"
 
 # Use a predicate to match a name and a version
-recsel -e "name ~ '{{regular_expression}}' && version ~ '{{regular_expression}}'" {{data.rec}}
+recsel -e "name ~ '<regular_expression>' && version ~ '<regular_expression>'" <data.rec>

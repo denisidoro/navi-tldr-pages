@@ -4,10 +4,10 @@
 % npm-home, common
 
 # Open the npm page of a specific package in the web browser
-npm-home {{package}}
+npm-home <package>
 
 # Open the GitHub repository of a specific package in the web browser
-npm-home -g {{package}}
+npm-home -g <package>
 
 # Open the Yarn page of a specific package in the web browser
-npm-home -y {{package}}
+npm-home -y <package>

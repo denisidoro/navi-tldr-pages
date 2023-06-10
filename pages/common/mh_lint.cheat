@@ -7,10 +7,10 @@
 mh_lint
 
 # Check a specific directory recursively
-mh_lint {{path/to/directory}}
+mh_lint <path_to_directory>
 
 # Check a MATLAB file
-mh_lint {{path/to/file.m}}
+mh_lint <path_to_file.m>
 
 # Check an Octave file
-mh_lint --octave {{path/to/file.m}}
+mh_lint --octave <path_to_file.m>

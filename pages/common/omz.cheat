@@ -15,11 +15,11 @@ omz reload
 # List all available plugins
 omz plugin list
 
-# Enable/Disable an Oh My Zsh plugin
-omz plugin {{enable|disable}} {{plugin}}
+# Enable_Disable an Oh My Zsh plugin
+omz plugin <enable|disable> <plugin>
 
 # List all available themes
 omz theme list
 
-# Set an Oh My Zsh theme in `~/.zshrc`
-omz theme set {{theme}}
+# Set an Oh My Zsh theme in `~.zshrc`
+omz theme set <theme>

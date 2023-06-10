@@ -7,19 +7,19 @@
 dotnet build
 
 # Compile a .NET project or solution in debug mode
-dotnet build {{path/to/project_or_solution}}
+dotnet build <path_to_project_or_solution>
 
 # Compile in release mode
-dotnet build --configuration {{Release}}
+dotnet build --configuration <Release>
 
 # Compile without restoring dependencies
 dotnet build --no-restore
 
 # Compile with a specific verbosity level
-dotnet build --verbosity {{quiet|minimal|normal|detailed|diagnostic}}
+dotnet build --verbosity <quiet|minimal|normal|detailed|diagnostic>
 
 # Compile for a specific runtime
-dotnet build --runtime {{runtime_identifier}}
+dotnet build --runtime <runtime_identifier>
 
 # Specify the output directory
-dotnet build --output {{path/to/directory}}
+dotnet build --output <path_to_directory>

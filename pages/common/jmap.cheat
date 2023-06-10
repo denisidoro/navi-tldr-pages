@@ -4,13 +4,16 @@
 % jmap, common
 
 # Print shared object mappings for a Java process (output like pmap)
-jmap {{java_pid}}
+jmap <java_pid>
 
 # Print heap summary information
-jmap -heap {{filename.jar}} {{java_pid}}
+jmap -heap <filename.jar> <java_pid>
 
 # Print histogram of heap usage by type
-jmap -histo {{java_pid}}
+jmap -histo <java_pid>
 
 # Dump contents of the heap into a binary file for analysis with jhat
-jmap -dump:format=b,file={{filename}} {{java_pid}}
+jmap -dump:format=b,file=<path_to_file> <java_pid>
+
+# Dump live objects of the heap into a binary file for analysis with jhat
+jmap -dump:live,format=b,file=<path_to_file> <java_pid>

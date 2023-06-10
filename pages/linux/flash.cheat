@@ -16,4 +16,4 @@ flash -i
 flash -h
 
 # Change the previewer from default `bat` to `cat`
-flash -p {{cat}}
+flash -p <cat>

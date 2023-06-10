@@ -4,4 +4,4 @@
 % git-lock, common
 
 # Disable the ability to commit changes of a local file
-git lock {{path/to/file}}
+git lock <path_to_file>

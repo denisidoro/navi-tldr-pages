@@ -4,13 +4,13 @@
 % go-build, common
 
 # Compile a 'package main' file (output will be the filename without extension)
-go build {{path/to/main.go}}
+go build <path_to_main.go>
 
 # Compile, specifying the output filename
-go build -o {{path/to/binary}} {{path/to/source.go}}
+go build -o <path_to_binary> <path_to_source.go>
 
 # Compile a package
-go build -o {{path/to/binary}} {{path/to/package}}
+go build -o <path_to_binary> <path_to_package>
 
 # Compile a main package into an executable, enabling data race detection
-go build -race -o {{path/to/executable}} {{path/to/main/package}}
+go build -race -o <path_to_executable> <path_to_main_package>

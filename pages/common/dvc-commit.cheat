@@ -7,7 +7,7 @@
 dvc commit
 
 # Commit changes to a specified DVC-tracked target
-dvc commit {{target}}
+dvc commit <target>
 
 # Recursively commit all DVC-tracked files in a directory
-dvc commit --recursive {{path/to/directory}}
+dvc commit --recursive <path_to_directory>

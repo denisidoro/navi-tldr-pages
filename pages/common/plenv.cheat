@@ -10,16 +10,16 @@ plenv version
 plenv versions
 
 # Set the global Perl version (used unless a local or shell version takes priority)
-plenv global {{version}}
+plenv global <version>
 
 # Set the local application-specific Perl version (used in the current directory and all directories below it)
-plenv local {{version}}
+plenv local <version>
 
 # Set the shell-specific Perl version (used for the current session only)
-plenv shell {{version}}
+plenv shell <version>
 
 # Display help
 plenv
 
 # Display help for a command
-plenv help {{command}}
+plenv help <command>

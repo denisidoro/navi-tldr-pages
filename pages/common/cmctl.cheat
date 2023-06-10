@@ -7,10 +7,10 @@
 cmctl check api
 
 # Check the status of a certificate
-cmctl status certificate {{cert_name}}
+cmctl status certificate <cert_name>
 
 # Create a new certificate request based on an existing certificate
-cmctl create certificaterequest my-cr --from-certificate-file {{cert.yaml}}
+cmctl create certificaterequest my-cr --from-certificate-file <cert.yaml>
 
 # Create a new certificate request, fetch the signed certificate, and set a maximum wait time
-cmctl create certificaterequest my-cr --from-certificate-file {{cert.yaml}} --fetch-certificate --timeout {{20m}}
+cmctl create certificaterequest my-cr --from-certificate-file <cert.yaml> --fetch-certificate --timeout <20m>

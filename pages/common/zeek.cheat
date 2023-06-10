@@ -4,19 +4,19 @@
 % zeek, common
 
 # Analyze live traffic from a network interface
-sudo zeek --iface {{interface}}
+sudo zeek --iface <interface>
 
 # Analyze live traffic from a network interface and load custom scripts
-sudo zeek --iface {{interface}} {{script1}} {{script2}}
+sudo zeek --iface <interface> <script1> <script2>
 
 # Analyze live traffic from a network interface, without loading any scripts
-sudo zeek --bare-mode --iface {{interface}}
+sudo zeek --bare-mode --iface <interface>
 
 # Analyze live traffic from a network interface, applying a `tcpdump` filter
-sudo zeek --filter {{path/to/filter}} --iface {{interface}}
+sudo zeek --filter <path_to_filter> --iface <interface>
 
 # Analyze live traffic from a network interface using a watchdog timer
-sudo zeek --watchdog --iface {{interface}}
+sudo zeek --watchdog --iface <interface>
 
 # Analyze traffic from a `pcap` file
-zeek --readfile {{path/to/file.trace}}
+zeek --readfile <path_to_file.trace>

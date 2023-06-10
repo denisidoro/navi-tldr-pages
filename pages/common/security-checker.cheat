@@ -7,7 +7,7 @@
 security-checker security:check
 
 # Use a specific `composer.lock` file
-security-checker security:check {{path/to/composer.lock}}
+security-checker security:check <path_to_composer.lock>
 
 # Return results as a JSON object
 security-checker security:check --format=json

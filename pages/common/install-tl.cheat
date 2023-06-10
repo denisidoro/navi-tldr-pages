@@ -6,14 +6,14 @@
 # Start the text-based installer (default on Unix systems)
 install-tl -no-gui
 
-# Start the GUI installer (default on macOS and Windows, requires Tcl/Tk)
+# Start the GUI installer (default on macOS and Windows, requires Tcl_Tk)
 install-tl -gui
 
 # Install TeX Live as defined in a specific profile file
-install-tl -profile {{path/to/texlive.profile}}
+install-tl -profile <path_to_texlive.profile>
 
 # Start the installer with the settings from a specific profile file
-install-tl -init-from-file {{path/to/texlive.profile}}
+install-tl -init-from-file <path_to_texlive.profile>
 
 # Start the installer for installation on a portable device, like a USB stick
 install-tl -portable

@@ -4,4 +4,4 @@
 % screencap, android
 
 # Take a screenshot
-screencap {{path/to/file}}
+screencap <path_to_file>

@@ -3,14 +3,14 @@
 
 % gixy, common
 
-# Analyze nginx configuration (default path: `/etc/nginx/nginx.conf`)
+# Analyze nginx configuration (default path: `_etc_nginx_nginx.conf`)
 gixy
 
 # Analyze nginx configuration but skip specific tests
-gixy --skips {{http_splitting}}
+gixy --skips <http_splitting>
 
 # Analyze nginx configuration with the specific severity level
-gixy {{-l|-ll|-lll}}
+gixy <-l|-ll|-lll>
 
 # Analyze nginx configuration files on the specific path
-gixy {{path/to/configuration_file_1}} {{path/to/configuration_file_2}}
+gixy <path_to_configuration_file_1> <path_to_configuration_file_2>

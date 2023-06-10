@@ -4,7 +4,7 @@
 % git-request-pull, common
 
 # Produce a request summarizing the changes between the v1.1 release and a specified branch
-git request-pull {{v1.1}} {{https://example.com/project}} {{branch_name}}
+git request-pull <v1.1> <https:__example.com_project> <branch_name>
 
 # Produce a request summarizing the changes between the v0.1 release on the `foo` branch and the local `bar` branch
-git request-pull {{v0.1}} {{https://example.com/project}} {{foo:bar}}
+git request-pull <v0.1> <https:__example.com_project> <foo:bar>

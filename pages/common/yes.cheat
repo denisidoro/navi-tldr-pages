@@ -4,10 +4,10 @@
 % yes, common
 
 # Repeatedly output "message"
-yes {{message}}
+yes <message>
 
 # Repeatedly output "y"
 yes
 
 # Accept everything prompted by the `apt-get` command
-yes | sudo apt-get install {{program}}
+yes | sudo apt-get install <program>

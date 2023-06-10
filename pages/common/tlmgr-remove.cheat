@@ -4,16 +4,16 @@
 % tlmgr-remove, common
 
 # Uninstall a TeX Live package
-sudo tlmgr remove {{package}}
+sudo tlmgr remove <package>
 
 # Simulate uninstalling a package without making any changes
-tlmgr remove --dry-run {{package}}
+tlmgr remove --dry-run <package>
 
 # Uninstall a package without its dependencies
-sudo tlmgr remove --no-depends {{package}}
+sudo tlmgr remove --no-depends <package>
 
 # Uninstall a package and back it up to a specific directory
-sudo tlmgr remove --backupdir {{path/to/directory}} {{package}}
+sudo tlmgr remove --backupdir <path_to_directory> <package>
 
 # Uninstall all of TeX Live, asking for confirmation
 sudo tlmgr remove --all

@@ -10,10 +10,10 @@ wg
 wg genkey
 
 # Generate a public key from a private key
-wg pubkey < {{path/to/private_key}} > {{path/to/public_key}}
+wg pubkey < <path_to_private_key> > <path_to_public_key>
 
 # Generate a public and private key
-wg genkey | tee {{path/to/private_key}} | wg pubkey > {{path/to/public_key}}
+wg genkey | tee <path_to_private_key> | wg pubkey > <path_to_public_key>
 
 # Show the current configuration of a wireguard interface
-wg showconf {{wg0}}
+wg showconf <wg0>

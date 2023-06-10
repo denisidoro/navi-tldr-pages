@@ -10,16 +10,16 @@ podman machine ls
 podman machine init
 
 # Create a new machine with a specific name
-podman machine init {{name}}
+podman machine init <name>
 
 # Create a new machine with different resources
-podman machine init --cpus={{4}} --memory={{4096}} --disk-size={{50}}
+podman machine init --cpus=<4> --memory=<4096> --disk-size=<50>
 
 # Start or stop a machine
-podman machine {{start|stop}} {{name}}
+podman machine <start|stop> <name>
 
 # Connect to a running machine via SSH
-podman machine ssh {{name}}
+podman machine ssh <name>
 
 # Inspect information about a machine
-podman machine inspect {{name}}
+podman machine inspect <name>

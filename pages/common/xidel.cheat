@@ -4,25 +4,25 @@
 % xidel, common
 
 # Print all URLs found by a Google search
-xidel {{https://www.google.com/search?q=test}} --extract "//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']"
+xidel <https:__www.google.com_search?q=test> --extract "__a_extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']"
 
 # Print the title of all pages found by a Google search and download them
-xidel {{https://www.google.com/search?q=test}} --follow "{{//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']}}" --extract {{//title}} --download {{'{$host}/'}}
+xidel <https:__www.google.com_search?q=test> --follow "<__a_extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']>" --extract <__title> --download {{'{$host}_'}}
 
 # Follow all links on a page and print the titles, with XPath
-xidel {{https://example.org}} --follow {{//a}} --extract {{//title}}
+xidel <https:__example.org> --follow <__a> --extract <__title>
 
 # Follow all links on a page and print the titles, with CSS selectors
-xidel {{https://example.org}} --follow "{{css('a')}}" --css {{title}}
+xidel <https:__example.org> --follow "<css('a')>" --css <title>
 
 # Follow all links on a page and print the titles, with pattern matching
-xidel {{https://example.org}} --follow "{{<a>{.}</a>*}}" --extract "{{<title>{.}</title>}}"
+xidel <https:__example.org> --follow "{{<a>{.}<_a>*}}" --extract "{{<title>{.}<_title>}}"
 
 # Read the pattern from example.xml (which will also check if the element containing "ood" is there, and fail otherwise)
-xidel {{path/to/example.xml}} --extract "{{<x><foo>ood</foo><bar>{.}</bar></x>}}"
+xidel <path_to_example.xml> --extract "{{<x><foo>ood<_foo><bar>{.}<_bar><_x>}}"
 
 # Print all newest Stack Overflow questions with title and URL using pattern matching on their RSS feed
-xidel {{http://stackoverflow.com/feeds}} --extract "{{<entry><title>{title:=.}</title><link>{uri:=@href}</link></entry>+}}"
+xidel <http:__stackoverflow.com_feeds> --extract "{{<entry><title>{title:=.}<_title><link>{uri:=@href}<_link><_entry>+}}"
 
 # Check for unread Reddit mail, Webscraping, combining CSS, XPath, JSONiq, and automatically form evaluation
-xidel {{https://reddit.com}} --follow "{{form(css('form.login-form')[1], {'user': '$your_username', 'passwd': '$your_password'})}}" --extract "{{css('#mail')/@title}}"
+xidel <https:__reddit.com> --follow "{{form(css('form.login-form')[1], {'user': '$your_username', 'passwd': '$your_password'})}}" --extract "<css('#mail')_@title>"

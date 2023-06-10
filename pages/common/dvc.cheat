@@ -10,7 +10,7 @@ dvc --version
 dvc --help
 
 # Display help about a specific subcommand
-dvc {{subcommand}} --help
+dvc <subcommand> --help
 
 # Execute a DVC subcommand
-dvc {{subcommand}}
+dvc <subcommand>

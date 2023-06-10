@@ -4,13 +4,16 @@
 % whatis, linux
 
 # Display a description from a man page
-whatis {{command}}
+whatis <command>
 
 # Don't cut the description off at the end of the line
-whatis --long {{command}}
+whatis --long <command>
 
 # Display descriptions for all commands matching a glob
-whatis --wildcard {{net*}}
+whatis --wildcard <net*>
 
 # Search man page descriptions with a regular expression
-whatis --regex '{{wish[0-9]\.[0-9]}}'
+whatis --regex '<wish[0-9]\.[0-9]>'
+
+# Display descriptions of a specific language (requires `manpage-<locale>` package)
+whatis --locale=<en> <command>

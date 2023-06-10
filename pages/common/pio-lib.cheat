@@ -10,19 +10,19 @@ pio lib list
 pio lib builtin
 
 # Search for existing libraries
-pio lib search {{keyword}}
+pio lib search <keyword>
 
 # Show details about a library
-pio lib show {{library}}
+pio lib show <library>
 
 # Install a library
-pio lib install {{library}}
+pio lib install <library>
 
 # Update installed libraries
 pio lib update
 
 # Uninstall a library
-pio lib uninstall {{library}}
+pio lib uninstall <library>
 
 # Show PlatformIO library registry statistics
 pio lib stats

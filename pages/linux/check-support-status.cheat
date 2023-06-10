@@ -7,7 +7,7 @@
 check-support-status
 
 # Display only packages whose support has ended
-check-support-status --type {{ended}}
+check-support-status --type <ended>
 
 # Skip printing a headline
 check-support-status --no-heading

@@ -4,7 +4,7 @@
 % mh_copyright, common
 
 # Update the year (range) to include the current year for the specified files
-mh_copyright --primary-entity="{{entity}}" --update-year {{path/to/file_or_directory1.m path/to/file_or_director2.m ...}}
+mh_copyright --primary-entity="<entity>" --update-year <path_to_file_or_directory1.m path_to_file_or_director2.m ...>
 
 # Update the year (range) to include the current year for all files
-mh_copyright --primary-entity="{{entity}}" --update-year
+mh_copyright --primary-entity="<entity>" --update-year

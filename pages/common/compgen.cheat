@@ -15,5 +15,5 @@ compgen -A function
 # Show shell reserved keywords
 compgen -k
 
-# See all available commands/aliases starting with 'ls'
-compgen -ac {{ls}}
+# See all available commands_aliases starting with 'ls'
+compgen -ac <ls>

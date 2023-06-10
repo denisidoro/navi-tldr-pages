@@ -7,19 +7,19 @@
 resolvectl status
 
 # Resolve the IPv4 and IPv6 addresses for one or more domains
-resolvectl query {{domain1 domain2 ...}}
+resolvectl query <domain1 domain2 ...>
 
-# Retrieve the domain of a specified IP
-resolvectl query {{ip_address}}
+# Retrieve the domain of a specified IP address
+resolvectl query <ip_address>
 
-# Retrieve an MX record of domain
-resolvectl --legend={{no}} --type={{MX}} query {{domain}}
+# Retrieve an MX record of a domain
+resolvectl --legend=<no> --type=<MX> query <domain>
 
 # Resolve an SRV record, for example _xmpp-server._tcp gmail.com
-resolvectl service _{{service}}._{{protocol}} {{name}}
+resolvectl service _<service>._<protocol> <name>
 
 # Retrieve the public key from an email address from an OPENPGPKEY DNS record
-resolvectl opengpg {{email}}
+resolvectl openpgp <email>
 
 # Retrieve a TLS key
-resolvectl tlsa tcp {{domain}}:443
+resolvectl tlsa tcp <domain>:443

@@ -4,7 +4,7 @@
 % unalias, common
 
 # Remove an alias
-unalias {{alias_name}}
+unalias <alias_name>
 
 # Remove all aliases
 unalias -a

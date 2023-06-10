@@ -4,4 +4,4 @@
 % virsh-pool-undefine, common
 
 # Delete the configuration for the storage pool specified name or UUID (determine using `virsh pool-list`)
-virsh pool-undefine --pool {{name|uuid}}
+virsh pool-undefine --pool <name|uuid>

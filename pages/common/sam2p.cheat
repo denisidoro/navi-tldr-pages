@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sam2p.md
+
+% sam2p, common
+
+# Concatenate all PDF files into one
+sam2p *.pdf <path_to_output.pdf>

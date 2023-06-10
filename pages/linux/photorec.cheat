@@ -4,7 +4,7 @@
 % photorec, linux
 
 # Run PhotoRec on a specific device
-sudo photorec {{/dev/sdb}}
+sudo photorec <_dev_sdb>
 
 # Run PhotoRec on a disk image (`image.dd`)
-sudo photorec {{path/to/image.dd}}
+sudo photorec <path_to_image.dd>

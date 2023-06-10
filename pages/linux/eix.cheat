@@ -4,16 +4,16 @@
 % eix, linux
 
 # Search for a package
-eix {{package_name}}
+eix <package_name>
 
 # Search for installed packages
-eix --installed {{package_name}}
+eix --installed <package_name>
 
 # Search in package descriptions
-eix --description "{{description}}"
+eix --description "<description>"
 
 # Search by package license
-eix --license {{license}}
+eix --license <license>
 
 # Exclude results from search
-eix --not --license {{license}}
+eix --not --license <license>

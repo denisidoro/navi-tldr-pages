@@ -7,4 +7,4 @@
 hg root
 
 # Display the root location of the specified repository
-hg root --cwd {{path/to/directory}}
+hg root --cwd <path_to_directory>

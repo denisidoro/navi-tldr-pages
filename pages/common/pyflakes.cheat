@@ -4,13 +4,13 @@
 % pyflakes, common
 
 # Check a single Python file
-pyflakes check {{path/to/file}}.py
+pyflakes check <path_to_file>.py
 
 # Check Python files in a specific directory
-pyflakes checkPath {{path/to/directory}}
+pyflakes checkPath <path_to_directory>
 
 # Check Python files in a directory recursively
-pyflakes checkRecursive {{path/to/directory}}
+pyflakes checkRecursive <path_to_directory>
 
 # Check all Python files found in multiple directories
-pyflakes iterSourceCode {{path/to/directory_1}} {{path/to/directory_2}}
+pyflakes iterSourceCode <path_to_directory_1> <path_to_directory_2>

@@ -7,7 +7,7 @@
 matlab -nosplash
 
 # Execute a MATLAB statement
-matlab -r "{{matlab_statement}}"
+matlab -r "<matlab_statement>"
 
 # Run a MATLAB script
-matlab -r "run({{path/to/script.m}})"
+matlab -r "run(<path_to_script.m>)"

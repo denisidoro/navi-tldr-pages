@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/genisoimage.md
+
+% genisoimage, linux
+
+# Create an ISO image from the given source directory
+genisoimage -o <myimage.iso> <path_to_source_directory>
+
+# Create an ISO image with files larger than 2GiB by reporting a smaller apparent size for ISO9660 filesystems
+genisoimage -o -allow-limited-size <myimage.iso> <path_to_source_directory>

@@ -13,7 +13,7 @@ sudo udevadm monitor --kernel
 sudo udevadm monitor --udev
 
 # List attributes of a device
-sudo udevadm info --attribute-walk --path {{/dev/sda1}}
+sudo udevadm info --attribute-walk --path <_dev_sda1>
 
 # Reload all `udev` rules
 sudo udevadm control --reload-rules

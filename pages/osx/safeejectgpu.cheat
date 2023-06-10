@@ -10,13 +10,13 @@ SafeEjectGPU Eject
 SafeEjectGPU gpus
 
 # List apps using a GPU
-SafeEjectGPU gpuid {{GPU_ID}} apps
+SafeEjectGPU gpuid <GPU_ID> apps
 
 # Get the status of a GPU
-SafeEjectGPU gpuid {{GPU_ID}} status
+SafeEjectGPU gpuid <GPU_ID> status
 
 # Eject a GPU
-SafeEjectGPU gpuid {{GPU_ID}} Eject
+SafeEjectGPU gpuid <GPU_ID> Eject
 
 # Launch an app on a GPU
-SafeEjectGPU gpuid {{GPU_ID}} LaunchOnGPU {{path/to/App.app}}
+SafeEjectGPU gpuid <GPU_ID> LaunchOnGPU <path_to_App.app>

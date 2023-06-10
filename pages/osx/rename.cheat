@@ -4,4 +4,4 @@
 % rename, osx
 
 # Replace `from` with `to` in the filenames of the specified files
-rename 's/{{from}}/{{to}}/' {{*.txt}}
+rename 's_<from>_<to>_' <*.txt>

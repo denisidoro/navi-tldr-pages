@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/show-markdown.md
+
+% show-markdown, windows
+
+# Render markdown to console from a file
+Show-Markdown -Path <path\to\file>
+
+# Render markdown to console from string
+<"# Markdown content"> | Show-Markdown
+
+# Open Markdown file in a browser
+Show-Markdown -Path <path\to\file> -UseBrowser

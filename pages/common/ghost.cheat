@@ -16,7 +16,7 @@ ghost restart
 ghost doctor
 
 # View the logs of a Ghost instance
-ghost log {{name}}
+ghost log <name>
 
 # Run a Ghost instance directly (used by process managers and for debugging)
 ghost run
@@ -25,4 +25,4 @@ ghost run
 ghost ls
 
 # View or edit Ghost configuration
-ghost config {{key}} {{value}}
+ghost config <key> <value>

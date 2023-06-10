@@ -4,10 +4,10 @@
 % gdaldem, common
 
 # Compute the hillshade of a DEM
-gdaldem hillshade {{path/to/input.tif}} {{path/to/output.tif}}
+gdaldem hillshade <path_to_input.tif> <path_to_output.tif>
 
 # Compute the slope of a DEM
-gdaldem slope {{path/to/input.tif}} {{path/to/output.tif}}
+gdaldem slope <path_to_input.tif> <path_to_output.tif>
 
 # Compute the aspect of a DEM
-gdaldem aspect {{path/to/input.tif}} {{path/to/output.tif}}
+gdaldem aspect <path_to_input.tif> <path_to_output.tif>

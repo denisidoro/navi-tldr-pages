@@ -4,10 +4,10 @@
 % p5, common
 
 # Create a new p5 collection
-p5 new {{collection_name}}
+p5 new <collection_name>
 
 # Generate a new p5 project (should be run from collection directory)
-p5 generate {{project_name}}
+p5 generate <project_name>
 
 # Run the p5 manager server
 p5 server

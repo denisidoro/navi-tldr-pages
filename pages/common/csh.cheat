@@ -10,7 +10,7 @@ csh
 csh -f
 
 # Execute specific [c]ommands
-csh -c "{{echo 'csh is executed'}}"
+csh -c "<echo 'csh is executed'>"
 
 # Execute a specific script
-csh {{path/to/script.csh}}
+csh <path_to_script.csh>

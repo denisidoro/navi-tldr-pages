@@ -7,4 +7,4 @@
 showfigfonts
 
 # Display available fonts using a specific text
-showfigfonts {{input_text}}
+showfigfonts <input_text>

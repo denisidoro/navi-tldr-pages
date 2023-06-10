@@ -13,7 +13,7 @@ alt + q or ctrl + c
 alt + a
 
 # Jump to n-th window
-alt + {{number_key}}
+alt + <number_key>
 
 # Close current window
 alt + c

@@ -10,4 +10,4 @@ pueue --help
 pueue --version
 
 # Execute a pueue subcommand
-pueue {{subcommand}}
+pueue <subcommand>

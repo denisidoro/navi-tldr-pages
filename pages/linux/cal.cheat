@@ -13,7 +13,7 @@ cal -3
 cal --monday
 
 # Display a calendar for a specific year (4 digits)
-cal {{year}}
+cal <year>
 
 # Display a calendar for a specific month and year
-cal {{month}} {{year}}
+cal <month> <year>

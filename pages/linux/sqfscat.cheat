@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sqfscat.md
+
+% sqfscat, linux
+
+# Display the contents of one or more files from a squashfs filesystem
+sqfscat <filesystem.squashfs> <file1 file2 ...>

@@ -7,10 +7,10 @@
 sh
 
 # Execute a command and then exit
-sh -c "{{command}}"
+sh -c "<command>"
 
 # Execute a script
-sh {{path/to/script.sh}}
+sh <path_to_script.sh>
 
-# Read and execute commands from stdin
+# Read and execute commands from `stdin`
 sh -s

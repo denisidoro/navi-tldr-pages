@@ -7,16 +7,16 @@
 sudo deb-get update
 
 # Search for a given package
-sudo deb-get search {{package}}
+sudo deb-get search <package>
 
 # Show information about a package
-sudo deb-get show {{package}}
+sudo deb-get show <package>
 
 # Install a package, or update it to the latest available version
-sudo deb-get install {{package}}
+sudo deb-get install <package>
 
 # Remove a package (using `purge` instead also removes its configuration files)
-sudo deb-get remove {{package}}
+sudo deb-get remove <package>
 
 # Upgrade all installed packages to their newest available versions
 sudo deb-get upgrade

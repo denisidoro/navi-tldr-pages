@@ -4,10 +4,10 @@
 % androguard, common
 
 # Display Android app manifest
-androguard axml {{path/to/app.apk}}
+androguard axml <path_to_app.apk>
 
 # Display app metadata (version and app ID)
-androguard apkid {{path/to/app.apk}}
+androguard apkid <path_to_app.apk>
 
 # Decompile Java code from an app
-androguard decompile {{path/to/app.apk}} --output {{path/to/directory}}
+androguard decompile <path_to_app.apk> --output <path_to_directory>

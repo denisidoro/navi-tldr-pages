@@ -4,13 +4,13 @@
 % lein, common
 
 # Generate scaffolding for a new project based on a template
-lein new {{template_name}} {{project_name}}
+lein new <template_name> <project_name>
 
 # Start a REPL session either with the project or standalone
 lein repl
 
 # Run the project's `-main` function with optional args
-lein run {{args}}
+lein run <args>
 
 # Run the project's tests
 lein test

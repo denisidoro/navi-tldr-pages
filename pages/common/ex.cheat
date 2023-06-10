@@ -4,7 +4,7 @@
 % ex, common
 
 # Open a file
-ex {{path/to/file}}
+ex <path_to_file>
 
 # Save and Quit
 wq<Enter>
@@ -13,13 +13,13 @@ wq<Enter>
 undo<Enter>
 
 # Search for a pattern in the file
-/{{search_pattern}}<Enter>
+_<search_pattern><Enter>
 
 # Perform a regular expression substitution in the whole file
-%s/{{regular_expression}}/{{replacement}}/g<Enter>
+%s_<regular_expression>_<replacement>_g<Enter>
 
 # Insert text
-i<Enter>{{text}}<C-c>
+i<Enter><text><C-c>
 
 # Switch to Vim
 visual<Enter>

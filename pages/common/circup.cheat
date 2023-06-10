@@ -7,10 +7,10 @@
 circup update
 
 # Install a new library
-circup install {{library_name}}
+circup install <library_name>
 
 # Search for a library
-circup show {{partial_name}}
+circup show <partial_name>
 
 # List all libraries on a connected device in `requirements.txt` format
 circup freeze

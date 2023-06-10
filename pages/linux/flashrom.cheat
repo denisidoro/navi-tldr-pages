@@ -4,16 +4,16 @@
 % flashrom, linux
 
 # Probe the chip, ensuring the wiring is correct
-flashrom --programmer {{programmer}}
+flashrom --programmer <programmer>
 
 # Read flash and save it to a file
-flashrom -p {{programmer}} --read {{path/to/file}}
+flashrom -p <programmer> --read <path_to_file>
 
 # Write a file to the flash
-flashrom -p {{programmer}} --write {{path/to/file}}
+flashrom -p <programmer> --write <path_to_file>
 
 # Verify the flash against a file
-flashrom -p {{programmer}} --verify {{path/to/file}}
+flashrom -p <programmer> --verify <path_to_file>
 
 # Probe the chip using Raspberry Pi
-flashrom -p {{linux_spi:dev=/dev/spidev0.0}}
+flashrom -p <linux_spi:dev=_dev_spidev0.0>

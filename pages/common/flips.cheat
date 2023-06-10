@@ -7,7 +7,7 @@
 flips
 
 # Apply a patch and create a new ROM file
-flips --apply {{patch.bps}} {{rom.smc}} {{hack.smc}}
+flips --apply <patch.bps> <rom.smc> <hack.smc>
 
 # Create a patch from two ROMs
-flips --create {{rom.smc}} {{hack.smc}} {{patch.bps}}
+flips --create <rom.smc> <hack.smc> <patch.bps>

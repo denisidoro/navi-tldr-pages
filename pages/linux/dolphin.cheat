@@ -3,22 +3,22 @@
 
 % dolphin, linux
 
-# Launch Dolphin
+# Launch the file manager
 dolphin
 
-# Launch Dolphin and display a specific directory
-dolphin {{path/to/directory}}
+# Open specific directories
+dolphin <path_to_directory1 path_to_directory2 ...>
 
-# Launch Dolphin with a specific file or directory selected
-dolphin --select {{path/to/file_or_directory}}
+# Open with specific files or directories selected
+dolphin --select <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
-# Launch Dolphin in a separated window
+# Open a new window
 dolphin --new-window
 
-# Launch Dolphin in split view
-dolphin --split
+# Open specific directories in split view
+dolphin --split <path_to_directory1> <path_to_directory2>
 
-# Start the Dolphin daemon (only required to use the DBus interface)
+# Launch the daemon (only required to use the DBus interface)
 dolphin --daemon
 
 # Display help

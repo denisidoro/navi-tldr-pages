@@ -16,4 +16,4 @@ ntpq --numeric --peers
 ntpq --debug-level
 
 # Print NTP system variables values
-ntpq --command={{rv}}
+ntpq --command=<rv>

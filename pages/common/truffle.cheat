@@ -4,7 +4,7 @@
 % truffle, common
 
 # Download a pre-built Truffle project (Truffle Box)
-truffle unbox {{box_name}}
+truffle unbox <box_name>
 
 # Compile contract source files in the current directory
 truffle compile
@@ -16,4 +16,4 @@ truffle test
 truffle migrate
 
 # Display help for a subcommand
-truffle help {{subcommand}}
+truffle help <subcommand>

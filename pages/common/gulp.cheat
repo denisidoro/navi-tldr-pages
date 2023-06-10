@@ -7,4 +7,4 @@
 gulp
 
 # Run individual tasks
-gulp {{task}} {{othertask}}
+gulp <task> <othertask>

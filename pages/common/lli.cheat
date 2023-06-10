@@ -4,13 +4,13 @@
 % lli, common
 
 # Execute a bitcode or IR file
-lli {{path/to/file.ll}}
+lli <path_to_file.ll>
 
-# Execute with command line arguments
-lli {{path/to/file.ll}} {{argument1 argument2 ...}}
+# Execute with command-line arguments
+lli <path_to_file.ll> <argument1 argument2 ...>
 
 # Enable all optimizations
-lli -O3 {{path/to/file.ll}}
+lli -O3 <path_to_file.ll>
 
 # Load a dynamic library before linking
-lli --dlopen={{path/to/library.dll}} {{path/to/file.ll}}
+lli --dlopen=<path_to_library.dll> <path_to_file.ll>

@@ -4,7 +4,7 @@
 % ocamlopt, common
 
 # Compile a source file
-ocamlopt -o {{path/to/binary}} {{path/to/source_file.ml}}
+ocamlopt -o <path_to_binary> <path_to_source_file.ml>
 
 # Compile with debugging enabled
-ocamlopt -g -o {{path/to/binary}} {{path/to/source_file.ml}}
+ocamlopt -g -o <path_to_binary> <path_to_source_file.ml>

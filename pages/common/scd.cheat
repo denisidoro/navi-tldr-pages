@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/scd.md
+
+% scd, common
+
+# Index paths recursively for the very first run
+scd -ar <path_to_directory>
+
+# Change to a specific directory
+scd <path_to_directory>
+
+# Change to a path matching specific patterns
+scd "<pattern1 pattern2 ...>"
+
+# Show selection menu and ranking of 20 most likely directories
+scd -v
+
+# Add a specific alias for the current directory
+scd --alias=<word>
+
+# Change to a directory using a specific alias
+scd <word>

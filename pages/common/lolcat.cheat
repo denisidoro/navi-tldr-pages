@@ -4,13 +4,13 @@
 % lolcat, common
 
 # Print a file to the console in rainbow colors
-lolcat {{path/to/file}}
+lolcat <path_to_file>
 
 # Print the result of a text-producing command in rainbow colors
-{{fortune}} | lolcat
+<fortune> | lolcat
 
 # Print a file to the console with animated rainbow colors
-lolcat -a {{path/to/file}}
+lolcat -a <path_to_file>
 
 # Print a file to the console with 24-bit (truecolor) rainbow colors
-lolcat -t {{path/to/file}}
+lolcat -t <path_to_file>

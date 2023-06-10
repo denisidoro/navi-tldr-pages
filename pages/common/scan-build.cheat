@@ -4,10 +4,10 @@
 % scan-build, common
 
 # Build and analyze the project in the current directory
-scan-build {{make}}
+scan-build <make>
 
 # Run a command and pass all subsequent options to it
-scan-build {{command}} {{command_arguments}}
+scan-build <command> <command_arguments>
 
 # Display help
 scan-build

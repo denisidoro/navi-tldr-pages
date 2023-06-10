@@ -10,10 +10,10 @@ i3
 Super + Return
 
 # Create a new workspace
-Super + Shift + {{number}}
+Super + Shift + <number>
 
-# Switch to workspace {{number}}
-Super + {{number}}
+# Switch to workspace <number>
+Super + <number>
 
 # Open new window horizontally
 Super + h

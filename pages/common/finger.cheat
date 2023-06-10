@@ -7,7 +7,7 @@
 finger
 
 # Display information about a specific user
-finger {{username}}
+finger <username>
 
 # Display the user's login name, real name, terminal name, and other information
 finger -s

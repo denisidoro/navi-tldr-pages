@@ -4,13 +4,13 @@
 % cabal, common
 
 # Search and list packages from Hackage
-cabal list {{search_string}}
+cabal list <search_string>
 
 # Show information about a package
-cabal info {{package_name}}
+cabal info <package_name>
 
 # Download and install a package
-cabal install {{package_name}}
+cabal install <package_name>
 
 # Create a new Haskell project in the current directory
 cabal init

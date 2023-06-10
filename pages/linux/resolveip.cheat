@@ -4,10 +4,10 @@
 % resolveip, linux
 
 # Resolve a hostname to an IP address
-resolveip {{example.org}}
+resolveip <example.org>
 
 # Resolve an IP address to a hostname
-resolveip {{1.1.1.1}}
+resolveip <1.1.1.1>
 
 # Silent mode. Produces less output
-resolveip --silent {{example.org}}
+resolveip --silent <example.org>

@@ -7,7 +7,7 @@
 ipython
 
 # Enter an interactive IPython session after running a Python script
-ipython -i {{script.py}}
+ipython -i <script.py>
 
 # Create default IPython profile
 ipython profile create

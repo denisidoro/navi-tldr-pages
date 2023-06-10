@@ -4,19 +4,19 @@
 % lynx, common
 
 # Visit a website
-lynx {{example.com}}
+lynx <example.com>
 
 # Apply restrictions for anonymous account
-lynx -anonymous {{example.com}}
+lynx -anonymous <example.com>
 
 # Turn on mouse support, if available
-lynx -use_mouse {{example.com}}
+lynx -use_mouse <example.com>
 
 # Force color mode on, if available
-lynx -color {{example.com}}
+lynx -color <example.com>
 
 # Open a link, using a specific file to read and write cookies
-lynx -cookie_file={{path/to/file}} {{example.com}}
+lynx -cookie_file=<path_to_file> <example.com>
 
 # Navigate forwards and backwards through the links on a page
 Up arrow key, Down arrow key

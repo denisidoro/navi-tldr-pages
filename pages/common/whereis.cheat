@@ -4,16 +4,16 @@
 % whereis, common
 
 # Locate binary, source and man pages for ssh
-whereis {{ssh}}
+whereis <ssh>
 
 # Locate binary and man pages for ls
-whereis -bm {{ls}}
+whereis -bm <ls>
 
 # Locate source of gcc and man pages for Git
-whereis -s {{gcc}} -m {{git}}
+whereis -s <gcc> -m <git>
 
-# Locate binaries for gcc in `/usr/bin/` only
-whereis -b -B {{/usr/bin/}} -f {{gcc}}
+# Locate binaries for gcc in `_usr_bin_` only
+whereis -b -B <_usr_bin_> -f <gcc>
 
 # Locate unusual binaries (those that have more or less than one binary on the system)
 whereis -u *

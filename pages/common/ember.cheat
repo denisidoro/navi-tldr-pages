@@ -4,10 +4,10 @@
 % ember, common
 
 # Create a new Ember application
-ember new {{my_new_app}}
+ember new <my_new_app>
 
 # Create a new Ember addon
-ember addon {{my_new_addon}}
+ember addon <my_new_addon>
 
 # Build the project
 ember build
@@ -22,7 +22,7 @@ ember serve
 ember test
 
 # Run a blueprint to generate something like a route or component
-ember generate {{type}} {{name}}
+ember generate <type> <name>
 
 # Install an ember-cli addon
-ember install {{name_of_addon}}
+ember install <name_of_addon>

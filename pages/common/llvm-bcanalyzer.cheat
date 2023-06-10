@@ -4,10 +4,10 @@
 % llvm-bcanalyzer, common
 
 # Print statistics about a Bitcode file
-llvm-bcanalyzer {{path/to/file.bc}}
+llvm-bcanalyzer <path_to_file.bc>
 
 # Print an SGML representation and statistics about a Bitcode file
-llvm-bcanalyzer -dump {{path/to/file.bc}}
+llvm-bcanalyzer -dump <path_to_file.bc>
 
 # Read a Bitcode file from `stdin` and analyze it
-cat {{path/to/file.bc}} | llvm-bcanalyzer
+cat <path_to_file.bc> | llvm-bcanalyzer

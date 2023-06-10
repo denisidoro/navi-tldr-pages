@@ -7,10 +7,10 @@
 bastet
 
 # Navigate the piece horizontally
-{{Left|Right}} arrow key
+<Left|Right> arrow key
 
 # Rotate the piece clockwise or counterclockwise
-{{Spacebar|Up arrow key}}
+<Spacebar|Up arrow key>
 
 # Soft drop the piece
 Down arrow key

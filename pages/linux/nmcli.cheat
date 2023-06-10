@@ -4,7 +4,7 @@
 % nmcli, linux
 
 # Run an `nmcli` subcommand
-nmcli {{agent|connection|device|general|help|monitor|networking|radio}} {{command_options}}
+nmcli <agent|connection|device|general|help|monitor|networking|radio> <command_options>
 
 # Display the current version of NetworkManager
 nmcli --version
@@ -13,4 +13,4 @@ nmcli --version
 nmcli --help
 
 # Display help for a subcommand
-nmcli {{subcommand}} --help
+nmcli <subcommand> --help

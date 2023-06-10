@@ -13,10 +13,10 @@ mixxx --developer --safeMode
 mixxx --debugAssertBreak --developer --loglevel trace
 
 # Start Mixxx using the specified settings file
-mixxx --resourcePath {{mixxx/res/controllers}} --settingsPath {{path/to/settings-file}}
+mixxx --resourcePath <mixxx_res_controllers> --settingsPath <path_to_settings-file>
 
 # Debug a custom controller mapping
-mixxx --controllerDebug --resourcePath {{path/to/mapping-directory}}
+mixxx --controllerDebug --resourcePath <path_to_mapping-directory>
 
 # Show command-line help
 mixxx --help

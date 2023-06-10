@@ -4,16 +4,16 @@
 % usermod, linux
 
 # Change a username
-sudo usermod --login {{new_username}} {{username}}
+sudo usermod --login <new_username> <username>
 
 # Change a user id
-sudo usermod --uid {{id}} {{username}}
+sudo usermod --uid <id> <username>
 
 # Change a user shell
-sudo usermod --shell {{path/to/shell}} {{username}}
+sudo usermod --shell <path_to_shell> <username>
 
 # Add a user to supplementary groups (mind the lack of whitespace)
-sudo usermod --append --groups {{group1,group2,...}} {{username}}
+sudo usermod --append --groups <group1,group2,...> <username>
 
 # Change a user home directory
-sudo usermod --move-home --home {{path/to/new_home}} {{username}}
+sudo usermod --move-home --home <path_to_new_home> <username>

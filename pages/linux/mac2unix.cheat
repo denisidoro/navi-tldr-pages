@@ -4,7 +4,7 @@
 % mac2unix, linux
 
 # Change the line endings of a file
-mac2unix {{filename}}
+mac2unix <filename>
 
 # Create a copy with Unix-style line endings
-mac2unix -n {{filename}} {{new_filename}}
+mac2unix -n <filename> <new_filename>

@@ -4,10 +4,10 @@
 % toolbox, linux
 
 # Run a `toolbox` subcommand
-toolbox {{subcommand}}
+toolbox <subcommand>
 
 # Show help for a `toolbox` subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.)
-toolbox help {{subcommand}}
+toolbox help <subcommand>
 
 # Show general help
 toolbox --help

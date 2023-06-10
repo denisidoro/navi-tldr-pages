@@ -16,4 +16,4 @@ maestral pause
 maestral resume
 
 # Print sync status of a specific file or folder
-maestral filestatus {{path/to/file_or_directory}}
+maestral filestatus <path_to_file_or_directory>

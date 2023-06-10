@@ -7,4 +7,4 @@
 aws history list
 
 # Display events related to a specific command given a command ID
-aws history show {{command_id}}
+aws history show <command_id>

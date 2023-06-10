@@ -4,10 +4,10 @@
 % texdoc, common
 
 # Open the first search result in the default PDF viewer
-texdoc {{search}}
+texdoc <search>
 
 # List the best search results
-texdoc --list {{search}}
+texdoc --list <search>
 
 # Open full documentation of texdoc
-texdoc {{texdoc}}
+texdoc <texdoc>

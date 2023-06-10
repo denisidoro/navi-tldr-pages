@@ -4,25 +4,25 @@
 % cpdf, common
 
 # Select pages 1, 2, 3 and 6 from a source document and write those to a destination document
-cpdf {{path/to/source_document.pdf}} {{1-3,6}} -o {{path/to/destination_document.pdf}}
+cpdf <path_to_source_document.pdf> <1-3,6> -o <path_to_destination_document.pdf>
 
 # Merge two documents into a new one
-cpdf -merge {{path/to/source_document_one.pdf}} {{path/to/source_document_two.pdf}} -o {{path/to/destination_document.pdf}}
+cpdf -merge <path_to_source_document_one.pdf> <path_to_source_document_two.pdf> -o <path_to_destination_document.pdf>
 
 # Show the bookmarks of a document
-cpdf -list-bookmarks {{path/to/document.pdf}}
+cpdf -list-bookmarks <path_to_document.pdf>
 
 # Split a document into ten-page chunks, writing them to `chunk001.pdf`, `chunk002.pdf`, etc
-cpdf -split {{path/to/document.pdf}} -o {{path/to/chunk%%%.pdf}} -chunk {{10}}
+cpdf -split <path_to_document.pdf> -o <path_to_chunk%%%.pdf> -chunk <10>
 
 # Encrypt a document using 128bit encryption, providing `fred` as owner password and `joe` as user password
-cpdf -encrypt {{128bit}} {{fred}} {{joe}} {{path/to/source_document.pdf}} -o {{path/to/encrypted_document.pdf}}
+cpdf -encrypt <128bit> <fred> <joe> <path_to_source_document.pdf> -o <path_to_encrypted_document.pdf>
 
 # Decrypt a document using the owner password `fred`
-cpdf -decrypt {{path/to/encrypted_document.pdf}} owner={{fred}} -o {{path/to/decrypted_document.pdf}}
+cpdf -decrypt <path_to_encrypted_document.pdf> owner=<fred> -o <path_to_decrypted_document.pdf>
 
 # Show the annotations of a document
-cpdf -list-annotations {{path/to/document.pdf}}
+cpdf -list-annotations <path_to_document.pdf>
 
 # Create a new document from an existing one with additional metadata
-cpdf -set-metadata {{path/to/metadata.xml}} {{path/to/source_document.pdf}} -o {{path/to/destination_document.pdf}}
+cpdf -set-metadata <path_to_metadata.xml> <path_to_source_document.pdf> -o <path_to_destination_document.pdf>

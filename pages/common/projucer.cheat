@@ -4,19 +4,19 @@
 % projucer, common
 
 # Display information about a project
-Projucer --status {{path/to/project_file}}
+Projucer --status <path_to_project_file>
 
 # Resave all files and resources in a project
-Projucer --resave {{path/to/project_file}}
+Projucer --resave <path_to_project_file>
 
 # Update the version number in a project
-Projucer --set-version {{version_number}} {{path/to/project_file}}
+Projucer --set-version <version_number> <path_to_project_file>
 
 # Generate a JUCE project from a PIP file
-Projucer --create-project-from-pip {{path/to/PIP}} {{path/to/output}}
+Projucer --create-project-from-pip <path_to_PIP> <path_to_output>
 
-# Remove all JUCE-style comments (`//=====`, `//-----` or `///////`)
-Projucer --tidy-divider-comments {{path/to/target_folder}}
+# Remove all JUCE-style comments (`__=====`, `__-----` or `_______`)
+Projucer --tidy-divider-comments <path_to_target_folder>
 
 # Display help
 Projucer --help

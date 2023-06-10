@@ -19,10 +19,10 @@ hg status --removed
 hg status --deleted
 
 # Display changes in the working directory compared to a specified changeset
-hg status --rev {{revision}}
+hg status --rev <revision>
 
 # Display only files matching a specified glob pattern
-hg status --include {{pattern}}
+hg status --include <pattern>
 
 # Display files, excluding those that match a specified glob pattern
-hg status --exclude {{pattern}}
+hg status --exclude <pattern>

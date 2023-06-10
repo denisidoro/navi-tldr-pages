@@ -4,13 +4,13 @@
 % ouch, common
 
 # Decompress a specific file
-ouch decompress {{path/to/archive.tar.xz}}
+ouch decompress <path_to_archive.tar.xz>
 
 # Decompress a file to a specific location
-ouch decompress {{path/to/archive.tar.xz}} --dir {{path/to/directory}}
+ouch decompress <path_to_archive.tar.xz> --dir <path_to_directory>
 
 # Decompress multiple files
-ouch decompress {{path/to/archive1.tar path/to/archive2.tar.gz ...}}
+ouch decompress <path_to_archive1.tar path_to_archive2.tar.gz ...>
 
 # Compress files
-ouch compress {{path/to/file1 path/to/file2 ...}} {{path/to/archive.zip}}
+ouch compress <path_to_file1 path_to_file2 ...> <path_to_archive.zip>

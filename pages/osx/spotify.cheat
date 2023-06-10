@@ -4,10 +4,10 @@
 % spotify, osx
 
 # Find a song by name and play it
-spotify play {{song_name}}
+spotify play <song_name>
 
 # Find a playlist by name and play it
-spotify play list {{playlist_name}}
+spotify play list <playlist_name>
 
 # Pause (or resume) playback
 spotify pause
@@ -16,7 +16,7 @@ spotify pause
 spotify next
 
 # Change volume
-spotify vol {{up|down|value}}
+spotify vol <up|down|value>
 
 # Show the playback status and song details
 spotify status

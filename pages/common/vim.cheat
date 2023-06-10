@@ -4,10 +4,10 @@
 % vim, common
 
 # Open a file
-vim {{path/to/file}}
+vim <path_to_file>
 
 # Open a file at a specified line number
-vim +{{line_number}} {{path/to/file}}
+vim +<line_number> <path_to_file>
 
 # View Vim's help manual
 :help<Enter>
@@ -18,11 +18,11 @@ vim +{{line_number}} {{path/to/file}}
 # Enter normal mode and undo the last operation
 <ESC>u
 
-# Search for a pattern in the file (press `n`/`N` to go to next/previous match)
-/{{search_pattern}}<Enter>
+# Search for a pattern in the file (press `n`_`N` to go to next_previous match)
+_<search_pattern><Enter>
 
 # Perform a regular expression substitution in the whole file
-:%s/{{regular_expression}}/{{replacement}}/g<Enter>
+:%s_<regular_expression>_<replacement>_g<Enter>
 
 # Display the line numbers
 :set nu<Enter>

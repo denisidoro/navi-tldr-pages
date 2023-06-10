@@ -4,13 +4,13 @@
 % emacs, common
 
 # Start Emacs and open a file
-emacs {{path/to/file}}
+emacs <path_to_file>
 
 # Open a file at a specified line number
-emacs +{{line_number}} {{path/to/file}}
+emacs +<line_number> <path_to_file>
 
 # Run an Emacs Lisp file as a script
-emacs --script {{path/to/file.el}}
+emacs --script <path_to_file.el>
 
 # Start Emacs in console mode (without an X window)
 emacs --no-window-system

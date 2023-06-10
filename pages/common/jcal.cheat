@@ -10,7 +10,7 @@ jcal
 jcal -3
 
 # Display a calendar for a specific year (4 digits)
-jcal {{year}}
+jcal <year>
 
 # Display a calendar for a specific month and year
-jcal {{year}} {{month}}
+jcal <year> <month>

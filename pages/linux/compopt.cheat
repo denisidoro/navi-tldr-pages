@@ -7,4 +7,4 @@
 compopt
 
 # Print the completion options for given command
-compopt {{command}}
+compopt <command>

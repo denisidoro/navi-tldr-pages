@@ -9,8 +9,8 @@ lsns
 # List namespaces in JSON format
 lsns --json
 
-# List namespaces associated with {{pid}}
-lsns --task {{pid}}
+# List namespaces associated with <pid>
+lsns --task <pid>
 
 # List the specified type of namespaces only
 lsns --type <mnt|net|ipc|user|pid|uts|cgroup|time>

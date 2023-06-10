@@ -7,7 +7,7 @@
 dvc dag
 
 # Visualize the pipeline stages up to a specified target stage
-dvc dag {{target}}
+dvc dag <target>
 
 # Export the pipeline in the dot format
-dvc dag --dot > {{path/to/pipeline.dot}}
+dvc dag --dot > <path_to_pipeline.dot>

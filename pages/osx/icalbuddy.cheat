@@ -4,16 +4,16 @@
 % icalbuddy, osx
 
 # Show events later today
-icalBuddy -n eventsToday
+icalBuddy --includeOnlyEventsFromNowOn eventsToday
 
 # Show uncompleted tasks
 icalBuddy uncompletedTasks
 
 # Show a formatted list separated by calendar for all events today
-icalBuddy -f -sc eventsToday
+icalBuddy --formatOutput --separateByCalendar eventsToday
 
 # Show tasks for a specified number of days
-icalBuddy -n "tasksDueBefore:today+{{days}}"
+icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+<8>"
 
 # Show events in a time range
-icalBuddy eventsFrom:{{start_date}} to:{{end_date}}
+icalBuddy eventsFrom:<start_date> to:<end_date>

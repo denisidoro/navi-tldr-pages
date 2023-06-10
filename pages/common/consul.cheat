@@ -10,4 +10,4 @@ consul --version
 consul --help
 
 # Show help for a sub-command
-consul {{sub-command}} --help
+consul <sub-command> --help

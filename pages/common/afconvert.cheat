@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/afconvert.md
+
+% afconvert, common
+
+# Use a specific extension (default: `aff`)
+afconvert -a <extension> <path_to_input_file> <path_to_output_file1 path_to_output_file2 ...>
+
+# Use a specific compression level (default: `7`)
+afconvert -X<0..7> <path_to_input_file> <path_to_output_file1 path_to_output_file2 ...>

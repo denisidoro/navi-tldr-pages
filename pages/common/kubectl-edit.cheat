@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kubectl-edit.md
+
+% kubectl-edit, common
+
+# Edit a pod
+kubectl edit pod_<pod_name>
+
+# Edit a deployment
+kubectl edit deployment_<deployment_name>
+
+# Edit a service
+kubectl edit svc_<service_name>
+
+# Edit a resource using a specific editor
+KUBE_EDITOR=<nano> kubectl edit <resource>_<resource_name>
+
+# Edit a resource in JSON format
+kubectl edit <resource>_<resource_name> --output json

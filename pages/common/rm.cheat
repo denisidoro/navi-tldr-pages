@@ -3,17 +3,17 @@
 
 % rm, common
 
-# Remove files from arbitrary locations
-rm {{path/to/file}} {{path/to/another/file}}
+# Remove specific files
+rm <path_to_file1 path_to_file2 ...>
 
-# Recursively remove a directory and all its subdirectories
-rm -r {{path/to/directory}}
+# Remove specific files ignoring nonexistent ones
+rm -f <path_to_file1 path_to_file2 ...>
 
-# Forcibly remove a directory, without prompting for confirmation or showing error messages
-rm -rf {{path/to/directory}}
+# Remove specific files [i]nteractively prompting before each removal
+rm -i <path_to_file1 path_to_file2 ...>
 
-# Interactively remove multiple files, with a prompt before every removal
-rm -i {{file(s)}}
+# Remove specific files printing info about each removal
+rm -v <path_to_file1 path_to_file2 ...>
 
-# Remove files in verbose mode, printing a message for each removed file
-rm -v {{path/to/directory/*}}
+# Remove specific files and directories [r]ecursively
+rm -r <path_to_file_or_directory1 path_to_file_or_directory2 ...>

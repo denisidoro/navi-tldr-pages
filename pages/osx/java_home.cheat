@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/java_home.md
+
+% java_home, osx
+
+# List JVMs based on a specific version
+java_home --version <1.5+>
+
+# List JVMs based on a specific [arch]itecture
+java_home --arch <i386>
+
+# List JVMs based on a specific tasks (defaults to `CommandLine`)
+java_home --datamodel <Applets|WebStart|BundledApp|JNI|CommandLine>
+
+# List JVMs in a XML format
+java_home --xml
+
+# Display help
+java_home --help

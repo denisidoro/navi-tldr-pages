@@ -4,16 +4,16 @@
 % godoc, common
 
 # Display help for package "fmt"
-godoc {{fmt}}
+godoc <fmt>
 
 # Display help for the function "Printf" of "fmt" package
-godoc {{fmt}} {{Printf}}
+godoc <fmt> <Printf>
 
 # Serve documentation as a web server on port 6060
-godoc -http=:{{6060}}
+godoc -http=:<6060>
 
 # Create an index file
-godoc -write_index -index_files={{path/to/file}}
+godoc -write_index -index_files=<path_to_file>
 
 # Use the given index file to search the docs
-godoc -http=:{{6060}} -index -index_files={{path/to/file}}
+godoc -http=:<6060> -index -index_files=<path_to_file>

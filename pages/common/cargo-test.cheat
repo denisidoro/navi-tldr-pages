@@ -4,10 +4,10 @@
 % cargo-test, common
 
 # Only run tests containing a specific string in their names
-cargo test {{testname}}
+cargo test <testname>
 
 # Set the number of simultaneous running test cases
-cargo test -- --test-threads={{count}}
+cargo test -- --test-threads=<count>
 
 # Require that `Cargo.lock` is up to date
 cargo test --locked
@@ -19,7 +19,7 @@ cargo test --release
 cargo test --workspace
 
 # Run tests for a package
-cargo test --package {{package}}
+cargo test --package <package>
 
 # Run tests without hiding output from test executions
 cargo test -- --nocapture

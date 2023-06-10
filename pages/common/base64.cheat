@@ -3,14 +3,14 @@
 
 % base64, common
 
-# Encode the contents of a file as base64 and write the result to stdout
-base64 {{filename}}
+# Encode the contents of a file as base64 and write the result to `stdout`
+base64 <path_to_file>
 
-# Decode the base64 contents of a file and write the result to stdout
-base64 --decode {{filename}}
+# Decode the base64 contents of a file and write the result to `stdout`
+base64 --decode <path_to_file>
 
-# Encode from stdin
-{{somecommand}} | base64
+# Encode from `stdin`
+<somecommand> | base64
 
-# Decode from stdin
-{{somecommand}} | base64 --decode
+# Decode from `stdin`
+<somecommand> | base64 --decode

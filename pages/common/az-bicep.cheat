@@ -7,10 +7,10 @@
 az bicep install
 
 # Build a Bicep file
-az bicep build --file {{path/to/file.bicep}}
+az bicep build --file <path_to_file.bicep>
 
 # Attempt to decompile an ARM template file to a Bicep file
-az bicep decompile --file {{path/to/template_file.json}}
+az bicep decompile --file <path_to_template_file.json>
 
 # Upgrade Bicep CLI to the latest version
 az bicep upgrade

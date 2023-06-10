@@ -7,16 +7,16 @@
 orca-c
 
 # Start ORCA and open a specific file
-orca-c {{path/to/file.orca}}
+orca-c <path_to_file.orca>
 
 # Start ORCA and set a specific tempo (defaults to 120)
-orca-c --bpm {{beats_per_minute}}
+orca-c --bpm <beats_per_minute>
 
 # Start ORCA and set the size of the grid
-orca-c --initial-size {{columns}}x{{rows}}
+orca-c --initial-size <columns>x<rows>
 
 # Start ORCA and set the maximum number of undo steps (defaults to 100)
-orca-c --undo-limit {{limit}}
+orca-c --undo-limit <limit>
 
 # Show the main menu inside of ORCA
 F1

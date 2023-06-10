@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-develop.md
+
+% nix3-develop, common
+
+# Start a shell with all dependencies of a package from nixpkgs available
+nix develop <nixpkgs#pkg>
+
+# Start a development shell for the default package in a flake in the current directory
+nix develop
+
+# In that shell, configure and build the sources
+configurePhase; buildPhase

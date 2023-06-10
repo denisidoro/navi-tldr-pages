@@ -7,4 +7,4 @@
 pinta
 
 # Open specific files
-pinta {{path/to/image1 path/to/image2 ...}}
+pinta <path_to_image1 path_to_image2 ...>

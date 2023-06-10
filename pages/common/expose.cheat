@@ -4,19 +4,19 @@
 % expose, common
 
 # Register your authentication token
-expose token {{token}}
+expose token <token>
 
 # Share the current working directory
 expose
 
 # Share the current working directory with a specific subdomain
-expose --subdomain={{subdomain}}
+expose --subdomain=<subdomain>
 
 # Share a local URL
-expose share {{url}}
+expose share <url>
 
 # Run the Expose server
 expose serve
 
 # Run the Expose server with a specific hostname
-expose serve {{hostname}}
+expose serve <hostname>

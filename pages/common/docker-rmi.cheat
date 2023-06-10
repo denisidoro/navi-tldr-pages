@@ -7,10 +7,10 @@
 docker rmi
 
 # Remove one or more images given their names
-docker rmi {{image1 image2 ...}}
+docker rmi <image1 image2 ...>
 
 # Force remove an image
-docker rmi --force {{image}}
+docker rmi --force <image>
 
 # Remove an image without deleting untagged parents
-docker rmi --no-prune {{image}}
+docker rmi --no-prune <image>

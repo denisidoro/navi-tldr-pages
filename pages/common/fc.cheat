@@ -7,13 +7,13 @@
 fc
 
 # Specify an editor to open with
-fc -e {{'emacs'}}
+fc -e <'emacs'>
 
 # List recent commands from history
 fc -l
 
 # List recent commands in reverse order
-fc -r
+fc -l -r
 
 # List commands in a given interval
-fc '{{416}}' '{{420}}'
+fc '<416>' '<420>'

@@ -7,7 +7,7 @@
 at now + 5 minutes
 
 # Execute a command from standard input at 10:00 AM today
-echo "{{./make_db_backup.sh}}" | at 1000
+echo "<._make_db_backup.sh>" | at 1000
 
 # Execute commands from a given file next Tuesday
-at -f {{path/to/file}} 9:30 PM Tue
+at -f <path_to_file> 9:30 PM Tue

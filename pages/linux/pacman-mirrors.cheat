@@ -13,7 +13,7 @@ pacman-mirrors --status
 pacman-mirrors --get-branch
 
 # Switch to a different branch
-sudo pacman-mirrors --api --set-branch {{stable|unstable|testing}}
+sudo pacman-mirrors --api --set-branch <stable|unstable|testing>
 
 # Generate a mirrorlist, only using mirrors in your country
 sudo pacman-mirrors --geoip

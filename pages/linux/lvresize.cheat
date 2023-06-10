@@ -4,13 +4,13 @@
 % lvresize, linux
 
 # Change the size of a logical volume to 120 GB
-lvresize --size {{120G}} {{volume_group}}/{{logical_volume}}
+lvresize --size <120G> <volume_group>_<logical_volume>
 
 # Extend the size of a logical volume as well as the underlying filesystem by 120 GB
-lvresize --size +{{120G}} --resizefs {{volume_group}}/{{logical_volume}}
+lvresize --size +<120G> --resizefs <volume_group>_<logical_volume>
 
 # Extend the size of a logical volume to 100% of the free physical volume space
-lvresize --size {{100}}%FREE {{volume_group}}/{{logical_volume}}
+lvresize --size <100>%FREE <volume_group>_<logical_volume>
 
 # Reduce the size of a logical volume as well as the underlying filesystem by 120 GB
-lvresize --size -{{120G}} --resizefs {{volume_group}}/{{logical_volume}}
+lvresize --size -<120G> --resizefs <volume_group>_<logical_volume>

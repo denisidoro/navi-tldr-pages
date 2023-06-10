@@ -4,25 +4,25 @@
 % osmium, common
 
 # Show file information
-osmium fileinfo {{path/to/input.osm}}
+osmium fileinfo <path_to_input.osm>
 
 # Display contents
-osmium show {{path/to/input.osm}}
+osmium show <path_to_input.osm>
 
 # Convert file format from PBF into XML
-osmium cat {{path/to/input.osm.pbf}} -o {{path/to/output.osm}}
+osmium cat <path_to_input.osm.pbf> -o <path_to_output.osm>
 
 # Extract a geographic region by the given [b]ounding box
-osmium extract -b {{min_longitude}},{{min_latitude}},{{max_longitude}},{{max_latitude}} {{path/to/input.pbf}} -o {{path/to/output.pbf}}
+osmium extract -b <min_longitude>,<min_latitude>,<max_longitude>,<max_latitude> <path_to_input.pbf> -o <path_to_output.pbf>
 
 # Extract a geographic region by a GeoJSON file
-osmium extract -p {{path/to/polygon.geojson}} {{path/to/input.pbf}} -o {{path/to/output.pbf}}
+osmium extract -p <path_to_polygon.geojson> <path_to_input.pbf> -o <path_to_output.pbf>
 
 # Filter all objects tagged as "restaurant"
-osmium tags-filter {{path/to/input.pbf}} amenity=restaurant -o {{path/to/output.pbf}}
+osmium tags-filter <path_to_input.pbf> amenity=restaurant -o <path_to_output.pbf>
 
 # Filter for "way" objects tagged as "highway"
-osmium tags-filter {{path/to/input.pbf}} w/highway -o {{path/to/output.pbf}}
+osmium tags-filter <path_to_input.pbf> w_highway -o <path_to_output.pbf>
 
 # Filter "way" and "relation" objects tagged as "building"
-osmium tags-filter {{path/to/input.pbf}} wr/building -o {{path/to/output.pbf}}
+osmium tags-filter <path_to_input.pbf> wr_building -o <path_to_output.pbf>

@@ -7,4 +7,4 @@
 pueue status
 
 # Show the status of a specific group
-pueue status --group {{group_name}}
+pueue status --group <group_name>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nvme.md
+
+% nvme, common
+
+# List all nvme devices
+sudo nvme list
+
+# Show device information
+sudo nvme smart-log <device>

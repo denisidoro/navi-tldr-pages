@@ -4,16 +4,16 @@
 % ldd, linux
 
 # Display shared library dependencies of a binary
-ldd {{path/to/binary}}
+ldd <path_to_binary>
 
 # Display all information about dependencies
-ldd --verbose {{path/to/binary}}
+ldd --verbose <path_to_binary>
 
 # Display unused direct dependencies
-ldd --unused {{path/to/binary}}
+ldd --unused <path_to_binary>
 
 # Report missing data objects and perform data relocations
-ldd --data-relocs {{path/to/binary}}
+ldd --data-relocs <path_to_binary>
 
 # Report missing data objects and functions, and perform relocations for both
-ldd --function-relocs {{path/to/binary}}
+ldd --function-relocs <path_to_binary>

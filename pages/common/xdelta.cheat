@@ -4,7 +4,7 @@
 % xdelta, common
 
 # Apply a patch
-xdelta -d -s {{path/to/input_file}} {{path/to/delta_file.xdelta}} {{path/to/output_file}}
+xdelta -d -s <path_to_input_file> <path_to_delta_file.xdelta> <path_to_output_file>
 
 # Create a patch
-xdelta -e -s {{path/to/old_file}} {{path/to/new_file}} {{path/to/output_file.xdelta}}
+xdelta -e -s <path_to_old_file> <path_to_new_file> <path_to_output_file.xdelta>

@@ -10,7 +10,7 @@ gh ssh-key
 gh ssh-key list
 
 # Add an SSH key to the currently authenticated user's account
-gh ssh-key add {{path/to/key.pub}}
+gh ssh-key add <path_to_key.pub>
 
 # Add an SSH key to the currently authenticated user's account with a specific title
-gh ssh-key add --title {{title}} {{path/to/key.pub}}
+gh ssh-key add --title <title> <path_to_key.pub>

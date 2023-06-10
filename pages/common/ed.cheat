@@ -19,7 +19,7 @@ ed --quiet
 ed --loose-exit-status
 
 # Edit a specific file (this shows the byte count of the loaded file)
-ed {{path/to/file}}
+ed <path_to_file>
 
 # Replace a string with a specific replacement for all lines
-,s/{{regular_expression}}/{{replacement}}/g
+,s_<regular_expression>_<replacement>_g

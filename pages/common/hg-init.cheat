@@ -7,4 +7,4 @@
 hg init
 
 # Initialize a new repository in the specified directory
-hg init {{path/to/directory}}
+hg init <path_to_directory>

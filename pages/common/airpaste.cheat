@@ -7,13 +7,13 @@
 airpaste
 
 # Send text
-echo {{text}} | airpaste
+echo <text> | airpaste
 
 # Send a file
-airpaste < {{path/to/file}}
+airpaste < <path_to_file>
 
 # Receive a file
-airpaste > {{path/to/file}}
+airpaste > <path_to_file>
 
 # Create or join a channel
-airpaste {{channel_name}}
+airpaste <channel_name>

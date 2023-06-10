@@ -4,4 +4,4 @@
 % git-blame-someone-else, common
 
 # Change the committer and author of a commit
-git blame-someone-else "{{author <someone@example.com>}}" {{commit}}
+git blame-someone-else "<author <someone@example.com>>" <commit>

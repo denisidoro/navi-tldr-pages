@@ -7,16 +7,16 @@
 hg serve
 
 # Start a web server instance on the specified port
-hg serve --port {{port}}
+hg serve --port <port>
 
 # Start a web server instance on the specified listening address
-hg serve --address {{address}}
+hg serve --address <address>
 
 # Start a web server instance with a specific identifier
-hg serve --name {{name}}
+hg serve --name <name>
 
 # Start a web server instance using the specified theme (see the templates directory)
-hg serve --style {{style}}
+hg serve --style <style>
 
 # Start a web server instance using the specified SSL certificate bundle
-hg serve --certificate {{path/to/certificate}}
+hg serve --certificate <path_to_certificate>

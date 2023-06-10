@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/distrobox-host-exec.md
+
+% distrobox-host-exec, linux
+
+# Execute command on the host system from inside the distrobox container
+distrobox-host-exec "<command>"
+
+# Execute the `ls` command on the host system from inside the container
+distrobox-host-exec ls

@@ -16,4 +16,4 @@ hostname -I
 hostname --fqdn
 
 # Set current host name
-hostname {{new_hostname}}
+hostname <new_hostname>

@@ -4,10 +4,10 @@
 % mongod, common
 
 # Specify a config file
-mongod --config {{filename}}
+mongod --config <path_to_file>
 
 # Specify the port to listen on
-mongod --port {{port}}
+mongod --port <port>
 
 # Specify database profiling level. 0 is off, 1 is only slow operations, 2 is all
-mongod --profile {{0|1|2}}
+mongod --profile <0|1|2>

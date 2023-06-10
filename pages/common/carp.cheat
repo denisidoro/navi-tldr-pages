@@ -7,16 +7,16 @@
 carp
 
 # Start a REPL with a custom prompt
-carp --prompt "{{> }}"
+carp --prompt "<> >"
 
 # Build a `carp` file
-carp -b {{path/to/file.carp}}
+carp -b <path_to_file.carp>
 
 # Build and run a file
-carp -x {{path/to/file.carp}}
+carp -x <path_to_file.carp>
 
 # Build a file with optimizations enabled
-carp -b --optimize {{path/to/file.carp}}
+carp -b --optimize <path_to_file.carp>
 
 # Transpile a file to C code
-carp --generate-only {{path/to/file.carp}}
+carp --generate-only <path_to_file.carp>

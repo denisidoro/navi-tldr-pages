@@ -4,10 +4,10 @@
 % dart, common
 
 # Initialize a new Dart project in a directory of the same name
-dart create {{project_name}}
+dart create <project_name>
 
 # Run a Dart file
-dart run {{path/to/file.dart}}
+dart run <path_to_file.dart>
 
 # Download dependencies for the current project
 dart pub get
@@ -19,4 +19,4 @@ dart test
 dart pub upgrade --null-safety
 
 # Compile a Dart file to a native binary
-dart compile exe {{path/to/file.dart}}
+dart compile exe <path_to_file.dart>

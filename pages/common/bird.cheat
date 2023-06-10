@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bird.md
+
+% bird, common
+
+# Start Bird with a specific configuration file
+bird -c <path_to_bird.conf>
+
+# Start Bird as a specific user and group
+bird -u <username> -g <group>

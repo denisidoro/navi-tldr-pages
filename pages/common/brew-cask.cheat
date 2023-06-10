@@ -4,10 +4,10 @@
 % brew-cask, common
 
 # Search for formulas and casks
-brew search {{text}}
+brew search <text>
 
 # Install a cask
-brew install --cask {{cask_name}}
+brew install --cask <cask_name>
 
 # List all installed casks
 brew list --cask
@@ -16,13 +16,13 @@ brew list --cask
 brew outdated --cask
 
 # Upgrade an installed cask (if no cask name is given, all installed casks are upgraded)
-brew upgrade --cask {{cask_name}}
+brew upgrade --cask <cask_name>
 
 # Uninstall a cask
-brew uninstall --cask {{cask_name}}
+brew uninstall --cask <cask_name>
 
 # Uninstall a cask and remove related settings and files
-brew zap --cask {{cask_name}}
+brew zap --cask <cask_name>
 
 # Display information about a given cask
-brew info --cask {{cask_name}}
+brew info --cask <cask_name>

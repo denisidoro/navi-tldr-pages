@@ -6,23 +6,23 @@
 # Start an interactive shell session
 cmd
 
-# Execute a [c]ommand
-cmd /c "{{command}}"
+# Execute specific [c]ommands
+cmd _c <echo Hello world>
 
-# Execute a script
-cmd {{path/to/file.bat}}
+# Execute a specific script
+cmd <path\to\script.bat>
 
-# Execute a command and then enter an interactive shell
-cmd /k "{{command}}"
+# Execute specific commands and then enter an interactive shell
+cmd _k <echo Hello world>
 
 # Start an interactive shell session where `echo` is disabled in command output
-cmd /q
+cmd _q
 
 # Start an interactive shell session with delayed [v]ariable expansion enabled or disabled
-cmd /v:{{on|off}}
+cmd _v:<on|off>
 
 # Start an interactive shell session with command [e]xtensions enabled or disabled
-cmd /e:{{on|off}}
+cmd _e:<on|off>
 
-# Start an interactive shell session with used Unicode encoding
-cmd /u
+# Start an interactive shell session with used [u]nicode encoding
+cmd _u

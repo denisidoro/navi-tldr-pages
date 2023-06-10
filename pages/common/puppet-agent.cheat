@@ -4,7 +4,7 @@
 % puppet-agent, common
 
 # Register a node at a Puppet server and apply the received catalog
-puppet agent --test --server {{puppetserver_fqdn}} --serverport {{port}} --waitforcert {{poll_time}}
+puppet agent --test --server <puppetserver_fqdn> --serverport <port> --waitforcert <poll_time>
 
 # Run the agent in the background (uses settings from `puppet.conf`)
 puppet agent
@@ -19,7 +19,7 @@ puppet agent --test --noop
 puppet agent --test --evaltrace
 
 # Disable the agent
-puppet agent --disable "{{message}}"
+puppet agent --disable "<message>"
 
 # Enable the agent
 puppet agent --enable

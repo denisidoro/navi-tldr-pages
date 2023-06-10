@@ -4,10 +4,10 @@
 % agate, common
 
 # Run and generate a private key and certificate
-agate --content {{path/to/content/}} --addr {{[::]:1965}} --addr {{0.0.0.0:1965}} --hostname {{example.com}} --lang {{en-US}}
+agate --content <path_to_content_> --addr <[::]:1965> --addr <0.0.0.0:1965> --hostname <example.com> --lang <en-US>
 
 # Run server
-agate {{path/to/file}}
+agate <path_to_file>
 
 # Display help
 agate -h

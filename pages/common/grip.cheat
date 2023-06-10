@@ -7,10 +7,10 @@
 grip
 
 # Start the server and serve a specific Markdown file
-grip {{path/to/file.md}}
+grip <path_to_file.md>
 
 # Start the server and open the `README` file of the current directory in the browser
 grip --browser
 
 # Start the server in the specified port and serve the rendered `README` file of the current directory
-grip {{port}}
+grip <port>

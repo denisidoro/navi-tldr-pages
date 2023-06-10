@@ -7,10 +7,10 @@
 transmission-daemon
 
 # Start and watch a specific directory for new torrents
-transmission-daemon --watch-dir {{path/to/directory}}
+transmission-daemon --watch-dir <path_to_directory>
 
 # Dump daemon settings in JSON format
-transmission-daemon --dump-settings > {{path/to/file.json}}
+transmission-daemon --dump-settings > <path_to_file.json>
 
 # Start with specific settings for the web interface
-transmission-daemon --auth --username {{username}} --password {{password}} --port {{9091}} --allowed {{127.0.0.1}}
+transmission-daemon --auth --username <username> --password <password> --port <9091> --allowed <127.0.0.1>

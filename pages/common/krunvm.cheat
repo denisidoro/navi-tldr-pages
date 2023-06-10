@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/krunvm.md
+
+% krunvm, common
+
+# Create MicroVM based on Fedora
+krunvm create <docker.io_fedora> --cpus <number_of_vcpus> --mem <memory_in_megabytes> --name "<name>"
+
+# Start a specific image
+krunvm start "<image_name>"
+
+# List images
+krunvm list
+
+# Change a specific image
+krunvm changevm --cpus <number_of_vcpus> --mem <memory_in_megabytes> --name "<new_vm_name>" "<current_vm_name>"
+
+# Delete a specific image
+krunvm delete "<image_name>"

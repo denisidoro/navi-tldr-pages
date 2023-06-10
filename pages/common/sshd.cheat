@@ -13,4 +13,4 @@ sshd -D
 sshd -D -d
 
 # Run on a specific port
-sshd -p {{port}}
+sshd -p <port>

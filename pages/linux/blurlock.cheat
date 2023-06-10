@@ -10,7 +10,7 @@ blurlock
 blurlock --no-unlock-indicator
 
 # Lock the screen and don't hide the mouse pointer
-blurlock --pointer {{default}}
+blurlock --pointer <default>
 
 # Lock the screen and show the number of failed login attempts
 blurlock --show-failed-attempts

@@ -4,10 +4,10 @@
 % reg, windows
 
 # Execute registry commands
-reg {{command}}
+reg <command>
 
 # Display general information and list all available commands
-reg /?
+reg _?
 
 # Call help on a specific command
-reg {{command}} /?
+reg <command> _?

@@ -7,10 +7,10 @@
 einfo -dbs
 
 # Print all information of the protein database in XML format
-einfo -db {{protein}}
+einfo -db <protein>
 
 # Print all fields of the nuccore database
-einfo -db {{nuccore}} -fields
+einfo -db <nuccore> -fields
 
 # Print all links of the protein database
-einfo -db {{protein}} -links
+einfo -db <protein> -links

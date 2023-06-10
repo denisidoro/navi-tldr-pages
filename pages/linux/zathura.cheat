@@ -4,9 +4,9 @@
 % zathura, linux
 
 # Open a file
-zathura {{path/to/file}}
+zathura <path_to_file>
 
-# Navigate left/up/down/right
+# Navigate left_up_down_right
 <H|J|K|L> or arrow keys
 
 # Rotate
@@ -16,10 +16,10 @@ r
 Ctrl + R
 
 # Search for text by a given string
-/{{string}}
+_<string>
 
-# Create/delete bookmarks
-:{{bmark|bdelete}} {{bookmark_name}}
+# Create_delete bookmarks
+:<bmark|bdelete> <bookmark_name>
 
 # List bookmarks
 :blist

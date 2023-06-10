@@ -4,7 +4,7 @@
 % pbcopy, osx
 
 # Place the contents of a specific file in the clipboard
-pbcopy < {{path/to/file}}
+pbcopy < <path_to_file>
 
 # Place the results of a specific command in the clipboard
 find . -type t -name "*.png" | pbcopy

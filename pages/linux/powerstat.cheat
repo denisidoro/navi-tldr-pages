@@ -7,13 +7,13 @@
 powerstat
 
 # Measure power with custom number of samples and interval duration
-powerstat {{interval}} {{number_of_samples}}
+powerstat <interval> <number_of_samples>
 
 # Measure power using Intel's RAPL interface
-powerstat -R {{interval}} {{number_of_samples}}
+powerstat -R <interval> <number_of_samples>
 
 # Show a histogram of the power measurements
-powerstat -H {{interval}} {{number_of_samples}}
+powerstat -H <interval> <number_of_samples>
 
 # Enable all statistics gathering options
-powerstat -a {{interval}} {{number_of_samples}}
+powerstat -a <interval> <number_of_samples>

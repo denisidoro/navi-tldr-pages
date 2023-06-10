@@ -10,4 +10,4 @@ hello
 hello --traditional
 
 # Print a text message
-hello --greeting="{{greeting_text}}"
+hello --greeting="<greeting_text>"

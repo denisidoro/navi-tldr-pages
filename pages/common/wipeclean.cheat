@@ -7,4 +7,4 @@
 wipeclean
 
 # Set the animation speed in frames per second (defaults to 150)
-wipeclean --speed {{speed}}
+wipeclean --speed <speed>

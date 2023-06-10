@@ -6,17 +6,17 @@
 # Create a new project
 ionic start
 
-# Start a local dev server for app dev/testing
+# Start a local dev server for app dev_testing
 ionic serve
 
 # Generate new app component, directive, page, pipe, provider or tabs
-ionic g {{page}}
+ionic g <page>
 
 # Show versions of Ionic, Cordova, environment, etc.
 ionic info
 
-# Run app on an Android/iOS device
-ionic cordova run {{android|ios}} --device
+# Run app on an Android_iOS device
+ionic cordova run <android|ios> --device
 
 # Check the health of an Ionic app
-ionic doctor {{check}}
+ionic doctor <check>

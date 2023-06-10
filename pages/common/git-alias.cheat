@@ -7,7 +7,7 @@
 git alias
 
 # Create a new alias
-git alias "{{name}}" "{{command}}"
+git alias "<name>" "<command>"
 
 # Search for an existing alias
-git alias ^{{name}}
+git alias ^<name>

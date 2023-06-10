@@ -7,10 +7,10 @@
 octave
 
 # Execute a specific script file
-octave {{path/to/script.m}}
+octave <path_to_script.m>
 
 # Execute a script file with specific arguments
-octave {{path/to/script.m}} {{argument1 argument2 ...}}
+octave <path_to_script.m> <argument1 argument2 ...>
 
 # Start an interactive session with a GUI
 octave --gui

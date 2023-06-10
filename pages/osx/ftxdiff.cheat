@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/ftxdiff.md
+
+% ftxdiff, osx
+
+# Output differences to a specific text file
+ftxdiff --output <path_to_fontdiff_file.txt> <path_to_font_file1.ttc> <path_to_font_file2.ttc>
+
+# Include glyph names in output
+ftxdiff --include-glyph-names
+
+# Include unicode names in output
+ftxdiff --include-unicode-names

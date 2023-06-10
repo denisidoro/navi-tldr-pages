@@ -4,4 +4,4 @@
 % virsh-pool-destroy, common
 
 # Stop a storage pool specified by name or UUID (determine using `virsh pool-list`)
-virsh pool-destroy --pool {{name|uuid}}
+virsh pool-destroy --pool <name|uuid>

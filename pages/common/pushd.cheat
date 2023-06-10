@@ -4,7 +4,7 @@
 % pushd, common
 
 # Switch to directory and push it on the stack
-pushd {{directory}}
+pushd <path_to_directory>
 
 # Switch first and second directories on the stack
 pushd

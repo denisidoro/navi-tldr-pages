@@ -4,19 +4,19 @@
 % rar, common
 
 # Archive 1 or more files
-rar a {{path/to/archive_name.rar}} {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}
+rar a <path_to_archive_name.rar> <path_to_file1> <path_to_file2> <path_to_file3>
 
 # Archive a directory
-rar a {{path/to/archive_name.rar}} {{path/to/directory}}
+rar a <path_to_archive_name.rar> <path_to_directory>
 
 # Split the archive into parts of equal size (50M)
-rar a -v{{50M}} -R {{path/to/archive_name.rar}} {{path/to/file_or_directory}}
+rar a -v<50M> -R <path_to_archive_name.rar> <path_to_file_or_directory>
 
 # Password protect the resulting archive
-rar a -p{{password}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}
+rar a -p<password> <path_to_archive_name.rar> <path_to_file_or_directory>
 
 # Encrypt file data and headers with password
-rar a -hp{{password}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}
+rar a -hp<password> <path_to_archive_name.rar> <path_to_file_or_directory>
 
 # Use a specific compression level (0-5)
-rar a -m{{compression_level}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}
+rar a -m<compression_level> <path_to_archive_name.rar> <path_to_file_or_directory>

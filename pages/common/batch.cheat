@@ -7,7 +7,7 @@
 batch
 
 # Execute a command from standard input
-echo "{{./make_db_backup.sh}}" | batch
+echo "<._make_db_backup.sh>" | batch
 
 # Execute commands from a given file
-batch -f {{path/to/file}}
+batch -f <path_to_file>

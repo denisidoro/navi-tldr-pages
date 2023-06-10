@@ -4,7 +4,7 @@
 % git-reset-file, common
 
 # Reset a file to HEAD
-git reset-file {{path/to/file}}
+git reset-file <path_to_file>
 
 # Reset a file to a specific commit
-git reset-file {{path/to/file}} {{commit_hash}}
+git reset-file <path_to_file> <commit_hash>

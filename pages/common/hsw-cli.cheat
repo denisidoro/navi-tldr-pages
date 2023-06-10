@@ -4,7 +4,7 @@
 % hsw-cli, common
 
 # Unlock the current wallet (timeout in seconds)
-hsw-cli unlock {{passphrase}} {{timeout}}
+hsw-cli unlock <passphrase> <timeout>
 
 # Lock the current wallet
 hsw-cli lock
@@ -19,10 +19,10 @@ hsw-cli balance
 hsw-cli history
 
 # Send a transaction with the specified coin amount to an address
-hsw-cli send {{address}} {{1.05}}
+hsw-cli send <address> <1.05>
 
 # View the current wallet's pending transactions
 hsw-cli pending
 
 # View details about a transaction
-hsw-cli tx {{transaction_hash}}
+hsw-cli tx <transaction_hash>

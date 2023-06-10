@@ -16,4 +16,4 @@ quota -q
 quota -g
 
 # Show disk quotas for another user
-sudo quota -u {{username}}
+sudo quota -u <username>

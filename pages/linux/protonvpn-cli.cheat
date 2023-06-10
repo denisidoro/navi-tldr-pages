@@ -4,7 +4,7 @@
 % protonvpn-cli, linux
 
 # Log in to the ProtonVPN account
-protonvpn-cli login {{username}}
+protonvpn-cli login <username>
 
 # Start a kill switch upon connecting to ProtonVPN
 protonvpn-cli killswitch --on
@@ -25,4 +25,4 @@ protonvpn-cli disconnect
 protonvpn-cli config --list
 
 # Display help for a subcommand
-protonvpn-cli {{subcommand}} --help
+protonvpn-cli <subcommand> --help

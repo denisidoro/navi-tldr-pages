@@ -4,7 +4,7 @@
 % laravel-zero, common
 
 # Create a new Laravel Zero application
-laravel-zero new {{name}}
+laravel-zero new <name>
 
 # Update the installer to the latest version
 laravel-zero self-update

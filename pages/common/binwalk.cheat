@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/binwalk.md
+
+% binwalk, common
+
+# Scan a binary file
+binwalk <path_to_binary>
+
+# Extract files from a binary, specifying the output directory
+binwalk --extract --directory <output_directory> <path_to_binary>
+
+# Recursively extract files from a binary limiting the recursion depth to 2
+binwalk --extract --matryoshka --depth <2> <path_to_binary>
+
+# Extract files from a binary with the specified file signature
+binwalk --dd '<png image:png>' <path_to_binary>
+
+# Analyze the entropy of a binary, saving the plot with the same name as the binary and `.png` extension appended
+binwalk --entropy --save <path_to_binary>
+
+# Combine entropy, signature and opcodes analysis in a single command
+binwalk --entropy --signature --opcodes <path_to_binary>

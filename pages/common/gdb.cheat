@@ -4,16 +4,16 @@
 % gdb, common
 
 # Debug an executable
-gdb {{executable}}
+gdb <executable>
 
 # Attach a process to gdb
-gdb -p {{procID}}
+gdb -p <procID>
 
 # Debug with a core file
-gdb -c {{core}} {{executable}}
+gdb -c <core> <executable>
 
 # Execute given GDB commands upon start
-gdb -ex "{{commands}}" {{executable}}
+gdb -ex "<commands>" <executable>
 
 # Start gdb and pass arguments to the executable
-gdb --args {{executable}} {{argument1}} {{argument2}}
+gdb --args <executable> <argument1> <argument2>

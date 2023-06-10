@@ -13,7 +13,7 @@ cargo clippy --locked
 cargo clippy --workspace
 
 # Run checks for a package
-cargo clippy --package {{package}}
+cargo clippy --package <package>
 
 # Treat warnings as errors
 cargo clippy -- --deny warnings

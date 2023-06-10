@@ -4,7 +4,7 @@
 % groupmod, linux
 
 # Change the group name
-sudo groupmod --new-name {{new_group}} {{group_name}}
+sudo groupmod --new-name <new_group> <group_name>
 
 # Change the group id
-sudo groupmod --gid {{new_id}} {{group_name}}
+sudo groupmod --gid <new_id> <group_name>

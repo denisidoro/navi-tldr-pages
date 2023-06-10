@@ -4,10 +4,10 @@
 % llvm-as, common
 
 # Assemble an IR file
-llvm-as -o {{path/to/out.bc}} {{path/to/source.ll}}
+llvm-as -o <path_to_out.bc> <path_to_source.ll>
 
 # Assemble an IR file and include a module hash in the produced Bitcode file
-llvm-as --module-hash -o {{path/to/out.bc}} {{path/to/source.ll}}
+llvm-as --module-hash -o <path_to_out.bc> <path_to_source.ll>
 
 # Read an IR file from `stdin` and assemble it
-cat {{path/to/source.ll}} | llvm-as -o {{path/to/out.bc}}
+cat <path_to_source.ll> | llvm-as -o <path_to_out.bc>

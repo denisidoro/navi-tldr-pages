@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/shfmt.md
+
+% shfmt, common
+
+# Print a formatted version of a shell script
+shfmt <path_to_file>
+
+# List unformatted files
+shfmt --list <path_to_directory>
+
+# Write the result to the file instead of printing it to the terminal
+shfmt --write <path_to_file>
+
+# Simplify the code, removing redundant pieces of syntax (i.e. removing "$" from vars in expressions)
+shfmt --simplify <path_to_file>

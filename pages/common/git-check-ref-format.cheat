@@ -4,10 +4,10 @@
 % git-check-ref-format, common
 
 # Check the format of the specified refname
-git check-ref-format {{refs/head/refname}}
+git check-ref-format <refs_head_refname>
 
 # Print the name of the last branch checked out
 git check-ref-format --branch @{-1}
 
 # Normalize a refname
-git check-ref-format --normalize {{refs/head/refname}}
+git check-ref-format --normalize <refs_head_refname>

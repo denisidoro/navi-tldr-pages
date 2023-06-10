@@ -4,7 +4,7 @@
 % pdfunite, common
 
 # Merge 2 PDFs into a single PDF
-pdfunite {{path/to/fileA.pdf}} {{path/to/fileB.pdf}} {{path/to/merged_output.pdf}}
+pdfunite <path_to_fileA.pdf> <path_to_fileB.pdf> <path_to_merged_output.pdf>
 
 # Merge a directory of PDFs into a single PDF
-pdfunite {{path/to/directory/*.pdf}} {{path/to/merged_output.pdf}}
+pdfunite <path_to_directory_*.pdf> <path_to_merged_output.pdf>

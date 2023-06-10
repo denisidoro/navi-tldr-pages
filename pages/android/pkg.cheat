@@ -7,13 +7,13 @@
 pkg upgrade
 
 # Install a package
-pkg install {{package}}
+pkg install <package>
 
 # Uninstall a package
-pkg uninstall {{package}}
+pkg uninstall <package>
 
 # Reinstall a package
-pkg reinstall {{package}}
+pkg reinstall <package>
 
 # Search for a package
-pkg search {{package}}
+pkg search <package>

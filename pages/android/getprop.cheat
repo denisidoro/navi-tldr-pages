@@ -7,19 +7,19 @@
 getprop
 
 # Display information about a specific property
-getprop {{prop}}
+getprop <property>
 
 # Display the SDK API level
-getprop {{ro.build.version.sdk}}
+getprop <ro.build.version.sdk>
 
 # Display the Android version
-getprop {{ro.build.version.release}}
+getprop <ro.build.version.release>
 
 # Display the Android device model
-getprop {{ro.vendor.product.model}}
+getprop <ro.vendor.product.model>
 
 # Display the OEM unlock status
-getprop {{ro.oem_unlock_supported}}
+getprop <ro.oem_unlock_supported>
 
 # Display the MAC address of the Android's Wi-Fi card
-getprop {{ro.boot.wifimacaddr}}
+getprop <ro.boot.wifimacaddr>

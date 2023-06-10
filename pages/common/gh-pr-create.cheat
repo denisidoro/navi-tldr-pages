@@ -13,7 +13,7 @@ gh pr create --fill
 gh pr create --draft
 
 # Create a pull request specifying the base branch, title, and description
-gh pr create --base {{base_branch}} --title "{{title}}" --body "{{body}}"
+gh pr create --base <base_branch> --title "<title>" --body "<body>"
 
 # Start opening a pull request in the default web browser
 gh pr create --web

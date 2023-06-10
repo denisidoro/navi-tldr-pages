@@ -4,13 +4,13 @@
 % reg-flags, windows
 
 # Display current flags for a specific key
-reg flags {{key_name}} query
+reg flags <key_name> query
 
 # Display help and available flag types
-reg flags /?
+reg flags _?
 
 # Set specified space-separated flags, and unset unmentioned flags, for a specific key
-reg flags {{key_name}} set {{flag_names}}
+reg flags <key_name> set <flag_names>
 
 # Set specified flags for a specific key and its sub keys
-reg flags {{key_name}} set {{flag_names}} /s
+reg flags <key_name> set <flag_names> _s

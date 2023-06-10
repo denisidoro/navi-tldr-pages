@@ -7,7 +7,7 @@
 progpilot
 
 # Analyze a specific file or directory
-progpilot {{path/to/file_or_directory}}
+progpilot <path_to_file_or_directory>
 
 # Specify a custom configuration file
-progpilot --configuration {{path/to/configuration.yml}}
+progpilot --configuration <path_to_configuration.yml>

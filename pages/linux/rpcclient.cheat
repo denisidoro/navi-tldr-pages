@@ -4,16 +4,16 @@
 % rpcclient, linux
 
 # Connect to a remote host
-rpcclient --user {{domain}}\{{username}}%{{password}} {{ip}}
+rpcclient --user <domain>\<username>%<password> <ip>
 
 # Connect to a remote host on a domain without a password
-rpcclient --user {{username}} --workgroup {{domain}} --no-pass {{ip}}
+rpcclient --user <username> --workgroup <domain> --no-pass <ip>
 
 # Connect to a remote host, passing the password hash
-rpcclient --user {{domain}}\{{username}} --pw-nt-hash {{ip}}
+rpcclient --user <domain>\<username> --pw-nt-hash <ip>
 
 # Execute shell commands on a remote host
-rpcclient --user {{domain}}\{{username}}%{{password}} --command {{semicolon_separated_commands}} {{ip}}
+rpcclient --user <domain>\<username>%<password> --command <semicolon_separated_commands> <ip>
 
 # Display domain users
 rpcclient $> enumdomusers
@@ -22,7 +22,7 @@ rpcclient $> enumdomusers
 rpcclient $> enumprivs
 
 # Display information about a specific user
-rpcclient $> queryuser {{username|rid}}
+rpcclient $> queryuser <username|rid>
 
 # Create a new user in the domain
-rpcclient $> createdomuser {{username}}
+rpcclient $> createdomuser <username>

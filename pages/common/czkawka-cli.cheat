@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/czkawka-cli.md
+
+% czkawka-cli, common
+
+# List duplicate or similar files in specific directories
+czkawka-cli <dup|image> --directories <path_to_directory1 path_to_directory2 ...>
+
+# Find duplicate files in specific directories and delete them (default: `NONE`)
+czkawka-cli dup --directories <path_to_directory1 path_to_directory2 ...> --delete-method <AEN|AEO|ON|OO|HARD|NONE>

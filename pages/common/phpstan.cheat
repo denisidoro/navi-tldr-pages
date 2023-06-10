@@ -7,16 +7,16 @@
 phpstan analyse --help
 
 # Analyze the specified space-separated directories
-phpstan analyse {{path/to/directory}}
+phpstan analyse <path_to_directory>
 
 # Analyze a directory using a configuration file
-phpstan analyse {{path/to/directory}} --configuration {{path/to/config}}
+phpstan analyse <path_to_directory> --configuration <path_to_config>
 
 # Analyze using a specific rule level (0-7, higher is stricter)
-phpstan analyse {{path/to/directory}} --level {{level}}
+phpstan analyse <path_to_directory> --level <level>
 
 # Specify an autoload file to load before analyzing
-phpstan analyse {{path/to/directory}} --autoload-file {{path/to/autoload_file}}
+phpstan analyse <path_to_directory> --autoload-file <path_to_autoload_file>
 
 # Specify a memory limit during analysis
-phpstan analyse {{path/to/directory}} --memory-limit {{memory_limit}}
+phpstan analyse <path_to_directory> --memory-limit <memory_limit>

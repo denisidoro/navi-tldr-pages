@@ -4,16 +4,16 @@
 % sv, common
 
 # Start a service
-sudo sv up {{path/to/service}}
+sudo sv up <path_to_service>
 
 # Stop a service
-sudo sv down {{path/to/service}}
+sudo sv down <path_to_service>
 
 # Get service status
-sudo sv status {{path/to/service}}
+sudo sv status <path_to_service>
 
 # Reload a service
-sudo sv reload {{path/to/service}}
+sudo sv reload <path_to_service>
 
 # Start a service, but only if it's not running and don't restart it if it stops
-sudo sv once {{path/to/service}}
+sudo sv once <path_to_service>

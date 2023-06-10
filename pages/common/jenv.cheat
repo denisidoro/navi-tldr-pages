@@ -4,7 +4,7 @@
 % jenv, common
 
 # Add a Java version to jEnv
-jenv add {{path/to/jdk_home}}
+jenv add <path_to_jdk_home>
 
 # Display the current JDK version used
 jenv version
@@ -13,10 +13,10 @@ jenv version
 jenv versions
 
 # Set the global JDK version
-jenv global {{java_version}}
+jenv global <java_version>
 
 # Set the JDK version for the current shell session
-jenv shell {{java_version}}
+jenv shell <java_version>
 
 # Enable a jEnv plugin
-jenv enable-plugin {{plugin_name}}
+jenv enable-plugin <plugin_name>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/grim.md
+
+% grim, linux
+
+# Screenshot all outputs
+grim
+
+# Screenshot a specific output
+grim -o <path_to_output_file>
+
+# Screenshot a specific region
+grim -g "<<x_position>,<y_position> <width>x<height>>"
+
+# Select a specific region and screenshot it, (using slurp)
+grim -g "<$(slurp)>"
+
+# Use a custom filename
+grim "<path_to_file.png>"
+
+# Screenshot and copy to clipboard
+grim - | <clipboard_manager>

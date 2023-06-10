@@ -4,19 +4,19 @@
 % irssi, common
 
 # Open Irssi and connect to a server with a nickname
-irssi -n {{nickname}} -c {{irc.example.com}}
+irssi -n <nickname> -c <irc.example.com>
 
 # Open Irssi and connect with a specific server on a given port
-irssi -c {{irc.example.com}} -p {{port}}
+irssi -c <irc.example.com> -p <port>
 
 # View the help
 irssi --help
 
 # Join a channel
-/join {{#channelname}}
+_join <#channelname>
 
 # Change active window (starts at 1)
-/win {{window_number}}
+_win <window_number>
 
 # Exit the application cleanly and quitting any server(s)
-/quit
+_quit

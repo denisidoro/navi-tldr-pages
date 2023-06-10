@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rarcrack.md
+
+% rarcrack, common
+
+# Brute force the password for an archive (tries to guess the archive type)
+rarcrack <path_to_file.zip>
+
+# Specify the archive type
+rarcrack --type <rar|zip|7z> <path_to_file.zip>
+
+# Use multiple threads
+rarcrack --threads <6> <path_to_file.zip>

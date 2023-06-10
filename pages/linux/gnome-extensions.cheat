@@ -10,16 +10,16 @@ gnome-extensions version
 gnome-extensions list
 
 # Display information about a specific extension
-gnome-extensions info "{{extension_id}}"
+gnome-extensions info "<extension_id>"
 
 # Display help for a subcommand (like `list`)
-gnome-extensions help {{subcommand}}
+gnome-extensions help <subcommand>
 
 # Enable a specific extension
-gnome-extensions enable "{{extension_id}}"
+gnome-extensions enable "<extension_id>"
 
 # Disable a specific extension
-gnome-extension disable "{{extension_id}}"
+gnome-extension disable "<extension_id>"
 
 # Uninstall a specific extension
-gnome-extension uninstall "{{extension_id}}"
+gnome-extension uninstall "<extension_id>"

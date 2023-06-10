@@ -10,19 +10,19 @@ vercel
 vercel --prod
 
 # Deploy a directory
-vercel {{path/to/project}}
+vercel <path_to_project>
 
 # Initialize an example project
 vercel init
 
 # Deploy with Environment Variables
-vercel --env {{ENV}}={{var}}
+vercel --env <ENV>=<var>
 
 # Build with Environment Variables
-vercel --build-env {{ENV}}={{var}}
+vercel --build-env <ENV>=<var>
 
 # Set default regions to enable the deployment on
-vercel --regions {{region_id}}
+vercel --regions <region_id>
 
 # Remove a deployment
-vercel remove {{project_name}}
+vercel remove <project_name>

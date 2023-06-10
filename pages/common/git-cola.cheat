@@ -13,7 +13,7 @@ git cola --amend
 git cola --prompt
 
 # Open the Git repository at mentioned path
-git cola --repo {{path/to/git-repository}}
+git cola --repo <path_to_git-repository>
 
 # Apply the path filter to the status widget
-git cola --status-filter {{filter}}
+git cola --status-filter <filter>

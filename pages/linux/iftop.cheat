@@ -7,7 +7,7 @@
 sudo iftop
 
 # Show the bandwidth usage of a given interface
-sudo iftop -i {{interface}}
+sudo iftop -i <interface>
 
 # Show the bandwidth usage with port information
 sudo iftop -P

@@ -4,7 +4,7 @@
 % trash, linux
 
 # Delete a file and send it to the trash
-trash {{path/to/file}}
+trash <path_to_file>
 
 # List all files in the trash
 trash-list
@@ -16,10 +16,10 @@ trash-restore
 trash-empty
 
 # Permanently delete all files in the trash which are older than 10 days
-trash-empty {{10}}
+trash-empty <10>
 
 # Remove all files in the trash, which match a specific blob pattern
-trash-rm "{{*.o}}"
+trash-rm "<*.o>"
 
 # Remove all files with a specific original location
-trash-rm {{/path/to/file_or_directory}}
+trash-rm <_path_to_file_or_directory>

@@ -10,10 +10,10 @@ qtchooser --list-versions
 qtchooser --print-env
 
 # Run the specified tool using the specified Qt version
-qtchooser --run-tool={{tool}} --qt={{version_name}}
+qtchooser --run-tool=<tool> --qt=<version_name>
 
 # Add a Qt version entry to be able to choose from
-qtchooser --install {{version_name}} {{path/to/qmake}}
+qtchooser --install <version_name> <path_to_qmake>
 
 # Display all available options
 qtchooser --help

@@ -4,10 +4,10 @@
 % rip, common
 
 # Remove files or directories from specified locations and place them in the graveyard
-rip {{path/to/file_or_directory}} {{path/to/another/file_or_directory}}
+rip <path_to_file_or_directory> <path_to_another_file_or_directory>
 
 # Interactively remove files or directories, with a prompt before every removal
-rip --inspect {{path/to/file_or_directory}} {{path/to/another/file_or_directory}}
+rip --inspect <path_to_file_or_directory> <path_to_another_file_or_directory>
 
 # List all files and directories in the graveyard that were originally within the current directory
 rip --seance

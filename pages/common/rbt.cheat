@@ -4,16 +4,16 @@
 % rbt, common
 
 # Post changes to Review Board
-rbt post {{change_number}}
+rbt post <change_number>
 
 # Display the diff that will be sent to Review Board
 rbt diff
 
 # Land a change in a local branch or on a review request
-rbt land {{branch_name}}
+rbt land <branch_name>
 
 # Patch your tree with a change on a review request
-rbt patch {{review_request_id}}
+rbt patch <review_request_id>
 
 # Set up RBTool to talk to a repository
 rbt setup-repo

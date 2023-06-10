@@ -13,7 +13,7 @@ git ls-remote --heads
 git ls-remote --tags
 
 # Show all references from a remote repository based on name or URL
-git ls-remote {{repository_url}}
+git ls-remote <repository_url>
 
 # Show references from a remote repository filtered by a pattern
-git ls-remote {{repository_name}} "{{pattern}}"
+git ls-remote <repository_name> "<pattern>"

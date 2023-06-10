@@ -4,7 +4,7 @@
 % mullvad, common
 
 # Link your mullvad account with the specified account number
-mullvad account set {{account_number}}
+mullvad account set <account_number>
 
 # Enable LAN access while VPN is on
 mullvad lan set allow

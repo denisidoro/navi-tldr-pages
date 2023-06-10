@@ -4,4 +4,4 @@
 % xip, osx
 
 # Expand the archive into the current working directory
-xip --expand {{path/to/file.xip}}
+xip --expand <path_to_file.xip>

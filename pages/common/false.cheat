@@ -3,5 +3,5 @@
 
 % false, common
 
-# Return an exit code of 1
+# Return a non-zero exit code
 false

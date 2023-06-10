@@ -4,13 +4,13 @@
 % ascii, linux
 
 # Show ASCII aliases of a character
-ascii {{a}}
+ascii <a>
 
 # Show ASCII aliases in short, script-friendly mode
-ascii -t {{a}}
+ascii -t <a>
 
 # Show ASCII aliases of multiple characters
-ascii -s {{tldr}}
+ascii -s <tldr>
 
 # Show ASCII table in decimal
 ascii -d

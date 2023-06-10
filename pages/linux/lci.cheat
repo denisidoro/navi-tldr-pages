@@ -4,7 +4,7 @@
 % lci, linux
 
 # Run a LOLCODE file
-lci {{path/to/file}}
+lci <path_to_file>
 
 # Display version
 lci -v

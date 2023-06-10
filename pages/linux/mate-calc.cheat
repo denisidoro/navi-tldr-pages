@@ -7,4 +7,4 @@
 mate-calc
 
 # Calculate a specific mathematic expression
-mate-calc --solve {{2 + 5}}
+mate-calc --solve <2 + 5>

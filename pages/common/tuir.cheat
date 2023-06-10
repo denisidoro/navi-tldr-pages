@@ -7,13 +7,13 @@
 tuir
 
 # Open a subreddit
-/{{subreddit_name}}
+_<subreddit_name>
 
 # Open a link
 o
 
 # Open a specific subreddit on launch
-tuir -s {{subreddit_name}}
+tuir -s <subreddit_name>
 
 # Open external links using programs defined in the mailcap config
 tuir --enable-media

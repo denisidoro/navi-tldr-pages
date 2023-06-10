@@ -7,16 +7,16 @@
 http-server-upload
 
 # Start an HTTP server with the specified maximum allowed file size for uploads in MiB (defaults to 200 MiB)
-MAX_FILE_SIZE={{size_in_megabytes}} http-server-upload
+MAX_FILE_SIZE=<size_in_megabytes> http-server-upload
 
 # Start an HTTP server on a specific port to upload files to the current directory
-PORT={{port}} http-server-upload
+PORT=<port> http-server-upload
 
 # Start an HTTP server, storing the uploaded files in a specific directory
-UPLOAD_DIR={{path/to/directory}} http-server-upload
+UPLOAD_DIR=<path_to_directory> http-server-upload
 
 # Start an HTTP server using a specific directory to temporarily store files during the upload process
-UPLOAD_TMP_DIR={{path/to/directory}} http-server-upload
+UPLOAD_TMP_DIR=<path_to_directory> http-server-upload
 
 # Start an HTTP server accepting uploads with a specific token field in the HTTP post
-TOKEN={{secret}} http-server-upload
+TOKEN=<secret> http-server-upload

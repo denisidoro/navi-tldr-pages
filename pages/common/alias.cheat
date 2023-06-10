@@ -7,16 +7,16 @@
 alias
 
 # Create a generic alias
-alias {{word}}="{{command}}"
+alias <word>="<command>"
 
 # View the command associated to a given alias
-alias {{word}}
+alias <word>
 
 # Remove an aliased command
-unalias {{word}}
+unalias <word>
 
 # Turn `rm` into an interactive command
-alias {{rm}}="{{rm --interactive}}"
+alias <rm>="<rm --interactive>"
 
 # Create `la` as a shortcut for `ls --all`
-alias {{la}}="{{ls --all}}"
+alias <la>="<ls --all>"

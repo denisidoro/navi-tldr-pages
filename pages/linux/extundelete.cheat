@@ -4,13 +4,13 @@
 % extundelete, linux
 
 # Restore all deleted files inside partition N on device X
-sudo extundelete {{/dev/sdXN}} --restore-all
+sudo extundelete <_dev_sdXN> --restore-all
 
-# Restore a file from a path relative to root (Do not start the path with `/`)
-extundelete {{/dev/sdXN}} --restore-file {{path/to/file}}
+# Restore a file from a path relative to root (Do not start the path with `_`)
+extundelete <_dev_sdXN> --restore-file <path_to_file>
 
-# Restore a directory from a path relative to root (Do not start the path with `/`)
-extundelete {{/dev/sdXN}} --restore-directory {{path/to/directory}}
+# Restore a directory from a path relative to root (Do not start the path with `_`)
+extundelete <_dev_sdXN> --restore-directory <path_to_directory>
 
 # Restore all files deleted after January 1st, 2020 (in Unix time)
-extundelete {{/dev/sdXN}} --restore-all --after {{1577840400}}
+extundelete <_dev_sdXN> --restore-all --after <1577840400>

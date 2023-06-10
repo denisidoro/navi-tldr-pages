@@ -13,7 +13,7 @@ varnishlog -q 'ReqHeader eq "Host: <example.com>"'
 varnishlog -q 'ReqMethod eq "<POST>"'
 
 # Only display requests to a specific path
-varnishlog -q 'ReqURL eq "<path>"'
+varnishlog -q 'ReqURL eq "<_path>"'
 
 # Only display requests to paths matching a regular expression
 varnishlog -q 'ReqURL ~ "<regex>"'

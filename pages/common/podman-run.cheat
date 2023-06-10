@@ -16,7 +16,7 @@ podman run --rm --interactive --tty <image:tag> <command>
 podman run --env '<variable>=<value>' --env <variable> <image:tag> <command>
 
 # Run command in a new container with bind mounted volumes
-podman run --volume <path_to_host_path>:<path_to_container_path> <image:tag> <command>
+podman run --volume <_path_to_host_path>:<_path_to_container_path> <image:tag> <command>
 
 # Run command in a new container with published ports
 podman run --publish <host_port>:<container_port> <image:tag> <command>

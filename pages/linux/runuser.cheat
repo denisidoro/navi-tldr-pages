@@ -13,7 +13,7 @@ runuser <user> -g <group> -c '<command>'
 runuser <user> -l
 
 # Specify a shell for running instead of the default shell (also works for login)
-runuser <user> -s <bin_sh>
+runuser <user> -s <_bin_sh>
 
 # Preserve the entire environment of root (only if `--login` is not specified)
 runuser <user> --preserve-environment -c '<command>'

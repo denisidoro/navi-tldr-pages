@@ -13,4 +13,4 @@ live-server --port=<8081>
 live-server --open=<about.html>
 
 # Proxy all requests for ROUTE to URL
-live-server --proxy=<>:<http:localhost:3000>
+live-server --proxy=<_>:<http:localhost:3000>

@@ -4,13 +4,13 @@
 % debugfs, linux
 
 # Open the filesystem in read only mode
-debugfs <dev_sdXN>
+debugfs <_dev_sdXN>
 
 # Open the filesystem in read write mode
-debugfs -w <dev_sdXN>
+debugfs -w <_dev_sdXN>
 
 # Read commands from a specified file, execute them and then exit
-debugfs -f <path_to_cmd_file> <dev_sdXN>
+debugfs -f <path_to_cmd_file> <_dev_sdXN>
 
 # View the filesystem stats in debugfs console
 stats

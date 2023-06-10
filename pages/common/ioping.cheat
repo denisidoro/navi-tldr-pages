@@ -10,7 +10,7 @@ ioping .
 ioping -c 10 -s 1M /tmp
 
 # Measure disk seek rate on `/dev/sdX`
-ioping -R <dev_sdX>
+ioping -R <_dev_sdX>
 
 # Measure disk sequential speed on `/dev/sdX`
-ioping -RL <dev_sdX>
+ioping -RL <_dev_sdX>

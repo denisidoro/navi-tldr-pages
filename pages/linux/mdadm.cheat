@@ -4,22 +4,22 @@
 % mdadm, linux
 
 # Create array
-sudo mdadm --create <dev_md_MyRAID> --level <raid_level> --raid-devices <number_of_disks> <dev_sdXN>
+sudo mdadm --create <_dev_md_MyRAID> --level <raid_level> --raid-devices <number_of_disks> <_dev_sdXN>
 
 # Stop array
-sudo mdadm --stop <dev_md0>
+sudo mdadm --stop <_dev_md0>
 
 # Mark disk as failed
-sudo mdadm --fail <dev_md0> <dev_sdXN>
+sudo mdadm --fail <_dev_md0> <_dev_sdXN>
 
 # Remove disk
-sudo mdadm --remove <dev_md0> <dev_sdXN>
+sudo mdadm --remove <_dev_md0> <_dev_sdXN>
 
 # Add disk to array
-sudo mdadm --assemble <dev_md0> <dev_sdXN>
+sudo mdadm --assemble <_dev_md0> <_dev_sdXN>
 
 # Show RAID info
-sudo mdadm --detail <dev_md0>
+sudo mdadm --detail <_dev_md0>
 
 # Reset disk by deleting RAID metadata
-sudo mdadm --zero-superblock <dev_sdXN>
+sudo mdadm --zero-superblock <_dev_sdXN>

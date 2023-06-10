@@ -22,4 +22,4 @@ trash-empty <10>
 trash-rm "<*.o>"
 
 # Remove all files with a specific original location
-trash-rm <path_to_file_or_directory>
+trash-rm <_path_to_file_or_directory>

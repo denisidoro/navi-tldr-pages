@@ -4,7 +4,7 @@
 % raw, linux
 
 # Bind a raw character device to a block device
-raw /dev/raw/raw<1> <dev_block_device>
+raw /dev/raw/raw<1> <_dev_block_device>
 
 # Query an existing binding instead of setting a new one
 raw /dev/raw/raw<1>

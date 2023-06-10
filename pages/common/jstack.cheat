@@ -10,4 +10,4 @@ jstack <java_pid>
 jstack -m <java_pid>
 
 # Print stack traces from Java core dump
-jstack <usr_bin_java> <file.core>
+jstack <_usr_bin_java> <file.core>

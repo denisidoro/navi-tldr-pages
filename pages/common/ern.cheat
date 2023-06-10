@@ -10,7 +10,7 @@ ern create-miniapp <application_name>
 ern run-<ios|android>
 
 # Create an Electrode Native container
-ern create-container --miniapps <path_to_miniapp_directory> --platform <ios|android>
+ern create-container --miniapps <_path_to_miniapp_directory> --platform <ios|android>
 
 # Publish an Electrode Native container to a local Maven repository
 ern publish-container --publisher <maven> --platform <android> --extra {{'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'}}

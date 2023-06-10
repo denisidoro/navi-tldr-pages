@@ -4,10 +4,10 @@
 % e4defrag, linux
 
 # Defragment the filesystem
-e4defrag <dev_sdXN>
+e4defrag <_dev_sdXN>
 
 # See how fragmented a filesystem is
-e4defrag -c <dev_sdXN>
+e4defrag -c <_dev_sdXN>
 
 # Print errors and the fragmentation count before and after each file
-e4defrag -v <dev_sdXN>
+e4defrag -v <_dev_sdXN>

@@ -4,10 +4,10 @@
 % fsck, linux
 
 # Check filesystem `/dev/sdXN`, reporting any damaged blocks
-sudo fsck <dev_sdXN>
+sudo fsck <_dev_sdXN>
 
 # Check filesystem `/dev/sdXN`, reporting any damaged blocks and interactively letting the user choose to repair each one
-sudo fsck -r <dev_sdXN>
+sudo fsck -r <_dev_sdXN>
 
 # Check filesystem `/dev/sdXN`, reporting any damaged blocks and automatically repairing them
-sudo fsck -a <dev_sdXN>
+sudo fsck -a <_dev_sdXN>

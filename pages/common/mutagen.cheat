@@ -4,10 +4,10 @@
 % mutagen, common
 
 # Start a synchronization session between a local directory and a remote host
-mutagen sync create --name=<session_name> <path_to_local_directory_> <user>@<host>:<path_to_remote_directory_>
+mutagen sync create --name=<session_name> <_path_to_local_directory_> <user>@<host>:<_path_to_remote_directory_>
 
 # Start a synchronization session between a local directory and a Docker container
-mutagen sync create --name=<session_name> <path_to_local_directory_> docker://<user>@<container_name><path_to_remote_directory_>
+mutagen sync create --name=<session_name> <_path_to_local_directory_> docker://<user>@<container_name><_path_to_remote_directory_>
 
 # Stop a running session
 mutagen sync terminate <session_name>

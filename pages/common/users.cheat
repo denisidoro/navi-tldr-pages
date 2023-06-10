@@ -7,4 +7,4 @@
 users
 
 # Print logged in usernames according to a given file
-users <var_log_wmtp>
+users <_var_log_wmtp>

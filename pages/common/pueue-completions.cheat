@@ -4,10 +4,10 @@
 % pueue-completions, common
 
 # Generate completions for Bash
-sudo pueue completions bash <usr_share_bash-completion_completions_pueue.bash>
+sudo pueue completions bash <_usr_share_bash-completion_completions_pueue.bash>
 
 # Generate completions for zsh
-sudo pueue completions zsh <usr_share_zsh_site-functions>
+sudo pueue completions zsh <_usr_share_zsh_site-functions>
 
 # Generate completions for fish
-sudo pueue completions fish <usr_share_fish_completions>
+sudo pueue completions fish <_usr_share_fish_completions>

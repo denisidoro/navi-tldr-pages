@@ -13,7 +13,7 @@ nix-shell -p <pkg1 pkg2 pkg3...>
 nix-env -iA <nixpkgs.pkg1 nixpkgs.pkg2...>
 
 # Show all dependencies of a store path (package), in a tree format
-nix-store --query --tree <nix_store_...>
+nix-store --query --tree <_nix_store_...>
 
 # Update the channels (repositories)
 nix-channel --update

@@ -16,7 +16,7 @@ dd if=/dev/urandom of=<path_to_random_file> bs=<100> count=<1>
 dd if=/dev/zero of=<path_to_file_1GB> bs=<1024> count=<1000000>
 
 # Generate a system backup into an IMG file
-dd if=<dev_drive_device> of=<path_to_file.img>
+dd if=<_dev_drive_device> of=<path_to_file.img>
 
 # Restore a drive from an IMG file
-dd if=<path_to_file.img> of=<dev_drive_device>
+dd if=<path_to_file.img> of=<_dev_drive_device>

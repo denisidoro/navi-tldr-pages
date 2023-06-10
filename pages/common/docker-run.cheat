@@ -16,7 +16,7 @@ docker run --rm --interactive --tty <image> <command>
 docker run --env '<variable>=<value>' --env <variable> <image> <command>
 
 # Run command in a new container with bind mounted volumes
-docker run --volume <path_to_host_path>:<path_to_container_path> <image> <command>
+docker run --volume <_path_to_host_path>:<_path_to_container_path> <image> <command>
 
 # Run command in a new container with published ports
 docker run --publish <host_port>:<container_port> <image> <command>

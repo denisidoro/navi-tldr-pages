@@ -4,19 +4,19 @@
 % dconf-write, linux
 
 # Write a specific key value
-dconf write <path_to_key> "<value>"
+dconf write <_path_to_key> "<value>"
 
 # Write a specific string key value
-dconf write <path_to_key> "'<string>'"
+dconf write <_path_to_key> "'<string>'"
 
 # Write a specific integer key value
-dconf write <path_to_key> "<5>"
+dconf write <_path_to_key> "<5>"
 
 # Write a specific boolean key value
-dconf write <path_to_key> "<true|false>"
+dconf write <_path_to_key> "<true|false>"
 
 # Write a specific array key value
-dconf write <path_to_key> "[<'first', 'second', ...>]"
+dconf write <_path_to_key> "[<'first', 'second', ...>]"
 
 # Write a specific empty array key value
-dconf write <path_to_key> "@as []"
+dconf write <_path_to_key> "@as []"

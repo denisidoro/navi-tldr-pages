@@ -22,7 +22,7 @@ loadkeys --parse
 loadkeys --quiet
 
 # Load a keymap from the specified file for the console
-loadkeys --console <dev_ttyN> <path_to_file>
+loadkeys --console <_dev_ttyN> <_path_to_file>
 
 # Use standard names for keymaps of different locales
-loadkeys --console <dev_ttyN> <uk>
+loadkeys --console <_dev_ttyN> <uk>

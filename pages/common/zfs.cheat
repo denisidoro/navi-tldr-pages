@@ -19,4 +19,4 @@ zfs snapshot <pool_name_filesystem_name>@<snapshot_name>
 zfs set compression=on <pool_name_filesystem_name>
 
 # Change mountpoint for a filesystem
-zfs set mountpoint=<my_mount_path> <pool_name_filesystem_name>
+zfs set mountpoint=<_my_mount_path> <pool_name_filesystem_name>

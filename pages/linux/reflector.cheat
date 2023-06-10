@@ -4,7 +4,7 @@
 % reflector, linux
 
 # Get all mirrors, sort for download speed and save them
-sudo reflector --sort <rate> --save <etc_pacman.d_mirrorlist>
+sudo reflector --sort <rate> --save <_etc_pacman.d_mirrorlist>
 
 # Only get German HTTPS mirrors
 reflector --country <Germany> --protocol <https>

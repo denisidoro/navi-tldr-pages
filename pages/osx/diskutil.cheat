@@ -7,10 +7,10 @@
 diskutil list
 
 # Repair the filesystem data structures of a volume
-diskutil repairVolume <dev_disk_device>
+diskutil repairVolume <_dev_disk_device>
 
 # Unmount a volume
-diskutil unmountDisk <dev_disk_device>
+diskutil unmountDisk <_dev_disk_device>
 
 # Eject a CD/DVD (unmount first)
-diskutil eject <dev_disk_device1>
+diskutil eject <_dev_disk_device1>

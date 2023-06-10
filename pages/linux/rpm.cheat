@@ -13,7 +13,7 @@ rpm --query --all '<mariadb*>'
 rpm --upgrade <package_name.rpm> --force
 
 # Identify owner of a file and show version of the package
-rpm --query --file <etc_postfix_main.cf>
+rpm --query --file <_etc_postfix_main.cf>
 
 # List package-owned files
 rpm --query --list <kernel>

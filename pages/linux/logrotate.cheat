@@ -7,7 +7,7 @@
 logrotate <path_to_logrotate.conf> --force
 
 # Run using a specific command to mail reports
-logrotate <path_to_logrotate.conf> --mail <usr_bin_mail_command>
+logrotate <path_to_logrotate.conf> --mail <_usr_bin_mail_command>
 
 # Run without using a state (lock) file
 logrotate <path_to_logrotate.conf> --state /dev/null

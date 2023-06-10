@@ -7,7 +7,7 @@
 bundletool dump manifest --bundle=<path_to_bundle.aab>
 
 # Display a specific value from the `AndroidManifest.xml` using XPath
-bundletool dump manifest --bundle=<path_to_bundle.aab> --xpath=<manifest_@android:versionCode>
+bundletool dump manifest --bundle=<path_to_bundle.aab> --xpath=<_manifest_@android:versionCode>
 
 # Display the `AndroidManifest.xml` of a specific module
 bundletool dump manifest --bundle=<path_to_bundle.aab> --module=<name>

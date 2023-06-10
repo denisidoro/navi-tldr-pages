@@ -7,4 +7,4 @@
 cockpit-desktop <url> <SSH_host>
 
 # Open storage page
-cockpit-desktop <cockpit_@localhost_storage_index.html>
+cockpit-desktop <_cockpit_@localhost_storage_index.html>

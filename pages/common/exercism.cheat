@@ -4,7 +4,7 @@
 % exercism, common
 
 # Configure the application token and the preferred workspace for Exercism
-exercism configure --token=<your-application-token> --workspace=<path_to_preferred_workspace>
+exercism configure --token=<your-application-token> --workspace=<_path_to_preferred_workspace>
 
 # Download a specific exercise
 exercism download --exercise=<exercise_slug> --track=<track_slug>

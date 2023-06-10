@@ -7,7 +7,7 @@
 keepassxc-cli lookup <path_to_database_file> <name>
 
 # List the contents of a folder
-keepassxc-cli ls <path_to_database_file> <path_to_directory>
+keepassxc-cli ls <path_to_database_file> <_path_to_directory>
 
 # Add an entry with an auto-generated password
 keepassxc-cli add --generate <path_to_database_file> <entry_name>

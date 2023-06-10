@@ -7,7 +7,7 @@
 updog
 
 # Start a HTTP server for a specified directory
-updog --directory <path_to_directory>
+updog --directory <_path_to_directory>
 
 # Start a HTTP server on a specified port
 updog --port <port>

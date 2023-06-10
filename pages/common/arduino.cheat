@@ -10,7 +10,7 @@ arduino --verify <path_to_file.ino>
 arduino --upload <path_to_file.ino>
 
 # Build and upload a sketch to an Arduino Nano with an Atmega328p CPU, connected on port `/dev/ttyACM0`
-arduino --board <arduino:avr:nano:cpu=atmega328p> --port <dev_ttyACM0> --upload <path_to_file.ino>
+arduino --board <arduino:avr:nano:cpu=atmega328p> --port <_dev_ttyACM0> --upload <path_to_file.ino>
 
 # Set the preference `name` to a given `value`
 arduino --pref <name>=<value>

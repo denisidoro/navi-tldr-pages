@@ -4,7 +4,7 @@
 % fatlabel, linux
 
 # Get the label of a FAT32 partition
-fatlabel <dev_sda1>
+fatlabel <_dev_sda1>
 
 # Set the label of a FAT32 partition
-fatlabel <dev_sdc3> "<new_label>"
+fatlabel <_dev_sdc3> "<new_label>"

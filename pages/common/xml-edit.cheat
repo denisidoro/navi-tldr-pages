@@ -10,10 +10,10 @@ xml edit --delete "<XPATH1>" <path_to_input.xml|URI>
 xml edit --move "<XPATH1>" "<XPATH2>" <path_to_input.xml|URI>
 
 # Rename all attributes named "id" to "ID"
-xml edit --rename "<_*_@id>" -v "<ID>" <path_to_input.xml|URI>
+xml edit --rename "<__*_@id>" -v "<ID>" <path_to_input.xml|URI>
 
 # Rename sub-elements of the element "table" that are named "rec" to "record"
-xml edit --rename "<xml_table_rec>" -v "<record>" <path_to_input.xml|URI>
+xml edit --rename "<_xml_table_rec>" -v "<record>" <path_to_input.xml|URI>
 
 # Update the XML table record with "id=3" to the value "id=5"
 xml edit --update "<xml_table_rec[@id=3]_@id>" -v <5> <path_to_input.xml|URI>

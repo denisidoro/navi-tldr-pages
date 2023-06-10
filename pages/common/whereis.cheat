@@ -13,7 +13,7 @@ whereis -bm <ls>
 whereis -s <gcc> -m <git>
 
 # Locate binaries for gcc in `/usr/bin/` only
-whereis -b -B <usr_bin_> -f <gcc>
+whereis -b -B <_usr_bin_> -f <gcc>
 
 # Locate unusual binaries (those that have more or less than one binary on the system)
 whereis -u *

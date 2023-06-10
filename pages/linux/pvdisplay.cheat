@@ -6,5 +6,5 @@
 # Display information about all physical volumes
 sudo pvdisplay
 
-# Display information about the physical volume on drive `_dev_sdXY`
-sudo pvdisplay <_dev_sdXY>
+# Display information about the physical volume on drive `/dev/sdXY`
+sudo pvdisplay <dev_sdXY>

@@ -6,7 +6,7 @@
 # Start the interactive TUI
 ghcup tui
 
-# List available GHC_cabal versions
+# List available GHC/cabal versions
 ghcup list
 
 # Install the recommended GHC version

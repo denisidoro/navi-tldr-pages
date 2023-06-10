@@ -15,7 +15,7 @@ minifab install -n <chaincode_name>
 # Install a specific chaincode version onto a channel
 minifab install -n <chaincode_name> -v <chaincode_version>
 
-# Initialize the chaincode after installation_upgrade
+# Initialize the chaincode after installation/upgrade
 minifab approve,commit,initialize,discover
 
 # Invoke a chaincode method with the specified arguments

@@ -6,7 +6,7 @@
 # Colorize edges of one or more graph layouts (that already have layout information) to clarify crossing edges
 edgepaint <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
 
-# Colorize edges using a color scheme. (See <https:__graphviz.org_doc_info_colors.html#brewer>)
+# Colorize edges using a color scheme. (See <https://graphviz.org/doc/info/colors.html#brewer>)
 edgepaint -color-scheme=<accent7> <path_to_layout.gv> > <path_to_output.gv>
 
 # Lay out a graph and colorize its edges, then convert to a PNG image

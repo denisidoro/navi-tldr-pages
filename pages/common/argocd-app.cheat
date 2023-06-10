@@ -10,7 +10,7 @@ argocd app list --output <json|yaml|wide>
 argocd app get <app_name> --output <json|yaml|wide>
 
 # Deploy application internally (to the same cluster that Argo CD is running in)
-argocd app create <app_name> --repo <git_repo_url> --path <path_to_repo> --dest-server https:__kubernetes.default.svc --dest-namespace <ns>
+argocd app create <app_name> --repo <git_repo_url> --path <path_to_repo> --dest-server https://kubernetes.default.svc --dest-namespace <ns>
 
 # Delete an application
 argocd app delete <app_name>

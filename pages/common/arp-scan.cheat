@@ -7,7 +7,7 @@
 arp-scan --localnet
 
 # Scan an IP network with a custom bitmask
-arp-scan <192.168.1.1>_<24>
+arp-scan <192.168.1.1>/<24>
 
 # Scan an IP network within a custom range
 arp-scan <127.0.0.0>-<127.0.0.31>

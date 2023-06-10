@@ -18,5 +18,5 @@ mate-search-tool --start --named=<string> --path=<path_to_directory> --sortby=<n
 # Set a descending sorting order
 mate-search-tool --start --named=<string> --path=<path_to_directory> --descending
 
-# Search files owned by a specific user_group
+# Search files owned by a specific user/group
 mate-search-tool --start --<user|group>=<value> --path=<path_to_directory>

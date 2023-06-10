@@ -18,5 +18,5 @@ elm make <source> --output=<destination>.js
 # Start local web server that compiles Elm files on page load
 elm reactor
 
-# Install Elm package from https:__package.elm-lang.org
-elm install <author>_<package>
+# Install Elm package from https://package.elm-lang.org
+elm install <author>/<package>

@@ -4,7 +4,7 @@
 % woeusb, linux
 
 # Format a USB then create a bootable Windows installation drive
-woeusb --device <path_to_windows.iso> <_dev_sdX>
+woeusb --device <path_to_windows.iso> <dev_sdX>
 
 # Copy Windows files to an existing partition of a USB storage device and make it bootable, without erasing the current data
-woeusb --partition <path_to_windows.iso> <_dev_sdXN>
+woeusb --partition <path_to_windows.iso> <dev_sdXN>

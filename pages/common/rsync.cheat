@@ -16,7 +16,7 @@ rsync -azvhP <path_to_local_file> <remote_host>:<path_to_remote_directory>
 rsync -r <remote_host>:<path_to_remote_directory> <path_to_local_directory>
 
 # Transfer directory contents (but not the directory itself) from a remote host to local
-rsync -r <remote_host>:<path_to_remote_directory>_ <path_to_local_directory>
+rsync -r <remote_host>:<path_to_remote_directory>/ <path_to_local_directory>
 
 # Transfer a directory [r]ecursively, in [a]rchive (to preserve attributes), resolving contained sym[L]inks, and ignoring already transferred files [u]nless newer
 rsync -rauL <remote_host>:<path_to_remote_directory> <path_to_local_directory>

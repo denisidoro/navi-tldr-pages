@@ -16,4 +16,4 @@ ed -s
 ed <path_to_file>
 
 # Replace a string with a specific replacement for all lines
-,s_<regular_expression>_<replacement>_g
+,s/<regular_expression>/<replacement>/g

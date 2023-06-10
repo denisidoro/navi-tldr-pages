@@ -10,7 +10,7 @@ sudo update-alternatives --install <path_to_symlink> <command_name> <path_to_com
 sudo update-alternatives --config <java>
 
 # Remove a symbolic link
-sudo update-alternatives --remove <java> <_opt_java_jdk1.8.0_102_bin_java>
+sudo update-alternatives --remove <java> <opt_java_jdk1.8.0_102_bin_java>
 
 # Display information about a specified command
 update-alternatives --display <java>

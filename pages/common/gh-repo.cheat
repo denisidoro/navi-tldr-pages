@@ -7,10 +7,10 @@
 gh repo create <name>
 
 # Clone a repository
-gh repo clone <owner>_<repository>
+gh repo clone <owner>/<repository>
 
 # Fork and clone a repository
-gh repo fork <owner>_<repository> --clone
+gh repo fork <owner>/<repository> --clone
 
 # View a repository in the default web browser
 gh repo view <repository> --web

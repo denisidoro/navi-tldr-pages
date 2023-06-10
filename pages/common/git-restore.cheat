@@ -10,16 +10,16 @@ git restore <path_to_file>
 git restore --source <commit> <path_to_file>
 
 # Discard all unstaged changes to tracked files
-git restore :_
+git restore :/
 
 # Unstage a file
 git restore --staged <path_to_file>
 
 # Unstage all files
-git restore --staged :_
+git restore --staged :/
 
 # Discard all changes to files, both staged and unstaged
-git restore --worktree --staged :_
+git restore --worktree --staged :/
 
 # Interactively select sections of files to restore
 git restore --patch

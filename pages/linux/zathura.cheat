@@ -6,7 +6,7 @@
 # Open a file
 zathura <path_to_file>
 
-# Navigate left_up_down_right
+# Navigate left/up/down/right
 <H|J|K|L> or arrow keys
 
 # Rotate
@@ -16,9 +16,9 @@ r
 Ctrl + R
 
 # Search for text by a given string
-_<string>
+/<string>
 
-# Create_delete bookmarks
+# Create/delete bookmarks
 :<bmark|bdelete> <bookmark_name>
 
 # List bookmarks

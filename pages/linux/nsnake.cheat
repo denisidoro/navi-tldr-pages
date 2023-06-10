@@ -9,7 +9,7 @@ nsnake
 # Navigate the snake
 <Up|Down|Left|Right> arrow key
 
-# Pause_unpause the game
+# Pause/unpause the game
 p
 
 # Quit the game

@@ -15,5 +15,5 @@ glow -p <path_to_file>
 # View a file from a URL
 glow <https:__example.com_file.md>
 
-# View a GitHub_GitLab README
+# View a GitHub/GitLab README
 glow <github.com_owner_repository>

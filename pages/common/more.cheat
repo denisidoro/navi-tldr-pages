@@ -16,7 +16,7 @@ more --help
 <Space>
 
 # Search for a string (press `n` to go to the next match)
-_<something>
+/<something>
 
 # Exit
 q

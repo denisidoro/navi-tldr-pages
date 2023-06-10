@@ -18,8 +18,8 @@
 # Print specific array items
 <cat path_to_file.json> | jq '<.[index1], .[index2], ...>'
 
-# Print all array items_object keys
+# Print all array items/object keys
 <cat path_to_file.json> | jq '.[]'
 
-# Add_remove specific keys
+# Add/remove specific keys
 <cat path_to_file.json> | jq '. <+|-> <{"key1": "value1", "key2": "value2", ...>}'

@@ -3,7 +3,7 @@
 
 % ip-neighbour, linux
 
-# Display the neighbour_ARP table entries
+# Display the neighbour/ARP table entries
 ip neighbour
 
 # Remove entries in the neighbour table on device `eth0`

@@ -9,7 +9,7 @@ mpg321 -l <N> <path_to_file_a|URL> <path_to_file_b|URL> <...>
 # Play a directory recursively
 mpg321 -B <path_to_directory>
 
-# Enable Basic Keys ( `*` or `_` - Increase or decrease volume, `n` - Skip song, `m` - Mute_unmute.) while playing
+# Enable Basic Keys ( `*` or `/` - Increase or decrease volume, `n` - Skip song, `m` - Mute/unmute.) while playing
 mpg321 -K <path_to_file_a|URL> <path_to_file_b|URL> <...>
 
 # Play files randomly until interrupted

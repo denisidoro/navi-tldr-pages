@@ -6,11 +6,11 @@
 # Format Go source files in the current directory
 go fmt
 
-# Format a specific Go package in your import path (`$GOPATH_src`)
+# Format a specific Go package in your import path (`$GOPATH/src`)
 go fmt <path_to_package>
 
 # Format the package in the current directory and all subdirectories (note the `...`)
-go fmt <....>
+go fmt <._...>
 
 # Print what format commands would've been run, without modifying anything
 go fmt -n

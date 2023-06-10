@@ -12,7 +12,7 @@ mdbook init <path_to_directory>
 # Clean the directory with the generated book
 mdbook clean
 
-# Serve a book at `http:__localhost:3000`, auto build when file changes
+# Serve a book at `http://localhost:3000`, auto build when file changes
 mdbook serve
 
 # Watch a set of Markdown files and automatically build when a file is changed

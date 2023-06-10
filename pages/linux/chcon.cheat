@@ -21,5 +21,5 @@ chcon -r <role> <filename>
 # Change only the type part of SELinux security context
 chcon -t <type> <filename>
 
-# Change only the range_level part of SELinux security context
+# Change only the range/level part of SELinux security context
 chcon -l <range_level> <filename>

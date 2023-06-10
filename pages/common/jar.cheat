@@ -6,11 +6,11 @@
 # Recursively archive all files in the current directory into a .jar file
 jar cf <file.jar> *
 
-# Unzip .jar.war file to the current directory
+# Unzip .jar/.war file to the current directory
 jar -xvf <file.jar>
 
-# List a .jar.war file content
+# List a .jar/.war file content
 jar tf <path_to_file.jar>
 
-# List a .jar.war file content with verbose output
+# List a .jar/.war file content with verbose output
 jar tvf <path_to_file.jar>

@@ -16,4 +16,4 @@ psping <hostname> -n <pings> -q
 psping <hostname>:<port> -q -n <50> -h
 
 # Display usage information
-psping _?
+psping /?

@@ -12,7 +12,7 @@ tb --note <note_description> @<board_name>
 # Edit item's priority
 tb --priority @<item_id> <priority>
 
-# Check_uncheck item
+# Check/uncheck item
 tb --check <item_id>
 
 # Archive all checked items

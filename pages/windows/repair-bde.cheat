@@ -25,4 +25,4 @@ repair-bde <C:> -KeyPackage <path\to\directory>
 repair-bde <C:> -LogFile <path\to\file>
 
 # Display all available options
-repair-bde _?
+repair-bde /?

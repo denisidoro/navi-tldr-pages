@@ -3,10 +3,10 @@
 
 % skicka, common
 
-# Upload a file_folder to Google Drive
+# Upload a file/folder to Google Drive
 skicka upload <path_to_local> <path_to_remote>
 
-# Download a file_folder from Google Drive
+# Download a file/folder from Google Drive
 skicka download <path_to_remote> <path_to_local>
 
 # List files

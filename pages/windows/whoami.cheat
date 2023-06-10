@@ -7,16 +7,16 @@
 whoami
 
 # Display the groups that the current user is a member of
-whoami _groups
+whoami /groups
 
 # Display the privileges of the current user
-whoami _priv
+whoami /priv
 
 # Display the user principal name (UPN) of the current user
-whoami _upn
+whoami /upn
 
 # Display the logon ID of the current user
-whoami _logonid
+whoami /logonid
 
 # Display all information for the current user
-whoami _all
+whoami /all

@@ -4,13 +4,13 @@
 % cryptsetup, linux
 
 # Initialize a LUKS volume (overwrites all data on the partition)
-cryptsetup luksFormat <_dev_sda1>
+cryptsetup luksFormat <dev_sda1>
 
-# Open a LUKS volume and create a decrypted mapping at `_dev_mapper_<target>`
-cryptsetup luksOpen <_dev_sda1> <target>
+# Open a LUKS volume and create a decrypted mapping at `/dev/mapper/<target>`
+cryptsetup luksOpen <dev_sda1> <target>
 
 # Remove an existing mapping
 cryptsetup luksClose <target>
 
 # Change the LUKS volume's passphrase
-cryptsetup luksChangeKey <_dev_sda1>
+cryptsetup luksChangeKey <dev_sda1>

@@ -18,5 +18,5 @@ pax -w <path_to_file1> <path_to_file2> <path_to_file3> > <target.tar>
 # Extract an archive into the current directory
 pax -rf <source.tar>
 
-# Copy to a directory, while keeping the original metadata; `target_` must exist
+# Copy to a directory, while keeping the original metadata; `target/` must exist
 pax -rw <path_to_file1> <path_to_directory1> <path_to_directory2> <target_>

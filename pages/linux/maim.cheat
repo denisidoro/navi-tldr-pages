@@ -10,7 +10,7 @@ maim <path_to_screenshot.png>
 maim --select <path_to_screenshot.png>
 
 # Capture a screenshot of the selected region and save it in the clipboard (requires `xclip`)
-maim --select | xclip -selection clipboard -target image_png
+maim --select | xclip -selection clipboard -target image/png
 
 # Capture a screenshot of the current active window (requires `xdotool`)
 maim --window $(xdotool getactivewindow) <path_to_screenshot.png>

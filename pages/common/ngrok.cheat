@@ -10,7 +10,7 @@ ngrok http <80>
 ngrok http <foo.dev>:<80>
 
 # Expose a local HTTPS server
-ngrok http https:__localhost
+ngrok http https://localhost
 
 # Expose TCP traffic on a given port
 ngrok tcp <22>

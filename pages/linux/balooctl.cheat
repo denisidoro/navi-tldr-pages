@@ -9,7 +9,7 @@ balooctl
 # Display the status of the indexer
 balooctl status
 
-# Enable_Disable the file indexer
+# Enable/Disable the file indexer
 balooctl <enable|disable>
 
 # Clean the index database

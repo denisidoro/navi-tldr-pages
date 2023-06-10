@@ -7,7 +7,7 @@
 awk '{print $5}' <path_to_file>
 
 # Print the second column of the lines containing "foo" in a space-separated file
-awk '_<foo>_ {print $2}' <path_to_file>
+awk '/<foo>/ {print $2}' <path_to_file>
 
 # Print the last column of each line in a file, using a comma (instead of space) as a field separator
 awk -F ',' '{print $NF}' <path_to_file>

@@ -10,7 +10,7 @@ genfstab -L <path_to_mount_point>
 genfstab -U <path_to_mount_point>
 
 # A usual way to generate an fstab file, requires root permissions
-genfstab -U <_mnt> >> <_mnt_etc_fstab>
+genfstab -U <mnt> >> <mnt_etc_fstab>
 
 # Append a volume into an fstab file to mount it automatically
-genfstab -U <path_to_mount_point> | sudo tee -a _etc_fstab
+genfstab -U <path_to_mount_point> | sudo tee -a /etc/fstab

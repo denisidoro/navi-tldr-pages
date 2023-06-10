@@ -9,8 +9,8 @@ neofetch
 # Trigger an info line from appearing in the output, where 'infoname' is the function name in the config file, e.g. memory
 neofetch --<enable|disable> <infoname>
 
-# Hide_Show OS architecture
+# Hide/Show OS architecture
 neofetch --os_arch <on|off>
 
-# Enable_Disable CPU brand in output
+# Enable/Disable CPU brand in output
 neofetch --cpu_brand <on|off>

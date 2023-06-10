@@ -4,13 +4,13 @@
 % megatools-dl, linux
 
 # Download files from a `mega.nz` link into the current directory
-megatools-dl <https:__mega.nz...>
+megatools-dl <https:__mega.nz_...>
 
 # Download files from a `mega.nz` link into a specific directory
-megatools-dl --path <path_to_directory> <https:__mega.nz...>
+megatools-dl --path <path_to_directory> <https:__mega.nz_...>
 
 # Interactively choose which files to download
-megatools-dl --choose-files <https:__mega.nz...>
+megatools-dl --choose-files <https:__mega.nz_...>
 
-# Limit the download speed in KiB_s
-megatools-dl --limit-speed <speed> <https:__mega.nz...>
+# Limit the download speed in KiB/s
+megatools-dl --limit-speed <speed> <https:__mega.nz_...>

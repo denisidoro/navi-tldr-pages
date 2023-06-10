@@ -13,16 +13,16 @@ comp <path\to\file1> <path\to\file2>
 comp <path\to\directory1>\* <path\to\directory2>\*
 
 # Display differences in decimal format
-comp _d <path\to\file1> <path\to\file2>
+comp /d <path\to\file1> <path\to\file2>
 
 # Display differences in ASCII format
-comp _a <path\to\file1> <path\to\file2>
+comp /a <path\to\file1> <path\to\file2>
 
 # Display line numbers for differences
-comp _l <path\to\file1> <path\to\file2>
+comp /l <path\to\file1> <path\to\file2>
 
 # Compare files case-insensitively
-comp _c <path\to\file1> <path\to\file2>
+comp /c <path\to\file1> <path\to\file2>
 
 # Compare only the first 5 lines of each file
-comp _n=<5> <path\to\file1> <path\to\file2>
+comp /n=<5> <path\to\file1> <path\to\file2>

@@ -9,7 +9,7 @@ gitsome
 # Setup GitHub integration with the current account
 gh configure
 
-# List notifications for the current account (as would be seen in https:__github.com_notifications)
+# List notifications for the current account (as would be seen in https://github.com/notifications)
 gh notifications
 
 # List the current account's starred repos, filtered by a given search string

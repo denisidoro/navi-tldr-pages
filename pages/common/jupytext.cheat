@@ -3,7 +3,7 @@
 
 % jupytext, common
 
-# Turn a notebook into a paired `.ipynb`_`.py` notebook
+# Turn a notebook into a paired `.ipynb`/`.py` notebook
 jupytext --set-formats ipynb,py <notebook.ipynb>
 
 # Convert a notebook to a `.py` file

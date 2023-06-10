@@ -6,7 +6,7 @@
 # Start the text-based installer (default on Unix systems)
 install-tl -no-gui
 
-# Start the GUI installer (default on macOS and Windows, requires Tcl_Tk)
+# Start the GUI installer (default on macOS and Windows, requires Tcl/Tk)
 install-tl -gui
 
 # Install TeX Live as defined in a specific profile file

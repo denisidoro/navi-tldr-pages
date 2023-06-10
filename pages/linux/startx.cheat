@@ -13,4 +13,4 @@ startx -- -depth <value>
 startx -- -dpi <value>
 
 # Override the settings in the `.xinitrc` file and start a new X session
-startx _<path_to_window_manager_or_desktop_environment>
+startx /<path_to_window_manager_or_desktop_environment>

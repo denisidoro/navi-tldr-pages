@@ -18,7 +18,7 @@ sudo systemd-run --remain-after-exit --set-env=<name>=<value> <command> <argumen
 # Start a transient timer that periodically runs its transient service (see `man systemd.time` for calendar event format)
 sudo systemd-run --on-calendar=<calendar_event> <command> <argument1 argument2 ...>
 
-# Share the terminal with the program (allowing interactive input_output) and make sure the execution details remain after the program exits
+# Share the terminal with the program (allowing interactive input/output) and make sure the execution details remain after the program exits
 systemd-run --remain-after-exit --pty <command>
 
 # Set properties (e.g. CPUQuota, MemoryMax) of the process and wait until it exits

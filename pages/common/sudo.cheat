@@ -7,9 +7,9 @@
 sudo <less _var_log_syslog>
 
 # Edit a file as the superuser with your default editor
-sudo --edit <_etc_fstab>
+sudo --edit <etc_fstab>
 
-# Run a command as another user and_or group
+# Run a command as another user and/or group
 sudo --user=<user> --group=<group> <id -a>
 
 # Repeat the last command prefixed with `sudo` (only in `bash`, `zsh`, etc.)

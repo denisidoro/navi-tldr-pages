@@ -13,13 +13,13 @@ vault unseal <key-share-x>
 vault auth <authentication_token>
 
 # Store a new secret in the vault, using the generic back-end called "secret"
-vault write secret_<hello> value=<world>
+vault write secret/<hello> value=<world>
 
 # Read a value from the vault, using the generic back-end called "secret"
-vault read secret_<hello>
+vault read secret/<hello>
 
 # Read a specific field from the value
-vault read -field=<field_name> secret_<hello>
+vault read -field=<field_name> secret/<hello>
 
 # Seal (lock) the Vault server, by removing the encryption key of the data store from memory
 vault seal

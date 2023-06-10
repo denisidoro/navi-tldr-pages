@@ -7,13 +7,13 @@
 ipconfig
 
 # Show a detailed list of network adapters
-ipconfig _all
+ipconfig /all
 
 # Renew the IP addresses for a network adapter
-ipconfig _renew <adapter>
+ipconfig /renew <adapter>
 
 # Free up the IP addresses for a network adapter
-ipconfig _release <adapter>
+ipconfig /release <adapter>
 
 # Remove all data from the DNS cache
-ipconfig _flushdns
+ipconfig /flushdns

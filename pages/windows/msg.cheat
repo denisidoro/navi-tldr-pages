@@ -10,10 +10,10 @@ msg <username|session_name|session_id> <message>
 echo "<message>" | msg <username|session_name|session_id>
 
 # Send a message to a specific server
-msg _server:<server_name> <username|session_name|session_id>
+msg /server:<server_name> <username|session_name|session_id>
 
 # Send a message to all users of the current machine
 msg *
 
 # Set a delay in seconds for a message
-msg _time:<10>
+msg /time:<10>

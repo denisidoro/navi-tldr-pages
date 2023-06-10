@@ -12,8 +12,8 @@ whereis -bm <ls>
 # Locate source of gcc and man pages for Git
 whereis -s <gcc> -m <git>
 
-# Locate binaries for gcc in `_usr_bin_` only
-whereis -b -B <_usr_bin_> -f <gcc>
+# Locate binaries for gcc in `/usr/bin/` only
+whereis -b -B <usr_bin_> -f <gcc>
 
 # Locate unusual binaries (those that have more or less than one binary on the system)
 whereis -u *

@@ -3,7 +3,7 @@
 
 % aurvote, linux
 
-# Interactively create the file `~.config_aurvote` containing your AUR username and password
+# Interactively create the file `~/.config/aurvote` containing your AUR username and password
 aurvote --configure
 
 # Vote for one or more AUR packages

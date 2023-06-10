@@ -7,7 +7,7 @@
 gh api --help
 
 # Display the releases for the current repository in JSON format
-gh api repos_:owner_:repo_releases
+gh api repos/:owner/:repo/releases
 
 # Create a reaction for a specific issue
 gh api --header <Accept:application_vnd.github.squirrel-girl-preview+json> --raw-field '<content=+1>' <repos_:owner_:repo_issues_123_reactions>

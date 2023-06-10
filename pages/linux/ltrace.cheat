@@ -4,7 +4,7 @@
 % ltrace, linux
 
 # Print (trace) library calls of a program binary
-ltrace ._<program>
+ltrace ./<program>
 
 # Count library calls. Print a handy summary at the bottom
 ltrace -c <path_to_program>

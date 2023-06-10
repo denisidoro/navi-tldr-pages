@@ -4,10 +4,10 @@
 % blkdiscard, linux
 
 # Discard all sectors on a device, removing all data
-blkdiscard _dev_<device>
+blkdiscard /dev/<device>
 
 # Securely discard all blocks on a device, removing all data
-blkdiscard --secure _dev_<device>
+blkdiscard --secure /dev/<device>
 
 # Discard the first 100 MB of a device
-blkdiscard --length <100MB> _dev_<device>
+blkdiscard --length <100MB> /dev/<device>

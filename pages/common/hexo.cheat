@@ -18,5 +18,5 @@ hexo server
 # Deploy the website
 hexo deploy
 
-# Clean the cache file (`db.json`) and generated files (`public_`)
+# Clean the cache file (`db.json`) and generated files (`public/`)
 hexo clean

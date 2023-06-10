@@ -15,14 +15,14 @@ hydra -L <path_to_usernames.txt> -P <path_to_wordlist.txt> <host_ip> <https-post
 # Guess FTP credentials using usernames and passwords lists, specifying the number of threads
 hydra -L <path_to_usernames.txt> -P <path_to_wordlist.txt> -t <n_tasks> <host_ip> <ftp>
 
-# Guess MySQL credentials using a username and a passwords list, exiting when a username_password pair is found
+# Guess MySQL credentials using a username and a passwords list, exiting when a username/password pair is found
 hydra -l <username> -P <path_to_wordlist.txt> -f <host_ip> <mysql>
 
 # Guess RDP credentials using a username and a passwords list, showing each attempt
 hydra -l <username> -P <path_to_wordlist.txt> -V <rdp:__host_ip>
 
-# Guess IMAP credentials on a range of hosts using a list of colon-separated username_password pairs
+# Guess IMAP credentials on a range of hosts using a list of colon-separated username/password pairs
 hydra -C <path_to_username_password_pairs.txt> <imap:__[host_range_cidr]>
 
-# Guess POP3 credentials on a list of hosts using usernames and passwords lists, exiting when a username_password pair is found
+# Guess POP3 credentials on a list of hosts using usernames and passwords lists, exiting when a username/password pair is found
 hydra -L <path_to_usernames.txt> -P <path_to_wordlist.txt> -M <path_to_hosts.txt> -F <pop3>

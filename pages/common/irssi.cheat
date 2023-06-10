@@ -13,10 +13,10 @@ irssi -c <irc.example.com> -p <port>
 irssi --help
 
 # Join a channel
-_join <#channelname>
+/join <#channelname>
 
 # Change active window (starts at 1)
-_win <window_number>
+/win <window_number>
 
 # Exit the application cleanly and quitting any server(s)
-_quit
+/quit

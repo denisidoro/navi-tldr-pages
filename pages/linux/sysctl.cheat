@@ -15,5 +15,5 @@ sysctl fs.file-nr
 # Get limit for simultaneous open files
 sysctl fs.file-max
 
-# Apply changes from `_etc_sysctl.conf`
+# Apply changes from `/etc/sysctl.conf`
 sysctl -p

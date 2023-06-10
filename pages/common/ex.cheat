@@ -13,10 +13,10 @@ wq<Enter>
 undo<Enter>
 
 # Search for a pattern in the file
-_<search_pattern><Enter>
+/<search_pattern><Enter>
 
 # Perform a regular expression substitution in the whole file
-%s_<regular_expression>_<replacement>_g<Enter>
+%s/<regular_expression>/<replacement>/g<Enter>
 
 # Insert text
 i<Enter><text><C-c>

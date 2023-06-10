@@ -7,7 +7,7 @@
 locate "<pattern>"
 
 # Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`)
-locate *_<filename>
+locate */<filename>
 
 # Recompute the database. You need to do it if you want to find recently added files
-sudo _usr_libexec_locate.updatedb
+sudo /usr/libexec/locate.updatedb

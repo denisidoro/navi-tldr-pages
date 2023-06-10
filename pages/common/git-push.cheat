@@ -9,7 +9,7 @@ git push
 # Send changes from a specific local branch to its remote counterpart
 git push <remote_name> <local_branch>
 
-# Send changes from a specific local branch to its remote counterpart, and set the remote one as the default push_pull target of the local one
+# Send changes from a specific local branch to its remote counterpart, and set the remote one as the default push/pull target of the local one
 git push -u <remote_name> <local_branch>
 
 # Send changes from a specific local branch to a specific remote branch

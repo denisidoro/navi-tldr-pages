@@ -4,19 +4,19 @@
 % skopeo, common
 
 # Inspect a remote image from a registry
-skopeo inspect docker:__<registry_hostname>_<image:tag>
+skopeo inspect docker://<registry_hostname>/<image:tag>
 
 # List available tags for a remote image
-skopeo list-tags docker:__<registry_hostname>_<image>
+skopeo list-tags docker://<registry_hostname>/<image>
 
 # Download an image from a registry
-skopeo copy docker:__<registry_hostname>_<image:tag> dir:<path_to_directory>
+skopeo copy docker://<registry_hostname>/<image:tag> dir:<path_to_directory>
 
 # Copy an image from one registry to another
-skopeo copy docker:__<source_registry>_<image:tag> docker:__<destination_registry>_<image:tag>
+skopeo copy docker://<source_registry>/<image:tag> docker://<destination_registry>/<image:tag>
 
 # Delete an image from a registry
-skopeo delete docker:__<registry_hostname>_<image:tag>
+skopeo delete docker://<registry_hostname>/<image:tag>
 
 # Log in to a registry
 skopeo login --username <username> <registry_hostname>

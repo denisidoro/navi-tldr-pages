@@ -12,7 +12,7 @@ kubectl label pods <name> unhealthy=true
 # List all resources with different types
 kubectl get all
 
-# Display resource (CPU_Memory_Storage) usage of nodes or pods
+# Display resource (CPU/Memory/Storage) usage of nodes or pods
 kubectl top <pod|node>
 
 # Print the address of the master and cluster services

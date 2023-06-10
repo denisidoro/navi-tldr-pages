@@ -13,4 +13,4 @@ pyinfra <path_to_target_list.py> <path_to_deploy.py>
 pyinfra @local <path_to_deploy.py>
 
 # Execute commands over Docker
-pyinfra @docker_<container> <path_to_deploy.py>
+pyinfra @docker/<container> <path_to_deploy.py>

@@ -16,4 +16,4 @@ cd ..
 cd <path\to\directory>
 
 # Go to a specific directory in a different [d]rive
-cd _d <C>:<path\to\directory>
+cd /d <C>:<path\to\directory>

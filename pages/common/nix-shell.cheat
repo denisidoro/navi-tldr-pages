@@ -18,5 +18,5 @@ nix-shell --packages <package_name_1 package_name_2 ...>
 # Start with packages loaded from specific nixpkgs revision
 nix-shell --packages <package_name_1 package_name_2 ...> -I nixpkgs=<https:__github.com_NixOS_nixpkgs_archive_nixpkgs_revision.tar.gz>
 
-# Evaluate rest of file in specific interpreter, for use in `#!-scripts` (see <https:__nixos.org_manual_nix_stable_#use-as-a-interpreter>)
+# Evaluate rest of file in specific interpreter, for use in `#!-scripts` (see <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>)
 nix-shell -i <interpreter> --packages <package_name_1 package_name_2 ...>

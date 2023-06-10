@@ -3,7 +3,7 @@
 
 % du, osx
 
-# List the sizes of a directory and any subdirectories, in the given unit (KiB_MiB_GiB)
+# List the sizes of a directory and any subdirectories, in the given unit (KiB/MiB/GiB)
 du -<k|m|g> <path_to_directory>
 
 # List the sizes of a directory and any subdirectories, in human-readable form (i.e. auto-selecting the appropriate unit for each size)

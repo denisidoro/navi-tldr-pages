@@ -4,13 +4,13 @@
 % go-list, common
 
 # List packages
-go list ....
+go list ./...
 
 # List standard packages
 go list std
 
 # List packages in JSON format
-go list -json time net_http
+go list -json time net/http
 
 # List module dependencies and available updates
 go list -m -u all

@@ -9,8 +9,8 @@ wine <command>
 # Run a specific program in background
 wine start <command>
 
-# Install_uninstall an MSI package
-wine msiexec _<i|x> <path_to_package.msi>
+# Install/uninstall an MSI package
+wine msiexec /<i|x> <path_to_package.msi>
 
 # Run `File Explorer`, `Notepad`, or `WordPad`
 wine <explorer|notepad|write>

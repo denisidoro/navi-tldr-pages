@@ -22,7 +22,7 @@ kjv <Proverbs> <3>:<1-6>
 kjv <Matthew> <1>:<7>-<2>:<6>
 
 # Display all verses that match a pattern
-kjv _<Plagues>
+kjv /<Plagues>
 
 # Display all verses that match a pattern in a specific book
-kjv <1Jn>_<antichrist>
+kjv <1Jn>/<antichrist>

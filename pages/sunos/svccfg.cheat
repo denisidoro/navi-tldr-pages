@@ -9,5 +9,5 @@ svccfg validate <path_to_smf_file.xml>
 # Export service configurations to file
 svccfg export <servicename> > <path_to_smf_file.xml>
 
-# Import_update service configurations from file
+# Import/update service configurations from file
 svccfg import <path_to_smf_file.xml>

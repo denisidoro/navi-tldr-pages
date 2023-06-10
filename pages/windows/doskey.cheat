@@ -4,22 +4,22 @@
 % doskey, windows
 
 # List available macros
-doskey _macros
+doskey /macros
 
 # Create a new macro
 doskey <name> = "<command>"
 
 # Create a new macro for a specific executable
-doskey _exename=<executable> <name> = "<command>"
+doskey /exename=<executable> <name> = "<command>"
 
 # Remove a macro
 doskey <name> =
 
 # Display all commands that are stored in memory
-doskey _history
+doskey /history
 
 # Save macros to a file for portability
-doskey _macros > <path\to\macinit_file>
+doskey /macros > <path\to\macinit_file>
 
 # Load macros from a file
-doskey _macrofile = <path\to\macinit_file>
+doskey /macrofile = <path\to\macinit_file>

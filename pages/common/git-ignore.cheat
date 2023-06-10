@@ -6,7 +6,7 @@
 # Show the content of all global and local `.gitignore` files
 git ignore
 
-# Ignore file(s) privately, updating `.git_info_exclude` file
+# Ignore file(s) privately, updating `.git/info/exclude` file
 git ignore <file_pattern> --private
 
 # Ignore file(s) locally, updating local `.gitignore` file

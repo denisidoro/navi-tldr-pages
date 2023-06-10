@@ -19,4 +19,4 @@ prettier --write <path_to_file_or_directory>
 prettier --single-quote --trailing-comma <none> --write <path_to_file_or_directory>
 
 # Format JavaScript and TypeScript files recursively, replacing the original
-prettier --write "**_*.{js,jsx,ts,tsx}"
+prettier --write "**/*.{js,jsx,ts,tsx}"

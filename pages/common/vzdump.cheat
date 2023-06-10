@@ -3,7 +3,7 @@
 
 % vzdump, common
 
-# Dump a guest virtual machine into the default dump directory (usually `_var_lib_vz_dump_`), excluding snapshots
+# Dump a guest virtual machine into the default dump directory (usually `/var/lib/vz/dump/`), excluding snapshots
 vzdump <vm_id>
 
 # Back up the guest virtual machines with the IDs 101, 102, and 103

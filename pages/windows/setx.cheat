@@ -7,10 +7,10 @@
 setx <variable> <value>
 
 # Set an environment variable for the current machine
-setx <variable> <value> _M
+setx <variable> <value> /M
 
 # Set an environment variable for a user on a remote machine
-setx _s <hostname> _u <username> _p <password> <variable> <value>
+setx /s <hostname> /u <username> /p <password> <variable> <value>
 
 # Set an environment variable from a registry key value
-setx <variable> _k <registry\key\path>
+setx <variable> /k <registry\key\path>

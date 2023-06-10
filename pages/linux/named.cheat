@@ -3,7 +3,7 @@
 
 % named, linux
 
-# Read the default configuration file `_etc_named.conf`, read any initial data and listen for queries
+# Read the default configuration file `/etc/named.conf`, read any initial data and listen for queries
 named
 
 # Read a custom configuration file

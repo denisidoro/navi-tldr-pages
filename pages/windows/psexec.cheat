@@ -10,10 +10,10 @@ psexec \\<remote_host> cmd
 psexec \\<remote_host> -u <user_name> -p <password>
 
 # Execute a command remotely and output the result to a file
-psexec \\<remote_host> cmd _c <command> -an ^><path\to\file.txt>
+psexec \\<remote_host> cmd /c <command> -an ^><path\to\file.txt>
 
 # Execute a program to interact with users
 psexec \\<remote_host> -d -i <program_name>
 
 # Display the IP configuration of the remote host
-psexec \\<remote_host> ipconfig _all
+psexec \\<remote_host> ipconfig /all

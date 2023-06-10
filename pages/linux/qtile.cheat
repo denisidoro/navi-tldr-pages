@@ -6,7 +6,7 @@
 # Start the window manager, if it is not running already (should ideally be run from `.xsession` or similar)
 qtile start
 
-# Check the configuration file for any compilation errors (default location is  `~.config_qtile_config.py`)
+# Check the configuration file for any compilation errors (default location is  `~/.config/qtile/config.py`)
 qtile check
 
 # Show current resource usage information

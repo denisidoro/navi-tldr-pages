@@ -12,7 +12,7 @@ python sqlmap.py -u "<http:__www.target.com_vuln.php>" --data="<id=1>"
 # Change the parameter delimiter (& is the default)
 python sqlmap.py -u "<http:__www.target.com_vuln.php>" --data="<query=foobar;id=1>" --param-del="<;>"
 
-# Select a random `User-Agent` from `._txt_user-agents.txt` and use it
+# Select a random `User-Agent` from `./txt/user-agents.txt` and use it
 python sqlmap.py -u "<http:__www.target.com_vuln.php>" --random-agent
 
 # Provide user credentials for HTTP protocol authentication

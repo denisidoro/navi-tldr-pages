@@ -10,7 +10,7 @@ zmore <path_to_file.txt.gz>
 <Space>
 
 # Search for a pattern in the file (press `n` to go to next match)
-_<regular_expression>
+/<regular_expression>
 
 # Exit
 q

@@ -9,7 +9,7 @@ chrt --pid <PID>
 # Display attributes of all threads of a process
 chrt --all-tasks --pid <PID>
 
-# Display the min_max priority values that can be used with `chrt`
+# Display the min/max priority values that can be used with `chrt`
 chrt --max
 
 # Set the scheduling policy for a process

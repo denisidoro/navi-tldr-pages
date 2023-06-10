@@ -3,7 +3,7 @@
 
 % light-arionum-cli, common
 
-# Generate a new public_private key pair
+# Generate a new public/private key pair
 light-arionum-cli
 
 # Display the balance of the current address

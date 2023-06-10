@@ -12,7 +12,7 @@ nmtui connect
 # Connect to a given network
 nmtui connect <name|uuid|device|SSID>
 
-# Edit_Add_Delete a given network
+# Edit/Add/Delete a given network
 nmtui edit <name|id>
 
 # Set the system hostname

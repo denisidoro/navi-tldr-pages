@@ -6,7 +6,7 @@
 # Connect to a VPN with a username and password
 openfortivpn --username=<username> --password=<password>
 
-# Connect to a VPN using a specific configuration file (defaults to `_etc_openfortivpn_config`)
+# Connect to a VPN using a specific configuration file (defaults to `/etc/openfortivpn/config`)
 sudo openfortivpn --config=<path_to_config>
 
 # Connect to a VPN by specifying the host and port

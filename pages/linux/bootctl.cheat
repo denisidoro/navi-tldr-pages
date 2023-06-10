@@ -12,8 +12,8 @@ bootctl list
 # Set a flag to boot into the system firmware on the next boot (similar to `sudo systemctl reboot --firmware-setup`)
 sudo bootctl reboot-to-firmware true
 
-# Specify the path to the EFI system partition (defaults to `_efi_`, `_boot_` or `_boot_efi`)
-bootctl --esp-path=<_path_to_efi_system_partition_>
+# Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/` or `/boot/efi`)
+bootctl --esp-path=<path_to_efi_system_partition_>
 
 # Install `systemd-boot` into the EFI system partition
 sudo bootctl install

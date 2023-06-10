@@ -15,5 +15,5 @@ sudo btrfs rescue super-recover <path_to_partition>
 # Recover from an interrupted transactions (fixes log replay problems)
 sudo btrfs rescue zero-log <path_to_partition>
 
-# Create a `_dev_btrfs-control` control device when `mknod` is not installed
+# Create a `/dev/btrfs-control` control device when `mknod` is not installed
 sudo btrfs rescue create-control-device

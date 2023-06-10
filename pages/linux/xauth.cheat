@@ -3,7 +3,7 @@
 
 % xauth, linux
 
-# Start interactive mode with a specific authority file (defaults to `~.Xauthority`)
+# Start interactive mode with a specific authority file (defaults to `~/.Xauthority`)
 xauth -f <path_to_file>
 
 # Display information about the authority file

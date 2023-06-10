@@ -10,7 +10,7 @@ dir
 dir <path\to\directory>
 
 # Show the contents of the current directory, including hidden ones
-dir _A
+dir /A
 
 # Show the contents of a given directory, including hidden ones
-dir <path\to\directory> _A
+dir <path\to\directory> /A

@@ -7,7 +7,7 @@
 lnav <path_to_log_or_directory|url>
 
 # View logs of a specific remote host (SSH passwordless login required)
-lnav <ssh> <user>@<host1.example.com>:<_var_log_syslog.log>
+lnav <ssh> <user>@<host1.example.com>:<var_log_syslog.log>
 
 # Validate the format of log files against the configuration and report any errors
 lnav -C <path_to_log_directory>

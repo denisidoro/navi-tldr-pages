@@ -6,7 +6,7 @@
 # Give the [u]ser who owns a file the right to e[x]ecute it
 chmod u+x <path_to_file>
 
-# Give the [u]ser rights to [r]ead and [w]rite to a file_directory
+# Give the [u]ser rights to [r]ead and [w]rite to a file/directory
 chmod u+rw <path_to_file_or_directory>
 
 # Remove e[x]ecutable rights from the [g]roup

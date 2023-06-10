@@ -7,7 +7,7 @@
 sudo fdisk -l
 
 # Start the partition manipulator
-sudo fdisk <_dev_sdX>
+sudo fdisk <dev_sdX>
 
 # Once partitioning a disk, create a partition
 n

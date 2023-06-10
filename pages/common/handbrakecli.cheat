@@ -16,7 +16,7 @@ handbrakecli --preset-list
 handbrakecli --preset="Android" --input <input.ext> --output <output.mp4>
 
 # Print the content of a DVD, getting the CSS keys in the process
-handbrakecli --input <_dev_sr0> --title 0
+handbrakecli --input <dev_sr0> --title 0
 
 # Rip the first track of a DVD in the specified device. Audiotracks and subtitle languages are specified as lists
-handbrakecli --input <_dev_sr0> --title 1 --output <out.mkv> --format av_mkv --encoder x264 --subtitle <1,4,5> --audio <1,2> --aencoder copy --quality <23>
+handbrakecli --input <dev_sr0> --title 1 --output <out.mkv> --format av_mkv --encoder x264 --subtitle <1,4,5> --audio <1,2> --aencoder copy --quality <23>

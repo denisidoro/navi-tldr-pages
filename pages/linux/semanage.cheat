@@ -15,5 +15,5 @@ semanage boolean -S <store> <--delete|--modify|--list|--noheading|--deleteall> <
 # Manage policy modules
 semanage module -S <store> <--add|--delete|--list|--modify> <--enable|--disable> <module_name>
 
-# Disable_Enable dontaudit rules in policy
+# Disable/Enable dontaudit rules in policy
 semanage dontaudit -S <store> <on|off>

@@ -7,7 +7,7 @@
 exit
 
 # Quit the current batch script
-exit _b
+exit /b
 
 # Quit using a specific exit code
 exit <2>

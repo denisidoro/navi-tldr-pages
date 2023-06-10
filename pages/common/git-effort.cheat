@@ -12,7 +12,7 @@ git effort --above <5>
 # Display files modified by a specific author, showing commits and active days
 git effort -- --author="<username>"
 
-# Display files modified since a specific time_date, showing commits and active days
+# Display files modified since a specific time/date, showing commits and active days
 git effort -- --since="<last month>"
 
 # Display only the specified files or directories, showing commits and active days

@@ -13,4 +13,4 @@ gox <url_1> <url_2>
 gox -os="<os>"
 
 # Compile current directory for a single operating system and architecture combination
-gox -osarch="<os>_<arch>"
+gox -osarch="<os>/<arch>"

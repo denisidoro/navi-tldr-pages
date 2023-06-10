@@ -6,13 +6,13 @@
 # Create a new Hugo site
 hugo new site <path_to_site>
 
-# Create a new Hugo theme (themes may also be downloaded from https:__themes.gohugo.io_)
+# Create a new Hugo theme (themes may also be downloaded from https://themes.gohugo.io/)
 hugo new theme <theme_name>
 
 # Create a new page
-hugo new <section_name>_<page_name>
+hugo new <section_name>/<page_name>
 
-# Build a site to the `._public_` directory
+# Build a site to the `./public/` directory
 hugo
 
 # Build a site including pages that are marked as a "draft"

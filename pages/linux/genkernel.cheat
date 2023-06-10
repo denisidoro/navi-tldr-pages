@@ -15,5 +15,5 @@ sudo genkernel --menuconfig all
 # Generate a kernel with a custom name
 sudo genkernel --kernname=<custom_name> all
 
-# Use a kernel source outside the default directory `_usr_src_linux`
+# Use a kernel source outside the default directory `/usr/src/linux`
 sudo genkernel --kerneldir=<path_to_directory> all

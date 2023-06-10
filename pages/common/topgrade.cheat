@@ -9,7 +9,7 @@ topgrade
 # Say yes to all updates
 topgrade -y
 
-# Cleanup temporary_old files
+# Cleanup temporary/old files
 topgrade -c
 
 # Disable a certain update operation

@@ -22,4 +22,4 @@ copyq read 0 1 2
 copyq copy < <file.txt>
 
 # Copy a JPEG image into the clipboard
-copyq copy image_jpeg < <image.jpg>
+copyq copy image/jpeg < <image.jpg>

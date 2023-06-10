@@ -4,7 +4,7 @@
 % hub, common
 
 # Clone a repository using its slug (owners can omit the username)
-hub clone <username>_<repo_name>
+hub clone <username>/<repo_name>
 
 # Create a fork of the current repository (cloned from another user) under your GitHub profile
 hub fork

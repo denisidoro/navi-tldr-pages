@@ -3,7 +3,7 @@
 
 % rapper, common
 
-# Convert an RDF_XML document to Turtle
+# Convert an RDF/XML document to Turtle
 rapper -i rdfxml -o turtle <path_to_file>
 
 # Count the number of triples in a Turtle file

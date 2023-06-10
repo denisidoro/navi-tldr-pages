@@ -13,4 +13,4 @@ clip < <path\to\file.ext>
 echo <some text> | clip
 
 # Copy text without a trailing newline to the Windows clipboard
-echo | set _p="some text" | clip
+echo | set /p="some text" | clip

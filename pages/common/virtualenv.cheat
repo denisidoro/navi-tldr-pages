@@ -13,7 +13,7 @@ virtualenv --prompt=<prompt_prefix> <path_to_venv>
 virtualenv --python=<path_to_pythonbin> <path_to_venv>
 
 # Start (select) the environment
-source <path_to_venv>_bin_activate
+source <path_to_venv>/bin/activate
 
 # Stop the environment
 deactivate

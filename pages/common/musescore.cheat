@@ -6,7 +6,7 @@
 # Use a specific audio driver
 musescore --audio-driver <jack|alsa|portaudio|pulse>
 
-# Set the MP3 output bitrate in kbit_s
+# Set the MP3 output bitrate in kbit/s
 musescore --bitrate <bitrate>
 
 # Start MuseScore in debug mode

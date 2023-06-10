@@ -7,22 +7,22 @@
 csc <path_to_input_file_a.cs> <path_to_input_file_b.cs>
 
 # Specify the output filename
-csc _out:<path_to_filename> <path_to_input_file.cs>
+csc /out:<path_to_filename> <path_to_input_file.cs>
 
 # Compile into a `.dll` library instead of an executable
-csc _target:library <path_to_input_file.cs>
+csc /target:library <path_to_input_file.cs>
 
 # Reference another assembly
-csc _reference:<path_to_library.dll> <path_to_input_file.cs>
+csc /reference:<path_to_library.dll> <path_to_input_file.cs>
 
 # Embed a resource
-csc _resource:<path_to_resource_file> <path_to_input_file.cs>
+csc /resource:<path_to_resource_file> <path_to_input_file.cs>
 
 # Automatically generate XML documentation
-csc _doc:<path_to_output.xml> <path_to_input_file.cs>
+csc /doc:<path_to_output.xml> <path_to_input_file.cs>
 
 # Specify an icon
-csc _win32icon:<path_to_icon.ico> <path_to_input_file.cs>
+csc /win32icon:<path_to_icon.ico> <path_to_input_file.cs>
 
 # Strongly-name the resulting assembly with a keyfile
-csc _keyfile:<path_to_keyfile> <path_to_input_file.cs>
+csc /keyfile:<path_to_keyfile> <path_to_input_file.cs>

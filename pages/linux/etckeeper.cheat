@@ -3,10 +3,10 @@
 
 % etckeeper, linux
 
-# Set up a Git repo and perform various setup tasks (run from `_etc`)
+# Set up a Git repo and perform various setup tasks (run from `/etc`)
 sudo etckeeper init
 
-# Commit all changes in `_etc`
+# Commit all changes in `/etc`
 sudo etckeeper commit <message>
 
 # Run arbitrary Git commands

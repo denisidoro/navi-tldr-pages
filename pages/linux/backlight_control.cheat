@@ -3,7 +3,7 @@
 
 % backlight_control, linux
 
-# Increase_decrease the backlight by a specific percent count
+# Increase/decrease the backlight by a specific percent count
 backlight_control <+|-><5>
 
 # Set the backlight strength to a specific percent count

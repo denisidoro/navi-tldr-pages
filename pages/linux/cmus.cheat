@@ -6,13 +6,13 @@
 # Open cmus into the specified directory (this will become your new working directory)
 cmus <path_to_directory>
 
-# Add file_directory to library
+# Add file/directory to library
 :add <path_to_file_or_directory>
 
-# Pause_unpause current song
+# Pause/unpause current song
 c
 
-# Toggle shuffle mode on_off
+# Toggle shuffle mode on/off
 s
 
 # Quit cmus

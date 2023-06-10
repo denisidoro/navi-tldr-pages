@@ -7,19 +7,19 @@
 fc <path\to\file1> <path\to\file2>
 
 # Perform a case-insensitive comparison
-fc _c <path\to\file1> <path\to\file2>
+fc /c <path\to\file1> <path\to\file2>
 
 # Compare files as Unicode text
-fc _u <path\to\file1> <path\to\file2>
+fc /u <path\to\file1> <path\to\file2>
 
 # Compare files as ASCII text
-fc _l <path\to\file1> <path\to\file2>
+fc /l <path\to\file1> <path\to\file2>
 
 # Compare files as binary
-fc _b <path\to\file1> <path\to\file2>
+fc /b <path\to\file1> <path\to\file2>
 
 # Disable tab-to-space expansion
-fc _t <path\to\file1> <path\to\file2>
+fc /t <path\to\file1> <path\to\file2>
 
 # Compress whitespace (tabs and spaces) for comparisons
-fc _w <path\to\file1> <path\to\file2>
+fc /w <path\to\file1> <path\to\file2>

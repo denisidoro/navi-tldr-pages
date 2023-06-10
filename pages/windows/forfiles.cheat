@@ -7,16 +7,16 @@
 forfiles
 
 # Search for files in a specific directory
-forfiles _p <path\to\directory>
+forfiles /p <path\to\directory>
 
 # Run the specified command for each file
-forfiles _c "<command>"
+forfiles /c "<command>"
 
 # Search for files using a specific glob mask
-forfiles _m <glob_pattern>
+forfiles /m <glob_pattern>
 
 # Search for files recursively
-forfiles _s
+forfiles /s
 
 # Search for files older than 5 days
-forfiles _d +<5>
+forfiles /d +<5>

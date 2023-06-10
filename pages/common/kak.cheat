@@ -19,7 +19,7 @@ i
 <Space>
 
 # Search for numbers and select the first two
-_\d+<Enter>N
+/\d+<Enter>N
 
 # Insert the contents of a file
 !cat <path_to_file><Enter>

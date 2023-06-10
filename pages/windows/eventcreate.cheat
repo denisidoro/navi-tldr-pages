@@ -4,13 +4,13 @@
 % eventcreate, windows
 
 # Create a new event with a given ID (1-1000) in the log
-eventcreate _t <success|error|warning|information> _id <id> _d "<message>"
+eventcreate /t <success|error|warning|information> /id <id> /d "<message>"
 
 # Create an event in a specific event log
-eventcreate _l <log_name> _t <type> _id <id> _d "<message>"
+eventcreate /l <log_name> /t <type> /id <id> /d "<message>"
 
 # Create an event with a specific source
-eventcreate _so <source_name> _t <type> _id <id> _d "<message>"
+eventcreate /so <source_name> /t <type> /id <id> /d "<message>"
 
 # Create an event in a remote machine's event log
-eventcreate _s <hostname> _u <username> _p <password> _t <type> _id <id> _d "<message>"
+eventcreate /s <hostname> /u <username> /p <password> /t <type> /id <id> /d "<message>"

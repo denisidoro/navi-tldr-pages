@@ -9,7 +9,7 @@ pidstat <2> <10>
 # Show page faults and memory utilization
 pidstat -r
 
-# Show input_output usage per process id
+# Show input/output usage per process id
 pidstat -d
 
 # Show information on a specific PID

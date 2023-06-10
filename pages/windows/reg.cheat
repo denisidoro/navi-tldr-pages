@@ -7,7 +7,7 @@
 reg <command>
 
 # Display general information and list all available commands
-reg _?
+reg /?
 
 # Call help on a specific command
-reg <command> _?
+reg <command> /?

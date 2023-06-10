@@ -13,10 +13,10 @@ xxh "<host>" ++install
 xxh "<host>" ++shell <xonsh|zsh|fish|bash|osquery>
 
 # Use a specific xxh configuration directory on the target machine
-xxh "<host>" ++host-xxh-home <~.xxh>
+xxh "<host>" ++host-xxh-home <~/.xxh>
 
 # Use the specified configuration file on the host machine
-xxh "<host>" ++xxh-config <~.config_xxh_config.xxhc>
+xxh "<host>" ++xxh-config <~/.config/xxh/config.xxhc>
 
 # Specify a password to use for the SSH connection
 xxh "<host>" ++password "<password>"

@@ -3,7 +3,7 @@
 
 % cut, common
 
-# Print a specific character_field range of each line
+# Print a specific character/field range of each line
 <command> | cut --<characters|fields>=<1|1,10|1-10|1-|-10>
 
 # Print a range of each line with a specific delimiter

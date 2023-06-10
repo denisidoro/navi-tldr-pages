@@ -18,5 +18,5 @@ pv -d <PID>
 # Read an erroneous file, skip errors as `dd conv=sync,noerror` would
 pv -EE <path_to_faulty_media> > image.img
 
-# Stop reading after reading specified amount of data, rate limit to 1K_s
+# Stop reading after reading specified amount of data, rate limit to 1K/s
 pv -L 1K --stop-at --size <maximum_file_size_to_be_read>

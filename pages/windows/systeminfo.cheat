@@ -7,10 +7,10 @@
 systeminfo
 
 # Display system configuration in a specified output format
-systeminfo _fo <table|list|csv>
+systeminfo /fo <table|list|csv>
 
 # Display system configuration for a remote machine
-systeminfo _s <remote_name> _u <username> _p <password>
+systeminfo /s <remote_name> /u <username> /p <password>
 
 # Display detailed usage information
-systeminfo _?
+systeminfo /?

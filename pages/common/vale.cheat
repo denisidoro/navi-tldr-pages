@@ -7,7 +7,7 @@
 vale <path_to_file>
 
 # Check the style of a file with a specified configuration
-vale --config='<path_to.vale.ini>' <path_to_file>
+vale --config='<path_to_.vale.ini>' <path_to_file>
 
 # Output the results in JSON format
 vale --output=JSON <path_to_file>

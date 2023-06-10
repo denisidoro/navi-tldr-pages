@@ -9,7 +9,7 @@ synopkg list --name
 # List packages which depend on a specific package
 synopkg list --depend-on <package>
 
-# Start_Stop a package
+# Start/Stop a package
 sudo synopkg <start|stop> <package>
 
 # Print the status of a package

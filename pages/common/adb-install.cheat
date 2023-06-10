@@ -3,10 +3,10 @@
 
 % adb-install, common
 
-# Push an Android application to an emulator_device
+# Push an Android application to an emulator/device
 adb install <path_to_file.apk>
 
-# Push an Android application to a specific emulator_device (overrides `$ANDROID_SERIAL`)
+# Push an Android application to a specific emulator/device (overrides `$ANDROID_SERIAL`)
 adb -s <serial_number> install <path_to_file.apk>
 
 # Reinstall an existing app, keeping its data

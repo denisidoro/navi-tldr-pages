@@ -13,4 +13,4 @@ kcadm.sh create users -s username=<username> -r <realm_name>
 kcadm.sh get realms
 
 # Update a realm with JSON config
-kcadm.sh update realms_<realm_name> -f <path_to_file.json>
+kcadm.sh update realms/<realm_name> -f <path_to_file.json>

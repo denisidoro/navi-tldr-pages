@@ -3,7 +3,7 @@
 
 % gnome-screenshot, linux
 
-# Take a screenshot and save it to the default location, normally `~_Pictures`
+# Take a screenshot and save it to the default location, normally `~/Pictures`
 gnome-screenshot
 
 # Take a screenshot and save it to the named file location

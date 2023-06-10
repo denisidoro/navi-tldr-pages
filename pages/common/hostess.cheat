@@ -3,7 +3,7 @@
 
 % hostess, common
 
-# List domains, target IP addresses and on_off status
+# List domains, target IP addresses and on/off status
 hostess list
 
 # Add a domain pointing to your machine to your hosts file

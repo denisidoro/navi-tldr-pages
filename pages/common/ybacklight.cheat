@@ -4,7 +4,7 @@
 % ybacklight, common
 
 # Print current brightness and maximal brightness, shortened and separated by a slash
-ybacklight Sc_Sm
+ybacklight Sc/Sm
 
 # Set the brightness to 420
 ybacklight s<420>

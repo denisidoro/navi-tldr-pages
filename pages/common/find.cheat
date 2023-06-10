@@ -6,7 +6,7 @@
 # Find files by extension
 find <root_path> -name '<*.ext>'
 
-# Find files matching multiple path_name patterns
+# Find files matching multiple path/name patterns
 find <root_path> -path '<**_path_**_*.ext>' -or -name '<*pattern*>'
 
 # Find directories matching a given name, in case-insensitive mode

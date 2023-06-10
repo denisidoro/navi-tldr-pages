@@ -9,7 +9,7 @@ pdftocairo <path_to_file.pdf> -jpeg
 # Convert to PDF expanding the output to fill the paper
 pdftocairo <path_to_file.pdf> <output.pdf> -pdf -expand
 
-# Convert to SVG specifying the first_last page to convert
+# Convert to SVG specifying the first/last page to convert
 pdftocairo <path_to_file.pdf> <output.svg> -svg -f <first_page> -l <last_page>
 
 # Convert to PNG with 200ppi resolution

@@ -13,7 +13,7 @@ az tag create --name <tag_name>
 az tag delete --name <tag_name>
 
 # List all tags on a subscription
-az tag list --resource-id _subscriptions_<subscription_id>
+az tag list --resource-id /subscriptions/<subscription_id>
 
 # Delete a tag value for a specific tag name
 az tag remove-value --name <tag_name> --value <tag_value>

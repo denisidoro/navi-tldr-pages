@@ -18,8 +18,8 @@ helix <path_to_file>
 # Undo the last operation
 u
 
-# Search for a pattern in the file (press `n`_`N` to go to next_previous match)
-_<search_pattern><Enter>
+# Search for a pattern in the file (press `n`/`N` to go to next/previous match)
+/<search_pattern><Enter>
 
 # Format the file
 :format

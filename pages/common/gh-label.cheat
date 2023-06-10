@@ -19,7 +19,7 @@ gh label delete <name>
 gh label edit <name> --name <new_name> --description "<description>"
 
 # Clone labels from a specific repository into the repository in the current directory
-gh label clone <owner>_<repository>
+gh label clone <owner>/<repository>
 
 # Display help for a subcommand
 gh label <subcommand> --help

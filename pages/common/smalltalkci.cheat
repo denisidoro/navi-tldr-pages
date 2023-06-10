@@ -4,7 +4,7 @@
 % smalltalkci, common
 
 # Run tests for a configuration file
-smalltalkci <path_to.smalltalk.ston>
+smalltalkci <path_to_.smalltalk.ston>
 
 # Run tests for the `.smalltalk.ston` configuration in the current directory
 smalltalkci

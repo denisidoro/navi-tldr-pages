@@ -19,4 +19,4 @@ git archive --output=<path_to_file.tar> <branch_name>
 git archive --output=<path_to_file.tar> HEAD:<path_to_directory>
 
 # Prepend a path to each file to archive it inside a specific directory
-git archive --output=<path_to_file.tar> --prefix=<path_to_prepend>_ HEAD
+git archive --output=<path_to_file.tar> --prefix=<path_to_prepend>/ HEAD

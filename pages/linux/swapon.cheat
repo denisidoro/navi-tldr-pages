@@ -7,7 +7,7 @@
 swapon -s
 
 # Enable a given swap partition
-swapon <_dev_sdb7>
+swapon <dev_sdb7>
 
 # Enable a given swap file
 swapon <path_to_file>

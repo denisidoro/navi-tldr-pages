@@ -4,7 +4,7 @@
 % am, android
 
 # Start a specific activity
-am start -n <com.android.settings.Settings>
+am start -n <com.android.settings_.Settings>
 
 # Start an activity and pass [d]ata to it
 am start -a <android.intent.action.VIEW> -d <tel:123>

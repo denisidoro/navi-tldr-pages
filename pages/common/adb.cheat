@@ -9,16 +9,16 @@ adb start-server
 # Terminate the adb server process
 adb kill-server
 
-# Start a remote shell in the target emulator_device instance
+# Start a remote shell in the target emulator/device instance
 adb shell
 
-# Push an Android application to an emulator_device
+# Push an Android application to an emulator/device
 adb install -r <path_to_file.apk>
 
-# Copy a file_directory from the target device
+# Copy a file/directory from the target device
 adb pull <path_to_device_file_or_directory> <path_to_local_destination_directory>
 
-# Copy a file_directory to the target device
+# Copy a file/directory to the target device
 adb push <path_to_local_file_or_directory> <path_to_device_destination_directory>
 
 # Get a list of connected devices

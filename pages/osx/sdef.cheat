@@ -4,4 +4,4 @@
 % sdef, osx
 
 # Print the scripting definitions of the given application
-sdef <_Applications_XCode.app>
+sdef <Applications_XCode.app>

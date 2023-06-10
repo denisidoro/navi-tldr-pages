@@ -15,7 +15,7 @@ tldr distrobox-enter
 # View documentation for executing a command on the host from inside a container
 tldr distrobox-host-exec
 
-# View documentation for exporting app_service_binary from the container to the host
+# View documentation for exporting app/service/binary from the container to the host
 tldr distrobox-export
 
 # View documentation for upgrading containers

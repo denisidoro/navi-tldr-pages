@@ -7,19 +7,19 @@
 sfc
 
 # Scan all system files and, if possible, repair any problems
-sfc _scannow
+sfc /scannow
 
 # Scan all system files without attempting to repair any
-sfc _verifyonly
+sfc /verifyonly
 
 # Scan a specific file and, if possible, repair any problems
-sfc _scanfile=<path\to\file>
+sfc /scanfile=<path\to\file>
 
 # Scan a specific file without attempting to repair it
-sfc _verifyfile=<path\to\file>
+sfc /verifyfile=<path\to\file>
 
 # When repairing offline, specify the boot directory
-sfc _offbootdir=<path\to\directory>
+sfc /offbootdir=<path\to\directory>
 
 # When repairing offline, specify the Windows directory
-sfc _offwindir=<path\to\directory>
+sfc /offwindir=<path\to\directory>

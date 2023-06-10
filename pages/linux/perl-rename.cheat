@@ -13,7 +13,7 @@ rename -n <'s_foo_bar_'> <*>
 rename -f <'s_foo_bar_'> <*>
 
 # Convert filenames to lower case (use `-f` in case-insensitive filesystems to prevent "already exists" errors)
-rename 'y_A-Z_a-z_' <*>
+rename 'y/A-Z/a-z/' <*>
 
 # Replace whitespace with underscores
-rename 's_\s+___g' <*>
+rename 's/\s+/_/g' <*>

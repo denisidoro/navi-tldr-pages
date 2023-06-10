@@ -10,16 +10,16 @@ msbuild
 msbuild <path_to_project_file>
 
 # Set one or more semicolon-separated targets to build
-msbuild <path_to_project_file> _target:<targets>
+msbuild <path_to_project_file> /target:<targets>
 
 # Set one or more semicolon-separated properties
-msbuild <path_to_project_file> _property:<name=value>
+msbuild <path_to_project_file> /property:<name=value>
 
 # Set the build tools version to use
-msbuild <path_to_project_file> _toolsversion:<version>
+msbuild <path_to_project_file> /toolsversion:<version>
 
 # Display detailed information at the end of the log about how the project was configured
-msbuild <path_to_project_file> _detailedsummary
+msbuild <path_to_project_file> /detailedsummary
 
 # Display detailed help information
-msbuild _help
+msbuild /help

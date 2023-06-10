@@ -4,7 +4,7 @@
 % debootstrap, linux
 
 # Create a Debian stable release system inside the `debian-root` directory
-sudo debootstrap stable <path_to_debian-root_> http:__deb.debian.org_debian
+sudo debootstrap stable <path_to_debian-root_> http://deb.debian.org/debian
 
 # Create a minimal system including only required packages
 sudo debootstrap --variant=minbase stable <path_to_debian-root_>
@@ -16,4 +16,4 @@ sudo debootstrap focal <path_to_focal-root_> <file:___path_to_mirror_>
 sudo chroot <path_to_root>
 
 # List available releases
-ls _usr_share_debootstrap_scripts_
+ls /usr/share/debootstrap/scripts/

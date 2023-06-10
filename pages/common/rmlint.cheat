@@ -7,7 +7,7 @@
 rmlint <path_to_directory>
 
 # Delete duplicate files found by an execution of `rmlint`
-._rmlint.sh
+./rmlint.sh
 
 # Find duplicate directory trees
 rmlint --merge-directories <path_to_directory>

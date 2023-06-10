@@ -16,4 +16,4 @@ for <variable> in <path_to_file1 path_to_file2 ...>; do <echo "Loop is executed"
 for <variable> in <path_to_directory1_ path_to_directory2_ ...>; do <echo "Loop is executed">; done
 
 # Perform a given command in every directory
-for <variable> in *_; do (cd "$<variable>" || continue; <echo "Loop is executed">) done
+for <variable> in */; do (cd "$<variable>" || continue; <echo "Loop is executed">) done

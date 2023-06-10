@@ -15,7 +15,7 @@ ego doc <wiki_page>
 # Print current profile
 ego profile show
 
-# Enable_Disable mix-ins
+# Enable/Disable mix-ins
 ego profile mix-in +<gnome> -<kde-plasma-5>
 
 # Query Funtoo bugs, related to a specified package

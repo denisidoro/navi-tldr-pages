@@ -7,7 +7,7 @@
 gh browse
 
 # Open the homepage of a specific repository in the default web browser
-gh browse <owner>_<repository>
+gh browse <owner>/<repository>
 
 # Open the settings page of the current repository in the default web browser
 gh browse --settings

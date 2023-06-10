@@ -3,7 +3,7 @@
 
 % du, common
 
-# List the sizes of a directory and any subdirectories, in the given unit (B_KiB_MiB)
+# List the sizes of a directory and any subdirectories, in the given unit (B/KiB/MiB)
 du -<b|k|m> <path_to_directory>
 
 # List the sizes of a directory and any subdirectories, in human-readable form (i.e. auto-selecting the appropriate unit for each size)

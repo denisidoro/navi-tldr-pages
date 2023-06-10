@@ -15,5 +15,5 @@ lrunzip -f <filename.lrz>
 # Keep broken or damaged files instead of deleting them when decompressing
 lrunzip -K <filename.lrz>
 
-# Specify output file name and_or path
+# Specify output file name and/or path
 lrunzip -o <outfilename> <filename.lrz>

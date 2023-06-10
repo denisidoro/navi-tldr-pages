@@ -15,7 +15,7 @@ vcsh list
 # Execute a Git command on a managed repository
 vcsh <repository_name> <git_command>
 
-# Push_pull all managed repositories to_from remotes
+# Push/pull all managed repositories to/from remotes
 vcsh <push|pull>
 
 # Write a custom `.gitignore` file for a managed repository

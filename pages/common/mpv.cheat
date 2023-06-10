@@ -9,10 +9,10 @@ mpv <path_to_file>
 # Play a video or audio file from a URL
 mpv '<https:__www.youtube.com_watch?v=dQw4w9WgXcQ>'
 
-# Jump backward_forward 5 seconds
+# Jump backward/forward 5 seconds
 LEFT <or> RIGHT
 
-# Jump backward_forward 1 minute
+# Jump backward/forward 1 minute
 DOWN <or> UP
 
 # Decrease or increase playback speed by 10%
@@ -25,4 +25,4 @@ mpv --speed <speed> <path_to_file>
 mpv --profile <profile_name> <path_to_file>
 
 # Display the output of webcam or other video input device
-mpv _dev_<video0>
+mpv /dev/<video0>

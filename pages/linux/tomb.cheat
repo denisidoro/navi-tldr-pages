@@ -15,7 +15,7 @@ tomb forge <encrypted_directory.tomb.key> -f
 # Initialize and lock an empty tomb using a key made with `forge`
 tomb lock <encrypted_directory.tomb> -k <encrypted_directory.tomb.key>
 
-# Mount a tomb (by default in `_media`) using its key, making it usable as a regular filesystem directory
+# Mount a tomb (by default in `/media`) using its key, making it usable as a regular filesystem directory
 tomb open <encrypted_directory.tomb> -k <encrypted_directory.tomb.key>
 
 # Close a tomb (fails if the tomb is being used by a process)

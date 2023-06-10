@@ -7,10 +7,10 @@
 reg delete <key_name>
 
 # Delete a value under a specific key
-reg delete <key_name> _v <value>
+reg delete <key_name> /v <value>
 
 # Delete all values recursively under the specified key
-reg delete <key_name> _va
+reg delete <key_name> /va
 
 # Forcefully delete all values recursively under a key without a prompt
-reg delete <key_name> _f _va
+reg delete <key_name> /f /va

@@ -3,7 +3,7 @@
 
 % gixy, common
 
-# Analyze nginx configuration (default path: `_etc_nginx_nginx.conf`)
+# Analyze nginx configuration (default path: `/etc/nginx/nginx.conf`)
 gixy
 
 # Analyze nginx configuration but skip specific tests

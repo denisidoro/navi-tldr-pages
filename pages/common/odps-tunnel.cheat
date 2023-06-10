@@ -7,7 +7,7 @@
 tunnel download <table_name> <path_to_file>;
 
 # Upload local file to a table partition
-tunnel upload <path_to_file> <table_name>_<partition_spec>;
+tunnel upload <path_to_file> <table_name>/<partition_spec>;
 
 # Upload table specifying field and record delimiters
 tunnel upload <path_to_file> <table_name> -fd <field_delim> -rd <record_delim>;

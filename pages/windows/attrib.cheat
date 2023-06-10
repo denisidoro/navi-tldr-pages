@@ -10,10 +10,10 @@ attrib
 attrib <path\to\directory>
 
 # Display all set attributes of files and [d]irectories in the current directory
-attrib _d
+attrib /d
 
 # Display all set attributes of files in the current directory and [s]ub-directories
-attrib _s
+attrib /s
 
 # Add the `[r]ead-only` or `[a]rchive` or `[s]ystem` or `[h]idden` or `not content [i]ndexed` attribute to files or directories
 attrib +<r|a|s|h|i> <path\to\file_or_directory1 path\to\file_or_directory2 ...>

@@ -7,22 +7,22 @@
 cmd
 
 # Execute specific [c]ommands
-cmd _c <echo Hello world>
+cmd /c <echo Hello world>
 
 # Execute a specific script
 cmd <path\to\script.bat>
 
 # Execute specific commands and then enter an interactive shell
-cmd _k <echo Hello world>
+cmd /k <echo Hello world>
 
 # Start an interactive shell session where `echo` is disabled in command output
-cmd _q
+cmd /q
 
 # Start an interactive shell session with delayed [v]ariable expansion enabled or disabled
-cmd _v:<on|off>
+cmd /v:<on|off>
 
 # Start an interactive shell session with command [e]xtensions enabled or disabled
-cmd _e:<on|off>
+cmd /e:<on|off>
 
 # Start an interactive shell session with used [u]nicode encoding
-cmd _u
+cmd /u

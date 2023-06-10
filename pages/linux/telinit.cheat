@@ -18,5 +18,5 @@ telinit 1
 # Reload daemon configuration
 telinit q
 
-# Do not send a wall message before reboot_power-off (6_0)
+# Do not send a wall message before reboot/power-off (6/0)
 telinit --no-wall <value>

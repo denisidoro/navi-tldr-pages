@@ -4,7 +4,7 @@
 % gh, common
 
 # Clone a GitHub repository locally
-gh repo clone <owner>_<repository>
+gh repo clone <owner>/<repository>
 
 # Create a new issue
 gh issue create

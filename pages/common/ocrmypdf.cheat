@@ -3,7 +3,7 @@
 
 % ocrmypdf, common
 
-# Create a new searchable PDF_A file from a scanned PDF or image file
+# Create a new searchable PDF/A file from a scanned PDF or image file
 ocrmypdf <path_to_input_file> <path_to_output.pdf>
 
 # Replace a scanned PDF file with a searchable PDF file

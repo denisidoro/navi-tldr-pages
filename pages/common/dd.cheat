@@ -4,19 +4,19 @@
 % dd, common
 
 # Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`)
-dd if=<path_to_file.iso> of=_dev_<usb_drive>
+dd if=<path_to_file.iso> of=/dev/<usb_drive>
 
 # Clone a drive to another drive with 4 MiB block and ignore error
-dd if=_dev_<source_drive> of=_dev_<dest_drive> bs=<4194304> conv=<noerror>
+dd if=/dev/<source_drive> of=/dev/<dest_drive> bs=<4194304> conv=<noerror>
 
 # Generate a file of 100 random bytes by using kernel random driver
-dd if=_dev_urandom of=<path_to_random_file> bs=<100> count=<1>
+dd if=/dev/urandom of=<path_to_random_file> bs=<100> count=<1>
 
 # Benchmark the write performance of a disk
-dd if=_dev_zero of=<path_to_file_1GB> bs=<1024> count=<1000000>
+dd if=/dev/zero of=<path_to_file_1GB> bs=<1024> count=<1000000>
 
 # Generate a system backup into an IMG file
-dd if=<_dev_drive_device> of=<path_to_file.img>
+dd if=<dev_drive_device> of=<path_to_file.img>
 
 # Restore a drive from an IMG file
-dd if=<path_to_file.img> of=<_dev_drive_device>
+dd if=<path_to_file.img> of=<dev_drive_device>

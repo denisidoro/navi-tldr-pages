@@ -12,5 +12,5 @@ mitmproxy --listen-host <ip_address> --listen-port <port>
 # Start `mitmproxy` using a script to process traffic
 mitmproxy --scripts <path_to_script.py>
 
-# Export the logs with SSL_TLS master keys to external programs (wireshark, etc.)
+# Export the logs with SSL/TLS master keys to external programs (wireshark, etc.)
 SSLKEYLOGFILE="<path_to_file>" mitmproxy

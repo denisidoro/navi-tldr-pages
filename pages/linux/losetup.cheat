@@ -7,16 +7,16 @@
 losetup -a
 
 # Attach a file to a given loop device
-sudo losetup _dev_<loop> _<path_to_file>
+sudo losetup /dev/<loop> /<path_to_file>
 
 # Attach a file to a new free loop device and scan the device for partitions
-sudo losetup --show --partscan -f _<path_to_file>
+sudo losetup --show --partscan -f /<path_to_file>
 
 # Attach a file to a read-only loop device
-sudo losetup --read-only _dev_<loop> _<path_to_file>
+sudo losetup --read-only /dev/<loop> /<path_to_file>
 
 # Detach all loop devices
 sudo losetup -D
 
 # Detach a given loop device
-sudo losetup -d _dev_<loop>
+sudo losetup -d /dev/<loop>

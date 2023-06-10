@@ -4,7 +4,7 @@
 % nix, common
 
 # Enable the `nix` command
-mkdir -p ~.config_nix; echo 'experimental-features = nix-command flakes' > ~.config_nix_nix.conf
+mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf
 
 # Display help for the `nix` subcommand
 nix help <subcommand>

@@ -15,7 +15,7 @@ lighthouse --output <json> --output-path <path_to_file.json> <https:__example.co
 # Generate a report using the browser in headless mode without logging to `stdout`
 lighthouse --quiet --chrome-flags="<--headless>" <https:__example.com>
 
-# Generate a report, using the HTTP header key_value pairs in the specified JSON file for all requests
+# Generate a report, using the HTTP header key/value pairs in the specified JSON file for all requests
 lighthouse --extra-headers=<path_to_file.json> <https:__example.com>
 
 # Generate a report for specific categories only

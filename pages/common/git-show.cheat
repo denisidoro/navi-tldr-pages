@@ -18,7 +18,7 @@ git show <branch>~<3>
 # Show a commit's message in a single line, suppressing the diff output
 git show --oneline -s <commit>
 
-# Show only statistics (added_removed characters) about the changed files
+# Show only statistics (added/removed characters) about the changed files
 git show --stat <commit>
 
 # Show only the list of added, renamed or deleted files

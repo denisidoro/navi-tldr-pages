@@ -19,7 +19,7 @@ ddev composer
 ddev nvm install <version>
 
 # Export a database
-ddev export-db --file=<_tmp_db.sql.gz>
+ddev export-db --file=<tmp_db.sql.gz>
 
 # Run a specific command within a container
 ddev exec <echo 1>

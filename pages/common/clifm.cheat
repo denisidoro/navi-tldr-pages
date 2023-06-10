@@ -10,10 +10,10 @@ clifm
 12
 
 # Create a new file and a new directory
-n file dir_
+n file dir/
 
 # Search for PDF files in the current directory
-_*.pdf
+/*.pdf
 
 # Select all PNG files in the current directory
 s *.png

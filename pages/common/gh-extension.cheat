@@ -7,7 +7,7 @@
 gh extension create <extension_name>
 
 # Install an extension from a GitHub repository
-gh extension install <owner>_<repository>
+gh extension install <owner>/<repository>
 
 # List installed extensions
 gh extension list

@@ -16,4 +16,4 @@ smbmap -u <username> -p <password> -d <domain> -H <ip_or_hostname>
 smbmap --host-file <path_to_file> -u <username> -p <password> -q -R --depth <number> --exclude <sharename> -A <filepattern>
 
 # Upload file through smb using username and password
-smbmap -u <username> -p <password> -d <domain> -H <ip_or_hostname> --upload <path_to_file> '<_share_name_remote_filename>'
+smbmap -u <username> -p <password> -d <domain> -H <ip_or_hostname> --upload <path_to_file> '<share_name_remote_filename>'

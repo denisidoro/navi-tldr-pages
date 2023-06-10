@@ -3,7 +3,7 @@
 
 % linkchecker, common
 
-# Find broken links on https:__example.com_
+# Find broken links on https://example.com/
 linkchecker <https:__example.com_>
 
 # Also check URLs that point to external domains
@@ -13,4 +13,4 @@ linkchecker --check-extern <https:__example.com_>
 linkchecker --ignore-url <regular_expression> <https:__example.com_>
 
 # Output results to a CSV file
-linkchecker --file-output <csv>_<path_to_file> <https:__example.com_>
+linkchecker --file-output <csv>/<path_to_file> <https:__example.com_>

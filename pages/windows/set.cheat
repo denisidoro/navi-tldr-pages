@@ -13,4 +13,4 @@ set <name>=<value>
 set <name>
 
 # Prompt the user for a value for the specified variable
-set _p <name>=<prompt_string>
+set /p <name>=<prompt_string>

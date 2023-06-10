@@ -4,19 +4,19 @@
 % taskkill, windows
 
 # Terminate a process by its ID
-taskkill _pid <process_id>
+taskkill /pid <process_id>
 
 # Terminate a process by its name
-taskkill _im <process_name>
+taskkill /im <process_name>
 
 # Forcefully terminate a specified process
-taskkill _pid <process_id> _f
+taskkill /pid <process_id> /f
 
 # Terminate a process and its child processes
-taskkill _im <process_name> _t
+taskkill /im <process_name> /t
 
 # Terminate a process on a remote machine
-taskkill _pid <process_id> _s <remote_name>
+taskkill /pid <process_id> /s <remote_name>
 
 # Display information about the usage of the command
-taskkill _?
+taskkill /?

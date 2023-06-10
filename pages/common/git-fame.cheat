@@ -6,7 +6,7 @@
 # Calculate contributions for the current Git repository
 git fame
 
-# Exclude files_directories that match the specified regular expression
+# Exclude files/directories that match the specified regular expression
 git fame --excl "<regular_expression>"
 
 # Calculate contributions made after the specified date

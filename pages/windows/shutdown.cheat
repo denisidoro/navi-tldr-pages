@@ -4,25 +4,25 @@
 % shutdown, windows
 
 # Shutdown the current machine
-shutdown _s
+shutdown /s
 
 # Shutdown the current machine force-closing all apps
-shutdown _s _f
+shutdown /s /f
 
 # Restart the current machine immediately
-shutdown _r _t 0
+shutdown /r /t 0
 
 # Hibernate the current machine
-shutdown _h
+shutdown /h
 
 # Log off the current machine
-shutdown _l
+shutdown /l
 
 # Specify a timeout in seconds to wait before shutting down
-shutdown _s _t <8>
+shutdown /s /t <8>
 
 # Abort a shutdown sequence whose timeout is yet to expire
-shutdown _a
+shutdown /a
 
 # Shutdown a remote machine
-shutdown _m <\\hostname>
+shutdown /m <\\hostname>

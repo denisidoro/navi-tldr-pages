@@ -7,4 +7,4 @@
 ebook-convert <path_to_input_file> <output_file>
 
 # Convert Markdown or HTML to e-book with TOC, title and author
-ebook-convert <path_to_input_file> <output_file> --level1-toc="__h:h1" --level2-toc="__h:h2" --level3-toc="__h:h3" --title=<title> --authors=<author>
+ebook-convert <path_to_input_file> <output_file> --level1-toc="//h:h1" --level2-toc="//h:h2" --level3-toc="//h:h3" --title=<title> --authors=<author>

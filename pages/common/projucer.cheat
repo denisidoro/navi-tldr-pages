@@ -15,7 +15,7 @@ Projucer --set-version <version_number> <path_to_project_file>
 # Generate a JUCE project from a PIP file
 Projucer --create-project-from-pip <path_to_PIP> <path_to_output>
 
-# Remove all JUCE-style comments (`__=====`, `__-----` or `_______`)
+# Remove all JUCE-style comments (`//=====`, `//-----` or `///////`)
 Projucer --tidy-divider-comments <path_to_target_folder>
 
 # Display help

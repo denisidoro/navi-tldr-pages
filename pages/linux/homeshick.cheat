@@ -13,7 +13,7 @@ homeshick track <castle_name> <path_to_file>
 homeshick cd <castle_name>
 
 # Clone a castle
-homeshick clone <github_username>_<repository_name>
+homeshick clone <github_username>/<repository_name>
 
 # Symlink all files from a castle
 homeshick link <castle_name>

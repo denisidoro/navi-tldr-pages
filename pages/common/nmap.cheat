@@ -24,5 +24,5 @@ nmap --script "default and safe" <address_or_addresses>
 # Scan web server running on standard ports 80 and 443 using all available 'http-*' NSE scripts
 nmap --script "http-*" <address_or_addresses> -p 80,443
 
-# Perform a stealthy very slow scan ('-T0') trying to avoid detection by IDS_IPS and use decoy ('-D') source IP addresses
+# Perform a stealthy very slow scan ('-T0') trying to avoid detection by IDS/IPS and use decoy ('-D') source IP addresses
 nmap -T0 -D <decoy1_ipaddress,decoy2_ipaddress,...,decoyN_ipaddress> <address_or_addresses>

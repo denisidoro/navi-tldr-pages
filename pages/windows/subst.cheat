@@ -10,4 +10,4 @@ subst
 subst <Z:> <C:\Python2.7>
 
 # Remove an association
-subst <Z:> _d
+subst <Z:> /d

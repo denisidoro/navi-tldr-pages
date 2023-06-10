@@ -3,10 +3,10 @@
 
 % snowsql, common
 
-# Connect to a specific instance at <https:__account.snowflakecomputing.com> (password can be provided in prompt or configuration file)
+# Connect to a specific instance at <https://account.snowflakecomputing.com> (password can be provided in prompt or configuration file)
 snowsql --accountname <account> --username <username> --dbname <database> --schemaname <schema>
 
-# Connect to an instance specified by a specific configuration file (defaults to `~.snowsql_config`)
+# Connect to an instance specified by a specific configuration file (defaults to `~/.snowsql/config`)
 snowsql --config <path_to_configuration_file>
 
 # Connect to the default instance using a token for multi-factor authentication

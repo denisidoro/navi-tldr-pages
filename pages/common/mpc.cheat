@@ -3,7 +3,7 @@
 
 % mpc, common
 
-# Toggle play_pause
+# Toggle play/pause
 mpc toggle
 
 # Stop playing

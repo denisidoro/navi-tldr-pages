@@ -18,5 +18,5 @@ bc <path_to_script.bc>
 # Calculate an expression with the specified scale
 echo 'scale = <10>; <5 _ 3>' | bc
 
-# Calculate a sine_cosine_arctangent_natural logarithm_exponential function using `mathlib`
+# Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`
 echo '<s|c|a|l|e>(<1>)' | bc --mathlib

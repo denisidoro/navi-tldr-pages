@@ -7,22 +7,22 @@
 xcopy <path\to\file_or_directory> <path\to\destination_directory>
 
 # List files that will be copied before copying
-xcopy <path\to\file_or_directory> <path\to\destination_directory> _p
+xcopy <path\to\file_or_directory> <path\to\destination_directory> /p
 
 # Copy the directory structure only, excluding files
-xcopy <path\to\file_or_directory> <path\to\destination_directory> _t
+xcopy <path\to\file_or_directory> <path\to\destination_directory> /t
 
 # Include empty directories when copying
-xcopy <path\to\file_or_directory> <path\to\destination_directory> _e
+xcopy <path\to\file_or_directory> <path\to\destination_directory> /e
 
 # Keep the source ACL in the destination
-xcopy <path\to\file_or_directory> <path\to\destination_directory> _o
+xcopy <path\to\file_or_directory> <path\to\destination_directory> /o
 
 # Allow resuming when network connection is lost
-xcopy <path\to\file_or_directory> <path\to\destination_directory> _z
+xcopy <path\to\file_or_directory> <path\to\destination_directory> /z
 
 # Disable the prompt when the file exists in the destination
-xcopy <path\to\file_or_directory> <path\to\destination_directory> _y
+xcopy <path\to\file_or_directory> <path\to\destination_directory> /y
 
 # Display detailed usage information
-xcopy _?
+xcopy /?

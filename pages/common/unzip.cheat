@@ -3,13 +3,13 @@
 
 % unzip, common
 
-# Extract all files_directories from specific archives into the current directory
+# Extract all files/directories from specific archives into the current directory
 unzip <path_to_archive1.zip path_to_archive2.zip ...>
 
-# Extract files_directories from archives to a specific path
+# Extract files/directories from archives to a specific path
 unzip <path_to_archive1.zip path_to_archive2.zip ...> -d <path_to_output>
 
-# Extract files_directories from archives to `stdout`
+# Extract files/directories from archives to `stdout`
 unzip -c <path_to_archive1.zip path_to_archive2.zip ...>
 
 # Extract the contents of the file(s) to `stdout` alongside the extracted file names

@@ -22,7 +22,7 @@ osmium extract -p <path_to_polygon.geojson> <path_to_input.pbf> -o <path_to_outp
 osmium tags-filter <path_to_input.pbf> amenity=restaurant -o <path_to_output.pbf>
 
 # Filter for "way" objects tagged as "highway"
-osmium tags-filter <path_to_input.pbf> w_highway -o <path_to_output.pbf>
+osmium tags-filter <path_to_input.pbf> w/highway -o <path_to_output.pbf>
 
 # Filter "way" and "relation" objects tagged as "building"
-osmium tags-filter <path_to_input.pbf> wr_building -o <path_to_output.pbf>
+osmium tags-filter <path_to_input.pbf> wr/building -o <path_to_output.pbf>

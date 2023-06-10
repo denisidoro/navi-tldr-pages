@@ -4,4 +4,4 @@
 % e2label, linux
 
 # Change the volume label on a specific ext partition
-e2label <_dev_sda1> "<label_name>"
+e2label <dev_sda1> "<label_name>"

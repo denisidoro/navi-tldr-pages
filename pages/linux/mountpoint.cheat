@@ -9,5 +9,5 @@ mountpoint <path_to_directory>
 # Check if a directory is a mountpoint without showing any output
 mountpoint -q <path_to_directory>
 
-# Show major_minor numbers of a mountpoint's filesystem
+# Show major/minor numbers of a mountpoint's filesystem
 mountpoint --fs-devno <path_to_directory>

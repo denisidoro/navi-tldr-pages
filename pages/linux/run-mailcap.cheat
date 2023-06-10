@@ -3,7 +3,7 @@
 
 % run-mailcap, linux
 
-# Individual actions_programs on run-mailcap can be invoked with action flag
+# Individual actions/programs on run-mailcap can be invoked with action flag
 run-mailcap --action=ACTION [--option[=value]]
 
 # In simple language

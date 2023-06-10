@@ -7,7 +7,7 @@
 dockerd
 
 # Run docker daemon and config it to listen to specific sockets (UNIX and TCP)
-dockerd --host unix:__<path_to_tmp.sock> --host tcp:__<ip>
+dockerd --host unix://<path_to_tmp.sock> --host tcp://<ip>
 
 # Run with specific daemon PID file
 dockerd --pidfile <path_to_pid_file>

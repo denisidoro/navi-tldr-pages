@@ -21,7 +21,7 @@ emulator -avd <name> -netspeed <gsm|hscsd|gprs|edge|hsdpa|lte|evdo|full>
 # Start an emulator with network latency
 emulator -avd <name> -netdelay <gsm|hscsd|gprs|edge|hsdpa|lte|evdo|none>
 
-# Start an emulator, making all TCP connections through a specified HTTP_HTTPS proxy (port number is required)
+# Start an emulator, making all TCP connections through a specified HTTP/HTTPS proxy (port number is required)
 emulator -avd <name> -http-proxy <http:__example.com:80>
 
 # Start an emulator with a given SD card partition image file

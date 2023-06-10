@@ -3,7 +3,7 @@
 
 % getopt, linux
 
-# Parse optional `verbose`_`version` flags with shorthands
+# Parse optional `verbose`/`version` flags with shorthands
 getopt --options vV --longoptions verbose,version -- --version --verbose
 
 # Add a `--file` option with a required argument with shorthand `-f`

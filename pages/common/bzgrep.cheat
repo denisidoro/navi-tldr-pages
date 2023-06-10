@@ -22,4 +22,4 @@ bzgrep --only-matching "<search_pattern>" <path_to_file>
 bzgrep --recursive "<search_pattern>" <path_to_tar_file>
 
 # Search `stdin` for lines that do not match a pattern
-cat <_path_to_bz_compressed_file> | bzgrep --invert-match "<search_pattern>"
+cat <path_to_bz_compressed_file> | bzgrep --invert-match "<search_pattern>"

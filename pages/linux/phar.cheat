@@ -12,7 +12,7 @@ phar list -f <path_to_phar_file>
 # Delete the specified file or directory from a Phar file
 phar delete -f <path_to_phar_file> -e <file_or_directory>
 
-# Display full usage information and available hashing_compression algorithms
+# Display full usage information and available hashing/compression algorithms
 phar help
 
 # Compress or uncompress files and directories in a Phar file

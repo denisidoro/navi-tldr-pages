@@ -16,7 +16,7 @@ swc <path_to_input_file> --out-file <path_to_output_file>
 swc <path_to_input_directory> --out-dir <path_to_output_directory>
 
 # Transpile a specified input directory using a specific configuration file
-swc <path_to_input_directory> --config-file <path_to.swcrc>
+swc <path_to_input_directory> --config-file <path_to_.swcrc>
 
 # Ignore files in a directory specified using glob path
 swc <path_to_input_directory> --ignore <ignored_files>

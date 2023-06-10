@@ -4,10 +4,10 @@
 % resize2fs, linux
 
 # Automatically resize a filesystem
-resize2fs <_dev_sdXN>
+resize2fs <dev_sdXN>
 
 # Resize the filesystem to a size of 40G, displaying a progress bar
-resize2fs -p <_dev_sdXN> <40G>
+resize2fs -p <dev_sdXN> <40G>
 
 # Shrink the filesystem to its minimum possible size
-resize2fs -M <_dev_sdXN>
+resize2fs -M <dev_sdXN>

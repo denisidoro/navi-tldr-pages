@@ -3,7 +3,7 @@
 
 % nix3-build, common
 
-# Build a package from nixpkgs, symlinking the result to `._result`
+# Build a package from nixpkgs, symlinking the result to `./result`
 nix build <nixpkgs#pkg>
 
 # Build a package from a flake in the current directory, showing the build logs in the process

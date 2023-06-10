@@ -24,5 +24,5 @@ eksctl create cluster --name=<name> --nodes=<4> --kubeconfig=<path_to_config.yam
 # Create a cluster and prevent storing cluster credentials locally
 eksctl create cluster --name=<name> --nodes=<4> --write-kubeconfig=false
 
-# Create a cluster and let `eksctl` manage cluster credentials under the `~.kube_eksctl_clusters` directory
+# Create a cluster and let `eksctl` manage cluster credentials under the `~/.kube/eksctl/clusters` directory
 eksctl create cluster --name=<name> --nodes=<4> --auto-kubeconfig

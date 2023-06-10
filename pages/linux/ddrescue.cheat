@@ -4,7 +4,7 @@
 % ddrescue, linux
 
 # Take an image of a device, creating a log file
-sudo ddrescue <_dev_sdb> <path_to_image.dd> <path_to_log.txt>
+sudo ddrescue <dev_sdb> <path_to_image.dd> <path_to_log.txt>
 
 # Clone Disk A to Disk B, creating a log file
-sudo ddrescue --force --no-scrape <_dev_sdX> <_dev_sdY> <path_to_log.txt>
+sudo ddrescue --force --no-scrape <dev_sdX> <dev_sdY> <path_to_log.txt>

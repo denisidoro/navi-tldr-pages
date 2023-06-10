@@ -10,7 +10,7 @@ php-coveralls
 php-coveralls --root_dir <path_to_directory>
 
 # Send coverage information to Coveralls with a specific config
-php-coveralls --config <path_to.coveralls.yml>
+php-coveralls --config <path_to_.coveralls.yml>
 
 # Send coverage information to Coveralls with verbose output
 php-coveralls --verbose

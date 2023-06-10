@@ -16,7 +16,7 @@ asciinema rec <path_to_file>.cast
 asciinema play <path_to_file>.cast
 
 # Replay a terminal recording hosted on asciinema.org
-asciinema play https:__asciinema.org_a_<cast_id>
+asciinema play https://asciinema.org/a/<cast_id>
 
 # Make a new recording, limiting any idle time to at most 2.5 seconds
 asciinema rec -i <2.5>

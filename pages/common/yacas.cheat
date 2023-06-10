@@ -19,4 +19,4 @@ yacas
 yacas -p -c <path_to_script1> <path_to_script2>
 
 # Execute and print the result of one statement, then exit
-echo "<Echo( Deriv(x)Cos(1_x) );>" | yacas -p -c _dev_stdin
+echo "<Echo( Deriv(x)Cos(1_x) );>" | yacas -p -c /dev/stdin

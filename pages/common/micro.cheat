@@ -12,7 +12,7 @@ Ctrl + S
 # Cut the entire line
 Ctrl + K
 
-# Search for a pattern in the file (press `Ctrl + N`_`Ctrl + P` to go to next_previous match)
+# Search for a pattern in the file (press `Ctrl + N`/`Ctrl + P` to go to next/previous match)
 Ctrl + F "<pattern>" <Enter>
 
 # Execute a command

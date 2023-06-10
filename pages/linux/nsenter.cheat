@@ -19,4 +19,4 @@ nsenter --target <pid> --ipc <command> <command_arguments>
 nsenter --target <pid> --uts --time --ipc -- <command> <command_arguments>
 
 # Run a specific command in an existing process's namespace by referencing procfs
-nsenter --pid=_proc_<pid>_pid_net -- <command> <command_arguments>
+nsenter --pid=/proc/<pid>/pid/net -- <command> <command_arguments>

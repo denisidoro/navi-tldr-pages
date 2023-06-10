@@ -10,7 +10,7 @@ echo "example" | tee <path_to_file>
 echo "example" | tee -a <path_to_file>
 
 # Print standard input to the terminal, and also pipe it into another program for further processing
-echo "example" | tee <_dev_tty> | <xargs printf "[%s]">
+echo "example" | tee <dev_tty> | <xargs printf "[%s]">
 
 # Create a directory called "example", count the number of characters in "example" and write "example" to the terminal
 echo "example" | tee >(xargs mkdir) >(wc -c)

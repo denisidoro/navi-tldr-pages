@@ -4,7 +4,7 @@
 % glab, common
 
 # Clone a GitLab repository locally
-glab repo clone <owner>_<repository>
+glab repo clone <owner>/<repository>
 
 # Create a new issue
 glab issue create

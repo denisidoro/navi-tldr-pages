@@ -3,13 +3,13 @@
 
 % fixfiles, linux
 
-# If specified with onboot, this fixfiles will record the current date in the `.autorelabel` file, so that it can be used later to speed up labeling. If used with restore, the restore will only affect files that were modified today
+# If specified with onboot, this fixfiles will record the current date in the `/.autorelabel` file, so that it can be used later to speed up labeling. If used with restore, the restore will only affect files that were modified today
 fixfiles -B
 
 # [F]orce reset of context to match `file_context` for customizable files
 fixfiles -F
 
-# Clear `_tmp` directory without confirmation
+# Clear `/tmp` directory without confirmation
 fixfiles -f
 
 # Use the [R]pm database to discover all files within specific packages and restore the file contexts

@@ -18,11 +18,11 @@ ip route
 # Show neighbors (ARP table)
 ip neighbour
 
-# Make an interface up_down
-ip link set <interface> up_down
+# Make an interface up/down
+ip link set <interface> up/down
 
-# Add_Delete an IP address to an interface
-ip addr add_del <ip>_<mask> dev <interface>
+# Add/Delete an IP address to an interface
+ip addr add/del <ip>/<mask> dev <interface>
 
 # Add a default route
 ip route add default via <ip> dev <interface>

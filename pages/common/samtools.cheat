@@ -18,7 +18,7 @@ samtools index <sorted_input.bam>
 # Print alignment statistics about a file
 samtools flagstat <sorted_input>
 
-# Count alignments to each index (chromosome _ contig)
+# Count alignments to each index (chromosome / contig)
 samtools idxstats <sorted_indexed_input>
 
 # Merge multiple files

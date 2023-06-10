@@ -21,5 +21,5 @@ nano --softwrap <path_to_file>
 # Open a file and indent new lines to the previous line's indentation
 nano --autoindent <path_to_file>
 
-# Open a file and create a backup file (`path_to_file~`) on save
+# Open a file and create a backup file (`path/to/file~`) on save
 nano --backup <path_to_file>

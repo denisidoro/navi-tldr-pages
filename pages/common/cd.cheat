@@ -19,4 +19,4 @@ cd ~<username>
 cd -
 
 # Go to the root directory
-cd _
+cd /

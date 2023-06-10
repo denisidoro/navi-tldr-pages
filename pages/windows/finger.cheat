@@ -13,4 +13,4 @@ finger @<host>
 finger <user>@<host> -l
 
 # Display help information
-finger _?
+finger /?

@@ -9,7 +9,7 @@ apx init
 # Install specific packages in the container
 apx install <package1 package2 ...>
 
-# Install a DEB_RPM package inside the container (Use `--dnf` flag for installing RPMs)
+# Install a DEB/RPM package inside the container (Use `--dnf` flag for installing RPMs)
 apx install --sideload <path_to_package>
 
 # Remove specific packages from the container

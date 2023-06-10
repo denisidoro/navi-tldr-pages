@@ -25,4 +25,4 @@ nc -u -l <port>
 nc -l <local_port> | nc <hostname> <remote_port>
 
 # Send a HTTP request
-echo -e "GET _ HTTP_1.1\nHost: <hostname>\n\n" | nc <hostname> 80
+echo -e "GET / HTTP/1.1\nHost: <hostname>\n\n" | nc <hostname> 80

@@ -7,7 +7,7 @@
 tuir
 
 # Open a subreddit
-_<subreddit_name>
+/<subreddit_name>
 
 # Open a link
 o

@@ -10,4 +10,4 @@ logoff
 logoff <session_name|session_id>
 
 # Terminate a session on a specific server connected through RDP
-logoff <session_name|session_id> _server:<servername>
+logoff <session_name|session_id> /server:<servername>

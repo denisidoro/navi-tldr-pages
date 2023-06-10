@@ -3,10 +3,10 @@
 
 % [, common
 
-# Test if a given variable is equal_not equal to the specified string
+# Test if a given variable is equal/not equal to the specified string
 [ "$<variable>" <==|!=> "<string>" ]
 
-# Test if a given variable is [eq]ual_[n]ot [e]qual_[g]reater [t]han_[l]ess [t]han_[g]reater than or [e]qual_[l]ess than or [e]qual to the specified number
+# Test if a given variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to the specified number
 [ "$<variable>" -<eq|ne|gt|lt|ge|le> <integer> ]
 
 # Test if the specified variable has a [n]on-empty value

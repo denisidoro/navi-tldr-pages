@@ -12,5 +12,5 @@
 # Send a `SIGTERM` to any previously spawned ruby subprocesses before executing `ruby main.rb`
 <ls *.rb> | entr -r <ruby main.rb>
 
-# Run a command with the changed file (`__`) as an argument
-<ls *.sql> | entr <psql -f> __
+# Run a command with the changed file (`/_`) as an argument
+<ls *.sql> | entr <psql -f> /_

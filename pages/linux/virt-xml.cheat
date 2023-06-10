@@ -15,7 +15,7 @@ virt-xml <domain> --edit --<option> <suboption>=<new_value>
 # Change the description for a specific domain
 virt-xml <domain> --edit --metadata description="<new_description>"
 
-# Enable_Disable the boot device menu for a specific domain
+# Enable/Disable the boot device menu for a specific domain
 virt-xml <domain> --edit --boot bootmenu=<on|off>
 
 # Attach host USB hub to a running VM (See: tldr lsusb)

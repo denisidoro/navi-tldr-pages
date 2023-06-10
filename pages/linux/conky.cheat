@@ -7,7 +7,7 @@
 conky
 
 # Create a new default config
-conky -C > ~.conkyrc
+conky -C > ~/.conkyrc
 
 # Launch Conky with a given config file
 conky -c <path_to_config>

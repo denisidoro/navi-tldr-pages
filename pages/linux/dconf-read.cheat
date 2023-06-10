@@ -4,7 +4,7 @@
 % dconf-read, linux
 
 # Print a specific key value
-dconf read <_path_to_key>
+dconf read <path_to_key>
 
 # Print a specific key [d]efault value
-dconf read -d <_path_to_key>
+dconf read -d <path_to_key>

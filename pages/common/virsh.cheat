@@ -18,7 +18,7 @@ virsh create <path_to_config_file.xml>
 # Edit a guest's configuration file (editor can be changed with $EDITOR)
 virsh edit <guest_id>
 
-# Start_reboot_shutdown_suspend_resume a guest
+# Start/reboot/shutdown/suspend/resume a guest
 virsh <command> <guest_id>
 
 # Save the current state of a guest to a file

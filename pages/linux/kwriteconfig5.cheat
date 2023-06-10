@@ -19,7 +19,7 @@ kwriteconfig5 --group <group_name> --key <key> --delete
 kwriteconfig5 --file <startkderc> --group <General> --key <systemdBoot> <true>
 
 # Hide the title bar when a window is maximized (like Ubuntu)
-kwriteconfig5 --file <~.config_kwinrc> --group <Windows> --key <BorderlessMaximizedWindows> <true>
+kwriteconfig5 --file <~/.config/kwinrc> --group <Windows> --key <BorderlessMaximizedWindows> <true>
 
-# Configure KRunner to open with the Meta (Command_Windows) global hotkey
-kwriteconfig5 --file <~.config_kwinrc> --group <ModifierOnlyShortcuts> --key <Meta> <"org.kde.kglobalaccel,_component_krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch">
+# Configure KRunner to open with the Meta (Command/Windows) global hotkey
+kwriteconfig5 --file <~/.config/kwinrc> --group <ModifierOnlyShortcuts> --key <Meta> <"org.kde.kglobalaccel,_component_krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch">

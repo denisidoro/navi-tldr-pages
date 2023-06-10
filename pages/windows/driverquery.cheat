@@ -7,19 +7,19 @@
 driverquery
 
 # Display a list of drivers in the specified format
-driverquery _fo <table|list|csv>
+driverquery /fo <table|list|csv>
 
 # Display a list of drivers with a column to indicate if they are signed
-driverquery _si
+driverquery /si
 
 # Exclude the header in the output list
-driverquery _nh
+driverquery /nh
 
 # Display a list of drivers for a remote machine
-driverquery _s <hostname> _u <username> _p <password>
+driverquery /s <hostname> /u <username> /p <password>
 
 # Display a list of drivers with verbose information
-driverquery _v
+driverquery /v
 
 # Display detailed usage information
-driverquery _?
+driverquery /?

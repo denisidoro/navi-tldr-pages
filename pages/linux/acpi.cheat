@@ -18,5 +18,5 @@ acpi -tf
 # Show all information
 acpi -V
 
-# Extract information from `_proc` instead of `_sys`
+# Extract information from `/proc` instead of `/sys`
 acpi -p

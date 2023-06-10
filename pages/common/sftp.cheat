@@ -13,13 +13,13 @@ sftp -P <remote_port> <remote_user>@<remote_host>
 sftp <host>
 
 # Transfer remote file to the local system
-get <_path_remote_file>
+get <path_remote_file>
 
 # Transfer local file to the remote system
-put <_path_local_file>
+put <path_local_file>
 
 # Transfer remote directory to the local system recursively (works with `put` too)
-get -R <_path_remote_directory>
+get -R <path_remote_directory>
 
 # Get list of files on local machine
 lls

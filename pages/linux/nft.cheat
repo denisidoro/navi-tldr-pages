@@ -25,4 +25,4 @@ sudo nft --handle --numeric list chain <family> <table> <chain>
 sudo nft delete rule <inet> <filter> <input> handle <3>
 
 # Save current configuration
-sudo nft list ruleset > <_etc_nftables.conf>
+sudo nft list ruleset > <etc_nftables.conf>

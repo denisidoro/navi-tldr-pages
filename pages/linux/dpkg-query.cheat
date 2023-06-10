@@ -16,4 +16,4 @@ dpkg-query --listfiles <libc6>
 dpkg-query --status <libc6>
 
 # Search for packages that own files matching a pattern
-dpkg-query --search <_etc_ld.so.conf.d>
+dpkg-query --search <etc_ld.so.conf.d>

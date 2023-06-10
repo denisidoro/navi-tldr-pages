@@ -4,7 +4,7 @@
 % utmpdump, linux
 
 # Dump the `/var/log/wtmp` file to the standard output as plain text
-utmpdump <_var_log_wtmp>
+utmpdump <var_log_wtmp>
 
 # Load a previously dumped file into `/var/log/wtmp`
-utmpdump -r <dumpfile> > <_var_log_wtmp>
+utmpdump -r <dumpfile> > <var_log_wtmp>

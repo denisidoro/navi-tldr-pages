@@ -4,10 +4,10 @@
 % mkfs.btrfs, linux
 
 # Create a btrfs filesystem on a single device
-sudo mkfs.btrfs --metadata single --data single <_dev_sda>
+sudo mkfs.btrfs --metadata single --data single <dev_sda>
 
 # Create a btrfs filesystem on multiple devices with raid1
-sudo mkfs.btrfs --metadata raid1 --data raid1 <_dev_sda> <_dev_sdb> <_dev_sdN>
+sudo mkfs.btrfs --metadata raid1 --data raid1 <dev_sda> <dev_sdb> <dev_sdN>
 
 # Set a label for the filesystem
-sudo mkfs.btrfs --label "<label>" <_dev_sda> [<_dev_sdN>]
+sudo mkfs.btrfs --label "<label>" <dev_sda> [<dev_sdN>]

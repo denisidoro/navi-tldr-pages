@@ -7,10 +7,10 @@
 xidel <https:__www.google.com_search?q=test> --extract "//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']"
 
 # Print the title of all pages found by a Google search and download them
-xidel <https:__www.google.com_search?q=test> --follow "<__a_extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']>" --extract <__title> --download {{'{$host}/'}}
+xidel <https:__www.google.com_search?q=test> --follow "<_a_extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']>" --extract <_title> --download {{'{$host}/'}}
 
 # Follow all links on a page and print the titles, with XPath
-xidel <https:__example.org> --follow <__a> --extract <__title>
+xidel <https:__example.org> --follow <_a> --extract <_title>
 
 # Follow all links on a page and print the titles, with CSS selectors
 xidel <https:__example.org> --follow "<css('a')>" --css <title>

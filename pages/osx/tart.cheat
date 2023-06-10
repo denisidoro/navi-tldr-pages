@@ -16,7 +16,7 @@ tart create --from-ipsw=<latest|path_to_file.ipsw> <vm-name>
 tart run <vm-name>
 
 # Run an existing VM with a specific mounted directory
-tart run --dir=<path_to_directory>:<_path_to_local_directory> <vm-name>
+tart run --dir=<path_to_directory>:<path_to_local_directory> <vm-name>
 
 # List VMs
 tart list

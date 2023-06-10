@@ -22,4 +22,4 @@ scp -3 <host1>:<path_to_remote_file> <host2>:<path_to_remote_directory>
 scp <path_to_local_file> <remote_username>@<remote_host>:<path_to_remote_directory>
 
 # Use a specific ssh private key for authentication with the remote host
-scp -i <~/.ssh/private_key> <local_file> <remote_host>:<_path_remote_file>
+scp -i <~/.ssh/private_key> <local_file> <remote_host>:<path_remote_file>

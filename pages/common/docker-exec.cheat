@@ -4,7 +4,7 @@
 % docker-exec, common
 
 # Enter an interactive shell session on an already-running container
-docker exec --interactive --tty <container_name> <_bin_bash>
+docker exec --interactive --tty <container_name> <bin_bash>
 
 # Run a command in the background (detached) on a running container
 docker exec --detach <container_name> <command>
@@ -16,7 +16,7 @@ docker exec --interactive -tty --workdir <path_to_directory> <container_name> <c
 docker exec --interactive --detach <container_name> <command>
 
 # Set an environment variable in a running Bash session
-docker exec --interactive --tty --env <variable_name>=<value> <container_name> <_bin_bash>
+docker exec --interactive --tty --env <variable_name>=<value> <container_name> <bin_bash>
 
 # Run a command as a specific user
 docker exec --user <user> <container_name> <command>

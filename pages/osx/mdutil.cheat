@@ -4,7 +4,7 @@
 % mdutil, osx
 
 # Show the indexing status of the startup volume
-mdutil -s <_>
+mdutil -s <>
 
 # Turn on/off the Spotlight indexing for a given volume
 mdutil -i <on|off> <path_to_volume>

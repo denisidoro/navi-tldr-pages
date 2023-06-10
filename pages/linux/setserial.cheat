@@ -4,7 +4,7 @@
 % setserial, linux
 
 # Print all information about a specific serial device
-setserial -a <_dev_cuaN>
+setserial -a <dev_cuaN>
 
 # Print the configuration summary of a specific serial device (useful for printing during bootup process)
 setserial -b <device>

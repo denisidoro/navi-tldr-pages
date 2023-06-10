@@ -16,4 +16,4 @@ swaks -t <user@example.com> --attach - --server <test-server.example.com> --supp
 swaks --to <user@example.com> --body <path_to_gtube_file>
 
 # Deliver a standard test email to `user@example.com` using the LMTP protocol via a UNIX domain socket file
-swaks --to <user@example.com> --socket <_var_lda.sock> --protocol <LMTP>
+swaks --to <user@example.com> --socket <var_lda.sock> --protocol <LMTP>

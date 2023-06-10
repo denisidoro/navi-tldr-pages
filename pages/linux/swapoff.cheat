@@ -4,7 +4,7 @@
 % swapoff, linux
 
 # Disable a given swap partition
-swapoff <_dev_sdb7>
+swapoff <dev_sdb7>
 
 # Disable a given swap file
 swapoff <path_to_file>

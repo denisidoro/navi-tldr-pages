@@ -13,7 +13,7 @@ bootctl list
 sudo bootctl reboot-to-firmware true
 
 # Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/` or `/boot/efi`)
-bootctl --esp-path=<_path_to_efi_system_partition_>
+bootctl --esp-path=<path_to_efi_system_partition_>
 
 # Install `systemd-boot` into the EFI system partition
 sudo bootctl install

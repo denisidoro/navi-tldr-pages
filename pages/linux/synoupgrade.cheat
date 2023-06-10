@@ -22,7 +22,7 @@ sudo synoupgrade --auto
 sudo synoupgrade --auto-smallupdate
 
 # Upgrade the DSM using a patch file (should be an absolute path)
-sudo synoupgrade --patch <_path_to_file.pat>
+sudo synoupgrade --patch <path_to_file.pat>
 
 # Display help
 synoupgrade

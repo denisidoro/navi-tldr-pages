@@ -16,7 +16,7 @@ sort --ignore-case <path_to_file>
 sort --numeric-sort <path_to_file>
 
 # Sort `/etc/passwd` by the 3rd field of each line numerically, using ":" as a field separator
-sort --field-separator=<:> --key=<3n> <_etc_passwd>
+sort --field-separator=<:> --key=<3n> <etc_passwd>
 
 # Sort a file preserving only unique lines
 sort --unique <path_to_file>

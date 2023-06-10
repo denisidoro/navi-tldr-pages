@@ -4,10 +4,10 @@
 % ln, common
 
 # Create a symbolic link to a file or directory
-ln -s <_path_to_file_or_directory> <path_to_symlink>
+ln -s <path_to_file_or_directory> <path_to_symlink>
 
 # Overwrite an existing symbolic link to point to a different file
-ln -sf <_path_to_new_file> <path_to_symlink>
+ln -sf <path_to_new_file> <path_to_symlink>
 
 # Create a hard link to a file
-ln <_path_to_file> <path_to_hardlink>
+ln <path_to_file> <path_to_hardlink>

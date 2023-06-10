@@ -5,6 +5,7 @@ import re
 import sys
 
 def process_text(text):
+    text = re.sub(r"{{/([^}]*)}}", r"{{\1}}", text)
     def repl(matchobj):
         s = matchobj.group(1)
         if not s.startswith("~/"):

@@ -12,11 +12,17 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: nixbuild/nix-quick-install-action@v22
+        with:
+          nix_conf: |
+            experimental-features = nix-command flakes
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
       - name: Clone tldr
         run: git clone https://github.com/tldr-pages/tldr
 
       - name: translate tldr to navi cheats
-        run: ./scripts/translate
+        run: nix-shell -p python ./scripts/translate
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4

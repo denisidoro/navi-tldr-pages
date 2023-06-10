@@ -22,7 +22,7 @@ jobs:
         run: git clone https://github.com/tldr-pages/tldr
 
       - name: translate tldr to navi cheats
-        run: nix-shell -p python ./scripts/translate
+        run: nix develop nixpkgs#python3 -c ./scripts/translate
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4

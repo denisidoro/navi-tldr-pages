@@ -1,0 +1,24 @@
+name: "CI"
+on:
+  pull_request:
+  push:
+  schedule:
+    - cron: "0 0 * * SUN" # every sunday
+jobs:
+  nix-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Clone tldr
+        run: git clone https://github.com/tldr-pages/tldr
+
+      - name: translate tldr to navi cheats
+        run: ./scripts/translate
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update tldr

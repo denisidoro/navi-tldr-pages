@@ -68,3 +68,4 @@ done
 
 # format_markdown_file "./tldr/pages/common/gh-completion.md"
 # format_markdown_file "./tldr/pages/common/2to3.md"
+# format_markdown_file "./tldr/pages/common/apm.md"

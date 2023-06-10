@@ -7,8 +7,6 @@ import sys
 def process_text(text):
     def repl(matchobj):
         s = matchobj.group(1)
-        if s.startswith("/") and not s.startswith("~/"):
-            s = s[1:]
         if not s.startswith("~/"):
             s = s.replace("/", "_")
         return "<" + s + ">"

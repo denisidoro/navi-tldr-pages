@@ -21,8 +21,8 @@ nc -k -l <port>
 # Listen on a specified UDP port and print connection details and any data received
 nc -u -l <port>
 
-# Act as proxy and forward data from a local TCP port to the given remote host
+# Act as a proxy and forward data from a local TCP port to the given remote host
 nc -l <local_port> | nc <hostname> <remote_port>
 
-# Send a HTTP request
+# Send an HTTP GET request
 echo -e "GET / HTTP/1.1\nHost: <hostname>\n\n" | nc <hostname> 80

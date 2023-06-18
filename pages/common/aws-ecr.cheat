@@ -19,7 +19,7 @@ docker push <aws_account_id>.dkr.ecr.<region>.amazonaws.com/<container_name>:<ta
 docker pull <aws_account_id>.dkr.ecr.<region>.amazonaws.com/<container_name>:<tag>
 
 # Delete an image from a repository
-aws ecr batch-delete-image  --repository-name <repository> --image-ids imageTag=<latest>
+aws ecr batch-delete-image --repository-name <repository> --image-ids imageTag=<latest>
 
 # Delete a repository
 aws ecr delete-repository --repository-name <repository> --force

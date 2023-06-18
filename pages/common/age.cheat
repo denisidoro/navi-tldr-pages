@@ -12,7 +12,7 @@ age-keygen --output <path_to_file>
 # Encrypt a file with one or more public keys that are entered as literals
 age --recipient <public_key_1> --recipient <public_key_2> <path_to_unencrypted_file> --output <path_to_encrypted_file>
 
-# Encrypt a file with one or more public keys that are specified in a recipients file
+# Encrypt a file to one or more recipients with their public keys specified in a file (one per line)
 age --recipients-file <path_to_recipients_file> <path_to_unencrypted_file> --output <path_to_encrypted_file>
 
 # Decrypt a file with a passphrase

@@ -12,7 +12,7 @@ clj -X <namespace_function_name>
 # Run the main function of a specified namespace
 clj -M -m <namespace> <args>
 
-# Prepare a project by resolving dependencies, downloading libraries, and making / caching classpaths
+# Prepare a project by resolving dependencies, downloading libraries, and making/caching classpaths
 clj -P
 
 # Start an nREPL server with the CIDER middleware

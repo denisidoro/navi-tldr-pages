@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dirbuster.md
+
+% dirbuster, linux
+
+# Start in GUI mode
+dirbuster -u <http:__example.com>
+
+# Start in headless (no GUI) mode
+dirbuster -H -u <http:__example.com>
+
+# Set the file extension list
+dirbuster -e <txt,html>
+
+# Enable verbose output
+dirbuster -v
+
+# Set the report location
+dirbuster -r <path_to_report.txt>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bchunk.md
+
+% bchunk, linux
+
+# Convert binary CD into a standard iso9960 image file
+bchunk <path_to_image.bin> <path_to_image.cue> <path_to_output>
+
+# Convert with verbose mode
+bchunk -v <path_to_image.bin> <path_to_image.cue> <path_to_output>
+
+# Output audio files in WAV format
+bchunk -w <path_to_image.bin> <path_to_image.cue> <path_to_output>

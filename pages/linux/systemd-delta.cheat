@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-delta.md
+
+% systemd-delta, linux
+
+# Show all overridden configuration files
+systemd-delta
+
+# Show only files of specific types (comma-separated list)
+systemd-delta --type <masked|equivalent|redirected|overridden|extended|unchanged>
+
+# Show only files whose path starts with the specified prefix (Note: a prefix is a directory containing subdirectories with systemd configuration files)
+systemd-delta <etc|_run|_usr_lib|...>
+
+# Further restrict the search path by adding a suffix (the prefix is optional)
+systemd-delta <prefix>/<tmpfiles.d|sysctl.d|systemd_system|...>

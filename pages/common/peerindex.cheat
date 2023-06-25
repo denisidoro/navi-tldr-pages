@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/peerindex.md
+
+% peerindex, common
+
+# Output all peers
+peerindex <master6.mrt>
+
+# Display all peers that have provided routing information
+peerindex -r <master6.mrt>

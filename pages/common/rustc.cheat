@@ -3,23 +3,23 @@
 
 % rustc, common
 
-# Compile a single file
-rustc <path_to_file.rs>
+# Compile a binary crate
+rustc <path_to_main.rs>
 
-# Compile with high optimization
-rustc -O <path_to_file.rs>
+# Compile with optimizations (`s` means optimize for binary size; `z` is the same with even more optimizations)
+rustc -C lto -C opt-level=<0|1|2|3|s|z> <path_to_main.rs>
 
 # Compile with debugging information
-rustc -g <path_to_file.rs>
+rustc -g <path_to_main.rs>
+
+# Explain an error message
+rustc --explain <error_code>
 
 # Compile with architecture-specific optimizations for the current CPU
-rustc -C target-cpu=native <path_to_file.rs>
+rustc -C target-cpu=<native> <path_to_main.rs>
 
-# Display architecture-specific optimizations for the current CPU
-rustc -C target-cpu=native --print cfg
-
-# Display target list
+# Display the target list (Note: you have to add a target using `rustup` first to be able to compile for it)
 rustc --print target-list
 
 # Compile for a specific target
-rustc --target <target_triple> <path_to_file.rs>
+rustc --target <target_triple> <path_to_main.rs>

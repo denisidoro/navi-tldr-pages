@@ -12,8 +12,8 @@ sudo pacman -S <package_name>
 # Remove a package and its dependencies
 sudo pacman -Rs <package_name>
 
-# Search the package database for a regular expression or keyword
-pacman -Ss "<search_pattern>"
+# Search the database for packages containing a specific file
+pacman -F "<file_name>"
 
 # List installed packages and versions
 pacman -Q

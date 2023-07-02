@@ -3,7 +3,7 @@
 
 % fastd, common
 
-# Start fastd with a specific configuration file
+# Start `fastd` with a specific configuration file
 fastd --config <path_to_fastd.conf>
 
 # Start a Layer 3 VPN with an MTU of 1400, loading the rest of the configuration parameters from a file

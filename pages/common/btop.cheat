@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/btop.md
+
+% btop, common
+
+# Start `btop`
+btop
+
+# Start `btop` with the specified settings preset
+btop --preset <0..9>

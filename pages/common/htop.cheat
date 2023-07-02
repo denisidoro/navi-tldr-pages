@@ -3,10 +3,10 @@
 
 % htop, common
 
-# Start htop
+# Start `htop`
 htop
 
-# Start htop displaying processes owned by a specific user
+# Start `htop` displaying processes owned by a specific user
 htop --user <username>
 
 # Sort processes by a specified `sort_item` (use `htop --sort help` for available options)

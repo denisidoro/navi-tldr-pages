@@ -13,7 +13,7 @@ valet park
 valet paths
 
 # Serve a single site instead of an entire directory
-valet link app-name
+valet link <application_name>
 
 # Share a project via an Ngrok tunnel
 valet share

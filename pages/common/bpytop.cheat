@@ -1,9 +1,9 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bpytop.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bpytop.md
 
-% bpytop, linux
+% bpytop, common
 
-# Start bpytop
+# Start `bpytop`
 bpytop
 
 # Start in minimal mode without memory and networking boxes

@@ -3,5 +3,5 @@
 
 % raspi-config, linux
 
-# Start raspi-config
+# Start `raspi-config`
 sudo raspi-config

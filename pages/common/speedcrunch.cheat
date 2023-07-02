@@ -3,7 +3,7 @@
 
 % speedcrunch, common
 
-# Start speedcrunch
+# Start SpeedCrunch
 speedcrunch
 
 # Copy the result of the most recent calculation

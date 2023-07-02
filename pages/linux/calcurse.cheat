@@ -3,7 +3,7 @@
 
 % calcurse, linux
 
-# Start calcurse on interactive mode
+# Start `calcurse` on interactive mode
 calcurse
 
 # Print the appointments and events for the current day and exit

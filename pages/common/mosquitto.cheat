@@ -3,7 +3,7 @@
 
 % mosquitto, common
 
-# Start mosquitto
+# Start Mosquitto
 mosquitto
 
 # Specify a configuration file to use

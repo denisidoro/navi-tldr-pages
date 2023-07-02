@@ -3,7 +3,7 @@
 
 % hardinfo, linux
 
-# Start hardinfo
+# Start `hardinfo`
 hardinfo
 
 # Print report to standard output

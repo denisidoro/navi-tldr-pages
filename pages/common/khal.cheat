@@ -3,7 +3,7 @@
 
 % khal, common
 
-# Start khal on interactive mode
+# Start Khal on interactive mode
 ikhal
 
 # Print all events scheduled in personal calendar for the next seven days

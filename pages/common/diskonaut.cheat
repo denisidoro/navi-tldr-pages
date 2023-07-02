@@ -3,10 +3,10 @@
 
 % diskonaut, common
 
-# Start diskonaut in the current directory
+# Start `diskonaut` in the current directory
 diskonaut
 
-# Start diskonaut in a specific directory
+# Start `diskonaut` in a specific directory
 diskonaut <path_to_directory>
 
 # Show file sizes rather than their block usage on the disk

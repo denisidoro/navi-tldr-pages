@@ -3,7 +3,7 @@
 
 % xman, linux
 
-# Start xman in three-button window
+# Start `xman` in three-button window
 xman
 
 # Open the manual page output stored in a given file

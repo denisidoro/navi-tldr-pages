@@ -3,7 +3,7 @@
 
 % terminator, linux
 
-# Start terminator window
+# Start `terminator` window
 terminator
 
 # Start with a fullscreen window

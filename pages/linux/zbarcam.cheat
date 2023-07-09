@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/zbarcam.md
+
+% zbarcam, linux
+
+# Continuously read barcodes and print them to standard output
+zbarcam
+
+# Disable output video window while scanning
+zbarcam --nodisplay
+
+# Print barcodes without type information
+zbarcam --raw
+
+# Define capture device
+zbarcam /dev/<video_device>

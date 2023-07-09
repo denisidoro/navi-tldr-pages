@@ -3,11 +3,11 @@
 
 % test-json, windows
 
-# Test if a string from stdin is in JSON format
+# Test if a string from `stdin` is in JSON format
 '<string>' | Test-Json
 
 # Test if a string JSON format
 Test-Json -Json '<json_to_test>'
 
-# Test if a string from stdin matches a specific schema file
+# Test if a string from `stdin` matches a specific schema file
 '<string>' | Test-Json -SchemaFile <path\to\schema_file.json>

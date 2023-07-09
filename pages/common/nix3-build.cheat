@@ -12,5 +12,5 @@ nix build -L <.#pkg>
 # Build the default package from a flake in some directory
 nix build <._path_to_directory>
 
-# Build a package without making the `result` symlink, instead printing the store path to the stdout
+# Build a package without making the `result` symlink, instead printing the store path to the `stdout`
 nix build --no-link --print-out-paths

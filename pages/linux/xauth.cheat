@@ -18,7 +18,7 @@ xauth add <display_name> <protocol_name> <key>
 # Remove the authorization for a specific display
 xauth remove <display_name>
 
-# Print the authorization entry for the current display to stdout
+# Print the authorization entry for the current display to `stdout`
 xauth extract - $DISPLAY
 
 # Merge the authorization entries from a specific file into the authorization database

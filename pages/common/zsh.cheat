@@ -15,7 +15,7 @@ zsh <path_to_script.zsh>
 # Check a specific script for syntax errors without executing it
 zsh --no-exec <path_to_script.zsh>
 
-# Execute specific commands from stdin
+# Execute specific commands from `stdin`
 <echo Hello world> | zsh
 
 # Execute a specific script, printing each command in the script before executing it

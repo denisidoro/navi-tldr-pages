@@ -6,7 +6,7 @@
 # Run the compiler interactively
 prqlc compile
 
-# Compile a specific `.prql` file to stdout
+# Compile a specific `.prql` file to `stdout`
 prqlc compile <path_to_file.prql>
 
 # Compile a `.prql` file to a `.sql` file

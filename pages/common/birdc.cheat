@@ -3,7 +3,7 @@
 
 % birdc, common
 
-# Open the remote control console:
+# Open the remote control console
 birdc
 
 # Reload the configuration without restarting Bird
@@ -12,7 +12,7 @@ birdc configure
 # Show the current status of Bird
 birdc show status
 
-# Show all active protocols
+# Show all configured protocols
 birdc show protocols
 
 # Show all details about a protocol

@@ -18,5 +18,5 @@ fastd --generate-key
 # Show the public key to a private key in a configuration file
 fastd --show-key --config <path_to_fastd.conf>
 
-# Show the current version:
+# Show the current version
 fastd -v

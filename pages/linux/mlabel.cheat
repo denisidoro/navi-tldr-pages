@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mlabel.md
+
+% mlabel, linux
+
+# Set a filesystem label
+mlabel -i /dev/<sda> ::"<new_label>"

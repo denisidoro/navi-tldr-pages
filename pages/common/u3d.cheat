@@ -3,7 +3,7 @@
 
 % u3d, common
 
-# Open project from the current directory in correct Unity version
+# Open the project in the current directory using the correct Unity version
 u3d
 
 # List installed versions of Unity

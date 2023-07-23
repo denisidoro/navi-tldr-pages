@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-importdisk.md
+
+% qm-importdisk, linux
+
+# View documentation for the original command
+tldr qm disk import

@@ -3,7 +3,7 @@
 
 % sc, windows
 
-# Show the status of a service
+# Show the status of a service (no service name will list all services)
 sc queryex <service_name>
 
 # Start a service asynchronously

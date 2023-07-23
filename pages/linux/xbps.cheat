@@ -3,23 +3,11 @@
 
 % xbps, linux
 
-# Install packages and synchronize them with the remote repository
-xbps-install --sync <package_name1> <package_name2>
+# View documentation for installing and updating packages
+tldr xbps-install
 
-# Search for a package in the remote repository
-xbps-query --repository -s <package_name>
+# View documentation for removing packages
+tldr xbps-remove
 
-# Remove a package, leaving all of its dependencies installed
-xbps-remove <package_name>
-
-# Remove a package and all of its dependencies recursively that are not required by other packages
-xbps-remove --recursive <package_name>
-
-# Synchronize your repository databases and update your system and dependencies
-xbps-install --sync --update
-
-# Remove packages that were installed as dependencies and aren't currently needed
-xbps-remove --remove-orphans
-
-# Remove obsolete packages from the cache
-xbps-remove --clean-cache
+# View documentation for querying for package and repository information
+tldr xbps-query

@@ -3,23 +3,23 @@
 
 % xz, common
 
-# Compress a file to the xz file format
+# Compress a file using xz
 xz <path_to_file>
 
-# Decompress a xz file
-xz -d <file.xz>
+# Decompress an xz file
+xz --decompress <path_to_file.xz>
 
-# Compress a file to the LZMA file format
+# Compress a file using lzma
 xz --format=<lzma> <path_to_file>
 
-# Decompress an LZMA file
-xz -d --format=<lzma> <file.lzma>
+# Decompress an lzma file
+xz --decompress --format=<lzma> <path_to_file.lzma>
 
-# Decompress a file and write to `stdout`
-xz -dc <file.xz>
+# Decompress a file and write to `stdout` (implies `--keep`)
+xz --decompress --stdout <path_to_file.xz>
 
 # Compress a file, but don't delete the original
-xz -k <path_to_file>
+xz --keep <path_to_file>
 
 # Compress a file using the fastest compression
 xz -0 <path_to_file>

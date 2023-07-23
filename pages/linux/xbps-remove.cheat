@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xbps-remove.md
+
+% xbps-remove, linux
+
+# Remove a package
+xbps-remove <package>
+
+# Remove a package and its dependencies
+xbps-remove --recursive <package>
+
+# Remove orphan packages (installed as dependencies but no longer required by any package)
+xbps-remove --remove-orphans
+
+# Remove obsolete packages from the cache
+xbps-remove --clean-cache

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xbps-install.md
+
+% xbps-install, linux
+
+# Install a new package
+xbps-install <package>
+
+# Synchronize and update all packages
+xbps-install --sync --update

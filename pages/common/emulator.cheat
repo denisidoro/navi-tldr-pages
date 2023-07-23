@@ -3,9 +3,6 @@
 
 % emulator, common
 
-# Display the help
-emulator -help
-
 # Start an Android emulator device
 emulator -avd <name>
 
@@ -26,3 +23,6 @@ emulator -avd <name> -http-proxy <http:__example.com:80>
 
 # Start an emulator with a given SD card partition image file
 emulator -avd <name> -sdcard <path_to_sdcard.img>
+
+# Display help
+emulator -help

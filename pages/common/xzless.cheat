@@ -4,10 +4,10 @@
 % xzless, common
 
 # View a compressed file
-xzless <path_to_archive>
+xzless <path_to_file>
 
 # View a compressed file and display line numbers
-xzless --LINE-NUMBERS <path_to_archive>
+xzless --LINE-NUMBERS <path_to_file>
 
 # View a compressed file and quit if the entire file can be displayed on the first screen
-xzless --quit-if-one-screen <path_to_archive>
+xzless --quit-if-one-screen <path_to_file>

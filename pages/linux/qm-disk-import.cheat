@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-disk-import.md
+
+% qm-disk-import, linux
+
+# Import a VMDK/qcow2/raw disk image using a specific storage name
+qm importdisk <vm_id> <path_to_disk> <storage_name> --format <qcow2|raw|vmdk>

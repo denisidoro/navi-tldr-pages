@@ -3,7 +3,7 @@
 
 % hg, common
 
-# Execute Mercurial command
+# Execute a Mercurial command
 hg <command>
 
 # Call general help

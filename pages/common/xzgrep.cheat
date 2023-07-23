@@ -4,13 +4,13 @@
 % xzgrep, common
 
 # Search for a pattern within a file
-xzgrep "<search_pattern>" <path_to_compressed_file>
+xzgrep "<search_pattern>" <path_to_file>
 
 # Search for an exact string (disables regular expressions)
-xzgrep --fixed-strings "<exact_string>" <path_to_compressed_file>
+xzgrep --fixed-strings "<exact_string>" <path_to_file>
 
 # Search for a pattern in all files showing line numbers of matches
-xzgrep --line-number "<search_pattern>" <path_to_compressed_file>
+xzgrep --line-number "<search_pattern>" <path_to_file>
 
 # Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode
 xzgrep --extended-regexp --ignore-case "<search_pattern>" <path_to_file>

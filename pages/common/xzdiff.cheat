@@ -17,6 +17,3 @@ xzdiff --report-identical-files <path_to_file1> <path_to_file2>
 
 # Compare files using paginated results
 xzdiff --paginate <path_to_file1> <path_to_file2>
-
-# Compare directories recursively (shows names for differing files/directories as well as changes made to files)
-diff --recursive <path_to_file1> <path_to_file2>

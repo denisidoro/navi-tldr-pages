@@ -15,7 +15,7 @@ find <root_path> -type d -iname '<*lib*>'
 # Find files matching a given pattern, excluding specific paths
 find <root_path> -name '<*.py>' -not -path '<*_site-packages_*>'
 
-# Find files matching a given size range, limiting the recursive depth to "1":
+# Find files matching a given size range, limiting the recursive depth to "1"
 find <root_path> -maxdepth 1 -size <+500k> -size <-10M>
 
 # Run a command for each file (use `{}` within the command to access the filename)

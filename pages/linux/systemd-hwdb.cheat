@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-hwdb.md
+
+% systemd-hwdb, linux
+
+# Update the binary hardware database in `/etc/udev`
+systemd-hwdb update
+
+# Query the hardware database and print the result for a specific modalias
+systemd-hwdb query <modalias>
+
+# Update the binary hardware database, returning a non-zero exit value on any parsing error
+systemd-hwdb --strict update
+
+# Update the binary hardware database in `/usr/lib/udev`
+systemd-hwdb --usr update
+
+# Update the binary hardware database in the specified root path
+systemd-hwdb --root=<path_to_root> update

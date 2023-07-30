@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lando.md
+
+% lando, common
+
+# Initialize code for use with `lando`
+lando init
+
+# Print information about your app
+lando info
+
+# Start your app
+lando start
+
+# Stop your app
+lando stop
+
+# Restart your app
+lando restart
+
+# Rebuild your app from scratch, preserving data
+lando rebuild
+
+# Display logs for your app
+lando logs
+
+# Destroy your app
+lando destroy

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gst-inspect-1.0.md
+
+% gst-inspect-1.0, common
+
+# Print information on a plugin
+gst-inspect-1.0 <plugin>
+
+# List hardware transcoding capabilities of your device
+gst-inspect-1.0 <vaapi|nvcodec>

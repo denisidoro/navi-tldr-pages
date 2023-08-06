@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/select.md
+
+% select, linux
+
+# Create a menu out of individual words
+select <word> in <apple> <orange> <pear> <banana>; do echo $<word>; done
+
+# Create a menu for picking a file or folder from the current directory
+select <file> in *; do echo $<file>; done
+
+# Create a menu from a Bash array
+<fruits>=(<apple> <orange> <pear> <banana>); select <word> in $<{fruits>[@]}; do echo $<word>; done

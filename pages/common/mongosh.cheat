@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mongosh.md
+
+% mongosh, common
+
+# Connect to a local database on the default port (`mongodb://localhost:27017`)
+mongosh
+
+# Connect to a database
+mongosh --host <host> --port <port> <db_name>
+
+# Authenticate using the specified username on the specified database (you will be prompted for a password)
+mongosh --host <host> --port <port> --username <username> --authenticationDatabase <authdb_name> <db_name>
+
+# Evaluate a JavaScript expression on a database
+mongosh --eval '<JSON.stringify(db.foo.findOne())>' <db_name>

@@ -6,7 +6,7 @@
 # Spell check a single file
 aspell check <path_to_file>
 
-# List misspelled words from standard input
+# List misspelled words from `stdin`
 cat <path_to_file> | aspell list
 
 # Show available dictionary languages
@@ -15,5 +15,5 @@ aspell dicts
 # Run `aspell` with a different language (takes two-letter ISO 639 language code)
 aspell --lang=<cs>
 
-# List misspelled words from standard input and ignore words from personal word list
+# List misspelled words from `stdin` and ignore words from personal word list
 cat <path_to_file> | aspell --personal=<personal-word-list.pws> list

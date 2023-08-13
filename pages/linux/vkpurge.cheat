@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vkpurge.md
+
+% vkpurge, linux
+
+# List all removable kernel versions (or those matching `version` if the argument is specified)
+vkpurge list <version>
+
+# Remove all unused kernels
+vkpurge rm all
+
+# Remove kernel versions matching `version`
+vkpurge rm <version>

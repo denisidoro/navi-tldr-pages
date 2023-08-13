@@ -6,7 +6,7 @@
 # Render a CommonMark Markdown file to HTML
 cmark --to html <filename.md>
 
-# Convert data from standard input to LaTeX
+# Convert data from `stdin` to LaTeX
 cmark --to latex
 
 # Convert straight quotes to smart quotes

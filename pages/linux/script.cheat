@@ -12,5 +12,5 @@ script <path_to_session.out>
 # Record a new session, appending to an existing file
 script -a <path_to_session.out>
 
-# Record timing information (data is outputted to the standard error)
+# Record timing information (data is outputted to `stderr`)
 script -t 2> <path_to_timingfile>

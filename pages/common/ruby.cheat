@@ -3,9 +3,6 @@
 
 % ruby, common
 
-# Start a REPL (interactive shell)
-irb
-
 # Execute a Ruby script
 ruby <script.rb>
 

@@ -6,7 +6,7 @@
 # Encrypt a file
 sops -e <path_to_myfile.json> > <path_to_myfile.enc.json>
 
-# Decrypt a file to the standard output
+# Decrypt a file to `stdout`
 sops -d <path_to_myfile.enc.json>
 
 # Rotate data keys for a sops file

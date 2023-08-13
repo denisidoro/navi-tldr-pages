@@ -6,7 +6,7 @@
 # Number non-blank lines in a file
 nl <path_to_file>
 
-# Read from standard output
+# Read from `stdout`
 cat <path_to_file> | nl <options> -
 
 # Number only the lines with printable text

@@ -9,7 +9,7 @@ bzip3 <path_to_file_to_compress>
 # Decompress a file
 bzip3 -d <path_to_compressed_file.bz3>
 
-# Decompress a file to standard output
+# Decompress a file to `stdout`
 bzip3 -dc <path_to_compressed_file.bz3>
 
 # Test the integrity of each file inside the archive file

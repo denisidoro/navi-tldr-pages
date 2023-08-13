@@ -3,10 +3,10 @@
 
 % expand, common
 
-# Convert tabs in each file to spaces, writing to standard output
+# Convert tabs in each file to spaces, writing to `stdout`
 expand <path_to_file>
 
-# Convert tabs to spaces, reading from standard input
+# Convert tabs to spaces, reading from `stdin`
 expand
 
 # Do not convert tabs after non blanks

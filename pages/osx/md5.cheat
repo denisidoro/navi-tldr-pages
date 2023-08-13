@@ -4,13 +4,13 @@
 % md5, osx
 
 # Calculate the MD5 checksum for a file
-md5 <filename>
+md5 <path_to_file>
 
 # Calculate MD5 checksums for multiple files
-md5 <filename1> <filename2>
+md5 <path_to_file1 path_to_file2 ...>
 
 # Output only the md5 checksum (no filename)
-md5 -q <filename>
+md5 -q <path_to_file>
 
 # Print a checksum of the given string
 md5 -s "<string>"

@@ -11,3 +11,6 @@ pushd
 
 # Rotate stack by making the 5th element the top of the stack
 pushd +4
+
+# Rotate the stack 4 times to the left (the current directory stays at the top by replacing the 5th element)
+pushd -n +4

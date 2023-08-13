@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pkgctl-auth.md
+
+% pkgctl-auth, linux
+
+# Authenticate `pkgctl` with the GitLab instance
+pkgctl auth login
+
+# View authentication status
+pkgctl auth status

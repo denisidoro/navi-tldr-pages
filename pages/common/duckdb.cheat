@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/duckdb.md
+
+% duckdb, common
+
+# Start an interactive shell with a transient in-memory database
+duckdb
+
+# Start an interactive shell on a database file. If the file does not exist, a new database is created
+duckdb <path_to_dbfile>
+
+# Directly query a CSV, JSON, or Parquet file
+duckdb -c "<SELECT * FROM 'data_source.[csv|csv.gz|json|json.gz|parquet]'>"
+
+# Run a SQL script
+duckdb -c ".read <path_to_script.sql>"
+
+# Run query on database file and keep the interactive shell open
+duckdb <path_to_dbfile> -cmd "<SELECT DISTINCT * FROM tbl>"
+
+# Run SQL queries in file on database and keep the interactive shell open
+duckdb <path_to_dbfile> -init <path_to_script.sql>
+
+# Read CSV from stdin and write CSV to stdout
+cat <path_to_source.csv> | duckdb -c "<COPY (FROM read_csv_auto('_dev_stdin')) TO '_dev_stdout' WITH (FORMAT CSV, HEADER)>"
+
+# Display help
+duckdb -help

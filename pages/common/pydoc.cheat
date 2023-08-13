@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pydoc.md
+
+% pydoc, common
+
+# Print documentation on a subject (Python keyword, topic, function, module, package, etc.)
+pydoc <subject>
+
+# Start an HTTP server on an arbitrary unused port and open a [b]rowser to see the documentation
+pydoc -b
+
+# Display help
+pydoc

@@ -9,7 +9,7 @@ carbon-now <path_to_file>
 # Create an image from a text in clipboard using default settings
 carbon-now --from-clipboard
 
-# Create an image from standard input using default settings
+# Create an image from `stdin` using default settings
 <input> | carbon-now
 
 # Create images interactively for custom settings and optionally save a preset

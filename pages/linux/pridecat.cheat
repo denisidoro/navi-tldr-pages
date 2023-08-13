@@ -3,7 +3,7 @@
 
 % pridecat, linux
 
-# Print the contents of a file in pride colors to the standard output
+# Print the contents of a file in pride colors to `stdout`
 pridecat <path_to_file>
 
 # Print contents of a file in trans colors

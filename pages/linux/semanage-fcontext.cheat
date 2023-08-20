@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/semanage-fcontext.md
+
+% semanage-fcontext, linux
+
+# List all file labelling rules
+sudo semanage fcontext --list
+
+# List all user-defined file labelling rules without headings
+sudo semanage fcontext --list --locallist --noheading
+
+# Add a user-defined rule that labels any path which matches a PCRE regex
+sudo semanage fcontext --add --type <samba_share_t> <'_mnt_share(_.*)?'>
+
+# Delete a user-defined rule using its PCRE regex
+sudo semanage fcontext --delete <'_mnt_share(_.*)?'>
+
+# Relabel a directory recursively by applying the new rules
+restorecon -R -v <path_to_directory>

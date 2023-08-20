@@ -3,17 +3,14 @@
 
 % swapon, linux
 
-# Get swap information
-swapon -s
+# Show swap information
+swapon
 
-# Enable a given swap partition
-swapon <dev_sdb7>
-
-# Enable a given swap file
+# Enable a given swap area
 swapon <path_to_file>
 
-# Enable all swap areas
-swapon -a
+# Enable all swap areas specified in `/etc/fstab` except those with the `noauto` option
+swapon --all
 
-# Enable swap by label of a device or file
-swapon -L <swap1>
+# Enable a swap partition by its label
+swapon -L <label>

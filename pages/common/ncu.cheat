@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ncu.md
+
+% ncu, common
+
+# List outdated dependencies in the current directory
+ncu
+
+# List outdated global npm packages
+ncu -g
+
+# Upgrade all dependencies in the current directory
+ncu -u
+
+# Interactively upgrade dependencies in the current directory
+ncu -i
+
+# Display help
+ncu -h

@@ -12,8 +12,8 @@ docker compose up --detach
 # Start all containers, rebuild if necessary
 docker compose up --build
 
-# Start all containers using an alternate compose file
-docker compose --file <path_to_file> up
+# Start all containers by specifying a project name and using an alternate compose file
+docker compose -p <project_name> --file <path_to_file> up
 
 # Stop all running containers
 docker compose stop

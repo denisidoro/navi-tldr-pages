@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/optimus-manager.md
+
+% optimus-manager, linux
+
+# Switch between different GPU modes
+optimus-manager --switch <nvidia|integrated|hybrid>
+
+# Clean up
+optimus-manager --cleanup

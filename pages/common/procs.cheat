@@ -6,6 +6,9 @@
 # List all processes showing the PID, user, CPU usage, memory usage, and the command which started them
 procs
 
+# List all processes as a tree
+procs --tree
+
 # List information about processes, if the commands which started them contain `zsh`
 procs <zsh>
 

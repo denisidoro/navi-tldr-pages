@@ -19,7 +19,7 @@ pypy -c "<expression>"
 pypy -m <module> <arguments>
 
 # Install a package using pip
-pypy -m pip install <package_name>
+pypy -m pip install <package>
 
 # Interactively debug a Python script
 pypy -m pdb <path_to_file.py>

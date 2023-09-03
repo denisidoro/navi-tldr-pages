@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-show.md
+
+% rustup-show, common
+
+# Show all information
+rustup show
+
+# Show the active toolchain
+rustup show active-toolchain
+
+# Show the rustup data directory
+rustup show home

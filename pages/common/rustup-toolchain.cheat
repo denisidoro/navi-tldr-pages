@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-toolchain.md
+
+% rustup-toolchain, common
+
+# Install or update a given toolchain
+rustup install <toolchain>
+
+# Uninstall a toolchain
+rustup uninstall <toolchain>
+
+# List installed toolchains
+rustup list
+
+# Create a custom toolchain by symlinking to a directory
+rustup link <custom_toolchain_name> <path_to_directory>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/shar.md
+
+% shar, linux
+
+# Create a shell script that when executed extracts the given files from itself
+shar --vanilla-operation <path_to_file1 path_to_file2 ...> > <path_to_archive.sh>
+
+# Compress the files in the archive
+shar --compactor <xz> <path_to_file1 path_to_file2 ...> > <path_to_archive.sh>
+
+# Treat all files as binary (i.e. `uuencode` everything)
+shar --uuencode <path_to_file1 path_to_file2 ...> > <path_to_archive.sh>
+
+# Treat all files as text (i.e. `uuencode` nothing)
+shar --text-files <path_to_file1 path_to_file2 ...> > <path_to_archive.sh>
+
+# Include a name and cut mark in the header comment of the archive
+shar --archive-name "<My files>" --cut-mark <path_to_file1 path_to_file2 ...> > <path_to_archive.sh>

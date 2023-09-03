@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-update.md
+
+% rustup-update, common
+
+# Update all installed toolchains and `rustup`
+rustup update
+
+# Install or update a specific toolchain (see `rustup help toolchain` for more information)
+rustup update <toolchain>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/adig.md
+
+% adig, linux
+
+# Display A (default) record from DNS for hostname(s)
+adig <example_com>
+
+# Display extra [d]ebugging output
+adig -d <example_com>
+
+# Connect to a specific DNS [s]erver
+adig -s <1_2_3_4> <example_com>
+
+# Use a specific TCP port to connect to a DNS server
+adig -T <port> <example_com>
+
+# Use a specific UDP port to connect to a DNS server
+adig -U <port> <example_com>

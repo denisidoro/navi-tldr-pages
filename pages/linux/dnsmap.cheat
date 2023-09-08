@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dnsmap.md
+
+% dnsmap, linux
+
+# Scan for subdomains using the internal wordlist
+dnsmap <example_com>
+
+# Specify a list of subdomains to check for
+dnsmap <example_com> -w <path_to_wordlist_txt>
+
+# Store results to a CSV file
+dnsmap <example_com> -c <path_to_file_csv>
+
+# Ignore 2 IPs that are false positives (up to 5 possible)
+dnsmap <example_com> -i <123_45_67_89_98_76_54_32>

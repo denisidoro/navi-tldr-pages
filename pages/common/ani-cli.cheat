@@ -18,5 +18,5 @@ ani-cli -a <episode_number> "<anime_name>"
 # Continue watching anime from history
 ani-cli -c
 
-# Update ani-cli
+# Update `ani-cli`
 ani-cli -U

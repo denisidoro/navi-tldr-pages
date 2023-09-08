@@ -15,7 +15,7 @@ monodevelop <path_to_file>;<line_number>;<column_number>
 # Force opening a new window instead of switching to an existing one
 monodevelop --new-window
 
-# Disable redirection of stdout and stderr to a log file
+# Disable redirection of `stdout` and `stderr` to a log file
 monodevelop --no-redirect
 
 # Enable performance monitoring

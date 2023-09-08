@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/archivemount.md
+
+% archivemount, linux
+
+# Mount an archive to a specific mountpoint
+archivemount <path_to_archive> <path_to_mount_point>

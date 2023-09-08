@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/dhcp6d.md
+
+% dhcp6d, osx
+
+# Start the daemon
+dhcp6d
+
+# Use a custom configuration
+dhcp6d <path_to_config_file>

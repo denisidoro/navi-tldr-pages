@@ -3,7 +3,7 @@
 
 % nethogs, linux
 
-# Start nethogs as root (default device is eth0)
+# Start NetHogs as root (default device is `eth0`)
 sudo nethogs
 
 # Monitor bandwidth on specific device

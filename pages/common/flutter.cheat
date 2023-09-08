@@ -3,8 +3,8 @@
 
 % flutter, common
 
-# Display help about a specific command
-flutter help <command>
+# Initialize a new Flutter project in a directory of the same name
+flutter create <project_name>
 
 # Check if all external tools are correctly installed
 flutter doctor
@@ -23,3 +23,6 @@ flutter test <test_example_test_dart>
 
 # Build a release APK targeting most modern smartphones
 flutter build apk --target-platform <android_arm>,<android_arm64>
+
+# Display help about a specific command
+flutter help <command>

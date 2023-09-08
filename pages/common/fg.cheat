@@ -3,7 +3,7 @@
 
 % fg, common
 
-# Bring most recently suspended background job to foreground
+# Bring most recently suspended or running background job to foreground
 fg
 
 # Bring a specific job to foreground

@@ -6,7 +6,7 @@
 # Log in with interactive prompt
 gh auth login
 
-# Log in with a token from standard input (created in https://github.com/settings/tokens)
+# Log in with a token from `stdin` (created in https://github.com/settings/tokens)
 echo <your_token> | gh auth login --with-token
 
 # Check if you are logged in
@@ -22,4 +22,4 @@ gh auth login --hostname <github_example_com>
 gh auth refresh
 
 # Expand the permission scopes
-gh auth refresh --scopes <write_org_read_public_key>
+gh auth refresh --scopes <repo_admin_repo_hook_admin_org_admin_public_key_admin_org_hook____>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/gsha256sum.md
+
+% gsha256sum, osx
+
+# View documentation for the original command
+tldr -p linux sha256sum

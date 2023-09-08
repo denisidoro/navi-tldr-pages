@@ -9,7 +9,7 @@ ts-node <path_to_file_ts>
 # Execute a TypeScript file without loading `tsconfig.json`
 ts-node --skip-project <path_to_file_ts>
 
-# Evaluate TypeScript code passed as a literal on the command-line
+# Evaluate TypeScript code passed as a literal
 ts-node --eval '{{console.log("Hello World")}}'
 
 # Execute a TypeScript file in script mode

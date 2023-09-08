@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-pricing.md
+
+% aws-pricing, common
+
+# List service codes of a specific region
+aws pricing describe-services --region <us_east_1>
+
+# List attributes for a given service code in a specific region
+aws pricing describe-services --service-code <AmazonEC2> --region <us_east_1>
+
+# Print pricing information for a service code in a specific region
+aws pricing get-products --service-code <AmazonEC2> --region <us_east_1>
+
+# List values for a specific attribute for a service code in a specific region
+aws pricing get-attribute-values --service-code <AmazonEC2> --attribute-name <instanceType> --region <us_east_1>
+
+# Print pricing information for a service code using filters for instance type and location
+aws pricing get-products --service-code <AmazonEC2> --filters "<Type_TERM_MATCH_Field_instanceType_Value_m5_xlarge>" "{{Type=TERM_MATCH,Field=location,Value=US East (N. Virginia)}}" --region <us_east_1>

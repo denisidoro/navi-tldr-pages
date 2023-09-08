@@ -3,7 +3,7 @@
 
 % adb-shell, common
 
-# Start a remote interactive shell on the emulator/device
+# Start a remote interactive shell on the emulator or device
 adb shell
 
 # Get all the properties from emulator or device
@@ -21,7 +21,7 @@ adb shell input keyevent <keycode>
 # Clear the data of an application on an emulator or device
 adb shell pm clear <package>
 
-# Start an activity on emulator/device
+# Start an activity on emulator or device
 adb shell am start -n <package>/<activity>
 
 # Start the home activity on an emulator or device

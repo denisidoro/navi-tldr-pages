@@ -3,23 +3,23 @@
 
 % nc, common
 
-# Listen on a specified port and print any data received
-nc -l <port>
+# Start a listener on the specified TCP port and send a file into it
+nc -l -p <port> < <filename>
 
-# Connect to a certain port
-nc <ip_address> <port>
+# Connect to a target listener on the specified port and receive a file from it
+nc <host> <port> > <received_filename>
 
-# Set a timeout
-nc -w <timeout_in_seconds> <ipaddress> <port>
+# Scan the open TCP ports of a specified host
+nc -v -z -w <timeout_in_seconds> <host> <start_port>-<end_port>
 
-# Keep the server up after the client detaches
-nc -k -l <port>
+# Start a listener on the specified TCP port and provide your local shell access to the connected party (this is dangerous and can be abused)
+nc -l -p <port> -e <shell_executable>
 
-# Keep the client up even after EOF
-nc -q <timeout> <ip_address>
+# Connect to a target listener and provide your local shell access to the remote party (this is dangerous and can be abused)
+nc <host> <port> -e <shell_executable>
 
-# Scan the open ports of a specified host
-nc -v -z <ip_address> <port>
+# Act as a proxy and forward data from a local TCP port to the given remote host
+nc -l -p <local_port> | nc <host> <remote_port>
 
-# Act as proxy and forward data from a local TCP port to the given remote host
-nc -l <local_port> | nc <hostname> <remote_port>
+# Send an HTTP GET request
+echo -e "GET / HTTP/1.1\nHost: <host>\n\n" | nc <host> 80

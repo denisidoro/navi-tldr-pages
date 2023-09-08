@@ -6,7 +6,7 @@
 # Log a message to syslog
 logger <message>
 
-# Take input from stdin and log to syslog
+# Take input from `stdin` and log to syslog
 echo <log_entry> | logger
 
 # Send the output to a remote syslog server running at a given port. Default port is 514

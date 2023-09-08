@@ -3,17 +3,20 @@
 
 % dconf-write, linux
 
-# Write a string to a dconf path (note the nested quotes)
-dconf write <_example_dconf_path> "'{{Example Value}}'"
+# Write a specific key value
+dconf write <_path_to_key> "<value>"
 
-# Write a boolean to a dconf path
-dconf write <_example_dconf_path> <true_false>
+# Write a specific string key value
+dconf write <_path_to_key> "'<string>'"
 
-# Write an integer to a dconf path
-dconf write <_example_dconf_path> <16>
+# Write a specific integer key value
+dconf write <_path_to_key> "<5>"
 
-# Write an array to a dconf path
-dconf write <_example_dconf_path> "[{{'My First Value', 'My Second Value'}}]"
+# Write a specific boolean key value
+dconf write <_path_to_key> "<true_false>"
 
-# Write an empty array to a dconf path
-dconf write <_example_dconf_path> "@as []"
+# Write a specific array key value
+dconf write <_path_to_key> "[{{'first', 'second', ...}}]"
+
+# Write a specific empty array key value
+dconf write <_path_to_key> "@as []"

@@ -4,10 +4,10 @@
 % xml2man, osx
 
 # Compile an MPGL file to a viewable man page
-xml2man <path_to_command_mxml>
+xml2man <path_to_command_file_mxml>
 
 # Compile an MPGL file to a specific output file
-xml2man <path_to_service_mxml> <path_to_service_7>
+xml2man <path_to_service_file_mxml> <path_to_service_file_7>
 
 # Compile an MPGL file to a specific output file, overwriting if it already exists
-xml2man -f <path_to_function_mxml> <path_to_function_3>
+xml2man -f <path_to_function_file_mxml> <path_to_function_file_3>

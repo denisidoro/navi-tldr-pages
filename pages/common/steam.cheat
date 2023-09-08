@@ -3,7 +3,7 @@
 
 % steam, common
 
-# Launch Steam, printing debug messages to stdout
+# Launch Steam, printing debug messages to `stdout`
 steam
 
 # Launch Steam and enable its in-app debug console tab

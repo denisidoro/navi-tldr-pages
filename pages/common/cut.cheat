@@ -7,7 +7,7 @@
 <command> | cut --<characters_fields>=<1_1_10_1_10_1___10>
 
 # Print a range of each line with a specific delimiter
-<command> | cut --delimiter="<_>" --<characters>=<1>
+<command> | cut --delimiter="<_>" --<fields>=<1>
 
 # Print a range of each line of the specific file
 cut --<characters>=<1> <path_to_file>

@@ -18,7 +18,7 @@ git bundle create <path_to_file_bundle> --since=<7_days> <HEAD>
 # Verify that a bundle file is valid and can be applied to the current repository
 git bundle verify <path_to_file_bundle>
 
-# Print to the standard output the list of references contained in a bundle
+# Print to `stdout` the list of references contained in a bundle
 git bundle unbundle <path_to_file_bundle>
 
 # Unbundle a specific branch from a bundle file into the current repository

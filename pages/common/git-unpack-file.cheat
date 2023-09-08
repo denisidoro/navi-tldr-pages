@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-unpack-file.md
+
+% git-unpack-file, common
+
+# Create a file holding the contents of the blob specified by its ID then print the name of the temporary file
+git unpack-file <blob_id>

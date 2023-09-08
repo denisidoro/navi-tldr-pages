@@ -3,10 +3,10 @@
 
 % i3status, linux
 
-# Print the status line to stdout periodically, using the default configuration
+# Print the status line to `stdout` periodically, using the default configuration
 i3status
 
-# Print the status line to stdout periodically, using a specific configuration
+# Print the status line to `stdout` periodically, using a specific configuration
 i3status -c <path_to_i3status_conf>
 
 # Display the `i3status` version and help

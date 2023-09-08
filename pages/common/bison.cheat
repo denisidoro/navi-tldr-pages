@@ -6,7 +6,7 @@
 # Compile a bison definition file
 bison <path_to_file_y>
 
-# Compile in debug mode, which causes the resulting parser to write additional information to the standard output
+# Compile in debug mode, which causes the resulting parser to write additional information to `stdout`
 bison --debug <path_to_file_y>
 
 # Specify the output filename

@@ -12,7 +12,7 @@ lighthouse --output <json> <https___example_com>
 # Generate a JSON report and save it to a specific file
 lighthouse --output <json> --output-path <path_to_file_json> <https___example_com>
 
-# Generate a report using the browser in headless mode without logging to stdout
+# Generate a report using the browser in headless mode without logging to `stdout`
 lighthouse --quiet --chrome-flags="<__headless>" <https___example_com>
 
 # Generate a report, using the HTTP header key/value pairs in the specified JSON file for all requests

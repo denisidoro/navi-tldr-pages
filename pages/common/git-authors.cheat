@@ -3,7 +3,7 @@
 
 % git-authors, common
 
-# Print a full list of committers to stdout instead of to the `AUTHORS` file
+# Print a full list of committers to `stdout` instead of to the `AUTHORS` file
 git authors --list
 
 # Append the list of committers to the `AUTHORS` file and open it in the default editor

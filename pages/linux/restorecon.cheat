@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/restorecon.md
+
+% restorecon, linux
+
+# View the current security context of a file or directory
+ls -dlZ <path_to_file_or_directory>
+
+# Restore the security context of a file or directory
+restorecon <path_to_file_or_directory>
+
+# Restore the security context of a directory recursively, and show all changed labels
+restorecon -R -v <path_to_directory>
+
+# Restore the security context of a directory recursively, using all available threads, and show progress
+restorecon -R -T <0> -p <path_to_directory>
+
+# Preview the label changes that would happen without applying them
+restorecon -R -n -v <path_to_directory>

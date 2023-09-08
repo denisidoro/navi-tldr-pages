@@ -4,7 +4,7 @@
 % lftp, linux
 
 # Connect to an FTP server
-lftp <ftp_example_com>
+lftp --user <username> <ftp_example_com>
 
 # Download multiple files (glob expression)
 mget {{path/to/*.png}}

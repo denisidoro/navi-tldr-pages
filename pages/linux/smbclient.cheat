@@ -20,3 +20,6 @@ smbclient <__server_share> --directory <path_to_directory> --command "get <file_
 
 # Upload a file to the server
 smbclient <__server_share> --directory <path_to_directory> --command "put <file_txt>"
+
+# List the shares from a server anonymously
+smbclient --list=<server> --no-pass

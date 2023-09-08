@@ -4,7 +4,7 @@
 % mp4box, common
 
 # Display information about an existing MP4 file
-mp4box -info <filename>
+mp4box -info <path_to_file>
 
 # Add an SRT subtitle file into an MP4 file
 mp4box -add <input_subs_srt>:lang=eng -add <input_mp4> <output_mp4>

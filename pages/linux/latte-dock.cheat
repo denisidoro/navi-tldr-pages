@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/latte-dock.md
+
+% latte-dock, linux
+
+# Clear QML cache
+latte-dock --clear-cache
+
+# Import and load default layout on startup
+latte-dock --default-layout
+
+# Load a specific layout on startup
+latte-dock --layout <layout_name>
+
+# Import and load a specific layout
+latte-dock --import-layout <path_to_file>

@@ -20,3 +20,6 @@ module unload <module_name>
 
 # Unload all loaded modules
 module purge
+
+# Specify user-created modules
+module use <path_to_modulefiles>

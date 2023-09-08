@@ -3,7 +3,7 @@
 
 % openssl-genrsa, common
 
-# Generate an RSA private key of 2048 bits to stdout
+# Generate an RSA private key of 2048 bits to `stdout`
 openssl genrsa
 
 # Save an RSA private key of an arbitrary number of bits to the output file

@@ -10,7 +10,7 @@ wsl-open <_>
 wsl-open <https___example_com>
 
 # Open a specific file in the user's default application in Windows
-wsl-open <path_to_file>
+wsl-open {{path\to\file}}
 
 # Set `wsl-open` as the shell's web browser (open links with `wsl-open`)
 wsl-open -w

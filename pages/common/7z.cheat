@@ -3,7 +3,7 @@
 
 % 7z, common
 
-# [a]rchive a file or directory
+# [a]dd a file or directory to a new or existing archive
 7z a <path_to_archive_7z> <path_to_file_or_directory>
 
 # Encrypt an existing archive (including filenames)
@@ -15,7 +15,7 @@
 # E[x]tract an archive to a specific directory
 7z x <path_to_archive_7z> -o<path_to_output>
 
-# E[x]tract an archive to stdout
+# E[x]tract an archive to `stdout`
 7z x <path_to_archive_7z> -so
 
 # [a]rchive using a specific archive type

@@ -3,7 +3,7 @@
 
 % mongoexport, common
 
-# Export a collection to stdout, formatted as JSON
+# Export a collection to `stdout`, formatted as JSON
 mongoexport --uri=<connection_string> --collection=<collection_name>
 
 # Export the documents in the specified collection that match a query to a JSON file
@@ -18,7 +18,7 @@ mongoexport --collection=<collection_name> --type=<csv> --fields="<field1_field2
 # Export documents that match the query in the specified file to a CSV file, omitting the list of field names on the first line
 mongoexport --collection=<collection_name> --type=<csv> --fields="<field1_field2____>" --queryFile=<path_to_file> --noHeaderLine --out=<path_to_file_csv>
 
-# Export documents to stdout, formatted as human-readable JSON
+# Export documents to `stdout`, formatted as human-readable JSON
 mongoexport --uri=<mongodb_uri> --collection=<collection_name> --pretty
 
 # Display help

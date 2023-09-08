@@ -3,7 +3,7 @@
 
 % sdcv, common
 
-# Start sdcv interactively
+# Start `sdcv` interactively
 sdcv
 
 # List installed dictionaries

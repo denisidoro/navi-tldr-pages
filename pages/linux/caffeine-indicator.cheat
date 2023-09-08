@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/caffeine-indicator.md
+
+% caffeine-indicator, linux
+
+# Manually inhibit desktop idleness with a toggle
+caffeine-indicator

@@ -7,7 +7,7 @@
 brew search <text>
 
 # Install a cask
-brew cask install <cask_name>
+brew install --cask <cask_name>
 
 # List all installed casks
 brew list --cask
@@ -19,10 +19,10 @@ brew outdated --cask
 brew upgrade --cask <cask_name>
 
 # Uninstall a cask
-brew cask uninstall <cask_name>
+brew uninstall --cask <cask_name>
 
 # Uninstall a cask and remove related settings and files
-brew cask zap <cask_name>
+brew zap --cask <cask_name>
 
 # Display information about a given cask
-brew cask info <cask_name>
+brew info --cask <cask_name>

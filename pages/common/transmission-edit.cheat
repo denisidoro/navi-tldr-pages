@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/transmission-edit.md
+
+% transmission-edit, common
+
+# Add or remove a URL from a torrent's announce list
+transmission-edit --<add_delete> <http___example_com> <path_to_file_torrent>
+
+# Update a tracker's passcode in a torrent file
+transmission-edit --replace <old_passcode> <new_passcode> <path_to_file_torrent>

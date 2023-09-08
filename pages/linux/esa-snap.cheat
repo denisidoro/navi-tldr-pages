@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/esa-snap.md
+
+% esa-snap, linux
+
+# Display all updates
+snap --nosplash --nogui --modules --list --refresh
+
+# Display help
+snap --help

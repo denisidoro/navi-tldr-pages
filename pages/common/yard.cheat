@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yard.md
+
+% yard, common
+
+# Create the documentation
+yard
+
+# Create the documentation and save it to one file
+yard --one-file
+
+# List all undocumented objects
+yard stats --list-undoc

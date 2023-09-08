@@ -15,5 +15,5 @@ nbtscan -v <192_168_0_1_24>
 # Display output in `/etc/hosts` format
 nbtscan -e <192_168_0_1_24>
 
-# Read IP addresses / networks to scan from a file
+# Read IP addresses/networks to scan from a file
 nbtscan -f <path_to_file_txt>

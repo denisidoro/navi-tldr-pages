@@ -16,7 +16,7 @@ smalltalkci --headful
 smalltalkci --smalltalk <Squeak64_Trunk>
 
 # Specify a custom Smalltalk image and VM
-smalltalkci --image <path_to_Smalltalk_image> -- vm <path_to_vm>
+smalltalkci --image <path_to_Smalltalk_image> --vm <path_to_vm>
 
 # Clean up caches and delete builds
 smalltalkci --clean

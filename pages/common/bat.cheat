@@ -3,8 +3,8 @@
 
 % bat, common
 
-# Print the contents of a file to the standard output
-bat <file>
+# Print the contents of a file to `stdout`
+bat <path_to_file>
 
 # Concatenate several files into the target file
 bat <file1> <file2> > <target_file>
@@ -13,7 +13,7 @@ bat <file1> <file2> > <target_file>
 bat <file1> <file2> >> <target_file>
 
 # Number all output lines
-bat -n <file>
+bat --number <path_to_file>
 
 # Syntax highlight a JSON file
 bat --language json <file_json>

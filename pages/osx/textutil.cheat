@@ -4,16 +4,16 @@
 % textutil, osx
 
 # Display information about `foo.rtf`
-textutil -info <foo_rtf>
+textutil -info <path_to_foo_rtf>
 
 # Convert `foo.rtf` into `foo.html`
-textutil -convert <html> <foo_rtf>
+textutil -convert <html> <path_to_foo_rtf>
 
 # Convert rich text to normal text
-textutil <foo_rtf> -convert <txt>
+textutil <path_to_foo_rtf> -convert <txt>
 
 # Convert `foo.txt` into `foo.rtf`, using Times 10 for the font
-textutil -convert <rtf> -font <Times> -fontsize <10> <foo_txt>
+textutil -convert <rtf> -font <Times> -fontsize <10> <path_to_foo_txt>
 
 # Load all RTF files in the current directory, concatenates their contents, and writes the result out as `index.html` with the HTML title set to "Several Files"
-textutil -cat <html> -title "Several Files" -output <index_html> *.rtf
+textutil -cat <html> -title "Several Files" -output <path_to_index_html> *.rtf

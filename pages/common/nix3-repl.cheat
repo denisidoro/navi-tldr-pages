@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-repl.md
+
+% nix3-repl, common
+
+# Start an interactive environment for evaluating Nix expressions
+nix repl
+
+# Load all packages from a flake (e.g. `nixpkgs`) into scope
+:lf <nixpkgs>
+
+# Build a package from an expression
+:b <expression>
+
+# Start a shell with package from the expression available
+:u <expression>
+
+# Start a shell with dependencies of the package from the expression available
+:s <expression>

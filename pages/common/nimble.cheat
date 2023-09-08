@@ -7,7 +7,7 @@
 nimble search <search_string>
 
 # Install a package
-nimble install <package_name>
+nimble install <package>
 
 # List installed packages
 nimble list -i

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-dump-tlpdb.md
+
+% tlmgr-dump-tlpdb, common
+
+# Dump the local package database
+tlmgr dump-tlpdb --local
+
+# Dump the remote package database
+tlmgr dump-tlpdb --remote
+
+# Dump the local package database as JSON
+tlmgr dump-tlpdb --local --json

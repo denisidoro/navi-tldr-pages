@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mksquashfs.md
+
+% mksquashfs, linux
+
+# Create or append files and directories to a squashfs filesystem (compressed using `gzip` by default)
+mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} <filesystem_squashfs>
+
+# Create or append files and directories to a squashfs filesystem, using a specific [comp]ression algorithm
+mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} <filesystem_squashfs> -comp <gzip_lzo_lz4_xz_zstd_lzma>
+
+# Create or append files and directories to a squashfs filesystem, [e]xcluding some of them
+mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} <filesystem_squashfs> -e {{file|directory1 file|directory2 ...}}
+
+# Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with `.gz`
+mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} <filesystem_squashfs> -wildcards -e "{{*.gz}}"
+
+# Create or append files and directories to a squashfs filesystem, [e]xcluding those matching a regular expression
+mksquashfs {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} <filesystem_squashfs> -regex -e "<regular_expression>"

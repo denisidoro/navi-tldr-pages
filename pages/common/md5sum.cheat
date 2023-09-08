@@ -3,20 +3,20 @@
 
 % md5sum, common
 
-# Calculate the MD5 checksum for a file
-md5sum <path_to_file>
+# Calculate the MD5 checksum for one or more files
+md5sum {{path/to/file1 path/to/file2 ...}}
 
-# Calculate MD5 checksums for multiple files
-md5sum <path_to_file1> <path_to_filen2>
+# Calculate and save the list of MD5 checksums to a file
+md5sum {{path/to/file1 path/to/file2 ...}} > <path_to_file_md5>
 
-# Calculate a MD5 checksum from the standard input
-echo "<text>" | md5sum
+# Calculate an MD5 checksum from `stdin`
+<command> | md5sum
 
-# Read a file of MD5SUMs and verify all files have matching checksums
+# Read a file of MD5 sums and filenames and verify all files have matching checksums
 md5sum --check <path_to_file_md5>
 
 # Only show a message for missing files or when verification fails
 md5sum --check --quiet <path_to_file_md5>
 
-# Only show a message for files for which verification fails, ignoring missing files
+# Only show a message when verification fails, ignoring missing files
 md5sum --ignore-missing --check --quiet <path_to_file_md5>

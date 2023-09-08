@@ -16,10 +16,10 @@ wsl --distribution <distribution> <shell_command>
 wsl --list
 
 # Export a distribution to a `.tar` file
-wsl --export <distribution> <path_to_distro_fs_tar>
+wsl --export <distribution> {{path\to\distro_file.tar}}
 
 # Import a distribution from a `.tar` file
-wsl --import <distribution> <path_to_install_location> <path_to_distro_fs_tar>
+wsl --import <distribution> {{path\to\install_location}} <path_to_distro_file_tar>
 
 # Change the version of wsl used for the specified distribution
 wsl --set-version <distribution> <version>

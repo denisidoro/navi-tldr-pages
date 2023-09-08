@@ -6,8 +6,8 @@
 # List details of available Virtual Machines
 az vm list
 
-# Create an `UbuntuServer 18.04 LTS` Virtual Machine and generate ssh keys
-az vm create --resource-group <rg> --name <vm_name> --image <Canonical_UbuntuServer_18_04_LTS_latest> --admin-user <azureuser> --generate-ssh-keys
+# Create a virtual machine using the default Ubuntu image and generate ssh keys
+az vm create --resource-group <rg> --name <vm_name> --image <UbuntuLTS> --admin-user <azureuser> --generate-ssh-keys
 
 # Stop a Virtual Machine
 az vm stop --resource-group <rg> --name <vm_name>

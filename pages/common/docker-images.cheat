@@ -17,3 +17,6 @@ docker images --filter dangling=true
 
 # List images that contain a substring in their name
 docker images "{{*name*}}"
+
+# Sort images by size
+docker images --format "<_ID>\t<_Size>\t<_Repository>:<_Tag>" | sort -k 2 -h

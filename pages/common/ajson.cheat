@@ -6,7 +6,7 @@
 # Read JSON from a file and execute a specified JSONPath expression
 ajson '{{$..json[?(@.path)]}}' <path_to_file_json>
 
-# Read JSON from stdin and execute a specified JSONPath expression
+# Read JSON from `stdin` and execute a specified JSONPath expression
 cat <path_to_file_json> | ajson '{{$..json[?(@.path)]}}'
 
 # Read JSON from a URL and evaluate a specified JSONPath expression

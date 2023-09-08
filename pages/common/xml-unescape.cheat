@@ -6,8 +6,8 @@
 # Unescape special XML characters from a string
 xml unescape "<_lt_a1_gt_>"
 
-# Unescape special XML characters from stdin
-echo  "<_lt_a1_gt_>" | xml unescape
+# Unescape special XML characters from `stdin`
+echo "<_lt_a1_gt_>" | xml unescape
 
 # Display help for the `unescape` subcommand
 xml escape --help

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/gtftp.md
+
+% gtftp, osx
+
+# View documentation for the original command
+tldr -p linux tftp

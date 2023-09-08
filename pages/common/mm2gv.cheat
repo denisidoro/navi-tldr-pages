@@ -6,7 +6,7 @@
 # Convert a graph from `mm` to `gv` format
 mm2gv -o <output_gv> <input_mm>
 
-# Convert a graph using stdin and stdout
+# Convert a graph using `stdin` and `stdout`
 cat <input_mm> | mm2gv > <output_gv>
 
 # Display help

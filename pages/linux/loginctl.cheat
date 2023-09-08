@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/loginctl.md
+
+% loginctl, linux
+
+# Print all current sessions
+loginctl list-sessions
+
+# Print all properties of a specific session
+loginctl show-session <session_id> --all
+
+# Print all properties of a specific user
+loginctl show-user <username>
+
+# Print a specific property of a user
+loginctl show-user <username> --property=<property_name>
+
+# Execute a `loginctl` operation on a remote host
+loginctl list-users -H <hostname>

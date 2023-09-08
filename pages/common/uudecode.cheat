@@ -3,7 +3,7 @@
 
 % uudecode, common
 
-# Decode a file that was encoded with `uuencode` and print the result to stdout
+# Decode a file that was encoded with `uuencode` and print the result to `stdout`
 uudecode <path_to_encoded_file>
 
 # Decode a file that was encoded with `uuencode` and write the result to a file

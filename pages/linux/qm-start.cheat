@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-start.md
+
+% qm-start, linux
+
+# Start a specific virtual machine
+qm start <100>
+
+# Specify the QEMU machine type (i.e. the CPU to emulate)
+qm start <100> --machine <q35>
+
+# Start a specific virtual machine with a timeout in 60 seconds
+qm start <100> --timeout <60>

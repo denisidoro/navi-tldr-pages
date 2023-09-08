@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-fund.md
+
+% npm-fund, common
+
+# List dependencies with funding URL for the project in the current directory
+npm fund
+
+# Open the funding URL for a specific package in the default web browser
+npm fund <package>
+
+# List dependencies with a funding URL for a specific [w]orkspace for the project in the current directory
+npm fund -w <workspace>

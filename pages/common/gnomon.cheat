@@ -3,7 +3,7 @@
 
 % gnomon, common
 
-# Use UNIX (or DOS) pipes to pipe the stdout of any command through gnomon
+# Use UNIX (or DOS) pipes to pipe `stdout` of any command through gnomon
 {{npm test}} | gnomon
 
 # Show number of seconds since the start of the process

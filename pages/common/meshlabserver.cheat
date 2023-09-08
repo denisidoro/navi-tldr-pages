@@ -10,7 +10,7 @@ meshlabserver -i <input_stl> -o <output_obj>
 meshlabserver -i <input_wrl> -o <output_off> -om vn fn
 
 # Dump a list of all the available processing filters into a file
-meshlabserver -d <filename>
+meshlabserver -d <path_to_file>
 
 # Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script)
 meshlabserver -i <input_ply> -o <output_ply> -s <filter_script_mlx>

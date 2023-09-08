@@ -3,5 +3,5 @@
 
 % dalvikvm, android
 
-# Start a Java program
+# Start a specific Java program
 dalvikvm -classpath <path_to_file_jar> <classname>

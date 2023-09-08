@@ -3,20 +3,20 @@
 
 % git-clone, common
 
-# Clone an existing repository
-git clone <remote_repository_location>
-
-# Clone an existing repository into a specific directory
+# Clone an existing repository into a new directory (the default directory is the repository name)
 git clone <remote_repository_location> <path_to_directory>
 
 # Clone an existing repository and its submodules
 git clone --recursive <remote_repository_location>
 
+# Clone only the `.git` directory of an existing repository
+git clone --no-checkout <remote_repository_location>
+
 # Clone a local repository
-git clone -l <path_to_local_repository>
+git clone --local <path_to_local_repository>
 
 # Clone quietly
-git clone -q <remote_repository_location>
+git clone --quiet <remote_repository_location>
 
 # Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time)
 git clone --depth <10> <remote_repository_location>

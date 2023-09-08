@@ -9,5 +9,17 @@ bzip2 <path_to_file_to_compress>
 # Decompress a file
 bzip2 -d <path_to_compressed_file_bz2>
 
-# Decompress a file to standard output
+# Decompress a file to `stdout`
 bzip2 -dc <path_to_compressed_file_bz2>
+
+# Test the integrity of each file inside the archive file
+bzip2 --test <path_to_compressed_file_bz2>
+
+# Show the compression ratio for each file processed with detailed information
+bzip2 --verbose <path_to_compressed_files_bz2>
+
+# Decompress a file overwriting existing files
+bzip2 --force <path_to_compressed_file_bz2>
+
+# Display help
+bzip2 -h

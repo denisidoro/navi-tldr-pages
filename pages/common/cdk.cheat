@@ -22,4 +22,4 @@ cdk diff <stack_name>
 cdk init -l <language_name>
 
 # Open the CDK API reference in your browser
-cdk doc
+cdk docs

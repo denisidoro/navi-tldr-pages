@@ -4,10 +4,13 @@
 % e2fsck, linux
 
 # Check filesystem, reporting any damaged blocks
-e2fsck <_dev_sdXN>
+sudo e2fsck <_dev_sdXN>
 
 # Check filesystem and automatically repair any damaged blocks
-e2fsck -p <_dev_sdXN>
+sudo e2fsck -p <_dev_sdXN>
 
 # Check filesystem in read only mode
-e2fsck -c <_dev_sdXN>
+sudo e2fsck -c <_dev_sdXN>
+
+# Perform an exhaustive, non-destructive read-write test for bad blocks and blacklist them
+sudo e2fsck -fccky <_dev_sdXN>

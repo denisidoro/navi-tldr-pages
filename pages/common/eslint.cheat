@@ -3,14 +3,14 @@
 
 % eslint, common
 
-# Create ESLint config
+# Create the ESLint config file
 eslint --init
 
-# Lint on a given set of files
-eslint <filename>.js <filename1>.js
+# Lint one or more files
+eslint {{path/to/file1.js path/to/file2.js ...}}
 
 # Fix lint issues
 eslint --fix
 
-# Lint with config
-eslint -c <path_to_config_file> <app_src>
+# Lint using the specified config
+eslint -c <path_to_config_file> {{path/to/file1.js path/to/file2.js}}

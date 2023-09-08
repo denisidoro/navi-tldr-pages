@@ -4,13 +4,13 @@
 % asar, common
 
 # Archive a file or directory
-asar pack <path_to_file_or_directory> <archived_asar>
+asar pack <path_to_input_file_or_directory> <path_to_output_archive_asar>
 
 # Extract an archive
-asar extract <archived_asar>
+asar extract <path_to_archive_asar>
 
 # Extract a specific file from an archive
-asar extract-file <archived_asar> <file>
+asar extract-file <path_to_archive_asar> <file>
 
 # List the contents of an archive file
-asar list <archived_asar>
+asar list <path_to_archive_asar>

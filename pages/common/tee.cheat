@@ -3,13 +3,13 @@
 
 % tee, common
 
-# Copy standard input to each file, and also to standard output
+# Copy `stdin` to each file, and also to `stdout`
 echo "example" | tee <path_to_file>
 
 # Append to the given files, do not overwrite
 echo "example" | tee -a <path_to_file>
 
-# Print standard input to the terminal, and also pipe it into another program for further processing
+# Print `stdin` to the terminal, and also pipe it into another program for further processing
 echo "example" | tee <_dev_tty> | {{xargs printf "[%s]"}}
 
 # Create a directory called "example", count the number of characters in "example" and write "example" to the terminal

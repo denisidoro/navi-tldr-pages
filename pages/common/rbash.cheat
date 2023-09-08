@@ -18,5 +18,5 @@ rbash -x <path_to_script_sh>
 # Execute commands from a script, stopping at the first error
 rbash -e <path_to_script_sh>
 
-# Read and execute commands from stdin
+# Read and execute commands from `stdin`
 rbash -s

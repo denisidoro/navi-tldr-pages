@@ -12,7 +12,7 @@ neato -T <svg> -o <path_to_image_svg> <path_to_input_gv>
 # Render the output in `ps`, `pdf`, `svg`, `fig`, `png`, `gif`, `jpg`, `json`, or `dot` format
 neato -T <format> -O <path_to_input_gv>
 
-# Render a `gif` image using stdin and stdout
+# Render a `gif` image using `stdin` and `stdout`
 echo "{{graph {this -- that} }}" | neato -T <gif> > <path_to_image_gif>
 
 # Display help

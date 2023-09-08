@@ -18,5 +18,5 @@ tcsh <path_to_script_tcsh>
 # Check a specific script for syntax errors
 tcsh -n <path_to_script_tcsh>
 
-# Execute specific commands from stdin
+# Execute specific commands from `stdin`
 {{echo "echo 'tcsh is executed'"}} | tcsh

@@ -3,7 +3,7 @@
 
 % llvm-dis, common
 
-# Convert a bitcode file as LLVM IR and write the result to stdout
+# Convert a bitcode file as LLVM IR and write the result to `stdout`
 llvm-dis <path_to_input_bc> -o -
 
 # Convert a bitcode file to an LLVM IR file with the same filename

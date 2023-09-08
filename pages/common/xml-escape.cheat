@@ -6,8 +6,8 @@
 # Escape special XML characters in a string
 xml escape "<_a1_>"
 
-# Escape special XML characters from stdin
-echo  "<_a1_>" | xml escape
+# Escape special XML characters from `stdin`
+echo "<_a1_>" | xml escape
 
 # Display help for the `escape` subcommand
 xml escape --help

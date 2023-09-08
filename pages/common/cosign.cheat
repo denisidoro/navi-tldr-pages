@@ -13,7 +13,7 @@ cosign sign -key <cosign_key> <image>
 cosign sign -key k8s://<namespace>/<key> <image>
 
 # Sign a blob with a local key pair file
-cosign sign-blob --key <cosign_key> <file>
+cosign sign-blob --key <cosign_key> <path_to_file>
 
 # Verify a container against a public key
 cosign verify -key <cosign_pub> <image>

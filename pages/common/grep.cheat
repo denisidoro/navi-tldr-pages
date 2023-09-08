@@ -24,5 +24,5 @@ grep --with-filename --line-number --color=always "<search_pattern>" <path_to_fi
 # Search for lines matching a pattern, printing only the matched text
 grep --only-matching "<search_pattern>" <path_to_file>
 
-# Search stdin for lines that do not match a pattern
+# Search `stdin` for lines that do not match a pattern
 cat <path_to_file> | grep --invert-match "<search_pattern>"

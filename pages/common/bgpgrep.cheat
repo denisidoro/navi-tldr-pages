@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bgpgrep.md
+
+% bgpgrep, common
+
+# Output all routes
+bgpgrep <master6_mrt>
+
+# Output all routes received from a specific peer, determined by the peer's AS number
+bgpgrep <master4_mrt> -peer <64498>
+
+# Output all routes received from a specific peer, determined by the peer's IP address
+bgpgrep <master4_mrt_bz2> -peer <2001_db8_dead_cafe_acd__19e>
+
+# Output all routes which have certain ASNs in their AS path
+bgpgrep <master6_mrt_bz2> -aspath '{{64498 64510}}'
+
+# Output all routes that lead to a specific address
+bgpgrep <master6_mrt_bz2> -supernet '<2001_db8_dead_cafe_aef__5>'
+
+# Output all routes that have communities from a specific AS
+bgpgrep <master4_mrt> -communities \( '<64497>:*' \)

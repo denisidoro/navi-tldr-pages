@@ -3,7 +3,7 @@
 
 % autopep8, common
 
-# Format a file to stdout, with a custom maximum line length
+# Format a file to `stdout`, with a custom maximum line length
 autopep8 <path_to_file_py> --max-line-length <length>
 
 # Format a file, displaying a diff of the changes

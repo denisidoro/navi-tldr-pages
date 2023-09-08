@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bully.md
+
+% bully, linux
+
+# Crack the password
+bully --bssid "<mac>" --channel "<channel>" --bruteforce "<interface>"
+
+# Display help
+bully --help

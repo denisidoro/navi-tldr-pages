@@ -25,4 +25,4 @@ tshark -T <fields_ek_json_pdml> -e <http_request_method> -e <ip_src>
 tshark -w <path_to_file>
 
 # Analyze packets from a file
-tshark -r <filename>.pcap
+tshark -r <path_to_file_pcap>

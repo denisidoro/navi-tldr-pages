@@ -3,8 +3,14 @@
 
 % mitmproxy, common
 
-# Start mitmproxy with default settings
+# Start `mitmproxy` with default settings
 mitmproxy
 
-# Start mitmproxy bound to custom address and port
-mitmproxy -b <ip_address> -p <port>
+# Start `mitmproxy` bound to a custom address and port
+mitmproxy --listen-host <ip_address> --listen-port <port>
+
+# Start `mitmproxy` using a script to process traffic
+mitmproxy --scripts <path_to_script_py>
+
+# Export the logs with SSL/TLS master keys to external programs (wireshark, etc.)
+SSLKEYLOGFILE="<path_to_file>" mitmproxy

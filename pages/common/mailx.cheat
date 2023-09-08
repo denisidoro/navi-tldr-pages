@@ -19,4 +19,4 @@ mailx -s "<subject>" -c <cc_addr> <to_addr>
 mailx -s "<subject>" -r <from_addr> <to_addr>
 
 # Send mail with an attachment
-mailx -a <file> -s "<subject>" <to_addr>
+mailx -a <path_to_file> -s "<subject>" <to_addr>

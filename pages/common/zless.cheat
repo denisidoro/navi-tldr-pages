@@ -3,5 +3,5 @@
 
 % zless, common
 
-# Page through a compressed archive with `less`
+# Page through a `gzip` compressed file with `less`
 zless <file_txt_gz>

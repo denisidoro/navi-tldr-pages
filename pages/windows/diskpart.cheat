@@ -3,7 +3,7 @@
 
 % diskpart, windows
 
-# Run diskpart by itself in an administrative command prompt to enter its command line
+# Run diskpart by itself in an administrative command prompt to enter its command-line
 diskpart
 
 # List all disks

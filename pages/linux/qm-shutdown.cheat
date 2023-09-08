@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-shutdown.md
+
+% qm-shutdown, linux
+
+# Shutdown a virtual machine
+qm shutdown <VM_ID>
+
+# Shutdown a virtual machine after wait for at most 10 seconds
+qm shutdown --timeout <10> <VM_ID>
+
+# Shutdown a virtual machine and do not deactivate storage volumes
+qm shutdown --keepActive <true> <VM_ID>
+
+# Shutdown a virtual machine and skip lock (only root can use this option)
+qm shutdown --skiplock <true> <VM_ID>
+
+# Stop and shutdown a virtual machine
+qm shutdown --forceStop <true> <VM_ID>

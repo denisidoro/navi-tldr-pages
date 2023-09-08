@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/stop-service.md
+
+% stop-service, windows
+
+# Stop a service on the local computer
+Stop-Service -Name <service_name>
+
+# Stop a service by using the display name
+Stop-Service -DisplayName "<name>"
+
+# Stop a service that has dependent services
+Stop-Service -Name <service_name> -Force -Confirm

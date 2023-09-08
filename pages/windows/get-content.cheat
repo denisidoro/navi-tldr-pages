@@ -4,10 +4,10 @@
 % get-content, windows
 
 # Display the content of a file
-Get-Content -Path <path_to_file>
+Get-Content -Path {{path\to\file}}
 
 # Display the first few lines of a file
-Get-Content -Path <path_to_file> -TotalCount <count>
+Get-Content -Path {{path\to\file}} -TotalCount <10>
 
 # Display the content of the file and keep reading from it until `Ctrl + C` is pressed
-Get-Content -Path <path_to_file> -Wait
+Get-Content -Path {{path\to\file}} -Wait

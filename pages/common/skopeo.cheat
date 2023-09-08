@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/skopeo.md
+
+% skopeo, common
+
+# Inspect a remote image from a registry
+skopeo inspect docker://<registry_hostname>/<image_tag>
+
+# List available tags for a remote image
+skopeo list-tags docker://<registry_hostname>/<image>
+
+# Download an image from a registry
+skopeo copy docker://<registry_hostname>/<image_tag> dir:<path_to_directory>
+
+# Copy an image from one registry to another
+skopeo copy docker://<source_registry>/<image_tag> docker://<destination_registry>/<image_tag>
+
+# Delete an image from a registry
+skopeo delete docker://<registry_hostname>/<image_tag>
+
+# Log in to a registry
+skopeo login --username <username> <registry_hostname>

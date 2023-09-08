@@ -3,14 +3,5 @@
 
 % pwsh, common
 
-# Start an instance of PowerShell
-pwsh
-
-# Execute a script and then exit
-pwsh -File <path_to_file_ps1>
-
-# Set the execution policy for the current session
-pwsh -ExecutionPolicy <AllSigned_Bypass_Default_RemoteSigned_Restricted_Undefined_Unrestricted>
-
-# Execute a command and then exit
-pwsh -Command <command>
+# View documentation for the original command
+tldr powershell

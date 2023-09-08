@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bpytop.md
+
+% bpytop, common
+
+# Start `bpytop`
+bpytop
+
+# Start in minimal mode without memory and networking boxes
+bpytop -m
+
+# Show version
+bpytop -v
+
+# Toggle minimal mode
+m
+
+# Search for running programs or processes
+f
+
+# Change settings
+M

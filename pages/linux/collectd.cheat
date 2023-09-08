@@ -12,7 +12,7 @@ collectd -t
 # Test plugin data collection functionality and then exit
 collectd -T
 
-# Start collectd
+# Start `collectd`
 collectd
 
 # Specify a custom configuration file location

@@ -9,8 +9,8 @@ gnome-software
 # Launch the GNOME Software GUI if it's not open, and navigate to the specified page
 gnome-software --mode <updates_updated_installed_overview>
 
-# Launch the GNOME Software GUI if it's not open, and view the specified package
-gnome-software --details <package_name>
+# Launch the GNOME Software GUI if it's not open and view the details of the specified package
+gnome-software --details <package>
 
 # Display the version
 gnome-software --version

@@ -4,13 +4,13 @@
 % msiexec, windows
 
 # Install a program from its MSI package
-msiexec /package <path_to_file_msi>
+msiexec /package {{path\to\file.msi}}
 
 # Install a MSI package from a website
 msiexec /package <https___example_com_installer_msi>
 
 # Install a MSP patch file
-msiexec /update <path_to_file_msp>
+msiexec /update {{path\to\file.msp}}
 
 # Uninstall a program or patch using their respective MSI or MSP file
-msiexec /uninstall <path_to_file>
+msiexec /uninstall {{path\to\file}}

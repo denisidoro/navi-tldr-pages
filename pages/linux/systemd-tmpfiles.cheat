@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-tmpfiles.md
+
+% systemd-tmpfiles, linux
+
+# Create files and directories as specified in the configuration
+systemd-tmpfiles --create
+
+# Clean up files and directories with age parameters configured
+systemd-tmpfiles --clean
+
+# Remove files and directories as specified in the configuration
+systemd-tmpfiles --remove
+
+# Apply operations for user-specific configurations
+systemd-tmpfiles --create --user
+
+# Execute lines marked for early boot
+systemd-tmpfiles --create --boot

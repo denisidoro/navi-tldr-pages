@@ -16,4 +16,4 @@ systemsetup -setsleep off -setrestartpowerfailure on -setrestartfreeze on
 systemsetup -liststartupdisks
 
 # Specify a new startup disk
-systemsetup -setstartupdisk <path>
+systemsetup -setstartupdisk <path_to_directory>

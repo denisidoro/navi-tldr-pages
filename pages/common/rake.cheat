@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rake.md
+
+% rake, common
+
+# Run the `default` Rakefile task
+rake
+
+# Run a specific task
+rake <task>
+
+# Execute `n` jobs at a time in parallel (number of CPU cores + 4 by default)
+rake --jobs <n>
+
+# Use a specific Rakefile
+rake --rakefile <path_to_Rakefile>
+
+# Execute `rake` from another directory
+rake --directory <path_to_directory>

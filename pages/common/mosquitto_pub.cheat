@@ -15,8 +15,8 @@ mosquitto_pub -r -h "<iot_eclipse_org>" -t <switches_kitchen_lights_status> -m "
 # Send the contents of a file (`data.txt`) as a message and publish it to `sensors/temperature` topic
 mosquitto_pub -t <sensors_temperature> -f <data_txt>
 
-# Send the contents of a file (`data.txt`), by reading from stdin and send the entire input as a message and publish it to `sensors/temperature` topic
+# Send the contents of a file (`data.txt`), by reading from `stdin` and send the entire input as a message and publish it to `sensors/temperature` topic
 mosquitto_pub -t <sensors_temperature> -s < <data_txt>
 
-# Read newline delimited data from stdin as a message and publish it to `sensors/temperature` topic
+# Read newline delimited data from `stdin` as a message and publish it to `sensors/temperature` topic
 {{echo data.txt}} | mosquitto_pub -t <sensors_temperature> -l

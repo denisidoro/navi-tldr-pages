@@ -3,14 +3,23 @@
 
 % nmcli, linux
 
-# Run an `nmcli` subcommand
-nmcli <agent_connection_device_general_help_monitor_networking_radio> <command_options>
+# View documentation for running `nmcli` as a NetworkManager secret/polkit agent
+tldr nmcli agent
 
-# Display the current version of NetworkManager
-nmcli --version
+# View documentation for managing network connections
+tldr nmcli connection
 
-# Display help
-nmcli --help
+# View documentation for managing network interfaces and establishing new Wi-Fi connections
+tldr nmcli device
 
-# Display help for a subcommand
-nmcli <subcommand> --help
+# View documentation for managing general settings of NetworkManager
+tldr nmcli general
+
+# View documentation for NetworkManager's activity monitor
+tldr nmcli monitor
+
+# View documentation for enabling/disabling and checking the status of networking
+tldr nmcli networking
+
+# View documentation for managing radio switches
+tldr nmcli radio

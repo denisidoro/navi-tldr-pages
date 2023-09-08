@@ -3,7 +3,7 @@
 
 % choco, windows
 
-# Execute Chocolatey command
+# Execute a Chocolatey command
 choco <command>
 
 # Call general help

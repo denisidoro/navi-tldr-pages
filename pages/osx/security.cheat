@@ -16,10 +16,10 @@ security create-keychain -p <password> <path_to_file_keychain>
 security set-identity-preference -s <URL_hostname_service> -c "<common_name>" <path_to_file_keychain>
 
 # Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used)
-security add-certificates -k <keychain_name> <path_to_cert_pem>
+security add-certificates -k <file_keychain> <path_to_cert_file_pem>
 
 # Add a CA certificate to the per-user Trust Settings
-security add-trusted-cert -k <path_to_user_keychain_keychain_db> <path_to_ca_cert_pem>
+security add-trusted-cert -k <path_to_user_keychain_keychain_db> <path_to_ca_cert_file_pem>
 
 # Remove a CA certificate from the per-user Trust Settings
-security remove-trusted-cert <path_to_ca_cert_pem>
+security remove-trusted-cert <path_to_ca_cert_file_pem>

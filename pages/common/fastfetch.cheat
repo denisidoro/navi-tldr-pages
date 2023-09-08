@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fastfetch.md
+
+% fastfetch, common
+
+# Display system information
+fastfetch
+
+# Set the structure of the fetch
+fastfetch --structure <structure>
+
+# Load a custom config file
+fastfetch --load-config <path_to_config_file>
+
+# Set the logo to use
+fastfetch --logo <logo>
+
+# Set the color of the keys and title
+fastfetch --color <blue>

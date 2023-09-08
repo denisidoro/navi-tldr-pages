@@ -13,4 +13,4 @@ javac <file1_java> <file2_java> <file3_java>
 javac {{*.java}}
 
 # Compile a `.java` file and place the resulting class file in a specific directory
-javac -d <path_to_some_directory> <file_java>
+javac -d <path_to_directory> <file_java>

@@ -4,7 +4,7 @@
 % unix2mac, linux
 
 # Change the line endings of a file
-unix2mac <filename>
+unix2mac <path_to_file>
 
 # Create a copy with macOS-style line endings
-unix2mac -n <filename> <new_filename>
+unix2mac -n <path_to_unix_file> <path_to_mac_file>

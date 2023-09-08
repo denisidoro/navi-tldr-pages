@@ -12,7 +12,7 @@ emacsclient --no-window-system <path_to_file>
 # Open a file in a new Emacs window
 emacsclient --create-frame <path_to_file>
 
-# Evaluate a command, printing the output to stdout, and then quit
+# Evaluate a command, printing the output to `stdout`, and then quit
 emacsclient --eval '(<command>)'
 
 # Specify an alternative editor in case no Emacs server is running

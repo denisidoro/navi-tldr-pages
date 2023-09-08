@@ -10,7 +10,7 @@ poetry new <project_name>
 poetry add <dependency>
 
 # Install a development dependency and its subdependencies
-poetry add --dev <dependency>
+poetry add --group dev <dependency>
 
 # Interactively initialize the current directory as a new Poetry project
 poetry init
@@ -20,3 +20,6 @@ poetry update
 
 # Execute a command inside the project's virtual environment
 poetry run <command>
+
+# Bump the minor version of the project in `pyproject.toml`
+poetry version minor

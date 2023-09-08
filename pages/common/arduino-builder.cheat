@@ -6,8 +6,8 @@
 # Compile a sketch
 arduino-builder -compile <path_to_sketch_ino>
 
-# Specify the debug level (1 to 10, defaults to 5)
-arduino-builder -debug-level <level>
+# Specify the debug level (default: 5)
+arduino-builder -debug-level <1__10>
 
 # Specify a custom build directory
 arduino-builder -build-path <path_to_build_directory>

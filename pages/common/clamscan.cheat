@@ -9,7 +9,7 @@ clamscan <path_to_file>
 # Scan all files recursively in a specific directory
 clamscan -r <path_to_directory>
 
-# Scan data from stdin
+# Scan data from `stdin`
 <command> | clamscan -
 
 # Specify a virus database file or directory of files

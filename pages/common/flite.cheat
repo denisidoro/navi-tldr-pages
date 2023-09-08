@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/flite.md
+
+% flite, common
+
+# List all available voices
+flite -lv
+
+# Convert a text string to speech
+flite -t "<string>"
+
+# Convert the contents of a file to speech
+flite -f <path_to_file_txt>
+
+# Specify which voice to use
+flite -voice <file___path_to_filename_flitevox_url>
+
+# Store output into a wav file
+flite -voice <file___path_to_filename_flitevox_url> -f <path_to_file_txt> -o <output_wav>
+
+# Display version
+flite --version

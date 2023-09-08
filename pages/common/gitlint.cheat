@@ -9,7 +9,7 @@ gitlint
 # The range of commits to lint
 gitlint --commits <single_refspec_argument>
 
-# Path to a directory or python module with extra user-defined rules
+# Path to a directory or Python module with extra user-defined rules
 gitlint --extra-path <path_to_directory>
 
 # Start a specific CI job

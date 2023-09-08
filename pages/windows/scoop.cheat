@@ -10,7 +10,7 @@ scoop install <package>
 scoop uninstall <package>
 
 # Update all installed packages
-scoop update *
+scoop update --all
 
 # List installed packages
 scoop list
@@ -22,4 +22,4 @@ scoop info <package>
 scoop search <package>
 
 # Remove old versions of all packages and clear the download cache
-scoop cleanup -k *
+scoop cleanup --cache --all

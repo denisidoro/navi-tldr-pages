@@ -13,4 +13,4 @@ nu --commands "{{echo 'nu is executed'}}"
 nu <path_to_script_nu>
 
 # Execute a specific script with logging
-nu --loglevel <error_warn_info_debug_trace> <path_to_script_nu>
+nu --log-level <error_warn_info_debug_trace> <path_to_script_nu>

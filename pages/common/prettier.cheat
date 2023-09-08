@@ -3,7 +3,7 @@
 
 % prettier, common
 
-# Format a file and print the result to stdout
+# Format a file and print the result to `stdout`
 prettier <path_to_file>
 
 # Check if a specific file has been formatted

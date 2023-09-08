@@ -3,9 +3,6 @@
 
 % pacman-upgrade, linux
 
-# Display help
-pacman --upgrade --help
-
 # Install one or more packages from files
 sudo pacman --upgrade <path_to_package1_pkg_tar_zst> <path_to_package2_pkg_tar_zst>
 
@@ -19,4 +16,7 @@ sudo pacman --upgrade --overwrite <path_to_file> <path_to_package_pkg_tar_zst>
 sudo pacman --upgrade --nodeps <path_to_package_pkg_tar_zst>
 
 # List packages that would be affected (does not install any packages)
-pacman --query --print <path_to_package_pkg_tar_zst>
+pacman --upgrade --print <path_to_package_pkg_tar_zst>
+
+# Display help
+pacman --upgrade --help

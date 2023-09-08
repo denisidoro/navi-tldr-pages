@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/waifu2x-ncnn-vulkan.md
+
+% waifu2x-ncnn-vulkan, common
+
+# Upscale an image
+waifu2x-ncnn-vulkan -i <path_to_input_file> -o <path_to_output_file>
+
+# Upscale an image by a custom scale factor and denoise it
+waifu2x-ncnn-vulkan -i <path_to_input_file> -o <path_to_output_file> -s <1_2_4_8_16_32> -n <_1_0_1_2_3>
+
+# Save the upscaled image in a specific format
+waifu2x-ncnn-vulkan -i <path_to_input_file> -o <path_to_output_file> -f <jpg_png_webp>

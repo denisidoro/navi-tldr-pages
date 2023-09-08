@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gitwatch.md
+
+% gitwatch, common
+
+# Automatically commit any changes made to a file or directory
+gitwatch <path_to_file_or_directory>
+
+# Automatically commit changes and push them to a remote repository
+gitwatch -r <remote_name> <path_to_file_or_directory>
+
+# Automatically commit changes and push them to a specific branch of a remote repository
+gitwatch -r <remote_name> -b <branch_name> <path_to_file_or_directory>

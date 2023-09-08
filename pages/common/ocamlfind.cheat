@@ -4,10 +4,10 @@
 % ocamlfind, common
 
 # Compile a source file to a native binary and link with packages
-ocamlfind ocamlopt -package <package1>,<package2> -linkpkg -o <executable> <source_file_ml>
+ocamlfind ocamlopt -package <package1>,<package2> -linkpkg -o <path_to_executable> <path_to_source_ml>
 
 # Compile a source file to a bytecode binary and link with packages
-ocamlfind ocamlc -package <package1>,<package2> -linkpkg -o <executable> <source_file_ml>
+ocamlfind ocamlc -package <package1>,<package2> -linkpkg -o <path_to_executable> <path_to_source_ml>
 
 # Cross-compile for a different platform
-ocamlfind -toolchain <cross_toolchain> ocamlopt -o <executable> <source_file_ml>
+ocamlfind -toolchain <cross_toolchain> ocamlopt -o <path_to_executable> <path_to_source_ml>

@@ -6,14 +6,14 @@
 # Start an interactive shell session
 cmd
 
-# Execute a [c]ommand
-cmd /c "<command>"
+# Execute specific [c]ommands
+cmd /c {{echo Hello world}}
 
-# Execute a script
-cmd <path_to_file_bat>
+# Execute a specific script
+cmd {{path\to\script.bat}}
 
-# Execute a command and then enter an interactive shell
-cmd /k "<command>"
+# Execute specific commands and then enter an interactive shell
+cmd /k {{echo Hello world}}
 
 # Start an interactive shell session where `echo` is disabled in command output
 cmd /q
@@ -24,5 +24,5 @@ cmd /v:<on_off>
 # Start an interactive shell session with command [e]xtensions enabled or disabled
 cmd /e:<on_off>
 
-# Start an interactive shell session with used Unicode encoding
+# Start an interactive shell session with used [u]nicode encoding
 cmd /u

@@ -3,7 +3,7 @@
 
 % docker-save, common
 
-# Save an image by redirecting stdout to a tar archive
+# Save an image by redirecting `stdout` to a tar archive
 docker save <image>:<___> > <path_to_file_tar>
 
 # Save an image to a tar archive

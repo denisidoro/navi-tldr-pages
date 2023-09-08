@@ -6,7 +6,7 @@
 # Execute a bitcode or IR file
 lli <path_to_file_ll>
 
-# Execute with command line arguments
+# Execute with command-line arguments
 lli <path_to_file_ll> {{argument1 argument2 ...}}
 
 # Enable all optimizations

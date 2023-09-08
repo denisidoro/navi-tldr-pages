@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ouch.md
+
+% ouch, common
+
+# Decompress a specific file
+ouch decompress <path_to_archive_tar_xz>
+
+# Decompress a file to a specific location
+ouch decompress <path_to_archive_tar_xz> --dir <path_to_directory>
+
+# Decompress multiple files
+ouch decompress {{path/to/archive1.tar path/to/archive2.tar.gz ...}}
+
+# Compress files
+ouch compress {{path/to/file1 path/to/file2 ...}} <path_to_archive_zip>

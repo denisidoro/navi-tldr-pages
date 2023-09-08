@@ -22,4 +22,4 @@ kubectl get services -n <namespace>
 kubectl get all -n <namespace>
 
 # Get Kubernetes objects defined in a YAML manifest
-kubectl get -f <path_to_manifest>.yaml
+kubectl get -f <path_to_manifest_yaml>

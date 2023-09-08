@@ -6,7 +6,7 @@
 # Convert a PYX (ESIS - ISO 8879) document to XML format
 xml depyx <path_to_input_pyx_URI> > <path_to_output_xml>
 
-# Convert a PYX document from stdin to XML format
+# Convert a PYX document from `stdin` to XML format
 cat <path_to_input_pyx> | xml depyx > <path_to_output_xml>
 
 # Display help for the `depyx` subcommand

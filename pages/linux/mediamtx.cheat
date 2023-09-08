@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mediamtx.md
+
+% mediamtx, linux
+
+# Run MediaMTX
+mediamtx
+
+# Run MediaMTX with a custom config location
+mediamtx <path_to_config>.yml
+
+# Start MediaMTX as a daemon
+systemctl start mediamtx

@@ -7,7 +7,7 @@
 az login
 
 # Log in with a service principal using a client secret
-az login --service-principal --username <http___azure_cli_service_principal> --passsword <secret> --tenant <someone_onmicrosoft_com>
+az login --service-principal --username <http___azure_cli_service_principal> --password <secret> --tenant <someone_onmicrosoft_com>
 
 # Log in with a service principal using a client certificate
 az login --service-principal --username <http___azure_cli_service_principal> --password <path_to_cert_pem> --tenant <someone_onmicrosoft_com>

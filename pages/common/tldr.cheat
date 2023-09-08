@@ -3,14 +3,14 @@
 
 % tldr, common
 
-# Show the tldr page for a command (hint: this is how you got here!)
+# Print the tldr page for a specific command (hint: this is how you got here!)
 tldr <command>
 
-# Show the tldr page for `cd`, overriding the default platform
-tldr -p <android_linux_osx_sunos_windows> <cd>
+# Print the tldr page for a specific subcommand
+tldr <command>-<subcommand>
 
-# Show the tldr page for a subcommand
-tldr <git_checkout>
+# Print the tldr page for a command for a specific [p]latform
+tldr -p <android_linux_osx_sunos_windows> <command>
 
-# Update local pages (if the client supports caching)
+# [u]pdate the local cache of tldr pages
 tldr -u

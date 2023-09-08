@@ -3,11 +3,20 @@
 
 % dconf, linux
 
-# Print the value of a dconf path
-dconf read <_example_dconf_path>
+# Print a specific key value
+dconf read <_path_to_key>
 
-# List contents of a dconf path
-dconf list <_example_dconf_path>
+# Print a specific path sub-directories and sub-keys
+dconf list <_path_to_directory_>
 
-# Watch for dconf database changes in a path and subpaths
-dconf watch <_example_dconf_path>
+# Write a specific key value
+dconf write <_path_to_key> "<value>"
+
+# Reset a specific key value
+dconf reset <_path_to_key>
+
+# Watch a specific key/directory for changes
+dconf watch <_path_to_key__path_to_directory_>
+
+# Dump a specific directory in INI file format
+dconf dump <_path_to_directory_>

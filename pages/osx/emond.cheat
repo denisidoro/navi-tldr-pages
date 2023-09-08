@@ -10,4 +10,4 @@ emond
 emond -r <path_to_file_or_directory>
 
 # Use a specific configuration file
-emond -c <path_to_config>
+emond -c <path_to_config_file>

@@ -3,14 +3,14 @@
 
 % sd, common
 
-# Trim some whitespace using a regular expression
+# Trim some whitespace using a regular expression (output stream: `stdout`)
 {{echo 'lorem ipsum 23   '}} | sd '\s+$' ''
 
-# Replace words using capture groups
+# Replace words using capture groups (output stream: `stdout`)
 {{echo 'cargo +nightly watch'}} | sd '(\w+)\s+\+(\w+)\s+(\w+)' 'cmd: $1, channel: $2, subcmd: $3'
 
-# Find and replace in a file printing the result to stdout
-sd -p <_window_fetch_> <_fetch_> <http_js>
+# Find and replace in a specific file (output stream: `stdout`)
+sd -p <_window_fetch_> <_fetch_> <path_to_file_js>
 
-# Find and replace across a project changing each file in place
-sd {{'from "react"'}} {{'from "preact"'}} $(find . -type f)
+# Find and replace in all files in the current project (output stream: `stdout`)
+sd {{'from "react"'}} {{'from "preact"'}} "$(find . -type f)"

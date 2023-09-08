@@ -16,4 +16,4 @@ kubectl describe pods <pod_name> -n <namespace>
 kubectl describe nodes <node_name> -n <namespace>
 
 # Show details of Kubernetes objects defined in a YAML manifest
-kubectl describe -f <path_to_manifest>.yaml
+kubectl describe -f <path_to_manifest_yaml>

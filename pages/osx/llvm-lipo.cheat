@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/llvm-lipo.md
+
+% llvm-lipo, osx
+
+# View documentation for the original command
+tldr lipo

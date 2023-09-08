@@ -7,7 +7,7 @@
 getprop
 
 # Display information about a specific property
-getprop <prop>
+getprop <property>
 
 # Display the SDK API level
 getprop <ro_build_version_sdk>

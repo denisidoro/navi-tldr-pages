@@ -3,11 +3,11 @@
 
 % cmd, android
 
-# List every running service
+# [l]ist all running services
 cmd -l
 
 # Call a specific service
-cmd <alarm>
+cmd <service>
 
-# Call a service with arguments
-cmd <vibrator> {{vibrate 300}}
+# Call a service with specific arguments
+cmd <service> {{argument1 argument2 ...}}

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-redis.md
+
+% az-redis, common
+
+# Create a new Redis cache instance
+az redis create --location <location> --name <name> --resource-group <resource_group> --sku <Basic_Premium_Standard> --vm-size <c0_c1_c2_c3_c4_c5_c6_p1_p2_p3_p4_p5>
+
+# Update a Redis cache
+az redis update --name <name> --resource-group <resource_group> --sku <Basic_Premium_Standard> --vm-size <c0_c1_c2_c3_c4_c5_c6_p1_p2_p3_p4_p5>
+
+# Export data stored in a Redis cache
+az redis export --container <container> --file-format <file_format> --name <name> --prefix <prefix> --resource-group <resource_group>
+
+# Delete a Redis cache
+az redis delete --name <name> --resource-group <resource_group> --yes

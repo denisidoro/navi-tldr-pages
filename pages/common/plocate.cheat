@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/plocate.md
+
+% plocate, common
+
+# Look for patterns in the database (recomputed periodically)
+plocate <pattern>
+
+# Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`)
+plocate */<filename>

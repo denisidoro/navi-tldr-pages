@@ -4,19 +4,19 @@
 % mupdf, common
 
 # Open a PDF on the first page
-mupdf <filename>
+mupdf <path_to_file>
 
 # Open a PDF on page 3
-mupdf <filename> <3>
+mupdf <path_to_file> <3>
 
 # Open a password secured PDF
-mupdf -p <password> <filename>
+mupdf -p <password> <path_to_file>
 
 # Open a PDF with an initial zoom level, specified as DPI, of 72
-mupdf -r <72> <filename>
+mupdf -r <72> <path_to_file>
 
 # Open a PDF with inverted color
-mupdf -I <filename>
+mupdf -I <path_to_file>
 
 # Open a PDF tinted red #FF0000 (hexadecimal color syntax RRGGBB)
 mupdf -C <FF0000>

@@ -13,7 +13,7 @@ ftp -A <host>
 ftp -n <host>
 
 # Run a file containing a list of FTP commands
-ftp -s:<path_to_file> <host>
+ftp -s:{{path\to\file}} <host>
 
 # Download multiple files (glob expression)
 mget {{*.png}}

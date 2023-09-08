@@ -11,3 +11,6 @@ mkvextract tracks <path_to_file_mkv> <1>:<path_to_output_webm>
 
 # Extract the subtitle from track 3 of a specific file
 mkvextract tracks <path_to_file_mkv> <3>:<path_to_subs_srt>
+
+# Add a subtitle track to a file
+mkvmerge --output <path_to_output_mkv> <path_to_file_mkv> <path_to_subs_srt>

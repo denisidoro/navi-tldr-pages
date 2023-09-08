@@ -7,7 +7,7 @@
 git reset
 
 # Unstage specific file(s)
-git reset <path_to_file_s_>
+git reset {{path/to/file1 path/to/file2 ...}}
 
 # Interactively unstage portions of a file
 git reset --patch <path_to_file>

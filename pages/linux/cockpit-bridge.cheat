@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cockpit-bridge.md
+
+% cockpit-bridge, linux
+
+# List all cockpit packages
+cockpit-bridge --packages
+
+# Display help
+cockpit-bridge --help

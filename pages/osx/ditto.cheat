@@ -4,10 +4,10 @@
 % ditto, osx
 
 # Overwrite contents of destination directory with contents of source directory
-ditto <path_to_source> <path_to_destination>
+ditto <path_to_source_directory> <path_to_destination_directory>
 
 # Print a line to the Terminal window for every file that's being copied
-ditto -V <path_to_source> <path_to_destination>
+ditto -V <path_to_source_directory> <path_to_destination_directory>
 
 # Copy a given file or directory, while retaining the original file permissions
-ditto -rsrc <path_to_source> <path_to_destination>
+ditto -rsrc <path_to_source_directory> <path_to_destination_directory>

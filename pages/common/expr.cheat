@@ -3,17 +3,23 @@
 
 % expr, common
 
-# Get string length
-expr length <string>
+# Get the length of a specific string
+expr length "<string>"
 
-# Evaluate logical or math expression with an operator ('+', '-', '*', '&', '|', etc.). Special symbols should be escaped
-expr <first_argument> <operator> <second_argument>
+# Get the substring of a string with a specific length
+expr substr "<string>" <from> <length>
 
-# Get position of the first character in 'string' that matches 'substring'
-echo $(expr index <string> <substring>)
+# Match a specific substring against an anchored pattern
+expr match "<string>" '<pattern>'
 
-# Extract part of the string
-echo $(expr substr <string> <position_to_start> <number_of_characters>
+# Get the first char position from a specific set in a string
+expr index "<string>" "<chars>"
 
-# Extract part of the string which matches a regular expression
-echo $(expr <string> : '\(<regular_expression>\)')
+# Calculate a specific mathematic expression
+expr <expression1> {{+|-|*|/|%}} <expression2>
+
+# Get the first expression if its value is non-zero and not null otherwise get the second one
+expr <expression1> \| <expression2>
+
+# Get the first expression if both expressions are non-zero and not null otherwise get zero
+expr <expression1> \& <expression2>

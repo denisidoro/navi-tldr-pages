@@ -3,8 +3,11 @@
 
 % git-am, common
 
-# Apply a patch file
+# Apply and commit changes following a local patch file
 git am <path_to_file_patch>
+
+# Apply and commit changes following a remote patch file
+curl -L <https___example_com_file_patch> | git apply
 
 # Abort the process of applying a patch file
 git am --abort

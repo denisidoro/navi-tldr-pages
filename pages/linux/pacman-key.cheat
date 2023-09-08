@@ -6,7 +6,7 @@
 # Initialize the pacman keyring
 sudo pacman-key --init
 
-# Add the default ArchLinux keys
+# Add the default Arch Linux keys
 sudo pacman-key --populate <archlinux>
 
 # List keys from the public keyring

@@ -3,7 +3,7 @@
 
 % alex, common
 
-# Analyze text from stdin
+# Analyze text from `stdin`
 echo {{His network looks good}} | alex --stdin
 
 # Analyze all files in the current directory

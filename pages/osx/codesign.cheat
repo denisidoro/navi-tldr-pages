@@ -4,7 +4,7 @@
 % codesign, osx
 
 # Sign an application with a certificate
-codesign --sign "{{My Company Name}}" <path_to_App_app>
+codesign --sign "{{My Company Name}}" <path_to_application_file_app>
 
 # Verify the certificate of an application
-codesign --verify <path_to_App_app>
+codesign --verify <path_to_application_file_app>

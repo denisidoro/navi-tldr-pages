@@ -3,13 +3,13 @@
 
 % svgr, common
 
-# Transform a SVG file into a React component to stdout
+# Transform a SVG file into a React component to `stdout`
 svgr -- <path_to_file_svg>
 
-# Transform a SVG file into a React component using TypeScript to stdout
+# Transform a SVG file into a React component using TypeScript to `stdout`
 svgr --typescript -- <path_to_file_svg>
 
-# Transform a SVG file into a React component using JSX transform to stdout
+# Transform a SVG file into a React component using JSX transform to `stdout`
 svgr --jsx-runtime automatic -- <path_to_file_svg>
 
 # Transform all SVG files from a directory to React components into a specific directory

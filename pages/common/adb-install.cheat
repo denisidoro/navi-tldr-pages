@@ -12,6 +12,9 @@ adb -s <serial_number> install <path_to_file_apk>
 # Reinstall an existing app, keeping its data
 adb install -r <path_to_file_apk>
 
+# Push an Android application allowing version code downgrade (debuggable packages only)
+adb install -d <path_to_file_apk>
+
 # Grant all permissions listed in the app manifest
 adb install -g <path_to_file_apk>
 

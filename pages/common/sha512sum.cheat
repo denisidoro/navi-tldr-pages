@@ -3,20 +3,20 @@
 
 % sha512sum, common
 
-# Calculate the SHA512 checksum for a file
-sha512sum <path_to_file>
-
-# Calculate SHA512 checksums for multiple files
-sha512sum <path_to_file1> <path_to_file2>
+# Calculate the SHA512 checksum for one or more files
+sha512sum {{path/to/file1 path/to/file2 ...}}
 
 # Calculate and save the list of SHA512 checksums to a file
-sha512sum <path_to_file1> <path_to_file2> > <path_to_file_sha512>
+sha512sum {{path/to/file1 path/to/file2 ...}} > <path_to_file_sha512>
 
-# Read a file of SHA512 sums and verify all files have matching checksums
+# Calculate a SHA512 checksum from `stdin`
+<command> | sha512sum
+
+# Read a file of SHA512 sums and filenames and verify all files have matching checksums
 sha512sum --check <path_to_file_sha512>
 
 # Only show a message for missing files or when verification fails
 sha512sum --check --quiet <path_to_file_sha512>
 
-# Only show a message for files for which verification fails, ignoring missing files
+# Only show a message when verification fails, ignoring missing files
 sha512sum --ignore-missing --check --quiet <path_to_file_sha512>

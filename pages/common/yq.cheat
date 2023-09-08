@@ -21,8 +21,8 @@ yq eval '.<key> = "<value>"' --inplace <path_to_file_yaml>
 # Set (or overwrite) a key to a value in a file (v3)
 yq write --inplace <path_to_file_yaml> '<key>' '<value>'
 
-# Merge two files and print to stdout (v4+)
+# Merge two files and print to `stdout` (v4+)
 yq eval-all 'select(filename == "<path_to_file1_yaml>") * select(filename == "<path_to_file2_yaml>")' <path_to_file1_yaml> <path_to_file2_yaml>
 
-# Merge two files and print to stdout (v3)
+# Merge two files and print to `stdout` (v3)
 yq merge <path_to_file1_yaml> <path_to_file2_yaml> --colors

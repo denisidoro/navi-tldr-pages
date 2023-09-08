@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-default.md
+
+% rustup-default, common
+
+# Switch the default Rust toolchain (see `rustup help toolchain` for more information)
+rustup default <toolchain>

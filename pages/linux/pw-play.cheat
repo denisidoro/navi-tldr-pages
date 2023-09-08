@@ -3,9 +3,6 @@
 
 % pw-play, linux
 
-# List all available playback targets
-pw-play --list-targets
-
 # Play a wav sound file over the default target
 pw-play <path_to_file_wav>
 

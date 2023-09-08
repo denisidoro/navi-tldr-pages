@@ -4,4 +4,4 @@
 % readlink, osx
 
 # Print the absolute path which the symlink points to
-readlink <path_to_symlink>
+readlink <path_to_symlink_file>

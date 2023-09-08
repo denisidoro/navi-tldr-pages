@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gnatprep.md
+
+% gnatprep, common
+
+# Use symbol definitions from a file
+gnatprep <source_file> <target_file> <definitions_file>
+
+# Specify symbol values in the command-line
+gnatprep -D<name>=<value> <source_file> <target_file>

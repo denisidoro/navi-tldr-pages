@@ -9,7 +9,7 @@ diffoscope <path_to_file1> <path_to_file2>
 # Compare two files without displaying a progress bar
 diffoscope --no-progress <path_to_file1> <path_to_file2>
 
-# Compare two files and write an HTML-report to a file (use `-` for stdout)
+# Compare two files and write an HTML-report to a file (use `-` for `stdout`)
 diffoscope --html <path_to_outfile__> <path_to_file1> <path_to_file2>
 
 # Compare two directories excluding files with a name matching a specified pattern

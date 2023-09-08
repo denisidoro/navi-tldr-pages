@@ -10,4 +10,4 @@ conda create --yes --name <py39> python=<3_9> "<numpy__1_11>"
 conda create --clone <py39> --name <py39_copy>
 
 # Create a new environment with a specified name and install a given package
-conda create --name <env_name> <package_name>
+conda create --name <env_name> <package>

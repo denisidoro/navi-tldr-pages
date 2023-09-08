@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/stegsnow.md
+
+% stegsnow, linux
+
+# Extract [m]essage from file
+stegsnow <path_to_file_txt>
+
+# Extract [C]ompressed and [p]assword protected [m]essage from file
+stegsnow -C -p <password> <path_to_file_txt>
+
+# Determine approximate [S]torage capacity with line [l]ength less than 72 for file
+stegsnow -S -l 72 <path_to_file_txt>
+
+# Conceal [m]essage in text from file and save to result
+stegsnow -m '<message>' <path_to_file_txt> <path_to_result_txt>
+
+# Conceal message [f]ile content [C]ompressed in text from file and save to result
+stegsnow -C -f '<path_to_message_txt>' <path_to_file_txt> <path_to_result_txt>
+
+# Conceal [m]essage [C]ompressed and [p]assword protected in text from file and save to result
+stegsnow -C -p <password> -m '<message>' <path_to_file_txt> <path_to_result_txt>

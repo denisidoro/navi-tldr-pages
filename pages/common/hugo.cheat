@@ -10,7 +10,7 @@ hugo new site <path_to_site>
 hugo new theme <theme_name>
 
 # Create a new page
-hugo new <section_name>/<filename>
+hugo new <section_name>/<page_name>
 
 # Build a site to the `./public/` directory
 hugo

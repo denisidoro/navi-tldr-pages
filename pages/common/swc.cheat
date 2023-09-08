@@ -3,7 +3,7 @@
 
 % swc, common
 
-# Transpile a specified input file and output to stdout
+# Transpile a specified input file and output to `stdout`
 swc <path_to_file>
 
 # Transpile the input file every time it is changed

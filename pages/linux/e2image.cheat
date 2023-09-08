@@ -6,7 +6,7 @@
 # Write metadata located on device to a specific file
 e2image <_dev_sdXN> <path_to_image_file>
 
-# Print metadata located on device to stdout
+# Print metadata located on device to `stdout`
 e2image <_dev_sdXN> -
 
 # Restore the filesystem metadata back to the device

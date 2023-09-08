@@ -3,14 +3,14 @@
 
 % zip, common
 
-# Add files/directories to a specific archive
+# Add files/directories to a specific archive ([r]ecursively)
 zip -r <path_to_compressed_zip> {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}
 
-# Remove files/directories from a specific archive
+# Remove files/directories from a specific archive ([d]elete)
 zip -d <path_to_compressed_zip> {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}
 
 # Archive files/directories e[x]cluding specified ones
-zip <path_to_compressed_zip> {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} -x <path_to_excluded_files_or_directories>
+zip -r <path_to_compressed_zip> {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} -x <path_to_excluded_files_or_directories>
 
 # Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest)
 zip -r -<0_9> <path_to_compressed_zip> {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}

@@ -3,9 +3,6 @@
 
 % pacman-files, linux
 
-# Display help
-pacman --files --help
-
 # Update the package database
 sudo pacman --files --refresh
 
@@ -19,7 +16,7 @@ pacman --files --regex '<regular_expression>'
 pacman --files --quiet <filename>
 
 # List the files owned by a specific package
-pacman --files --list <package_name>
+pacman --files --list <package>
 
-# List only the absolute path to the files
-pacman --query --list --quiet <package_name>
+# Display help
+pacman --files --help

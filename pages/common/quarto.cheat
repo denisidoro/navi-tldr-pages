@@ -3,26 +3,17 @@
 
 % quarto, common
 
-# Create a Quarto project
-quarto create-project <path_to_project>
+# Create a new project
+quarto create-project <path_to_destination_directory> --type <book_default_website>
 
-# Create a new website project
-quarto create-project <path_to_destination_directory> --type <website>
+# Create a new blog website
+quarto create-project <path_to_destination_directory> --type <website> --template <blog>
 
-# Create a new book project
-quarto create-project <path_to_destination_directory> --type <book>
+# Render input file(s) to different formats
+quarto render <path_to_file___qmd_rmd_ipynb>}} --to <html_pdf_docx>
 
-# Render an R Markdown file to HTML
-quarto render <path_to_file_rmd> --to <html>
+# Render and preview a document or a website
+quarto preview <path_to_destination_directory_path_to_file>
 
-# Render a Quarto file to HTML
-quarto render <path_to_file_qmd> --to <html>
-
-# Render a Jupyter notebook to HTML
-quarto render <path_to_file_ipynb> --to <html>
-
-# Render an R Markdown, Jupyter, or Quarto file to PDF
-quarto render <path_to_file> --to <pdf>
-
-# Render an R Markdown, Jupyter, or Quarto file to a Microsoft `docx` document
-quarto render <path_to_file> --to <docx>
+# Publish a document or project to Quarto Pub, Github Pages, RStudio Connect or Netlify
+quarto publish <quarto_pub_gh_pages_connect_netlify>

@@ -3,7 +3,7 @@
 
 % chronyc, linux
 
-# Start chronyc in interactive mode
+# Start `chronyc` in interactive mode
 chronyc
 
 # Display tracking stats for the Chrony daemon

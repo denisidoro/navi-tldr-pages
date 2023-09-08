@@ -3,5 +3,14 @@
 
 % qmrestore, linux
 
-# Restore KVM-based virtual machine to local storage
-qmrestore <_var_lib_vz_dump_backup_file_vma_lzo> <vm_id> --storage <local>
+# Restore virtual machine from given backup file on the original storage
+qmrestore <path_to_vzdump_qemu_100_vma_lzo> <100>
+
+# Overwrite existing virtual machine from a given backup file on the original storage
+qmrestore <path_to_vzdump_qemu_100_vma_lzo> <100> --force true
+
+# Restore the virtual machine from a given backup file on specific storage
+qmrestore <path_to_vzdump_qemu_100_vma_lzo> <100> --storage <local>
+
+# Start virtual machine immediately from the backup while restoring in the background (only on Proxmox Backup Server)
+qmrestore <path_to_vzdump_qemu_100_vma_lzo> <100> --live-restore true

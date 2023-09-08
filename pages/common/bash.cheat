@@ -21,5 +21,8 @@ bash -x <path_to_script_sh>
 # Execute a specific script and stop at the first [e]rror
 bash -e <path_to_script_sh>
 
-# Execute specific commands from stdin
+# Execute specific commands from `stdin`
 {{echo "echo 'bash is executed'"}} | bash
+
+# Start a [r]estricted shell session
+bash -r

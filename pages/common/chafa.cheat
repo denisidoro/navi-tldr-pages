@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/chafa.md
+
+% chafa, common
+
+# Render an image directly in the terminal
+chafa <path_to_file>
+
+# Render an image with 24-bit [c]olor
+chafa -c full <path_to_file>
+
+# Improve image rendering with small color palettes using dithering
+chafa -c 16 --dither ordered <path_to_file>
+
+# Render an image, making it appear pixelated
+chafa --symbols vhalf <path_to_file>
+
+# Render a monochrome image with only braille characters
+chafa -c none --symbols braille <path_to_file>

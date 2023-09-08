@@ -20,3 +20,9 @@ arduino --pref build.path=<path_to_build_directory> --verify <path_to_file_ino>
 
 # Save any (changed) preferences to `preferences.txt`
 arduino --save-prefs
+
+# Install the latest SAM board
+arduino --install-boards "<arduino_sam>"
+
+# Install Bridge and Servo libraries
+arduino --install-library "<Bridge_1_0_0_Servo_1_2_0>"

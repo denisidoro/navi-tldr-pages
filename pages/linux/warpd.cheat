@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/warpd.md
+
+% warpd, linux
+
+# Run warpd in normal mode
+warpd --normal
+
+# Run warpd in hint mode
+warpd --hint
+
+# Move cursor left
+h
+
+# Move cursor down
+j
+
+# Move cursor up
+k
+
+# Move cursor right
+l
+
+# Emulate left click
+m

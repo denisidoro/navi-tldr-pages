@@ -12,5 +12,5 @@ browser-sync start --server --files '{{path/to/directory/*.css}}'
 # Create configuration file
 browser-sync init
 
-# Start browser-sync from config file
+# Start Browsersync from config file
 browser-sync start --config <config_file>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/clangd.md
+
+% clangd, common
+
+# Display available options
+clangd --help
+
+# List of available options
+clangd --help-list
+
+# Display version
+clangd --version

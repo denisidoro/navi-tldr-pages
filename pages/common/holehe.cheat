@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/holehe.md
+
+% holehe, common
+
+# Show status across all supported websites for the specified email address
+holehe <username_example_org>
+
+# Show status for only sites where the specified email address is in use
+holehe <username_example_org> --only-used

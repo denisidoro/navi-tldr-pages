@@ -3,7 +3,7 @@
 
 % top, linux
 
-# Start top
+# Start `top`
 top
 
 # Do not show any idle or zombie processes

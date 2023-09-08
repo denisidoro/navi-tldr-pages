@@ -6,7 +6,7 @@
 # Convert a graph from `gv` to `gxl` format
 gv2gxl -o <output_gxl> <input_gv>
 
-# Convert a graph using stdin and stdout
+# Convert a graph using `stdin` and `stdout`
 cat <input_gv> | gv2gxl > <output_gxl>
 
 # Display help

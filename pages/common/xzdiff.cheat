@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xzdiff.md
+
+% xzdiff, common
+
+# Compare files
+xzdiff <path_to_file1> <path_to_file2>
+
+# Compare files, showing the differences side by side
+xzdiff --side-by-side <path_to_file1> <path_to_file2>
+
+# Compare files and report only that they differ (no details on what is different)
+xzdiff --brief <path_to_file1> <path_to_file2>
+
+# Compare files and report when the files are the same
+xzdiff --report-identical-files <path_to_file1> <path_to_file2>
+
+# Compare files using paginated results
+xzdiff --paginate <path_to_file1> <path_to_file2>

@@ -15,6 +15,9 @@ cp -r <path_to_source_directory> <path_to_target_directory>
 # Copy a directory recursively, in verbose mode (shows files as they are copied)
 cp -vr <path_to_source_directory> <path_to_target_directory>
 
+# Copy multiple files at once to a directory
+cp -t <path_to_destination_directory> {{path/to/file1 path/to/file2 ...}}
+
 # Copy text files to another location, in interactive mode (prompts user before overwriting)
 cp -i {{*.txt}} <path_to_target_directory>
 

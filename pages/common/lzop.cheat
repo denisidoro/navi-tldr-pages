@@ -4,10 +4,10 @@
 % lzop, common
 
 # Compress a file into a new file with the `.lzo` suffix
-lzop <file>
+lzop <path_to_file>
 
 # Decompress a file
-lzop -d <file>.lzo
+lzop -d <path_to_file>.lzo
 
 # Compress a file, while specifying the compression level. 0 = Worst, 9 = Best (Default level is 3)
-lzop -<level> <file>
+lzop -<level> <path_to_file>

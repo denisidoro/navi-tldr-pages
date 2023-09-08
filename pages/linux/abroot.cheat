@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/abroot.md
+
+% abroot, linux
+
+# Output the current or future root partition state
+sudo abroot get <present_future>
+
+# Enter the transactional shell in the future root partition and switch root on the next boot
+sudo abroot shell
+
+# Execute a specific command in the transactional shell in the future root partition and switch to it on the next boot
+sudo abroot exec "<command>"
+
+# Install specific packages in the host inside the transactional shell in the future root partition and switch to it on the next boot
+sudo abroot exec apt install {{package1 package2 ...}}
+
+# Update the boot partition (for advanced users only)
+sudo abroot _update-boot
+
+# Display help
+abroot --help
+
+# Display version
+abroot --version

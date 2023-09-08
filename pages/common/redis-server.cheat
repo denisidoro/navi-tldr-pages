@@ -3,7 +3,7 @@
 
 % redis-server, common
 
-# Start Redis server, using the default port (6379), and write logs to stdout
+# Start Redis server, using the default port (6379), and write logs to `stdout`
 redis-server
 
 # Start Redis server, using the default port, as a background process

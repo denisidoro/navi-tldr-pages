@@ -3,13 +3,13 @@
 
 % wpm, common
 
-# Start the program
+# Start `wpm`
 wpm
 
-# Start wpm with short texts
+# Start `wpm` with short texts
 wpm --short
 
-# Start wpm using a specific text file
+# Start `wpm` using a specific text file
 wpm --load <path_to_file_txt>
 
 # Tag your race scores
@@ -18,5 +18,5 @@ wpm --tag <tag_name>
 # Show score statistics grouped by tags
 wpm --stats
 
-# Start wpm with monochrome colors
+# Start `wpm` with monochrome colors
 wpm --monochrome

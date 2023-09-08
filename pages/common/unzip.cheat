@@ -3,17 +3,20 @@
 
 % unzip, common
 
-# Extract zip file(s) (for multiple files, separate file paths by spaces)
-unzip <file_s_>
+# Extract all files/directories from specific archives into the current directory
+unzip {{path/to/archive1.zip path/to/archive2.zip ...}}
 
-# Extract zip files(s) to given path
-unzip <compressed_file_s_> -d <path_to_put_extracted_file_s_>
+# Extract files/directories from archives to a specific path
+unzip {{path/to/archive1.zip path/to/archive2.zip ...}} -d <path_to_output>
 
-# List the contents of a zip file without extracting
-unzip -l <file_zip>
+# Extract files/directories from archives to `stdout`
+unzip -c {{path/to/archive1.zip path/to/archive2.zip ...}}
 
-# Extract the contents of the file(s) to stdout alongside the extracted file names
-unzip -c <file_zip>
+# Extract the contents of the file(s) to `stdout` alongside the extracted file names
+unzip -O <gbk> {{path/to/archive1.zip path/to/archive2.zip ...}}
 
-# Extract a zip file created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames
-unzip -O <gbk> <file_zip>
+# List the contents of a specific archive without extracting them
+unzip -l <path_to_archive_zip>
+
+# Extract a specific file from an archive
+unzip -j <path_to_archive_zip> {{path/to/file_in_archive1 path/to/file_in_archive2 ...}}

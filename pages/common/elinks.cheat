@@ -3,7 +3,7 @@
 
 % elinks, common
 
-# Start elinks
+# Start ELinks
 elinks
 
 # Quit elinks

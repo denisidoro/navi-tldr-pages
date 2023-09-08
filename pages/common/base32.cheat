@@ -4,13 +4,13 @@
 % base32, common
 
 # Encode a file
-base32 <filename>
+base32 <path_to_file>
 
 # Decode a file
-base32 --decode <filename>
+base32 --decode <path_to_file>
 
-# Encode from stdin
+# Encode from `stdin`
 <somecommand> | base32
 
-# Decode from stdin
+# Decode from `stdin`
 <somecommand> | base32 --decode

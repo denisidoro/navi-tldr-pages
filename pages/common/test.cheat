@@ -15,5 +15,5 @@ test -f "<path_to_file_or_directory>"
 # Test if a directory does not exist
 test ! -d "<path_to_directory>"
 
-# If-else statement
+# If A is true, then do B, or C in the case of an error (notice that C may run even if A fails)
 test <condition> && {{echo "true"}} || {{echo "false"}}

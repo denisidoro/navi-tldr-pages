@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/podman-image.md
+
+% podman-image, common
+
+# List local Docker images
+podman image ls
+
+# Delete unused local Docker images
+podman image prune
+
+# Delete all unused images (not just those without a tag)
+podman image prune --all
+
+# Show the history of a local Docker image
+podman image history <image>

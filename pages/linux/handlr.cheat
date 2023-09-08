@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/handlr.md
+
+% handlr, linux
+
+# Open a URL in the default application
+handlr open <https___example_com>
+
+# Open a PDF in the default PDF viewer
+handlr open <path_to_file_pdf>
+
+# Set imv as the default application for PNG files
+handlr set <_png> <imv_desktop>
+
+# Set MPV as the default application for all audio files
+handlr set {{'audio/*'}} <mpv_desktop>
+
+# List all default apps
+handlr list
+
+# Print the default application for PNG files
+handlr get <_png>

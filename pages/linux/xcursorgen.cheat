@@ -9,5 +9,5 @@ xcursorgen <path_to_config_cursor> <path_to_output_file>
 # Create an X cursor file using a config file and specify the path to the image files
 xcursorgen --prefix <path_to_image_directory_> <path_to_config_cursor> <path_to_output_file>
 
-# Create an X cursor file using a config file and write the output to stdout
+# Create an X cursor file using a config file and write the output to `stdout`
 xcursorgen <path_to_config_cursor>

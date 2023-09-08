@@ -6,7 +6,7 @@
 # List all NetworkManager connections (shows name, UUID, type and device)
 nmcli connection
 
-# Activate a connection by specifying a UUID
+# Activate a connection
 nmcli connection up uuid <uuid>
 
 # Deactivate a connection
@@ -21,5 +21,5 @@ nmcli connection add ifname <interface_name> type <ethernet> ip6 <2001_db8__2_64
 # Create a static IPv4-only connection
 nmcli connection add ifname <interface_name> type <ethernet> ip4 <10_0_0_7_8> gw4 <10_0_0_1> ipv4.dns <10_0_0_1> ipv6.method <ignore>
 
-# Create a VPN connection using OpenVPN from a OVPN file
+# Create a VPN connection using OpenVPN from an OVPN file
 nmcli connection import type <openvpn> file <path_to_vpn_config_ovpn>

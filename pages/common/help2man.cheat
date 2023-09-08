@@ -12,7 +12,7 @@ help2man <executable> --name <name>
 # Specify the section for the man page (defaults to 1)
 help2man <executable> --section <section>
 
-# Output to a file instead of stdout
+# Output to a file instead of `stdout`
 help2man <executable> --output <path_to_file>
 
 # Display detailed help

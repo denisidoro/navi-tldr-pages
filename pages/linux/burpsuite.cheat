@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/burpsuite.md
+
+% burpsuite, linux
+
+# Start Burp Suite
+burpsuite
+
+# Start Burp Suite using the default configuration
+burpsuite --use-defaults
+
+# Open a specific project file
+burpsuite --project-file=<path_to_file>
+
+# Load a specific configuration file
+burpsuite --config-file=<path_to_file>
+
+# Start without extensions
+burpsuite --disable-extensions

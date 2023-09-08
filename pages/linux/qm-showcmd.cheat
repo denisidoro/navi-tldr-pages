@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-showcmd.md
+
+% qm-showcmd, linux
+
+# Show command-line for a specific virtual machine
+qm showcmd <vm_id>
+
+# Put each option on a new line to enhance human readability
+qm showcmd --pretty <true> <vm_id>
+
+# Fetch config values from a specific snapshot
+qm showcmd --snapshot <string> <vm_id>

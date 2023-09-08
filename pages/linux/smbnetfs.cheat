@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/smbnetfs.md
+
+% smbnetfs, linux
+
+# Make shares available at `mountpoint`
+smbnetfs <mountpoint>

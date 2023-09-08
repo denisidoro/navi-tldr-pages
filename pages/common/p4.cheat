@@ -16,7 +16,7 @@ p4 sync
 p4 change
 
 # Open a file to edit
-p4 edit -c <changelist_number> <filename>
+p4 edit -c <changelist_number> <path_to_file>
 
 # Open a new file to add it to the depot
 p4 add

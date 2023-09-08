@@ -6,7 +6,7 @@
 # Convert a graph from `gml` to `gv` format
 graphml2gv -o <output_gv> <input_gml>
 
-# Convert a graph using stdin and stdout
+# Convert a graph using `stdin` and `stdout`
 cat <input_gml> | graphml2gv > <output_gv>
 
 # Display help

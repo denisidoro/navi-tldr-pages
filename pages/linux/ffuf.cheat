@@ -18,5 +18,5 @@ ffuf -w <path_to_param_names_txt> -u <https___target_script_php_FUZZ_test_value>
 # Fuzz POST method with POST [d]ata of password on a target website and [f]ilter out HTTP response [c]ode 401
 ffuf -w <path_to_postdata_txt> -X <POST> -d "{{username=admin\&password=FUZZ}}" -u <https___target_login_php> -fc <401>
 
-# Discover subdomains using a subdoomain list on a target website
+# Discover subdomains using a subdomain list on a target website
 ffuf -w <subdomains_txt> -u <https___website_com> -H "{{Host: FUZZ.website.com}}"

@@ -7,16 +7,16 @@
 nix-shell
 
 # Run shell command in non-interactive shell and exit
-nix-shell --run "<command> <command_arguments>"
+nix-shell --run "<command> {{argument1 argument2 ...}}"
 
 # Start with expression in `default.nix` in the current directory
 nix-shell <default_nix>
 
 # Start with packages loaded from nixpkgs
-nix-shell --packages <package_name_1> <package_name_2>
+nix-shell --packages {{package1 package2 ...}}
 
 # Start with packages loaded from specific nixpkgs revision
-nix-shell --packages <package_names> -I nixpkgs=<https___github_com_NixOS_nixpkgs_archive_nixpkgs_revision_tar_gz>
+nix-shell --packages {{package1 package2 ...}} -I nixpkgs=<https___github_com_NixOS_nixpkgs_archive_nixpkgs_revision_tar_gz>
 
 # Evaluate rest of file in specific interpreter, for use in `#!-scripts` (see <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>)
-nix-shell -i <interpreter> --packages <package_names>
+nix-shell -i <interpreter> --packages {{package1 package2 ...}}

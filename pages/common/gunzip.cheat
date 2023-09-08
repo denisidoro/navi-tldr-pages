@@ -14,3 +14,6 @@ gunzip --keep <archive_tar_gz>
 
 # List the contents of a compressed file
 gunzip --list <file_txt_gz>
+
+# Decompress an archive from `stdin`
+cat <path_to_archive_gz> | gunzip

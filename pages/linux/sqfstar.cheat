@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sqfstar.md
+
+% sqfstar, linux
+
+# Create a squashfs filesystem (compressed using `gzip` by default) from an uncompressed tar archive
+sqfstar <filesystem_squashfs> < <archive_tar>
+
+# Create a squashfs filesystem from a tar archive compressed with `gzip`, and [comp]ress the filesystem using a specific algorithm
+zcat <archive_tar_gz> | sqfstar -comp <gzip_lzo_lz4_xz_zstd_lzma> <filesystem_squashfs>
+
+# Create a squashfs filesystem from a tar archive compressed with `xz`, excluding some of the files
+xzcat <archive_tar_xz> | sqfstar <filesystem_squashfs> {{file1 file2 ...}}
+
+# Create a squashfs filesystem from a tar archive compressed with `zstd`, excluding files ending with `.gz`
+zstdcat <archive_tar_zst> | sqfstar <filesystem_squashfs> "{{*.gz}}"
+
+# Create a squashfs filesystem from a tar archive compressed with `lz4`, excluding files matching a regular expression
+lz4cat <archive_tar_lz4> | sqfstar <filesystem_squashfs> -regex "<regular_expression>"

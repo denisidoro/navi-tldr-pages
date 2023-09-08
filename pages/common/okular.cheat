@@ -3,19 +3,19 @@
 
 % okular, common
 
-# Launch Okular
+# Launch document viewer
 okular
 
-# Open specific documents in Okular
+# Open specific documents
 okular {{path/to/file1 path/to/file2 ...}}
 
 # Open a document at a specific page
 okular --page <page_number> <path_to_file>
 
-# Open a document in presentation mode
+# Open a specific document in presentation mode
 okular --presentation <path_to_file>
 
-# Open a document and start the print dialog
+# Open a specific document and start a print dialog
 okular --print <path_to_file>
 
 # Open a document and search for a specific string

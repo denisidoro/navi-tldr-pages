@@ -13,7 +13,7 @@ reboot --poweroff
 reboot --halt
 
 # Reboot immediately without contacting the system manager
-reboot --force --force
+reboot --force
 
 # Write the wtmp shutdown entry without rebooting the system
 reboot --wtmp-only

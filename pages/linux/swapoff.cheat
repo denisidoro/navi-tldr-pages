@@ -3,14 +3,11 @@
 
 % swapoff, linux
 
-# Disable a given swap partition
-swapoff <_dev_sdb7>
-
-# Disable a given swap file
+# Disable a given swap area
 swapoff <path_to_file>
 
-# Disable all swap areas
-swapoff -a
+# Disable all swap areas in `/proc/swaps`
+swapoff --all
 
-# Disable swap by label of a device or file
-swapoff -L <swap1>
+# Disable a swap partition by its label
+swapoff -L <label>

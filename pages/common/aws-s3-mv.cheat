@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-s3-mv.md
+
+% aws-s3-mv, common
+
+# Move a file from local to a specified bucket
+aws s3 mv <path_to_local_file> s3://<bucket_name>/<path_to_remote_file>
+
+# Move a specific S3 object into another bucket
+aws s3 mv s3://<bucket_name1>/<path_to_file> s3://<bucket_name2>/<path_to_target>
+
+# Move a specific S3 object into another bucket keeping the original name
+aws s3 mv s3://<bucket_name1>/<path_to_file> s3://<bucket_name2>
+
+# Display help
+aws s3 mv help

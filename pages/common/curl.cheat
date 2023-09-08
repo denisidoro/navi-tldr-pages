@@ -4,7 +4,7 @@
 % curl, common
 
 # Download the contents of a URL to a file
-curl <http___example_com> --output <filename>
+curl <http___example_com> --output <path_to_file>
 
 # Download a file, saving the output under the filename indicated by the URL
 curl --remote-name <http___example_com_filename>

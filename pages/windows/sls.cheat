@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/sls.md
+
+% sls, windows
+
+# View documentation for the original command
+tldr where-object

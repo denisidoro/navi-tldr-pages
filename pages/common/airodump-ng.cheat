@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/airodump-ng.md
+
+% airodump-ng, common
+
+# Capture packets and display information about a wireless network
+sudo airodump-ng <interface>
+
+# Capture packets and display information about a wireless network given the MAC address and channel, and save the output to a file
+sudo airodump-ng --channel <channel> --write <path_to_file> --bssid <mac> <interface>

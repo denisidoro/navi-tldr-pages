@@ -4,7 +4,7 @@
 % cordova, common
 
 # Create a Cordova project
-cordova create <path> <package_name> <project_name>
+cordova create <path_to_directory> <package> <project_name>
 
 # Display the current workspace status
 cordova info

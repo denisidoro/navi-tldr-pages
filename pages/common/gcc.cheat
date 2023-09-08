@@ -3,14 +3,14 @@
 
 % gcc, common
 
-# Compile multiple source files into executable
-gcc {{path/to/source1.c path/to/source2.c ...}} --output <path_to_output_executable>
+# Compile multiple source files into an executable
+gcc {{path/to/source1.c path/to/source2.c ...}} -o <path_to_output_executable>
 
-# Allow warnings, debug symbols in output
-gcc <path_to_source_c> -Wall -Og --output <path_to_output_executable>
+# Show common warnings, debug symbols in output, and optimize without affecting debugging
+gcc <path_to_source_c> -Wall -g -Og -o <path_to_output_executable>
 
 # Include libraries from a different path
-gcc <path_to_source_c> --output <path_to_output_executable> -I<path_to_header> -L<path_to_library> -l<library_name>
+gcc <path_to_source_c> -o <path_to_output_executable> -I<path_to_header> -L<path_to_library> -l<library_name>
 
 # Compile source code into Assembler instructions
 gcc -S <path_to_source_c>

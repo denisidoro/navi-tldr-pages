@@ -6,11 +6,11 @@
 # Start server with the default config file
 nginx
 
-# Start server with a custom config file
-nginx -c <config_file>
+# Start server with a custom configuration file
+nginx -c <configuration_file>
 
-# Start server with a prefix for all relative paths in the config file
-nginx -c <config_file> -p <prefix_for_relative_paths>
+# Start server with a prefix for all relative paths in the configuration file
+nginx -c <configuration_file> -p <prefix_for_relative_paths>
 
 # Test the configuration without affecting the running server
 nginx -t

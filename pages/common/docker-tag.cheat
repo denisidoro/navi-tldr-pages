@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/docker-tag.md
+
+% docker-tag, common
+
+# Assign a name and tag to a specific image ID
+docker tag <id> <name>:<tag>
+
+# Assign a tag to a specific image
+docker tag <image>:<current_tag> <image>:<new_tag>
+
+# Display help
+docker tag

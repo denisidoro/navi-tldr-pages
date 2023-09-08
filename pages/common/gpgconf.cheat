@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gpgconf.md
+
+% gpgconf, common
+
+# List all components
+gpgconf --list-components
+
+# List the directories used by gpgconf
+gpgconf --list-dirs
+
+# List all options of a component
+gpgconf --list-options <component>
+
+# List programs and test whether they are runnable
+gpgconf --check-programs
+
+# Reload a component
+gpgconf --reload <component>

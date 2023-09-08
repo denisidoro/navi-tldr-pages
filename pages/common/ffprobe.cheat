@@ -4,7 +4,7 @@
 % ffprobe, common
 
 # Display all available stream info for a media file
-ffprobe -v error -show_entries <input_mp4>
+ffprobe -v error -show_streams <input_mp4>
 
 # Display media duration
 ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 <input_mp4>

@@ -7,16 +7,16 @@
 gh release list
 
 # Display information about a specific release
-gh release view <tag>
+gh release view <___>
 
 # Create a new release
-gh release create <tag>
+gh release create <___>
 
 # Delete a specific release
-gh release delete <tag>
+gh release delete <___>
 
 # Download assets from a specific release
-gh release download <tag>
+gh release download <___>
 
 # Upload assets to a specific release
-gh release upload <tag> <path_to_file1> <path_to_file2>
+gh release upload <___> {{path/to/file1 path/to/file2 ...}}

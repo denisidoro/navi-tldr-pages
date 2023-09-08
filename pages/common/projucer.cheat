@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/projucer.md
+
+% projucer, common
+
+# Display information about a project
+Projucer --status <path_to_project_file>
+
+# Resave all files and resources in a project
+Projucer --resave <path_to_project_file>
+
+# Update the version number in a project
+Projucer --set-version <version_number> <path_to_project_file>
+
+# Generate a JUCE project from a PIP file
+Projucer --create-project-from-pip <path_to_PIP> <path_to_output>
+
+# Remove all JUCE-style comments (`//=====`, `//-----` or `///////`)
+Projucer --tidy-divider-comments <path_to_target_folder>
+
+# Display help
+Projucer --help

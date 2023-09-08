@@ -10,7 +10,7 @@ most <path_to_file>
 most <path_to_file1> <path_to_file2>
 
 # Open a file at the first occurrence of "string"
-most <file> +/<string>
+most <path_to_file> +/<string>
 
 # Move through opened files
 :O n

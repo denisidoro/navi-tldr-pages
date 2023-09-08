@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-target.md
+
+% rustup-target, common
+
+# Add a target to a toolchain
+rustup target add --toolchain <toolchain> <target>
+
+# Remove a target from a toolchain
+rustup target remove --toolchain <toolchain> <target>
+
+# List available and installed targets for a toolchain
+rustup target list --toolchain <toolchain>
+
+# List installed targets for a toolchain
+rustup target list --toolchain <toolchain> --installed

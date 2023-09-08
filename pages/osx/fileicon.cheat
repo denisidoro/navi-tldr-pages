@@ -4,7 +4,7 @@
 % fileicon, osx
 
 # Set a custom icon for a specific file or directory
-fileicon set <path_to_file_or_directory> <path_to_icon_png>
+fileicon set <path_to_file_or_directory> <path_to_icon_file_png>
 
 # Remove a custom icon from a specific file or directory
 fileicon rm <path_to_file_or_directory>

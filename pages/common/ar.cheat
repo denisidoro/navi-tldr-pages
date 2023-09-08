@@ -3,17 +3,17 @@
 
 % ar, common
 
-# Extract all members from an archive
-ar -x <path_to_file_a>
+# E[x]tract all members from an archive
+ar x <path_to_file_a>
 
-# List the members of an archive
-ar -t <path_to_file_a>
+# Lis[t] contents in a specific archive
+ar t <path_to_file_ar>
 
-# Replace or add files to an archive
-ar -r <path_to_file_a> <path_to_file1_o> <path_to_file2_o>
+# [r]eplace or add specific files to an archive
+ar r <path_to_file_deb> {{path/to/debian-binary path/to/control.tar.gz path/to/data.tar.xz ...}}
 
-# Insert an object file index (equivalent to using `ranlib`)
-ar -s <path_to_file_a>
+# In[s]ert an object file index (equivalent to using `ranlib`)
+ar s <path_to_file_a>
 
-# Create an archive with files and an accompanying object file index
-ar -rs <path_to_file_a> <path_to_file1_o> <path_to_file2_o>
+# Create an archive with specific files and an accompanying object file index
+ar rs <path_to_file_a> {{path/to/file1.o path/to/file2.o ...}}

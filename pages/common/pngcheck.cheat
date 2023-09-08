@@ -12,7 +12,7 @@ pngcheck -c <image_png>
 # Print [v]erbose information for an image
 pngcheck -cvt <image_png>
 
-# Receive an image from stdin and display detailed information
+# Receive an image from `stdin` and display detailed information
 cat <path_to_image_png> | pngcheck -cvt
 
 # [s]earch for PNGs within a specific file and display information about them

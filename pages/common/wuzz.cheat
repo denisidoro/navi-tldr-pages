@@ -3,7 +3,7 @@
 
 % wuzz, common
 
-# Start wuzz
+# Start `wuzz`
 wuzz
 
 # Display help information

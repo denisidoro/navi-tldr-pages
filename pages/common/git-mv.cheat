@@ -3,11 +3,11 @@
 
 % git-mv, common
 
-# Move file inside the repo and add the movement to the next commit
+# Move a file inside the repo and add the movement to the next commit
 git mv <path_to_file> <new_path_to_file>
 
-# Rename file and add renaming to the next commit
-git mv <filename> <new_filename>
+# Rename a file or directory and add the renaming to the next commit
+git mv <path_to_file_or_directory> <path_to_destination>
 
-# Overwrite the file in the target path if it exists
-git mv --force <file> <target>
+# Overwrite the file or directory in the target path if it exists
+git mv --force <path_to_file_or_directory> <path_to_destination>

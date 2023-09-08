@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-guest-passwd.md
+
+% qm-guest-passwd, linux
+
+# Set a password for a specific user in a virtual machine interactively
+qm guest passwd <vm_id> <username>
+
+# Set an already hashed password for a specific user in a virtual machine interactively
+qm guest passwd <vm_id> <username> --crypted 1

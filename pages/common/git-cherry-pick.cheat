@@ -13,4 +13,4 @@ git cherry-pick <start_commit>~..<end_commit>
 git cherry-pick <commit_1> <commit_2>
 
 # Add the changes of a commit to the working directory, without creating a commit
-git cherry-pick -n <commit>
+git cherry-pick --no-commit <commit>

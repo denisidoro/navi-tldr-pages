@@ -7,10 +7,10 @@
 git filter-repo --replace-text <(echo '<find>==><replacement>')
 
 # Extract a single folder, keeping history
-git-filter-repo --path <path_to_folder>
+git filter-repo --path <path_to_folder>
 
 # Remove a single folder, keeping history
-git-filter-repo --path <path_to_folder> --invert-paths
+git filter-repo --path <path_to_folder> --invert-paths
 
 # Move everything from sub-folder one level up
-git-filter-repo --path-rename <path_to_folder__>
+git filter-repo --path-rename <path_to_folder__>

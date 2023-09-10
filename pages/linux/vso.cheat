@@ -3,26 +3,26 @@
 
 % vso, linux
 
-# Trigger a system update immediately
-sudo vso trigger-update --now
+# Check for system updates to the host system
+vso sys-upgrade check
 
-# Check for package updates and list them
-sudo vso update-check
+# Upgrade the host system now
+vso sys-upgrade upgrade --now
 
-# Create an automated task upon an application's launch
-vso create-task --name "<string>" --description "<string>" --<command|on-condition-command> "<command>" --on-process <integer>
+# Initialize the Pico subsystem (used for package management)
+vso pico-init
 
-# Create an automated task to execute during boot
-vso create-task --name "<string>" --description "<string>" --command "<command>" --on-boot
+# Install applications inside the subsystem
+vso install <package1 package2 ...>
 
-# Create an automated task to execute during specific battery states
-vso create-task --name "<string>" --description "<string>" --command "<command>" --<on-low-battery|on-charge|on-battery|on-full-battery>
+# Remove applications from the subsystem
+vso remove <package1 package2 ...>
 
-# Create an automated task which asks for a confirmation before execution
-vso create-task --name "<string>" --description "<string>" --command "<command>" --need-confirm
+# Enter the subsystem's shell
+vso shell
 
-# Create an automated task to execute during network connection or disconnection
-vso create-task --name "<string>" --description "<string>" --command "<command>" --<on-network|on-disconnect>
+# Run an application from the subsystem
+vso run <package>
 
-# Delete an automated task
-vso delete-task "<task>"
+# Display VSO configuration
+vso config show

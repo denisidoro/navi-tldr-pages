@@ -7,10 +7,10 @@
 zstd <path_to_file>
 
 # Decompress a file
-zstd -d <path_to_file>.zst
+zstd --decompress <path_to_file.zst>
 
 # Decompress to `stdout`
-zstd -dc <path_to_file>.zst
+zstd --decompress --stdout <path_to_file.zst>
 
 # Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default
 zstd -<level> <path_to_file>

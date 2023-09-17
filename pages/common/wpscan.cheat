@@ -24,5 +24,5 @@ wpscan --url <url> --enumerate <u>
 # Execute a password guessing attack on a WordPress website
 wpscan --url <url> --usernames <username|path_to_usernames.txt> --passwords <path_to_passwords.txt> threads <20>
 
-# Scan a WordPress website, collecting vulnerability data from the WPVulnDB (https://wpvulndb.com/)
+# Scan a WordPress website, collecting vulnerability data from the WPVulnDB (<https://wpvulndb.com/>)
 wpscan --url <url> --api-token <token>

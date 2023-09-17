@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/stylua.md
+
+% stylua, common
+
+# Auto-format a file or an entire directory
+stylua <path_to_file_or_directory>
+
+# Check if a specific file has been formatted
+stylua --check <path_to_file>
+
+# Run with a specific configuration file
+stylua --config-path <path_to_config_file> <path_to_file>
+
+# Format code from `stdin` and output to `stdout`
+stylua - < <path_to_file.lua>
+
+# Format a file or directory using spaces and preferring single quotes
+stylua --indent-type <Spaces> --quote-style <AutoPreferSingle> <path_to_file_or_directory>

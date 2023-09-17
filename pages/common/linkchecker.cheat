@@ -3,7 +3,7 @@
 
 % linkchecker, common
 
-# Find broken links on https://example.com/
+# Find broken links on <https://example.com/>
 linkchecker <https:__example.com_>
 
 # Also check URLs that point to external domains

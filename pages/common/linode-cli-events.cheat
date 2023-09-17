@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/linode-cli-events.md
+
+% linode-cli-events, common
+
+# View a list of events on your account
+linode-cli events list
+
+# View details about a specific event
+linode-cli events view <event_id>
+
+# Mark an event as read
+linode-cli events mark-read <event_id>

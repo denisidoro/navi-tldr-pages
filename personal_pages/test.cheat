@@ -1,0 +1,16 @@
+% personal, linux
+
+# Connect to a remote host
+personal <user>@<host>
+
+# Connect to a remote host on [p]ort 2222
+personal <user>@<host> -p 2222
+
+# Connect to a remote host using a specific [i]dentity key in dropbear format
+personal -i <path_to_key_file> <user>@<host>
+
+# Run a command on the remote host with a [t]ty allocation allowing interaction with the remote command
+personal <user>@<host> -t <command> {{argument1 argument2 ...}}
+
+# Connect and forward [A]gent connections to remote host
+personal -A <user>@<host>

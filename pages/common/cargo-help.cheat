@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-help.md
+
+% cargo-help, common
+
+# Display general help
+cargo help
+
+# Display help for a subcommand
+cargo help <subcommand>

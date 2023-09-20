@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-version.md
+
+% cargo-version, common
+
+# Display the version of `cargo`
+cargo version
+
+# Display additional build information
+cargo version --verbose

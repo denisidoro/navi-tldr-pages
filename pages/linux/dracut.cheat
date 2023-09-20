@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dracut.md
+
+% dracut, linux
+
+# Generate an initramfs image for the current kernel without overriding any options
+dracut
+
+# Generate an initramfs image for the current kernel and overwrite the existing one
+dracut --force
+
+# Generate an initramfs image for a specific kernel
+dracut --kver <kernel_version>
+
+# Show a list of available modules
+dracut --list-modules

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/apx-subsystems.md
+
+% apx-subsystems, linux
+
+# Interactively create a new subsystem
+apx subsystems new
+
+# List all available subsystems
+apx subsystems list
+
+# Reset a specific subsystem to its initial state
+apx subsystems reset --name <string>
+
+# [f]orce reset a specific subsystem
+apx subsystems reset --name <string> --force
+
+# Remove a specific subsystem
+apx subsystems rm --name <string>
+
+# [f]orce remove a specific subsystem
+apx subsystems rm --name <string> --force

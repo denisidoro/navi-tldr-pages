@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ikaros.md
+
+% ikaros, linux
+
+# Interactively install drivers for your device
+ikaros install <device>
+
+# Automatically install the recommended drivers for your device
+ikaros auto-install <device>
+
+# List devices
+ikaros list-devices

@@ -3,7 +3,7 @@
 
 % apm, common
 
-# Install a package from http://atom.io/packages or a theme from http://atom.io/themes
+# Install a package from <http://atom.io/packages> or a theme from <http://atom.io/themes>
 apm install <package>
 
 # Remove a package/theme

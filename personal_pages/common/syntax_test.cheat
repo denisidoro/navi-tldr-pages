@@ -1,0 +1,8 @@
+% syntax_test, common, lucas
+
+; This cheatsheet is experimental and useful only for syntax studying
+
+# Add Airflow connections
+cat <file>
+
+$ file: ls -1

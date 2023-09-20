@@ -1,4 +1,4 @@
-% airflow, common
+% airflow, common, lucas
 
 # Add Airflow connections
 airflow connections add <conn_name> --conn-description <conn_description> --conn-extra \\'{"key1":"value1", "key2":"value2"}\\' --conn-type <conn_type>

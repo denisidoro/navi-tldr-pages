@@ -2,7 +2,7 @@
 
 ; This cheatsheet is experimental and useful only for syntax studying
 
-# Add Airflow connections
+# Test fzf to automatically select autocompletion
 cat <file>
 
 $ file: ls -1

@@ -14,7 +14,7 @@ Please don't edit the `.cheat` files by hand.
 ### Updating using this repo
 - go to the project root
 - clone [tldr][tldr]
-- Alternatively, if you already have tldr cloned (to tldr folder, for example), pull changes ("cd tldr; git pull") 
+- Alternatively, if you already have tldr cloned (to tldr folder, for example), pull changes ("cd tldr && git pull") 
 - run `./scripts/translate`
 - git commit -m "Updates pages" && git push
 - run `navi repo add Coqueiro/navi-tldr-pages`

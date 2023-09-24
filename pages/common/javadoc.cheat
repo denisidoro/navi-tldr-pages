@@ -7,7 +7,7 @@
 javadoc -d <path_to_directory_> <path_to_java_source_code>
 
 # Generate documentation with a specific encoding
-javadoc -docencoding <UTF_8> <path_to_java_source_code>
+javadoc -docencoding <UTF-8> <path_to_java_source_code>
 
 # Generate documentation excluding some packages
 javadoc -exclude <package_list> <path_to_java_source_code>

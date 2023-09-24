@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rpi-imager.md
+
+% rpi-imager, common
+
+# Write a specific image to a specific block device
+rpi-imager --cli <path_to_image.zip> <dev_sdX>
+
+# Write a specific image to a block device, disabling the checksum verification
+rpi-imager --cli --disable-verify <path_to_image.zip> <dev_sdX>
+
+# Write a specific image to a block device, which will expect a specific checksum when running the verification
+rpi-imager --cli --sha256 <expected_hash> <path_to_image.zip> <dev_sdX>

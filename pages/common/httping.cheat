@@ -3,7 +3,7 @@
 
 % httping, common
 
-# Ping the specified url
+# Ping the specified URL
 httping -g <url>
 
 # Ping the web server on `host` and `port`

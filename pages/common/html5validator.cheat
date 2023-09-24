@@ -13,13 +13,13 @@ html5validator --root <path_to_directory>
 html5validator --show-warnings <path_to_file>
 
 # Match multiple files using a glob pattern
-html5validator --root <path_to_directory> --match "{{*.html *.php}}"
+html5validator --root <path_to_directory> --match "<*.html *.php>"
 
 # Ignore specific directory names
-html5validator --root <path_to_directory> --blacklist "{{node_modules vendor}}"
+html5validator --root <path_to_directory> --blacklist "<node_modules vendor>"
 
 # Output the results in a specific format
-html5validator --format <gnu_xml_json_text> <path_to_file>
+html5validator --format <gnu|xml|json|text> <path_to_file>
 
 # Output the log at a specific verbosity level
-html5validator --root <path_to_directory> --log <debug_info_warning>
+html5validator --root <path_to_directory> --log <debug|info|warning>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/createrepo.md
+
+% createrepo, linux
+
+# Initialize a basic repository in a directory
+createrepo <path_to_directory>
+
+# Initialize a repository, exclude test RPMs and display verbose logs
+createrepo -v -x <test_*.rpm> <path_to_directory>
+
+# Initialize a repository, using SHA1 as the checksum algorithm, and ignoring symbolic links
+createrepo -S -s <sha1> <path_to_directory>

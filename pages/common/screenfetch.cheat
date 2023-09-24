@@ -3,7 +3,7 @@
 
 % screenfetch, common
 
-# Start screenfetch
+# Start `screenfetch`
 screenfetch
 
 # Take a screenshot (requires 'scrot')

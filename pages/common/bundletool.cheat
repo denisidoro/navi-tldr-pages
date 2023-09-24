@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bundletool.md
+
+% bundletool, common
+
+# Display help for a subcommand
+bundletool help <subcommand>
+
+# Generate APKs from an application bundle (prompts for keystore password)
+bundletool build-apks --bundle=<path_to_bundle.aab> --ks=<path_to_key.keystore> --ks-key-alias=<key_alias> --output=<path_to_file.apks>
+
+# Generate APKs from an application bundle giving the keystore password
+bundletool build-apks --bundle=<path_to_bundle.aab> --ks=<path_to_key.keystore> --ks-key-alias=<key_alias> –ks-pass=<pass:the_password> --output=<path_to_file.apks>
+
+# Generate APKs including only one single APK for universal usage
+bundletool build-apks --bundle=<path_to_bundle.aab> --mode=<universal> --ks=<path_to_key.keystore> --ks-key-alias=<key_alias> --output=<path_to_file.apks>
+
+# Install the right combination of APKs to an emulator or device
+bundletool install-apks --apks=<path_to_file.apks>
+
+# Estimate the download size of an application
+bundletool get-size total --apks=<path_to_file.apks>
+
+# Generate a device specification JSON file for an emulator or device
+bundletool get-device-spec --output=<path_to_file.json>
+
+# Verify a bundle and display detailed information about it
+bundletool validate --bundle=<path_to_bundle.aab>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-rename-tag.md
+
+% git-rename-tag, common
+
+# Rename an existing Git tag locally and remotely
+git rename-tag <old_tag_name> <new_tag_name>

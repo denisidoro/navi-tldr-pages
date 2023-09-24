@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/test-json.md
+
+% test-json, windows
+
+# Test if a string from `stdin` is in JSON format
+'<string>' | Test-Json
+
+# Test if a string JSON format
+Test-Json -Json '<json_to_test>'
+
+# Test if a string from `stdin` matches a specific schema file
+'<string>' | Test-Json -SchemaFile <path\to\schema_file.json>

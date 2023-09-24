@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/bless.md
+
+% bless, osx
+
+# Bless a volume with only Mac OS X or Darwin, and create the BootX and `boot.efi` files as needed
+bless --folder <Volumes_Mac OS X_System_Library_CoreServices> --bootinfo --bootefi
+
+# Set a volume containing either Mac OS 9 and Mac OS X to be the active volume
+bless --mount <Volumes_Mac OS> --setBoot
+
+# Set the system to NetBoot and broadcast for an available server
+bless --netboot --server <bsdp:__255.255.255.255>
+
+# Gather information about the currently selected volume (as determined by the firmware), suitable for piping to a program capable of parsing Property Lists
+bless --info --plist

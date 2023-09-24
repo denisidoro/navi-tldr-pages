@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pueue-follow.md
+
+% pueue-follow, common
+
+# Follow the output of a task (`stdout` + `stderr`)
+pueue follow <task_id>
+
+# Follow `stderr` of a task
+pueue follow --err <task_id>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sqlite-utils.md
+
+% sqlite-utils, common
+
+# Create a database
+sqlite-utils create-database <path_to_database.db>
+
+# Create a table
+sqlite-utils create-table <path_to_database.db> <table_name> <id integer name text height float photo blob --pk id>
+
+# List tables
+sqlite-utils tables <path_to_database.db>
+
+# Upsert a record
+{{echo '[ {"id": 1, "name": "Linus Torvalds"}, {"id": 2, "name": "Steve Wozniak"}, {"id": 3, "name": "Tony Hoare"} ]'}} | sqlite-utils upsert <path_to_database.db> <table_name> - <--pk id>
+
+# Select records
+sqlite-utils rows <path_to_database.db> <table_name>
+
+# Delete a record
+sqlite-utils query <path_to_database.db> "<delete from table_name where name = 'Tony Hoare'>"
+
+# Drop a table
+sqlite-utils drop-table <path_to_database.db> <table_name>
+
+# Show help information
+sqlite-utils -h

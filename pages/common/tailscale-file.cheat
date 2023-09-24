@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tailscale-file.md
+
+% tailscale-file, common
+
+# Send a file to a specific node
+sudo tailscale file cp <path_to_file> <hostname|ip>:
+
+# Store files that were sent to the current node into a specific directory
+sudo tailscale file get <path_to_directory>

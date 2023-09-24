@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fossil-commit.md
+
+% fossil-commit, common
+
+# Create a new version containing all the changes in the current checkout; user will be prompted for a comment
+fossil commit
+
+# Create a new version containing all the changes in the current checkout, using the specified comment
+fossil commit --comment "<comment>"
+
+# Create a new version containing all the changes in the current checkout with a comment read from a specific file
+fossil commit --message-file <path_to_commit_message_file>
+
+# Create a new version containing changes from the specified files; user will be prompted for a comment
+fossil commit <path_to_file1> <path_to_file2>

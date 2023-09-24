@@ -4,10 +4,10 @@
 % detox, common
 
 # Remove spaces and other undesirable characters from a file's name
-detox <file>
+detox <path_to_file>
 
-# Show how detox would rename all of the files in a directory tree
-detox --dry-run -r <directory>
+# Show how detox would rename all the files in a directory tree
+detox --dry-run -r <path_to_directory>
 
 # Remove spaces and other undesirable characters from all files in a directory tree
-detox -r <directory>
+detox -r <path_to_directory>

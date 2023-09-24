@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sup.md
+
+% sup, common
+
+# Add an article to the RSS feed
+sup <path_to_file.html>

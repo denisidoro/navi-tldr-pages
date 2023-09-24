@@ -3,11 +3,11 @@
 
 % apm, common
 
-# Install packages from http://atom.io/packages and themes from http://atom.io/themes
-apm install <package_name>
+# Install a package from <http://atom.io/packages> or a theme from <http://atom.io/themes>
+apm install <package>
 
-# Remove packages/themes
-apm remove <package_name>
+# Remove a package/theme
+apm remove <package>
 
-# Upgrade packages/themes
-apm upgrade <package_name>
+# Upgrade a package/theme
+apm upgrade <package>

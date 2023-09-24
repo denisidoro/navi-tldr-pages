@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/qm-nbdstop.md
+
+% qm-nbdstop, common
+
+# Stop embedded nbd server
+qm nbdstop <VM_ID>

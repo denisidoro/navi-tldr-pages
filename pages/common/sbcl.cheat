@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sbcl.md
+
+% sbcl, common
+
+# Start a REPL (interactive shell)
+sbcl
+
+# Execute a Lisp script
+sbcl --script <path_to_script.lisp>

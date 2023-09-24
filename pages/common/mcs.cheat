@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mcs.md
+
+% mcs, common
+
+# Compile the specified files
+mcs <path_to_input_file1.cs path_to_input_file2.cs ...>
+
+# Specify the output program name
+mcs -out:<path_to_file.exe> <path_to_input_file1.cs path_to_input_file2.cs ...>
+
+# Specify the output program type
+mcs -target:<exe|winexe|library|module> <path_to_input_file1.cs path_to_input_file2.cs ...>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/typst.md
+
+% typst, common
+
+# List all discoverable fonts in the system and the given directory
+typst --font-path <path_to_fonts_directory> fonts
+
+# Compile a Typst file
+typst compile <path_to_source.typ> <path_to_output.pdf>
+
+# Watch a Typst file and recompile on changes
+typst watch <path_to_source.typ> <path_to_output.pdf>

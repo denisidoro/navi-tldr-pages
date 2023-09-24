@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-unlock.md
+
+% qm-unlock, linux
+
+# Unlock a specific virtual machine
+qm unlock <vm_id>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/export.md
+
+% export, common
+
+# Set a new environment variable
+export <VARIABLE>=<value>
+
+# Remove an environment variable
+export -n <VARIABLE>
+
+# Mark a shell function for export
+export -f <FUNCTION_NAME>
+
+# Append something to the PATH variable
+export PATH=$PATH:<path_to_append>

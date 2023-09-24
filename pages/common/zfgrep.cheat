@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zfgrep.md
+
+% zfgrep, common
+
+# Search for an exact string in a file
+zfgrep <search_string> <path_to_file>
+
+# Count the number of lines that match the given string in a file
+zfgrep --count <search_string> <path_to_file>
+
+# Show the line number in the file along with the matching lines
+zfgrep --line-number <search_string> <path_to_file>
+
+# Display all lines except those that contain the search string
+zfgrep --invert-match <search_string> <path_to_file>
+
+# List only filenames whose content matches the search string at least once
+zfgrep --files-with-matches <search_string> <path_to_file1 path_to_file2 ...>

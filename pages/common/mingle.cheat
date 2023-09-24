@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mingle.md
+
+% mingle, common
+
+# Bundle the edges of one or more graph layouts (that already have layout information)
+mingle <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
+
+# Perform layout, bundling, and output to a picture with one command
+dot <path_to_input.gv> | mingle | dot -T <png> > <path_to_output.png>
+
+# Display help for `mingle`
+mingle -?

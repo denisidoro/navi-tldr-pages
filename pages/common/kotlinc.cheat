@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kotlinc.md
+
+% kotlinc, common
+
+# Start a REPL (interactive shell)
+kotlinc
+
+# Compile a Kotlin file
+kotlinc <path_to_file.kt>
+
+# Compile several Kotlin files
+kotlinc <path_to_file1.kt path_to_file2.kt ...>
+
+# Execute a specific Kotlin Script file
+kotlinc -script <path_to_file.kts>
+
+# Compile a Kotlin file into a self contained jar file with the Kotlin runtime library included
+kotlinc <path_to_file.kt> -include-runtime -d <path_to_file.jar>

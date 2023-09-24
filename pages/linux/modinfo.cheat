@@ -7,4 +7,4 @@
 modinfo <kernel_module>
 
 # List the specified attribute only
-modinfo -F <author_description_license_parm_filename> <kernel_module>
+modinfo -F <author|description|license|parm|filename> <kernel_module>

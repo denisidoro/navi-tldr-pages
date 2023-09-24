@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nitrogen.md
+
+% nitrogen, linux
+
+# View and set the wallpapers from a specific directory
+nitrogen <path_to_directory>
+
+# Set the wallpaper with automatic size settings
+nitrogen --set-auto <path_to_file>
+
+# Restore the previous wallpaper
+nitrogen --restore

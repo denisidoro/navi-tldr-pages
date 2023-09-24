@@ -9,7 +9,7 @@ gource <path_to_repository>
 # Run gource in the current directory, with a custom output resolution
 gource -<width>x<height>
 
-# Set a custom time scale for the animation
+# Set a custom timescale for the animation
 gource -c <time_scale_multiplier>
 
 # Set how long each day should be in the animation (this combines with -c, if provided)

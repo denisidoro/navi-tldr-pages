@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pyinfra.md
+
+% pyinfra, common
+
+# Execute a command over SSH
+pyinfra <target_ip_address> exec -- <command_name_and_arguments>
+
+# Execute contents of a deploy file on a list of targets
+pyinfra <path_to_target_list.py> <path_to_deploy.py>
+
+# Execute commands on locally
+pyinfra @local <path_to_deploy.py>
+
+# Execute commands over Docker
+pyinfra @docker/<container> <path_to_deploy.py>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-component.md
+
+% rustup-component, common
+
+# Add a component to a toolchain
+rustup component add --toolchain <toolchain> <component>
+
+# Remove a component from a toolchain
+rustup component remove --toolchain <toolchain> <component>
+
+# List installed and available components for a toolchain
+rustup component list --toolchain <toolchain>
+
+# List installed components for a toolchain
+rustup component list --toolchain <toolchain> --installed

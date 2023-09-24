@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kinit.md
+
+% kinit, common
+
+# Authenticate a user and obtain a ticket-granting ticket
+kinit <username>
+
+# Renew a ticket-granting ticket
+kinit -R
+
+# Specify a lifetime for the ticket
+kinit -l <5h>
+
+# Specify a total renewable lifetime for the ticket
+kinit -r <1w>
+
+# Specify a different principal name to authenticate as
+kinit -p <principal@REALM>
+
+# Specify a different keytab file to authenticate with
+kinit -t <path_to_keytab>

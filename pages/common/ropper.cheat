@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ropper.md
+
+% ropper, common
+
+# List gadgets in the binary file
+ropper --file <path_to_binary>
+
+# Filter gadgets in the binary file by a regular expression
+ropper --file <path_to_binary> --search <regex>
+
+# List gadgets of specified type in the binary file
+ropper --file <path_to_binary> --type <rop|job|sys|all>
+
+# Exclude bad byte gadgets in the binary file
+ropper --file <path_to_binary> --badbytes <byte_string>
+
+# List gadgets up to the specified instruction count in the binary file
+ropper --file <path_to_binary> --inst-count <count>

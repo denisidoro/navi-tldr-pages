@@ -4,15 +4,15 @@
 % eix, linux
 
 # Search for a package
-eix <package_name>
+eix <query>
 
 # Search for installed packages
-eix --installed <package_name>
+eix --installed <query>
 
-# Seach in package descriptions
+# Search in package descriptions
 eix --description "<description>"
 
-# Seach by package license
+# Search by package license
 eix --license <license>
 
 # Exclude results from search

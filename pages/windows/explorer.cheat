@@ -10,4 +10,4 @@ explorer
 explorer .
 
 # Open Windows Explorer in a specific directory
-explorer <path_to_directory>
+explorer <path\to\directory>

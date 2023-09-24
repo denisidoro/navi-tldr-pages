@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virsh-pool-start.md
+
+% virsh-pool-start, common
+
+# Start the storage pool specified by name or UUID (determine using `virsh pool-list`) and create the underlying storage system if it doesn't exist
+virsh pool-start --pool <name|uuid> --build

@@ -4,10 +4,10 @@
 % protoc, common
 
 # Generate Python code from a `.proto` file
-protoc --python_out=<path_to_output_directory> <input_file_proto>
+protoc --python_out=<path_to_output_directory> <input_file.proto>
 
 # Generate Java code from a `.proto` file that imports other `.proto` files
-protoc --java_out=<path_to_output_directory> --proto_path=<path_to_import_search_path> <input_file_proto>
+protoc --java_out=<path_to_output_directory> --proto_path=<path_to_import_search_path> <input_file.proto>
 
 # Generate code for multiple languages
-protoc --csharp_out=<path_to_c__output_directory> --js_out=<path_to_js_output_directory> <input_file_proto>
+protoc --csharp_out=<path_to_c#_output_directory> --js_out=<path_to_js_output_directory> <input_file.proto>

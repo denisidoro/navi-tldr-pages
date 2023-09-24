@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-validate.md
+
+% xml-validate, common
+
+# Validate one or more XML documents for well-formedness only
+xml validate <path_to_input1.xml|URI> <input2.xml ...>
+
+# Validate one or more XML documents against a Document Type Definition (DTD)
+xml validate --dtd <path_to_schema.dtd> <path_to_input1.xml|URI> <input2.xml ...>
+
+# Validate one or more XML documents against an XML Schema Definition (XSD)
+xml validate --xsd <path_to_schema.xsd> <path_to_input1.xml|URI> <input2.xml ...>
+
+# Validate one or more XML documents against a Relax NG schema (RNG)
+xml validate --relaxng <path_to_schema.rng> <path_to_input1.xml|URI> <input2.xml ...>
+
+# Display help for the `validate` subcommand
+xml validate --help

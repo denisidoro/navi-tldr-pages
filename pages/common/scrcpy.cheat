@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/scrcpy.md
+
+% scrcpy, common
+
+# Display a mirror of a connected device
+scrcpy
+
+# Display a mirror of a specific device based on its ID or IP address (find it under the `adb devices` command)
+scrcpy --serial <0123456789abcdef|192.168.0.1:5555>
+
+# Start display in fullscreen mode
+scrcpy --fullscreen
+
+# Rotate the display screen. Each incremental value adds a 90 degree counterclockwise rotation
+scrcpy --rotation <0|1|2|3>
+
+# Show touches on physical device
+scrcpy --show-touches
+
+# Record display screen
+scrcpy --record <path_to_file.mp4>
+
+# Set target directory for pushing files to device by drag and drop (non-APK)
+scrcpy --push-target <path_to_directory>

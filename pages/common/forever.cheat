@@ -10,4 +10,4 @@ forever <script>
 forever list
 
 # Stop a running "forever" process
-forever stop <ID_pid_script>
+forever stop <ID|pid|script>

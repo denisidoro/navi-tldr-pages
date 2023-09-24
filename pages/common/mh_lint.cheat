@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mh_lint.md
+
+% mh_lint, common
+
+# Check the current directory
+mh_lint
+
+# Check a specific directory recursively
+mh_lint <path_to_directory>
+
+# Check a MATLAB file
+mh_lint <path_to_file.m>
+
+# Check an Octave file
+mh_lint --octave <path_to_file.m>

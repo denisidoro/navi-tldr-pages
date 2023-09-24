@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-alias.md
+
+% git-alias, common
+
+# List all aliases
+git alias
+
+# Create a new alias
+git alias "<name>" "<command>"
+
+# Search for an existing alias
+git alias ^<name>

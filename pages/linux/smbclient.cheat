@@ -4,19 +4,22 @@
 % smbclient, linux
 
 # Connect to a share (user will be prompted for password; `exit` to quit the session)
-smbclient <__server_share>
+smbclient <_server_share>
 
 # Connect with a different username
-smbclient <__server_share> --user <username>
+smbclient <_server_share> --user <username>
 
 # Connect with a different workgroup
-smbclient <__server_share> --workgroup <domain> --user <username>
+smbclient <_server_share> --workgroup <domain> --user <username>
 
 # Connect with a username and password
-smbclient <__server_share> --user <username_password>
+smbclient <_server_share> --user <username%password>
 
 # Download a file from the server
-smbclient <__server_share> --directory <path_to_directory> --command "get <file_txt>"
+smbclient <_server_share> --directory <path_to_directory> --command "get <file.txt>"
 
 # Upload a file to the server
-smbclient <__server_share> --directory <path_to_directory> --command "put <file_txt>"
+smbclient <_server_share> --directory <path_to_directory> --command "put <file.txt>"
+
+# List the shares from a server anonymously
+smbclient --list=<server> --no-pass

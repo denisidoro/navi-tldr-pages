@@ -4,13 +4,13 @@
 % deluge, common
 
 # Download a torrent
-deluge <url_magnet_path_to_file>
+deluge <url|magnet|path_to_file>
 
 # Download a torrent using a specific configuration file
-deluge -c <path_to_configuration_file> <url_magnet_path_to_file>
+deluge -c <path_to_configuration_file> <url|magnet|path_to_file>
 
 # Download a torrent and launch the specified user interface
-deluge -u <gtk_web_console> <url_magnet_path_to_file>
+deluge -u <gtk|web|console> <url|magnet|path_to_file>
 
 # Download a torrent and output the log to a file
-deluge -l <path_to_log_file> <url_magnet_path_to_file>
+deluge -l <path_to_log_file> <url|magnet|path_to_file>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ledctl.md
+
+% ledctl, linux
+
+# Turn on the "Locate" LED for specified device(s)
+sudo ledctl locate=<dev_sda,_dev_sdb,...>
+
+# Turn off the "Locate" LED for specified device(s)
+sudo ledctl locate_off=<dev_sda,_dev_sdb,...>
+
+# Turn off the "Status" LED and "Failure" LED for specified device(s)
+sudo ledctl off=<dev_sda,_dev_sdb,...>
+
+# Turn off the "Status" LED, "Failure" LED and "Locate" LED for specified device(s)
+sudo ledctl normal=<dev_sda,_dev_sdb,...>

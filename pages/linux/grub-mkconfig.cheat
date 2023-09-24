@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/grub-mkconfig.md
+
+% grub-mkconfig, linux
+
+# Do a dry run and print the configuration to `stdout`
+sudo grub-mkconfig
+
+# Generate the configuration file
+sudo grub-mkconfig --output=<boot_grub_grub.cfg>
+
+# Print the help page
+grub-mkconfig --help

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/tune2fs.md
+
+% tune2fs, linux
+
+# Set the max number of counts before a filesystem is checked to 2
+tune2fs -c <2> <dev_sdXN>
+
+# Set the filesystem label to MY_LABEL
+tune2fs -L <'MY_LABEL'> <dev_sdXN>
+
+# Enable discard and user-specified extended attributes for a filesystem
+tune2fs -o <discard,user_xattr> <dev_sdXN>
+
+# Enable journaling for a filesystem
+tune2fs -o^<nobarrier> <dev_sdXN>

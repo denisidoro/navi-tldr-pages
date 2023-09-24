@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pyrit.md
+
+% pyrit, linux
+
+# Display system cracking speed
+pyrit benchmark
+
+# List available cores
+pyrit list_cores
+
+# Set [e]SSID
+pyrit -e "<ESSID>" create_essid
+
+# [r]ead and analyze a specific packet capture file
+pyrit -r <path_to_file.cap|path_to_file.pcap> analyze
+
+# Read and [i]mport passwords to the current database
+pyrit -i <path_to_file> <import_unique_passwords|unique_passwords|import_passwords>
+
+# Exp[o]rt passwords from database to a specific file
+pyrit -o <path_to_file> export_passwords
+
+# Translate passwords with Pired Master Keys
+pyrit batch
+
+# [r]ead the capture file and crack the password
+pyrit -r <path_to_file> attack_db

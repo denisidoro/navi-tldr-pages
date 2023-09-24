@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/parquet-tools.md
+
+% parquet-tools, common
+
+# Display the content of a Parquet file
+parquet-tools cat <path_to_parquet>
+
+# Display the first few lines of a Parquet file
+parquet-tools head <path_to_parquet>
+
+# Print the schema of a Parquet file
+parquet-tools schema <path_to_parquet>
+
+# Print the metadata of a Parquet file
+parquet-tools meta <path_to_parquet>
+
+# Print the content and metadata of a Parquet file
+parquet-tools dump <path_to_parquet>
+
+# Concatenate several Parquet files into the target one
+parquet-tools merge <path_to_parquet1> <path_to_parquet2> <path_to_target_parquet>
+
+# Print the count of rows in a Parquet file
+parquet-tools rowcount <path_to_parquet>
+
+# Print the column and offset indexes of a Parquet file
+parquet-tools column-index <path_to_parquet>

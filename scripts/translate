@@ -1,25 +1,13 @@
 #!/usr/bin/env bash
+
 set -euo pipefail
 
 ESCAPE_CHAR="$(printf "\034")"
 
-extract_variables() {
-    grep -Eo '{{[^}]+}}' \
-        | sed -E 's/^{{//' \
-        | sed -E 's/}}$//g' \
-        | sort -u
-}
-
 sanitize_variables() {
     local txt="$(cat)"
-    local -r vars="$(echo "$txt" | extract_variables)"
-    local sanitized_v
+    txt=$(echo "$txt" | python3 ./scripts/trans.py )
 
-    for v in $vars; do
-        sanitized_v="$(echo "$v" | sed 's/[^a-zA-Z0-9_]/_/g')"
-        txt="$(echo "$txt" | sed "s${ESCAPE_CHAR}{{${v}}}${ESCAPE_CHAR}<${sanitized_v}>${ESCAPE_CHAR}g")"        
-    done
-    
     echo "$txt"
 }
 
@@ -77,3 +65,7 @@ for f in $(find_markdowns); do
     printf "Exporting $f: "
     export_markdown "$f" && echo "success" || echo "failed"
 done
+
+# format_markdown_file "./tldr/pages/common/gh-completion.md"
+# format_markdown_file "./tldr/pages/common/2to3.md"
+# format_markdown_file "./tldr/pages/common/apm.md"

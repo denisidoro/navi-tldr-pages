@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ccomps.md
+
+% ccomps, common
+
+# Decompose one or more graphs into their connected components
+ccomps <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
+
+# Print the number of nodes, edges, and connected components in one or more graphs
+ccomps -v -s <path_to_input1.gv> <path_to_input2.gv ...>
+
+# Write each connected component to numbered filenames based on `output.gv`
+ccomps -x -o <path_to_output.gv> <path_to_input1.gv> <path_to_input2.gv ...>
+
+# Display help for `ccomps`
+ccomps -?

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virsh-pool-autostart.md
+
+% virsh-pool-autostart, common
+
+# Enable autostart for the storage pool specified by name or UUID (determine using `virsh pool-list`)
+virsh pool-autostart --pool <name|uuid>
+
+# Disable autostart for the storage pool specified by name or UUID
+virsh pool-autostart --pool <name|uuid> --disable

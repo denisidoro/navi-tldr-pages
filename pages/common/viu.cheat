@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/viu.md
+
+% viu, common
+
+# Render an image or animated GIF
+viu <path_to_file>
+
+# Render an image or GIF from the internet using `curl`
+curl -s <https:__example.com_image.png> | viu -
+
+# Render an image with a transparent background
+viu -t <path_to_file>
+
+# Render an image with a specific width and height in pixels
+viu -w <width> -h <height> <path_to_file>
+
+# Render an image or GIF and display its file name
+viu -n <path_to_file>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xar.md
+
+% xar, common
+
+# Create a xar archive of all files in a given directory
+xar -cf <archive.xar> <path_to_directory>
+
+# List the contents of a given xar archive
+xar -tf <archive.xar>
+
+# Extract the contents of a given xar archive to the current directory
+xar -xf <archive.xar>

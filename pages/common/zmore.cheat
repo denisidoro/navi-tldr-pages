@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zmore.md
+
+% zmore, common
+
+# Open a compressed file
+zmore <path_to_file.txt.gz>
+
+# Display the next page of the file
+<Space>
+
+# Search for a pattern in the file (press `n` to go to next match)
+/<regular_expression>
+
+# Exit
+q
+
+# Display interactive command help
+h

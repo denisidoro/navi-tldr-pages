@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mysqld.md
+
+% mysqld, common
+
+# Start the MySQL database server
+mysqld
+
+# Start the server, printing error messages to the console
+mysqld --console
+
+# Start the server, saving logging output to a custom log file
+mysqld --log=<path_to_file.log>
+
+# Print the default arguments and their values and exit
+mysqld --print-defaults
+
+# Start the server, reading arguments and values from a file
+mysqld --defaults-file=<path_to_file>
+
+# Start the server and listen on a custom port
+mysqld --port=<port>
+
+# Show all help options and exit
+mysqld --verbose --help

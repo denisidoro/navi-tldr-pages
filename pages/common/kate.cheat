@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kate.md
+
+% kate, common
+
+# Open specific files
+kate <path_to_file1 path_to_file2 ...>
+
+# Open specific remote files
+kate <https:__example.com_path_to_file1 https:__example.com_path_to_file2 ...>
+
+# Create a new editor instance even if one is already open
+kate --new
+
+# Open a file with the cursor at the specific line
+kate --line <line_number> <path_to_file>
+
+# Open a file with the cursor at the specific line and column
+kate --line <line_number> --column <column_number> <path_to_file>
+
+# Create a file from `stdin`
+cat <path_to_file> | kate --stdin
+
+# Display help
+kate --help

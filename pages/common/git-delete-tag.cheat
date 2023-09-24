@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-delete-tag.md
+
+% git-delete-tag, common
+
+# Delete a tag
+git delete-tag <tag_version>

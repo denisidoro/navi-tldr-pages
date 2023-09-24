@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/doctum.md
+
+% doctum, common
+
+# Parse a project
+doctum parse
+
+# Render a project
+doctum render
+
+# Parse then render a project
+doctum update
+
+# Parse and render only a specific version of a project
+doctum update --only-version=<version>
+
+# Parse and render a project using a specific configuration
+doctum update <path_to_config.php>

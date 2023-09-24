@@ -6,7 +6,7 @@
 # Get the battery status
 m battery status
 
-# Turn off bluetooth
+# Turn off Bluetooth
 m bluetooth off
 
 # List available filesystems for formatting

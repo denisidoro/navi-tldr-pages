@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dconf-reset.md
+
+% dconf-reset, linux
+
+# Reset a specific key value
+dconf read <path_to_key>
+
+# Reset a specific directory
+dconf read -d <path_to_directory_>

@@ -6,7 +6,7 @@
 # Run a command as a daemon
 daemonize <command> <command_arguments>
 
-# Write the pid to the specified file
+# Write the PID to the specified file
 daemonize -p <path_to_pidfile> <command> <command_arguments>
 
 # Use a lock file to ensure that only one instance runs at a time

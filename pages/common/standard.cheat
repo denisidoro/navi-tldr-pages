@@ -7,7 +7,7 @@
 standard
 
 # Lint specific JavaScript file(s)
-standard <path_to_file_s_>
+standard <path_to_file1 path_to_file2 ...>
 
 # Apply automatic fixes during linting
 standard --fix

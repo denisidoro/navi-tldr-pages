@@ -16,4 +16,4 @@ vlc --no-audio <path_to_file>
 vlc --loop <path_to_file>
 
 # Play video from a URL
-vlc <https___www_youtube_com_watch_v_oHg5SJYRHA0>
+vlc <https:__www.youtube.com_watch?v=oHg5SJYRHA0>

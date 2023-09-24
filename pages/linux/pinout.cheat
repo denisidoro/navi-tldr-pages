@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pinout.md
+
+% pinout, linux
+
+# View the pinout information and GPIO header diagram for the current Raspberry Pi
+pinout
+
+# Open <https://pinout.xyz/> in the default browser
+pinout -x

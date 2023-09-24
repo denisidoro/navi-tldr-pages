@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lambo.md
+
+% lambo, common
+
+# Create a new Laravel application
+lambo new <app_name>
+
+# Open the configuration in your default editor
+lambo edit-config
+
+# Open the configuration in a specific editor
+lambo edit-config --editor="<path_to_editor>"
+
+# Open the configuration file that is run after new applications have been scaffolded
+lambo edit-after

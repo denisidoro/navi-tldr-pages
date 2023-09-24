@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/atool.md
+
+% atool, linux
+
+# List files in a zip archive
+atool --list <path_to_archive.zip>
+
+# Unpack a tar.gz archive into a new subdirectory (or current directory if it contains only one file)
+atool --extract <path_to_archive.tar.gz>
+
+# Create a new 7zip archive with two files
+atool --add <path_to_archive.7z> <path_to_file1 path_to_file2 ...>
+
+# Extract all zip and rar archives in the current directory
+atool --each --extract <*.zip *.rar>

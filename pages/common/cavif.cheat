@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cavif.md
+
+% cavif, common
+
+# Convert a JPEG file to AVIF
+cavif <path_to_file.jpg>
+
+# Adjust the image quality (1-100) and convert a PNG file to AVIF
+cavif --quality <60> <path_to_file.png>
+
+# Set the output location explicitly
+cavif <path_to_file.jpg> --output <path_to_file.avif>
+
+# Overwrite the destination file if it already exists
+cavif --overwrite <path_to_file.jpg>

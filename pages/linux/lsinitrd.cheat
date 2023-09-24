@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lsinitrd.md
+
+% lsinitrd, linux
+
+# Show the contents of the initramfs image for the current kernel
+lsinitrd
+
+# Show the contents of the initramfs image for the specified kernel
+lsinitrd --kver <kernel_version>
+
+# Show the contents of the specified initramfs image
+lsinitrd <path_to_initramfs.img>
+
+# List modules included in the initramfs image
+lsinitrd --mod
+
+# Unpack the initramfs to the current directory
+lsinitrd --unpack

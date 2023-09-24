@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mods.md
+
+% mods, common
+
+# Ask a generic question
+mods "<write me a poem about platypuses>"
+
+# Open settings in your `$EDITOR`
+mods --settings
+
+# Ask for comments on your code, in markdown format
+mods --format "<what are your thoughts on improving this code?>" < <path_to_file>
+
+# Ask for help with your documentation, in markdown format
+mods --format "<write a new section to this readme for a feature that sends you a free rabbit if you hit r>" < <README.md>
+
+# Organize your videos, in markdown format
+ls <path_to_videos> | mods --format "<organize these by decade and summarize>"
+
+# Read through raw HTML and summarize the contents, in markdown format
+curl "<https:__api.open-meteo.com_v1_forecast?latitude=29.00&longitude=-90.00&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m>" | mods --format "<summarize this weather data for a human>"
+
+# Display help and exit
+mods --help

@@ -7,10 +7,10 @@
 ltrace ./<program>
 
 # Count library calls. Print a handy summary at the bottom
-ltrace -c <_path_to_program>
+ltrace -c <path_to_program>
 
 # Trace calls to malloc and free, omit those done by libc
-ltrace -e malloc+free-@libc.so* <_path_to_program>
+ltrace -e malloc+free-@libc.so* <path_to_program>
 
 # Write to file instead of terminal
-ltrace -o <file> <_path_to_program>
+ltrace -o <file> <path_to_program>

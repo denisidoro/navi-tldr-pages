@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rpm2cpio.md
+
+% rpm2cpio, linux
+
+# Convert an RPM package to a `cpio` archive and save it as `file.cpio` in the current directory
+rpm2cpio <path_to_file.rpm>}

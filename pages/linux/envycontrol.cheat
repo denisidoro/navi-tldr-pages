@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/envycontrol.md
+
+% envycontrol, linux
+
+# Switch between different GPU modes
+sudo envycontrol -s <nvidia|integrated|hybrid>
+
+# Specify your display manager manually
+envycontrol --dm
+
+# Check current GPU mode
+sudo envycontrol --query
+
+# Reset settings
+sudo envycontrol --reset
+
+# Display version
+envycontrol --version
+
+# Display help
+envycontrol --help

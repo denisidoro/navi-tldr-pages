@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wfuzz.md
+
+% wfuzz, common
+
+# Directory and file bruteforce using the specified wordlist and also proxying the traffic
+wfuzz -w <path_to_file> -p <127.0.0.1:8080> <http:__example.com_FUZZ>
+
+# Save the results to a file
+wfuzz -w <path_to_file> -f <filename> <http:__example.com_FUZZ>
+
+# Show colorized output while only showing the declared response codes in the output
+wfuzz -c -w <path_to_file> --sc <200,301,302> <http:__example.com_FUZZ>
+
+# Use a custom header to fuzz subdomains while hiding specific response codes and word counts. Increase the threads to 100 and include the target ip/domain
+wfuzz -w <path_to_file> -H <"Host: FUZZ.example.com"> --hc <301> --hw <222> -t <100> <example.com>

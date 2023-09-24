@@ -16,4 +16,4 @@ sysctl -n machdep.cpu.brand_string
 sysctl -n machdep.cpu.features
 
 # Set a changeable kernel state variable
-sysctl -w <section_tunable>=<value>
+sysctl -w <section.tunable>=<value>

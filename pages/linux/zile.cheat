@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/zile.md
+
+% zile, linux
+
+# Start a buffer for temporary notes, which won't be saved
+zile
+
+# Open a file
+zile <path_to_file>
+
+# Save a file
+Ctrl + X, Ctrl + S
+
+# Quit
+Ctrl + X, Ctrl + C
+
+# Open a file at a specified line number
+zile +<line_number> <path_to_file>
+
+# Undo changes
+Ctrl + X, U

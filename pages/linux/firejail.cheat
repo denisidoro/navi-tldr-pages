@@ -10,7 +10,7 @@ sudo firecfg
 firejail <firefox>
 
 # Start a restricted Apache server on a known interface and address
-firejail --net=<eth0> --ip=<192_168_1_244> <_etc_init_d_apache2> <start>
+firejail --net=<eth0> --ip=<192.168.1.244> <etc_init.d_apache2> <start>
 
 # List running sandboxes
 firejail --list

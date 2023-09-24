@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nm-online.md
+
+% nm-online, linux
+
+# Find out whether the network is connected and print the result to `stdout`
+nm-online
+
+# Wait `n` seconds for a connection (30 by default)
+nm-online --timeout <n>

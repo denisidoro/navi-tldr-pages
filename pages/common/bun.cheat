@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bun.md
+
+% bun, common
+
+# Run a JavaScript file or a `package.json` script
+bun run <path_to_file|script_name>
+
+# Run unit tests
+bun test
+
+# Download and install all the packages listed as dependencies in `package.json`
+bun install
+
+# Add a dependency to `package.json`
+bun add <module_name>
+
+# Remove a dependency from `package.json`
+bun remove <module_name>
+
+# Create a new Bun project in the current directory
+bun init
+
+# Start a REPL (interactive shell)
+bun repl
+
+# Upgrade Bun to the latest version
+bun upgrade

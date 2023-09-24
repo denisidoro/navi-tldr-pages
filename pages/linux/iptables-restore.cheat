@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/iptables-restore.md
+
+% iptables-restore, linux
+
+# Restore the `iptables` configuration from a file
+sudo iptables-restore <path_to_file>

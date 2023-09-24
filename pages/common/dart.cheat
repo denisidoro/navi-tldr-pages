@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dart.md
+
+% dart, common
+
+# Initialize a new Dart project in a directory of the same name
+dart create <project_name>
+
+# Run a Dart file
+dart run <path_to_file.dart>
+
+# Download dependencies for the current project
+dart pub get
+
+# Run unit tests for the current project
+dart test
+
+# Update an outdated project's dependencies to support null-safety
+dart pub upgrade --null-safety
+
+# Compile a Dart file to a native binary
+dart compile exe <path_to_file.dart>

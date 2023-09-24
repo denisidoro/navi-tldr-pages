@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vale.md
+
+% vale, common
+
+# Check the style of a file
+vale <path_to_file>
+
+# Check the style of a file with a specified configuration
+vale --config='<path_to_.vale.ini>' <path_to_file>
+
+# Output the results in JSON format
+vale --output=JSON <path_to_file>
+
+# Check style issues at the specific severity and higher
+vale --minAlertLevel=<suggestion|warning|error> <path_to_file>
+
+# Check the style from `stdin`, specifying markup format
+cat <file.md> | vale --ext=.md
+
+# List the current configuration
+vale ls-config

@@ -4,7 +4,7 @@
 % spfquery, common
 
 # Check if an IP address is allowed to send an e-mail from the specified e-mail address
-spfquery -ip <8_8_8_8> -sender <sender_example_com>
+spfquery -ip <8.8.8.8> -sender <sender@example.com>
 
 # Turn on debugging output
-spfquery -ip <8_8_8_8> -sender <sender_example_com> --debug
+spfquery -ip <8.8.8.8> -sender <sender@example.com> --debug

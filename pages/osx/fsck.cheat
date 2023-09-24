@@ -3,14 +3,14 @@
 
 % fsck, osx
 
-# Check filesystem /dev/sda, reporting any damaged blocks
-fsck <_dev_sda>
+# Check filesystem `/dev/sdX`, reporting any damaged blocks
+fsck <dev_sdX>
 
-# Check filesystem /dev/sda only if it is clean, reporting any damaged blocks and interactively letting the user choose to repair each one
-fsck -f <_dev_sda>
+# Check filesystem `/dev/sdX` only if it is clean, reporting any damaged blocks and interactively letting the user choose to repair each one
+fsck -f <dev_sdX>
 
-# Check filesystem /dev/sda only if it is clean, reporting any damaged blocks and automatically repairing them
-fsck -fy <_dev_sda>
+# Check filesystem `/dev/sdX` only if it is clean, reporting any damaged blocks and automatically repairing them
+fsck -fy <dev_sdX>
 
-# Check filesystem /dev/sda, reporting whether it has been cleanly unmounted
-fsck -q <_dev_sda>
+# Check filesystem `/dev/sdX`, reporting whether it has been cleanly unmounted
+fsck -q <dev_sdX>

@@ -3,8 +3,8 @@
 
 % hg-init, common
 
-# Initialise a new repository in the current directory
+# Initialize a new repository in the current directory
 hg init
 
-# Initialise a new repository in the specified directory
+# Initialize a new repository in the specified directory
 hg init <path_to_directory>

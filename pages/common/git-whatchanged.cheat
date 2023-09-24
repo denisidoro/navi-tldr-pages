@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-whatchanged.md
+
+% git-whatchanged, common
+
+# Display logs and changes for recent commits
+git whatchanged
+
+# Display logs and changes for recent commits within the specified time frame
+git whatchanged --since="<2 hours ago>"
+
+# Display logs and changes for recent commits for specific files or directories
+git whatchanged <path_to_file_or_directory>

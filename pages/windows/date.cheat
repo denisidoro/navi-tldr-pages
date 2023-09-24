@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/date.md
+
+% date, windows
+
+# Display the current system date and prompt to enter a new date (leave empty to keep unchanged)
+date
+
+# Display the current system date without prompting for a new date
+date /t
+
+# Change the current system date to a specific date
+date <month>-<day>-<year>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/addr2line.md
+
+% addr2line, linux
+
+# Display the filename and line number of the source code from an instruction address of an executable
+addr2line --exe=<path_to_executable> <address>
+
+# Display the function name, filename and line number
+addr2line --exe=<path_to_executable> --functions <address>
+
+# Demangle the function name for C++ code
+addr2line --exe=<path_to_executable> --functions --demangle <address>

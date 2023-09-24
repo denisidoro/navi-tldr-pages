@@ -4,13 +4,22 @@
 % fdupes, common
 
 # Search a single directory
-fdupes <directory>
+fdupes <path_to_directory>
 
 # Search multiple directories
 fdupes <directory1> <directory2>
 
-# Search all directories recursively
-fdupes -r <directory>
+# Search a directory recursively
+fdupes -r <path_to_directory>
 
 # Search multiple directories, one recursively
 fdupes <directory1> -R <directory2>
+
+# Search recursively and replace duplicates with hardlinks
+fdupes -rH <path_to_directory>
+
+# Search recursively for duplicates and display interactive prompt to pick which ones to keep, deleting the others
+fdupes -rd <path_to_directory>
+
+# Search recursively and delete duplicates without prompting
+fdupes -rdN <path_to_directory>

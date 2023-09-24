@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pio-check.md
+
+% pio-check, common
+
+# Perform a basic analysis check on the current project
+pio check
+
+# Perform a basic analysis check on a specific project
+pio check --project-dir <project_dir>
+
+# Perform an analysis check for a specific environment
+pio check --environment <environment>
+
+# Perform an analysis check and only report a specified defect severity type
+pio check --severity <low|medium|high>
+
+# Perform an analysis check and show detailed information when processing environments
+pio check --verbose

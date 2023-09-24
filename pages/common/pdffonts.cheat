@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdffonts.md
+
+% pdffonts, common
+
+# Print PDF file fonts information
+pdffonts <path_to_file.pdf>
+
+# Specify user password for PDF file to bypass security restrictions
+pdffonts -upw <password> <path_to_file.pdf>
+
+# Specify owner password for PDF file to bypass security restrictions
+pdffonts -opw <password> <path_to_file.pdf>
+
+# Print additional information on location of the font that will be used when the PDF file is rasterized
+pdffonts -loc <path_to_file.pdf>
+
+# Print additional information on location of the font that will be used when the PDF file is converted to PostScript
+pdffonts -locPS <path_to_file.pdf>

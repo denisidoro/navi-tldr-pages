@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ngs.md
+
+% ngs, common
+
+# Execute a code snippet
+ngs -e "<echo('ngs is executed')>"
+
+# Execute a script
+ngs <path_to_script.ngs>
+
+# Print the version
+ngs --version

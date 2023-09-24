@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/psalm.md
+
+% psalm, common
+
+# Generate a Psalm configuration
+psalm --init
+
+# Analyze the current working directory
+psalm
+
+# Analyze a specific directory or file
+psalm <path_to_file_or_directory>
+
+# Analyze a project with a specific configuration file
+psalm --config <path_to_psalm.xml>
+
+# Include informational findings in the output
+psalm --show-info
+
+# Analyze a project and display statistics
+psalm --stats
+
+# Analyze a project in parallel with 4 threads
+psalm --threads <4>

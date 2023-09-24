@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bitwise.md
+
+% bitwise, linux
+
+# Run using interactive mode
+bitwise
+
+# Convert from decimal
+bitwise <12345>
+
+# Convert from hexadecimal
+bitwise <0x563d>
+
+# Convert a C-style calculation
+bitwise "<0x123 + 0x20 - 30 _ 50>"

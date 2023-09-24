@@ -22,4 +22,4 @@ nvm uninstall <node_version>
 nvm run <node_version> --version
 
 # Execute a script in a specific version of Node.js
-nvm exec <node_version> node <app_js>
+nvm exec <node_version> node <app.js>

@@ -3,26 +3,26 @@
 
 % 7z, common
 
-# Archive a file or directory
-7z a <archived_7z> <path_to_file_or_directory>
+# [a]dd a file or directory to a new or existing archive
+7z a <path_to_archive.7z> <path_to_file_or_directory>
 
-# Encrypt an existing archive (including headers)
-7z a <encrypted_7z> -p<password> -mhe=on <archived_7z>
+# Encrypt an existing archive (including filenames)
+7z a <path_to_encrypted.7z> -p<password> -mhe=on <path_to_archive.7z>
 
-# Extract an existing 7z file with original directory structure
-7z x <archived_7z>
+# E[x]tract an archive preserving the original directory structure
+7z x <path_to_archive.7z>
 
-# Extract an archive with user-defined output path
-7z x <archived_7z> -o<path_to_output>
+# E[x]tract an archive to a specific directory
+7z x <path_to_archive.7z> -o<path_to_output>
 
-# Extract an archive to stdout
-7z x <archived_7z> -so
+# E[x]tract an archive to `stdout`
+7z x <path_to_archive.7z> -so
 
-# Archive using a specific archive type
-7z a -t<zip_gzip_bzip2_tar> <archived_7z> <path_to_file_or_directory>
+# [a]rchive using a specific archive type
+7z a -t<7z|bzip2|gzip|lzip|tar|zip> <path_to_archive.7z> <path_to_file_or_directory>
+
+# [l]ist the contents of an archive
+7z l <path_to_archive.7z>
 
 # List available archive types
 7z i
-
-# List the contents of an archive file
-7z l <archived_7z>

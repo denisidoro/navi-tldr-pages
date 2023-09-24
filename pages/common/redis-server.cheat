@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/redis-server.md
+
+% redis-server, common
+
+# Start Redis server, using the default port (6379), and write logs to `stdout`
+redis-server
+
+# Start Redis server, using the default port, as a background process
+redis-server --daemonize yes
+
+# Start Redis server, using the specified port, as a background process
+redis-server --port <port> --daemonize yes
+
+# Start Redis server with a custom configuration file
+redis-server <path_to_redis.conf>
+
+# Start Redis server with verbose logging
+redis-server --loglevel <warning|notice|verbose|debug>

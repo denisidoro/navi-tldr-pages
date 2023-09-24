@@ -4,16 +4,16 @@
 % magick, common
 
 # Convert file type
-magick <image_png> <image_jpg>
+magick <image.png> <image.jpg>
 
 # Resize an image, making a new copy
-magick convert -resize <100x100> <image_jpg> <image_jpg>
+magick convert -resize <100x100> <image.jpg> <image.jpg>
 
 # Create a GIF using images
-magick {{*.jpg}} <images_gif>
+magick <*.jpg> <images.gif>
 
 # Create checkerboard pattern
-magick -size <640x480> pattern:checkerboard <checkerboard_png>
+magick -size <640x480> pattern:checkerboard <checkerboard.png>
 
 # Convert images to individual PDF pages
-magick {{*.jpg}} +adjoin <page__d_pdf>
+magick <*.jpg> +adjoin <page-%d.pdf>

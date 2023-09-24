@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-cvsexportcommit.md
+
+% git-cvsexportcommit, common
+
+# Merge a specific patch into CVS
+git cvsexportcommit -v -c -w <path_to_project_cvs_checkout> <commit_sha1>

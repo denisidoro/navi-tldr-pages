@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/duc.md
+
+% duc, common
+
+# Index the /usr directory, writing to the default database location ~/.duc.db
+duc index <usr>
+
+# List all files and directories under /usr/local, showing relative file sizes in a [g]raph
+duc ls -Fg <usr_local>
+
+# List all files and directories under /usr/local using treeview recursively
+duc ls -Fg -R <usr_local>
+
+# Start the graphical interface to explore the file system using sunburst graphs
+duc gui <usr>
+
+# Run the ncurses console interface to explore the file system
+duc ui <usr>
+
+# Dump database info
+duc info

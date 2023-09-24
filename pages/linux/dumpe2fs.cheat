@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dumpe2fs.md
+
+% dumpe2fs, linux
+
+# Display ext2, ext3 and ext4 filesystem information
+dumpe2fs <dev_sdXN>
+
+# Display the blocks which are reserved as bad in the filesystem
+dumpe2fs -b <dev_sdXN>
+
+# Force display filesystem information even with unrecognizable feature flags
+dumpe2fs -f <dev_sdXN>
+
+# Only display the superblock information and not any of the block group descriptor detail information
+dumpe2fs -h <dev_sdXN>
+
+# Print the detailed group information block numbers in hexadecimal format
+dumpe2fs -x <dev_sdXN>

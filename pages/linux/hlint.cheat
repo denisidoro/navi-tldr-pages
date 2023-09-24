@@ -16,4 +16,4 @@ hlint <path_to_file> --refactor
 hlint <path_to_file> --refactor-options
 
 # Generate a settings file ignoring all outstanding hints
-hlint <path_to_file> --default > <_hlint_yaml>
+hlint <path_to_file> --default > <.hlint.yaml>

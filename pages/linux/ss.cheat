@@ -4,10 +4,10 @@
 % ss, linux
 
 # Show all TCP/UDP/RAW/UNIX sockets
-ss -a <_t__u__w__x>
+ss -a <-t|-u|-w|-x>
 
 # Filter TCP sockets by states, only/exclude
-ss <state_exclude> <bucket_big_connected_synchronized____>
+ss <state_exclude> <bucket_big_connected_synchronized_...>
 
 # Show all TCP sockets connected to the local HTTPS port (443)
 ss -t src :<443>
@@ -22,4 +22,7 @@ ss -pt dst :<ssh>
 ss -u 'sport == :<source_port> and dport == :<destination_port>'
 
 # Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16
-ss -4t src <192_168_16>
+ss -4t src <192.168_16>
+
+# Kill IPv4 or IPv6 Socket Connection with destination IP 192.168.1.17 and destination port 8080
+ss --kill dst <192.168.1.17> dport = <8080>

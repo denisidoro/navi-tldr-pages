@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/exfatlabel.md
+
+% exfatlabel, common
+
+# Display the current filesystem label
+exfatlabel <dev_sda>
+
+# Set the filesystem label
+exfatlabel <dev_sda> <new_label>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zipinfo.md
+
+% zipinfo, common
+
+# List all files in a `.zip` file in long format (permissions, ownership, size, and modification date)
+zipinfo <path_to_archive.zip>
+
+# List all files in a `.zip` file
+zipinfo -1 <path_to_archive.zip>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/sntpd.md
+
+% sntpd, osx
+
+# Start the daemon
+sntpd
+
+# Overwrite existing state with the local clock (stratum 1), for running a master/primary server, without synchronizing with another (higher stratum) server
+sntpd -L
+
+# Use a custom file for the SNTP state
+sntpd -z <path_to_state.bin>

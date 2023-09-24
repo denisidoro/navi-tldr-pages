@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fluxctl.md
+
+% fluxctl, common
+
+# List workloads currently running in the cluster on specific namespace
+fluxctl --k8s-fwd-ns=<namespace> list-workloads
+
+# Show deployed and available images
+fluxctl list-images
+
+# Synchronize the cluster with the git repository
+fluxctl sync
+
+# Turn on automatic deployment for a workload
+fluxctl automate

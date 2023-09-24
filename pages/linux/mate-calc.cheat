@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mate-calc.md
+
+% mate-calc, linux
+
+# Start the calculator
+mate-calc
+
+# Calculate a specific mathematic expression
+mate-calc --solve <2 + 5>

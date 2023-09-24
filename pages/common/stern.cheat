@@ -7,7 +7,7 @@
 stern .
 
 # Tail all pods with a specific status
-stern . --container-state <running_waiting_terminated>
+stern . --container-state <running|waiting|terminated>
 
 # Tail all pods that matches a given regular expression
 stern <pod_query>
@@ -19,4 +19,4 @@ stern <pod_query> --all-namespaces
 stern <pod_query> --since <15m>
 
 # Tail matched pods with a specific label
-stern <pod_query> --selector <release_canary>
+stern <pod_query> --selector <release=canary>

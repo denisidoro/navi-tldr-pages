@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sonar-scanner.md
+
+% sonar-scanner, common
+
+# Scan a project with configuration file in your project's root directory named `sonar-project.properties`
+sonar-scanner
+
+# Scan a project using configuration file other than `sonar-project.properties`
+sonar-scanner -D<project.settings=myproject.properties>
+
+# Print help information
+sonar-scanner -h
+
+# Print debugging information
+sonar-scanner -X

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/distrobox-enter.md
+
+% distrobox-enter, linux
+
+# Enter a distrobox container
+distrobox-enter <container_name>
+
+# Enter a distrobox container and run a command at login
+distrobox-enter <container_name> -- <sh -l>
+
+# Enter a distrobox container without instantiating a tty
+distrobox-enter --name <container_name> -- <uptime -p>

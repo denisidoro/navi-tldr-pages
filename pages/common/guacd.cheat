@@ -4,13 +4,13 @@
 % guacd, common
 
 # Bind to a specific port on localhost
-guacd -b <127_0_0_1> -l <4823>
+guacd -b <127.0.0.1> -l <4823>
 
 # Start in debug mode, keeping the process in the foreground
 guacd -f -L <debug>
 
 # Start with TLS support
-guacd -C <my_cert_crt> -K <my_key_pem>
+guacd -C <my-cert.crt> -K <my-key.pem>
 
 # Write the PID to a file
-guacd -p <path_to_file_pid>
+guacd -p <path_to_file.pid>

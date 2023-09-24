@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/eval.md
+
+% eval, common
+
+# Call `echo` with the "foo" argument
+eval "<echo foo>"
+
+# Set a variable in the current shell
+eval "<foo=bar>"

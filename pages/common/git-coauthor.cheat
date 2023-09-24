@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-coauthor.md
+
+% git-coauthor, common
+
+# Insert an additional author to the last Git commit
+git coauthor <name> <name@example.com>

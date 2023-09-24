@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pw-loopback.md
+
+% pw-loopback, linux
+
+# Create a loopback device with the default loopback behavior
+pw-loopback
+
+# Create a loopback device that automatically connects to the speakers
+pw-loopback -m '<[FL FR]>' --capture-props='<media.class=Audio_Sink>'
+
+# Create a loopback device that automatically connects to the microphone
+pw-loopback -m '<[FL FR]>' --playback-props='<media.class=Audio_Source>'
+
+# Create a dummy loopback device that doesn't automatically connect to anything
+pw-loopback -m '<[FL FR]>' --capture-props='<media.class=Audio_Sink>' --playback-props='<media.class=Audio_Source>'
+
+# Create a loopback device that automatically connects to the speakers and swaps the left and right channels between the sink and source
+pw-loopback --capture-props='<media.class=Audio_Sink audio.position=[FL FR]>' --playback-props='<audio.position=[FR FL]>'
+
+# Create a loopback device that automatically connects to the microphone and swaps the left and right channels between the sink and source
+pw-loopback --capture-props='<audio.position=[FR FL]>' --playback-props='<media.class=Audio_Source audio.position=[FL FR]>'

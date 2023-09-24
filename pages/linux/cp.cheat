@@ -4,10 +4,10 @@
 % cp, linux
 
 # Copy a file to another location
-cp <path_to_source_file_ext> <path_to_target_file_ext>
+cp <path_to_source_file.ext> <path_to_target_file.ext>
 
 # Copy a file into another directory, keeping the filename
-cp <path_to_source_file_ext> <path_to_target_parent_directory>
+cp <path_to_source_file.ext> <path_to_target_parent_directory>
 
 # Recursively copy a directory's contents to another location (if the destination exists, the directory is copied inside it)
 cp -r <path_to_source_directory> <path_to_target_directory>
@@ -15,10 +15,13 @@ cp -r <path_to_source_directory> <path_to_target_directory>
 # Copy a directory recursively, in verbose mode (shows files as they are copied)
 cp -vr <path_to_source_directory> <path_to_target_directory>
 
-# Copy text files to another location, in interactive mode (prompts user before overwriting)
-cp -i {{*.txt}} <path_to_target_directory>
+# Copy multiple files at once to a directory
+cp -t <path_to_destination_directory> <path_to_file1 path_to_file2 ...>
 
-# Dereference symbolic links before copying
+# Copy text files to another location, in interactive mode (prompts user before overwriting)
+cp -i <*.txt> <path_to_target_directory>
+
+# Follow symbolic links before copying
 cp -L <link> <path_to_target_directory>
 
 # Use the full path of source files, creating any missing intermediate directories when copying

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ibmcloud-login.md
+
+% ibmcloud-login, common
+
+# Log in by using an interactive prompt
+ibmcloud login
+
+# Log in to a specific API endpoint (default is `cloud.ibm.com`)
+ibmcloud login -a <api_endpoint>
+
+# Log in by providing username, password and the targeted region as parameters
+ibmcloud login -u <username> -p <password> -r <us-south>
+
+# Log in with an API key, passing it as an argument
+ibmcloud login --apikey <api_key_string>
+
+# Log in with an API key, passing it as a file
+ibmcloud login --apikey @<path_to_api_key_file>
+
+# Log in with a federated ID (single sign-on)
+ibmcloud login --sso

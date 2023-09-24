@@ -3,7 +3,7 @@
 
 % cmus, linux
 
-# Open cmus from specified directory
+# Open cmus into the specified directory (this will become your new working directory)
 cmus <path_to_directory>
 
 # Add file/directory to library

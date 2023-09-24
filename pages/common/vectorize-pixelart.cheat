@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vectorize-pixelart.md
+
+% vectorize-pixelart, common
+
+# Convert a PNG to a vector image format
+vectorize-pixelart <path_to_input.png> <path_to_output.svg|.eps>

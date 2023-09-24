@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dwebp.md
+
+% dwebp, common
+
+# Convert a `webp` file into a `png` file
+dwebp <path_to_input.webp> -o <path_to_output.png>
+
+# Convert a `webp` file into a specific filetype
+dwebp <path_to_input.webp> -bmp|-tiff|-pam|-ppm|-pgm|-yuv -o <path_to_output>
+
+# Convert a `webp` file, using multi-threading if possible
+dwebp <path_to_input.webp> -o <path_to_output.png> -mt
+
+# Convert a `webp` file, but also crop and scale at the same time
+dwebp <input.webp> -o <output.png> -crop <x_pos> <y_pos> <width> <height> -scale <width> <height>
+
+# Convert a `webp` file and flip the output
+dwebp <path_to_input.webp> -o <path_to_output.png> -flip
+
+# Convert a `webp` file and don't use in-loop filtering to speed up the decoding process
+dwebp <path_to_input.webp> -o <path_to_output.png> -nofilter

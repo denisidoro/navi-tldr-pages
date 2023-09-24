@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-effort.md
+
+% git-effort, common
+
+# Display each file in the repository, showing commits and active days
+git effort
+
+# Display files modified by a specific number of commits or more, showing commits and active days
+git effort --above <5>
+
+# Display files modified by a specific author, showing commits and active days
+git effort -- --author="<username>"
+
+# Display files modified since a specific time/date, showing commits and active days
+git effort -- --since="<last month>"
+
+# Display only the specified files or directories, showing commits and active days
+git effort <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# Display all files in a specific directory, showing commits and active days
+git effort <path_to_directory_*>

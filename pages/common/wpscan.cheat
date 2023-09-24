@@ -6,23 +6,23 @@
 # Update the vulnerability database
 wpscan --update
 
-# Scan a Wordpress website
+# Scan a WordPress website
 wpscan --url <url>
 
-# Scan a Wordpress website, using random user agents and passive detection
+# Scan a WordPress website, using random user agents and passive detection
 wpscan --url <url> --stealthy
 
-# Scan a Wordpress website, checking for vulnerable plugins and specifying the path to the `wp-content` directory
-wpscan --url <url> --enumerate <vp> --wp-content-dir <remote_path_to_wp_content>
+# Scan a WordPress website, checking for vulnerable plugins and specifying the path to the `wp-content` directory
+wpscan --url <url> --enumerate <vp> --wp-content-dir <remote_path_to_wp-content>
 
-# Scan a Wordpress website through a proxy
-wpscan --url <url> --proxy <protocol___ip_port> --proxy-auth <username_password>
+# Scan a WordPress website through a proxy
+wpscan --url <url> --proxy <protocol:__ip:port> --proxy-auth <username:password>
 
-# Perform user identifiers enumeration on a Wordpress website
+# Perform user identifiers enumeration on a WordPress website
 wpscan --url <url> --enumerate <u>
 
-# Execute a password guessing attack on a Wordpress website
-wpscan --url <url> --usernames <username_path_to_usernames_txt> --passwords <path_to_passwords_txt> threads <20>
+# Execute a password guessing attack on a WordPress website
+wpscan --url <url> --usernames <username|path_to_usernames.txt> --passwords <path_to_passwords.txt> threads <20>
 
-# Scan a Wordpress website, collecting vulnerability data from the WPVulnDB (https://wpvulndb.com/)
+# Scan a WordPress website, collecting vulnerability data from the WPVulnDB (<https://wpvulndb.com/>)
 wpscan --url <url> --api-token <token>

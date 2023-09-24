@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-backup.md
+
+% tlmgr-backup, common
+
+# Make a backup of one or more packages
+tlmgr backup <package1 package2 ...>
+
+# Make a backup of all packages
+tlmgr backup --all
+
+# Make a backup to a custom directory
+tlmgr backup <package> --backupdir <path_to_backup_directory>
+
+# Remove a backup of one or more packages
+tlmgr backup clean <package1 package2 ...>
+
+# Remove all backups
+tlmgr backup clean --all

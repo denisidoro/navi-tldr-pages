@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/grub-install.md
+
+% grub-install, linux
+
+# Install GRUB on a BIOS system
+grub-install --target=<i386-pc> <path_to_device>
+
+# Install GRUB on an UEFI system
+grub-install --target=<x86_64-efi> --efi-directory=<path_to_efi_directory> --bootloader-id=<GRUB>
+
+# Install GRUB pre-loading specific modules
+grub-install --target=<x86_64-efi> --efi-directory=<path_to_efi_directory> --modules="<part_gpt part_msdos>"

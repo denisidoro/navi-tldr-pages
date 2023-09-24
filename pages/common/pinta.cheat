@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pinta.md
+
+% pinta, common
+
+# Start Pinta
+pinta
+
+# Open specific files
+pinta <path_to_image1 path_to_image2 ...>

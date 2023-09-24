@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/docker-rmi.md
+
+% docker-rmi, common
+
+# Show help
+docker rmi
+
+# Remove one or more images given their names
+docker rmi <image1 image2 ...>
+
+# Force remove an image
+docker rmi --force <image>
+
+# Remove an image without deleting untagged parents
+docker rmi --no-prune <image>

@@ -4,7 +4,7 @@
 % kotlin, common
 
 # Run a jar file
-kotlin <filename_jar>
+kotlin <filename.jar>
 
 # Display Kotlin and JVM version
 kotlin -version

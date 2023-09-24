@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/module.md
+
+% module, linux
+
+# Display available modules
+module avail
+
+# Search for a module by name
+module avail <module_name>
+
+# Load a module
+module load <module_name>
+
+# Display loaded modules
+module list
+
+# Unload a specific loaded module
+module unload <module_name>
+
+# Unload all loaded modules
+module purge
+
+# Specify user-created modules
+module use <path_to_modulefiles>

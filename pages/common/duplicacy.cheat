@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/duplicacy.md
+
+% duplicacy, common
+
+# Use current directory as the repository, initialize a SFTP storage and encrypt the storage with a password
+duplicacy init -e <snapshot_id> <sftp:__user@192.168.2.100_path_to_storage_>
+
+# Save a snapshot of the repository to the default storage
+duplicacy backup
+
+# List snapshots of current repository
+duplicacy list
+
+# Restore the repository to a previously saved snapshot
+duplicacy restore -r <revision>
+
+# Check the integrity of snapshots
+duplicacy check
+
+# Add another storage to be used for the existing repository
+duplicacy add <storage_name> <snapshot_id> <storage_url>
+
+# Prune a specific revision of snapshot
+duplicacy prune -r <revision>
+
+# Prune revisions, keeping one revision every `n` days for all revisions older than `m` days
+duplicacy prune -keep <n:m>

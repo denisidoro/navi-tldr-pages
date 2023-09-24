@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/gpupdate.md
+
+% gpupdate, windows
+
+# Check and apply updated Group Policy settings
+gpupdate
+
+# Specify the target Group Policy settings to check for update
+gpupdate /target:<computer|user>
+
+# Force all Group Policy settings to be reapplied
+gpupdate /force
+
+# Display detailed usage information
+gpupdate /?

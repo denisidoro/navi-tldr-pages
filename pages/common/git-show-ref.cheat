@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-show-ref.md
+
+% git-show-ref, common
+
+# Show all refs in the repository
+git show-ref
+
+# Show only heads references
+git show-ref --heads
+
+# Show only tags references
+git show-ref --tags
+
+# Verify that a given reference exists
+git show-ref --verify <path_to_ref>

@@ -4,7 +4,7 @@
 % erl, common
 
 # Compile and run sequential Erlang program as a common script and then exit
-erlc <files> && erl -noshell '<mymodule_myfunction_arguments_>, init:stop().'
+erlc <files> && erl -noshell '<mymodule:myfunction(arguments)>, init:stop().'
 
 # Connect to a running Erlang node
 erl -remsh <nodename>@<hostname> -sname <custom_shortname> -hidden -setcookie <cookie_of_remote_node>

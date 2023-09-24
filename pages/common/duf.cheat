@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/duf.md
+
+% duf, common
+
+# List accessible devices
+duf
+
+# List everything (such as pseudo, duplicate or inaccessible file systems)
+duf --all
+
+# Only show specified devices or mount points
+duf <path_to_directory1 path_to_directory2 ...>
+
+# Sort the output by a specified criteria
+duf --sort <size|used|avail|usage>

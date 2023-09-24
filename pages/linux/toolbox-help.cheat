@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/toolbox-help.md
+
+% toolbox-help, linux
+
+# Display the `toolbox` manual
+toolbox help
+
+# Display the `toolbox` manual for a specific subcommand
+toolbox help <subcommand>

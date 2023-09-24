@@ -4,16 +4,16 @@
 % pprof, common
 
 # Generate a text report from a specific profiling file, on fibbo binary
-pprof -top <__fibbo> <__fibbo_profile_pb_gz>
+pprof -top <._fibbo> <._fibbo-profile.pb.gz>
 
 # Generate a graph and open it on a web browser
-pprof -svg <__fibbo> <__fibbo_profile_pb_gz>
+pprof -svg <._fibbo> <._fibbo-profile.pb.gz>
 
 # Run pprof in interactive mode to be able to manually launch `pprof` on a file
-pprof <__fibbo> <__fibbo_profile_pb_gz>
+pprof <._fibbo> <._fibbo-profile.pb.gz>
 
 # Run a web server that serves a web interface on top of `pprof`
-pprof -http=<localhost_8080> <__fibbo> <__fibbo_profile_pb_gz>
+pprof -http=<localhost:8080> <._fibbo> <._fibbo-profile.pb.gz>
 
 # Fetch a profile from an HTTP server and generate a report
-pprof <http___localhost_8080_debug_pprof>
+pprof <http:__localhost:8080_debug_pprof>

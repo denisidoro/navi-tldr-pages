@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fast.md
+
+% fast, common
+
+# Measure the current download speed
+fast
+
+# Measure the current upload speed in addition to download speed
+fast --upload
+
+# Display results on a single line to reduce spacing
+fast --single-line

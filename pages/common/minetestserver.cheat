@@ -22,7 +22,7 @@ minetestserver --gameid <game_id>
 minetestserver --port <34567>
 
 # Migrate to a different data backend
-minetestserver --migrate <sqlite3_leveldb_redis>
+minetestserver --migrate <sqlite3|leveldb|redis>
 
 # Start an interactive terminal after starting the server
 minetestserver --terminal

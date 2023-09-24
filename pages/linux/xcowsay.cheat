@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xcowsay.md
+
+% xcowsay, linux
+
+# Display a cow saying "hello, world"
+xcowsay "<hello, world>"
+
+# Display a cow with output from another command
+ls | xcowsay
+
+# Display a cow at the specified X and Y coordinates
+xcowsay --at=<X>,<Y>
+
+# Display a different sized cow
+xcowsay --cow-size=<small|med|large>
+
+# Display a thought bubble instead of a speech bubble
+xcowsay --think
+
+# Display a different image instead of the default cow
+xcowsay --image=<path_to_file>

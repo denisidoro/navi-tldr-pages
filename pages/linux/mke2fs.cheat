@@ -4,10 +4,10 @@
 % mke2fs, linux
 
 # Create an ext2 filesystem in partition 1 of device b (`sdb1`)
-mkfs.ext2 <_dev_sdb1>
+mkfs.ext2 <dev_sdb1>
 
 # Create an ext3 filesystem in partition 1 of device b (`sdb1`)
-mkfs.ext3 <_dev_sdb1>
+mkfs.ext3 <dev_sdb1>
 
-# Create an ext3 filesystem in partition 1 of device b (`sdb1`)
-mkfs.ext3 <_dev_sdb1>
+# Create an ext4 filesystem in partition 1 of device b (`sdb1`)
+mkfs.ext4 <dev_sdb1>

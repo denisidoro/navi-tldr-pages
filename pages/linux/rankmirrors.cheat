@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rankmirrors.md
+
+% rankmirrors, linux
+
+# Rank a mirror list
+rankmirrors <etc_pacman.d_mirrorlist>
+
+# Output only a given number of the top ranking servers
+rankmirrors -n <number> <etc_pacman.d_mirrorlist>
+
+# Be verbose when generating the mirrorlist
+rankmirrors -v <etc_pacman.d_mirrorlist>
+
+# Test only a specific URL
+rankmirrors --url <url>
+
+# Output only the response times instead of a full mirrorlist
+rankmirrors --times <etc_pacman.d_mirrorlist>

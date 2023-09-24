@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/setserial.md
+
+% setserial, linux
+
+# Print all information about a specific serial device
+setserial -a <dev_cuaN>
+
+# Print the configuration summary of a specific serial device (useful for printing during bootup process)
+setserial -b <device>
+
+# Set a specific configuration parameter to a device
+sudo setserial <device> <parameter>
+
+# Print the configuration of a list of devices
+setserial -g <device1 device2 ...>

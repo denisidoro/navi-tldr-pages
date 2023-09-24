@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gfortran.md
+
+% gfortran, common
+
+# Compile multiple source files into an executable
+gfortran <path_to_source1.f90 path_to_source2.f90 ...> -o <path_to_output_executable>
+
+# Show common warnings, debug symbols in output, and optimize without affecting debugging
+gfortran <path_to_source.f90> -Wall -g -Og -o <path_to_output_executable>
+
+# Include libraries from a different path
+gfortran <path_to_source.f90> -o <path_to_output_executable> -I<path_to_mod_and_include> -L<path_to_library> -l<library_name>
+
+# Compile source code into Assembler instructions
+gfortran -S <path_to_source.f90>
+
+# Compile source code into an object file without linking
+gfortran -c <path_to_source.f90>

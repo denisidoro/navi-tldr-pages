@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lddd.md
+
+% lddd, linux
+
+# Scan directories to find and list packages with broken library links that need to be rebuilt
+lddd

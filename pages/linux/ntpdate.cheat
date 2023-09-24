@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ntpdate.md
+
+% ntpdate, linux
+
+# Synchronize and set date and time
+sudo ntpdate <host>
+
+# Query the host without setting the time
+ntpdate -q <host>
+
+# Use an unprivileged port in case a firewall is blocking privileged ports
+sudo ntpdate -u <host>
+
+# Force time to be stepped using `settimeofday` instead of `slewed`
+sudo ntpdate -b <host>

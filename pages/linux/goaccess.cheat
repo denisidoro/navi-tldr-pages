@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/goaccess.md
+
+% goaccess, linux
+
+# Analyze one or more log files in interactive mode
+goaccess <path_to_logfile1 path_to_file2 ...>
+
+# Use a specific log-format (or pre-defined formats like "combined")
+goaccess <path_to_logfile> --log-format=<format>
+
+# Analyze a log from `stdin`
+tail -f <path_to_logfile> | goaccess -
+
+# Analyze a log and write it to an HTML file in real-time
+goaccess <path_to_logfile> --output <path_to_file.html> --real-time-html

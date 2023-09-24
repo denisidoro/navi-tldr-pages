@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-edit.md
+
+% nix3-edit, common
+
+# Open the source of the Nix expression of a package from nixpkgs in your `$EDITOR`
+nix edit <nixpkgs#pkg>
+
+# Dump the source of a package to `stdout`
+EDITOR=cat nix edit <nixpkgs#pkg>

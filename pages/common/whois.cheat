@@ -4,10 +4,10 @@
 % whois, common
 
 # Get information about a domain name
-whois <example_com>
+whois <example.com>
 
 # Get information about an IP address
-whois <8_8_8_8>
+whois <8.8.8.8>
 
 # Get abuse contact for an IP address
-whois -b <8_8_8_8>
+whois -b <8.8.8.8>

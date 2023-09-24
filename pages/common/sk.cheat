@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sk.md
+
+% sk, common
+
+# Start `skim` on all files in the specified directory
+find <path_to_directory> -type f | sk
+
+# Start `skim` for running processes
+ps aux | sk
+
+# Start `skim` with a specified query
+sk --query "<query>"
+
+# Select multiple files with `Shift + Tab` and write to a file
+find <path_to_directory> -type f | sk --multi > <path_to_file>

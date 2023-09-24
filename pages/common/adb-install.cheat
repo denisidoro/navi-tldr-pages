@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/adb-install.md
+
+% adb-install, common
+
+# Push an Android application to an emulator/device
+adb install <path_to_file.apk>
+
+# Push an Android application to a specific emulator/device (overrides `$ANDROID_SERIAL`)
+adb -s <serial_number> install <path_to_file.apk>
+
+# Reinstall an existing app, keeping its data
+adb install -r <path_to_file.apk>
+
+# Push an Android application allowing version code downgrade (debuggable packages only)
+adb install -d <path_to_file.apk>
+
+# Grant all permissions listed in the app manifest
+adb install -g <path_to_file.apk>
+
+# Quickly update an installed package by only updating the parts of the APK that changed
+adb install --fastdeploy <path_to_file.apk>

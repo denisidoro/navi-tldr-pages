@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bspwm.md
+
+% bspwm, linux
+
+# Start `bspwm` (note that a pre-existing window manager must not be open when this command is run)
+bspwm -c <path_to_config>
+
+# View documentation for `bspc`
+tldr bspc

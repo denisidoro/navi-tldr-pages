@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/eqn.md
+
+% eqn, common
+
+# Process input with equations, saving the output for future typesetting with groff to PostScript
+eqn <path_to_input.eqn> > <path_to_output.roff>
+
+# Typeset an input file with equations to PDF using the [me] macro package
+eqn -T <pdf> <path_to_input.eqn> | groff -<me> -T <pdf> > <path_to_output.pdf>

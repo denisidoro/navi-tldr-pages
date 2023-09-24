@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdaladdo.md
+
+% gdaladdo, common
+
+# Build overview images of a raster dataset using the "average" [r]esampling method
+gdaladdo -r average <path_to_input.tif>

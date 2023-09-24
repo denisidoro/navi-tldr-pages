@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xdg-mime.md
+
+% xdg-mime, linux
+
+# Display the MIME type of a file
+xdg-mime query filetype <path_to_file>
+
+# Display the default application for opening PNGs
+xdg-mime query default <image_png>
+
+# Display the default application for opening a specific file
+xdg-mime query default $(xdg-mime query filetype <path_to_file>)
+
+# Set imv as the default application for opening PNG and JPEG images
+xdg-mime default <imv.desktop> <image_png> <image_jpeg>

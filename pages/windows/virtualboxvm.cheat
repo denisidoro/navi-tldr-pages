@@ -4,16 +4,16 @@
 % virtualboxvm, windows
 
 # Start a virtual machine
-virtualboxvm --startvm <name_uuid>
+virtualboxvm --startvm <name|uuid>
 
 # Start a virtual machine in fullscreen mode
-virtualboxvm --startvm <name_uuid> --fullscreen
+virtualboxvm --startvm <name|uuid> --fullscreen
 
 # Mount the specified DVD image file
-virtualboxvm --startvm <name_uuid> --dvd <path_to_image_file>
+virtualboxvm --startvm <name|uuid> --dvd <path\to\image_file>
 
-# Display a command line window with debug information
-virtualboxvm --startvm <name_uuid> --debug-command-line
+# Display a command-line window with debug information
+virtualboxvm --startvm <name|uuid> --debug-command-line
 
 # Start a virtual machine in a paused state
-virtualboxvm --startvm <name_uuid> --start-paused
+virtualboxvm --startvm <name|uuid> --start-paused

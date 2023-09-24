@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-codecommit.md
+
+% aws-codecommit, common
+
+# Display help for a specific command
+aws codecommit <command> help
+
+# Display help
+aws codecommit help

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rich.md
+
+% rich, common
+
+# Display a file with syntax highlighting
+rich <path_to_file.py>
+
+# Add line numbers, and indentation guides
+rich <path_to_file.py> --line-number --guides
+
+# Apply a theme
+rich <path_to_file.py> --theme <monokai>
+
+# Display a file in an interactive pager
+rich <path_to_file.py> --pager
+
+# Display contents from a URL
+rich <https:__raw.githubusercontent.com_Textualize_rich-cli_main_README.md> --markdown --pager
+
+# Export a file as HTML
+rich <path_to_file.md> --export-html <path_to_file.html>
+
+# Display text with formatting tags, custom alignment, and line width
+rich --print <"Hello [green on black]Stylized[_green on black] [bold]World[_bold]"> --<left|center|right> --width <10>

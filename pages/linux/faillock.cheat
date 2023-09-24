@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/faillock.md
+
+% faillock, linux
+
+# List login failures of all users
+sudo faillock
+
+# List login failures of the specified user
+sudo faillock --user <user>
+
+# Reset the failure records of the specified user
+sudo faillock --user <user> --reset

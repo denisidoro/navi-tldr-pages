@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gsutil.md
+
+% gsutil, common
+
+# List all buckets in a project you are logged into
+gsutil ls
+
+# List the objects in a bucket
+gsutil ls -r 'gs://<bucket_name>/<prefix>**'
+
+# Download an object from a bucket
+gsutil cp gs://<bucket_name>/<object_name> <path_to_save_location>
+
+# Upload an object to a bucket
+gsutil cp <object_location> gs://<destination_bucket_name>/
+
+# Rename or move objects in a bucket
+gsutil mv gs://<bucket_name>/<old_object_name> gs://<bucket_name>/<new_object_name>
+
+# Create a new bucket in the project you are logged into
+gsutil mb gs://<bucket_name>
+
+# Delete a bucket and remove all the objects in it
+gsutil rm -r gs://<bucket_name>

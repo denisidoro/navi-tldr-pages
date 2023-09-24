@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/size.md
+
+% size, linux
+
+# Display the size of sections in a given object or executable file
+size <path_to_file>
+
+# Display the size of sections in a given object or executable file in [o]ctal
+size <-o|--radix=8> <path_to_file>
+
+# Display the size of sections in a given object or executable file in [d]ecimal
+size <-d|--radix=10> <path_to_file>
+
+# Display the size of sections in a given object or executable file in he[x]adecimal
+size <-x|--radix=16> <path_to_file>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/anki.md
+
+% anki, common
+
+# Launch `anki`
+anki
+
+# Launch `anki` with a specific profile
+anki -p <profile_name>
+
+# Launch `anki` in a specific language
+anki -l <language>
+
+# Launch `anki` from a specific directory instead of the default (`~/Anki`)
+anki -b <path_to_directory>

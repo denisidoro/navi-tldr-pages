@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/updog.md
+
+% updog, common
+
+# Start a HTTP server for the current directory
+updog
+
+# Start a HTTP server for a specified directory
+updog --directory <path_to_directory>
+
+# Start a HTTP server on a specified port
+updog --port <port>
+
+# Start a HTTP server with a password (To log in, leave the username blank and enter the password in the password field)
+updog --password <password>
+
+# Enable transport encryption via SSL
+updog --ssl

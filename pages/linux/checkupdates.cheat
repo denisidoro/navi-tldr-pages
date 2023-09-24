@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/checkupdates.md
+
+% checkupdates, linux
+
+# List pending updates
+checkupdates
+
+# List pending updates and download the packages to the pacman cache
+checkupdates --download
+
+# List pending updates using a specific pacman database
+CHECKUPDATES_DB=<path_to_directory> checkupdates
+
+# Display help
+checkupdates --help

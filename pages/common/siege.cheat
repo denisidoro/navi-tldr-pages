@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/siege.md
+
+% siege, common
+
+# Test a URL with default settings
+siege <https:__example.com>
+
+# Test a list of URLs
+siege --file <path_to_url_list.txt>
+
+# Test list of URLs in a random order (Simulates internet traffic)
+siege --internet --file <path_to_url_list.txt>
+
+# Benchmark a list of URLs (without waiting between requests)
+siege --benchmark --file <path_to_url_list.txt>
+
+# Set the amount of concurrent connections
+siege --concurrent=<50> --file <path_to_url_list.txt>
+
+# Set how long for the siege to run for
+siege --time=<30s> --file <path_to_url_list.txt>

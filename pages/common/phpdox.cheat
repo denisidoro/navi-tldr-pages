@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpdox.md
+
+% phpdox, common
+
+# Display an annotated skeleton configuration XML file
+phpdox --skel
+
+# Generate documentation for the current working directory
+phpdox
+
+# Generate documentation using a specific configuration file
+phpdox --file <path_to_phpdox.xml>
+
+# Only run the metadata collection process
+phpdox --collector
+
+# Only run the documentation generator process
+phpdox --generator

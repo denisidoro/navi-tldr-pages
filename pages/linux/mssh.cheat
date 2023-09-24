@@ -4,7 +4,7 @@
 % mssh, linux
 
 # Open a new window and connect to multiple SSH servers
-mssh <user_host1> <user_host2> <___>
+mssh <user@host1> <user@host2> <...>
 
 # Open a new window and connect to a group of servers predefined in `~/.mssh_clusters`
 mssh --alias <alias_name>

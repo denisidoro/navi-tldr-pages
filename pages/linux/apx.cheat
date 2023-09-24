@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/apx.md
+
+% apx, linux
+
+# View documentation for managing package managers
+tldr apx pkgmanagers
+
+# View documentation for managing stacks
+tldr apx stacks
+
+# View documentation for managing subsystems
+tldr apx subsystems

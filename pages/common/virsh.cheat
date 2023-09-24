@@ -4,16 +4,16 @@
 % virsh, common
 
 # Connect to a hypervisor session
-virsh connect <qemu___system>
+virsh connect <qemu:___system>
 
 # List all domains
 virsh list --all
 
 # Dump guest configuration file
-virsh dumpxml <guest_id> > <path_to_guest_xml>
+virsh dumpxml <guest_id> > <path_to_guest.xml>
 
 # Create a guest from a configuration file
-virsh create <path_to_config_file_xml>
+virsh create <path_to_config_file.xml>
 
 # Edit a guest's configuration file (editor can be changed with $EDITOR)
 virsh edit <guest_id>

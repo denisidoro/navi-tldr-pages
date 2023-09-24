@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/shiny-mirrors.md
+
+% shiny-mirrors, linux
+
+# Get the status of the current mirrors
+shiny-mirrors status
+
+# Generate a mirror list using the default behavior
+sudo shiny-mirrors refresh
+
+# Display the current configuration file
+shiny-mirrors config show
+
+# Switch to a different branch interactively
+sudo shiny-mirrors config --branch

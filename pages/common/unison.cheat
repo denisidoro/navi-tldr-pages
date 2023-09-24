@@ -3,7 +3,7 @@
 
 % unison, common
 
-# Sync two directories (creates log first time these two directories are synchronised)
+# Sync two directories (creates log first time these two directories are synchronized)
 unison <path_to_directory_1> <path_to_directory_2>
 
 # Automatically accept the (non-conflicting) defaults

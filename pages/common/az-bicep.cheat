@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-bicep.md
+
+% az-bicep, common
+
+# Install Bicep CLI
+az bicep install
+
+# Build a Bicep file
+az bicep build --file <path_to_file.bicep>
+
+# Attempt to decompile an ARM template file to a Bicep file
+az bicep decompile --file <path_to_template_file.json>
+
+# Upgrade Bicep CLI to the latest version
+az bicep upgrade
+
+# Display the installed version of Bicep CLI
+az bicep version
+
+# List all available versions of Bicep CLI
+az bicep list-versions
+
+# Uninstall Bicep CLI
+az bicep uninstall

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zek.md
+
+% zek, common
+
+# Generate a Go struct from a given XML from `stdin` and display output on `stdout`
+cat <path_to_input.xml> | zek
+
+# Generate a Go struct from a given XML from `stdin` and send output to a file
+curl -s <https:__url_to_xml> | zek -o <path_to_output.go>
+
+# Generate an example Go program from a given XML from `stdin` and send output to a file
+cat <path_to_input.xml> | zek -p -o <path_to_output.go>

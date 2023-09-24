@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/eopkg.md
+
+% eopkg, linux
+
+# Install a specific package
+sudo eopkg install <package>
+
+# Update all packages
+sudo eopkg upgrade
+
+# Search for packages
+sudo eopkg search <search_term>

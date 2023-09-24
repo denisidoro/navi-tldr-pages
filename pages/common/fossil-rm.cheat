@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fossil-rm.md
+
+% fossil-rm, common
+
+# Remove a file or directory from Fossil version control
+fossil rm <path_to_file_or_directory>
+
+# Remove a file or directory from Fossil version control, and also delete it from the disk
+fossil rm --hard <path_to_file_or_directory>
+
+# Re-add all previously removed and uncommitted files to Fossil version control
+fossil rm --reset

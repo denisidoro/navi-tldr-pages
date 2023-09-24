@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gobuster.md
+
+% gobuster, common
+
+# Discover directories and files that match in the wordlist
+gobuster dir --url <https:__example.com_> --wordlist <path_to_file>
+
+# Discover subdomains
+gobuster dns --domain <example.com> --wordlist <path_to_file>
+
+# Discover Amazon S3 buckets
+gobuster s3 --wordlist <path_to_file>
+
+# Discover other virtual hosts on the server
+gobuster vhost --url <https:__example.com_> --wordlist <path_to_file>
+
+# Fuzz the value of a parameter
+gobuster fuzz --url <https:__example.com_?parameter=FUZZ> --wordlist <path_to_file>
+
+# Fuzz the name of a parameter
+gobuster fuzz --url <https:__example.com_?FUZZ=value> --wordlist <path_to_file>

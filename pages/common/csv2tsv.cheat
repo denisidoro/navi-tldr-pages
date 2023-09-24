@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csv2tsv.md
+
+% csv2tsv, common
+
+# Convert from CSV to TSV
+csv2tsv <path_to_input_csv1 path_to_input_csv2 ...> > <path_to_output_tsv>
+
+# Convert field delimiter separated CSV to TSV
+csv2tsv -c'<field_delimiter>' <path_to_input_csv>
+
+# Convert semicolon separated CSV to TSV
+csv2tsv -c';' <path_to_input_csv>

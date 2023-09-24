@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mpicc.md
+
+% mpicc, linux
+
+# Compile a source code file into an object file
+mpicc -c <path_to_file.c>
+
+# Link an object file and make an executable
+mpicc -o <executable> <path_to_object_file.o>
+
+# Compile and link source code in a single command
+mpicc -o <executable> <path_to_file.c>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/luajit.md
+
+% luajit, common
+
+# Start an interactive Lua shell
+luajit
+
+# Execute a Lua script
+luajit <path_to_script.lua> <--optional-argument>
+
+# Execute a Lua expression
+luajit -e '<print("Hello World")>'

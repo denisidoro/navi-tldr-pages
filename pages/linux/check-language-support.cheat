@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/check-language-support.md
+
+% check-language-support, linux
+
+# Display a list of missing language packages based on installed software and enabled locales
+check-language-support
+
+# List packages for a specific locale
+check-language-support --language <en>
+
+# Display installed packages as well as missing ones
+check-language-support --show-installed

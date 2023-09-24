@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-classic.md
+
+% nix-classic, common
+
+# Search for a package in nixpkgs via its name
+nix-env -qaP <search_term_regexp>
+
+# Start a shell with the specified packages available
+nix-shell -p <pkg1 pkg2 pkg3...>
+
+# Install some packages permanently
+nix-env -iA <nixpkgs.pkg1 nixpkgs.pkg2...>
+
+# Show all dependencies of a store path (package), in a tree format
+nix-store --query --tree <nix_store_...>
+
+# Update the channels (repositories)
+nix-channel --update
+
+# Remove unused paths from Nix store
+nix-collect-garbage

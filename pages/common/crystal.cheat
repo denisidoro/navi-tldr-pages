@@ -4,10 +4,10 @@
 % crystal, common
 
 # Run a Crystal file
-crystal <path_to_file_cr>
+crystal <path_to_file.cr>
 
 # Compile a file and all dependencies to a single executable
-crystal build <path_to_file_cr>
+crystal build <path_to_file.cr>
 
 # Start a local interactive server for testing the language
 crystal play

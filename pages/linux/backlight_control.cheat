@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/backlight_control.md
+
+% backlight_control, linux
+
+# Increase/decrease the backlight by a specific percent count
+backlight_control <+|-><5>
+
+# Set the backlight strength to a specific percent count
+backlight_control <90>
+
+# Print the help
+backlight_control

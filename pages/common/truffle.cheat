@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/truffle.md
+
+% truffle, common
+
+# Download a pre-built Truffle project (Truffle Box)
+truffle unbox <box_name>
+
+# Compile contract source files in the current directory
+truffle compile
+
+# Run JavaScript and Solidity tests
+truffle test
+
+# Run migrations to deploy contracts
+truffle migrate
+
+# Display help for a subcommand
+truffle help <subcommand>

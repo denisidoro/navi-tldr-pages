@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-mr.md
+
+% git-mr, common
+
+# Check out a specific merge request
+git mr <mr_number>
+
+# Check out a merge request from a specific remote
+git mr <mr_number> <remote>
+
+# Checkout a merge request from its URL
+git mr <url>
+
+# Clean up old merge request branches
+git mr clean

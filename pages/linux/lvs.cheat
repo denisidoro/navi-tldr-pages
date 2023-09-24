@@ -22,4 +22,4 @@ lvs -o +<field_name>
 lvs --noheadings
 
 # Use a separator to separate fields
-lvs --separator <_>
+lvs --separator <=>

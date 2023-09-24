@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/llvm-config.md
+
+% llvm-config, common
+
+# Compile and link an LLVM based program
+clang++ $(llvm-config --cxxflags --ldflags --libs) --output <path_to_output_executable> <path_to_source.cc>
+
+# Print the `PREFIX` of your LLVM installation
+llvm-config --prefix
+
+# Print all targets supported by your LLVM build
+llvm-config --targets-built

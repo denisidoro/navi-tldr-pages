@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ia.md
+
+% ia, common
+
+# Configure `ia` with API keys (some functions won't work without this step)
+ia configure
+
+# Upload one or more items to `archive.org`
+ia upload <identifier> <path_to_file> --metadata="<mediatype:data>" --metadata="<title:example>"
+
+# Download one or more items from `archive.org`
+ia download <item>
+
+# Delete one or more items from `archive.org`
+ia delete <identifier> <file>
+
+# Search on `archive.org`, returning results as JSON
+ia search '<subject:"subject" collection:collection>'

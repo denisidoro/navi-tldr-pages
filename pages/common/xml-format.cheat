@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-format.md
+
+% xml-format, common
+
+# Format an XML document, indenting with tabs
+xml format --indent-tab <path_to_input.xml|URI> > <path_to_output.xml>
+
+# Format an HTML document, indenting with 4 spaces
+xml format --html --indent-spaces <4> <path_to_input.html|URI> > <path_to_output.html>
+
+# Recover parsable parts of a malformed XML document, without indenting
+xml format --recover --noindent <path_to_malformed.xml|URI> > <path_to_recovered.xml>
+
+# Format an XML document from `stdin`, removing the `DOCTYPE` declaration
+cat <path\to\input.xml> | xml format --dropdtd > <path_to_output.xml>
+
+# Format an XML document, omitting the XML declaration
+xml format --omit-decl <path\to\input.xml|URI> > <path_to_output.xml>
+
+# Display help for the `format` subcommand
+xml format --help

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lci.md
+
+% lci, linux
+
+# Run a LOLCODE file
+lci <path_to_file>
+
+# Display version
+lci -v
+
+# Display help
+lci -h

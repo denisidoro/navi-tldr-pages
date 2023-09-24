@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/sc.md
+
+% sc, windows
+
+# Show the status of a service (no service name will list all services)
+sc queryex <service_name>
+
+# Start a service asynchronously
+sc start <service_name>
+
+# Stop a service asynchronously
+sc stop <service_name>
+
+# Set the type of a service
+sc config <service_name> type= <service_type>

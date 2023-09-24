@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kubectl-describe.md
+
+% kubectl-describe, common
+
+# Show details of pods in a namespace
+kubectl describe pods -n <namespace>
+
+# Show details of nodes in a namespace
+kubectl describe nodes -n <namespace>
+
+# Show the details of a specific pod in a namespace
+kubectl describe pods <pod_name> -n <namespace>
+
+# Show the details of a specific node in a namespace
+kubectl describe nodes <node_name> -n <namespace>
+
+# Show details of Kubernetes objects defined in a YAML manifest
+kubectl describe -f <path_to_manifest.yaml>

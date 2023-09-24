@@ -16,4 +16,4 @@ pidstat -d
 pidstat -p <PID>
 
 # Show memory statistics for all processes whose command name include "fox" or "bird"
-pidstat -C "<fox_bird>" -r -p ALL
+pidstat -C "<fox|bird>" -r -p ALL

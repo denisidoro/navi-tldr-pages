@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-merge-into.md
+
+% git-merge-into, common
+
+# Merge a source branch into a specific destination branch
+git merge-into <source_branch> <destination_branch>
+
+# Merge current branch into a specific destination branch
+git merge-into <destination_branch>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/debugfs.md
+
+% debugfs, linux
+
+# Open the filesystem in read only mode
+debugfs <dev_sdXN>
+
+# Open the filesystem in read write mode
+debugfs -w <dev_sdXN>
+
+# Read commands from a specified file, execute them and then exit
+debugfs -f <path_to_cmd_file> <dev_sdXN>
+
+# View the filesystem stats in debugfs console
+stats
+
+# Close the filesystem
+close -a
+
+# List all available commands
+lr

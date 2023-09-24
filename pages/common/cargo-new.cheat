@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-new.md
+
+% cargo-new, common
+
+# Create a new Rust project with a binary target
+cargo new <path_to_directory>

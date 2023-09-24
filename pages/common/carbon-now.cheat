@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/carbon-now.md
+
+% carbon-now, common
+
+# Create an image from a file using default settings
+carbon-now <path_to_file>
+
+# Create an image from a text in clipboard using default settings
+carbon-now --from-clipboard
+
+# Create an image from `stdin` using default settings
+<input> | carbon-now
+
+# Create images interactively for custom settings and optionally save a preset
+carbon-now -i <path_to_file>
+
+# Create images from previously saved preset
+carbon-now -p <preset> <path_to_file>
+
+# Start at a specified line of text
+carbon-now -s <line> <path_to_file>
+
+# End at a specific line of text
+carbon-now -e <line> <path_to_file>
+
+# Open image in a browser instead of saving
+carbon-now --open <path_to_file>

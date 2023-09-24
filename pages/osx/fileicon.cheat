@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/fileicon.md
+
+% fileicon, osx
+
+# Set a custom icon for a specific file or directory
+fileicon set <path_to_file_or_directory> <path_to_icon_file.png>
+
+# Remove a custom icon from a specific file or directory
+fileicon rm <path_to_file_or_directory>
+
+# Save the custom icon of a file or directory as a `.icns` file into the current directory
+fileicon get <path_to_file_or_directory>
+
+# Test if a specific file or directory has a custom icon
+fileicon test <path_to_file_or_directory>

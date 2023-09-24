@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-recreate-tlpdb.md
+
+% tlmgr-recreate-tlpdb, common
+
+# Recreate the `texlive.tlpdb` database file and dump it to `stdout`
+sudo tlmgr recreate-tlpdb

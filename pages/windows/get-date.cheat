@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/get-date.md
+
+% get-date, windows
+
+# Display the current date and time
+Get-Date
+
+# Display the current date and time with a .NET format specifier
+Get-Date -Format "<yyyy-MM-dd HH:mm:ss>"
+
+# Display the current date and time in UTC and ISO 8601 format
+(Get-Date).ToUniversalTime()
+
+# Convert a Unix timestamp
+Get-Date -UnixTimeSeconds <1577836800>

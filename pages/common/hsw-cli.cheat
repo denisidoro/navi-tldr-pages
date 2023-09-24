@@ -19,7 +19,7 @@ hsw-cli balance
 hsw-cli history
 
 # Send a transaction with the specified coin amount to an address
-hsw-cli send <address> <1_05>
+hsw-cli send <address> <1.05>
 
 # View the current wallet's pending transactions
 hsw-cli pending

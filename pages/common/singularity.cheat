@@ -4,19 +4,19 @@
 % singularity, common
 
 # Download a remote image from Sylabs Cloud
-singularity pull --name <image_sif> <library___godlovedc_funny_lolcow_latest>
+singularity pull --name <image.sif> <library:__godlovedc_funny_lolcow:latest>
 
-# Rebuild a remote image using latest Singularity image format
-singularity build <image_sif> <docker___godlovedc_lolcow>
+# Rebuild a remote image using the latest Singularity image format
+singularity build <image.sif> <docker:__godlovedc_lolcow>
 
-# Start a container from an image and get a shell inside of it
-singularity shell <image_sif>
+# Start a container from an image and get a shell inside it
+singularity shell <image.sif>
 
 # Start a container from an image and run a command
-singularity exec <image_sif> <command>
+singularity exec <image.sif> <command>
 
 # Start a container from an image and execute the internal runscript
-singularity run <image_sif>
+singularity run <image.sif>
 
 # Build a singularity image from a recipe file
-sudo singularity build <image_sif> <recipe>
+sudo singularity build <image.sif> <recipe>

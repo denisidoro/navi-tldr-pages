@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/swc.md
+
+% swc, common
+
+# Transpile a specified input file and output to `stdout`
+swc <path_to_file>
+
+# Transpile the input file every time it is changed
+swc <path_to_file> --watch
+
+# Transpile a specified input file and output to a specific file
+swc <path_to_input_file> --out-file <path_to_output_file>
+
+# Transpile a specified input directory and output to a specific directory
+swc <path_to_input_directory> --out-dir <path_to_output_directory>
+
+# Transpile a specified input directory using a specific configuration file
+swc <path_to_input_directory> --config-file <path_to_.swcrc>
+
+# Ignore files in a directory specified using glob path
+swc <path_to_input_directory> --ignore <ignored_files>

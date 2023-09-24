@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-history.md
+
+% aws-history, common
+
+# List commands history with command IDs
+aws history list
+
+# Display events related to a specific command given a command ID
+aws history show <command_id>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/dot_clean.md
+
+% dot_clean, osx
+
+# Merge all `._*` files recursively
+dot_clean <path_to_directory>
+
+# Don't recursively merge all `._*` in a directory (flat merge)
+dot_clean -f <path_to_directory>
+
+# Merge and delete all `._*` files
+dot_clean -m <path_to_directory>
+
+# Only delete `._*` files if there's a matching native file
+dot_clean -n <path_to_directory>
+
+# Follow symlinks
+dot_clean -s <path_to_directory>
+
+# Print verbose output
+dot_clean -v <path_to_directory>

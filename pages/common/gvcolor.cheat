@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gvcolor.md
+
+% gvcolor, common
+
+# Colorize one or more ranked digraph (that were already processed by `dot`)
+gvcolor <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
+
+# Lay out a graph and colorize it, then convert to a PNG image
+dot <path_to_input.gv> | gvcolor | dot -T <png> > <path_to_output.png>
+
+# Display help for `gvcolor`
+gvcolor -?

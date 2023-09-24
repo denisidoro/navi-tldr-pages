@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/e2freefrag.md
+
+% e2freefrag, linux
+
+# Check how many free blocks are present as contiguous and aligned free space
+e2freefrag <dev_sdXN>
+
+# Specify chunk size in kilobytes to print how many free chunks are available
+e2freefrag -c <chunk_size_in_kb> <dev_sdXN>

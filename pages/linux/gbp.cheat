@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gbp.md
+
+% gbp, linux
+
+# Convert an existing Debian package to gbp
+gbp import-dsc <path_to_package.dsc>
+
+# Build the package in the current directory using the default builder (`debuild`)
+gbp buildpackage -jauto -us -uc
+
+# Build a package in a `pbuilder` environment for Debian Bullseye
+DIST=<bullseye> ARCH=<amd64> gbp buildpackage -jauto -us -uc --git-builder=<git-pbuilder>
+
+# Specify a package to be a source-only upload in the `.changes` file (see <https://wiki.debian.org/SourceOnlyUpload>)
+gbp buildpackage -jauto -us -uc --changes-options=<-S>
+
+# Import a new upstream release
+gbp import-orig --pristine-tar <path_to_package.tar.gz>

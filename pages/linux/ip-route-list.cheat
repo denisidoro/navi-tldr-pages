@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ip-route-list.md
+
+% ip-route-list, linux
+
+# View documentation for the original command
+tldr ip-route-show

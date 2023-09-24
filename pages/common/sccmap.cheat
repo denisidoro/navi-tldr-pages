@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sccmap.md
+
+% sccmap, common
+
+# Extract strongly connected components of one or more directed graphs
+sccmap -S <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
+
+# Print statistics about a graph, producing no output graph
+sccmap -v -s <path_to_input1.gv> <path_to_input2.gv ...>
+
+# Display help for `sccmap`
+sccmap -?

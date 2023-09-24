@@ -3,11 +3,14 @@
 
 % supervisorctl, common
 
+# Show the status of a process (or all processes if `process_name` is not specified)
+supervisorctl status <process_name>
+
 # Start/stop/restart a process
-supervisorctl <start_stop_restart> <process_name>
+supervisorctl <start|stop|restart> <process_name>
 
 # Start/stop/restart all processes in a group
-supervisorctl <start_stop_restart> <group_name>:*
+supervisorctl <start|stop|restart> <group_name>:*
 
 # Show last 100 **bytes** of process `stderr`
 supervisorctl tail -100 <process_name> stderr

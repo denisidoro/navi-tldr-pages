@@ -7,7 +7,7 @@
 ngrok http <80>
 
 # Expose a local HTTP service on a specific host
-ngrok http <foo_dev>:<80>
+ngrok http <foo.dev>:<80>
 
 # Expose a local HTTPS server
 ngrok http https://localhost
@@ -16,4 +16,4 @@ ngrok http https://localhost
 ngrok tcp <22>
 
 # Expose TLS traffic for a specific host and port
-ngrok tls -hostname=<foo_com> <443>
+ngrok tls -hostname=<foo.com> <443>

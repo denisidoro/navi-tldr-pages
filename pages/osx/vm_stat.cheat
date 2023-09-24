@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/vm_stat.md
+
+% vm_stat, osx
+
+# Display virtual memory statistics
+vm_stat
+
+# Display reports every 2 seconds for 5 times
+vm_stat -c <5> <2>

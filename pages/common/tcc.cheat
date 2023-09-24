@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tcc.md
+
+% tcc, common
+
+# Compile and link 2 source files to generate an executable
+tcc -o <executable_name> <path_to_file1.c> <path_to_file2.c>
+
+# Directly run an input file like a script and pass arguments to it
+tcc -run <path_to_source_file.c> <arguments>
+
+# Interpret C source files with a shebang inside the file
+#!/full/path/to/tcc -run

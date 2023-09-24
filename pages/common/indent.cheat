@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/indent.md
+
+% indent, common
+
+# Format C/C++ source according to the Linux style guide, automatically back up the original files, and replace with the indented versions
+indent --linux-style <path_to_source.c> <path_to_another_source.c>
+
+# Format C/C++ source according to the GNU style, saving the indented version to a different file
+indent --gnu-style <path_to_source.c> -o <path_to_indented_source.c>
+
+# Format C/C++ source according to the style of Kernighan & Ritchie (K&R), no tabs, 3 spaces per indent, and wrap lines at 120 characters
+indent --k-and-r-style --indent-level3 --no-tabs --line-length120 <path_to_source.c> -o <path_to_indented_source.c>

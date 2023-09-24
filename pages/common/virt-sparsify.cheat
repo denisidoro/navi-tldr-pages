@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virt-sparsify.md
+
+% virt-sparsify, common
+
+# Create a sparsified compressed image without snapshots from an unsparsified one
+virt-sparsify --compress <path_to_image.qcow2> <path_to_image_new.qcow2>
+
+# Sparsify an image in-place
+virt-sparsify --in-place <path_to_image.img>

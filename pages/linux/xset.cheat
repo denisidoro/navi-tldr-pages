@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xset.md
+
+% xset, linux
+
+# Disable the screensaver
+xset s off
+
+# Disable the bell sound
+xset b off
+
+# Set the screensaver to start after 60 minutes of inactivity
+xset s 3600 3600
+
+# Disable DPMS (Energy Star) features
+xset -dpms
+
+# Enable DPMS (Energy Star) features
+xset +dpms

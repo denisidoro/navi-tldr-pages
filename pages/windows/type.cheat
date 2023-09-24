@@ -4,4 +4,4 @@
 % type, windows
 
 # Display the contents of a specific file
-type <path_to_file>
+type <path\to\file>

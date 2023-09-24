@@ -16,4 +16,4 @@ xterm -bg <darkblue> -fg <yellow>
 xterm -geometry <100>x<35>+<200>+<20>
 
 # Open the terminal using a Serif font and a font size equal to 20
-xterm -fa <_Serif_> -fs <20>
+xterm -fa <'Serif'> -fs <20>

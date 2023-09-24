@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/feh.md
+
+% feh, common
+
+# View images locally or using a URL
+feh <path_to_images>
+
+# View images recursively
+feh --recursive <path_to_images>
+
+# View images without window borders
+feh --borderless <path_to_images>
+
+# Exit after the last image
+feh --cycle-once <path_to_images>
+
+# Set the slideshow cycle delay
+feh --slideshow-delay <seconds> <path_to_images>
+
+# Set your wallpaper (centered, filled, maximized, scaled or tiled)
+feh --bg-<center|fill|max|scale|tile> <path_to_image>
+
+# Create a montage of all images within a directory. Outputs as a new image
+feh --montage --thumb-height <150> --thumb-width <150> --index-info "<%nn%wx%h>" --output <path_to_montage_image.png>

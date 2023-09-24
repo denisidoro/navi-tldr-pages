@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tailscale-ssh.md
+
+% tailscale-ssh, common
+
+# Advertise/Disable SSH on the host
+sudo tailscale up --ssh=<true|false>
+
+# SSH to a specific host which has Tailscale-SSH enabled
+tailscale ssh <username>@<host>

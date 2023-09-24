@@ -4,7 +4,7 @@
 % subl, common
 
 # Open the current directory in Sublime Text
-subl <_>
+subl <.>
 
 # Open a file or directory in Sublime Text
 subl <path_to_file_or_directory>

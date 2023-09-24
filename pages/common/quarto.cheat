@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/quarto.md
+
+% quarto, common
+
+# Create a new project
+quarto create-project <path_to_destination_directory> --type <book|default|website>
+
+# Create a new blog website
+quarto create-project <path_to_destination_directory> --type <website> --template <blog>
+
+# Render input file(s) to different formats
+quarto render <path_to_file.{{qmd|rmd|ipynb>}} --to <html|pdf|docx>
+
+# Render and preview a document or a website
+quarto preview <path_to_destination_directory|path_to_file>
+
+# Publish a document or project to Quarto Pub, Github Pages, RStudio Connect or Netlify
+quarto publish <quarto-pub|gh-pages|connect|netlify>

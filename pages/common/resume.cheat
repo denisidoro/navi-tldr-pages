@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/resume.md
+
+% resume, common
+
+# Create a new `resume.json` file in the current working directory
+resume init
+
+# Validate a `resume.json` against schema tests to ensure it complies with the standard
+resume validate
+
+# Export a resume locally in a stylized HTML or PDF format
+resume export <path_to_html_or_pdf>
+
+# Start a web server that serves a local `resume.json`
+resume serve

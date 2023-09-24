@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tuir.md
+
+% tuir, common
+
+# Launch tuir
+tuir
+
+# Open a subreddit
+/<subreddit_name>
+
+# Open a link
+o
+
+# Open a specific subreddit on launch
+tuir -s <subreddit_name>
+
+# Open external links using programs defined in the mailcap config
+tuir --enable-media

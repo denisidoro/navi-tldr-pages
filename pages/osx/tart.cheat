@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/tart.md
+
+% tart, osx
+
+# Pull a remote VM image
+tart pull <acme.io_org_name:tag>
+
+# Clone a VM from a local or remote image source
+tart clone <source-vm> <vm-name>
+
+# Create a new Mac VM from a specific ipsw file
+tart create --from-ipsw=<latest|path_to_file.ipsw> <vm-name>
+
+# Run an existing VM
+tart run <vm-name>
+
+# Run an existing VM with a specific mounted directory
+tart run --dir=<path_to_directory>:<path_to_local_directory> <vm-name>
+
+# List VMs
+tart list
+
+# Get IP address of a running VM
+tart ip <vm-name>
+
+# Change a VM's display resolution
+tart set <vm-name> --display <640>x<400>

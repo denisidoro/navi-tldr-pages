@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virsh-pool-define-as.md
+
+% virsh-pool-define-as, common
+
+# Create the configuration file for a storage pool called pool_name using `/var/vms` as the underlying storage system
+virsh pool-define-as --name <pool_name> --type <dir> --target <var_vms>

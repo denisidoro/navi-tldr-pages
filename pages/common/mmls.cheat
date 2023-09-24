@@ -10,7 +10,7 @@ mmls <path_to_image_file>
 mmls -B -i <path_to_image_file>
 
 # Display the partition table in a split EWF image
-mmls -i ewf <image_e01> <image_e02>
+mmls -i ewf <image.e01> <image.e02>
 
 # Display nested partition tables
 mmls -t <nested_table_type> -o <offset> <path_to_image_file>

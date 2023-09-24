@@ -4,7 +4,7 @@
 % noti, common
 
 # Display a notification when tar finishes compressing files
-noti {{tar -cjf example.tar.bz2 example/}}
+noti <tar -cjf example.tar.bz2 example_>
 
 # Display a notification even when you put it after the command to watch
 <command_to_watch>; noti

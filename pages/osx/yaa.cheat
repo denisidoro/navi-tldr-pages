@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/yaa.md
+
+% yaa, osx
+
+# Create an archive from a directory
+yaa archive -d <path_to_directory> -o <path_to_output_file.yaa>
+
+# Create an archive from a file
+yaa archive -i <path_to_file> -o <path_to_output_file.yaa>
+
+# Extract an archive to the current directory
+yaa extract -i <path_to_archive_file.yaa>
+
+# List the contents of an archive
+yaa list -i <path_to_archive_file.yaa>
+
+# Create an archive with a specific compression algorithm
+yaa archive -a <algorithm> -d <path_to_directory> -o <path_to_output_file.yaa>
+
+# Create an archive with an 8 MB block size
+yaa archive -b <8m> -d <path_to_directory> -o <path_to_output_file.yaa>

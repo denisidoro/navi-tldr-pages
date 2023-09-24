@@ -10,7 +10,7 @@ rc-service <service_name> status
 sudo rc-service <service_name> start
 
 # Stop a service
-sudo rc-servie <service_name> stop
+sudo rc-service <service_name> stop
 
 # Restart a service
 sudo rc-service <service_name> restart

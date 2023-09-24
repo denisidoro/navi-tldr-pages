@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/security-checker.md
+
+% security-checker, common
+
+# Look for security issues in the project dependencies (based on the `composer.lock` file in the current directory)
+security-checker security:check
+
+# Use a specific `composer.lock` file
+security-checker security:check <path_to_composer.lock>
+
+# Return results as a JSON object
+security-checker security:check --format=json

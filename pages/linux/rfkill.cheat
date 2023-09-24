@@ -7,7 +7,7 @@
 rfkill
 
 # Filter by columns
-rfkill -o <ID_TYPE_DEVICE>
+rfkill -o <ID,TYPE,DEVICE>
 
 # Block devices by type (e.g. bluetooth, wlan)
 rfkill block <bluetooth>

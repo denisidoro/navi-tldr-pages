@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdftex.md
+
+% pdftex, common
+
+# Compile a PDF document
+pdftex <source.tex>
+
+# Compile a PDF document, specifying an output directory
+pdftex -output-directory=<path_to_directory> <source.tex>
+
+# Compile a PDF document, exiting on each error
+pdftex -halt-on-error <source.tex>

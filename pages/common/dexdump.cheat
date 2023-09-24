@@ -4,13 +4,13 @@
 % dexdump, common
 
 # Extract classes and methods from an APK file
-dexdump <path_to_file_apk>
+dexdump <path_to_file.apk>
 
 # Display header information of DEX files contained in an APK file
-dexdump -f <path_to_file_apk>
+dexdump -f <path_to_file.apk>
 
 # Display the dis-assembled output of executable sections
-dexdump -d <path_to_file_apk>
+dexdump -d <path_to_file.apk>
 
 # Output results to a file
-dexdump -o <path_to_file> <path_to_file_apk>
+dexdump -o <path_to_file> <path_to_file.apk>

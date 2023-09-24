@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ostree.md
+
+% ostree, linux
+
+# Initialize a repository of the files in `$PWD` with metadata in `$PWD/<path_to_repo>`
+ostree init --repo <path_to_repo>
+
+# Create a commit (snapshot) of the files
+ostree commit --repo <path_to_repo> --branch <branch_name>
+
+# Show files in commit
+ostree ls --repo <path_to_repo> <commit_id>
+
+# Show metadata of commit
+ostree show --repo <path_to_repo> <commit_id>
+
+# Show list of commits
+ostree log --repo <path_to_repo> <branch_name>
+
+# Show repo summary
+ostree summary --repo <path_to_repo> --view
+
+# Show available refs (branches)
+ostree refs --repo <path_to_repo>

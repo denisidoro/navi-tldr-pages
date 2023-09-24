@@ -10,7 +10,7 @@ gibo list
 gibo dump <boilerplate>
 
 # Write a boilerplate to .gitignore
-gibo dump <boilerplate> >><_gitignore>
+gibo dump <boilerplate> >><.gitignore>
 
 # Search for boilerplates containing a given string
 gibo search <string>

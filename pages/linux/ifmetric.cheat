@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ifmetric.md
+
+% ifmetric, linux
+
+# Set the priority of the specified network interface (a higher number indicates lower priority)
+sudo ifmetric <interface> <value>
+
+# Reset the priority of the specified network interface
+sudo ifmetric <interface> <0>

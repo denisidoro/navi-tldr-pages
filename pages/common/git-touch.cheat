@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-touch.md
+
+% git-touch, common
+
+# Create new files and add them to the index
+git touch <path_to_file1 path_to_file2 ...>

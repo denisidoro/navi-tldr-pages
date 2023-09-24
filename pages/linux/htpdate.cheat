@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/htpdate.md
+
+% htpdate, linux
+
+# Synchronize date and time
+sudo htpdate <host>
+
+# Perform simulation of synchronization, without any action
+htpdate -q <host>
+
+# Compensate the systematic clock drift
+sudo htpdate -x <host>
+
+# Set time immediate after the synchronization
+sudo htpdate -s <host>

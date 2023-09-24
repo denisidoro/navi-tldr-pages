@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mh_copyright.md
+
+% mh_copyright, common
+
+# Update the year (range) to include the current year for the specified files
+mh_copyright --primary-entity="<entity>" --update-year <path_to_file_or_directory1.m path_to_file_or_director2.m ...>
+
+# Update the year (range) to include the current year for all files
+mh_copyright --primary-entity="<entity>" --update-year

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/composer-require-checker.md
+
+% composer-require-checker, common
+
+# Analyze a Composer JSON file
+composer-require-checker check <path_to_composer.json>
+
+# Analyze a Composer JSON file with a specific configuration
+composer-require-checker check --config-file <path_to_config.json> <path_to_composer.json>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pic.md
+
+% pic, common
+
+# Process input with pictures, saving the output for future typesetting with groff to PostScript
+pic <path_to_input.pic> > <path_to_output.roff>
+
+# Typeset input with pictures to PDF using the [me] macro package
+pic -T <pdf> <path_to_input.pic> | groff -<me> -T <pdf> > <path_to_output.pdf>

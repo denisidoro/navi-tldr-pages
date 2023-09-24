@@ -4,13 +4,13 @@
 % bison, common
 
 # Compile a bison definition file
-bison <path_to_file_y>
+bison <path_to_file.y>
 
-# Compile in debug mode, which causes the resulting parser to write additional information to the standard output
-bison --debug <path_to_file_y>
+# Compile in debug mode, which causes the resulting parser to write additional information to `stdout`
+bison --debug <path_to_file.y>
 
 # Specify the output filename
-bison --output <path_to_output_c> <path_to_file_y>
+bison --output <path_to_output.c> <path_to_file.y>
 
 # Be verbose when compiling
 bison --verbose

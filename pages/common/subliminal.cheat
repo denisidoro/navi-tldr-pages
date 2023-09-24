@@ -4,4 +4,4 @@
 % subliminal, common
 
 # Download English subtitles for a video
-subliminal download -l <en> <video_ext>
+subliminal download -l <en> <video.ext>

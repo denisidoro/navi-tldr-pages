@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/avahi-resolve.md
+
+% avahi-resolve, linux
+
+# Resolve a local service to its IPv4
+avahi-resolve -4 --name <service.local>
+
+# Resolve an IP to a hostname, verbosely
+avahi-resolve --verbose --address <IP>

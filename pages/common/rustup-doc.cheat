@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-doc.md
+
+% rustup-doc, common
+
+# Open the main page
+rustup doc
+
+# Open the documentation for a specific topic (a module in the standard library, a type, a keyword, etc.)
+rustup doc <std::fs|usize|fn|...>
+
+# Open the Rust Programming Language book
+rustup doc --book
+
+# Open the Cargo book
+rustup doc --cargo
+
+# Open the Rust Reference
+rustup doc --reference

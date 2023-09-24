@@ -3,7 +3,7 @@
 
 % nmon, linux
 
-# Start nmon
+# Start `nmon`
 nmon
 
 # Save records to file ("-s 300 -c 288" by default)

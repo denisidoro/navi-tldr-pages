@@ -3,17 +3,20 @@
 
 % wc, common
 
-# Count lines in file
-wc -l <file>
+# Count all lines in a file
+wc --lines <path_to_file>
 
-# Count words in file
-wc -w <file>
+# Count all words in a file
+wc --words <path_to_file>
 
-# Count characters (bytes) in file
-wc -c <file>
+# Count all bytes in a file
+wc --bytes <path_to_file>
 
-# Count characters in file (taking multi-byte character sets into account)
-wc -m <file>
+# Count all characters in a file (taking multi-byte characters into account)
+wc --chars <path_to_file>
 
-# Use standard input to count lines, words and characters (bytes) in that order
-{{find .}} | wc
+# Count all lines, words and bytes from `stdin`
+<find .> | wc
+
+# Count the length of the longest line in number of characters
+wc --max-line-length <path_to_file>

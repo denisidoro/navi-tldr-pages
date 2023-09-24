@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/clang++.md
+
+% clang++, common
+
+# Compile a source code file into an executable binary
+clang++ <path_to_source.cpp> -o <path_to_output_executable>
+
+# Display (almost) all errors and warnings
+clang++ <path_to_source.cpp> -Wall -o <path_to_output_executable>
+
+# Choose a language standard to compile with
+clang++ <path_to_source.cpp> -std=<c++20> -o <path_to_output_executable>
+
+# Include libraries located at a different path than the source file
+clang++ <path_to_source.cpp> -o <path_to_output_executable> -I<path_to_header_path> -L<path_to_library_path> -l<path_to_library_name>
+
+# Compile source code into LLVM Intermediate Representation (IR)
+clang++ -S -emit-llvm <path_to_source.cpp> -o <path_to_output.ll>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-blame-someone-else.md
+
+% git-blame-someone-else, common
+
+# Change the committer and author of a commit
+git blame-someone-else "<author <someone@example.com>>" <commit>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/strip-nondeterminism.md
+
+% strip-nondeterminism, common
+
+# Strip nondeterministic information from a file
+strip-nondeterminism <path_to_file>
+
+# Strip nondeterministic information from a file manually specifying the filetype
+strip-nondeterminism --type <filetype> <path_to_file>
+
+# Strip nondeterministic information from a file; instead of removing timestamps set them to the specified UNIX timestamp
+strip-nondeterminism --timestamp <unix_timestamp> <path_to_file>

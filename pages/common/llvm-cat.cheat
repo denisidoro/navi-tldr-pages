@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/llvm-cat.md
+
+% llvm-cat, common
+
+# Concatenate Bitcode files
+llvm-cat <path_to_file1.bc> <path_to_file2.bc> -o <path_to_out.bc>

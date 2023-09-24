@@ -10,4 +10,4 @@ st-util -p <4500>
 (gdb) target extended-remote <localhost>:<4500>
 
 # Write firmware to device
-(gdb) load <firmware_elf>
+(gdb) load <firmware.elf>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/strip.md
+
+% strip, linux
+
+# Replace the input file with its stripped version
+strip <path_to_file>
+
+# Strip symbols from a file, saving the output to a specific file
+strip <path_to_input_file> -o <path_to_output_file>
+
+# Strip debug symbols only
+strip --strip-debug <path_to_file.o>

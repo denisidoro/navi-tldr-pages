@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mm2gv.md
+
+% mm2gv, common
+
+# Convert a graph from `mm` to `gv` format
+mm2gv -o <output.gv> <input.mm>
+
+# Convert a graph using `stdin` and `stdout`
+cat <input.mm> | mm2gv > <output.gv>
+
+# Display help
+mm2gv -?

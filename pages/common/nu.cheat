@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nu.md
+
+% nu, common
+
+# Start an interactive shell session
+nu
+
+# Execute specific commands
+nu --commands "<echo 'nu is executed'>"
+
+# Execute a specific script
+nu <path_to_script.nu>
+
+# Execute a specific script with logging
+nu --log-level <error|warn|info|debug|trace> <path_to_script.nu>

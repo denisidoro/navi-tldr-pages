@@ -13,7 +13,7 @@ parallel-lint -j <processes> <path_to_directory>
 parallel-lint --exclude <path_to_excluded_directory> <path_to_directory>
 
 # Lint a directory of files using a comma-separated list of extension(s)
-parallel-lint -e <php_html_phpt> <path_to_directory>
+parallel-lint -e <php,html,phpt> <path_to_directory>
 
 # Lint a directory and output the results as JSON
 parallel-lint --json <path_to_directory>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jhsdb.md
+
+% jhsdb, common
+
+# Print stack and locks information of a Java process
+jhsdb jstack --pid <pid>
+
+# Open a core dump in interactive debug mode
+jhsdb clhsdb --core <path_to_core_dump> --exe <path_to_jdk_bin_java>
+
+# Start a remote debug server
+jhsdb debugd --pid <pid> --serverid <optional_unique_id>
+
+# Connect to a process in interactive debug mode
+jhsdb clhsdb --pid <pid>

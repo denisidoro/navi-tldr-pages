@@ -13,13 +13,13 @@ particle list
 particle project create
 
 # Compile a Particle project
-particle compile <device_type> <path_to_source_code_ino>
+particle compile <device_type> <path_to_source_code.ino>
 
 # Update a device to use a specific app remotely
-particle flash <device_name> <path_to_program_bin>
+particle flash <device_name> <path_to_program.bin>
 
 # Update a device to use the latest firmware via serial
-particle flash --serial <path_to_firmware_bin>
+particle flash --serial <path_to_firmware.bin>
 
 # Execute a function on a device
 particle call <device_name> <function_name> <function_arguments>

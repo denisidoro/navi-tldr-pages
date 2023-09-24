@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/docker-save.md
+
+% docker-save, common
+
+# Save an image by redirecting `stdout` to a tar archive
+docker save <image>:<tag> > <path_to_file.tar>
+
+# Save an image to a tar archive
+docker save --output <path_to_file.tar> <image>:<tag>
+
+# Save all tags of the image
+docker save --output <path_to_file.tar> <image_name>
+
+# Cherry-pick particular tags of an image to save
+docker save --output <path_to_file.tar> <image_name:tag1 image_name:tag2 ...>

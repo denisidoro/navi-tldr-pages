@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rip.md
+
+% rip, common
+
+# Remove files or directories from specified locations and place them in the graveyard
+rip <path_to_file_or_directory> <path_to_another_file_or_directory>
+
+# Interactively remove files or directories, with a prompt before every removal
+rip --inspect <path_to_file_or_directory> <path_to_another_file_or_directory>
+
+# List all files and directories in the graveyard that were originally within the current directory
+rip --seance
+
+# Permanently delete every file and directory in the graveyard
+rip --decompose
+
+# Put back the files and directories which were affected by the most recent removal
+rip --unbury
+
+# Put back every file and directory that is listed by `rip --seance`
+rip --seance --unbury

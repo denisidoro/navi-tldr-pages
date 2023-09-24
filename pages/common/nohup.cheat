@@ -3,5 +3,14 @@
 
 % nohup, common
 
-# Run process that can live beyond the terminal
-nohup {{command options}}
+# Run a process that can live beyond the terminal
+nohup <command> <argument1 argument2 ...>
+
+# Launch `nohup` in background mode
+nohup <command> <argument1 argument2 ...> &
+
+# Run a shell script that can live beyond the terminal
+nohup <path_to_script.sh> &
+
+# Run a process and write the output to a specific file
+nohup <command> <argument1 argument2 ...> > <path_to_output_file> &

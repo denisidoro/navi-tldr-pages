@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/distrobox-list.md
+
+% distrobox-list, linux
+
+# List all distrobox containers
+distrobox-list
+
+# List all distrobox containers with verbose information
+distrobox-list --verbose

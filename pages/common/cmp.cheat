@@ -3,8 +3,14 @@
 
 % cmp, common
 
-# Find the byte number and line number of the first difference between the files
-cmp <file1> <file2>
+# Output char and line number of the first difference between two files
+cmp <path_to_file1> <path_to_file2>
 
-# Find the byte number and differing bytes of every difference
-cmp -l <file1> <file2>
+# Output info of the first difference: char, line number, bytes, and values
+cmp --print-bytes <path_to_file1> <path_to_file2>
+
+# Output the byte numbers and values of every difference
+cmp --verbose <path_to_file1> <path_to_file2>
+
+# Compare files but output nothing, yield only the exit status
+cmp --quiet <path_to_file1> <path_to_file2>

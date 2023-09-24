@@ -6,8 +6,5 @@
 # Delay in seconds
 sleep <seconds>
 
-# Delay in minutes
-sleep <minutes>m
-
-# Delay in hours
-sleep <hours>h
+# Execute a specific command after 20 seconds delay
+sleep 20 && <command>

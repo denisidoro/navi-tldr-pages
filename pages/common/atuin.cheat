@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/atuin.md
+
+% atuin, common
+
+# Install atuin into your shell
+eval "$(atuin init <bash|zsh|fish>)"
+
+# Import history from the shell default history file
+atuin import auto
+
+# Search shell history for a specific command
+atuin search <command>
+
+# Register an account on the default sync server
+atuin register -u <username> -e <email> -p <password>
+
+# Login to the default sync server
+atuin login -u <username> -p <password>
+
+# Sync history with the sync server
+atuin sync

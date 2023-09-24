@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mplayer.md
+
+% mplayer, common
+
+# Play the specified file or URL
+mplayer <path_to_file|url>
+
+# Play multiple files
+mplayer <path_to_file1 path_to_file2 ...>
+
+# Play a specific file repeatedly
+mplayer -loop <0> <path_to_file>
+
+# Pause playback
+<Space>
+
+# Quit mplayer
+<Escape>
+
+# Seek backward or forward 10 seconds
+<Left> or <Right>

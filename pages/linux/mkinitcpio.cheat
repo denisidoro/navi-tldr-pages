@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkinitcpio.md
+
+% mkinitcpio, linux
+
+# Perform a dry run (print what would be done without actually doing it)
+mkinitcpio
+
+# Generate a ramdisk environment based on the `linux` preset
+mkinitcpio --preset <linux>
+
+# Generate a ramdisk environment based on the `linux-lts` preset
+mkinitcpio --preset <linux-lts>
+
+# Generate ramdisk environments based on all existing presets (used to regenerate all the initramfs images after a change in `/etc/mkinitcpio.conf`)
+mkinitcpio --allpresets
+
+# Generate an initramfs image using an alternative configuration file
+mkinitcpio --config <path_to_mkinitcpio.conf> --generate <path_to_initramfs.img>
+
+# Generate an initramfs image for a kernel other than the one currently running (the installed kernel releases can be found in `/usr/lib/modules/`)
+mkinitcpio --kernel <kernel_version> --generate <path_to_initramfs.img>
+
+# List all available hooks
+mkinitcpio --listhooks
+
+# Display help for a specific hook
+mkinitcpio --hookhelp <hook_name>

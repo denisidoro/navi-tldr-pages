@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/reptyr.md
+
+% reptyr, linux
+
+# Move a running process to your current terminal
+reptyr <pid>

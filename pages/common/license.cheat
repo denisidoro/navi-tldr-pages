@@ -7,7 +7,7 @@
 license <license_name>
 
 # Generate a license and save it to a file
-license -o <filename> <license_name>
+license -o <path_to_file> <license_name>
 
 # List all available licenses
 license ls

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gnome-software.md
+
+% gnome-software, linux
+
+# Launch the GNOME Software GUI if it's not already running
+gnome-software
+
+# Launch the GNOME Software GUI if it's not open, and navigate to the specified page
+gnome-software --mode <updates|updated|installed|overview>
+
+# Launch the GNOME Software GUI if it's not open and view the details of the specified package
+gnome-software --details <package>
+
+# Display the version
+gnome-software --version

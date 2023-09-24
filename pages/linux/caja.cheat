@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/caja.md
+
+% caja, linux
+
+# Open the current user home directory
+caja
+
+# Open specific directories in separate windows
+caja <path_to_directory1 path_to_directory2 ...>
+
+# Open specific directories in tabs
+caja --tabs <path_to_directory1 path_to_directory2 ...>
+
+# Open a directory with a specific window size
+caja --geometry=<600>x<400> <path_to_directory>
+
+# Close all windows
+caja --quit

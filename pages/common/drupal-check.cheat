@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/drupal-check.md
+
+% drupal-check, common
+
+# Check the code in a specific directory for deprecations
+drupal-check <path_to_directory>
+
+# Check the code excluding a comma-separated list of directories
+drupal-check --exclude-dir <path_to_excluded_directory>,<path_to_excluded_files_*.php> <path_to_directory>
+
+# Don't show a progress bar
+drupal-check --no-progress <path_to_directory>
+
+# Perform static analysis to detect bad coding practices
+drupal-check --analysis <path_to_directory>

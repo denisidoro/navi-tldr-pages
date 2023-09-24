@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/just-js.md
+
+% just-js, linux
+
+# Start a REPL (interactive shell)
+just
+
+# Run a JavaScript file
+just <path_to_file.js>
+
+# Evaluate JavaScript code by passing it as an argument
+just eval "<code>"
+
+# Initialize a new project in a directory of the same name
+just init <project_name>
+
+# Build a JavaScript application into an executable
+just build <path_to_file.js> --static

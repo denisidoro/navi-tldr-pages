@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/webstorm.md
+
+% webstorm, common
+
+# Open the current directory in WebStorm
+webstorm
+
+# Open a specific directory in WebStorm
+webstorm <path_to_directory>
+
+# Open specific files in the LightEdit mode﻿
+webstorm -e <path_to_file1 path_to_file2 ...>
+
+# Open and wait until done editing a specific file in the LightEdit mode
+webstorm --wait -e <path_to_file>
+
+# Open a file with the cursor at the specific line
+webstorm --line <line_number> <path_to_file>
+
+# Open and compare files (supports up to 3 files)
+webstorm diff <path_to_file1> <path_to_file2>
+
+# Open and perform a three-way merge
+webstorm merge <path_to_left_file> <path_to_right_file> <path_to_target_file>

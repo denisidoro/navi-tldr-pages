@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/toolbox-enter.md
+
+% toolbox-enter, linux
+
+# Enter a `toolbox` container using the default image of a specific distribution
+toolbox enter --distro <distribution>
+
+# Enter a `toolbox` container using the default image of a specific release of the current distribution
+toolbox enter --release <release>
+
+# Enter a toolbox container using the default image for Fedora 38
+toolbox enter --distro <fedora> --release <f38>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdfseparate.md
+
+% pdfseparate, common
+
+# Extract pages from PDF file and make a separate PDF file for each page
+pdfseparate <path_to_source_filename.pdf> <path_to_destination_filename-%d.pdf>
+
+# Specify the first/start page for extraction
+pdfseparate -f <3> <path_to_source_filename.pdf> <path_to_destination_filename-%d.pdf>
+
+# Specify the last page for extraction
+pdfseparate -l <10> <path_to_source_filename.pdf> <path_to_destination_filename-%d.pdf>

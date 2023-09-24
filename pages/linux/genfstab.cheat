@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/genfstab.md
+
+% genfstab, linux
+
+# Display an fstab compatible output based on a volume label
+genfstab -L <path_to_mount_point>
+
+# Display an fstab compatible output based on a volume UUID
+genfstab -U <path_to_mount_point>
+
+# A usual way to generate an fstab file, requires root permissions
+genfstab -U <mnt> >> <mnt_etc_fstab>
+
+# Append a volume into an fstab file to mount it automatically
+genfstab -U <path_to_mount_point> | sudo tee -a /etc/fstab

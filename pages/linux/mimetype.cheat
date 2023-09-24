@@ -12,8 +12,8 @@ mimetype --brief <path_to_file>
 # Display a description of the MIME type
 mimetype --describe <path_to_file>
 
-# Determine the MIME type of stdin (does not check a filename)
-<some_command> | mimetype --stdin
+# Determine the MIME type of `stdin` (does not check a filename)
+<command> | mimetype --stdin
 
 # Display debug information about how the MIME type was determined
 mimetype --debug <path_to_file>

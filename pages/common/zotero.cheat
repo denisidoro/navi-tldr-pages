@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zotero.md
+
+% zotero, common
+
+# Run with the GUI
+zotero
+
+# Run in headless mode
+zotero --headless
+
+# Run with a specific profile
+zotero -P <profile>
+
+# Run the Migration Assistant
+zotero --migration

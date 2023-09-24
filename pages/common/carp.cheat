@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/carp.md
+
+% carp, common
+
+# Start a REPL (interactive shell)
+carp
+
+# Start a REPL with a custom prompt
+carp --prompt "<> >"
+
+# Build a `carp` file
+carp -b <path_to_file.carp>
+
+# Build and run a file
+carp -x <path_to_file.carp>
+
+# Build a file with optimizations enabled
+carp -b --optimize <path_to_file.carp>
+
+# Transpile a file to C code
+carp --generate-only <path_to_file.carp>

@@ -7,16 +7,16 @@
 sips --out <path_to_out_dir>
 
 # Resample image at specified size, Image aspect ratio may be altered
-sips -z <1920> <300> <image_ext>
+sips --resampleHeightWidth <1920> <300> <image_file.ext>
 
 # Resample image so height and width aren't greater than specified size (notice the capital Z)
-sips -Z <1920> <300> <image_ext>
+sips --resampleHeightWidthMax <1920> <300> <image_file.ext>
 
 # Resample all images in a directory to fit a width of 960px (honoring aspect ratio)
 sips --resampleWidth <960> <path_to_images>
 
 # Convert an image from CMYK to RGB
-sips --matchTo '/System/Library/ColorSync/Profiles/Generic RGB Profile.icc' <path_to_image_ext> <path_to_out_dir>
+sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" <path_to_image.ext> <path_to_out_dir>
 
 # Remove ColorSync ICC profile from an image
-sips -d profile --deleteColorManagementProperties <path_to_image_ext>
+sips --deleteProperty profile --deleteColorManagementProperties <path_to_image_file.ext>

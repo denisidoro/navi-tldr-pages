@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kdenlive.md
+
+% kdenlive, common
+
+# Start the video editor
+kdenlive
+
+# Open a specific file
+kdenlive <path_to_file>.kdenlive
+
+# Set a specific path for an MLT environment
+kdenlive --mlt-path <path_to_directory>
+
+# Set a specific log level for an MLT environment
+kdenlive --mlt-log <verbose|debug>
+
+# Display help
+kdenlive --help
+
+# Display version
+kdenlive --version

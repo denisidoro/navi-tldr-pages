@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/sdef.md
+
+% sdef, osx
+
+# Print the scripting definitions of the given application
+sdef <Applications_XCode.app>

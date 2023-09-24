@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/grip.md
+
+% grip, common
+
+# Start the server and serve the rendered `README` file of a current directory
+grip
+
+# Start the server and serve a specific Markdown file
+grip <path_to_file.md>
+
+# Start the server and open the `README` file of the current directory in the browser
+grip --browser
+
+# Start the server in the specified port and serve the rendered `README` file of the current directory
+grip <port>

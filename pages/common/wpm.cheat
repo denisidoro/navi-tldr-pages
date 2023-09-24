@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wpm.md
+
+% wpm, common
+
+# Start `wpm`
+wpm
+
+# Start `wpm` with short texts
+wpm --short
+
+# Start `wpm` using a specific text file
+wpm --load <path_to_file.txt>
+
+# Tag your race scores
+wpm --tag <tag_name>
+
+# Show score statistics grouped by tags
+wpm --stats
+
+# Start `wpm` with monochrome colors
+wpm --monochrome

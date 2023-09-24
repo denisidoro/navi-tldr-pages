@@ -4,4 +4,4 @@
 % is-up, common
 
 # Check the status of the specified website
-is-up <example_com>
+is-up <example.com>

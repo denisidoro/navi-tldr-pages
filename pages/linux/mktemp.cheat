@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mktemp.md
+
+% mktemp, linux
+
+# Create an empty temporary file in `/tmp/` and print its absolute path
+mktemp
+
+# Create a temporary directory in `/tmp/` and print its absolute path
+mktemp --directory
+
+# Create an empty temporary file at the specified path, with `X`s replaced with random alphanumeric characters, and print its path
+mktemp "<path_to_file_XXXXX_name>"
+
+# Create an empty temporary file in `/tmp/` with the specified name, with `X`s replaced with random alphanumeric characters, and print its path
+mktemp -t "<file_XXXXX_name>"

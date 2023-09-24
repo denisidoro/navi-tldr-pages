@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/toolbox-rm.md
+
+% toolbox-rm, linux
+
+# Remove a toolbox container
+toolbox rm <container_name>
+
+# Remove all `toolbox` containers
+toolbox rm --all
+
+# Force the removal of a currently active `toolbox` container
+toolbox rm --force <container_name>

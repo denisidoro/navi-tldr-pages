@@ -3,7 +3,7 @@
 
 % snyk, common
 
-# Login to your Snyk account
+# Log in to your Snyk account
 snyk auth
 
 # Test your code for any known vulnerabilities

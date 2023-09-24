@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bssh.md
+
+% bssh, common
+
+# Browse for SSH servers
+bssh
+
+# Browse for VNC servers
+bssh --vnc
+
+# Browse for both SSH and VNC servers
+bssh --shell
+
+# Browse for SSH servers in a specified domain
+bssh --domain=<domain>

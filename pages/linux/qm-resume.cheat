@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-resume.md
+
+% qm-resume, linux
+
+# Resume a specific virtual machine
+qm resume <vm_id>
+
+# Resume a specific virtual machine ignoring locks (requires root)
+sudo qm resume <vm_id> --skiplock true

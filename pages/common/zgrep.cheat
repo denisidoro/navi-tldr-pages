@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zgrep.md
+
+% zgrep, common
+
+# Grep a pattern in a compressed file (case-sensitive)
+zgrep <pattern> <path_to_compressed_file>
+
+# Grep a pattern in a compressed file (case-insensitive)
+zgrep -i <pattern> <path_to_compressed_file>
+
+# Output count of lines containing matched pattern in a compressed file
+zgrep -c <pattern> <path_to_compressed_file>
+
+# Display the lines which don’t have the pattern present (Invert the search function)
+zgrep -v <pattern> <path_to_compressed_file>
+
+# Grep a compressed file for multiple patterns
+zgrep -e "<pattern_1>" -e "<pattern_2>" <path_to_compressed_file>
+
+# Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`)
+zgrep -E <regular_expression> <path_to_file>
+
+# Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match
+zgrep -<C|B|A> <3> <pattern> <path_to_compressed_file>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/cot.md
+
+% cot, osx
+
+# Start CotEditor
+cot
+
+# Open specific files
+cot <path_to_file1 path_to_file2 ...>
+
+# Open a new blank document
+cot --new
+
+# Open a specific file and block the terminal until it is closed
+cot --wait <path_to_file>
+
+# Open a specific file with the cursor at a specific line and column
+cot --line <1> --column <80> <path_to_file>

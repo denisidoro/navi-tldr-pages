@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/serialver.md
+
+% serialver, common
+
+# Display the serialVersionUID of a class
+serialver <classnames>
+
+# Display the serialVersionUID for a colon-separated list of classes and resources
+serialver -classpath <path_to_directory> <classname1:classname2:...>
+
+# Use a specific option from reference page of Java application launcher to the Java Virtual Machine
+serialver -Joption <classnames>

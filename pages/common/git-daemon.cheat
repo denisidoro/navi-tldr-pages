@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-daemon.md
+
+% git-daemon, common
+
+# Launch a Git daemon with a whitelisted set of directories
+git daemon --export-all <path_to_directory1> <path_to_directory2>
+
+# Launch a Git daemon with a specific base directory and allow pulling from all sub-directories that look like Git repositories
+git daemon --base-path=<path_to_directory> --export-all --reuseaddr
+
+# Launch a Git daemon for the specified directory, verbosely printing log messages and allowing Git clients to write to it
+git daemon <path_to_directory> --enable=receive-pack --informative-errors --verbose

@@ -10,7 +10,7 @@ deluge-console
 connect <hostname>:<port>
 
 # Add a torrent to the daemon
-add <url_magnet_path_to_file>
+add <url|magnet|path_to_file>
 
 # Display information about all torrents
 info

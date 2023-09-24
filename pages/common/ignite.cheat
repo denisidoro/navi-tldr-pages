@@ -7,7 +7,7 @@
 ignite new <project_name>
 
 # Generate file from a plugin
-ignite generate <plugin_name> <filename>
+ignite generate <plugin_name> <path_to_file>
 
 # Add an Ignite plugin to the project
 ignite add <plugin_name>

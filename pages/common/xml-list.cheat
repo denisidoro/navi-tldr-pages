@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-list.md
+
+% xml-list, common
+
+# Write the current directory's listing to an XML document
+xml list > <path_to_dir_list.xml>
+
+# Write the specified directory's listing to an XML document
+xml list <path_to_directory> > <path_to_dir_list.xml>
+
+# Display help for the `list` subcommand
+xml list --help

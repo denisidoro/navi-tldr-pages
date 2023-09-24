@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/isosize.md
+
+% isosize, linux
+
+# Display the size of an ISO file
+isosize <path_to_file.iso>
+
+# Display the block count and block size of an ISO file
+isosize --sectors <path_to_file.iso>
+
+# Display the size of an ISO file divided by a given number (only usable when --sectors is not given)
+isosize --divisor=<number> <path_to_file.iso>

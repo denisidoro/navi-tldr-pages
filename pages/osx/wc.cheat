@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/wc.md
+
+% wc, osx
+
+# Count lines in file
+wc -l <path_to_file>
+
+# Count words in file
+wc -w <path_to_file>
+
+# Count characters (bytes) in file
+wc -c <path_to_file>
+
+# Count characters in file (taking multi-byte character sets into account)
+wc -m <path_to_file>
+
+# Use `stdin` to count lines, words and characters (bytes) in that order
+<find .> | wc

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lzip.md
+
+% lzip, common
+
+# Archive a file, replacing it with with a compressed version
+lzip <path_to_file>
+
+# Archive a file, keeping the input file
+lzip -k <path_to_file>
+
+# Archive a file with the best compression (level=9)
+lzip -k <path_to_file> --best
+
+# Archive a file at the fastest speed (level=0)
+lzip -k <path_to_file> --fast
+
+# Test the integrity of compressed file
+lzip --test <path_to_archive.lz>
+
+# Decompress a file, replacing it with the original uncompressed version
+lzip -d <path_to_archive.lz>
+
+# Decompress a file, keeping the archive
+lzip -d -k <path_to_archive.lz>
+
+# List files which are in an archive and show compression stats
+lzip --list <path_to_archive.lz>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xrdb.md
+
+% xrdb, linux
+
+# Start `xrdb` in interactive mode
+xrdb
+
+# Load values (e.g. style rules) from a resource file
+xrdb -load <~/.Xresources>
+
+# Query the resource database and print currently set values
+xrdb -query

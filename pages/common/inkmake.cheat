@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/inkmake.md
+
+% inkmake, common
+
+# Export an SVG file executing the specified Inkfile
+inkmake <path_to_Inkfile>
+
+# Execute an Inkfile and show detailed information
+inkmake --verbose <path_to_Inkfile>
+
+# Execute an Inkfile, specifying SVG input file(s) and an output file
+inkmake --svg <path_to_file.svg> --out <path_to_output_image> <path_to_Inkfile>
+
+# Specify a custom Inkscape binary to use as the backend
+inkmake --inkscape <Applications_Inkscape.app_Contents_Resources_bin_inkscape> <path_to_Inkfile>
+
+# Display help
+inkmake --help

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/virt-xml-validate.md
+
+% virt-xml-validate, linux
+
+# Validate an XML file against a specific schema
+virt-xml-validate <path_to_file.xml> <schema>
+
+# Validate the domain XML against the domain schema
+virt-xml-validate <path_to_domain.xml> domain

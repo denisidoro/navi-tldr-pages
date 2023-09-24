@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-network.md
+
+% az-network, common
+
+# List network resources in a region that are used against a subscription quota
+az network list-usages
+
+# List all virtual networks in a subscription
+az network vnet list
+
+# Create a virtual network
+az network vnet create --address-prefixes <10.0.0.0_16> --name <vnet> --resource_group <group_name> --submet-name <subnet> --subnet-prefixes <10.0.0.0_24>
+
+# Enable accelerated networking for a network interface card
+az network nic update --accelerated-networking true --name <nic> --resource-group <resource_group>

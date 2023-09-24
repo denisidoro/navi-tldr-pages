@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/swipl.md
+
+% swipl, common
+
+# Start an interactive session
+swipl
+
+# Execute a command without showing any output
+swipl --quiet -t "<command>"
+
+# Execute a script
+swipl <path_to_file.pl>
+
+# Print all shell configuration variables
+swipl --dump-runtime-variables
+
+# Print the version
+swipl --version

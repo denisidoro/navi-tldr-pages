@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/devcontainer.md
+
+% devcontainer, common
+
+# Create and run a Dev Container
+devcontainer up
+
+# Apply a Dev Container Template to a workspace
+devcontainer templates apply --template-id <template_id> --template-args <template_args> --workspace-folder <path_to_workspace>
+
+# Execute a command on a running Dev Container in the current workspace
+devcontainer exec <command>
+
+# Build a Dev Container image from `devcontainer.json`
+devcontainer build <path_to_workspace>
+
+# Open a Dev Container in VS Code (the path is optional)
+devcontainer open <path_to_workspace>
+
+# Read and print the configuration of a Dev Container from `devcontainer.json`
+devcontainer read-configuration

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/logsave.md
+
+% logsave, linux
+
+# Execute command with specified argument(s) and save its output to log file
+logsave <path_to_logfile> <command>
+
+# Take input from `stdin` and save it in a log file
+logsave <logfile> -
+
+# Append the output to a log file, instead of replacing its current contents
+logsave -a <logfile> <command>
+
+# Show verbose output
+logsave -v <logfile> <command>

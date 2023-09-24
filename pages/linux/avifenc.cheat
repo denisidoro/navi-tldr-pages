@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/avifenc.md
+
+% avifenc, linux
+
+# Convert a specific PNG image to AVIF
+avifenc <path_to_input.png> <path_to_output.avif>
+
+# Encode with a specific speed (6=default, 0=slowest and 10=fastest)
+avifenc --speed <2> <path_to_input.png> <path_to_output.avif>

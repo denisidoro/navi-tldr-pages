@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/security.md
+
+% security, osx
+
+# List all available keychains
+security list-keychains
+
+# Delete a specific keychain
+security delete-keychain <path_to_file.keychain>
+
+# Create a keychain
+security create-keychain -p <password> <path_to_file.keychain>
+
+# Set a certificate to use with a website or [s]ervice by its [c]ommon name (fails if several certificates with the same common name exist)
+security set-identity-preference -s <URL|hostname|service> -c "<common_name>" <path_to_file.keychain>
+
+# Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used)
+security add-certificates -k <file.keychain> <path_to_cert_file.pem>
+
+# Add a CA certificate to the per-user Trust Settings
+security add-trusted-cert -k <path_to_user-keychain.keychain-db> <path_to_ca-cert_file.pem>
+
+# Remove a CA certificate from the per-user Trust Settings
+security remove-trusted-cert <path_to_ca-cert_file.pem>

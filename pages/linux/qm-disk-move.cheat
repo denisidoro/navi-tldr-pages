@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-disk-move.md
+
+% qm-disk-move, linux
+
+# Move a virtual disk
+qm disk move <vm_id> <destination> <index>
+
+# Delete the previous copy of the virtual disk
+qm disk move -delete <vm_id> <destination> <index>

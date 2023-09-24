@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gprof.md
+
+% gprof, common
+
+# Compile binary with gprof information and run it to get `gmon.out`
+gcc -pg <program.c> && <._a.out>
+
+# Run gprof to obtain profile output
+gprof
+
+# Suppress profile field's description
+gprof -b
+
+# Display routines that have zero usage
+gprof -bz

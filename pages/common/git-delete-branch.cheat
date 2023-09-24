@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-delete-branch.md
+
+% git-delete-branch, common
+
+# Delete a local and remote Git branch
+git delete-branch <branch_name>
+
+# Delete multiple local and remote Git branches
+git delete-branch <branch_name1 branch_name2 ...>

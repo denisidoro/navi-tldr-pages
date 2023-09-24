@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rig.md
+
+% rig, linux
+
+# Display a random name (male or female) and address
+rig
+
+# Display a [m]ale (or [f]emale) random name and address
+rig -<m|f>
+
+# Use data files from a specific directory (default is `/usr/share/rig`)
+rig -d <path_to_directory>
+
+# Display a specific number of identities
+rig -c <number>
+
+# Display a specific number of female identities
+rig -f -c <number>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xdg-desktop-menu.md
+
+% xdg-desktop-menu, linux
+
+# Install an application to the desktop menu system
+xdg-desktop-menu install <path_to_file.desktop>
+
+# Install an application to the desktop menu system with the vendor prefix check disabled
+xdg-desktop-menu install --novendor <path_to_file.desktop>
+
+# Uninstall an application from the desktop menu system
+xdg-desktop-menu uninstall <path_to_file.desktop>
+
+# Force an update of the desktop menu system
+xdg-desktop-menu forceupdate --mode <user|system>

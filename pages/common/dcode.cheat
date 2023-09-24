@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dcode.md
+
+% dcode, common
+
+# Recursively detect and decode a string
+dcode "<NjM3YTQyNzQ1YTQ0NGUzMg==>"
+
+# Rotate a string by the specified offset
+dcode -rot <11> "<spwwz hzcwo>"
+
+# Rotate a string by all 26 possible offsets
+dcode -rot <all> "<bpgkta xh qtiitg iwpc sr>"
+
+# Reverse a string
+dcode -rev "<hello world>"

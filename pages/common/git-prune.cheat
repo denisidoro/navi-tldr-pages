@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-prune.md
+
+% git-prune, common
+
+# Report what would be removed by Git prune without removing it
+git prune --dry-run
+
+# Prune unreachable objects and display what has been pruned to `stdout`
+git prune --verbose
+
+# Prune unreachable objects while showing progress
+git prune --progress

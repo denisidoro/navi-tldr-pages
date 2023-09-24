@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/alien.md
+
+% alien, linux
+
+# Convert a specific installation file to Debian format (`.deb` extension)
+sudo alien --to-deb <path_to_file>
+
+# Convert a specific installation file to Red Hat format (`.rpm` extension)
+sudo alien --to-rpm <path_to_file>
+
+# Convert a specific installation file to a Slackware installation file (`.tgz` extension)
+sudo alien --to-tgz <path_to_file>
+
+# Convert a specific installation file to Debian format and install on the system
+sudo alien --to-deb --install <path_to_file>

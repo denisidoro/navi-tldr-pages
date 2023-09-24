@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/po4a-translate.md
+
+% po4a-translate, linux
+
+# Convert a translated PO file back to a document
+po4a-translate --format <text> --master <path_to_master.doc> --po <path_to_result.po> --localized <path_to_translated.txt>
+
+# Get a list of available formats
+po4a-translate --help-format

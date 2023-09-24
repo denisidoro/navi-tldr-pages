@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/deemix.md
+
+% deemix, common
+
+# Download a track or playlist
+deemix <https:__www.deezer.com_us_track_00000000>
+
+# Download track/playlist at a specific bitrate
+deemix --bitrate <FLAC|MP3> <url>
+
+# Download to a specific path
+deemix --bitrate <bitrate> --path <path> <url>
+
+# Create a portable deemix config in the current directory
+deemix --portable --bitrate <bitrate> --path <path> <url>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/recsel.md
+
+% recsel, common
+
+# Extract name and version field
+recsel -p name,version <data.rec>
+
+# Use "~" to match a string with a given regular expression
+recsel -e "<field_name> ~ '<regular_expression>' <data.rec>"
+
+# Use a predicate to match a name and a version
+recsel -e "name ~ '<regular_expression>' && version ~ '<regular_expression>'" <data.rec>

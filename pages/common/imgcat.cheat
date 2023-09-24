@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/imgcat.md
+
+% imgcat, common
+
+# Display an image on the command-line
+imgcat <path_to_file>

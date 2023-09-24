@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/diskpart.md
+
+% diskpart, windows
+
+# Run diskpart by itself in an administrative command prompt to enter its command-line
+diskpart
+
+# List all disks
+list disk
+
+# Select a volume
+select volume <volume>
+
+# Assign a drive letter to the selected volume
+assign letter <letter>
+
+# Create a new partition
+create partition primary
+
+# Activate the selected volume
+active
+
+# Exit diskpart
+exit

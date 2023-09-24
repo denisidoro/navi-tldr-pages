@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/tracert.md
+
+% tracert, windows
+
+# Trace a route
+tracert <IP>
+
+# Prevent `tracert` from resolving IP addresses to hostnames
+tracert /d <IP>
+
+# Force `tracert` to use IPv4 only
+tracert /4 <IP>
+
+# Force `tracert` to use IPv6 only
+tracert /6 <IP>
+
+# Specify the maximum number of hops in the search for the target
+tracert /h <max_hops> <IP>
+
+# Display help
+tracert /?

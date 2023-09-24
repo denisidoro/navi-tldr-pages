@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/udisksctl.md
+
+% udisksctl, linux
+
+# Show high-level information about disk drives and block devices
+udisksctl status
+
+# Show detailed information about a device
+udisksctl info --block-device <dev_sdX>
+
+# Show detailed information about a device partition
+udisksctl info --block-device <dev_sdXN>
+
+# Mount a device partition and prints the mount point
+udisksctl mount --block-device <dev_sdXN>
+
+# Unmount a device partition
+udisksctl unmount --block-device <dev_sdXN>
+
+# Monitor the daemon for events
+udisksctl monitor

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ipaggcreate.md
+
+% ipaggcreate, common
+
+# Count the number of packets sent from each source address appearing in a pcap file
+ipaggcreate --src <path_to_file.pcap>
+
+# Group and count packets read from a network interface by IP packet length
+ipaggcreate --interface <eth0> --length
+
+# Count the number of bytes sent between each address pair appearing in a pcap file
+ipaggcreate --address-pairs --bytes <path_to_file.pcap>

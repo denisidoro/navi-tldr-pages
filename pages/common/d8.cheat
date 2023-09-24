@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/d8.md
+
+% d8, common
+
+# Start a REPL (interactive shell)
+d8
+
+# Run a JavaScript file
+d8 <path_to_file.js>
+
+# Evaluate a JavaScript expression
+d8 -e "<code>

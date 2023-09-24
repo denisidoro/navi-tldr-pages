@@ -16,4 +16,4 @@ apg -m <16>
 apg -x <16>
 
 # Create a password that doesn't appear in a dictionary (the dictionary file has to be provided)
-apg -r <dictionary_file>
+apg -r <path_to_dictionary_file>

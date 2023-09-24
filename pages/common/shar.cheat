@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/shar.md
+
+% shar, common
+
+# Create a shell script that when executed extracts the given files from itself
+shar <path_to_file1 path_to_file2 ...> > <path_to_archive.sh>

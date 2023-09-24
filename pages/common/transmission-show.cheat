@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/transmission-show.md
+
+% transmission-show, common
+
+# Display metadata for a specific torrent
+transmission-show <path_to_file.torrent>
+
+# Generate a magnet link for a specific torrent
+transmission-show --magnet <path_to_file.torrent>
+
+# Query a torrent's trackers and print the current number of peers
+transmission-show --scrape <path_to_file.torrent>

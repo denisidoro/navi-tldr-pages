@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-utimes.md
+
+% git-utimes, common
+
+# Change all files modification time to their last commit date
+git utimes
+
+# Change files modification time that are newer than their last commit date, preserving original modification time of files that were committed from the local repository
+git utimes --newer

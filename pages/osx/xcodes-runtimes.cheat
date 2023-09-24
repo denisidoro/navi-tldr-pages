@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/xcodes-runtimes.md
+
+% xcodes-runtimes, osx
+
+# Display all available Simulator runtimes
+xcodes runtimes --include-betas
+
+# Download a Simulator runtime
+xcodes runtimes download <runtime-name>
+
+# Download and install a Simulator runtime
+xcodes runtimes install <runtime-name>

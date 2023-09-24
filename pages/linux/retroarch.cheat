@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/retroarch.md
+
+% retroarch, linux
+
+# Start in the menu mode
+retroarch
+
+# Start in full screen mode
+retroarch --fullscreen
+
+# List all compiled features
+retroarch --features
+
+# Set the path of a configuration file
+retroarch --config=<path_to_config_file>
+
+# Display help
+retroarch --help
+
+# Display version
+retroarch --version

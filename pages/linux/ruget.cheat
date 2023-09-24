@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ruget.md
+
+% ruget, linux
+
+# Download the contents of a URL to a file
+ruget <https:__example.com_file>
+
+# Download the contents of a URL to a specified [o]utput file
+ruget --output <file_name> <https:__example.com_file>

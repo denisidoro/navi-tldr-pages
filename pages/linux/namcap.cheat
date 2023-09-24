@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/namcap.md
+
+% namcap, linux
+
+# Check a specific `PKGBUILD` file
+namcap <path_to_pkgbuild>
+
+# Check a specific package file
+namcap <path_to_package.pkg.tar.zst>
+
+# Check a file, printing extra [i]nformational messages
+namcap -i <path_to_file>

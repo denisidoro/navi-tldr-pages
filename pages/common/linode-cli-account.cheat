@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/linode-cli-account.md
+
+% linode-cli-account, common
+
+# View account
+linode-cli account view
+
+# View account settings
+linode-cli account settings
+
+# Make a payment
+linode-cli account payment-create --cvv <cvv> --usd <amount_in_dollars>
+
+# View account notifications
+linode-cli account notifications-list

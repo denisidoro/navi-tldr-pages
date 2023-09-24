@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-reset.md
+
+% qm-reset, linux
+
+# Reset a virtual machine
+qm reset <vm_id>
+
+# Reset a virtual machine and skip lock (only root can use this option)
+qm reset --skiplock <true> <vm_id>

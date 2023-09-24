@@ -4,7 +4,10 @@
 % micro, common
 
 # Open a file
-micro <file>
+micro <path_to_file>
+
+# Save a file
+Ctrl + S
 
 # Cut the entire line
 Ctrl + K

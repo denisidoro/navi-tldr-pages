@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gnucash.md
+
+% gnucash, common
+
+# Launch GnuCash and load the previously opened file
+gnucash
+
+# Launch GnuCash and load the specified file
+gnucash <path_to_file.gnucash>
+
+# Launch GnuCash and load an empty file
+gnucash --nofile

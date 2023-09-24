@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/btrfs-check.md
+
+% btrfs-check, linux
+
+# Check a btrfs filesystem
+sudo btrfs check <path_to_partition>
+
+# Check and repair a btrfs filesystem (dangerous)
+sudo btrfs check --repair <path_to_partition>
+
+# Show the progress of the check
+sudo btrfs check --progress <path_to_partition>
+
+# Verify the checksum of each data block (if the filesystem is good)
+sudo btrfs check --check-data-csum <path_to_partition>
+
+# Use the `n`-th superblock (`n` can be 0, 1 or 2)
+sudo btrfs check --super <n> <path_to_partition>
+
+# Rebuild the checksum tree
+sudo btrfs check --repair --init-csum-tree <path_to_partition>
+
+# Rebuild the extent tree
+sudo btrfs check --repair --init-extent-tree <path_to_partition>

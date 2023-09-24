@@ -6,7 +6,7 @@
 # Ping and trace the route to a host
 pathping <hostname>
 
-# Do not perform reverse lookup of ip-address to hostname
+# Do not perform reverse lookup of IP address to hostname
 pathping <hostname> -n
 
 # Specify the maximum number of hops to search for the target (the default is 30)

@@ -10,10 +10,10 @@ nmtui
 nmtui connect
 
 # Connect to a given network
-nmtui connect <name_uuid_device_SSID>
+nmtui connect <name|uuid|device|SSID>
 
 # Edit/Add/Delete a given network
-nmtui edit <name_id>
+nmtui edit <name|id>
 
 # Set the system hostname
 nmtui hostname

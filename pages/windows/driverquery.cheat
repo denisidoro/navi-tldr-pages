@@ -7,7 +7,7 @@
 driverquery
 
 # Display a list of drivers in the specified format
-driverquery /fo <table_list_csv>
+driverquery /fo <table|list|csv>
 
 # Display a list of drivers with a column to indicate if they are signed
 driverquery /si

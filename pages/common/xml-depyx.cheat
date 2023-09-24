@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-depyx.md
+
+% xml-depyx, common
+
+# Convert a PYX (ESIS - ISO 8879) document to XML format
+xml depyx <path_to_input.pyx|URI> > <path_to_output.xml>
+
+# Convert a PYX document from `stdin` to XML format
+cat <path_to_input.pyx> | xml depyx > <path_to_output.xml>
+
+# Display help for the `depyx` subcommand
+xml depyx --help

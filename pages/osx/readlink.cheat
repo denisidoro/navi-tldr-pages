@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/readlink.md
+
+% readlink, osx
+
+# Print the absolute path which the symlink points to
+readlink <path_to_symlink_file>

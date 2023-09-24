@@ -7,7 +7,7 @@
 axel <url>
 
 # Download and specify filename
-axel <url> -o <filename>
+axel <url> -o <path_to_file>
 
 # Download with multiple connections
 axel -n <connections_num> <url>

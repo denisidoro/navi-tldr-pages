@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-delete-submodule.md
+
+% git-delete-submodule, common
+
+# Delete a specific submodule
+git delete-submodule <path_to_submodule>

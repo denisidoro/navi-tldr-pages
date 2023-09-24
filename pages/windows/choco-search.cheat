@@ -16,7 +16,7 @@ choco search <query> --exact
 choco search <query> --yes
 
 # Specify a custom source to search for packages in
-choco search <query> --source <source_url_alias>
+choco search <query> --source <source_url|alias>
 
 # Provide a username and password for authentication
 choco search <query> --user <username> --password <password>

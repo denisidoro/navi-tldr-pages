@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pio-debug.md
+
+% pio-debug, common
+
+# Debug the PlatformIO project in the current directory
+pio debug
+
+# Debug a specific PlatformIO project
+pio debug --project-dir <path_to_platformio_project>
+
+# Debug a specific environment
+pio debug --environment <environment>
+
+# Debug a PlatformIO project using a specific configuration file
+pio debug --project-conf <path_to_platformio.ini>
+
+# Debug a PlatformIO project using the `gdb` debugger
+pio debug --interface=<gdb> <gdb_options>

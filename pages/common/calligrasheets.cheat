@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/calligrasheets.md
+
+% calligrasheets, common
+
+# Launch the spreadsheet application
+calligrasheets
+
+# Open a specific spreadsheet
+calligrasheets <path_to_spreadsheet>
+
+# Display help or version
+calligrasheets --<help|version>

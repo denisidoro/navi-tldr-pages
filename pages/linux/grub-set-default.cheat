@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/grub-set-default.md
+
+% grub-set-default, linux
+
+# Set the default boot entry to an entry number, name or identifier
+sudo grub-set-default <entry_number>
+
+# Set the default boot entry to an entry number, name or identifier for an alternative boot directory
+sudo grub-set-default --boot-directory <path_to_boot_directory> <entry_number>

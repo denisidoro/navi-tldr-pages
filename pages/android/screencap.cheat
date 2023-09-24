@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/android/screencap.md
+
+% screencap, android
+
+# Take a screenshot
+screencap <path_to_file>

@@ -19,4 +19,4 @@ exiv2 -d a <path_to_file>
 exiv2 -d a -k <path_to_file>
 
 # Rename the file, prepending the date and time from metadata (not from the file timestamp)
-exiv2 -r <__Y_m_d__H_M_S__basename__> <path_to_file>
+exiv2 -r <'%Y%m%d_%H%M%S_:basename:'> <path_to_file>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/venv.md
+
+% venv, common
+
+# Create a python virtual environment
+ python -m venv <path_to_virtual_environment>
+
+# Activate the virtual environment (Linux and Mac OS)
+source <path_to_virtual_environment>/bin/activate
+
+# Activate the virtual environment (Windows)
+<path\to\virtual_environment>\Scripts\activate.bat
+
+# Deactivate the virtual environment
+deactivate

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gnatmake.md
+
+% gnatmake, common
+
+# Compile an executable
+gnatmake <source_file1.adb source_file2.adb ...>
+
+# Set a custom executable name
+gnatmake -o <executable_name> <source_file.adb>
+
+# [f]orce recompilation
+gnatmake -f <source_file.adb>

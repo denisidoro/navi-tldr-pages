@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gh-ssh-key.md
+
+% gh-ssh-key, common
+
+# Display help
+gh ssh-key
+
+# List SSH keys for the currently authenticated user
+gh ssh-key list
+
+# Add an SSH key to the currently authenticated user's account
+gh ssh-key add <path_to_key.pub>
+
+# Add an SSH key to the currently authenticated user's account with a specific title
+gh ssh-key add --title <title> <path_to_key.pub>

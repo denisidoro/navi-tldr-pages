@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-version.md
+
+% az-version, common
+
+# Show the current version of Azure CLI modules and extensions in JSON format
+az version
+
+# Show the current version of Azure CLI modules and extensions in a given format
+az version --output <json|table|tsv>

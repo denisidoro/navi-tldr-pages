@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jmeter.md
+
+% jmeter, common
+
+# Run a specific test plan in nongui mode
+jmeter --nongui --testfile <path_to_file>.jmx
+
+# Run a test plan in nongui mode using a specific log file
+jmeter --nogui --testfile <path_to_file>.jmx --logfile <path_to_logfile>.jtl
+
+# Run a test plan in nongui mode using a specific proxy
+jmeter --nongui --testfile <path_to_file>.jmx --proxyHost <127.0.0.1> --proxyPort <8888>
+
+# Run a test plan in nongui mode using a specific JMeter property
+jmeter --jmeterproperty <key>='<value>' --nongui --testfile <path_to_file>.jmx

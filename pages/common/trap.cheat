@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/trap.md
+
+% trap, common
+
+# List available signals to set traps for
+trap -l
+
+# List active traps for the current shell
+trap -p
+
+# Set a trap to execute commands when one or more signals are detected
+trap 'echo "Caught signal <SIGHUP>"' <SIGHUP>
+
+# Remove active traps
+trap - <SIGHUP> <SIGINT>

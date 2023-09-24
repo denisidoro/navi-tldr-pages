@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gh-release.md
+
+% gh-release, common
+
+# List releases in a GitHub repository, limited to 30 items
+gh release list
+
+# Display information about a specific release
+gh release view <tag>
+
+# Create a new release
+gh release create <tag>
+
+# Delete a specific release
+gh release delete <tag>
+
+# Download assets from a specific release
+gh release download <tag>
+
+# Upload assets to a specific release
+gh release upload <tag> <path_to_file1 path_to_file2 ...>

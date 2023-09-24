@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zcmp.md
+
+% zcmp, common
+
+# Invoke `cmp` on two files compressed via `gzip`
+zcmp <path_to_file1.gz> <path_to_file2.gz>
+
+# Compare a file to its gzipped version (assuming `.gz` exists already)
+zcmp <path_to_file>

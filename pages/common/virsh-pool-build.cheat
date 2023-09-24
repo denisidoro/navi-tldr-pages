@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virsh-pool-build.md
+
+% virsh-pool-build, common
+
+# Build the storage pool specified by name or UUID (determine using `virsh pool-list`)
+virsh pool-build --pool <name|uuid>

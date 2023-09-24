@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/[.md
+
+% [, common
+
+# Test if a given variable is equal/not equal to the specified string
+[ "$<variable>" <==|!=> "<string>" ]
+
+# Test if a given variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to the specified number
+[ "$<variable>" -<eq|ne|gt|lt|ge|le> <integer> ]
+
+# Test if the specified variable has a [n]on-empty value
+[ -n "$<variable>" ]
+
+# Test if the specified variable has an empty value
+[ -z "$<variable>" ]
+
+# Test if the specified [f]ile exists
+[ -f <path_to_file> ]
+
+# Test if the specified [d]irectory exists
+[ -d <path_to_directory> ]
+
+# Test if the specified file or directory [e]xists
+[ -e <path_to_file_or_directory> ]

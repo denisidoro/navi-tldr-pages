@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/llvm-as.md
+
+% llvm-as, common
+
+# Assemble an IR file
+llvm-as -o <path_to_out.bc> <path_to_source.ll>
+
+# Assemble an IR file and include a module hash in the produced Bitcode file
+llvm-as --module-hash -o <path_to_out.bc> <path_to_source.ll>
+
+# Read an IR file from `stdin` and assemble it
+cat <path_to_source.ll> | llvm-as -o <path_to_out.bc>

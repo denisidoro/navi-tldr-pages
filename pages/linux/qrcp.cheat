@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qrcp.md
+
+% qrcp, linux
+
+# Send a file or directories
+qrcp send <path_to_file_or_directory path_to_file_directory ...>
+
+# Receive files
+qrcp receive
+
+# Compress content before transferring
+qrcp send --zip <path_to_file_or_directory>
+
+# Specify a [p]ort to use
+qrcp <send|receive> --port <port_number>
+
+# Specify the network [i]nterface to use
+qrcp <send|receive> --interface interface
+
+# Keep the server alive
+qrcp <send|receive> --keep-alive

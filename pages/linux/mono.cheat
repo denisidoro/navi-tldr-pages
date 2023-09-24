@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mono.md
+
+% mono, linux
+
+# Run a .NET assembly in debug mode
+mono --debug <path_to_program.exe>
+
+# Run a .NET assembly
+mono <path_to_program.exe>

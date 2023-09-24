@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/gbase64.md
+
+% gbase64, osx
+
+# View documentation for the original command
+tldr -p linux base64

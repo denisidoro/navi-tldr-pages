@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xetex.md
+
+% xetex, common
+
+# Compile a PDF document
+xetex <source.tex>
+
+# Compile a PDF document, specifying an output directory
+xetex -output-directory=<path_to_directory> <source.tex>
+
+# Compile a PDF document, exiting if errors occur
+xetex -halt-on-error <source.tex>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xdelta.md
+
+% xdelta, common
+
+# Apply a patch
+xdelta -d -s <path_to_input_file> <path_to_delta_file.xdelta> <path_to_output_file>
+
+# Create a patch
+xdelta -e -s <path_to_old_file> <path_to_new_file> <path_to_output_file.xdelta>

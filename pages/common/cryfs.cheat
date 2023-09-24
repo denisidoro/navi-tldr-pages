@@ -3,10 +3,10 @@
 
 % cryfs, common
 
-# Mount an encrypted file system. The initialization wizard will be started on the first execution
+# Mount an encrypted filesystem. The initialization wizard will be started on the first execution
 cryfs <path_to_cipher_dir> <path_to_mount_point>
 
-# Unmount an encrypted file system
+# Unmount an encrypted filesystem
 cryfs-unmount <path_to_mount_point>
 
 # Automatically unmount after ten minutes of inactivity

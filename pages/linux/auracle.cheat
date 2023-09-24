@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/auracle.md
+
+% auracle, linux
+
+# Display AUR packages that match a regular expression
+auracle search '<regular_expression>'
+
+# Display package information for a space-separated list of AUR packages
+auracle info <package1> <package2>
+
+# Display the `PKGBUILD` file (build information) for a space-separated list of AUR packages
+auracle show <package1> <package2>
+
+# Display updates for installed AUR packages
+auracle outdated

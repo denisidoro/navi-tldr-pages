@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/prompt.md
+
+% prompt, windows
+
+# Reset the prompt to the default setting
+prompt
+
+# Set a specific prompt
+prompt <prompt>
+
+# Change the prompt to show the current date first
+prompt $D $P$G
+
+# Change the prompt to show the current time first
+prompt $T $P$G
+
+# Change the prompt by adding a specific text first
+prompt <text> $P$G

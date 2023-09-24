@@ -3,7 +3,7 @@
 
 % reg, windows
 
-# Execute registry commands
+# Execute a registry command
 reg <command>
 
 # Display general information and list all available commands

@@ -10,7 +10,7 @@ kahlan
 kahlan --config=<path_to_configuration_file>
 
 # Run specifications and output using a reporter
-kahlan --reporter=<dot_bar_json_tap_verbose>
+kahlan --reporter=<dot|bar|json|tap|verbose>
 
 # Run specifications with code coverage (detail can be between 0 and 4)
 kahlan --coverage=<detail_level>

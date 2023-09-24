@@ -3,26 +3,26 @@
 
 % curl, common
 
-# Download the contents of an URL to a file
-curl <http___example_com> -o <filename>
+# Download the contents of a URL to a file
+curl <http:__example.com> --output <path_to_file>
 
 # Download a file, saving the output under the filename indicated by the URL
-curl -O <http___example_com_filename>
+curl --remote-name <http:__example.com_filename>
 
-# Download a file, following [L]ocation redirects, and automatically [C]ontinuing (resuming) a previous file transfer
-curl -O -L -C - <http___example_com_filename>
+# Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error
+curl --fail --remote-name --location --continue-at - <http:__example.com_filename>
 
-# Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `-d @file_name` or `-d @'-'` to read from STDIN
-curl -d <_name_bob_> <http___example_com_form>
+# Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN
+curl --data <'name=bob'> <http:__example.com_form>
 
 # Send a request with an extra header, using a custom HTTP method
-curl -H {{'X-My-Header: 123'}} -X <PUT> <http___example_com>
+curl --header <'X-My-Header: 123'> --request <PUT> <http:__example.com>
 
 # Send data in JSON format, specifying the appropriate content-type header
-curl -d {{'{"name":"bob"}'}} -H {{'Content-Type: application/json'}} <http___example_com_users_1234>
+curl --data {{'{"name":"bob"}'}} --header <'Content-Type: application_json'> <http:__example.com_users_1234>
 
-# Pass a user name and password for server authentication
-curl -u myusername:mypassword <http___example_com>
+# Pass a username and password for server authentication
+curl --user myusername:mypassword <http:__example.com>
 
 # Pass client certificate and key for a resource, skipping certificate validation
-curl --cert <client_pem> --key <key_pem> --insecure <https___example_com>
+curl --cert <client.pem> --key <key.pem> --insecure <https:__example.com>

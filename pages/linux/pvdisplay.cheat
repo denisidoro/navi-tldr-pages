@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pvdisplay.md
+
+% pvdisplay, linux
+
+# Display information about all physical volumes
+sudo pvdisplay
+
+# Display information about the physical volume on drive `/dev/sdXY`
+sudo pvdisplay <dev_sdXY>

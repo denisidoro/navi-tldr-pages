@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/maim.md
+
+% maim, linux
+
+# Capture a screenshot and save it to the given path
+maim <path_to_screenshot.png>
+
+# Capture a screenshot of the selected region
+maim --select <path_to_screenshot.png>
+
+# Capture a screenshot of the selected region and save it in the clipboard (requires `xclip`)
+maim --select | xclip -selection clipboard -target image/png
+
+# Capture a screenshot of the current active window (requires `xdotool`)
+maim --window $(xdotool getactivewindow) <path_to_screenshot.png>

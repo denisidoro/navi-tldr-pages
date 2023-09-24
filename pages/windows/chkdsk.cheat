@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/chkdsk.md
+
+% chkdsk, windows
+
+# Specify the drive letter (followed by a colon), mount point, or volume name to check
+chkdsk <volume>
+
+# Fix errors on a specific volume
+chkdsk <volume> /f
+
+# Dismount a specific volume before checking
+chkdsk <volume> /x
+
+# Change the log file size to the specified size (only for NTFS)
+chkdsk /l<size>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hakyll-init.md
+
+% hakyll-init, common
+
+# Generate a new Hakyll sample blog
+hakyll-init <path_to_directory>
+
+# Show help for `hakyll-init`
+hakyll-init --help

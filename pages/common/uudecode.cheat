@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/uudecode.md
+
+% uudecode, common
+
+# Decode a file that was encoded with `uuencode` and print the result to `stdout`
+uudecode <path_to_encoded_file>
+
+# Decode a file that was encoded with `uuencode` and write the result to a file
+uudecode -o <path_to_decoded_file> <path_to_encoded_file>

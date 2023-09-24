@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pyats-shell.md
+
+% pyats-shell, common
+
+# Open pyATS shell with a defined Testbed file
+pyats shell --testbed-file <path_to_testbed.yaml>
+
+# Open pyATS shell with a defined Pickle file
+pyats shell --pickle-file <path_to_pickle.file>
+
+# Open pyATS with IPython disabled
+pyats shell --no-ipython

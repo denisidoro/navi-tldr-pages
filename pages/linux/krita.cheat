@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/krita.md
+
+% krita, linux
+
+# Start Krita
+krita
+
+# Open specific files
+krita <path_to_image1 path_to_image2 ...>
+
+# Start without a splash screen
+krita --nosplash
+
+# Start with a specific workspace
+krita --workspace <Animation>
+
+# Start in fullscreen mode
+krita --fullscreen

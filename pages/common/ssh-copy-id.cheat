@@ -4,7 +4,7 @@
 % ssh-copy-id, common
 
 # Copy your keys to the remote machine
-ssh-copy-id <username_remote_host>
+ssh-copy-id <username@remote_host>
 
 # Copy the given public key to the remote
 ssh-copy-id -i <path_to_certificate> <username>@<remote_host>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/diskonaut.md
+
+% diskonaut, common
+
+# Start `diskonaut` in the current directory
+diskonaut
+
+# Start `diskonaut` in a specific directory
+diskonaut <path_to_directory>
+
+# Show file sizes rather than their block usage on the disk
+diskonaut --apparent-size <path_to_directory>
+
+# Disable deletion confirmation
+diskonaut --disable-delete-confirmation

@@ -4,7 +4,7 @@
 % imgp, linux
 
 # Convert single images and/or whole directories containing valid image formats
-imgp -x <1366x1000> <path_to_dir> <path_to_file>
+imgp -x <1366x1000> <path_to_directory> <path_to_file>
 
 # Scale an image by 75% and overwrite the source image to a target resolution
 imgp -x <75> -w <path_to_file>

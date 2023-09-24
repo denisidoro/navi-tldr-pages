@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pylint.md
+
+% pylint, common
+
+# Show lint errors in a file
+pylint <path_to_file.py>
+
+# Lint a file and use a configuration file (usually named `pylintrc`)
+pylint --rcfile <path_to_pylintrc> <path_to_file.py>
+
+# Lint a file and disable a specific error code
+pylint --disable <C,W,no-error,design> <path_to_file>

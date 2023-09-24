@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/e2fsck.md
+
+% e2fsck, linux
+
+# Check filesystem, reporting any damaged blocks
+sudo e2fsck <dev_sdXN>
+
+# Check filesystem and automatically repair any damaged blocks
+sudo e2fsck -p <dev_sdXN>
+
+# Check filesystem in read only mode
+sudo e2fsck -c <dev_sdXN>
+
+# Perform an exhaustive, non-destructive read-write test for bad blocks and blacklist them
+sudo e2fsck -fccky <dev_sdXN>

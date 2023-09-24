@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/2to3.md
+
+% 2to3, common
+
+# Display the changes that would be performed without performing them (dry-run)
+2to3 <path_to_file.py>
+
+# Convert a Python 2 file to Python 3
+2to3 --write <path_to_file.py>
+
+# Convert specific Python 2 language features to Python 3
+2to3 --write <path_to_file.py> --fix=<raw_input> --fix=<print>
+
+# Convert all Python 2 language features except the specified ones to Python 3
+2to3 --write <path_to_file.py> --nofix=<has_key> --nofix=<isinstance>
+
+# Display a list of all available language features that can be converted from Python 2 to Python 3
+2to3 --list-fixes
+
+# Convert all Python 2 files in a directory to Python 3
+2to3 --output-dir=<path_to_python3_directory> --write-unchanged-files --nobackups <path_to_python2_directory>
+
+# Run 2to3 with multiple threads
+2to3 --processes=<4> --output-dir=<path_to_python3_directory> --write --nobackups --no-diff <path_to_python2_directory>

@@ -3,8 +3,17 @@
 
 % reboot, linux
 
-# Reboot immediately
+# Reboot the system
 reboot
 
-# Reboot immediately without gracefully shutting down
-reboot -f
+# Power off the system (same as `poweroff`)
+reboot --poweroff
+
+# Halt the system (same as `halt`)
+reboot --halt
+
+# Reboot immediately without contacting the system manager
+reboot --force
+
+# Write the wtmp shutdown entry without rebooting the system
+reboot --wtmp-only

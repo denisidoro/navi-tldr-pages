@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/engrampa.md
+
+% engrampa, linux
+
+# Start Engrampa
+engrampa
+
+# Open specific archives
+engrampa <path_to_archive1.tar path_to_archive2.tar ...>
+
+# Archive specific files and/or directories recursively
+engrampa --add-to=<path_to_compressed.tar> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# Extract files and/or directories from archives to a specific path
+engrampa --extract-to=<path_to_directory> <path_to_archive1.tar path_to_archive2.tar ...>

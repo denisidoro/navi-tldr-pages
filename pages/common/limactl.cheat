@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/limactl.md
+
+% limactl, common
+
+# List VMs
+limactl list
+
+# Create a VM using the default settings and optionally provide a name and/or a template (see `limactl create --list-templates` for available templates)
+limactl create --name <vm_name> template://<debian|fedora|ubuntu|…>
+
+# Start a VM (this might install some dependencies in it and take a few minutes)
+limactl start <vm_name>
+
+# Open a remote shell inside a VM
+limactl shell <vm_name>
+
+# Run a command inside a VM
+limactl shell <vm_name> <command>
+
+# Stop/shutdown a VM
+limactl stop <vm_name>
+
+# Delete a VM
+limactl remove <vm_name>

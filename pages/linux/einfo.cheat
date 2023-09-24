@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/einfo.md
+
+% einfo, linux
+
+# Print all database names
+einfo -dbs
+
+# Print all information of the protein database in XML format
+einfo -db <protein>
+
+# Print all fields of the nuccore database
+einfo -db <nuccore> -fields
+
+# Print all links of the protein database
+einfo -db <protein> -links

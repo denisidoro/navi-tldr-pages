@@ -13,7 +13,7 @@ pt -c <foo>
 pt -wi <foo>
 
 # Find "foo" in files with a given extension using a regular expression
-pt -G='{{\.bar$}}' <foo>
+pt -G='<\.bar$>' <foo>
 
 # Find files whose contents match the regular expression, up to 2 directories deep
-pt --depth=<2> -e '{{^ba[rz]*$}}'
+pt --depth=<2> -e '<^ba[rz]*$>'

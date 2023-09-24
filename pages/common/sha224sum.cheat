@@ -3,11 +3,20 @@
 
 % sha224sum, common
 
-# Calculate the SHA224 checksum for a file
-sha224sum <filename1>
+# Calculate the SHA224 checksum for one or more files
+sha224sum <path_to_file1 path_to_file2 ...>
 
-# Calculate SHA224 checksums for multiple files
-sha224sum <filename1> <filename2>
+# Calculate and save the list of SHA224 checksums to a file
+sha224sum <path_to_file1 path_to_file2 ...> > <path_to_file.sha224>
 
-# Read a file of SHA224 sums and verify all files have matching checksums
-sha224sum -c <filename_sha224>
+# Calculate a SHA224 checksum from `stdin`
+<command> | sha224sum
+
+# Read a file of SHA224 sums and filenames and verify all files have matching checksums
+sha224sum --check <path_to_file.sha224>
+
+# Only show a message for missing files or when verification fails
+sha224sum --check --quiet <path_to_file.sha224>
+
+# Only show a message when verification fails, ignoring missing files
+sha224sum --ignore-missing --check --quiet <path_to_file.sha224>

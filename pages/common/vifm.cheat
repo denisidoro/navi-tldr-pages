@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vifm.md
+
+% vifm, common
+
+# Open the current directory
+vifm .
+
+# Open specified directories on left or right plane
+vifm <path_to_directory1 path_to_directory2 ...>

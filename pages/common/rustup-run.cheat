@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-run.md
+
+% rustup-run, common
+
+# Run a command using a given Rust toolchain (see `rustup help toolchain` for more information)
+rustup run <toolchain> <command>

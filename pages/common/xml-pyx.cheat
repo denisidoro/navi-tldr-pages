@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-pyx.md
+
+% xml-pyx, common
+
+# Convert an XML document to PYX format
+xml pyx <path_to_input.xml|URI> > <path_to_output.pyx>
+
+# Convert an XML document from `stdin` to PYX format
+cat <path_to_input.xml> | xml pyx > <path_to_output.pyx>
+
+# Display help for the `pyx` subcommand
+xml pyx --help

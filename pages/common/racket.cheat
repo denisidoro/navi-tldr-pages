@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/racket.md
+
+% racket, common
+
+# Start a REPL (interactive shell)
+racket
+
+# Execute a Racket script
+racket <path_to_script.rkt>
+
+# Execute a Racket expression
+racket --eval "<expression>"
+
+# Run module as a script (terminates option list)
+racket --lib <module_name> --main <arguments>
+
+# Start a REPL (interactive shell) for the `typed/racket` hashlang
+racket -I typed/racket

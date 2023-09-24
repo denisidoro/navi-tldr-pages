@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/matlab.md
+
+% matlab, common
+
+# Run without splash screen during startup
+matlab -nosplash
+
+# Execute a MATLAB statement
+matlab -r "<matlab_statement>"
+
+# Run a MATLAB script
+matlab -r "run(<path_to_script.m>)"

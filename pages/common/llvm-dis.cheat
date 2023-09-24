@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/llvm-dis.md
+
+% llvm-dis, common
+
+# Convert a bitcode file as LLVM IR and write the result to `stdout`
+llvm-dis <path_to_input.bc> -o -
+
+# Convert a bitcode file to an LLVM IR file with the same filename
+llvm-dis <path_to_file.bc>
+
+# Convert a bitcode file to LLVM IR, writing the result to the specified file
+llvm-dis <path_to_input.bc> -o <path_to_output.ll>

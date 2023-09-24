@@ -4,10 +4,10 @@
 % quilt, common
 
 # Import an existing patch from a file
-quilt import <path_to_filename_patch>
+quilt import <path_to_filename.patch>
 
 # Create a new patch
-quilt new <filename_patch>
+quilt new <filename.patch>
 
 # Add a file to the current patch
 quilt add <path_to_file>

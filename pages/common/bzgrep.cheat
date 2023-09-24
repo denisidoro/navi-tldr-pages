@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bzgrep.md
+
+% bzgrep, common
+
+# Search for a pattern within a compressed file
+bzgrep "<search_pattern>" <path_to_file>
+
+# Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode
+bzgrep --extended-regexp --ignore-case "<search_pattern>" <path_to_file>
+
+# Print 3 lines of context around, before, or after each match
+bzgrep --<context|before-context|after-context>=<3> "<search_pattern>" <path_to_file>
+
+# Print file name and line number for each match
+bzgrep --with-filename --line-number "<search_pattern>" <path_to_file>
+
+# Search for lines matching a pattern, printing only the matched text
+bzgrep --only-matching "<search_pattern>" <path_to_file>
+
+# Recursively search files in a bzip2 compressed tar archive for a pattern
+bzgrep --recursive "<search_pattern>" <path_to_tar_file>
+
+# Search `stdin` for lines that do not match a pattern
+cat <path_to_bz_compressed_file> | bzgrep --invert-match "<search_pattern>"

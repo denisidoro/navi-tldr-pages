@@ -4,25 +4,25 @@
 % perl, common
 
 # Parse and execute a Perl script
-perl <script_pl>
+perl <script.pl>
 
 # Check syntax errors on a Perl script
-perl -c <script_pl>
+perl -c <script.pl>
 
 # Parse and execute a Perl statement
 perl -e <perl_statement>
 
 # Run a Perl script in debug mode, using `perldebug`
-perl -d <script_pl>
+perl -d <script.pl>
 
-# Loo[p] over all lines of a file, editing them [i]n-place using a find/replace [e]xpression
-perl -p -i -e 's/<find>/<replace>/g' <filename>
+# Edit all file lines [i]n-place with a specific replacement [e]xpression, saving a backup with a new extension
+perl -p -i'.<extension>' -e 's/<regular_expression>/<replacement>/g' <path_to_file>
 
-# Run a find/replace expression on a file, saving the original file with a given extension
-perl -p -i'.old' -e 's/<find>/<replace>/g' <filename>
+# Run a multi-line replacement [e]xpression on a file, and save the result in a specific file
+perl -p -e 's/<foo\nbar>/<foobar>/g' <path_to_input_file> > <path_to_output_file>
 
-# Run a multi-line find/replace expression on a file, and save the result in another file
-perl -p0e 's/{{foo\nbar}}/<foobar>/g' <input_file> > <output_file>
+# Run a regular [e]xpression on `stdin`, printing matching [l]ines
+cat <path_to_file> | perl -n -l -e 'print if /<regular_expression>/'
 
-# Run a regular expression on `stdin`, printing out the first capture group for each line
-cat <path_to_input_file> | perl -nle 'if (/.*(<foo>).*/) {print "$1"; last;}'
+# Run a regular [e]xpression on `stdin`, printing only the first capture group for each matching [l]ine
+cat <path_to_file> | perl -n -l -e 'print $1 if /<before>(<regular_expression>)<after>/'

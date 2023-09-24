@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cockpit-desktop.md
+
+% cockpit-desktop, linux
+
+# Open a page
+cockpit-desktop <url> <SSH_host>
+
+# Open storage page
+cockpit-desktop <cockpit_@localhost_storage_index.html>

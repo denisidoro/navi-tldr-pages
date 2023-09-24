@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/flatpak-builder.md
+
+% flatpak-builder, linux
+
+# Build a Flatpak and export it to a new repository
+flatpak-builder <path_to_build_directory> <path_to_manifest>
+
+# Build a Flatpak and export it to the specified repository
+flatpak-builder --repo=<repository_name> <path_to_build_directory> <path_to_manifest>
+
+# Build a Flatpak and install it locally
+flatpak-builder --install <path_to_build_directory> <path_to_manifest>
+
+# Build and sign a Flatpak and export it to the specified repository
+flatpak-builder --gpg-sign=<key_id> --repo=<repository_name> <path_to_manifest>
+
+# Run a shell inside of an application sandbox without installing it
+flatpak-builder --run <path_to_build_directory> <path_to_manifest> <sh>

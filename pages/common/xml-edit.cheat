@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-edit.md
+
+% xml-edit, common
+
+# Delete elements matching an XPATH from an XML document
+xml edit --delete "<XPATH1>" <path_to_input.xml|URI>
+
+# Move an element node of an XML document from XPATH1 to XPATH2
+xml edit --move "<XPATH1>" "<XPATH2>" <path_to_input.xml|URI>
+
+# Rename all attributes named "id" to "ID"
+xml edit --rename "<_*_@id>" -v "<ID>" <path_to_input.xml|URI>
+
+# Rename sub-elements of the element "table" that are named "rec" to "record"
+xml edit --rename "<xml_table_rec>" -v "<record>" <path_to_input.xml|URI>
+
+# Update the XML table record with "id=3" to the value "id=5"
+xml edit --update "<xml_table_rec[@id=3]_@id>" -v <5> <path_to_input.xml|URI>
+
+# Display help for the `edit` subcommand
+xml edit --help

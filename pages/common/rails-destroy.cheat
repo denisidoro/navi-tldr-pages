@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rails-destroy.md
+
+% rails-destroy, common
+
+# List all available generators to destroy
+rails destroy
+
+# Destroy a model named Post
+rails destroy model <Post>
+
+# Destroy a controller named Posts
+rails destroy controller <Posts>
+
+# Destroy a migration that creates Posts
+rails destroy migration <CreatePosts>
+
+# Destroy a scaffold for a model named Post
+rails destroy scaffold <Post>

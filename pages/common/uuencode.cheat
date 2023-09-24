@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/uuencode.md
+
+% uuencode, common
+
+# Encode a file and print the result to `stdout`
+uuencode <path_to_input_file> <output_file_name_after_decoding>
+
+# Encode a file and write the result to a file
+uuencode -o <path_to_output_file> <path_to_input_file> <output_file_name_after_decoding>
+
+# Encode a file using Base64 instead of the default uuencode encoding and write the result to a file
+uuencode -m -o <path_to_output_file> <path_to_input_file> <output_file_name_after_decoding>

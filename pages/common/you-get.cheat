@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/you-get.md
+
+% you-get, common
+
+# Print media information about a specific media on the web
+you-get --info <https:__example.com_video?id=value>
+
+# Download a media from a specific URL
+you-get <https:__example.com_video?id=value>
+
+# Search on Google Videos and download
+you-get <keywords>
+
+# Download a media to a specific location
+you-get --output-dir <path_to_directory> --output-filename <filename> <https:__example.com_watch?v=value>
+
+# Download a media using a proxy
+you-get --http-proxy <proxy_server> <https:__example.com_watch?v=value>

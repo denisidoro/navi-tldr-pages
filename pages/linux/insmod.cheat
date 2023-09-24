@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/insmod.md
+
+% insmod, linux
+
+# Insert a kernel module into the Linux kernel
+insmod <path_to_module.ko>

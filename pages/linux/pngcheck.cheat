@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pngcheck.md
+
+% pngcheck, linux
+
+# Verify the integrity of an image file
+pngcheck <path_to_file.png>
+
+# Check the file with [v]erbose and [c]olorized output
+pngcheck -vc <path_to_file.png>
+
+# Display contents of [t]ext chunks and [s]earch for PNGs within a specific file
+pngcheck -ts <path_to_file.png>
+
+# Search for, and e[x]tract embedded PNGs within a specific file
+pngcheck -x <path_to_file.png>

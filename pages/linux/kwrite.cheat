@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/kwrite.md
+
+% kwrite, linux
+
+# Open a text file
+kwrite <path_to_file>
+
+# Open multiple text files
+kwrite <file1 file2 ...>
+
+# Open a text file with a specific encoding
+kwrite --encoding=<UTF-8> <path_to_file>
+
+# Open a text file and navigate to a specific line and column
+kwrite --line <line_number> --column <column_number> <path_to_file>

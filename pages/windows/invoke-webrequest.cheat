@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/invoke-webrequest.md
+
+% invoke-webrequest, windows
+
+# Download the contents of a URL to a file
+Invoke-WebRequest <http:__example.com> -OutFile <path\to\file>
+
+# Send form-encoded data (POST request of type `application/x-www-form-urlencoded`)
+Invoke-WebRequest -Method Post -Body @{ name='bob' } <http:__example.com_form>
+
+# Send a request with an extra header, using a custom HTTP method
+Invoke-WebRequest -Headers <@{ X-My-Header = '123' >} -Method <PUT> <http:__example.com>
+
+# Send data in JSON format, specifying the appropriate content-type header
+Invoke-WebRequest -Body {{'{"name":"bob"}'}} -ContentType 'application/json' <http:__example.com_users_1234>
+
+# Pass a username and password for server authentication
+Invoke-WebRequest -Headers @{ Authorization = "Basic "+ [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("myusername:mypassword")) } <http:__example.com>

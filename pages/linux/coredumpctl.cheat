@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/coredumpctl.md
+
+% coredumpctl, linux
+
+# List all captured core dumps
+coredumpctl list
+
+# List captured core dumps for a program
+coredumpctl list <program>
+
+# Show information about the core dumps matching a program with `PID`
+coredumpctl info <PID>
+
+# Invoke debugger using the last core dump of a program
+coredumpctl debug <program>
+
+# Extract the last core dump of a program to a file
+coredumpctl --output=<path_to_file> dump <program>

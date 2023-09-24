@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jp2a.md
+
+% jp2a, common
+
+# Read JPEG image from a file and print in ASCII
+jp2a <path_to_image.jpeg>
+
+# Read JPEG image from a URL and print in ASCII
+jp2a <www.example.com_image.jpeg>
+
+# Colorize the ASCII output
+jp2a --colors <path_to_image.jpeg>
+
+# Specify characters to be used for the ASCII output
+jp2a --chars='<..-ooxx@@>' <path_to_image.jpeg>
+
+# Write the ASCII output into a file
+jp2a --output=<path_to_output_file.txt> <path_to_image.jpeg>
+
+# Write the ASCII output in HTML file format, suitable for viewing in web browsers
+jp2a --html --output=<path_to_output_file.html> <path_to_image.jpeg>

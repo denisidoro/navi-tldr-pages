@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/openvpn3.md
+
+% openvpn3, linux
+
+# Start a new VPN session
+openvpn3 session-start --config <path_to_config.conf>
+
+# List established sessions
+openvpn3 sessions-list
+
+# Disconnect the currently established session started with given configuration
+openvpn3 session-manage --config <path_to_config.conf> --disconnect
+
+# Import VPN configuration
+openvpn3 config-import --config <path_to_config.conf>
+
+# List imported configurations
+openvpn3 configs-list

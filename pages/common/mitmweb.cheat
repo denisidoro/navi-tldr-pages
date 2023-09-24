@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mitmweb.md
+
+% mitmweb, common
+
+# Start `mitmweb` with default settings
+mitmweb
+
+# Start `mitmweb` bound to a custom address and port
+mitmweb --listen-host <ip_address> --listen-port <port>
+
+# Start `mitmweb` using a script to process traffic
+mitmweb --scripts <path_to_script.py>

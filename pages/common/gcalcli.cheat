@@ -19,7 +19,7 @@ gcalcli calw
 gcalcli calm
 
 # Quick-add an event to your calendar
-gcalcli --calendar <calendar_name> quick "<mm_dd> <HH_MM> <event_name>"
+gcalcli --calendar <calendar_name> quick "<mm_dd> <HH:MM> <event_name>"
 
 # Add an event to calendar. Triggers interactive prompt
 gcalcli --calendar "<calendar_name>" add

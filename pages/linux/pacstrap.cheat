@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pacstrap.md
+
+% pacstrap, linux
+
+# Install the `base` package, Linux kernel and firmware for common hardware
+pacstrap <path_to_new_root> <base> <linux> <linux-firmware>
+
+# Install the `base` package, Linux LTS kernel and `base-devel` build tools
+pacstrap <path_to_new_root> <base> <base-devel> <linux-lts>
+
+# Install packages without copy the host's mirrorlist to the target
+pacstrap -M <path_to_new_root> <packages>
+
+# Use an alternate configuration file for Pacman
+pacstrap -C <path_to_pacman.conf> <path_to_new_root> <packages>
+
+# Install packages using the package cache on the host instead of on the target
+pacstrap -c <path_to_new_root> <packages>
+
+# Install packages without copy the host's pacman keyring to the target
+pacstrap -G <path_to_new_root> <packages>
+
+# Install packages in interactive mode (prompts for confirmation)
+pacstrap -i <path_to_new_root> <packages>
+
+# Install packages using package files
+pacstrap -U <path_to_new_root> <path_to_package1> <path_to_package2>

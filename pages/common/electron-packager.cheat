@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/electron-packager.md
+
+% electron-packager, common
+
+# Package an application for the current architecture and platform
+electron-packager "<path_to_app>" "<app_name>"
+
+# Package an application for all architectures and platforms
+electron-packager "<path_to_app>" "<app_name>" --all
+
+# Package an application for 64-bit Linux
+electron-packager "<path_to_app>" "<app_name>" --platform="<linux>" --arch="<x64>"
+
+# Package an application for ARM macOS
+electron-packager "<path_to_app>" "<app_name>" --platform="<darwin>" --arch="<arm64>"

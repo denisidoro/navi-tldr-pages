@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/osmium.md
+
+% osmium, common
+
+# Show file information
+osmium fileinfo <path_to_input.osm>
+
+# Display contents
+osmium show <path_to_input.osm>
+
+# Convert file format from PBF into XML
+osmium cat <path_to_input.osm.pbf> -o <path_to_output.osm>
+
+# Extract a geographic region by the given [b]ounding box
+osmium extract -b <min_longitude>,<min_latitude>,<max_longitude>,<max_latitude> <path_to_input.pbf> -o <path_to_output.pbf>
+
+# Extract a geographic region by a GeoJSON file
+osmium extract -p <path_to_polygon.geojson> <path_to_input.pbf> -o <path_to_output.pbf>
+
+# Filter all objects tagged as "restaurant"
+osmium tags-filter <path_to_input.pbf> amenity=restaurant -o <path_to_output.pbf>
+
+# Filter for "way" objects tagged as "highway"
+osmium tags-filter <path_to_input.pbf> w/highway -o <path_to_output.pbf>
+
+# Filter "way" and "relation" objects tagged as "building"
+osmium tags-filter <path_to_input.pbf> wr/building -o <path_to_output.pbf>

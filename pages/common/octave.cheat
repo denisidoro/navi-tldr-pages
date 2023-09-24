@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/octave.md
+
+% octave, common
+
+# Start an interactive session
+octave
+
+# Execute a specific script file
+octave <path_to_script.m>
+
+# Execute a script file with specific arguments
+octave <path_to_script.m> <argument1 argument2 ...>
+
+# Start an interactive session with a GUI
+octave --gui
+
+# Display help
+octave --help
+
+# Display version
+octave --version

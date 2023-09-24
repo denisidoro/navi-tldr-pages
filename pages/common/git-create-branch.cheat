@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-create-branch.md
+
+% git-create-branch, common
+
+# Create a local branch
+git create-branch <branch_name>
+
+# Create a branch locally and on origin
+git create-branch --remote <branch_name>
+
+# Create a branch locally and on upstream (through forks)
+git create-branch --remote upstream <branch_name>

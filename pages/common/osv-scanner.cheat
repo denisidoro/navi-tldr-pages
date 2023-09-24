@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/osv-scanner.md
+
+% osv-scanner, common
+
+# Scan a docker image
+osv-scanner -D <docker_image_name>
+
+# Scan a package lockfile
+osv-scanner -L <path_to_lockfile>
+
+# Scan an SBOM file
+osv-scanner -S <path_to_sbom_file>
+
+# Scan multiple directories recursively
+osv-scanner -r <directory1 directory2 ...>
+
+# Skip scanning git repositories
+osv-scanner --skip-git <-r|-D> <target>
+
+# Output result in JSON format
+osv-scanner --json <-D|-L|-S|-r> <target>

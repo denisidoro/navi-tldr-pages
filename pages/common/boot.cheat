@@ -6,7 +6,7 @@
 # Start a REPL session either with the project or standalone
 boot repl
 
-# Build a single "uberjar"
+# Build a single `uberjar`
 boot jar
 
 # Learn about a command

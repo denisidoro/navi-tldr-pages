@@ -3,10 +3,10 @@
 
 % phpcpd, common
 
-# Analyse duplicated code for a specific file or directory
+# Analyze duplicated code for a specific file or directory
 phpcpd <path_to_file_or_directory>
 
-# Analyse using fuzzy matching for variable names
+# Analyze using fuzzy matching for variable names
 phpcpd --fuzzy <path_to_file_or_directory>
 
 # Specify a minimum number of identical lines (defaults to 5)

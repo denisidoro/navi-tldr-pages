@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/transfersh.md
+
+% transfersh, common
+
+# Upload a file to transfer.sh
+transfersh <path_to_file>
+
+# Upload a file showing a progress bar (requires Python package `requests_toolbelt`)
+transfersh --progress <path_to_file>
+
+# Upload a file using a different file name
+transfersh --name <filename> <path_to_file>
+
+# Upload a file to a custom transfer.sh server
+transfersh --servername <upload.server.name> <path_to_file>
+
+# Upload all files from a directory recursively
+transfersh --recursive <path_to_directory_>
+
+# Upload a specific directory as an uncompressed tar
+transfersh -rt <path_to_directory>

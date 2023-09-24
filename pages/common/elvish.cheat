@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/elvish.md
+
+% elvish, common
+
+# Start an interactive shell session
+elvish
+
+# Execute specific [c]ommands
+elvish -c "<echo 'elvish is executed'>"
+
+# Execute a specific script
+elvish <path_to_script.elv>

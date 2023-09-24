@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/raw.md
+
+% raw, linux
+
+# Bind a raw character device to a block device
+raw /dev/raw/raw<1> <dev_block_device>
+
+# Query an existing binding instead of setting a new one
+raw /dev/raw/raw<1>
+
+# Query all bound raw devices
+raw -qa

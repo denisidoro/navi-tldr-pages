@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/e4defrag.md
+
+% e4defrag, linux
+
+# Defragment the filesystem
+e4defrag <dev_sdXN>
+
+# See how fragmented a filesystem is
+e4defrag -c <dev_sdXN>
+
+# Print errors and the fragmentation count before and after each file
+e4defrag -v <dev_sdXN>

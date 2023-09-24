@@ -4,10 +4,10 @@
 % aapt, common
 
 # List files contained in an APK archive
-aapt list <path_to_app_apk>
+aapt list <path_to_app.apk>
 
 # Display an app's metadata (version, permissions, etc.)
-aapt dump badging <path_to_app_apk>
+aapt dump badging <path_to_app.apk>
 
 # Create a new APK archive with files from the specified directory
-aapt package -F <path_to_app_apk> <path_to_directory>
+aapt package -F <path_to_app.apk> <path_to_directory>

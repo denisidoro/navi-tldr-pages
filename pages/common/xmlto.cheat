@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xmlto.md
+
+% xmlto, common
+
+# Convert a DocBook XML document to PDF format
+xmlto <pdf> <document.xml>
+
+# Convert a DocBook XML document to HTML format and store the resulting files in a separate directory
+xmlto -o <path_to_html_files> <html> <document.xml>
+
+# Convert a DocBook XML document to a single HTML file
+xmlto <html-nochunks> <document.xml>
+
+# Specify a stylesheet to use while converting a DocBook XML document
+xmlto -x <stylesheet.xsl> <output_format> <document.xml>

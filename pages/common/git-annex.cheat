@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-annex.md
+
+% git-annex, common
+
+# Initialize a repo with Git annex
+git annex init
+
+# Add a file
+git annex add <path_to_file_or_directory>
+
+# Show the current status of a file or directory
+git annex status <path_to_file_or_directory>
+
+# Synchronize a local repository with a remote
+git annex <remote>
+
+# Get a file or directory
+git annex get <path_to_file_or_directory>
+
+# Display help
+git annex help

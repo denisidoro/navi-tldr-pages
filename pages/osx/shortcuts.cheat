@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/shortcuts.md
+
+% shortcuts, osx
+
+# Run the specified shortcut (`Count holidays`)
+shortcuts run "<Count holidays>"
+
+# Print all shortcuts
+shortcuts list
+
+# Print all shortcut folders
+shortcuts list --folders
+
+# Open the specified shortcut (`Count holidays`) in the Shortcuts editor
+shortcuts view "<Count holidays>"

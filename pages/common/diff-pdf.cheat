@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/diff-pdf.md
+
+% diff-pdf, common
+
+# Compare PDFs, indicating changes using return codes (`0` = no difference, `1` = PDFs differ)
+diff-pdf <path_to_a.pdf> <path_to_b.pdf>
+
+# Compare PDFs, outputting a PDF with visually highlighted differences
+diff-pdf --output-diff=<path_to_diff.pdf> <path_to_a.pdf> <path_to_b.pdf>
+
+# Compare PDFs, viewing differences in a simple GUI
+diff-pdf --view <path_to_a.pdf> <path_to_b.pdf>

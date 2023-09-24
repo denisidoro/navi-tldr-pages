@@ -7,7 +7,7 @@
 sqlite3
 
 # Open an interactive shell against an existing database
-sqlite3 <path_to_database_sqlite3>
+sqlite3 <path_to_database.sqlite3>
 
 # Execute an SQL statement against a database and then exit
-sqlite3 <path_to_database_sqlite3> '{{SELECT * FROM some_table;}}'
+sqlite3 <path_to_database.sqlite3> '<SELECT * FROM some_table;>'

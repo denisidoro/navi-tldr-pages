@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/volta.md
+
+% volta, common
+
+# List all installed tools
+volta list
+
+# Install the latest version of a tool
+volta install <node|npm|yarn|package_name>
+
+# Install a specific version of a tool
+volta install <node|npm|yarn>@version
+
+# Choose a tool version for a project (will store it in `package.json`)
+volta pin <node|npm|yarn>@version
+
+# Display help
+volta help
+
+# Display help for a subcommand
+volta help <fetch|install|uninstall|pin|list|completions|which|setup|run|help>

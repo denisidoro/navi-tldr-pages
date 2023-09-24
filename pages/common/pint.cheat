@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pint.md
+
+% pint, common
+
+# Execute code style fixing
+pint
+
+# Display all files that are changed
+pint -v
+
+# Execute code style linting without applying changes
+pint --test
+
+# Execute code style fixes using a specific config file
+pint --config <path_to_pint.json>
+
+# Execute code style fixes using a specific preset
+pint --preset <psr12>

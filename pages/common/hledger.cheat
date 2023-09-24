@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hledger.md
+
+% hledger, common
+
+# Add transactions to your journal interactively
+hledger add
+
+# Show the account hierarchy, using a specific journal file
+hledger --file <path_to_file.journal> accounts --tree
+
+# Show a monthly income statement
+hledger incomestatement --monthly --depth 2
+
+# Print the amount of cash spent on food
+hledger print assets:cash | hledger -f- -I balance expenses:food --depth 2

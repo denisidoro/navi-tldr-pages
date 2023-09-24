@@ -7,7 +7,7 @@
 logoff
 
 # Terminate a session by its name or id
-logoff <session_name_session_id>
+logoff <session_name|session_id>
 
 # Terminate a session on a specific server connected through RDP
-logoff <session_name_session_id> /server:<servername>
+logoff <session_name|session_id> /server:<servername>

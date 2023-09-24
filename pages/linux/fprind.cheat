@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fprind.md
+
+% fprind, linux
+
+# Display the man page for `fprintd`
+man fprintd

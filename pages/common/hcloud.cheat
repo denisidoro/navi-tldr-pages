@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hcloud.md
+
+% hcloud, common
+
+# Show available commands and flags
+hcloud
+
+# Show help for `hcloud`
+hcloud -h
+
+# Show available commands and flags for `hcloud` contexts
+hcloud context

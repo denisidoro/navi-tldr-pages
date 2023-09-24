@@ -4,7 +4,7 @@
 % pyenv-virtualenv, common
 
 # Create a new Python 3.6.6 virtual environment
-pyenv virtualenv <3_6_6> <virtualenv_name>
+pyenv virtualenv <3.6.6> <virtualenv_name>
 
 # List all existing virtual environments
 pyenv virtualenvs

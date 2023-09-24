@@ -10,7 +10,7 @@ git apply --verbose <path_to_file>
 git apply --index <path_to_file>
 
 # Apply a remote patch file
-curl <https___example_com_file_patch> | git apply
+curl -L <https:__example.com_file.patch> | git apply
 
 # Output diffstat for the input and apply the patch
 git apply --stat --apply <path_to_file>

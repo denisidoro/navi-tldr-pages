@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gh-environment.md
+
+% gh-environment, common
+
+# Display help about environment variables that can be used with `gh`
+gh environment

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/scalafmt.md
+
+% scalafmt, common
+
+# Reformat all `.scala` files in the current directory recursively
+scalafmt
+
+# Reformat specific files or directories with a custom formatting configuration
+scalafmt --config <path_to_.scalafmt.conf> <path_to_file_or_directory> <path_to_file_or_directory> <...>
+
+# Check if files are correctly formatted, returning `0` if all files respect the formatting style
+scalafmt --config <path_to_.scalafmt.conf> --test
+
+# Exclude files or directories
+scalafmt --exclude <path_to_file_or_directory> <...>
+
+# Format only files that were edited against the current Git branch
+scalafmt --config <path_to_.scalafmt.conf> --mode diff

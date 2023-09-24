@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/openssl-ts.md
+
+% openssl-ts, common
+
+# Generate a SHA-512 timestamp request of a specific file and output to `file.tsq`
+openssl ts -query -data <path_to_file> -sha512 -out <path_to_file.tsq>
+
+# Check the date and metadata of a specific timestamp response file
+openssl ts -reply -in <path_to_file.tsr> -text
+
+# Verify a timestamp request file and a timestamp response file from the server with an SSL certificate file
+openssl ts -verify -in <path_to_file.tsr> -queryfile <path_to_file.tsq> -partial_chain -CAfile <path_to_cert.pem>
+
+# Create a timestamp response for request using key and signing certificate and output it to `file.tsr`
+openssl ts -reply -queryfile <path_to_file.tsq> -inkey <path_to_tsakey.pem> -signer tsacert.pem -out <path_to_file.tsr>

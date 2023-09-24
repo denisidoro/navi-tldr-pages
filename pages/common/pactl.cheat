@@ -13,7 +13,7 @@ pactl set-default-sink <1>
 pactl move-sink-input <627> <1>
 
 # Set the volume of sink 1 to 75%
-pactl set-sink-volume <1> <0_75>
+pactl set-sink-volume <1> <0.75>
 
 # Toggle mute on the default sink (using the special name `@DEFAULT_SINK@`)
-pactl set-sink-mute <_DEFAULT_SINK_> toggle
+pactl set-sink-mute <@DEFAULT_SINK@> toggle

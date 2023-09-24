@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/polybar.md
+
+% polybar, common
+
+# Start Polybar (the bar name is optional if only one bar is defined in the config)
+polybar <bar_name>
+
+# Start Polybar with the specified config
+polybar --config=<path_to_config.ini> <bar_name>
+
+# Start Polybar and reload the bar when the config file is modified
+polybar --reload <bar_name>

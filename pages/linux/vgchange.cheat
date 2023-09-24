@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vgchange.md
+
+% vgchange, linux
+
+# Change the activation status of logical volumes in all volume groups
+sudo vgchange --activate <y|n>
+
+# Change the activation status of logical volumes in the specified volume group (determine with `vgscan`)
+sudo vgchange --activate <y|n> <volume_group>}

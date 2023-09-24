@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/distrobox-create.md
+
+% distrobox-create, linux
+
+# Create a distrobox container using the Ubuntu image
+distrobox-create <container_name> --image <ubuntu:latest>
+
+# Clone a distrobox container
+distrobox-create --clone <container_name> <cloned_container_name>

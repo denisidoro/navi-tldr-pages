@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/wg-quick.md
+
+% wg-quick, linux
+
+# Set up a VPN tunnel
+wg-quick up <interface_name>
+
+# Delete a VPN tunnel
+wg-quick down <interface_name>

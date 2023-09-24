@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/catimg.md
+
+% catimg, common
+
+# Print a JPEG, PNG, or GIF to the terminal
+catimg <path_to_file>
+
+# Double the [r]esolution of an image
+catimg -r 2 <path_to_file>
+
+# Disable 24-bit color for better [t]erminal support
+catimg -t <path_to_file>
+
+# Specify a custom [w]idth or [H]eight
+catimg <-w|-H> <40> <path_to_file>

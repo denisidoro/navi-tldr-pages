@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/egrep.md
+
+% egrep, common
+
+# Search for a pattern within a file
+egrep "<search_pattern>" <path_to_file>
+
+# Search for a pattern within multiple files
+egrep "<search_pattern>" <path_to_file1> <path_to_file2> <path_to_file3>
+
+# Search `stdin` for a pattern
+cat <path_to_file> | egrep <search_pattern>
+
+# Print file name and line number for each match
+egrep --with-filename --line-number "<search_pattern>" <path_to_file>
+
+# Search for a pattern in all files recursively in a directory, ignoring binary files
+egrep --recursive --binary-files=<without-match> "<search_pattern>" <path_to_directory>
+
+# Search for lines that do not match a pattern
+egrep --invert-match "<search_pattern>" <path_to_file>

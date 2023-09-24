@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/toolbox.md
+
+% toolbox, linux
+
+# Run a `toolbox` subcommand
+toolbox <subcommand>
+
+# Show help for a `toolbox` subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.)
+toolbox help <subcommand>
+
+# Show general help
+toolbox --help
+
+# Show the `toolbox` version
+toolbox --version

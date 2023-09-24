@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/anbox.md
+
+% anbox, linux
+
+# Launch Anbox into the app manager
+anbox launch --package=<org.anbox.appmgr> --component=<org.anbox.appmgr.AppViewActivity>

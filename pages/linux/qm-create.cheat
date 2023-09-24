@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-create.md
+
+% qm-create, linux
+
+# Create a virtual machine
+qm create <100>
+
+# Automatically start the machine after creation
+qm create <100> --start 1
+
+# Specify the type of operating system on the machine
+qm create <100> --ostype <win10>
+
+# Replace an existing machine (requires archiving it)
+qm create <100> --archive <path_to_backup_file.tar> --force 1
+
+# Specify a script that is executed automatically depending on the state of the virtual machine
+qm create <100> --hookscript <path_to_script.pl>

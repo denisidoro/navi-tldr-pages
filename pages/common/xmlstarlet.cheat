@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xmlstarlet.md
+
+% xmlstarlet, common
+
+# Format an XML document and print to `stdout`
+xmlstarlet format <path_to_file.xml>
+
+# XML document can also be piped from `stdin`
+<cat path_to_file.xml> | xmlstarlet format
+
+# Print all nodes that match a given XPath
+xmlstarlet select --template --copy-of <xpath> <path_to_file.xml>
+
+# Insert an attribute to all matching nodes, and print to `stdout` (source file is unchanged)
+xmlstarlet edit --insert <xpath> --type attr --name <attribute_name> --value <attribute_value> <path_to_file.xml>
+
+# Update the value of all matching nodes in place (source file is changed)
+xmlstarlet edit --inplace --update <xpath> --value <new_value> <file.xml>
+
+# Delete all matching nodes in place (source file is changed)
+xmlstarlet edit --inplace --delete <xpath> <file.xml>
+
+# Escape or unescape special XML characters in a given string
+xmlstarlet [un]escape <string>
+
+# List a given directory as XML (omit argument to list current directory)
+xmlstarlet ls <path_to_directory>

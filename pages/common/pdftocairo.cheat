@@ -4,19 +4,19 @@
 % pdftocairo, common
 
 # Convert a PDF file to JPEG
-pdftocairo <path_to_file_pdf> -jpeg
+pdftocairo <path_to_file.pdf> -jpeg
 
 # Convert to PDF expanding the output to fill the paper
-pdftocairo <path_to_file_pdf> <output_pdf> -pdf -expand
+pdftocairo <path_to_file.pdf> <output.pdf> -pdf -expand
 
 # Convert to SVG specifying the first/last page to convert
-pdftocairo <path_to_file_pdf> <output_svg> -svg -f <first_page> -l <last_page>
+pdftocairo <path_to_file.pdf> <output.svg> -svg -f <first_page> -l <last_page>
 
 # Convert to PNG with 200ppi resolution
-pdftocairo <path_to_file_pdf> <output_png> -png -r 200
+pdftocairo <path_to_file.pdf> <output.png> -png -r 200
 
 # Convert to grayscale TIFF setting paper size to A3
-pdftocairo <path_to_file_pdf> -tiff -gray -paper A3
+pdftocairo <path_to_file.pdf> -tiff -gray -paper A3
 
-# Convert to PNG cropping x and y pixels from the top left corner
-pdftocairo <path_to_file_pdf> -png -x <x_pixels> -y <y_pixels>
+# Convert to PNG cropping x and y pixels from the top-left corner
+pdftocairo <path_to_file.pdf> -png -x <x_pixels> -y <y_pixels>

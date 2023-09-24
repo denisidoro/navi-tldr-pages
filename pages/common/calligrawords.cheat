@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/calligrawords.md
+
+% calligrawords, common
+
+# Launch the word processor application
+calligrawords
+
+# Open a specific document
+calligrawords <path_to_document>
+
+# Display help or version
+calligrawords --<help|version>

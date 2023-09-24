@@ -10,7 +10,7 @@ macchanger --show <interface>
 macchanger --random <interface>
 
 # Set interface to a specific MAC
-macchanger --mac <XX_XX_XX_XX_XX_XX> <interface>
+macchanger --mac <XX:XX:XX:XX:XX:XX> <interface>
 
 # Reset interface to its permanent hardware MAC
 macchanger --permanent <interface>

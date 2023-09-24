@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-storage-container.md
+
+% az-storage-container, common
+
+# Create a container in a storage account
+az storage container create --account-name <storage_account_name> --name <container_name> --public-access <access_level> --fail-on-exist
+
+# Generate a shared access signature for the container
+az storage container generate-sas --account-name <storage_account_name> --name <container_name> --permissions <sas_permissions> --expiry <expiry_date> --https-only
+
+# List containers in a storage account
+az storage container list --account-name <storage_account_name> --prefix <filter_prefix>
+
+# Mark the specified container for deletion
+az storage container delete --account-name <storage_account_name> --name <container_name> --fail-not-exist

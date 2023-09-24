@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/smalltalkci.md
+
+% smalltalkci, common
+
+# Run tests for a configuration file
+smalltalkci <path_to_.smalltalk.ston>
+
+# Run tests for the `.smalltalk.ston` configuration in the current directory
+smalltalkci
+
+# Debug tests in headful mode (show VM window)
+smalltalkci --headful
+
+# Download and prepare a well-known smalltalk image for the tests
+smalltalkci --smalltalk <Squeak64-Trunk>
+
+# Specify a custom Smalltalk image and VM
+smalltalkci --image <path_to_Smalltalk.image> --vm <path_to_vm>
+
+# Clean up caches and delete builds
+smalltalkci --clean

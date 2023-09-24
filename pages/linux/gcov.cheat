@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gcov.md
+
+% gcov, linux
+
+# Generate a coverage report named `file.cpp.gcov`
+gcov <path_to_file.cpp>
+
+# Write individual execution counts for every basic block
+gcov --all-blocks <path_to_file.cpp>
+
+# Write branch frequencies to the output file and print summary information to `stdout` as a percentage
+gcov --branch-probabilities <path_to_file.cpp>
+
+# Write branch frequencies as the number of branches taken, rather than the percentage
+gcov --branch-counts <path_to_file.cpp>
+
+# Do not create a `gcov` output file
+gcov --no-output <path_to_file.cpp>
+
+# Write file level as well as function level summaries
+gcov --function-summaries <path_to_file.cpp>

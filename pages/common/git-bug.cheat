@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-bug.md
+
+% git-bug, common
+
+# Create a new identity
+git bug user create
+
+# Create a new bug
+git bug add
+
+# You can push your new entry to a remote
+git bug push
+
+# You can pull for updates
+git bug pull
+
+# List existing bugs
+git bug ls
+
+# Filter and sort bugs using a query
+git bug ls "<status>:<open> <sort>:<edit>"
+
+# Search for bugs by text content
+git bug ls "<search_query>" baz

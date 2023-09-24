@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vgscan.md
+
+% vgscan, linux
+
+# Scan for volume groups and print information about each group found
+sudo vgscan
+
+# Scan for volume groups and add the special files in `/dev`, if they don't already exist, needed to access the logical volumes in the found groups
+sudo vgscan --mknodes

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-list.md
+
+% qm-list, linux
+
+# List all virtual machines
+qm list
+
+# List all virtual machines with a full status about the ones which are currently running
+qm list --full 1

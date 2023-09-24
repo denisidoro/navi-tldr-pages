@@ -4,19 +4,19 @@
 % optipng, common
 
 # Compress a PNG with default settings
-optipng <path_to_file_png>
+optipng <path_to_file.png>
 
-# Compress a PNG with best compression
-optipng -o<7> <path_to_file_png>
+# Compress a PNG with the best compression
+optipng -o<7> <path_to_file.png>
 
-# Compress a PNG with fastest compression
-optipng -o<0> <path_to_file_png>
+# Compress a PNG with the fastest compression
+optipng -o<0> <path_to_file.png>
 
 # Compress a PNG and add interlacing
-optipng -i <1> <path_to_file_png>
+optipng -i <1> <path_to_file.png>
 
 # Compress a PNG and preserve all metadata (including file timestamps)
-optipng -preserve <path_to_file_png>
+optipng -preserve <path_to_file.png>
 
 # Compress a PNG and remove all metadata
-optipng -strip all <path_to_file_png>
+optipng -strip all <path_to_file.png>

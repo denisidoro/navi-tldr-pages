@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdaldem.md
+
+% gdaldem, common
+
+# Compute the hillshade of a DEM
+gdaldem hillshade <path_to_input.tif> <path_to_output.tif>
+
+# Compute the slope of a DEM
+gdaldem slope <path_to_input.tif> <path_to_output.tif>
+
+# Compute the aspect of a DEM
+gdaldem aspect <path_to_input.tif> <path_to_output.tif>

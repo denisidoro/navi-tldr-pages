@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kitex.md
+
+% kitex, common
+
+# Generate client codes when a project is in `$GOPATH`
+kitex <path_to_IDL_file.thrift>
+
+# Generate client codes when a project is not in `$GOPATH`
+ kitex -module <github.com_xx-org_xx-name> <path_to_IDL_file.thrift>
+
+# Generate client codes with protobuf IDL
+kitex -type protobuf <path_to_IDL_file.proto>
+
+# Generate server codes
+kitex -service <svc_name> <path_to_IDL_file.thrift>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/httpry.md
+
+% httpry, common
+
+# Save output to a file
+httpry -o <path_to_file.log>
+
+# Listen on a specific interface and save output to a binary pcap format file
+httpry <eth0> -b <path_to_file.pcap>
+
+# Filter output by a comma-separated list of HTTP verbs
+httpry -m <get|post|put|head|options|delete|trace|connect|patch>
+
+# Read from an input capture file and filter by IP
+httpry -r <path_to_file.log> '<host 192.168.5.25>'
+
+# Run as daemon process
+httpry -d -o <path_to_file.log>

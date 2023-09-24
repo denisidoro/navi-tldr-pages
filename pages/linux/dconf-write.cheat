@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dconf-write.md
+
+% dconf-write, linux
+
+# Write a specific key value
+dconf write <path_to_key> "<value>"
+
+# Write a specific string key value
+dconf write <path_to_key> "'<string>'"
+
+# Write a specific integer key value
+dconf write <path_to_key> "<5>"
+
+# Write a specific boolean key value
+dconf write <path_to_key> "<true|false>"
+
+# Write a specific array key value
+dconf write <path_to_key> "[<'first', 'second', ...>]"
+
+# Write a specific empty array key value
+dconf write <path_to_key> "@as []"

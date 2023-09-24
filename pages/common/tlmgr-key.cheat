@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-key.md
+
+% tlmgr-key, common
+
+# List all keys for TeX Live
+tlmgr key list
+
+# Add a key from a specific file
+sudo tlmgr key add <path_to_key.gpg>
+
+# Add a key from `stdin`
+cat <path_to_key.gpg> | sudo tlmgr key add -
+
+# Remove a specific key by its ID
+sudo tlmgr key remove <key_id>

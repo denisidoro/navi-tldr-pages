@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-cloudinit-dump.md
+
+% qm-cloudinit-dump, linux
+
+# Generate a cloudinit file for a specific configuration type
+qm cloudinit dump <virtual_machine_id> <meta|network|user>

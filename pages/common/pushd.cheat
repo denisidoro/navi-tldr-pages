@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pushd.md
+
+% pushd, common
+
+# Switch to directory and push it on the stack
+pushd <path_to_directory>
+
+# Switch first and second directories on the stack
+pushd
+
+# Rotate stack by making the 5th element the top of the stack
+pushd +4
+
+# Rotate the stack 4 times to the left (the current directory stays at the top by replacing the 5th element)
+pushd -n +4

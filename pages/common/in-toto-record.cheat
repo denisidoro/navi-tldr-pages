@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/in-toto-record.md
+
+% in-toto-record, common
+
+# Start the record (creates a preliminary link file)
+in-toto-record start -n <edit-files> -k <path_to_key_file> -m <.>
+
+# Stop the record (expects a preliminary link file)
+in-toto-record stop -n <edit-files> -k <path_to_key_file> -p <.>

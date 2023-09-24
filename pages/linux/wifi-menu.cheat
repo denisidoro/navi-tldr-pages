@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/wifi-menu.md
+
+% wifi-menu, linux
+
+# Set up a wireless connection interactively
+wifi-menu
+
+# Interactively set up a connection to a network and obscure the password
+wifi-menu --obscure
+
+# Display help
+wifi-menu --help

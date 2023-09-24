@@ -7,7 +7,7 @@
 setxkbmap <fr>
 
 # Set multiple keyboard layouts, their variants and switching option
-setxkbmap -layout <us_de> -variant <_qwerty> -option <_grp_alt_caps_toggle_>
+setxkbmap -layout <us,de> -variant <,qwerty> -option <'grp:alt_caps_toggle'>
 
 # Get help
 setxkbmap -help

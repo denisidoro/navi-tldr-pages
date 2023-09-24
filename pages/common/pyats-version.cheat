@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pyats-version.md
+
+% pyats-version, common
+
+# Display version of all packages
+pyats version check
+
+# Display outdated packages
+pyats version check --outdated
+
+# Update packages to the most recent version
+pyats version update
+
+# Update or downgrade packages to a specific version
+pyats version update <version>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aircrack-ng.md
+
+% aircrack-ng, common
+
+# Crack key from capture file using [w]ordlist
+aircrack-ng -w <path_to_wordlist.txt> <path_to_capture.cap>
+
+# Crack key from capture file using [w]ordlist and the access point's [e]ssid
+aircrack-ng -w <path_to_wordlist.txt> -e <essid> <path_to_capture.cap>
+
+# Crack key from capture file using [w]ordlist and the access point's MAC address
+aircrack-ng -w <path_to_wordlist.txt> --bssid <mac> <path_to_capture.cap>

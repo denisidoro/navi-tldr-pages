@@ -4,4 +4,4 @@
 % csvlook, common
 
 # View a CSV file
-csvlook <data_csv>
+csvlook <data.csv>

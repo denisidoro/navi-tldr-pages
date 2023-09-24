@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/llvm-strings.md
+
+% llvm-strings, common
+
+# View documentation for the original command
+tldr strings

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/scancel.md
+
+% scancel, linux
+
+# Cancel a job using its ID
+scancel <job_id>
+
+# Cancel all jobs from a user
+scancel <user_name>

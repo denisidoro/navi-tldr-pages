@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dconf-read.md
+
+% dconf-read, linux
+
+# Print a specific key value
+dconf read <path_to_key>
+
+# Print a specific key [d]efault value
+dconf read -d <path_to_key>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/caffeinate.md
+
+% caffeinate, linux
+
+# Prevent desktop from sleeping (use `Ctrl + C` to exit)
+caffeinate

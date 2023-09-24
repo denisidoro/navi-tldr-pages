@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/snakefmt.md
+
+% snakefmt, common
+
+# Format a specific Snakefile
+snakefmt <path_to_snakefile>
+
+# Format all Snakefiles recursively in a specific directory
+snakefmt <path_to_directory>
+
+# Format a file using a specific configuration file
+snakefmt --config <path_to_config.toml> <path_to_snakefile>
+
+# Format a file using a specific maximum line length
+snakefmt --line-length <100> <path_to_snakefile>
+
+# Display the changes that would be performed without performing them (dry-run)
+snakefmt --diff <path_to_snakefile>

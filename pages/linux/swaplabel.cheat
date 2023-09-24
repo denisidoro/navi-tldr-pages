@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/swaplabel.md
+
+% swaplabel, linux
+
+# Display the current label and UUID of a swap area
+swaplabel <path_to_file>
+
+# Set the label of a swap area
+swaplabel --label <new_label> <path_to_file>
+
+# Set the UUID of a swap area (you can generate a UUID using `uuidgen`)
+swaplabel --uuid <new_uuid> <path_to_file>

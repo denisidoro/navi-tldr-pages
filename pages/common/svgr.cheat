@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/svgr.md
+
+% svgr, common
+
+# Transform a SVG file into a React component to `stdout`
+svgr -- <path_to_file.svg>
+
+# Transform a SVG file into a React component using TypeScript to `stdout`
+svgr --typescript -- <path_to_file.svg>
+
+# Transform a SVG file into a React component using JSX transform to `stdout`
+svgr --jsx-runtime automatic -- <path_to_file.svg>
+
+# Transform all SVG files from a directory to React components into a specific directory
+svgr --out-dir <path_to_output_directory> <path_to_input_directory>
+
+# Transform all SVG files from a directory to React components into a specific directory skipping already transformed files
+svgr --out-dir <path_to_output_directory> --ignore-existing <path_to_input_directory>
+
+# Transform all SVG files from a directory to React components into a specific directory using a specific case for filenames
+svgr --out-dir <path_to_output_directory> --filename-case <camel|kebab|pascal> <path_to_input_directory>
+
+# Transform all SVG files from a directory to React components into a specific directory without generating an index file
+svgr --out-dir <path_to_output_directory> --no-index <path_to_input_directory>

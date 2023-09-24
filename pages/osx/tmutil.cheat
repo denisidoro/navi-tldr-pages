@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/tmutil.md
+
+% tmutil, osx
+
+# Set an HFS+ drive as the backup destination
+sudo tmutil setdestination <path_to_disk_mount_point>
+
+# Set an APF share or SMB share as the backup destination
+sudo tmutil setdestination "<protocol:__user[:password]@host_share>"
+
+# Append the given destination to the list of destinations
+sudo tmutil setdestination -a <destination>
+
+# Enable automatic backups
+sudo tmutil enable
+
+# Disable automatic backups
+sudo tmutil disable
+
+# Start a backup, if one is not running already, and release control of the shell
+sudo tmutil startbackup
+
+# Start a backup and block until the backup is finished
+sudo tmutil startbackup -b
+
+# Stop a backup
+sudo tmutil stopbackup

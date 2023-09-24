@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jadx.md
+
+% jadx, common
+
+# Decompile a Dex file into a directory
+jadx <path_to_file>
+
+# Decompile a Dex file into a specific directory
+jadx --output-dir <path_to_directory> <path_to_file>

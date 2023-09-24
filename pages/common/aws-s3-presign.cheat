@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-s3-presign.md
+
+% aws-s3-presign, common
+
+# Generate a pre-signed URL for a specific S3 object that is valid for one hour
+aws s3 presign s3://<bucket_name>/<path_to_file>
+
+# Generate a pre-signed URL valid for a specific lifetime
+aws s3 presign s3://<bucket_name>/<path_to_file> --expires-in <duration_in_seconds>
+
+# Display help
+aws s3 presign help

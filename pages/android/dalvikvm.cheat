@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/android/dalvikvm.md
+
+% dalvikvm, android
+
+# Start a specific Java program
+dalvikvm -classpath <path_to_file.jar> <classname>

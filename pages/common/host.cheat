@@ -13,4 +13,4 @@ host -t <field> <domain>
 host <ip_address>
 
 # Specify an alternate DNS server to query
-host <domain> <8_8_8_8>
+host <domain> <8.8.8.8>

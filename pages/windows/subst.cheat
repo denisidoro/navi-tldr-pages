@@ -7,7 +7,7 @@
 subst
 
 # Add an association
-subst <Z_> {{C:\Python2.7}}
+subst <Z:> <C:\Python2.7>
 
 # Remove an association
-subst <Z_> /d
+subst <Z:> /d

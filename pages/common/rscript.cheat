@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rscript.md
+
+% rscript, common
+
+# Run a script
+Rscript <path_to_file.R>
+
+# Run a script in vanilla mode (i.e. a blank session that doesn't save the workspace at the end)
+Rscript --vanilla <path_to_file.R>
+
+# Execute one or more R expressions
+Rscript -e <expression1> -e <expression2>
+
+# Display R version
+Rscript --version

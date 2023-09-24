@@ -3,8 +3,8 @@
 
 % mc, common
 
-# Start mc
+# Start Midnight Commander
 mc
 
-# Start in black and white
+# Start Midnight Commander in black and white
 mc -b

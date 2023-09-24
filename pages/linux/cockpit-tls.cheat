@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cockpit-tls.md
+
+% cockpit-tls, linux
+
+# Serve HTTP requests to a specific port instead of port `9090`
+cockpit-tls --port <port>
+
+# Display help
+cockpit-tls --help

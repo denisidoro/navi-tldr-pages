@@ -3,11 +3,11 @@
 
 % tslint, common
 
-# Create tslint config
+# Create TSLint config
 tslint --init
 
 # Lint on a given set of files
-tslint <filename>.js <filename1>.js
+tslint <path_to_file1.js path_to_file2.js ...>
 
 # Fix lint issues
 tslint --fix

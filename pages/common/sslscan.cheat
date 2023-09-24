@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sslscan.md
+
+% sslscan, common
+
+# Test a server on port 443
+sslscan <example.com>
+
+# Test a specified port
+sslscan <example.com>:<465>
+
+# Show certificate information
+testssl --show-certificate <example.com>

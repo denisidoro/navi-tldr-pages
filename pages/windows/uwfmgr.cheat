@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/uwfmgr.md
+
+% uwfmgr, windows
+
+# Get the current status
+uwfmgr get-config
+
+# Set a drive as protected
+uwfmgr volume protect <drive_letter>:
+
+# Remove a drive from protection list
+uwfmgr volume unprotect <drive_letter>:
+
+# Enable or disable protection (Applies after reboot)
+uwfmgr filter <enable|disable>
+
+# Commit changes of a file on protected drive
+uwfmgr file commit <drive_letter:\path\to\file>
+
+# Commit deletion of a file on protected drive
+uwfmgr file commit-delete <drive_letter:\path\to\file>

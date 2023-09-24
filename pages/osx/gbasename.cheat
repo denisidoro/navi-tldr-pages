@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/gbasename.md
+
+% gbasename, osx
+
+# View documentation for the original command
+tldr -p linux basename

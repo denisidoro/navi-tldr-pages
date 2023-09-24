@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mt.md
+
+% mt, linux
+
+# Check the status of a tape drive
+mt -f <dev_nstX> status
+
+# Rewind the tape to beginning
+mt -f <dev_nstX> rewind
+
+# Move forward a given files, then position the tape on first block of next file
+mt -f <dev_nstX> fsf <count>
+
+# Rewind the tape, then position the tape at beginning of the given file
+mt -f <dev_nstX> asf <count>
+
+# Position the tape at the end of valid data
+mt -f <dev_nstX> eod
+
+# Rewind the tape and unload/eject it
+mt -f <dev_nstX> eject
+
+# Write EOF (End-of-file) mark at the current position
+mt -f {{/dev/nstX} eof

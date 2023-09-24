@@ -4,10 +4,10 @@
 % wrk, common
 
 # Run a benchmark for `30` seconds, using `12` threads, and keeping `400` HTTP connections open
-wrk -t<12> -c<400> -d<30s> "<http___127_0_0_1_8080_index_html>"
+wrk -t<12> -c<400> -d<30s> "<http:__127.0.0.1:8080_index.html>"
 
 # Run a benchmark with a custom header
-wrk -t<2> -c<5> -d<5s> -H "{{Host: example.com}}" "<http___example_com_index_html>"
+wrk -t<2> -c<5> -d<5s> -H "<Host: example.com>" "<http:__example.com_index.html>"
 
 # Run a benchmark with a request timeout of `2` seconds
-wrk -t<2> -c<5> -d<5s> --timeout <2s> "<http___example_com_index_html>"
+wrk -t<2> -c<5> -d<5s> --timeout <2s> "<http:__example.com_index.html>"

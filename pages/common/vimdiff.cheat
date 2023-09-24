@@ -3,11 +3,26 @@
 
 % vimdiff, common
 
-# Open two files and show the differences (up to four files can be compared)
+# Open two files and show the differences
 vimdiff <file1> <file2>
 
-# Open two files using a horizontal window split instead of the default vertical split
-vimdiff -o <file1> <file2>
+# Move the cursor to the window on the left|right
+Ctrl + w <h|l>
 
-# Move the cursor to the window on the left|right|up|down
-Ctrl + w <h_l_k_j>
+# Jump to the previous difference
+[c
+
+# Jump to the next difference
+]c
+
+# Copy the highlighted difference from the other window to the current window
+do
+
+# Copy the highlighted difference from the current window to the other window
+dp
+
+# Update all highlights and folds
+:diffupdate
+
+# Toggle the highlighted code fold
+za

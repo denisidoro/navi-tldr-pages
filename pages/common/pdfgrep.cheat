@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdfgrep.md
+
+% pdfgrep, common
+
+# Find lines that match pattern in a PDF
+pdfgrep <pattern> <file.pdf>
+
+# Include file name and page number for each matched line
+pdfgrep --with-filename --page-number <pattern> <file.pdf>
+
+# Do a case-insensitive search for lines that begin with "foo" and return the first 3 matches
+pdfgrep --max-count <3> --ignore-case <'^foo'> <file.pdf>
+
+# Find pattern in files with a `.pdf` extension in the current directory recursively
+pdfgrep --recursive <pattern>
+
+# Find pattern on files that match a specific glob in the current directory recursively
+pdfgrep --recursive --include <'*book.pdf'> <pattern>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pop.md
+
+% pop, common
+
+# Launch the Text-based User Interface
+pop
+
+# Send an email using the content of a Markdown file as body
+pop < <path_to_message.md> --from <me@example.com> --to <you@example.com> --subject "<On the Subject of Ducks...>" --attach <path_to_attachment>
+
+# Display help and exit
+pop --help

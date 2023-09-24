@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pacman-deptest.md
+
+% pacman-deptest, linux
+
+# Print the package names of the dependencies that aren't installed
+pacman --deptest <package1 package2 ...>
+
+# Check if the installed package satisfies the given minimum version
+pacman --deptest "<bash>=5>"
+
+# Check if a later version of a package is installed
+pacman --deptest "<bash>5>"
+
+# Display help
+pacman --deptest --help

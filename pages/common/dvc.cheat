@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dvc.md
+
+% dvc, common
+
+# Check the DVC version
+dvc --version
+
+# Display general help
+dvc --help
+
+# Display help about a specific subcommand
+dvc <subcommand> --help
+
+# Execute a DVC subcommand
+dvc <subcommand>

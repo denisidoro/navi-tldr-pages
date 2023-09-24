@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/get-content.md
+
+% get-content, windows
+
+# Display the content of a file
+Get-Content -Path <path\to\file>
+
+# Display the first few lines of a file
+Get-Content -Path <path\to\file> -TotalCount <10>
+
+# Display the content of the file and keep reading from it until `Ctrl + C` is pressed
+Get-Content -Path <path\to\file> -Wait

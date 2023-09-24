@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xmount.md
+
+% xmount, linux
+
+# Mount a `.raw` image file into a DMG container file
+xmount --in <raw> <path_to_image.dd> --out <dmg> <mountpoint>
+
+# Mount an EWF image file with write-cache support into a VHD file to boot from
+xmount --cache <path_to_cache.ovl> --in <ewf> <path_to_image.E??> --out <vhd> <mountpoint>
+
+# Mount the first partition at sector 2048 into a new `.raw` image file
+xmount --offset <2048> --in <raw> <path_to_image.dd> --out <raw> <mountpoint>

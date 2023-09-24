@@ -4,10 +4,10 @@
 % apktool, common
 
 # Decode an APK file
-apktool d <file_apk>
+apktool d <path_to_file.apk>
 
-# Build a folder into an APK file
+# Build an APK file from a directory
 apktool b <path_to_directory>
 
-# Install and store frameworks
-apktool if <framework_apk>
+# Install and store a framework
+apktool if <path_to_framework.apk>

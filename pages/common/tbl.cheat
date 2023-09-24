@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tbl.md
+
+% tbl, common
+
+# Process input with tables, saving the output for future typesetting with groff to PostScript
+tbl <path_to_input_file> > <path_to_output.roff>
+
+# Typeset input with tables to PDF using the [me] macro package
+tbl -T <pdf> <path_to_input.tbl> | groff -<me> -T <pdf> > <path_to_output.pdf>

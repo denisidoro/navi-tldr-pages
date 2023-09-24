@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/deborphan.md
+
+% deborphan, linux
+
+# Display library packages (from the "libs" section of the package repository) which are not required by another package
+deborphan
+
+# List orphan packages from the "libs" section as well as orphan packages that have a name that looks like a library name
+deborphan --guess-all
+
+# Find packages which are only recommended or suggested (but not required) by another package
+deborphan --nice-mode

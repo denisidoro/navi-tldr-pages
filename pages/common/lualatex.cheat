@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lualatex.md
+
+% lualatex, common
+
+# Start `texlua` to act as a Lua interpreter
+lualatex
+
+# Compile a Tex file to PDF
+lualatex <path_to_file.tex>
+
+# Compile a Tex file without error interruption
+lualatex -interaction nonstopmode <path_to_file.tex>
+
+# Compile a Tex file with a specific output file name
+lualatex -jobname=<filename> <path_to_file.tex>

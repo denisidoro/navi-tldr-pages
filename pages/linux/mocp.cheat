@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mocp.md
+
+% mocp, linux
+
+# Launch the MOC terminal UI
+mocp
+
+# Launch the MOC terminal UI in a specific directory
+mocp <path_to_directory>
+
+# Start the MOC server in the background, without launching the MOC terminal UI
+mocp --server
+
+# Add a specific song to the play queue while MOC is in the background
+mocp --enqueue <path_to_audio_file>
+
+# Add songs recursively to the play queue while MOC is in the background
+mocp --append <path_to_directory>
+
+# Clear the play queue while MOC is in the background
+mocp --clear
+
+# Play or stop the currently queued song while MOC is in the background
+mocp --<play|stop>
+
+# Stop the MOC server while it's in the background
+mocp --exit

@@ -3,17 +3,26 @@
 
 % shasum, common
 
-# Calculate the SHA1 checksum for a file
-shasum <filename>
+# Calculate the SHA1 checksum for one or more files
+shasum <path_to_file1 path_to_file2 ...>
 
-# Calculate the SHA256 checksum for a file
-shasum --algorithm 256 <filename>
+# Calculate the SHA256 checksum for one or more files
+shasum --algorithm 256 <path_to_file1 path_to_file2 ...>
 
-# Calculate the SHA512 checksum for multiple files
-shasum --algorithm 512 <filename1> <filename2>
+# Calculate the SHA512 checksum for one or more files
+shasum --algorithm 512 <path_to_file1 path_to_file2 ...>
 
-# Check a file with a list of sums against the directory's files
-shasum --check <list_file>
+# Calculate a SHA1 checksum from `stdin`
+<command> | shasum
 
-# Calculate the SHA1 checksum from `stdin`
-<somecommand> | shasum
+# Calculate and save the list of SHA256 checksums to a file
+shasum --algorithm 256 <path_to_file1 path_to_file2 ...> > <path_to_file.sha256>
+
+# Read a file of SHA1 sums and filenames and verify all files have matching checksums
+shasum --check <path_to_file>
+
+# Only show a message for missing files or when verification fails
+shasum --check --quiet <path_to_file>
+
+# Only show a message when verification fails, ignoring missing files
+shasum --ignore-missing --check --quiet <path_to_file>

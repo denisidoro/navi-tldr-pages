@@ -3,14 +3,14 @@
 
 % as, osx
 
-# Assemble a file, writing the output to a.out
-as <file_s>
+# Assemble a file, writing the output to `a.out`
+as <path_to_file.s>
 
 # Assemble the output to a given file
-as <file_s> -o <out_o>
+as <path_to_file.s> -o <path_to_output_file.o>
 
 # Generate output faster by skipping whitespace and comment preprocessing. (Should only be used for trusted compilers)
-as -f <file_s>
+as -f <path_to_file.s>
 
-# Include a given path to the list of directories to search for files specified in .include directives
-as -I <path_to_directory> <file_s>
+# Include a given path to the list of directories to search for files specified in `.include` directives
+as -I <path_to_directory> <path_to_file.s>

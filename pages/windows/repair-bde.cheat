@@ -4,25 +4,25 @@
 % repair-bde, windows
 
 # Attempt to repair a specified volume
-repair-bde <C_>
+repair-bde <C:>
 
 # Attempt to repair a specified volume and output to another volume
-repair-bde <C_> <D_>
+repair-bde <C:> <D:>
 
 # Attempt to repair a specified volume using the provided recovery key file
-repair-bde <C_> -RecoveryKey <path_to_file_bek>
+repair-bde <C:> -RecoveryKey <path\to\file.bek>
 
 # Attempt to repair a specified volume using the provided numerical recovery password
-repair-bde <C_> -RecoveryPassword <password>
+repair-bde <C:> -RecoveryPassword <password>
 
 # Attempt to repair a specified volume using the provided password
-repair-bde <C_> -Password <password>
+repair-bde <C:> -Password <password>
 
 # Attempt to repair a specified volume using the provided key package
-repair-bde <C_> -KeyPackage <path_to_directory>
+repair-bde <C:> -KeyPackage <path\to\directory>
 
 # Log all output to a specific file
-repair-bde <C_> -LogFile <path_to_file>
+repair-bde <C:> -LogFile <path\to\file>
 
 # Display all available options
 repair-bde /?

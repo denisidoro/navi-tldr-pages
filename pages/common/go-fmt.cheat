@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/go-fmt.md
+
+% go-fmt, common
+
+# Format Go source files in the current directory
+go fmt
+
+# Format a specific Go package in your import path (`$GOPATH/src`)
+go fmt <path_to_package>
+
+# Format the package in the current directory and all subdirectories (note the `...`)
+go fmt <._...>
+
+# Print what format commands would've been run, without modifying anything
+go fmt -n
+
+# Print which format commands are run as they are run
+go fmt -x

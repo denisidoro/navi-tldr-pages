@@ -4,10 +4,10 @@
 % csvsql, common
 
 # Generate a `CREATE TABLE` SQL statement for a CSV file
-csvsql <path_to_data_csv>
+csvsql <path_to_data.csv>
 
 # Import a CSV file into an SQL database
-csvsql --insert --db "<mysql___user_password_host_database>" <data_csv>
+csvsql --insert --db "<mysql:__user:password@host_database>" <data.csv>
 
 # Run an SQL query on a CSV file
-csvsql --query "{{select * from 'data'}}" <data_csv>
+csvsql --query "<select * from 'data'>" <data.csv>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/loadtest.md
+
+% loadtest, common
+
+# Run with concurrent users and a specified amount of requests per second
+loadtest --concurrency <10> --rps <200> <https:__example.com>
+
+# Run with a custom HTTP header
+loadtest --headers "<accept:text_plain;text-html>" <https:__example.com>
+
+# Run with a specific HTTP method
+loadtest --method <GET> <https:__example.com>

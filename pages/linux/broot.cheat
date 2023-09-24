@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/broot.md
+
+% broot, linux
+
+# Install or reinstall the `br` shell function
+broot --install

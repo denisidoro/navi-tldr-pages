@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vigr.md
+
+% vigr, linux
+
+# Edit the group file
+vigr
+
+# Display version
+vigr --version

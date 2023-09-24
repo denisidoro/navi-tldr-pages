@@ -4,7 +4,7 @@
 % reg-save, windows
 
 # Save a registry key, its sub keys and values to a specific file
-reg save <key_name> <path_to_file>
+reg save <key_name> <path\to\file>
 
 # Forcefully overwrite an existing file without a prompt
-reg save <key_name> <path_to_file> /y
+reg save <key_name> <path\to\file> /y

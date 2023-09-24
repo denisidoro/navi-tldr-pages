@@ -13,7 +13,7 @@ adb kill-server
 adb shell
 
 # Push an Android application to an emulator/device
-adb install -r <path_to_file_apk>
+adb install -r <path_to_file.apk>
 
 # Copy a file/directory from the target device
 adb pull <path_to_device_file_or_directory> <path_to_local_destination_directory>

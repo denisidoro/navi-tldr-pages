@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dolphin.md
+
+% dolphin, linux
+
+# Launch the file manager
+dolphin
+
+# Open specific directories
+dolphin <path_to_directory1 path_to_directory2 ...>
+
+# Open with specific files or directories selected
+dolphin --select <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# Open a new window
+dolphin --new-window
+
+# Open specific directories in split view
+dolphin --split <path_to_directory1> <path_to_directory2>
+
+# Launch the daemon (only required to use the DBus interface)
+dolphin --daemon
+
+# Display help
+dolphin --help

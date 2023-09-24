@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/twm.md
+
+% twm, common
+
+# Connect to the default X server
+twm
+
+# Connect to a specific X server
+twm -display <display>
+
+# Only manage the default screen
+twm -s
+
+# Use a specific startup file
+twm -f <path_to_file>
+
+# Enable verbose mode and print unexpected errors in X
+twm -v

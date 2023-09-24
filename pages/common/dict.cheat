@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dict.md
+
+% dict, common
+
+# List available databases
+dict -D
+
+# Get information about a database
+dict -i <database_name>
+
+# Look up a word in a specific database
+dict -d <database_name> <word>
+
+# Look up a word in all available databases
+dict <word>
+
+# Show information about the DICT server
+dict -I

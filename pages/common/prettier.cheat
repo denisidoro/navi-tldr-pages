@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/prettier.md
+
+% prettier, common
+
+# Format a file and print the result to `stdout`
+prettier <path_to_file>
+
+# Check if a specific file has been formatted
+prettier --check <path_to_file>
+
+# Run with a specific configuration file
+prettier --config <path_to_config_file> <path_to_file>
+
+# Format a file or directory, replacing the original
+prettier --write <path_to_file_or_directory>
+
+# Format files or directories recursively using single quotes and no trailing commas
+prettier --single-quote --trailing-comma <none> --write <path_to_file_or_directory>
+
+# Format JavaScript and TypeScript files recursively, replacing the original
+prettier --write "**/*.{js,jsx,ts,tsx}"

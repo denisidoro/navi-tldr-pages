@@ -10,7 +10,7 @@ umask
 umask -S
 
 # Change the mask symbolically to allow read permission for all users (the rest of the mask bits are unchanged)
-umask <a_r>
+umask <a+r>
 
 # Set the mask (using octal) to restrict no permissions for the file's owner, and restrict all permissions for everyone else
 umask <077>

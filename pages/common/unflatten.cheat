@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/unflatten.md
+
+% unflatten, common
+
+# Adjust one or more directed graphs to improve the layout aspect ratio
+unflatten <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
+
+# Use `unflatten` as a preprocessor for `dot` layout to improve aspect ratio
+unflatten <path_to_input.gv> | dot -T <png> <path_to_output.png>
+
+# Display help for `unflatten`
+unflatten -?

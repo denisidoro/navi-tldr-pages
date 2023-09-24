@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/autofsd.md
+
+% autofsd, osx
+
+# Start the daemon
+autofsd

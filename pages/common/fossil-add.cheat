@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fossil-add.md
+
+% fossil-add, common
+
+# Put a file or directory under version control, so it will be in the current checkout
+fossil add <path_to_file_or_directory>
+
+# Remove all added files from the current checkout
+fossil add --reset

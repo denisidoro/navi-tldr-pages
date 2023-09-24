@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pdfinfo.md
+
+% pdfinfo, common
+
+# Print PDF file information
+pdfinfo <path_to_file.pdf>
+
+# Specify user password for PDF file to bypass security restrictions
+pdfinfo -upw <password> <path_to_file.pdf>
+
+# Specify owner password for PDF file to bypass security restrictions
+pdfinfo -opw <password> <path_to_file.pdf>

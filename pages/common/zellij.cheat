@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zellij.md
+
+% zellij, common
+
+# Start a new named session
+zellij --session <name>
+
+# List existing sessions
+zellij list-sessions
+
+# Attach to the most recently used session
+zellij attach
+
+# Open a new pane (inside a zellij session)
+Alt + N
+
+# Detach from the current session (inside a zellij session)
+Ctrl + O, D

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/babeld.md
+
+% babeld, common
+
+# Start `babeld` with a specific configuration file
+babeld -c <path_to_babeld.conf>
+
+# Start `babeld` with multiple configuration files (read in order)
+babeld -c <path_to_ports.conf> -c <path_to_filters.conf> -c <path_to_interfaces.conf>
+
+# Start `babeld` and daemonise afterwards
+babeld -D
+
+# Start `babeld` and pass a configuration command
+babeld -C <'redistribute metric 256'>
+
+# Start `babeld` and specify on which interfaces to operate
+babeld <eth0> <eth1> <wlan0>

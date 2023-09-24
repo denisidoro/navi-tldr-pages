@@ -16,4 +16,4 @@ godot -p
 godot --export <preset> <output_path>
 
 # Execute a standalone GDScript file (the script must inherit from `SceneTree` or `MainLoop`)
-godot -s <script_gd>
+godot -s <script.gd>

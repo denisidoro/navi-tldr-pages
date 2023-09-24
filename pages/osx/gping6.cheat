@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/gping6.md
+
+% gping6, osx
+
+# View documentation for the original command
+tldr -p linux ping6

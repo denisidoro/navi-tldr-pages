@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-graft.md
+
+% git-graft, common
+
+# Merge all commits not present on the target branch from the source branch to target branch, and delete the source branch
+git graft <source_branch> <target_branch>

@@ -3,17 +3,17 @@
 
 % phing, common
 
-# Perform the default task in the "build.xml" file
+# Perform the default task in the `build.xml` file
 phing
 
-# Initialise a new build file
-phing -i <path_to_build_xml>
+# Initialize a new build file
+phing -i <path_to_build.xml>
 
 # Perform a specific task
 phing <task_name>
 
 # Specify a custom build file path
-phing -f <path_to_build_xml> <task_name>
+phing -f <path_to_build.xml> <task_name>
 
 # Specify a log file to output to
 phing -b <path_to_log_file> <task_name>

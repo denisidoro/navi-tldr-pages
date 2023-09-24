@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/btrfs-device.md
+
+% btrfs-device, linux
+
+# Add one or more devices to a btrfs filesystem
+sudo btrfs device add <path_to_block_device1> [<path_to_block_device2>] <path_to_btrfs_filesystem>
+
+# Remove a device from a btrfs filesystem
+sudo btrfs device remove <path_to_device|device_id> [<...>]
+
+# Display error statistics
+sudo btrfs device stats <path_to_btrfs_filesystem>
+
+# Scan all disks and inform the kernel of all detected btrfs filesystems
+sudo btrfs device scan --all-devices
+
+# Display detailed per-disk allocation statistics
+sudo btrfs device usage <path_to_btrfs_filesystem>

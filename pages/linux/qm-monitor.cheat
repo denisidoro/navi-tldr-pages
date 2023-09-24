@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-monitor.md
+
+% qm-monitor, linux
+
+# Enter the QEMU Monitor interface of a specific virtual machine
+qm monitor <vm_id>

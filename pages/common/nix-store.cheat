@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-store.md
+
+% nix-store, common
+
+# Collect garbage, such as removing unused paths
+nix-store --gc
+
+# Hard-link identical files together to reduce space usage
+nix-store --optimise
+
+# Delete a specific store path (must be unused)
+nix-store --delete <nix_store_...>
+
+# Show all dependencies of a store path (package), in a tree format
+nix-store --query --tree <nix_store_...>
+
+# Calculate the total size of a certain store path with all the dependencies
+du -cLsh $(nix-store --query --references <nix_store_...>)
+
+# Show all dependents of a particular store path
+nix-store --query --referrers <nix_store_...>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/trivy.md
+
+% trivy, common
+
+# Scan an image
+trivy image <image:tag>
+
+# Scan the filesystem for vulnerabilities and misconfigurations
+trivy fs --security-checks <vuln,config> <path_to_project_directory>
+
+# Scan a directory for misconfigurations
+trivy config <path_to_iac_directory>
+
+# Generate output with a SARIF template
+trivy image --format <template> --template <"@sarif.tpl"> -o <path_to_report.sarif> <image:tag>

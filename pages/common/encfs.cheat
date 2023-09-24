@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/encfs.md
+
+% encfs, common
+
+# Initialize or mount an encrypted filesystem
+encfs <path_to_cipher_dir> <path_to_mount_point>
+
+# Initialize an encrypted filesystem with standard settings
+encfs --standard <path_to_cipher_dir> <path_to_mount_point>
+
+# Run encfs in the foreground instead of spawning a daemon
+encfs -f <path_to_cipher_dir> <path_to_mount_point>
+
+# Mount an encrypted snapshot of a plain directory
+encfs --reverse <path_to_plain_dir> <path_to_cipher_dir>

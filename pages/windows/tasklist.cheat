@@ -7,7 +7,7 @@
 tasklist
 
 # Display running processes in a specified output format
-tasklist /fo <table_list_csv>
+tasklist /fo <table|list|csv>
 
 # Display running processes using the specified `.exe` or `.dll` file name
 tasklist /m <module_pattern>

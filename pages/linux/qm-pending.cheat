@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-pending.md
+
+% qm-pending, linux
+
+# Get the virtual machine configuration of a specific virtual machine
+qm pending <vm_id>

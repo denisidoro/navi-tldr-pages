@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/battop.md
+
+% battop, linux
+
+# Display battery information
+battop
+
+# Change battery information measurement [u]nit (default: human)
+battop -u <human|si>

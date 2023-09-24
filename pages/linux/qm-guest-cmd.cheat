@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-guest-cmd.md
+
+% qm-guest-cmd, linux
+
+# Execute a specific QEMU Guest Agent command
+qm guest cmd <virtual_machine_id> <fsfreeze-freeze|fsfreeze-status|fsfreeze-thaw|fstrim|get-fsinfo|...>

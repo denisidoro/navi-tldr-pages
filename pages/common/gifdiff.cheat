@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gifdiff.md
+
+% gifdiff, common
+
+# Check how GIFs differ
+gifdiff <path_to_first.gif> <path_to_second.gif>
+
+# Check if GIFs differ
+gifdiff --brief <path_to_first.gif> <path_to_second.gif>

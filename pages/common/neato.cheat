@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/neato.md
+
+% neato, common
+
+# Render a `png` image with a filename based on the input filename and output format (uppercase -O)
+neato -T <png> -O <path_to_input.gv>
+
+# Render a `svg` image with the specified output filename (lowercase -o)
+neato -T <svg> -o <path_to_image.svg> <path_to_input.gv>
+
+# Render the output in `ps`, `pdf`, `svg`, `fig`, `png`, `gif`, `jpg`, `json`, or `dot` format
+neato -T <format> -O <path_to_input.gv>
+
+# Render a `gif` image using `stdin` and `stdout`
+echo "{{graph {this -- that} }}" | neato -T <gif> > <path_to_image.gif>
+
+# Display help
+neato -?

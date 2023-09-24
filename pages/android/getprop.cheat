@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/android/getprop.md
+
+% getprop, android
+
+# Display information about Android system properties
+getprop
+
+# Display information about a specific property
+getprop <property>
+
+# Display the SDK API level
+getprop <ro.build.version.sdk>
+
+# Display the Android version
+getprop <ro.build.version.release>
+
+# Display the Android device model
+getprop <ro.vendor.product.model>
+
+# Display the OEM unlock status
+getprop <ro.oem_unlock_supported>
+
+# Display the MAC address of the Android's Wi-Fi card
+getprop <ro.boot.wifimacaddr>

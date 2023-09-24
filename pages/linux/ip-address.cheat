@@ -19,4 +19,4 @@ ip address add <ip_address> dev <eth0>
 ip address delete <ip_address> dev <eth0>
 
 # Delete all IP addresses in a given scope from a network interface
-ip address flush dev <eth0> scope <global_host_link>
+ip address flush dev <eth0> scope <global|host|link>

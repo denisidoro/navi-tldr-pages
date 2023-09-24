@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rm.md
+
+% rm, linux
+
+# Remove specific files
+rm <path_to_file1 path_to_file2 ...>
+
+# Remove specific files ignoring nonexistent ones
+rm --force <path_to_file1 path_to_file2 ...>
+
+# Remove specific files interactively prompting before each removal
+rm --interactive <path_to_file1 path_to_file2 ...>
+
+# Remove specific files printing info about each removal
+rm --verbose <path_to_file1 path_to_file2 ...>
+
+# Remove specific files and directories recursively
+rm --recursive <path_to_file_or_directory1 path_to_file_or_directory2 ...>

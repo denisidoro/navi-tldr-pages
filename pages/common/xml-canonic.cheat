@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-canonic.md
+
+% xml-canonic, common
+
+# Make an XML document canonical, preserving comments
+xml canonic <path_to_input.xml|URI> > <path_to_output.xml>
+
+# Make an XML document canonical, removing comments
+xml canonic --without-comments <path_to_input.xml|URI> > <path_to_output.xml>
+
+# Make XML exclusively canonical, using an XPATH from a file, preserving comments
+xml canonic --exc-with-comments <path_to_input.xml|URI> <path_to_c14n.xpath>
+
+# Display help for the `canonic` subcommand
+xml canonic --help

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-authors.md
+
+% git-authors, common
+
+# Print a full list of committers to `stdout` instead of to the `AUTHORS` file
+git authors --list
+
+# Append the list of committers to the `AUTHORS` file and open it in the default editor
+git authors
+
+# Append the list of committers, excluding emails, to the `AUTHORS` file and open it in the default editor
+git authors --no-email

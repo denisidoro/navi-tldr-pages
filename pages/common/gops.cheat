@@ -13,7 +13,7 @@ gops <pid>
 gops tree
 
 # Print the current stack trace from a target program
-gops stack <pid_addr>
+gops stack <pid|addr>
 
 # Print the current runtime memory statistics
-gops memstats <pid_addr>
+gops memstats <pid|addr>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pueue-parallel.md
+
+% pueue-parallel, common
+
+# Set the maximum number of tasks allowed to run in parallel, in the default group
+pueue parallel <max_number_of_parallel_tasks>
+
+# Set the maximum number of tasks allowed to run in parallel, in a specific group
+pueue parallel --group <group_name> <maximum_number_of_parallel_tasks>

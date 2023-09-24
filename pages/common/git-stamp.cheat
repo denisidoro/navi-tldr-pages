@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-stamp.md
+
+% git-stamp, common
+
+# Stamp the last commit message referencing it with the issue number from your bug tracker
+git stamp <issue_number>
+
+# Stamp the last commit message linking it to its review page
+git stamp <Review https:__example.org_path_to_review>
+
+# Stamp the last commit message replacing previous issues with a new one
+git stamp --replace <issue_number>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/llvm-bcanalyzer.md
+
+% llvm-bcanalyzer, common
+
+# Print statistics about a Bitcode file
+llvm-bcanalyzer <path_to_file.bc>
+
+# Print an SGML representation and statistics about a Bitcode file
+llvm-bcanalyzer -dump <path_to_file.bc>
+
+# Read a Bitcode file from `stdin` and analyze it
+cat <path_to_file.bc> | llvm-bcanalyzer

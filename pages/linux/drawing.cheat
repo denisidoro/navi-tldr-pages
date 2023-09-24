@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/drawing.md
+
+% drawing, linux
+
+# Start Drawing
+drawing
+
+# Open specific files
+drawing <path_to_image1 path_to_image2 ...>
+
+# Open specific files in a new window
+drawing --new-window <path_to_image1 path_to_image2 ...>

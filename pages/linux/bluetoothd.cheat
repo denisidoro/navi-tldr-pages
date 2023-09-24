@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bluetoothd.md
+
+% bluetoothd, linux
+
+# Start the daemon
+bluetoothd
+
+# Start the daemon, logging to `stdout`
+bluetoothd --nodetach
+
+# Start the daemon with a specific configuration file (defaults to `/etc/bluetooth/main.conf`)
+bluetoothd --configfile <path_to_file>
+
+# Start the daemon with verbose output to `stderr`
+bluetoothd --debug
+
+# Start the daemon with verbose output coming from specific files in the bluetoothd or plugins source
+bluetoothd --debug=<path_to_file1>:<path_to_file2>:<path_to_file3>

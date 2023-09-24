@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/puppet-apply.md
+
+% puppet-apply, common
+
+# Apply a manifest
+puppet apply <path_to_manifest>
+
+# Execute puppet code
+puppet apply --execute <code>
+
+# Use a specific module and hiera config file
+puppet apply --modulepath <path_to_directory> --hiera_config <path_to_file> <path_to_manifest>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/w.md
+
+% w, linux
+
+# Display information about all users who are currently logged in
+w
+
+# Display information about a specific user
+w <username>
+
+# Display information without including the header
+w --no-header
+
+# Display information without including the login, JCPU and PCPU columns
+w --short

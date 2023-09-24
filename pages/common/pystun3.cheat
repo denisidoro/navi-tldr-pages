@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pystun3.md
+
+% pystun3, common
+
+# Make a STUN request
+pystun3
+
+# Make a STUN request and specify the stun server
+pystun3 --stun-host <stun.1und1.de>
+
+# Make a STUN request and specify the source port
+pystun3 --source-port <7932>

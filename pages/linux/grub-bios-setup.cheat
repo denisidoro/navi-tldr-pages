@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/grub-bios-setup.md
+
+% grub-bios-setup, linux
+
+# Set up a device to boot with GRUB
+grub-bios-setup <dev_sdX>
+
+# Install even if problems are detected
+grub-bios-setup --force <dev_sdX>
+
+# Install GRUB in a specific directory
+grub-bios-setup --directory=<boot_grub> <dev_sdX>

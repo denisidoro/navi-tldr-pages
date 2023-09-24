@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dust.md
+
+% dust, common
+
+# Display information for the current directory
+dust
+
+# Display information for a space-separated list of directories
+dust <path_to_directory1> <path_to_directory2>
+
+# Display 30 directories (defaults to 21)
+dust --number-of-lines <30>
+
+# Display information for the current directory, up to 3 levels deep
+dust --depth <3>
+
+# Display the biggest directories at the top in descending order
+dust --reverse
+
+# Ignore all files and directories with a specific name
+dust --ignore-directory <file_or_directory_name>
+
+# Do not display percent bars and percentages
+dust --no-percent-bars

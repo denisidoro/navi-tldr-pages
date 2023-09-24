@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lldb.md
+
+% lldb, common
+
+# Debug an executable
+lldb <executable>
+
+# Attach `lldb` to a running process with a given PID
+lldb -p <pid>
+
+# Wait for a new process to launch with a given name, and attach to it
+lldb -w -n <process_name>

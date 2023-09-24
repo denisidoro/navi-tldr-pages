@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dconf.md
+
+% dconf, linux
+
+# Print a specific key value
+dconf read <path_to_key>
+
+# Print a specific path sub-directories and sub-keys
+dconf list <path_to_directory_>
+
+# Write a specific key value
+dconf write <path_to_key> "<value>"
+
+# Reset a specific key value
+dconf reset <path_to_key>
+
+# Watch a specific key/directory for changes
+dconf watch <path_to_key|_path_to_directory_>
+
+# Dump a specific directory in INI file format
+dconf dump <path_to_directory_>

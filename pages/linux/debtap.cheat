@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/debtap.md
+
+% debtap, linux
+
+# Update debtap database (before the first run)
+sudo debtap --update
+
+# Convert the specified package
+debtap <path_to_package.deb>
+
+# Convert the specified package bypassing all questions, except for editing metadata files
+debtap --quiet <path_to_package.deb>
+
+# Generate a PKGBUILD file
+debtap --pkgbuild <path_to_package.deb>

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dash.md
+
+% dash, common
+
+# Start an interactive shell session
+dash
+
+# Execute specific [c]ommands
+dash -c "<echo 'dash is executed'>"
+
+# Execute a specific script
+dash <path_to_script.sh>
+
+# Check a specific script for syntax errors
+dash -n <path_to_script.sh>
+
+# Execute a specific script while printing each command before executing it
+dash -x <path_to_script.sh>
+
+# Execute a specific script and stop at the first [e]rror
+dash -e <path_to_script.sh>
+
+# Execute specific commands from `stdin`
+<echo "echo 'dash is executed'"> | dash

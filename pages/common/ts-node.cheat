@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ts-node.md
+
+% ts-node, common
+
+# Execute a TypeScript file without compiling (`node` + `tsc`)
+ts-node <path_to_file.ts>
+
+# Execute a TypeScript file without loading `tsconfig.json`
+ts-node --skip-project <path_to_file.ts>
+
+# Evaluate TypeScript code passed as a literal
+ts-node --eval '<console.log("Hello World")>'
+
+# Execute a TypeScript file in script mode
+ts-node --script-mode <path_to_file.ts>
+
+# Transpile a TypeScript file to JavaScript without executing it
+ts-node --transpile-only <path_to_file.ts>
+
+# Display TS-Node help
+ts-node --help

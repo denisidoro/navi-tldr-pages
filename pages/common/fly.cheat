@@ -4,7 +4,7 @@
 % fly, common
 
 # Authenticate with and save concourse target
-fly --target <target_name> login --team-name <team_name> -c <https___ci_example_com>
+fly --target <target_name> login --team-name <team_name> -c <https:__ci.example.com>
 
 # List targets
 fly targets
@@ -13,7 +13,7 @@ fly targets
 fly -t <target_name> pipelines
 
 # Upload or update a pipeline
-fly -t <target_name> set-pipeline --config <pipeline_yml> --pipeline <pipeline_name>
+fly -t <target_name> set-pipeline --config <pipeline.yml> --pipeline <pipeline_name>
 
 # Unpause pipeline
 fly -t <target_name> unpause-pipeline --pipeline <pipeline_name>

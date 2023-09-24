@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/msiexec.md
+
+% msiexec, windows
+
+# Install a program from its MSI package
+msiexec /package <path\to\file.msi>
+
+# Install a MSI package from a website
+msiexec /package <https:__example.com_installer.msi>
+
+# Install a MSP patch file
+msiexec /update <path\to\file.msp>
+
+# Uninstall a program or patch using their respective MSI or MSP file
+msiexec /uninstall <path\to\file>

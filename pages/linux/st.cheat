@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/st.md
+
+% st, linux
+
+# Open a terminal
+st
+
+# Open a terminal with a specific title
+st -T <title>
+
+# Open a terminal, execute a given command, and write the output to a file
+st -o <path_to_file> -e <command argument1 argument2>
+
+# Increase/decrease the font size
+Ctrl + Shift + <Page Up|Page Down>
+
+# Copy/paste from the clipboard
+Ctrl + Shift + <C|V>

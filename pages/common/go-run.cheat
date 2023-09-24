@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/go-run.md
+
+% go-run, common
+
+# Run a Go file
+go run <path_to_file.go>
+
+# Run a main Go package
+go run <path_to_package>

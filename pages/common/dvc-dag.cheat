@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dvc-dag.md
+
+% dvc-dag, common
+
+# Visualize the entire pipeline
+dvc dag
+
+# Visualize the pipeline stages up to a specified target stage
+dvc dag <target>
+
+# Export the pipeline in the dot format
+dvc dag --dot > <path_to_pipeline.dot>

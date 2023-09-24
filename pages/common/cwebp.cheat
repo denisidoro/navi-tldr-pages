@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cwebp.md
+
+% cwebp, common
+
+# Compress a WebP file with default settings (q = 75) to the [o]utput file
+cwebp <path_to_image_file> -o <path_to_output.webp>
+
+# Compress a WebP file with the best [q]uality and largest file size
+cwebp <path_to_image_file> -o <path_to_output.webp> -q <100>
+
+# Compress a WebP file with the worst [q]uality and smallest file size
+cwebp <path_to_image_file> -o <path_to_output.webp> -q <0>
+
+# Compress a WebP file and apply resize to image
+cwebp <path_to_image_file> -o <path_to_output.webp> -resize <width> <height>
+
+# Compress a WebP file and drop alpha channel information
+cwebp <path_to_image_file> -o <path_to_output.webp> -noalpha

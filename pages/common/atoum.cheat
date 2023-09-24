@@ -3,7 +3,7 @@
 
 % atoum, common
 
-# Initialise a configuration file
+# Initialize a configuration file
 atoum --init
 
 # Run all tests

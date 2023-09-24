@@ -19,7 +19,7 @@ ag -i -o <FOO>
 ag <foo> -G <bar>
 
 # Find files whose contents match a regular expression
-ag '<_ba_r_z__>'
+ag '<^ba(r|z)$>'
 
 # Find files with a name matching "foo"
 ag -g <foo>

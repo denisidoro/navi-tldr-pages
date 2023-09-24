@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ocamlopt.md
+
+% ocamlopt, common
+
+# Compile a source file
+ocamlopt -o <path_to_binary> <path_to_source_file.ml>
+
+# Compile with debugging enabled
+ocamlopt -g -o <path_to_binary> <path_to_source_file.ml>

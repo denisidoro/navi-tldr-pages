@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tectonic.md
+
+% tectonic, common
+
+# Compile a standalone TeX/LaTeX file
+tectonic -X compile <path_to_file.tex>
+
+# Compile a standalone TeX/LaTeX file with synctex data
+tectonic -X compile --synctex <path_to_file.tex>
+
+# Initialize a tectonic project in the current directory
+tectonic -X init
+
+# Initialize a tectonic project in the specified directory
+tectonic -X new <project_name>
+
+# Build the project in the current directory
+tectonic -X build
+
+# Start a watcher to build the project in the current directory on change
+tectonic -X watch

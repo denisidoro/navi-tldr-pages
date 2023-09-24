@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ropgadget.md
+
+% ropgadget, common
+
+# List gadgets in the binary file
+ROPgadget --binary <path_to_binary>
+
+# Filter gadgets in the binary file by a regular expression
+ROPgadget --binary <path_to_binary> --re <regex>
+
+# List gadgets in the binary file, excluding specified type
+ROPgadget --binary <path_to_binary> --<norop|nojob|nosys>
+
+# Exclude bad byte gadgets in the binary file
+ROPgadget --binary <path_to_binary> --badbytes <byte_string>
+
+# List gadgets up to the specified number of bytes in the binary file
+ROPgadget --binary <path_to_binary> --depth <nbyte>

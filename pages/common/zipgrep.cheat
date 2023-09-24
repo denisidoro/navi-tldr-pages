@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zipgrep.md
+
+% zipgrep, common
+
+# Search for a pattern within a ZIP archive
+zipgrep "<search_pattern>" <path_to_file.zip>
+
+# Print file name and line number for each match
+zipgrep -H -n "<search_pattern>" <path_to_file.zip>
+
+# Search for lines that do not match a pattern
+zipgrep -v "<search_pattern>" <path_to_file.zip>
+
+# Specify files inside a ZIP archive from search
+zipgrep "<search_pattern>" <path_to_file.zip> <file_to_search1> <file_to_search2>
+
+# Exclude files inside a ZIP archive from search
+zipgrep "<search_pattern>" <path_to_file.zip> -x <file_to_exclude1> <file_to_exclude2>

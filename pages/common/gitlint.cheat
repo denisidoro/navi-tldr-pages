@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gitlint.md
+
+% gitlint, common
+
+# Check the last commit message
+gitlint
+
+# The range of commits to lint
+gitlint --commits <single_refspec_argument>
+
+# Path to a directory or Python module with extra user-defined rules
+gitlint --extra-path <path_to_directory>
+
+# Start a specific CI job
+gitlint --target <path_to_target_directory>
+
+# Path to a file containing a commit-msg
+gitlint --msg-filename <path_to_filename>
+
+# Read staged commit meta-info from the local repository
+gitlint --staged

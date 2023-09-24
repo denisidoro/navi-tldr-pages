@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dvc-checkout.md
+
+% dvc-checkout, common
+
+# Checkout the latest version of all target files and directories
+dvc checkout
+
+# Checkout the latest version of a specified target
+dvc checkout <target>
+
+# Checkout a specific version of a target from a different Git commit/tag/branch
+git checkout <commit_hash|tag|branch> <target> && dvc checkout <target>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pi.md
+
+% pi, linux
+
+# Display 100 decimal digits of Archimedes' constant Pi
+pi
+
+# Display a specified number of decimal digits of Archimedes' constant Pi
+pi <number>
+
+# Display help
+pi --help
+
+# Display version
+pi --version
+
+# Display recommended readings
+pi --bibliography

@@ -4,10 +4,10 @@
 % dget, linux
 
 # Download a binary package
-dget <package_name>
+dget <package>
 
-# Download and extract a package source from its .dsc file
-dget <http___deb_debian_org_debian_pool_main_h_haskell_tldr_haskell_tldr_0_4_0_2_dsc>
+# Download and extract a package source from its `.dsc` file
+dget <http:__deb.debian.org_debian_pool_main_h_haskell-tldr_haskell-tldr_0.4.0-2.dsc>
 
-# Download a package source tarball from its .dsc file but don't extract it
-dget -d <http___deb_debian_org_debian_pool_main_h_haskell_tldr_haskell_tldr_0_4_0_2_dsc>
+# Download a package source tarball from its `.dsc` file but don't extract it
+dget -d <http:__deb.debian.org_debian_pool_main_h_haskell-tldr_haskell-tldr_0.4.0-2.dsc>

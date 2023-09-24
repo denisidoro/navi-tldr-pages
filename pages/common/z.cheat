@@ -20,3 +20,6 @@ z -l <foo>
 
 # Remove the current directory from `z`'s database
 z -x .
+
+# Restrict matches to subdirectories of the current directory
+z -c <foo>

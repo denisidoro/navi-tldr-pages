@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-contrib.md
+
+% git-contrib, common
+
+# Display all commit hashes and their corresponding commit messages from a specific author
+git contrib <author>

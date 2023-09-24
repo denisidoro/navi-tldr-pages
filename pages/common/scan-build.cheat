@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/scan-build.md
+
+% scan-build, common
+
+# Build and analyze the project in the current directory
+scan-build <make>
+
+# Run a command and pass all subsequent options to it
+scan-build <command> <command_arguments>
+
+# Display help
+scan-build

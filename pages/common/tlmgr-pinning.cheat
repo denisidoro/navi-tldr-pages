@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-pinning.md
+
+% tlmgr-pinning, common
+
+# Show the current pinning data
+tlmgr pinning show
+
+# Pin the matching the packages to the given repository
+tlmgr pinning add <repository> <package1 package2 ...>
+
+# Remove any packages recorded in the pinning file matching the packages for the given repository
+tlmgr pinning remove <repository> <package1 package2 ...>
+
+# Remove all pinning data for the given repository
+tlmgr pinning remove <repository> --all

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/scoop-bucket.md
+
+% scoop-bucket, windows
+
+# List all buckets currently in use
+scoop bucket list
+
+# List all known buckets
+scoop bucket known
+
+# Add a known bucket by its name
+scoop bucket add <name>
+
+# Add an unknown bucket by its name and Git repository URL
+scoop bucket add <name> <https:__example.com_repository.git>
+
+# Remove a bucket by its name
+scoop bucket rm <name>

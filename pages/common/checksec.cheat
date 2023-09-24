@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/checksec.md
+
+% checksec, common
+
+# List security properties of an executable binary file
+checksec --file=<path_to_binary>
+
+# List security properties recursively of all executable files in a directory
+checksec --dir=<path_to_directory>
+
+# List security properties of a process
+checksec --proc=<pid>
+
+# List security properties of the running kernel
+checksec --kernel

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/e2image.md
+
+% e2image, linux
+
+# Write metadata located on device to a specific file
+e2image <dev_sdXN> <path_to_image_file>
+
+# Print metadata located on device to `stdout`
+e2image <dev_sdXN> -
+
+# Restore the filesystem metadata back to the device
+e2image -I <dev_sdXN> <path_to_image_file>
+
+# Create a large raw sparse file with metadata at proper offsets
+e2image -r <dev_sdXN> <path_to_image_file>
+
+# Create a QCOW2 image file instead of a normal or raw image file
+e2image -Q <dev_sdXN> <path_to_image_file>

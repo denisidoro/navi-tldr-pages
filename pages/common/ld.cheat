@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ld.md
+
+% ld, common
+
+# Link a specific object file with no dependencies into an executable
+ld <path_to_file.o> --output <path_to_output_executable>
+
+# Link two object files together
+ld <path_to_file1.o> <path_to_file2.o> --output <path_to_output_executable>
+
+# Dynamically link an x86_64 program to glibc (file paths change depending on the system)
+ld --output <path_to_output_executable> --dynamic-linker /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc <path_to_file.o> /lib/crtn.o

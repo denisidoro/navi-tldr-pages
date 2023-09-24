@@ -16,4 +16,4 @@ lebab <path_to_input_file>
 lebab <path_to_input_file> --out-file <path_to_output_file>
 
 # Replace all `.js` files in-place in the specified directory, glob or file
-lebab --replace <directory_glob_file>
+lebab --replace <directory|glob|file>

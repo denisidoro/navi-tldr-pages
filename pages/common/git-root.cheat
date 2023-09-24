@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-root.md
+
+% git-root, common
+
+# Print the absolute path of the current Git repository
+git root
+
+# Print the current working directory relative to the root of the current Git repository
+git root --relative

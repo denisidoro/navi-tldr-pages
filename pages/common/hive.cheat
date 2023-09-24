@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hive.md
+
+% hive, common
+
+# Start a Hive interactive shell
+hive
+
+# Run HiveQL
+hive -e "<hiveql_query>"
+
+# Run a HiveQL file with a variable substitution
+hive --define <key>=<value> -f <path_to_file.sql>
+
+# Run a HiveQL with HiveConfig (e.g. `mapred.reduce.tasks=32`)
+hive --hiveconf <conf_name>=<conf_value>

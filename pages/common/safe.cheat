@@ -18,7 +18,7 @@ safe tree <path>
 # Move a secret from one path to another
 safe move <old_path_to_secret> <new_path_to_secret>
 
-# Generate a new 2048-bit SSH keypair and store it
+# Generate a new 2048-bit SSH key-pair and store it
 safe ssh <2048> <path_to_secret>
 
 # Set non-sensitive keys for a secret

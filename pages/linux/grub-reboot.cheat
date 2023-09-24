@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/grub-reboot.md
+
+% grub-reboot, linux
+
+# Set the default boot entry to an entry number, name or identifier for the next boot
+sudo grub-reboot <entry_number>
+
+# Set the default boot entry to an entry number, name or identifier for an alternative boot directory for the next boot
+sudo grub-reboot --boot-directory <path_to_boot_directory> <entry_number>

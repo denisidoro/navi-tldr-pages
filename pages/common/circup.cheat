@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/circup.md
+
+% circup, common
+
+# Interactively update modules on a device
+circup update
+
+# Install a new library
+circup install <library_name>
+
+# Search for a library
+circup show <partial_name>
+
+# List all libraries on a connected device in `requirements.txt` format
+circup freeze
+
+# Save all libraries on a connected device in the current directory
+circup freeze -r

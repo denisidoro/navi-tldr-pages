@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mkvmerge.md
+
+% mkvmerge, common
+
+# Display information about a Matroska file
+mkvmerge --identify <path_to_file.mkv>
+
+# Extract the audio from track 1 of a specific file
+mkvextract tracks <path_to_file.mkv> <1>:<path_to_output.webm>
+
+# Extract the subtitle from track 3 of a specific file
+mkvextract tracks <path_to_file.mkv> <3>:<path_to_subs.srt>
+
+# Add a subtitle track to a file
+mkvmerge --output <path_to_output.mkv> <path_to_file.mkv> <path_to_subs.srt>

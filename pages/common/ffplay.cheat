@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ffplay.md
+
+% ffplay, common
+
+# Play a media file
+ffplay <path_to_file>
+
+# Play audio from a media file without a GUI
+ffplay -nodisp <path_to_file>
+
+# Play media passed by `ffmpeg` through `stdin`
+ffmpeg -i <path_to_file> -c <copy> -f <media_format> - | ffplay -
+
+# Play a video and show motion vectors in real time
+ffplay -flags2 +export_mvs -vf codecview=mv=pf+bf+bb <path_to_file>
+
+# Show only video keyframes
+ffplay -vf select="<eq(pict_type\,PICT_TYPE_I)>" <path_to_file>

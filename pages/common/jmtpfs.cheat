@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jmtpfs.md
+
+% jmtpfs, common
+
+# Mount an MTP device to a directory
+jmtpfs <path_to_directory>
+
+# Set mount options
+jmtpfs -o <allow_other,auto_unmount> <path_to_directory>
+
+# List available MTP devices
+jmtpfs --listDevices
+
+# If multiple devices are present, mount a specific device
+jmtpfs -device=<bus_id>,<device_id> <path_to_directory>
+
+# Unmount MTP device
+fusermount -u <path_to_directory>

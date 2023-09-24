@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/csh.md
+
+% csh, common
+
+# Start an interactive shell session
+csh
+
+# Start an interactive shell session without loading startup configs
+csh -f
+
+# Execute specific [c]ommands
+csh -c "<echo 'csh is executed'>"
+
+# Execute a specific script
+csh <path_to_script.csh>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-logout.md
+
+% az-logout, common
+
+# Log out from the active account
+az logout
+
+# Log out a specific username
+az logout --username <alias@somedomain.com>

@@ -3,8 +3,8 @@
 
 % zcat, common
 
-# Print the uncompressed contents of a gzipped file to the standard output
-zcat <file_txt_gz>
+# Print the uncompressed contents of a gzipped file to `stdout`
+zcat <file.txt.gz>
 
-# Print compression details of a gzipped file to the standard output
-zcat -l <file_txt_gz>
+# Print compression details of a gzipped file to `stdout`
+zcat -l <file.txt.gz>

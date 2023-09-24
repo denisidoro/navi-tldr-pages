@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-install.md
+
+% tlmgr-install, common
+
+# Install a package and its dependencies
+sudo tlmgr install <package>
+
+# Reinstall a package
+sudo tlmgr install --reinstall <package>
+
+# Simulate installing a package without making any changes
+tlmgr install --dry-run <package>
+
+# Install a package without its dependencies
+sudo tlmgr install --no-depends <package>
+
+# Install a package from a specific file
+sudo tlmgr install --file <path_to_package>

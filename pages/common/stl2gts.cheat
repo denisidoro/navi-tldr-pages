@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/stl2gts.md
+
+% stl2gts, common
+
+# Convert an STL file to a GTS file
+stl2gts < <path_to_file.stl> > <path_to_file.gts>
+
+# Convert an STL file to a GTS file and revert face normals
+stl2gts --revert < <path_to_file.stl> > <path_to_file.gts>
+
+# Convert an STL file to a GTS file and do not merge vertices
+stl2gts --nomerge < <path_to_file.stl> > <path_to_file.gts>
+
+# Convert an STL file to a GTS file and display surface statistics
+stl2gts --verbose < <path_to_file.stl> > <path_to_file.gts>
+
+# Print help for `stl2gts`
+stl2gts --help

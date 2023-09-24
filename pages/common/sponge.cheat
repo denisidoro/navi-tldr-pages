@@ -7,4 +7,4 @@
 cat <path_to_file> | sponge -a <path_to_file>
 
 # Remove all lines starting with # in a file
-grep -v '^<_>' <path_to_file> | sponge <path_to_file>
+grep -v '^<#>' <path_to_file> | sponge <path_to_file>

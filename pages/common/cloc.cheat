@@ -12,7 +12,7 @@ cloc --progress=1 <path_to_directory>
 # Compare 2 directory structures and count the differences between them
 cloc --diff <path_to_directory_one> <path_to_directory_two>
 
-# Ignore files that are ignored by VCS, such as files specified in .gitignore
+# Ignore files that are ignored by VCS, such as files specified in `.gitignore`
 cloc --vcs git <path_to_directory>
 
 # Count all the lines of code in a directory, displaying the results for each file instead of each language

@@ -7,7 +7,7 @@
 enscript <path_to_input_file> --output=<path_to_output_file>
 
 # Generate a file in a different language than PostScript
-enscript <path_to_input_file> --language=<html_rtf____> --output=<path_to_output_file>
+enscript <path_to_input_file> --language=<html|rtf|...> --output=<path_to_output_file>
 
 # Generate a PostScript file with a landscape layout, splitting the page into columns (maximum 9)
 enscript <path_to_input_file> --columns=<num> --landscape --output=<path_to_output_file>

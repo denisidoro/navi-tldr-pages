@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/killall.md
+
+% killall, linux
+
+# Terminate a process using the default SIGTERM (terminate) signal
+killall <process_name>
+
+# List available signal names (to be used without the 'SIG' prefix)
+killall --list
+
+# Interactively ask for confirmation before termination
+killall -i <process_name>
+
+# Terminate a process using the SIGINT (interrupt) signal, which is the same signal sent by pressing `Ctrl + C`
+killall -INT <process_name>
+
+# Force kill a process
+killall -KILL <process_name>

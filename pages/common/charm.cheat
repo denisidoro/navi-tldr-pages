@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/charm.md
+
+% charm, common
+
+# Backup your Charm account keys
+charm backup-keys
+
+# Backup Charm account keys to a specific location
+charm backup-keys -o <path_to_output_file.tar>
+
+# Import previously backed up Charm account keys
+charm import-keys "<charm-keys-backup.tar>"
+
+# Find where your `cloud.charm.sh` folder resides on your machine
+charm where
+
+# Start your Charm server
+charm serve
+
+# Print linked SSH keys
+charm keys
+
+# Print your Charm ID
+charm id

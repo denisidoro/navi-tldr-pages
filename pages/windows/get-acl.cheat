@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/get-acl.md
+
+% get-acl, windows
+
+# Display the ACL for a specific directory
+Get-Acl <path\to\directory>
+
+# Get an ACL for a registry key
+Get-Acl -Path <HKLM:\System\CurrentControlSet\Control> | Format-List

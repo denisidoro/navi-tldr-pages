@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vala.md
+
+% vala, common
+
+# Run a vala file, with gtk+
+vala <path_to_file.vala> --pkg <gtk+-3.0>
+
+# Display version info
+vala --version
+
+# Display helper message
+vala --help

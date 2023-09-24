@@ -3,7 +3,7 @@
 
 % taskkill, windows
 
-# Terminate a process by its id
+# Terminate a process by its ID
 taskkill /pid <process_id>
 
 # Terminate a process by its name

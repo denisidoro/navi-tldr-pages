@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/ipconfig.md
+
+% ipconfig, osx
+
+# List all network interfaces
+ipconfig getiflist
+
+# Show the IP address of an interface
+ipconfig getifaddr <interface_name>

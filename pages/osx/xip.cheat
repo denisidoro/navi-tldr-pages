@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/xip.md
+
+% xip, osx
+
+# Expand the archive into the current working directory
+xip --expand <path_to_file.xip>

@@ -3,26 +3,23 @@
 
 % zip, common
 
-# Package and compress a directory and its contents, [r]ecursively
-zip -r <compressed_zip> <_path_to_dir>
+# Add files/directories to a specific archive ([r]ecursively)
+zip -r <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
-# E[x]clude unwanted files from being added to the compressed archive
-zip -r <compressed_zip> <path_to_dir> -x <path_to_exclude>
+# Remove files/directories from a specific archive ([d]elete)
+zip -d <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
-# Archive a directory and its contents with the highest level [9] of compression
-zip -r -<9> <compressed_zip> <_path_to_dir>
+# Archive files/directories e[x]cluding specified ones
+zip -r <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...> -x <path_to_excluded_files_or_directories>
 
-# Package and compress multiple directories and files
-zip -r <compressed_zip> {{/path/to/dir1 /path/to/dir2 /path/to/file}}
+# Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest)
+zip -r -<0-9> <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
-# Create an encrypted archive (user will be prompted for a password)
-zip -e -r <compressed_zip> <path_to_dir>
+# Create an [e]ncrypted archive with a specific password
+zip -r -e <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
-# Add files to an existing zip file
-zip <compressed_zip> <path_to_file>
+# Archive files/directories to a multi-part [s]plit zip file (e.g. 3 GB parts)
+zip -r -s <3g> <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
-# Delete files from an existing zip file
-zip -d <compressed_zip> "{{foo/*.tmp}}"
-
-# Archive a directory and its contents to a multi-part [s]plit zip file (e.g. 3GB parts)
-zip -r -s <3g> <compressed_zip> <path_to_dir>
+# Print a specific archive contents
+zip -sf <path_to_compressed.zip>

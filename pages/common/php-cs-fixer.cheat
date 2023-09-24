@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/php-cs-fixer.md
+
+% php-cs-fixer, common
+
+# Execute code style fixing in the current directory
+php-cs-fixer fix
+
+# Execute code style fixing for a specific directory
+php-cs-fixer fix <path_to_directory>
+
+# Execute code style linting without applying changes
+php-cs-fixer fix --dry-run
+
+# Execute code style fixes using specific rules
+php-cs-fixer fix --rules=<rules>
+
+# Display the rules that have been applied
+php-cs-fixer fix --verbose
+
+# Output the results in a different format
+php-cs-fixer fix --format=<txt|json|xml|checkstyle|junit|gitlab>
+
+# Display files that require fixing
+php-cs-fixer list-files
+
+# Describe a rule or ruleset
+php-cs-fixer describe <rule>

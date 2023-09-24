@@ -24,5 +24,5 @@ webtorrent seed <path_to_file_or_directory>
 # Create a new torrent file for the specified file path
 webtorrent create <path_to_file>
 
-# Display information for a magnet uri or .torrent file
+# Display information for a magnet URI or `.torrent` file
 webtorrent info <path_to_file_or_magnet>

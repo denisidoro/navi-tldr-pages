@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdalinfo.md
+
+% gdalinfo, common
+
+# List all supported raster formats
+gdalinfo --formats
+
+# List information about a specific raster dataset
+gdalinfo <path_to_input.tif>
+
+# List information about a specific raster dataset in JSON format
+gdalinfo -json <path_to_input.tif>
+
+# Show histogram values of a specific raster dataset
+gdalinfo -hist <path_to_input.tif>
+
+# List information about a Web Map Service (WMS)
+gdalinfo WMS:<https:__services.meggsimum.de_geoserver_ows>
+
+# List information about a specific dataset of a Web Map Service (WMS)
+gdalinfo WMS:<https:__services.meggsimum.de_geoserver_ows> -sd <4>

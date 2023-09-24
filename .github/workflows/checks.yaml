@@ -1,0 +1,30 @@
+name: "CI"
+on:
+  pull_request:
+  push:
+  schedule:
+    - cron: "0 0 * * SUN" # every sunday
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: nixbuild/nix-quick-install-action@v22
+        with:
+          nix_conf: |
+            experimental-features = nix-command flakes
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clone tldr
+        run: git clone https://github.com/tldr-pages/tldr
+
+      - name: translate tldr to navi cheats
+        run: nix develop nixpkgs#python3 -c ./scripts/translate
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update tldr

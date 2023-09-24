@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/flow.md
+
+% flow, common
+
+# Run a flow check
+flow
+
+# Check which files are being checked by flow
+flow ls
+
+# Run a type coverage check on all files in a directory
+flow batch-coverage --show-all --strip-root <path_to_directory>
+
+# Display line-by-line type coverage stats
+flow coverage --color <path_to_file.jsx>

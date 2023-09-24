@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gml2gv.md
+
+% gml2gv, common
+
+# Convert a graph from `gml` to `gv` format
+gml2gv -o <output.gv> <input.gml>
+
+# Convert a graph using `stdin` and `stdout`
+cat <input.gml> | gml2gv > <output.gv>
+
+# Display help
+gml2gv -?

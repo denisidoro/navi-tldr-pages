@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/runsv.md
+
+% runsv, common
+
+# Start a runit service as the current user
+runsv <path_to_service>
+
+# Start a runit service as root
+sudo runsv <path_to_service>

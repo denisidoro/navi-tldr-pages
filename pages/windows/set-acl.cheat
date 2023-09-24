@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/set-acl.md
+
+% set-acl, windows
+
+# Copy a security descriptor from one file to another
+$OriginAcl = Get-Acl -Path <path\to\file>; Set-Acl -Path <path\to\file> -AclObject $OriginAcl
+
+# Use the pipeline operator to pass a descriptor
+Get-Acl -Path <path\to\file> | Set-Acl -Path <path\to\file>

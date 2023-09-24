@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/httpie.md
+
+% httpie, osx
+
+# Send a GET request (default method with no request data)
+http <https:__example.com>
+
+# Send a POST request (default method with request data)
+http <https:__example.com> <hello=World>
+
+# Send a POST request with redirected input
+http <https:__example.com> < <file.json>
+
+# Send a PUT request with a given JSON body
+http PUT <https:__example.com_todos_7> <hello=world>
+
+# Send a DELETE request with a given request header
+http DELETE <https:__example.com_todos_7> <API-Key:foo>
+
+# Show the whole HTTP exchange (both request and response)
+http -v <https:__example.com>
+
+# Download a file
+http --download <https:__example.com>
+
+# Follow redirects and show intermediary requests and responses
+http --follow --all <https:__example.com>

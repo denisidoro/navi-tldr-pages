@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ubuntu-security-status.md
+
+% ubuntu-security-status, linux
+
+# Display the number of unsupported packages
+ubuntu-security-status
+
+# List packages that are no longer available for download
+ubuntu-security-status --unavailable
+
+# List third-party packages
+ubuntu-security-status --thirdparty

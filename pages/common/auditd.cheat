@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/auditd.md
+
+% auditd, common
+
+# Start the daemon
+auditd
+
+# Start the daemon in debug mode
+auditd -d
+
+# Start the daemon on-demand from launchd
+auditd -l

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/opusenc.md
+
+% opusenc, common
+
+# Convert WAV to Opus using default options
+opusenc <path_to_input.wav> <path_to_output>.opus
+
+# Convert stereo audio at the highest quality level
+opusenc --bitrate <512> <path_to_input.wav> <path_to_output>.opus
+
+# Convert 5.1 surround sound audio at the highest quality level
+opusenc --bitrate <1536> <path_to_input.flac> <path_to_output>.opus
+
+# Convert speech audio at the lowest quality level
+opusenc <path_to_input.wav> --downmix-mono --bitrate <6> <path_to_out>.opus

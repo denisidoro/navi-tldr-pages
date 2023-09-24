@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/conan.md
+
+% conan, common
+
+# Install packages based on `conanfile.txt`
+conan install <.>
+
+# Install packages and create configuration files for a specific generator
+conan install -g <generator>
+
+# Install packages, building from source
+conan install <.> --build
+
+# Search for locally installed packages
+conan search <package>
+
+# Search for remote packages
+conan search <package> -r <remote>
+
+# List remotes
+conan remote list

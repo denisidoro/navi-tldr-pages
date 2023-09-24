@@ -7,7 +7,7 @@
 getmac
 
 # Display the details in a specific format
-getmac /fo <table_list_csv>
+getmac /fo <table|list|csv>
 
 # Exclude the header in the output list
 getmac /nh

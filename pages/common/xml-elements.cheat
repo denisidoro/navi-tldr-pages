@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xml-elements.md
+
+% xml-elements, common
+
+# Extract elements from an XML document (producing XPATH expressions)
+xml elements <path_to_input.xml|URI> > <path_to_elements.xpath>
+
+# Extract elements and their attributes from an XML document
+xml elements -a <path_to_input.xml|URI> > <path_to_elements.xpath>
+
+# Extract elements and their attributes and values from an XML document
+xml elements -v <path_to_input.xml|URI> > <path_to_elements.xpath>
+
+# Print sorted unique elements from an XML document to see its structure
+xml elements -u <path_to_input.xml|URI>
+
+# Print sorted unique elements from an XML document up to a depth of 3
+xml elements -d<3> <path_to_input.xml|URI>
+
+# Display help for the `elements` subcommand
+xml elements --help

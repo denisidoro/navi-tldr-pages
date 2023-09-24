@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/trashy.md
+
+% trashy, linux
+
+# Move a specific file to the trash
+trash <path_to_file>
+
+# Move specific files to the trash
+trash <path_to_file1 path_to_file2 ...>
+
+# List items in the trash
+trash list
+
+# Restore a specific file from the trash
+trash restore <file>
+
+# Remove a specific file from the trash
+trash empty <file>
+
+# Restore all files from the trash
+trash restore --all
+
+# Remove all files from the trash
+trash empty --all

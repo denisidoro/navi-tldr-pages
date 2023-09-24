@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zlib-flate.md
+
+% zlib-flate, common
+
+# Compress a file
+zlib-flate -compress < <path_to_input_file> > <path_to_compressed.zlib>
+
+# Uncompress a file
+zlib-flate -uncompress < <path_to_compressed.zlib> > <path_to_output_file>
+
+# Compress a file with a specified compression level. 0=Fastest (Worst), 9=Slowest (Best)
+zlib-flate -compress=<compression_level> < <path_to_input_file> > <path_to_compressed.zlib>

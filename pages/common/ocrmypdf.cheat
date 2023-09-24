@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ocrmypdf.md
+
+% ocrmypdf, common
+
+# Create a new searchable PDF/A file from a scanned PDF or image file
+ocrmypdf <path_to_input_file> <path_to_output.pdf>
+
+# Replace a scanned PDF file with a searchable PDF file
+ocrmypdf <path_to_file.pdf> <path_to_file.pdf>
+
+# Skip pages of a mixed-format input PDF file that already contain text
+ocrmypdf --skip-text <path_to_input.pdf> <path_to_output.pdf>
+
+# Clean, de-skew, and rotate pages of a poor scan
+ocrmypdf --clean --deskew --rotate-pages <path_to_input_file> <path_to_output.pdf>
+
+# Set the metadata of the searchable PDF file
+ocrmypdf --title "<title>" --author "<author>" --subject "<subject>" --keywords "<keyword; key phrase; ...>" <path_to_input_file> <path_to_output.pdf>
+
+# Display help
+ocrmypdf --help

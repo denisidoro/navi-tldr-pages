@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fc-pattern.md
+
+% fc-pattern, common
+
+# Display default information about a font
+fc-pattern --default '<DejaVu Serif>'
+
+# Display config information about a font
+fc-pattern --config '<DejaVu Serif>'

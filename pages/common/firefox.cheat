@@ -4,10 +4,10 @@
 % firefox, common
 
 # Launch Firefox and open a web page
-firefox <https___www_duckduckgo_com>
+firefox <https:__www.duckduckgo.com>
 
 # Open a new window
-firefox --new-window <https___www_duckduckgo_com>
+firefox --new-window <https:__www.duckduckgo.com>
 
 # Open a private (incognito) window
 firefox --private-window
@@ -19,10 +19,10 @@ firefox --search "<wikipedia>"
 firefox --safe-mode
 
 # Take a screenshot of a web page in headless mode
-firefox --headless --screenshot <path_to_output_file_png> <https___example_com_>
+firefox --headless --screenshot <path_to_output_file.png> <https:__example.com_>
 
 # Use a specific profile to allow multiple separate instances of Firefox to run at once
-firefox --profile <path_to_directory> <https___example_com_>
+firefox --profile <path_to_directory> <https:__example.com_>
 
 # Set Firefox as the default browser
 firefox --setDefaultBrowser

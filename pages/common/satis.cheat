@@ -3,17 +3,17 @@
 
 % satis, common
 
-# Initialise a Satis configuration
-satis init <satis_json>
+# Initialize a Satis configuration
+satis init <satis.json>
 
 # Add a VCS repository to the Satis configuration
 satis add <repository_url>
 
 # Build the static output from the configuration
-satis build <satis_json> <path_to_output_directory>
+satis build <satis.json> <path_to_output_directory>
 
 # Build the static output by updating only the specified repository
-satis build --repository-url <repository_url> <satis_json> <path_to_output_directory>
+satis build --repository-url <repository_url> <satis.json> <path_to_output_directory>
 
 # Remove useless archive files
-satis purge <satis_json> <path_to_output_directory>
+satis purge <satis.json> <path_to_output_directory>

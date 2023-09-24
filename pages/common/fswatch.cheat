@@ -3,4 +3,14 @@
 
 % fswatch, common
 
+# Run a Bash command on file creation, update or deletion
+fswatch <path_to_file> | xargs -n 1 <bash_command>
 
+# Watch one or more files and/or directories
+fswatch <path_to_file> <path_to_directory> <path_to_another_directory_**_*.js> | xargs -n 1 <bash_command>
+
+# Print the absolute paths of the changed files
+fswatch <path_to_directory> | xargs -n 1 -I {} echo {}
+
+# Filter by event type
+fswatch --event <Updated|Deleted|Created> <path_to_directory> | xargs -n 1 <bash_command>

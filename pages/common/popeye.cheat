@@ -13,4 +13,4 @@ popeye -n <namespace>
 popeye --context=<context>
 
 # Use a spinach configuration file for scanning
-popeye -f <spinach_yaml>
+popeye -f <spinach.yaml>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/virsh-pool-destroy.md
+
+% virsh-pool-destroy, common
+
+# Stop a storage pool specified by name or UUID (determine using `virsh pool-list`)
+virsh pool-destroy --pool <name|uuid>

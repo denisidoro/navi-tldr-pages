@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/e2undo.md
+
+% e2undo, linux
+
+# Display information about a specific undo file
+e2undo -h <path_to_undo_file> <dev_sdXN>
+
+# Perform a dry-run and display the candidate blocks for replaying
+e2undo -nv <path_to_undo_file> <dev_sdXN>
+
+# Perform an undo operation
+e2undo <path_to_undo_file> <dev_sdXN>
+
+# Perform an undo operation and display verbose information
+e2undo -v <path_to_undo_file> <dev_sdXN>
+
+# Write the old contents of the block to an undo file before overwriting a file system block
+e2undo -z <path_to_file.e2undo> <path_to_undo_file> <dev_sdXN>

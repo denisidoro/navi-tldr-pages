@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ip6tables-restore.md
+
+% ip6tables-restore, linux
+
+# View documentation for the original command
+tldr iptables-restore

@@ -16,7 +16,7 @@ spotify pause
 spotify next
 
 # Change volume
-spotify vol <up_down_value>
+spotify vol <up|down|value>
 
 # Show the playback status and song details
 spotify status

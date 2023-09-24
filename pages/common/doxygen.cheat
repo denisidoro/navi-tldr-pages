@@ -3,7 +3,7 @@
 
 % doxygen, common
 
-# Generate a default template configuration file "Doxyfile"
+# Generate a default template configuration file `Doxyfile`
 doxygen -g
 
 # Generate a template configuration file

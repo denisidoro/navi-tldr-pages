@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/acyclic.md
+
+% acyclic, common
+
+# Make a directed graph acyclic by reversing some edges
+acyclic <path_to_input.gv> > <path_to_output.gv>
+
+# Print if a graph is acyclic, has a cycle, or is undirected, producing no output graph
+acyclic -v -n <path_to_input.gv>
+
+# Display help for `acyclic`
+acyclic -?

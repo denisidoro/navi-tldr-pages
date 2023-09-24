@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nextclade.md
+
+% nextclade, common
+
+# Create a TSV report, auto-downloading the latest [d]ataset
+nextclade run -d <dataset_name> <path_to_fasta> -t <path_to_output_tsv>
+
+# List all available datasets
+nextclade dataset list
+
+# Download the latest SARS-CoV-2 dataset
+nextclade dataset get --name sars-cov-2 --output-dir <path_to_directory>
+
+# Use a downloaded [D]ataset, producing all [O]utputs
+nextclade run -D <path_to_dataset_dir> -O <path_to_output_dir> <path_to_dataset_dir_sequences.fasta>
+
+# Run on multiple files
+nextclade run -d <dataset_name> -t <path_to_output_tsv> -- <path_to_input_fasta_1 path_to_input_fasta_2 ...>
+
+# Try reverse complement if sequence does not align
+nextclade run --retry-reverse-complement -d <dataset_name> -t <path_to_output_tsv> <path_to_input_fasta>

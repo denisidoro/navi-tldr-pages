@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/httpflow.md
+
+% httpflow, common
+
+# Capture traffic on all interfaces
+httpflow -i <any>
+
+# Use a bpf-style capture to filter the results
+httpflow <host httpbin.org or host baidu.com>
+
+# Use a regular expression to filter requests by URLs
+httpflow -u '<regular_expression>'
+
+# Read packets from pcap format binary file
+httpflow -r <out.cap>
+
+# Write the output to a directory
+httpflow -w <path_to_directory>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/raco.md
+
+% raco, common
+
+# Install a package, automatically installing dependencies
+raco pkg install --auto <package_source>
+
+# Install the current directory as a package
+raco pkg install
+
+# Build (or rebuild) bytecode, documentation, executables, and metadata indexes for collections
+raco setup <collection1 collection2 ...>
+
+# Run tests in files
+raco test <path_to_tests1.rkt path_to_tests2.rkt ...>
+
+# Search local documentation
+raco docs <search_terms ...>
+
+# Display help
+raco help

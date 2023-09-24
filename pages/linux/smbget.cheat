@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/smbget.md
+
+% smbget, linux
+
+# Download a file from a server
+smbget <smb:__server_share_file>
+
+# Download a share or directory recursively
+smbget --recursive <smb:__server_share>
+
+# Connect with a username and password
+smbget <smb:__server_share_file> --user <username%password>
+
+# Require encrypted transfers
+smbget <smb:__server_share_file> --encrypt

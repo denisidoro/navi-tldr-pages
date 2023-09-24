@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/moe.md
+
+% moe, common
+
+# Open moe and create a backup file (file~) when saving edits
+moe <path_to_file>
+
+# Open a file as read-only
+moe --read-only <path_to_file>
+
+# Edit a file without creating backups
+moe --no-backup <path_to_file>
+
+# Edit a file ignoring case in searches
+moe --ignore-case <path_to_file>
+
+# Save and Quit
+Ctrl + X

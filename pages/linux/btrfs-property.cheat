@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/btrfs-property.md
+
+% btrfs-property, linux
+
+# List available properties (and descriptions) for the given btrfs object
+sudo btrfs property list <path_to_btrfs_object>
+
+# Get all properties for the given btrfs object
+sudo btrfs property get <path_to_btrfs_object>
+
+# Get the `label` property for the given btrfs filesystem or device
+sudo btrfs property get <path_to_btrfs_filesystem> label
+
+# Get all object type-specific properties for the given btrfs filesystem or device
+sudo btrfs property get -t <subvol|filesystem|inode|device> <path_to_btrfs_filesystem>
+
+# Set the `compression` property for a given btrfs inode (either a file or directory)
+sudo btrfs property set <path_to_btrfs_inode> compression <zstd|zlib|lzo|none>

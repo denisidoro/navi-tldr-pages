@@ -13,7 +13,7 @@ msbuild <path_to_project_file>
 msbuild <path_to_project_file> /target:<targets>
 
 # Set one or more semicolon-separated properties
-msbuild <path_to_project_file> /property:<name_value>
+msbuild <path_to_project_file> /property:<name=value>
 
 # Set the build tools version to use
 msbuild <path_to_project_file> /toolsversion:<version>

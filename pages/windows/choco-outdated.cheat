@@ -10,7 +10,7 @@ choco outdated
 choco outdated --ignore-pinned
 
 # Specify a custom source to check packages from
-choco outdated --source <source_url_alias>
+choco outdated --source <source_url|alias>
 
 # Provide a username and password for authentication
 choco outdated --user <username> --password <password>

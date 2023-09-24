@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ksvgtopng5.md
+
+% ksvgtopng5, linux
+
+# Convert an SVG file (should be an absolute path) to PNG
+ksvgtopng5 <width> <height> <path_to_file.svg> <output_filename.png>

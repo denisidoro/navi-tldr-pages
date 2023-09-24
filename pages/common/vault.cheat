@@ -7,7 +7,7 @@
 vault init
 
 # Unseal (unlock) the vault, by providing one of the key shares needed to access the encrypted data store
-vault unseal <key_share_x>
+vault unseal <key-share-x>
 
 # Authenticate the CLI client against the Vault server, using an authentication token
 vault auth <authentication_token>

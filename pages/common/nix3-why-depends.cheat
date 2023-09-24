@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-why-depends.md
+
+% nix3-why-depends, common
+
+# Show why the currently running NixOS system requires a certain store path
+nix why-depends <run_current-system> <nix_store_...>
+
+# Show why a package from nixpkgs requires another package as a _build-time_ dependency
+nix why-depends --derivation <nixpkgs#dependent> <nixpkgs#dependency>

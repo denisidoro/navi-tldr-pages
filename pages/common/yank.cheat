@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yank.md
+
+% yank, common
+
+# Yank using the default delimiters (\f, \n, \r, \s, \t)
+<sudo dmesg> | yank
+
+# Yank an entire line
+<sudo dmesg> | yank -l
+
+# Yank using a specific delimiter
+<echo hello=world> | yank -d <=>
+
+# Only yank fields matching a specific pattern
+<ps ux> | yank -g "<[0-9]+>"

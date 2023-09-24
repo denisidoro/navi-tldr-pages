@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/virt-manager.md
+
+% virt-manager, linux
+
+# Launch virt-manager
+virt-manager
+
+# Connect to a hypervisor
+virt-manager --connect <hypervisor_uri>
+
+# Don't fork virt-manager process into background on startup
+virt-manager --no-fork
+
+# Print debug output
+virt-manager --debug
+
+# Open the "New VM" wizard
+virt-manager --show-domain-creator
+
+# Show domain details window
+virt-manager --show-domain-editor <name|id|uuid>
+
+# Show domain performance window
+virt-manager --show-domain-performance <name|id|uuid>
+
+# Show connection details window
+virt-manager --show-host-summary

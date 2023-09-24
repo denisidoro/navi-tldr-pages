@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bundletool-dump.md
+
+% bundletool-dump, common
+
+# Display the `AndroidManifest.xml` of the base module
+bundletool dump manifest --bundle=<path_to_bundle.aab>
+
+# Display a specific value from the `AndroidManifest.xml` using XPath
+bundletool dump manifest --bundle=<path_to_bundle.aab> --xpath=<manifest_@android:versionCode>
+
+# Display the `AndroidManifest.xml` of a specific module
+bundletool dump manifest --bundle=<path_to_bundle.aab> --module=<name>
+
+# Display all the resources in the application bundle
+bundletool dump resources --bundle=<path_to_bundle.aab>
+
+# Display the configuration for a specific resource
+bundletool dump resources --bundle=<path_to_bundle.aab> --resource=<type_name>
+
+# Display the configuration and values for a specific resource using the ID
+bundletool dump resources --bundle=<path_to_bundle.aab> --resource=<0x7f0e013a> --values
+
+# Display the contents of the bundle configuration file
+bundletool dump config --bundle=<path_to_bundle.aab>

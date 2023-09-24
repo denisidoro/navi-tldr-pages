@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/age.md
+
+% age, common
+
+# Generate an encrypted file that can be decrypted with a passphrase
+age --passphrase --output <path_to_encrypted_file> <path_to_unencrypted_file>
+
+# Encrypt a file with one or more public keys entered as literals (repeat the `--recipient` flag to specify multiple public keys)
+age --recipient <public_key> --output <path_to_encrypted_file> <path_to_unencrypted_file>
+
+# Encrypt a file to one or more recipients with their public keys specified in a file (one per line)
+age --recipients-file <path_to_recipients_file> --output <path_to_encrypted_file> <path_to_unencrypted_file>
+
+# Decrypt a file with a passphrase
+age --decrypt --output <path_to_decrypted_file> <path_to_encrypted_file>
+
+# Decrypt a file with a private key file
+age --decrypt --identity <path_to_private_key_file> --output <path_to_decrypted_file> <path_to_encrypted_file>

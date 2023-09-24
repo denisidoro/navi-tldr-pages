@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ss-local.md
+
+% ss-local, common
+
+# Run a Shadowsocks proxy by specifying the host, server port, local port, password, and encryption method
+ss-local -s <host> -p <server_port> -l <local port> -k <password> -m <encrypt_method>
+
+# Run a Shadowsocks proxy by specifying the config file
+ss-local -c <path_to_config_file.json>
+
+# Use a plugin to run the proxy client
+ss-local --plugin <plugin_name> --plugin-opts <plugin_options>
+
+# Enable TCP fast open
+ss-local --fast-open

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zm.md
+
+% zm, common
+
+# Make a new draft
+zm new
+
+# Edit a draft
+zm edit
+
+# Publish a draft and commit it with git
+zm publish

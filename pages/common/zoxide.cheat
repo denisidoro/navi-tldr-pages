@@ -13,10 +13,10 @@ zoxide query <foo> <bar>
 zoxide query --interactive
 
 # Add a directory or increment its rank
-zoxide add <path_to_dir>
+zoxide add <path_to_directory>
 
-# Remove a directory from `zoxide`'s database
-zoxide remove <path_to_dir>
+# Remove a directory from `zoxide`'s database interactively
+zoxide remove <path_to_directory> --interactive
 
 # Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`)
-zoxide init <bash_fish_zsh>
+zoxide init <bash|fish|zsh>

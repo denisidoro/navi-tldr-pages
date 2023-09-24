@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zipnote.md
+
+% zipnote, common
+
+# View the comments on a zip archive
+zipnote <path_to_file.zip>
+
+# Extract the comments on a zip archive to a file
+zipnote <path_to_file.zip> > <path_to_file.txt>
+
+# Add/Update comments in a zip archive from a file
+zipnote -w <path_to_file.zip> < <path_to_file.txt>

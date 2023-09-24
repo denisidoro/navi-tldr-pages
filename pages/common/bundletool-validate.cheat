@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bundletool-validate.md
+
+% bundletool-validate, common
+
+# Verify a bundle and display detailed information about it
+bundletool validate --bundle=<path_to_bundle.aab>

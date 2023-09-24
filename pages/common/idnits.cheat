@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idnits.md
+
+% idnits, common
+
+# Check a file for nits
+idnits <path_to_file.txt>
+
+# Count nits without displaying them
+idnits --nitcount <path_to_file.txt>
+
+# Show extra information about offending lines
+idnits --verbose <path_to_file.txt>
+
+# Expect the specified year in the boilerplate instead of the current year
+idnits --year <2021> <path_to_file.txt>
+
+# Assume the document is of the specified status
+idnits --doctype <standard|informational|experimental|bcp|ps|ds> <path_to_file.txt>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/azurite.md
+
+% azurite, common
+
+# Use an existing [l]ocation as workspace path
+azurite <-l|--location> <path_to_directory>
+
+# Disable access log displayed in console
+azurite <-s|--silent>
+
+# Enable [d]ebug log by providing a file path as log destination
+azurite <-d|--debug> <path_to_debug.log>
+
+# Customize the listening address of Blob/Queue/Table service
+azurite <--blobHost|--queueHost|--tableHost> <0.0.0.0>
+
+# Customize the listening port of Blob/Queue/Table service
+azurite <--blobPort|--queuePort|--tablePort> <8888>

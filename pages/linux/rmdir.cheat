@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rmdir.md
+
+% rmdir, linux
+
+# Remove specific directories
+rmdir <path_to_directory1 path_to_directory2 ...>
+
+# Remove specific nested directories recursively
+rmdir --parents <path_to_directory1 path_to_directory2 ...>

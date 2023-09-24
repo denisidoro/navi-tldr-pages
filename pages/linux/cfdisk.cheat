@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cfdisk.md
+
+% cfdisk, linux
+
+# Start the partition manipulator with a specific device
+cfdisk <dev_sdX>
+
+# Create a new partition table for a specific device and manage it
+cfdisk --zero <dev_sdX>

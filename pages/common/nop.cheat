@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nop.md
+
+% nop, common
+
+# Pretty-print one or more graphs in canonical format
+nop <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
+
+# Check one or more graphs for validity, producing no output graph
+nop -p <path_to_input1.gv> <path_to_input2.gv ...>
+
+# Display help for `nop`
+nop -?

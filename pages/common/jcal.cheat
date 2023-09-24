@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jcal.md
+
+% jcal, common
+
+# Display a calendar for the current month
+jcal
+
+# Display the previous, current, and next months
+jcal -3
+
+# Display a calendar for a specific year (4 digits)
+jcal <year>
+
+# Display a calendar for a specific month and year
+jcal <year> <month>

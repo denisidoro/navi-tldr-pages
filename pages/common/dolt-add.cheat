@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dolt-add.md
+
+% dolt-add, common
+
+# Add a table to the list of staged tables (stage a table)
+dolt add <table>
+
+# Stage all tables
+dolt add --all

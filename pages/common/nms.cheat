@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nms.md
+
+% nms, common
+
+# Decrypt text after a keystroke
+echo "<Hello, World!>" | nms
+
+# Decrypt output immediately, without waiting for a keystroke
+<ls -la> | nms -a
+
+# Decrypt the content of a file, with a custom output color
+cat <path_to_file> | nms -a -f <blue|white|yellow|black|magenta|green|red>
+
+# Clear the screen before decrypting
+<command> | nms -a -c

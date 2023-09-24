@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xonsh.md
+
+% xonsh, common
+
+# Start an interactive shell session
+xonsh
+
+# Execute a single command and then exit
+xonsh -c "<command>"
+
+# Run commands from a script file and then exit
+xonsh <path_to_script_file.xonsh>
+
+# Define environment variables for the shell process
+xonsh -D<name1>=<value1> -D<name2>=<value2>
+
+# Load the specified `.xonsh` or `.json` configuration files
+xonsh --rc <path_to_file1.xonsh> <path_to_file2.json>
+
+# Skip loading the `.xonshrc` configuration file
+xonsh --no-rc

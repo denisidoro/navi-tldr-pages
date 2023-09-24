@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gow.md
+
+% gow, common
+
+# Start and watch the current directory
+gow run .
+
+# Start the application with the specified arguments
+gow run . <argument1 argument2 ...>
+
+# Watch subdirectories in verbose mode
+gow -v -w=<path_to_directory1,path_to_directory2,...> run .
+
+# Watch the specified file extensions
+gow -e=<go,html> run .
+
+# Display help
+gow -h

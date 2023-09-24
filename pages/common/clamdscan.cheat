@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/clamdscan.md
+
+% clamdscan, common
+
+# Scan a file or directory for vulnerabilities
+clamdscan <path_to_file_or_directory>
+
+# Scan data from `stdin`
+<command> | clamdscan -
+
+# Scan the current directory and output only infected files
+clamdscan --infected
+
+# Output the scan report to a log file
+clamdscan --log <path_to_log_file>
+
+# Move infected files to a specific directory
+clamdscan --move <path_to_quarantine_directory>
+
+# Remove infected files
+clamdscan --remove
+
+# Use multiple threads to scan a directory
+clamdscan --multiscan
+
+# Pass the file descriptor instead of streaming the file to the daemon
+clamdscan --fdpass

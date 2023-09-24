@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-lock.md
+
+% git-lock, common
+
+# Disable the ability to commit changes of a local file
+git lock <path_to_file>

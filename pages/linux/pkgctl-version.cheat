@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pkgctl-version.md
+
+% pkgctl-version, linux
+
+# Display version
+pkgctl version

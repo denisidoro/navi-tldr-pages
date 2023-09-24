@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mysqlbinlog.md
+
+% mysqlbinlog, common
+
+# Show events from a specific binary log file
+mysqlbinlog <path_to_binlog>
+
+# Show entries from a binary log for a specific database
+mysqlbinlog --database <database_name> <path_to_binlog>
+
+# Show events from a binary log between specific dates
+mysqlbinlog --start-datetime='<2022-01-01 01:00:00>' --stop-datetime='<2022-02-01 01:00:00>' <path_to_binlog>
+
+# Show events from a binary log between specific positions
+mysqlbinlog --start-position=<100> --stop-position=<200> <path_to_binlog>
+
+# Show binary log from a MySQL server on the given host
+mysqlbinlog --host=<hostname> <path_to_binlog>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lmms.md
+
+% lmms, common
+
+# Start the GUI
+lmms
+
+# Start the GUI and load external config
+lmms --config <path_to_config.xml>
+
+# Start the GUI and import MIDI or Hydrogen file
+lmms --import <path_to_midi_or_hydrogen_file>
+
+# Start the GUI with a specified window size
+lmms --geometry <x_size>x<y_size>+<x_offset>+<y_offset>
+
+# Dump a `.mmpz` file
+lmms dump <path_to_mmpz_file.mmpz>
+
+# Render a project file
+lmms render <path_to_mmpz_or_mmp_file>
+
+# Render the individual tracks of a project file
+lmms rendertracks <path_to_mmpz_or_mmp_file> <path_to_dump_directory>
+
+# Render with custom samplerate, format, and as a loop
+lmms render --samplerate <88200> --format <ogg> --loop --output <path_to_output_file.ogg>

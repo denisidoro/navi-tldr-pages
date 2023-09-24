@@ -3,5 +3,5 @@
 
 % cksum, common
 
-# Display a 32 bit checksum, size in bytes and filename
-cksum <filename>
+# Display a 32-bit checksum, size in bytes and filename
+cksum <path_to_file>

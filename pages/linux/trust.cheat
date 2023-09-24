@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/trust.md
+
+% trust, linux
+
+# List trust policy store items
+trust list
+
+# List information about specific items in the trust policy store
+trust list --filter=<blocklist|ca-anchors|certificates|trust-policy>
+
+# Store a specific trust anchor in the trust policy store
+trust anchor <path_to_certificate.crt>
+
+# Remove a specific anchor from the trust policy store
+trust anchor --remove <path_to_certificate.crt>
+
+# Extract trust policy from the shared trust policy store
+trust extract --format=x509-directory --filter=ca-anchors <path_to_directory>
+
+# Display help for a subcommand
+trust <subcommand> --help

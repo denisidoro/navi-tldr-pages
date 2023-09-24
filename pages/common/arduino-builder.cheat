@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/arduino-builder.md
+
+% arduino-builder, common
+
+# Compile a sketch
+arduino-builder -compile <path_to_sketch.ino>
+
+# Specify the debug level (default: 5)
+arduino-builder -debug-level <1..10>
+
+# Specify a custom build directory
+arduino-builder -build-path <path_to_build_directory>
+
+# Use a build option file, instead of specifying `--hardware`, `--tools`, etc. manually every time
+arduino-builder -build-options-file <path_to_build.options.json>
+
+# Enable verbose mode
+arduino-builder -verbose <true>

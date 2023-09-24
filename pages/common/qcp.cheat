@@ -7,7 +7,7 @@
 qcp <source_file>
 
 # Copy multiple JPG files
-qcp {{*.jpg}}
+qcp <*.jpg>
 
 # Copy files, but swap the positions of the source and the target filenames in the editor
-qcp --option swap {{*.jpg}}
+qcp --option swap <*.jpg>

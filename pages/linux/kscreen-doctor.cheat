@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/kscreen-doctor.md
+
+% kscreen-doctor, linux
+
+# Show display output information
+kscreen-doctor --outputs
+
+# Set the rotation of a display output with an ID of 1 to the right
+kscreen-doctor <output.1.rotation.right>
+
+# Set the scale of a display output with an ID of `HDMI-2` to 2 (200%)
+kscreen-doctor <output.HDMI-2.scale.2>

@@ -4,13 +4,13 @@
 % alex, common
 
 # Analyze text from `stdin`
-echo {{His network looks good}} | alex --stdin
+echo <His network looks good> | alex --stdin
 
 # Analyze all files in the current directory
 alex
 
 # Analyze a specific file
-alex <textfile_md>
+alex <textfile.md>
 
-# Analyze all markdown files except `example.md`
-alex *.md !<example_md>
+# Analyze all Markdown files except `example.md`
+alex *.md !<example.md>

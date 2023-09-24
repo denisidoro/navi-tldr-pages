@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gimp.md
+
+% gimp, common
+
+# Start GIMP
+gimp
+
+# Open specific files
+gimp <path_to_image1 path_to_image2 ...>
+
+# Open specific files in a new window
+gimp --new-instance <path_to_image1 path_to_image2 ...>
+
+# Start without a splash screen
+gimp --no-splash
+
+# Print errors and warnings to the console instead of showing them in a dialog box
+gimp --console-messages
+
+# Enable debugging signal handlers
+gimp --debug-handlers

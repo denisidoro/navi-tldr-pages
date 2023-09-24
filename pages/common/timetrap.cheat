@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/timetrap.md
+
+% timetrap, common
+
+# Create a new timesheet
+timetrap sheet <timesheet>
+
+# Check in an entry started 5 minutes ago
+timetrap in --at "<5 minutes ago>" <entry_notes>
+
+# Display the current timesheet
+timetrap display
+
+# Edit the last entry's end time
+timetrap edit --end <time>

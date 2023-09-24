@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-scp.md
+
+% git-scp, common
+
+# Copy unstaged files to a specific remote
+git scp <remote_name>
+
+# Copy staged and unstaged files to a remote
+git scp <remote_name> HEAD
+
+# Copy files that has been changed in the last commit and any staged or unstaged files to a remote
+git scp <remote_name> HEAD~1
+
+# Copy specific files to a remote
+git scp <remote_name> <path_to_file1 path_to_file2 ...>
+
+# Copy a specific directory to a remote
+git scp <remote_name> <path_to_directory>

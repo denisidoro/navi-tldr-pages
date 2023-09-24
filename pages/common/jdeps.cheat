@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jdeps.md
+
+% jdeps, common
+
+# Analyze the dependencies of a `.jar` or `.class` file
+jdeps <path_to_filename.class>
+
+# Print a summary of all dependencies of a specific `.jar` file
+jdeps <path_to_filename.jar> -summary
+
+# Print all class-level dependencies of a `.jar` file
+jdeps <path_to_filename.jar> -verbose
+
+# Output the results of the analysis in a DOT file into a specific directory
+jdeps <path_to_filename.jar> -dotoutput <path_to_directory>
+
+# Display help
+jdeps --help

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/x0vncserver.md
+
+% x0vncserver, linux
+
+# Start a VNC server using a passwordfile
+x0vncserver -display <:0> -passwordfile <path_to_file>
+
+# Start a VNC server using a specific port
+x0vncserver -display <:0> -rfbport <port>

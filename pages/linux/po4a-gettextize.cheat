@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/po4a-gettextize.md
+
+% po4a-gettextize, linux
+
+# Convert a text file to PO file
+po4a-gettextize --format <text> --master <path_to_master.txt> --po <path_to_result.po>
+
+# Get a list of available formats
+po4a-gettextize --help-format
+
+# Convert a text file along with a translated document to a PO file (`-l` option can be provided multiple times)
+po4a-gettextize --format <text> --master <path_to_master.txt> --localized <path_to_translated.txt> --po <path_to_result.po>

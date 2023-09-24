@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bastet.md
+
+% bastet, common
+
+# Start a Tetris game
+bastet
+
+# Navigate the piece horizontally
+<Left|Right> arrow key
+
+# Rotate the piece clockwise or counterclockwise
+<Spacebar|Up arrow key>
+
+# Soft drop the piece
+Down arrow key
+
+# Hard drop the piece
+Enter
+
+# Pause the game
+p
+
+# Quit the game
+Ctrl + C

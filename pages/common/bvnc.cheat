@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bvnc.md
+
+% bvnc, common
+
+# Browse for VNC servers
+bvnc
+
+# Browse for SSH servers
+bvnc --ssh
+
+# Browse for both VNC and SSH servers
+bvnc --shell
+
+# Browse for VNC servers in a specified domain
+bvnc --domain=<domain>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/keytool.md
+
+% keytool, common
+
+# Create a keystore
+keytool -genkeypair -v -keystore <path_to_file.keystore> -alias <key_name>
+
+# Change a keystore password
+keytool -storepasswd -keystore <path_to_file.keystore>
+
+# Change a key's password inside a specific keystore
+keytool -keypasswd -alias <key_name> -keystore <path_to_file.keystore>

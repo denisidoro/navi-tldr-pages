@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/elixir.md
+
+% elixir, common
+
+# Run an Elixir file
+elixir <path_to_file>
+
+# Evaluate Elixir code by passing it as an argument
+elixir -e "<code>"

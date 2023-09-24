@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fail2ban-client.md
+
+% fail2ban-client, linux
+
+# Retrieve current status of the jail service
+fail2ban-client status <jail>
+
+# Remove the specified IP from the jail service's ban list
+fail2ban-client set <jail> unbanip <ip>
+
+# Verify fail2ban server is alive
+fail2ban-client ping

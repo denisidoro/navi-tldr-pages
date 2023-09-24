@@ -3,23 +3,23 @@
 
 % gist, common
 
-# Login in gist on this computer
+# Log in in gist on this computer
 gist --login
 
 # Create a gist from any number of text files
-gist <file_txt> <file2_txt>
+gist <file.txt> <file2.txt>
 
 # Create a private gist with a description
-gist -p -d {{"A meaningful description"}} <file_txt> 
+gist --private --description "<A meaningful description>" <file.txt> 
 
 # Read contents from `stdin` and create a gist from it
-{{echo "hello world"}} | gist
+<echo "hello world"> | gist
 
 # List your public and private gists
-gist -l
+gist --list
 
-# List all gists for the currently logged in user
-gist -l <username>
+# List all public gists for any user
+gist --list <username>
 
-# Use the id from the gist URL to modify or include a file
-gist -u <GIST_ID> <file_txt>
+# Update a gist using the ID from URL
+gist --update <GIST_ID> <file.txt>

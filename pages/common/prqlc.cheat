@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/prqlc.md
+
+% prqlc, common
+
+# Run the compiler interactively
+prqlc compile
+
+# Compile a specific `.prql` file to `stdout`
+prqlc compile <path_to_file.prql>
+
+# Compile a `.prql` file to a `.sql` file
+prqlc compile <path_to_source.prql> <path_to_target.sql>
+
+# Compile a query
+echo "<from employees | filter has_dog | select salary>" | prqlc compile
+
+# Watch a directory and compile on file modification
+prqlc watch <path_to_directory>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-sshkey.md
+
+% az-sshkey, common
+
+# Create a new SSH key
+az sshkey create --name <name> --resource-group <resource_group>
+
+# Upload an existing SSH key
+az sshkey create --name <name> --resource-group <resource_group> --public-key "<@path_to_key.pub>"
+
+# List all SSH public keys
+az sshkey list
+
+# Show information about an SSH public key
+az sshkey show --name <name> --resource-group <resource_group>

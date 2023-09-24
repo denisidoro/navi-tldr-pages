@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bindkey.md
+
+% bindkey, common
+
+# Bind a hotkey to a specific command
+bindkey "<^k>" <kill-line>
+
+# Bind a hotkey to a specific key sequence
+bindkey -s '^o' 'cd ..\n'
+
+# View keymaps
+bindkey -l
+
+# View the hotkey in a keymap
+bindkey -M main

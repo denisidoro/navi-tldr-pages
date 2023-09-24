@@ -3,9 +3,6 @@
 
 % yum, linux
 
-# Synchronize list of packages and versions available. This should be run first, before running subsequent yum commands
-yum update
-
 # Install a new package
 yum install <package>
 
@@ -18,5 +15,8 @@ yum provides <command>
 # Remove a package
 yum remove <package>
 
-# Upgrade installed packages to newest available versions
+# Display available updates for installed packages
+yum check-update
+
+# Upgrade installed packages to the newest available versions
 yum upgrade

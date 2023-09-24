@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/md-to-clip.md
+
+% md-to-clip, common
+
+# Convert tldr-pages files and save into the same directories
+md-to-clip <path_to_page1.md path_to_page2.md ...>
+
+# Convert tldr-pages files and save into a specific directory
+md-to-clip --output-directory <path_to_directory> <path_to_page1.md path_to_page2.md ...>
+
+# Convert a tldr-page file to `stdout`
+md-to-clip --no-file-save <(echo '<page-content>')
+
+# Convert tldr-pages files while recognizing additional placeholders from a specific config
+md-to-clip --special-placeholder-config <path_to_config.yaml> <path_to_page1.md path_to_page2.md ...>
+
+# Display help
+md-to-clip --help
+
+# Display version
+md-to-clip --version

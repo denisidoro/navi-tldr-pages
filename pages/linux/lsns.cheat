@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lsns.md
+
+% lsns, linux
+
+# List all namespaces
+lsns
+
+# List namespaces in JSON format
+lsns --json
+
+# List namespaces associated with <pid>
+lsns --task <pid>
+
+# List the specified type of namespaces only
+lsns --type <mnt|net|ipc|user|pid|uts|cgroup|time>
+
+# List namespaces, only showing the namespace ID, type, PID, and command
+lsns --output NS,TYPE,PID,COMMAND

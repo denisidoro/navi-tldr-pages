@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-cat.md
+
+% systemd-cat, linux
+
+# Write the output of the specified command to the journal (both output streams are captured)
+systemd-cat <command>
+
+# Write the output of a pipeline to the journal (`stderr` stays connected to the terminal)
+<command> | systemd-cat

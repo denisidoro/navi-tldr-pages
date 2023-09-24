@@ -9,8 +9,8 @@ ioping .
 # Measure latency on /tmp using 10 requests of 1 megabyte each
 ioping -c 10 -s 1M /tmp
 
-# Measure disk seek rate on /dev/sda
-ioping -R /dev/sda
+# Measure disk seek rate on `/dev/sdX`
+ioping -R <dev_sdX>
 
-# Measure disk sequential speed on /dev/sda
-ioping -RL /dev/sda
+# Measure disk sequential speed on `/dev/sdX`
+ioping -RL <dev_sdX>

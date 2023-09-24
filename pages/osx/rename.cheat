@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/rename.md
+
+% rename, osx
+
+# Replace `from` with `to` in the filenames of the specified files
+rename 's/<from>/<to>/' <*.txt>

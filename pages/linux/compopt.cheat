@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/compopt.md
+
+% compopt, linux
+
+# Print the options for the currently executing completion
+compopt
+
+# Print the completion options for given command
+compopt <command>

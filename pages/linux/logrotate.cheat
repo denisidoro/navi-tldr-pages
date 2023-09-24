@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/logrotate.md
+
+% logrotate, linux
+
+# Trigger a run manually
+logrotate <path_to_logrotate.conf> --force
+
+# Run using a specific command to mail reports
+logrotate <path_to_logrotate.conf> --mail <usr_bin_mail_command>
+
+# Run without using a state (lock) file
+logrotate <path_to_logrotate.conf> --state /dev/null
+
+# Run and skip the state (lock) file check
+logrotate <path_to_logrotate.conf> --skip-state-lock
+
+# Tell `logrotate` to log verbose output into the log file
+logrotate <path_to_logrotate.conf> --log <path_to_log_file>

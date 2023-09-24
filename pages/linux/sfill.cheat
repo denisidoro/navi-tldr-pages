@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sfill.md
+
+% sfill, linux
+
+# Overwrite free space and inodes of a disk with 38 writes (slow but secure)
+sfill <path_to_mounted_disk_directory>
+
+# Overwrite free space and inodes of a disk with 6 writes (fast but less secure) and show status
+sfill -l -v <path_to_mounted_disk_directory>
+
+# Overwrite free space and inodes of a disk with 1 write (very fast but insecure) and show status
+sfill -ll -v <path_to_mounted_disk_directory>
+
+# Overwrite only free space of a disk
+sfill -I <path_to_mounted_disk_directory>
+
+# Overwrite only free inodes of a disk
+sfill -i <path_to_mounted_disk_directory>

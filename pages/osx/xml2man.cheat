@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/xml2man.md
+
+% xml2man, osx
+
+# Compile an MPGL file to a viewable man page
+xml2man <path_to_command_file.mxml>
+
+# Compile an MPGL file to a specific output file
+xml2man <path_to_service_file.mxml> <path_to_service_file.7>
+
+# Compile an MPGL file to a specific output file, overwriting if it already exists
+xml2man -f <path_to_function_file.mxml> <path_to_function_file.3>

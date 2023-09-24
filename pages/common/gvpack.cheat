@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gvpack.md
+
+% gvpack, common
+
+# Combine several graph layouts (that already have layout information)
+gvpack <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
+
+# Combine several graph layouts at the graph level, keeping graphs separate
+gvpack -g <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
+
+# Combine several graph layouts at the node level, ignoring clusters
+gvpack -n <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
+
+# Combine several graph layouts without packing
+gvpack -u <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
+
+# Display help for `gvpack`
+gvpack -?

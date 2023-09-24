@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/phpcbf.md
+
+% phpcbf, common
+
+# Fix issues in the specified directory (defaults to the PEAR standard)
+phpcbf <path_to_directory>
+
+# Display a list of installed coding standards
+phpcbf -i
+
+# Specify a coding standard to validate against
+phpcbf <path_to_directory> --standard <standard>
+
+# Specify comma-separated file extensions to include when sniffing
+phpcbf <path_to_directory> --extensions <file_extension(s)>
+
+# A comma-separated list of files to load before processing
+phpcbf <path_to_directory> --bootstrap <file(s)>
+
+# Don't recurse into subdirectories
+phpcbf <path_to_directory> -l

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/helix.md
+
+% helix, common
+
+# Open a file
+helix <path_to_file>
+
+# Change the Helix theme
+:theme <theme_name>
+
+# Save and Quit
+:wq<Enter>
+
+# Force-quit without saving
+:q!<Enter>
+
+# Undo the last operation
+u
+
+# Search for a pattern in the file (press `n`/`N` to go to next/previous match)
+/<search_pattern><Enter>
+
+# Format the file
+:format

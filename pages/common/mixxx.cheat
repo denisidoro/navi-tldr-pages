@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mixxx.md
+
+% mixxx, common
+
+# Start the Mixxx GUI in fullscreen
+mixxx --fullScreen
+
+# Start in safe developer mode to debug a crash
+mixxx --developer --safeMode
+
+# Debug a malfunction
+mixxx --debugAssertBreak --developer --loglevel trace
+
+# Start Mixxx using the specified settings file
+mixxx --resourcePath <mixxx_res_controllers> --settingsPath <path_to_settings-file>
+
+# Debug a custom controller mapping
+mixxx --controllerDebug --resourcePath <path_to_mapping-directory>
+
+# Show command-line help
+mixxx --help

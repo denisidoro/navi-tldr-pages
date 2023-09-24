@@ -4,7 +4,7 @@
 % shiori, common
 
 # Import bookmarks from HTML Netscape bookmark format file
-shiori import <path_to_bookmarks_html>
+shiori import <path_to_bookmarks.html>
 
 # Save the specified URL as bookmark
 shiori add <url>

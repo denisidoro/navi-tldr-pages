@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/docker-cp.md
+
+% docker-cp, common
+
+# Copy a file or directory from the host to a container
+docker cp <path_to_file_or_directory_on_host> <container_name>:<path_to_file_or_directory_in_container>
+
+# Copy a file or directory from a container to the host
+docker cp <container_name>:<path_to_file_or_directory_in_container> <path_to_file_or_directory_on_host>
+
+# Copy a file or directory from the host to a container, following symlinks (copies the symlinked files directly, not the symlinks themselves)
+docker cp --follow-link <path_to_symlink_on_host> <container_name>:<path_to_file_or_directory_in_container>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pw-play.md
+
+% pw-play, linux
+
+# Play a wav sound file over the default target
+pw-play <path_to_file.wav>
+
+# Play a wav sound file at a different volume level
+pw-play --volume=<0.1> <path_to_file.wav>

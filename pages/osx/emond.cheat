@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/emond.md
+
+% emond, osx
+
+# Start the daemon
+emond
+
+# Specify rules for emond to process by giving a path to a file or directory
+emond -r <path_to_file_or_directory>
+
+# Use a specific configuration file
+emond -c <path_to_config_file>

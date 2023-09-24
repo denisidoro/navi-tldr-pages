@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ac.md
+
+% ac, common
+
+# Print how long the current user has been connected in hours
+ac
+
+# Print how long users have been connected in hours
+ac -p
+
+# Print how long a particular user has been connected in hours
+ac -p <username>
+
+# Print how long a particular user has been connected in hours per day (with total)
+ac -dp <username>

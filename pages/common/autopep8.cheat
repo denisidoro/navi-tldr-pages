@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/autopep8.md
+
+% autopep8, common
+
+# Format a file to `stdout`, with a custom maximum line length
+autopep8 <path_to_file.py> --max-line-length <length>
+
+# Format a file, displaying a diff of the changes
+autopep8 --diff <path_to_file>
+
+# Format a file in-place and save the changes
+autopep8 --in-place <path_to_file.py>
+
+# Recursively format all files in a directory in-place and save changes
+autopep8 --in-place --recursive <path_to_directory>

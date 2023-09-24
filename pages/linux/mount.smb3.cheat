@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mount.smb3.md
+
+% mount.smb3, linux
+
+# View documentation for the original command
+tldr mount.cifs

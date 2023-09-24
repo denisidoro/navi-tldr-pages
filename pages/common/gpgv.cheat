@@ -10,4 +10,4 @@ gpgv <path_to_file>
 gpgv <path_to_signature> <path_to_file>
 
 # Add a file to the list of keyrings (a single exported key also counts as a keyring)
-gpgv --keyring <__alice_keyring> <path_to_signature> <path_to_file>
+gpgv --keyring <._alice.keyring> <path_to_signature> <path_to_file>

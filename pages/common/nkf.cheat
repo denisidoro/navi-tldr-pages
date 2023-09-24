@@ -4,19 +4,19 @@
 % nkf, common
 
 # Convert to UTF-8 encoding
-nkf -w <path_to_file_txt>
+nkf -w <path_to_file.txt>
 
 # Convert to SHIFT_JIS encoding
-nkf -s <path_to_file_txt>
+nkf -s <path_to_file.txt>
 
 # Convert to UTF-8 encoding and overwrite the file
-nkf -w --overwrite <path_to_file_txt>
+nkf -w --overwrite <path_to_file.txt>
 
-# Set new line code to LF and overwrite (unix type)
-nkf -d --overwrite <path_to_file_txt>
+# Set new line code to LF and overwrite (UNIX type)
+nkf -d --overwrite <path_to_file.txt>
 
 # Set new line code to CRLF and overwrite (windows type)
-nkf -c --overwrite <path_to_file_txt>
+nkf -c --overwrite <path_to_file.txt>
 
 # Decrypt mime file and overwrite
-nkf -m --overwrite <path_to_file_txt>
+nkf -m --overwrite <path_to_file.txt>

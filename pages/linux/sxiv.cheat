@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sxiv.md
+
+% sxiv, linux
+
+# Open an image
+sxiv <path_to_file>
+
+# Open an image in fullscreen mode
+sxiv -f <path_to_file>
+
+# Open a newline-separated list of images, reading filenames from `stdin`
+echo <path_to_file> | sxiv -i
+
+# Open a space-separated list of images as a slideshow
+sxiv -S <seconds> <path_to_file>
+
+# Open a space-separated list of images in thumbnail mode
+sxiv -t <path_to_file>

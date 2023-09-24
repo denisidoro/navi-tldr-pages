@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-s3-cp.md
+
+% aws-s3-cp, common
+
+# Copy a file from local to a specific bucket
+aws s3 cp <path_to_file> s3://<bucket_name>/<path_to_remote_file>
+
+# Copy a specific S3 object into another bucket
+aws s3 cp s3://<bucket_name1>/<path_to_file> s3://<bucket_name2>/<path_to_target>
+
+# Copy a specific S3 object into another bucket keeping the original name
+aws s3 cp s3://<bucket_name1>/<path_to_file> s3://<bucket_name2>
+
+# Copy S3 objects to a local directory recursively
+aws s3 cp s3://<bucket_name> . --recursive
+
+# Display help
+aws s3 cp help

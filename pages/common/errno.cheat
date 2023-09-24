@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/errno.md
+
+% errno, common
+
+# Lookup errno description by name or code
+errno <name|code>
+
+# List all errno names, codes, and descriptions
+errno --list
+
+# Search for code whose description contains all of the given text
+errno --search <text>
+
+# Search for code whose description contains all of the given text (all locales)
+errno --search-all-locales <text>

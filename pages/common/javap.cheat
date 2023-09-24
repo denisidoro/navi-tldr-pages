@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/javap.md
+
+% javap, common
+
+# Disassemble and list a `.class` file
+javap <path_to_file.class>
+
+# Disassemble and list multiple `.class` files
+javap <path_to_file1.class path_to_file2.class ...>
+
+# Disassemble and list a built-in class file
+javap java.<package>.<class>
+
+# Display help
+javap -help
+
+# Display version
+javap -version

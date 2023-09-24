@@ -3,8 +3,8 @@
 
 % users, common
 
-# Display a list of logged in users
+# Print logged in usernames
 users
 
-# Display a list of logged in users according to a specific file
-users <_var_log_wmtp>
+# Print logged in usernames according to a given file
+users <var_log_wmtp>

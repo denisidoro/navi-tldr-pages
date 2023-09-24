@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xxhsum.md
+
+% xxhsum, linux
+
+# Calculate the checksum for a file using a specific algorithm
+xxhsum -H<0|32|64|128> <path_to_file>
+
+# Run benchmark
+xxhsum -b

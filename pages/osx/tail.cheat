@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/tail.md
+
+% tail, osx
+
+# Show last 'count' lines in file
+tail -n <8> <path_to_file>
+
+# Print a file from a specific line number
+tail -n +<8> <path_to_file>
+
+# Print a specific count of bytes from the end of a given file
+tail -c <8> <path_to_file>
+
+# Print the last lines of a given file and keep reading file until `Ctrl + C`
+tail -f <path_to_file>
+
+# Keep reading file until `Ctrl + C`, even if the file is inaccessible
+tail -F <path_to_file>
+
+# Show last 'count' lines in 'file' and refresh every 'seconds' seconds
+tail -n <8> -s <10> -f <path_to_file>

@@ -16,4 +16,4 @@ go doc -all <encoding_json>
 go doc -all -src <encoding_json>
 
 # Show a specific symbol
-go doc -all -src <encoding_json_Number>
+go doc -all -src <encoding_json.Number>

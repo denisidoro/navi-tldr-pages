@@ -3,26 +3,26 @@
 
 % rsync, common
 
-# Transfer file from local to remote host
-rsync <path_to_local_file> <remote_host>:<path_to_remote_directory>
+# Transfer a file
+rsync <path_to_source> <path_to_destination>
 
-# Transfer file from remote host to local
-rsync <remote_host>:<path_to_remote_file> <path_to_local_directory>
+# Use archive mode (recursively copy directories, copy symlinks without resolving and preserve permissions, ownership and modification times)
+rsync --archive <path_to_source> <path_to_destination>
 
-# Transfer file in [a]rchive (to preserve attributes) and compressed ([z]ipped) mode with [v]erbose and [h]uman-readable [p]rogress
-rsync -azvhP <path_to_local_file> <remote_host>:<path_to_remote_directory>
+# Compress the data as it is sent to the destination, display verbose and human-readable progress, and keep partially transferred files if interrupted
+rsync --compress --verbose --human-readable --partial --progress <path_to_source> <path_to_destination>
 
-# Transfer a directory and all its children from a remote to local
-rsync -r <remote_host>:<path_to_remote_directory> <path_to_local_directory>
+# Recursively copy directories
+rsync --recursive <path_to_source> <path_to_destination>
 
-# Transfer directory contents (but not the directory itself) from a remote to local
-rsync -r <remote_host>:<path_to_remote_directory>/ <path_to_local_directory>
+# Transfer directory contents, but not the directory itself
+rsync --recursive <path_to_source>/ <path_to_destination>
 
-# Transfer a directory [r]ecursively, in [a]rchive to preserve attributes, resolving contained soft[l]inks , and ignoring already transferred files [u]nless newer
-rsync -rauL <remote_host>:<path_to_remote_file> <path_to_local_directory>
+# Recursively copy directories, use archive mode, resolve symlinks and skip files that are newer on the destination
+rsync --recursive --archive --update --copy-links <path_to_source> <path_to_destination>
 
-# Transfer file over SSH and delete local files that do not exist on remote host
-rsync -e ssh --delete <remote_host>:<path_to_remote_file> <path_to_local_file>
+# Transfer a directory to a remote host running `rsyncd` and delete files on the destination that do not exist on the source
+rsync --recursive --delete rsync://<host>:<path_to_source> <path_to_destination>
 
-# Transfer file over SSH and show global progress
-rsync -e ssh --info=progress2 <remote_host>:<path_to_remote_file> <path_to_local_file>
+# Transfer a file over SSH using a different port than the default (22) and show global progress
+rsync --rsh 'ssh -p <port>' --info=progress2 <host>:<path_to_source> <path_to_destination>

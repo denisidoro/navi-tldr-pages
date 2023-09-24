@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dvc-unfreeze.md
+
+% dvc-unfreeze, common
+
+# Unfreeze 1 or more specified stages
+dvc unfreeze <stage_name_a> [<stage_name_b> ...]

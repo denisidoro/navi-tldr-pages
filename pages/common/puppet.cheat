@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/puppet.md
+
+% puppet, common
+
+# Execute a Puppet subcommand
+puppet <subcommand>
+
+# Check the Puppet version
+puppet --version
+
+# Display help
+puppet --help
+
+# Display help for a subcommand
+puppet help <subcommand>

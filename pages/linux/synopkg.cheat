@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/synopkg.md
+
+% synopkg, linux
+
+# List the names of installed packages
+synopkg list --name
+
+# List packages which depend on a specific package
+synopkg list --depend-on <package>
+
+# Start/Stop a package
+sudo synopkg <start|stop> <package>
+
+# Print the status of a package
+synopkg status <package>
+
+# Uninstall a package
+sudo synopkg uninstall <package>
+
+# Check if updates are available for a package
+synopkg checkupdate <package>
+
+# Upgrade all packages to the latest version
+sudo synopkg upgradeall
+
+# Install a package from a synopkg file
+sudo synopkg install <path_to_package.spk>

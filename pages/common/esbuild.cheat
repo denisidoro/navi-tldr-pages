@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/esbuild.md
+
+% esbuild, common
+
+# Bundle a JavaScript application and print to `stdout`
+esbuild --bundle <path_to_file.js>
+
+# Bundle a JSX application from `stdin`
+esbuild --bundle --outfile=<path_to_out.js> < <path_to_file.jsx>
+
+# Bundle and minify a JSX application with source maps in `production` mode
+esbuild --bundle --define:<process.env.NODE_ENV=\"production\"> --minify --sourcemap <path_to_file.js>
+
+# Bundle a JSX application for a comma-separated list of browsers
+esbuild --bundle --minify --sourcemap --target=<chrome58,firefox57,safari11,edge16> <path_to_file.jsx>
+
+# Bundle a JavaScript application for a specific node version
+esbuild --bundle --platform=<node> --target=<node12> <path_to_file.js>
+
+# Bundle a JavaScript application enabling JSX syntax in `.js` files
+esbuild --bundle app.js --loader:<.js=jsx> <path_to_file.js>
+
+# Bundle and serve a JavaScript application on an HTTP server
+esbuild --bundle --serve=<port> --outfile=<index.js> <path_to_file.js>
+
+# Bundle a list of files to an output directory
+esbuild --bundle --outdir=<path_to_output_directory> <path_to_file1 path_to_file2 ...>

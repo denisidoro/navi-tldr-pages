@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gnmic-get.md
+
+% gnmic-get, common
+
+# Get a snapshot of the device state at a specific path
+gnmic --address <ip:port> get --path <path>
+
+# Query the device state at multiple paths
+gnmic -a <ip:port> get --path <path1> --path <path2>
+
+# Query the device state at multiple paths with a common prefix
+gnmic -a <ip:port> get --prefix <prefix> --path <path1> --path <path2>
+
+# Query the device state and specify response encoding (json_ietf)
+gnmic -a <ip:port> get --path <path> --encoding json_ietf

@@ -19,4 +19,4 @@ influx -database <database_name>
 influx -execute "<influxql_command>"
 
 # Return output in a specific format
-influx -execute "<influxql_command>" -format <json_csv_column>
+influx -execute "<influxql_command>" -format <json|csv|column>

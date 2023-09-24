@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tred.md
+
+% tred, common
+
+# Construct the transitive reduction graph of one or more directed graphs
+tred <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
+
+# Display help
+tred -?

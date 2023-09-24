@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/esearch.md
+
+% esearch, linux
+
+# Search the pubmed database for selective serotonin reuptake inhibitor
+esearch -db pubmed -query "<selective serotonin reuptake inhibitor>"
+
+# Search the protein database using a query and regexp
+esearch -db <protein> -query <'Escherichia*'>
+
+# Search the nucleotide database for sequences whose metadata contain insulin and rodents
+esearch -db nuccore -query "<insulin [PROT] AND rodents [ORGN]>"
+
+# Display [h]elp
+esearch -h

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pmount.md
+
+% pmount, linux
+
+# Mount a device below `/media/` (using device as mount point)
+pmount <dev_to_block_device>
+
+# Mount a device with a specific filesystem type to `/media/label`
+pmount --type <filesystem> <dev_to_block_device> <label>
+
+# Mount a CD-ROM (filesystem type ISO9660) in read-only mode
+pmount --type <iso9660> --read-only <dev_cdrom>
+
+# Mount an NTFS-formatted disk, forcing read-write access
+pmount --type <ntfs> --read-write <dev_sdX>
+
+# Display all mounted removable devices
+pmount

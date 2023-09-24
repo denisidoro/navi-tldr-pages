@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-filter-repo.md
+
+% git-filter-repo, common
+
+# Replace a sensitive string in all files
+git filter-repo --replace-text <(echo '<find>==><replacement>')
+
+# Extract a single folder, keeping history
+git filter-repo --path <path_to_folder>
+
+# Remove a single folder, keeping history
+git filter-repo --path <path_to_folder> --invert-paths
+
+# Move everything from sub-folder one level up
+git filter-repo --path-rename <path_to_folder_:>

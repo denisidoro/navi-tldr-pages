@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dolt-sql.md
+
+% dolt-sql, common
+
+# Run a single query
+dolt sql --query "<INSERT INTO t values (1, 3);>"
+
+# List all saved queries
+dolt sql --list-saved

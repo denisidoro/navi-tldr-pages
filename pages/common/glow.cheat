@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/glow.md
+
+% glow, common
+
+# Run glow and select a file to view
+glow
+
+# Render a Markdown file to the terminal
+glow <path_to_file>
+
+# View a Markdown file using a paginator
+glow -p <path_to_file>
+
+# View a file from a URL
+glow <https:__example.com_file.md>
+
+# View a GitHub/GitLab README
+glow <github.com_owner_repository>

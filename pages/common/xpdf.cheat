@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xpdf.md
+
+% xpdf, common
+
+# Open a PDF file
+xpdf <path_to_file.pdf>
+
+# Open a specific page in a PDF file
+xpdf <path_to_file.pdf> :<page_number>
+
+# Open a compressed PDF file
+xpdf <path_to_file.pdf.tar>
+
+# Open a PDF file in fullscreen mode
+xpdf -fullscreen <path_to_file.pdf>
+
+# Specify the initial zoom
+xpdf -z <75>% <path_to_file.pdf>
+
+# Specify the initial zoom at page width or full page
+xpdf -z <page|width> <path_to_file.pdf>

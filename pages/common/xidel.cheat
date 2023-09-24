@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xidel.md
+
+% xidel, common
+
+# Print all URLs found by a Google search
+xidel <https:__www.google.com_search?q=test> --extract "//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']"
+
+# Print the title of all pages found by a Google search and download them
+xidel <https:__www.google.com_search?q=test> --follow "<_a_extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']>" --extract <_title> --download {{'{$host}/'}}
+
+# Follow all links on a page and print the titles, with XPath
+xidel <https:__example.org> --follow <_a> --extract <_title>
+
+# Follow all links on a page and print the titles, with CSS selectors
+xidel <https:__example.org> --follow "<css('a')>" --css <title>
+
+# Follow all links on a page and print the titles, with pattern matching
+xidel <https:__example.org> --follow "{{<a>{.}</a>*}}" --extract "{{<title>{.}</title>}}"
+
+# Read the pattern from example.xml (which will also check if the element containing "ood" is there, and fail otherwise)
+xidel <path_to_example.xml> --extract "{{<x><foo>ood</foo><bar>{.}</bar></x>}}"
+
+# Print all newest Stack Overflow questions with title and URL using pattern matching on their RSS feed
+xidel <http:__stackoverflow.com_feeds> --extract "{{<entry><title>{title:=.}</title><link>{uri:=@href}</link></entry>+}}"
+
+# Check for unread Reddit mail, Webscraping, combining CSS, XPath, JSONiq, and automatically form evaluation
+xidel <https:__reddit.com> --follow "{{form(css('form.login-form')[1], {'user': '$your_username', 'passwd': '$your_password'})}}" --extract "<css('#mail')_@title>"

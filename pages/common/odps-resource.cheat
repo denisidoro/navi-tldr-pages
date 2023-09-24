@@ -10,13 +10,13 @@ list resources;
 add file <filename> as <alias>;
 
 # Add archive resource
-add archive <archive_tar_gz> as <alias>;
+add archive <archive.tar.gz> as <alias>;
 
 # Add .jar resource
-add jar <package_jar>;
+add jar <package.jar>;
 
 # Add .py resource
-add py <script_py>;
+add py <script.py>;
 
 # Delete resource
 drop resource <resource_name>;

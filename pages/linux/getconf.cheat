@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/getconf.md
+
+% getconf, linux
+
+# List [a]ll configuration values available
+getconf -a
+
+# List the configuration values for a specific directory
+getconf -a <path_to_directory>
+
+# Check if your linux system is a 32-bit or 64-bit
+getconf LONG_BIT
+
+# Check how many processes the current user can run at once
+getconf CHILD_MAX
+
+# List every configuration value and then find patterns with the grep command (i.e every value with MAX in it)
+getconf -a | grep MAX

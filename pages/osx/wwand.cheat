@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/wwand.md
+
+% wwand, osx
+
+# Start the daemon
+wwand

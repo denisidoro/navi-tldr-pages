@@ -1,7 +1,0 @@
-; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/windows/sigverif.md
-
-% sigverif, windows
-
-# Open the File Signature Verification interface
-sigverif

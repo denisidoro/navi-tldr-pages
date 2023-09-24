@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdal2tiles.py.md
+
+% gdal2tiles.py, common
+
+# Generate TMS tiles for the zoom levels 2-5 of a raster dataset
+gdal2tiles.py --zoom=<2-5> <path_to_input.tif> <path_to_output_directory>
+
+# Generate XYZ tiles for the zoom levels 2-5 of a raster dataset
+gdal2tiles.py --zoom=<2-5> --xyz <path_to_input.tif> <path_to_output_directory>

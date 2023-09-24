@@ -10,7 +10,7 @@ scoop install <package>
 scoop uninstall <package>
 
 # Update all installed packages
-scoop update *
+scoop update --all
 
 # List installed packages
 scoop list
@@ -21,8 +21,5 @@ scoop info <package>
 # Search for a package
 scoop search <package>
 
-# List all known buckets (a bucket is an application repository)
-scoop bucket known
-
-# Add a bucket by its alias or a Git repository URL
-scoop bucket add <bucket>
+# Remove old versions of all packages and clear the download cache
+scoop cleanup --cache --all

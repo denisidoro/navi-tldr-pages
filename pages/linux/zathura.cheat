@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/zathura.md
+
+% zathura, linux
+
+# Open a file
+zathura <path_to_file>
+
+# Navigate left/up/down/right
+<H|J|K|L> or arrow keys
+
+# Rotate
+r
+
+# Invert Colors
+Ctrl + R
+
+# Search for text by a given string
+/<string>
+
+# Create/delete bookmarks
+:<bmark|bdelete> <bookmark_name>
+
+# List bookmarks
+:blist

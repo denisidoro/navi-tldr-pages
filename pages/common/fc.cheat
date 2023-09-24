@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fc.md
+
+% fc, common
+
+# Open in the default system editor
+fc
+
+# Specify an editor to open with
+fc -e <'emacs'>
+
+# List recent commands from history
+fc -l
+
+# List recent commands in reverse order
+fc -l -r
+
+# List commands in a given interval
+fc '<416>' '<420>'

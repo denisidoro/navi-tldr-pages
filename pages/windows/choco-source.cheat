@@ -13,7 +13,7 @@ choco source add --name <name> --source <url>
 choco source add --name <name> --source <url> --user <username> --password <password>
 
 # Add a new package source with a client certificate
-choco source add --name <name> --source <url> --cert <path_to_certificate>
+choco source add --name <name> --source <url> --cert <path\to\certificate_file>
 
 # Enable a package source
 choco source enable --name <name>

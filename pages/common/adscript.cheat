@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/adscript.md
+
+% adscript, common
+
+# Compile a file to an object file
+adscript --output <path_to_file.o> <path_to_input_file.adscript>
+
+# Compile and link a file to a standalone executable
+adscript --executable --output <path_to_file> <path_to_input_file.adscript>
+
+# Compile a file to LLVM IR instead of native machine code
+adscript --llvm-ir --output <path_to_file.ll> <path_to_input_file.adscript>
+
+# Cross-compile a file to an object file for a foreign CPU architecture or operating system
+adscript --target-triple <i386-linux-elf> --output <path_to_file.o> <path_to_input_file.adscript>

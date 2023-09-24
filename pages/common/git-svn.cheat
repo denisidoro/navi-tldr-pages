@@ -4,15 +4,15 @@
 % git-svn, common
 
 # Clone an SVN repository
-git svn clone <https___example_com_subversion_repo> <local_dir>
+git svn clone <https:__example.com_subversion_repo> <local_dir>
 
-# Clone a SVN repository starting at a given revision number
-git svn clone -r<1234>:HEAD <https___svn_example_net_subversion_repo> <local_dir>
+# Clone an SVN repository starting at a given revision number
+git svn clone -r<1234>:HEAD <https:__svn.example.net_subversion_repo> <local_dir>
 
 # Update local clone from the remote SVN repository
 git svn rebase
 
-# Fetch updates from the remote SVN repository without changing the git HEAD
+# Fetch updates from the remote SVN repository without changing the Git HEAD
 git svn fetch
 
 # Commit back to the SVN repository

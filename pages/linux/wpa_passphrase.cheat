@@ -3,7 +3,7 @@
 
 % wpa_passphrase, linux
 
-# Compute and display the WPA-PSK key for a given SSID reading the passphrase from stdin
+# Compute and display the WPA-PSK key for a given SSID reading the passphrase from `stdin`
 wpa_passphrase <SSID>
 
 # Compute and display WPA-PSK key for a given SSID specifying the passphrase as an argument

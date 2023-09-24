@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/units.md
+
+% units, common
+
+# Run in interactive mode
+units
+
+# List all units containing a specific string in interactive mode
+search <string>
+
+# Show the conversion between two simple units
+units <quarts> <tablespoons>
+
+# Convert between units with quantities
+units "<15 pounds>" <kilograms>
+
+# Show the conversion between two compound units
+units "<meters _ second>" "<inches _ hour>"
+
+# Show the conversion between units with different dimensions
+units "<acres>" "<ft^2>"
+
+# Show the conversion of byte multipliers
+units "<15 megabytes>" <bytes>

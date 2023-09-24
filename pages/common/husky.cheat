@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/husky.md
+
+% husky, common
+
+# Install Husky in the current directory
+husky install
+
+# Install Husky into a specific directory
+husky install <path_to_directory>
+
+# Set a specific command as a `pre-push` hook for Git
+husky set <.husky_pre-push> "<command> <command_arguments>"
+
+# Add a specific command to the current `pre-commit` hook
+husky add <.husky_pre-commit> "<command> <command_arguments>"
+
+# Uninstall Husky hooks from the current directory
+husky uninstall
+
+# Display help
+husky

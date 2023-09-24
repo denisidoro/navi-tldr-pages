@@ -3,7 +3,7 @@
 
 % mytop, common
 
-# Start mytop
+# Start `mytop`
 mytop
 
 # Connect with a specified username and password

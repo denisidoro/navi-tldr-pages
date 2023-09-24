@@ -13,16 +13,10 @@ sudo iptables --policy <chain> <rule>
 sudo iptables --append <chain> --source <ip> --jump <rule>
 
 # [A]ppend rule to chain policy for IP considering [p]rotocol and port
-sudo iptables --append <chain> --source <ip> --protocol <protocol> --dport <port> --jump <rule>
+sudo iptables --append <chain> --source <ip> --protocol <tcp|udp|icmp|...> --dport <port> --jump <rule>
 
 # Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP
 sudo iptables --table <nat> --append <POSTROUTING> --source <192.168.0.0_24> --jump <MASQUERADE>
 
 # [D]elete chain rule
 sudo iptables --delete <chain> <rule_line_number>
-
-# Save `iptables` configuration of a given [t]able to a file
-sudo iptables-save --table <tablename> > <path_to_iptables_file>
-
-# Restore `iptables` configuration from a file
-sudo iptables-restore < <path_to_iptables_file>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-man.md
+
+% rustup-man, common
+
+# View the man page for a given command from the default toolchain
+rustup man <command>
+
+# View the man page for a given command from the specified toolchain
+rustup man --toolchain <command>

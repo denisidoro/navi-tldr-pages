@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-completions.md
+
+% rustup-completions, common
+
+# Print the completion script to `stdout`
+rustup completions <bash|elvish|fish|powershell|zsh> <rustup|cargo>

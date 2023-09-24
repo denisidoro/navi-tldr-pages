@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-self.md
+
+% rustup-self, common
+
+# Update `rustup`
+rustup self update
+
+# Uninstall `rustup`
+rustup self uninstall

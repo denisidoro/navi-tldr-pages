@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/iptables-save.md
+
+% iptables-save, linux
+
+# Print the `iptables` configuration
+sudo iptables-save
+
+# Print the `iptables` configuration of a specific [t]able
+sudo iptables-save --table <table>
+
+# Save the `iptables` configuration to a [f]ile
+sudo iptables-save --file <path_to_file>

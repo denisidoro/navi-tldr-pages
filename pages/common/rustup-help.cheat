@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-help.md
+
+% rustup-help, common
+
+# Display general help
+rustup help
+
+# Display help for a subcommand
+rustup help <subcommand>

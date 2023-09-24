@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustup-override.md
+
+% rustup-override, common
+
+# List directiory toolchain overrides
+rustup override list
+
+# Set the override toolchain for the current directory (i.e. tell `rustup` to run `cargo`, `rustc`, etc. from a specific toolchain when in that directory)
+rustup override set <toolchain>
+
+# Remove the toolchain override for the current directory
+rustup override unset
+
+# Remove all toolchain overrides for directories that no longer exist
+rustup override unset --nonexistent

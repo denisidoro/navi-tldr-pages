@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pdftohtml.md
+
+% pdftohtml, linux
+
+# Convert a PDF file to an HTML file
+pdftohtml <path_to_file.pdf> <path_to_output_file.html>
+
+# Ignore images in the PDF file
+pdftohtml -i <path_to_file.pdf> <path_to_output_file.html>
+
+# Generate a single HTML file that includes all PDF pages
+pdftohtml -s <path_to_file.pdf> <path_to_output_file.html>
+
+# Convert a PDF file to an XML file
+pdftohtml -xml <path_to_file.pdf> <path_to_output_file.xml>

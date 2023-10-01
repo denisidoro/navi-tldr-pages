@@ -14,3 +14,6 @@ sudo !!
 
 # Substitute with the most recent command that starts with `string`
 !<string>
+
+# Substitute with the arguments of the latest command
+<command> !*

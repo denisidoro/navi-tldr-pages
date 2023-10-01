@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustic.md
+
+% rustic, common
+
+# Initialize a new repository
+rustic init --repository <srv_rustic-repo>
+
+# Create a new backup of a file/directory to a repository
+rustic backup --repository <srv_rustic-repo> <path_to_file_or_directory>

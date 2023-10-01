@@ -4,13 +4,13 @@
 % w3m, common
 
 # Open a URL
-w3m <http:__example.com>
+w3m <https:__example.com>
 
 # Open a URL in monochrome mode
-w3m <http:__example.com> -M
+w3m <https:__example.com> -M
 
 # Open a URL without mouse support
-w3m <http:__example.com> --no-mouse
+w3m <https:__example.com> -no-mouse
 
 # Open a new browser tab
 Shift + T
@@ -19,4 +19,4 @@ Shift + T
 Ctrl + H
 
 # Quit w3m
-'q' then 'y'
+'q' followed by 'y'

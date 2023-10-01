@@ -13,7 +13,7 @@ shellcheck --shell <sh|bash|dash|ksh> <path_to_script.sh>
 shellcheck --exclude <SC1009,SC1073> <path_to_script.sh>
 
 # Also check any sourced shell scripts
-shellcheck --checked-sourced <path_to_script.sh>
+shellcheck --check-sourced <path_to_script.sh>
 
 # Display output in the specified format (defaults to `tty`)
 shellcheck --format <tty|checkstyle|diff|gcc|json|json1|quiet> <path_to_script.sh>

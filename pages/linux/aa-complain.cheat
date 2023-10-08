@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aa-complain.md
+
+% aa-complain, linux
+
+# Set policy to complain mode
+sudo aa-complain <path_to_profile>
+
+# Set policies to complain mode
+sudo aa-complain --dir <path_to_profiles>

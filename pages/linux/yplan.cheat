@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/yplan.md
+
+% yplan, linux
+
+# Create a daily planner with specified language, lettercase (uppercase or lowercase) and year
+yplan <language> <lettercase> <year> > <path_to_file.tex>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-report.md
+
+% cargo-report, common
+
+# Display a report
+cargo report <future-incompatibilities|...>
+
+# Display a report with the specified Cargo-generated id
+cargo report <future-incompatibilities|...> --id <id>
+
+# Display a report for the specified package
+cargo report <future-incompatibilities|...> --package <package>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/goku.md
+
+% goku, osx
+
+# Generate `karabiner.json` using the default configuration
+goku
+
+# Generate `karabiner.json` using the specific `config.edn` file
+goku --config <path_to_config.edn>
+
+# Dry run the new configuration into `stdout` instead of updating `karabiner.json`
+goku --dry-run
+
+# Dry run the whole configuration into `stdout` instead of updating `karabiner.json`
+goku --dry-run-all
+
+# Display help
+goku --help
+
+# Display version
+goku --version

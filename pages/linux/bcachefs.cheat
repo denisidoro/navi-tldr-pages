@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bcachefs.md
+
+% bcachefs, linux
+
+# Format a partition with `bcachefs`
+sudo bcachefs format <path_to_partition>
+
+# Mount a `bcachefs` filesystem
+sudo bcachefs mount <path_to_partition> <path_to_mountpoint>
+
+# Create a RAID 0 filesystem where an SSD acts as a cache and an HDD acts as a long-term storage
+sudo bcachefs format --label=ssd.ssd1 <path_to_ssd_partition> --label=hdd.hdd1 <path_to_hdd_partition> --replicas=1 --foreground_target=ssd --promote_target=ssd --background_target=hdd
+
+# Mount a multidevice filesystem
+sudo bcachefs mount <path_to_partition1>:<path_to_partition2> <path_to_mountpoint>
+
+# Display disk usage
+bcachefs fs usage --human-readable <path_to_mountpoint>
+
+# Display help
+bcachefs

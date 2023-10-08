@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/readonly.md
+
+% readonly, common
+
+# Create a read-only variable
+readonly <variable_name>=<value>
+
+# Mark a variable as read-only
+readonly <existing_variable>
+
+# [p]rint to the standard output the names and values of all read-only variables
+readonly -p

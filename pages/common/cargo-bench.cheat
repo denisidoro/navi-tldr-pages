@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-bench.md
+
+% cargo-bench, common
+
+# Execute all benchmarks of a package
+cargo bench
+
+# Compile, but don’t run benchmarks
+cargo bench --no-run
+
+# Benchmark only the specified packages
+cargo bench --package <package>
+
+# Benchmark the specified benchmark
+cargo bench --bench <benchmark>
+
+# Benchmark with the given profile (default: `bench`)
+cargo bench --profile <profile>
+
+# Benchmark all example targets
+cargo bench --examples
+
+# Benchmark all binary targets
+cargo bench --bins
+
+# Benchmark the package’s library
+cargo bench --lib

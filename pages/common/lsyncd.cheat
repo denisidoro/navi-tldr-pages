@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lsyncd.md
+
+% lsyncd, common
+
+# Watch the source for changes and run `rsync` to synchronize files to the destination on every change
+lsyncd -rsync <path_to_source> <host::share_name>
+
+# Use SSH instead of `rsyncd` shares
+lsyncd -rsyncssh <path_to_source> <host> <path_to_destination>

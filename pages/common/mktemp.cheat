@@ -3,11 +3,17 @@
 
 % mktemp, common
 
-# Create an empty temporary file and print the absolute path to it
+# Create an empty temporary file and print its absolute path
 mktemp
 
-# Create an empty temporary file with a given suffix and print the absolute path to file
-mktemp --suffix "<.ext>"
+# Use a custom directory if `$TMPDIR` is not set (the default is platform-dependent, but usually `/tmp`)
+mktemp -p <path_to_tempdir>
 
-# Create a temporary directory and print the absolute path to it
+# Use a custom path template (`X`s are replaced with random alphanumeric characters)
+mktemp <tmp_example.XXXXXXXX>
+
+# Use a custom file name template
+mktemp -t <example.XXXXXXXX>
+
+# Create an empty temporary directory and print its absolute path
 mktemp -d

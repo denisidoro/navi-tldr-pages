@@ -3,11 +3,11 @@
 
 % import, common
 
-# Capture the entire X server screen in the PostScript image format
-import -window root <output.postscript>
+# Capture the entire X server screen into a PostScript file
+import -window root <path_to_output.ps>
 
-# Capture contents of a remote X server screen in the PNG format
-import -window root -display <remote_host>:<screen>.<display> <output.png>
+# Capture contents of a remote X server screen into a PNG image
+import -window root -display <remote_host>:<screen>.<display> <path_to_output.png>
 
-# Capture a specific window, given its ID as displayed by `xwininfo`, into the JPEG format
-import -window <window_id> <output.jpg>
+# Capture a specific window given its ID as displayed by `xwininfo` into a JPEG image
+import -window <window_id> <path_to_output.jpg>

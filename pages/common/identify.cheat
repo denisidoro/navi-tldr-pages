@@ -9,5 +9,5 @@ identify <path_to_image>
 # Describe the format and verbose characteristics of an image
 identify -verbose <path_to_image>
 
-# Collect dimensions of all JPEG files under current directory
-identify -format "%f,%w,%h\n" *.<jpg> > <path_to_filelist.csv>
+# Collect dimensions of all JPEG files in the current directory and save them into a CSV file
+identify -format "<%f,%w,%h\n>" <*.jpg> > <path_to_filelist.csv>

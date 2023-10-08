@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ifs.md
+
+% ifs, common
+
+# View the current IFS value
+echo "$IFS"
+
+# Change the IFS value
+IFS="<:>"
+
+# Reset IFS to default
+IFS=$' \t\n'
+
+# Temporarily change the IFS value in a subshell
+(IFS="<:>"; echo "<one:two:three>")

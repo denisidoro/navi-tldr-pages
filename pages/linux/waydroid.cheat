@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/waydroid.md
+
+% waydroid, linux
+
+# Start Waydroid
+waydroid
+
+# Initialize Waydroid (required on first run or after reinstalling Android)
+waydroid init
+
+# Install a new Android app from a file
+waydroid app install <path_to_file.apk>
+
+# Launch an Android app by its package name
+waydroid app launch <com.example.app>
+
+# Start or stop the Waydroid session
+waydroid session <start|stop>
+
+# Manage the Waydroid container
+waydroid container <start|stop|restart|freeze|unfreeze>

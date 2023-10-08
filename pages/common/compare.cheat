@@ -3,8 +3,8 @@
 
 % compare, common
 
-# Compare 2 images
-compare <image1.png> <image2.png> <diff.png>
+# Compare two images
+compare <path_to_image1.png> <path_to_image2.png> <path_to_diff.png>
 
-# Compare 2 images using a custom metric
-compare -verbose -metric <PSNR> <image1.png> <image2.png> <diff.png>
+# Compare two images using the specified metric
+compare -verbose -metric <PSNR> <path_to_image1.png> <path_to_image2.png> <path_to_diff.png>

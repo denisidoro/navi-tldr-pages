@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aa-disable.md
+
+% aa-disable, linux
+
+# Disable profile
+sudo aa-disable <path_to_profile>
+
+# Disable profiles
+sudo aa-disable --dir <path_to_profiles>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aa-enforce.md
+
+% aa-enforce, linux
+
+# Enable profile
+sudo aa-enforce <path_to_profile>
+
+# Enable profiles
+sudo aa-enforce --dir <path_to_profile>

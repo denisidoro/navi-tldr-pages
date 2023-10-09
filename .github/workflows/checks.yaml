@@ -25,6 +25,6 @@ jobs:
         run: nix develop nixpkgs#python3 -c ./scripts/translate
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update tldr

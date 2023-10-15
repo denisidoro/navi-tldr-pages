@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/doctl-databases-pool.md
+
+% doctl-databases-pool, common
+
+# Run a `doctl databases pool` command with an access token
+doctl databases pool <command> --access-token <access_token>
+
+# Retrieve information about a database connection pool
+doctl databases pool get <database_id> <pool_name>
+
+# List connection pools for a database cluster
+doctl databases pool list <database_id>
+
+# Create a connection pool for a database
+doctl databases pool create <database_id> <pool_name> --db <new_pool_name> --size <pool_size>
+
+# Delete a connection pool for a database
+doctl databases pool create <database_id> <pool_name>

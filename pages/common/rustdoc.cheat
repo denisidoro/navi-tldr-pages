@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rustdoc.md
+
+% rustdoc, common
+
+# Generate documentation from the crate's root
+rustdoc <src_lib.rs>
+
+# Pass a name for the project
+rustdoc <src_lib.rs> --crate-name <name>
+
+# Generate documentation from Markdown files
+rustdoc <path_to_file.md>
+
+# Specify the output directory
+rustdoc <src_lib.rs> --out-dir <path_to_output_directory>

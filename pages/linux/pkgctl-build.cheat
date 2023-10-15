@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pkgctl-build.md
+
+% pkgctl-build, linux
+
+# Automatically choose the right build script to build packages in a clean `chroot`
+pkgctl build
+
+# Manually build packages in a clean `chroot`
+pkgctl build --arch <architecture> --repo <repository> --clean

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/az-advisor.md
+
+% az-advisor, common
+
+# List Azure Advisor configuration for the entire subscription
+az advisor configuration list
+
+# Show Azure Advisor configuration for the given subscription or resource group
+az advisor configuration show --resource_group <resource_group>
+
+# List Azure Advisor recommendations
+az advisor recommendation list
+
+# Enable Azure Advisor recommendations
+az advisor recommendation enable --resource_group <resource_group>
+
+# Disable Azure Advisor recommendations
+az advisor recommendation disable --resource_group <resource_group>

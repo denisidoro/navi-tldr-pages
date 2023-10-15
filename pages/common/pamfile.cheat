@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamfile.md
+
+% pamfile, common
+
+# Describe the specified Netpbm files
+pamfile <path_to_file1 path_to_file2 ...>
+
+# Describe every image in each input file (as opposed to only the first image in each file) in a machine-readable format
+pamfile -allimages -machine <path_to_file>
+
+# Display a count on how many images the input files contain
+pamfile -count <path_to_file>

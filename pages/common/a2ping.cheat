@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/a2ping.md
+
+% a2ping, common
+
+# Convert an image to PDF (Note: Specifying an output filename is optional)
+a2ping <path_to_image.ext> <path_to_output.pdf>
+
+# Compress the document using the specified method
+a2ping --nocompress <none|zip|best|flate> <path_to_file>
+
+# Scan HiResBoundingBox if present (Note: It Defaults to yes)
+a2ping --nohires <path_to_file>
+
+# Allow page content below and left of the origin (Note: It defaults to no)
+a2ping --below <path_to_file>
+
+# Pass extra arguments to `gs``
+a2ping --gsextra <arguments> <path_to_file>
+
+# Pass extra arguments to external program (i.e pdftops)
+a2ping --extra <arguments> <path_to_file>
+
+# Display help
+a2ping -h

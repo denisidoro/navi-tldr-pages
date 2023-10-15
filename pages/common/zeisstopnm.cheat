@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zeisstopnm.md
+
+% zeisstopnm, common
+
+# Convert a Zeiss cofocal file into either `.pgm` or `.ppm` format
+zeisstopnm <path_to_file>
+
+# Convert a Zeiss cofocal file to Netbpm format while explicitly specifying the target file type
+zeisstopnm -<pgm|ppm> <path_to_file>

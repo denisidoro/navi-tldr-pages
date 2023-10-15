@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-cgls.md
+
+% systemd-cgls, linux
+
+# Display the whole control group hierarchy on your system
+systemd-cgls
+
+# Display a control group tree of a specific resource controller
+systemd-cgls <cpu|memory|io>
+
+# Display the control group hierarchy of one or more systemd units
+systemd-cgls --unit <unit1 unit2 ...>

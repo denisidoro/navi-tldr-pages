@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmhist.md
+
+% ppmhist, common
+
+# Generate the histogram for human reading
+ppmhist -nomap <path_to_image_file.ppm>
+
+# Generate a PPM file of the colormap for the image, with the color histogram as comments
+ppmhist -map <path_to_image_file.ppm>
+
+# Display version
+ppmhist -version

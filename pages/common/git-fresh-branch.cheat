@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-fresh-branch.md
+
+% git-fresh-branch, common
+
+# Create an empty local branch
+git fresh-branch <branch_name>

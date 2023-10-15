@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/krita.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/krita.md
 
-% krita, linux
+% krita, common
 
 # Start Krita
 krita

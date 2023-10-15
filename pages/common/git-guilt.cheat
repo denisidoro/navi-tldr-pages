@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-guilt.md
+
+% git-guilt, common
+
+# Show total blame count
+git guilt
+
+# Calculate the change in blame between two revisions
+git guilt <first_revision> <last_revision>
+
+# Show author emails instead of names
+git guilt --email
+
+# Ignore whitespace only changes when attributing blame
+git guilt --ignore-whitespace
+
+# Find blame delta over the last three weeks
+git guilt 'git log --until="3 weeks ago" --format="%H" -n 1'
+
+# Find blame delta over the last three weeks (git 1.8.5+)
+git guilt @{3.weeks.ago}

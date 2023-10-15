@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-repart.md
+
+% systemd-repart, linux
+
+# Grow the root partition (/) to all available disk space
+systemd-repart
+
+# View changes without applying
+systemd-repart --dry-run=yes
+
+# Grow root partition size to 10 gigabytes
+systemd-repart --size=10G --root /

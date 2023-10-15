@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lz.md
+
+% lz, linux
+
+# List all files inside a compressed archive
+lz <path_to_file.tar.gz>

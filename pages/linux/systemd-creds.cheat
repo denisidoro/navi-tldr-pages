@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-creds.md
+
+% systemd-creds, linux
+
+# Encrypt a file and set a specific name
+systemd-creds encrypt --name=<name> <path_to_input_file> <path_to_output>
+
+# Decrypt the file again
+systemd-creds decrypt <path_to_input_file> <path_to_output_file>
+
+# Encrypt text from `stdin`
+echo -n <text> | systemd-creds encrypt --name=<name> - <path_to_output>
+
+# Encrypt the text and append it to the service file (the credentials will be available in `$CREDENTIALS_DIRECTORY`)
+echo -n <text> | systemd-creds encrypt --name=<name> --pretty - - >> <service>
+
+# Create a credential that is only valid until the given timestamp
+systemd-creds encrypt --not-after="<timestamp>" <path_to_input_file> <path_to_output_file>

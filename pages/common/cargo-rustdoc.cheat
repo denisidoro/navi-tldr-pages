@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-rustdoc.md
+
+% cargo-rustdoc, common
+
+# Open the documentation in the browser
+cargo rustdoc --open
+
+# Specify the package to document
+cargo rustdoc --package <spec>
+
+# Document the package's library
+cargo rustdoc --lib
+
+# Document the specified binary
+cargo rustdoc --bin <name>
+
+# Document the specified example
+cargo rustdoc --example <name>
+
+# Document the specified integration test
+cargo rustdoc --test <name>
+
+# Display help
+cargo rustdoc --help

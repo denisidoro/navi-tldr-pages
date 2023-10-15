@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nitch.md
+
+% nitch, linux
+
+# Display system information (hostname, kernel, uptime, etc.)
+nitch
+
+# Display [h]elp
+nitch --help
+
+# Display [v]ersion
+nitch --version

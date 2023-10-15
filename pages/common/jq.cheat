@@ -3,7 +3,7 @@
 
 % jq, common
 
-# Execute a specific expression (print a colored and formatted json)
+# Execute a specific expression (print a colored and formatted JSON output)
 <cat path_to_file.json> | jq '.'
 
 # Execute a specific script

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/scala-cli.md
+
+% scala-cli, common
+
+# Start a REPL (interactive shell) using a specific Scala and JVM version
+scala-cli --scala <3.1.0> --jvm <temurin:17>
+
+# Compile and run a Scala script
+scala-cli run <path_to_script.scala>
+
+# Compile and test a Scala script
+scala-cli test <path_to_script.scala>
+
+# Format a Scala script, updating the file in-place
+scala-cli fmt <path_to_script.scala>
+
+# Generate files for IDE (VSCode and IntelliJ) support
+scala-cli setup-ide <path_to_script.scala>

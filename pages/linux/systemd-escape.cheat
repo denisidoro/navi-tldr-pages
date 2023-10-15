@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-escape.md
+
+% systemd-escape, linux
+
+# Escape the given text
+systemd-escape <text>
+
+# Reverse the escaping process
+systemd-escape --unescape <text>
+
+# Treat the given text as a path
+systemd-escape --path <text>
+
+# Append the given suffix to the escaped text
+systemd-escape --suffix <suffix> <text>
+
+# Use a template and inject the escaped text
+systemd-escape --template <template> <text>

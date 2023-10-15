@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/anytopnm.md
+
+% anytopnm, common
+
+# Convert an input image to PBM, PGM, or PPM format irrespective of the input type
+anytopnm <path_to_input> > <path_to_output.pnm>
+
+# Display version
+anytopnm -version

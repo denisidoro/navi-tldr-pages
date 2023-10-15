@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/doctl-databases.md
+
+% doctl-databases, common
+
+# Run a `doctl databases` command with an access token
+doctl databases <command> --access-token <access_token>
+
+# Get details for a database cluster
+doctl databases get
+
+# List your database clusters
+doctl databases list
+
+# Create a database cluster
+doctl databases create <database_name>
+
+# Delete a cluster
+doctl databases delete <database_id>

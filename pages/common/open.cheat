@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/open.md
+
+% open, common
+
+# View documentation for the command available in macOS
+tldr open -p osx
+
+# View documentation for the macOS command in older versions of `tldr` command-line client
+tldr open -o osx
+
+# View documentation for the command available through `fish`
+tldr open.fish

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gzexe.md
+
+% gzexe, linux
+
+# Compress an executable file in-place
+gzexe <path_to_executable>
+
+# Decompress a compressed executable in-place (i.e. convert the shell script back to an uncompressed binary)
+gzexe -d <path_to_compressed_executable>

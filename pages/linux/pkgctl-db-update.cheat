@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pkgctl-db-update.md
+
+% pkgctl-db-update, linux
+
+# Update the binary repository as final release step
+pkgctl db update

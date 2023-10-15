@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/shnsplit.md
+
+% shnsplit, linux
+
+# Split a `.wav` + `.cue` file into multiple files
+shnsplit -f <path_to_file.cue> <path_to_file.wav>
+
+# Show supported formats
+shnsplit -a
+
+# Split a `.flac` file into multiple files
+shnsplit -f <path_to_file.cue> -o flac <path_to_file.flac>
+
+# Split a `.wav` file into files of the form "track-number - album - title"
+shnsplit -f <path_to_file.cue> <path_to_file.wav> -t "%n - %a - %t

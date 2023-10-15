@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pkgctl-release.md
+
+% pkgctl-release, linux
+
+# Release a build artifact
+pkgctl release --repo <repository> --message <commit_message>

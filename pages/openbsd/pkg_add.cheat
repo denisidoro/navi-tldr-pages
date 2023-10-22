@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/openbsd/pkg_add.md
+
+% pkg_add, openbsd
+
+# Update all packages, including dependencies
+pkg_add -u
+
+# Install a new package
+pkg_add <package>
+
+# Install packages from the raw output of `pkg_info`
+pkg_add -l <path_to_file>

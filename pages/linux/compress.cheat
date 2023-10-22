@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/compress.md
+
+% compress, linux
+
+# Compress specific files
+compress <path_to_file1 path_to_file2 ...>
+
+# Compress specific files, ignore non-existent ones
+compress -f <path_to_file1 path_to_file2 ...>
+
+# Set maximum compression bits (9-16 bits)
+compress -b <bits>
+
+# Write to standard output (no files are changed)
+compress -c <path_to_file>
+
+# Decompress files (functions like `uncompress`)
+compress -d <path_to_file>
+
+# Display compression percentage
+compress -v <path_to_file>

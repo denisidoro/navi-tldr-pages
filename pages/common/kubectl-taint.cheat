@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kubectl-taint.md
+
+% kubectl-taint, common
+
+# Apply taint to a node
+kubectl taint nodes <node_name> <label_key>=<label_value>:<effect>
+
+# Remove taint from a node
+kubectl taint nodes <node_name> <label_key>:<effect>-
+
+# Remove all taints from a node
+kubectl taint nodes <node_name> <label_key>-

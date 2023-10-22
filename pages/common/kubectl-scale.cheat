@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kubectl-scale.md
+
+% kubectl-scale, common
+
+# Scale a replica set
+kubectl scale --replicas=<number_of_replicas> rs/<replica_name>
+
+# Scale a resource identified by a file
+kubectl scale --replicas=<number_of_replicas> -f <path_to_file.yml>
+
+# Scale a deployment based on current number of replicas
+kubectl scale --current-replicas=<current_replicas> --replicas=<number_of_replicas> deployment/<deployment_name>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dotnet-run.md
+
+% dotnet-run, common
+
+# Run the project in the current directory
+dotnet run
+
+# Run a specific project
+dotnet run --project <path_to_file.csproj>
+
+# Run the project with specific arguments
+dotnet run -- <arg1=foo arg2=bar ...>
+
+# Run the project using a target framework moniker
+dotnet run --framework <net7.0>
+
+# Specify architecture and OS, available since .NET 6 (Don't use `--runtime` with these options)
+dotnet run --arch <x86|x64|arm|arm64> --os <win|win7|osx|linux|ios|android>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmtojpeg.md
+
+% pnmtojpeg, common
+
+# Read a PNM image as input and produce a JPEG/JFIF/EXIF image as output
+pnmtojpeg <path_to_file.pnm> > <path_to_file.jpg>
+
+# Display version
+pnmtojpeg -version

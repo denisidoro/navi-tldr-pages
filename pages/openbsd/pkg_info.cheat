@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/openbsd/pkg_info.md
+
+% pkg_info, openbsd
+
+# Search for a package using the package name
+pkg_info -Q <package>
+
+# Output a list of installed packages for use with `pkg_add -l`
+pkg_info -mz

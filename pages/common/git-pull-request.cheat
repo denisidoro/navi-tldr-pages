@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-pull-request.md
+
+% git-pull-request, common
+
+# Create a pull request for a project on GitHub
+git pull-request <target_branch>

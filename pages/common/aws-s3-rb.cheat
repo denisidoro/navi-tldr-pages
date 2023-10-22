@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-s3-rb.md
+
+% aws-s3-rb, common
+
+# Delete an empty S3 bucket
+aws s3 rb s3://<bucket_name>
+
+# Force delete an S3 bucket and its non-versioned objects (will crash if versioned objects are present)
+aws s3 rb s3://<bucket_name> --force

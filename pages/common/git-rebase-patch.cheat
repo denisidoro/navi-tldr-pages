@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-rebase-patch.md
+
+% git-rebase-patch, common
+
+# Find the commit the patch applies to and do a rebase
+git rebase-patch <patch_file>

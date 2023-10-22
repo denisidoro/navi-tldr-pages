@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/openbsd/pkg_delete.md
+
+% pkg_delete, openbsd
+
+# Delete a package
+pkg_delete <package>
+
+# Delete a package, including its unused dependencies
+pkg_delete -a <package>
+
+# Dry-run deletion of a package
+pkg_delete -n <package>

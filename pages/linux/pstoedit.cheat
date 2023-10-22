@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pstoedit.md
+
+% pstoedit, linux
+
+# Convert a PDF page to PNG or JPEG format
+pstoedit -page <page_number> -f magick <path_to_file.pdf> <page.png|page.jpg]>
+
+# Convert multiple PDF pages to numbered images
+pstoedit -f magick <path_to_file> <page%d.png|page%d.jpg>

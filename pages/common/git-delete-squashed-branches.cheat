@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-delete-squashed-branches.md
+
+% git-delete-squashed-branches, common
+
+# Delete all branches that were "squash-merged" into the current checked out branch
+git delete-squashed-branches
+
+# Delete all branches that were "squash-merged" into a specific branch
+git delete-squashed-branches <branch_name>

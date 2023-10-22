@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmtopgm.md
+
+% pgmtopgm, common
+
+# Copy PGM file from `stdin` to `stderr`
+pgmtopgm
+
+# Display version
+pgmtopgm -version

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/openbsd/pkg.md
+
+% pkg, openbsd
+
+# View documentation for installing/updating packages
+tldr pkg_add
+
+# View documentation for removing packages
+tldr pkg_delete
+
+# View documentation for viewing information about packages
+tldr pkg_info

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/neotoppm.md
+
+% neotoppm, common
+
+# Generate the PPM image as output for an Atari Neochrome NEO file as input
+neotoppm <path_to_file.neo>
+
+# Display version
+neotoppm -version

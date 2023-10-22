@@ -8,3 +8,6 @@ packer build <path_to_config.json>
 
 # Check the syntax of a Packer image config
 packer validate <path_to_config.json>
+
+# Format a Packer image config
+packer fmt <path_to_config.pkr.hcl>

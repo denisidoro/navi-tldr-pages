@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/palmtopnm.md
+
+% palmtopnm, common
+
+# Generate the PNM image as output, for a Palm Bitmap file as input
+palmtopnm <path_to_file.palm>
+
+# Display various information about the input Palm Bitmap file and process
+palmtopnm -verbose <path_to_file.palm>
+
+# Generate a histogram of colours in the input Palm Bitmap file to `stderr`
+palmtopnm -showhist <path_to_file.palm>
+
+# Display version
+palmtopnm -version

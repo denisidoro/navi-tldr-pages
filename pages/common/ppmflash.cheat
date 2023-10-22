@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmflash.md
+
+% ppmflash, common
+
+# Generate a PPM image as output that is `flashfactor` times brighter than the input PPM image
+ppmflash <flashfactor> <path_to_file.ppm> > <path_to_file.ppm>
+
+# Display version
+ppmflash -version

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/soxi.md
+
+% soxi, common
+
+# Display the sound file metadata
+soxi <path_to_file.wav>

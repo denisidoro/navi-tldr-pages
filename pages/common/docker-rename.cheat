@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/docker-rename.md
+
+% docker-rename, common
+
+# Rename a container
+docker rename <container> <new_name>
+
+# Display help
+docker rename --help

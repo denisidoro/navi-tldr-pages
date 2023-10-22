@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-psykorebase.md
+
+% git-psykorebase, common
+
+# Rebase the current branch on top of another using a merge commit and only one conflict handling
+git psykorebase <upstream_branch>
+
+# Continue after conflicts have been handled
+git psykorebase --continue
+
+# Specify the branch to rebase
+git psykorebase <upstream_branch> <target_branch>

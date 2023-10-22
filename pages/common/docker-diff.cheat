@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/docker-diff.md
+
+% docker-diff, common
+
+# Inspect the changes to a container since it was created
+docker diff <container>
+
+# Display help
+docker diff --help

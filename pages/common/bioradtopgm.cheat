@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bioradtopgm.md
+
+% bioradtopgm, common
+
+# Read a Biorad confocal file and store the n'th image contained in it to as a PGM file
+bioradtopgm -<n> <path_to_file.pic> > <path_to_file.pgm>
+
+# Read a Biorad confocal file and print the number of images it contains
+bioradtopgm <path_to_file.pic>
+
+# Display version
+bioradtopgm -version

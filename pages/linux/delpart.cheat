@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/delpart.md
+
+% delpart, linux
+
+# Tell the kernel to forget about the first partition of `/dev/sda`
+sudo delpart <dev_sda> <1>

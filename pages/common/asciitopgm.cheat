@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/asciitopgm.md
+
+% asciitopgm, common
+
+# Read ASCII data as input and produce a PGM image with pixel values that are an approximation of the "brightness" of the ASCII characters
+asciitopgm <path_to_input_file> > <path_to_output_file.pgm>
+
+# Display version
+asciitopgm -version

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/macptopbm.md
+
+% macptopbm, common
+
+# Convert a MacPaint file into a PGM image
+macptopbm <path_to_file.mac>
+
+# Skip over a specified number of bytes when reading the file
+macptopbm -extraskip <N>
+
+# Suppress all informational messages
+macptopbm -quiet
+
+# Display version
+macptopbm -version

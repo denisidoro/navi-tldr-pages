@@ -18,7 +18,7 @@ tar xvf <path_to_source.tar[.gz|.bz2|.xz]>
 # E[x]tract a (compressed) archive [f]ile into the target directory
 tar xf <path_to_source.tar[.gz|.bz2|.xz]> --directory=<path_to_directory>
 
-# [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program
+# [c]reate a compressed archive and write it to a [f]ile, using the file extension to [a]utomatically determine the compression program
 tar caf <path_to_target.tar.xz> <path_to_file1 path_to_file2 ...>
 
 # Lis[t] the contents of a tar [f]ile [v]erbosely

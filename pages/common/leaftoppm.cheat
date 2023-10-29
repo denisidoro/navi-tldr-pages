@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/leaftoppm.md
+
+% leaftoppm, common
+
+# Generate a PPM image file as output for an Interleaf image file as input
+leaftoppm <path_to_file.pl>
+
+# Display version
+leaftoppm -version

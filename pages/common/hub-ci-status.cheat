@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hub-ci-status.md
+
+% hub-ci-status, common
+
+# Check the CI status for this branch
+hub ci-status --verbose
+
+# Display status of GitHub checks for a commit
+hub ci-status --verbose <commit_SHA>

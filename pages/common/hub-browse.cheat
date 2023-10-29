@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hub-browse.md
+
+% hub-browse, common
+
+# Open the homepage of the current repository in the default web browser
+hub browse
+
+# Open the homepage of a specific repository in the default web browser
+hub browse <owner>/<repository>
+
+# Open the subpage of a specific repository in the default web browser, subpage can be "wiki", "commits", "issues", or other (default: "tree")
+hub browse <owner>/<repository> <subpage>

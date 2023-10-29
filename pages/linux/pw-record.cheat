@@ -3,9 +3,6 @@
 
 % pw-record, linux
 
-# List all available record targets
-pw-record --list-targets
-
 # Record a sample recording using the default target
 pw-record <path_to_file.wav>
 

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/slurmd.md
+
+% slurmd, linux
+
+# Report node rebooted when daemon restarted (Used for testing purposes)
+slurmd -b
+
+# Run the daemon with the given nodename
+slurmd -N <nodename>
+
+# Write log messages to the specified file
+slurmd -L <path_to_output_file>
+
+# Read configuration from the specified file
+slurmd -f <path_to_file>
+
+# Display help
+slurmd -h

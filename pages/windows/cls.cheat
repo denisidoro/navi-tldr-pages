@@ -3,5 +3,8 @@
 
 % cls, windows
 
+# View the documentation of the equivalent PowerShell command
+tldr clear-host
+
 # Clear the screen
 cls

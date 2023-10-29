@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/clear-recyclebin.md
+
+% clear-recyclebin, windows
+
+# Clear and delete all items inside the Recycle Bin
+Clear-RecycleBin
+
+# Clear the Recycle Bin for a specific drive
+Clear-RecycleBin -DriveLetter <C>
+
+# Clear the Recycle Bin without further confirmation
+Clear-RecycleBin -Force

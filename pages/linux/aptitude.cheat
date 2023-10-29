@@ -3,7 +3,7 @@
 
 % aptitude, linux
 
-# Synchronize list of packages and versions available. This should be run first, before running subsequent aptitude commands
+# Synchronize list of packages and versions available. This should be run first, before running subsequent `aptitude` commands
 aptitude update
 
 # Install a new package and its dependencies
@@ -12,7 +12,7 @@ aptitude install <package>
 # Search for a package
 aptitude search <package>
 
-# Search for an installed package (`?installed` is an aptitude search term)
+# Search for an installed package (`?installed` is an `aptitude` search term)
 aptitude search '?installed(<package>)'
 
 # Remove a package and all packages depending on it

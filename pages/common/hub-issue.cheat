@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hub-issue.md
+
+% hub-issue, common
+
+# List the last 10 issues with the `bug` label
+hub issue list --limit <10> --labels "<bug>" 
+
+# Display a specific issue
+hub issue show <issue_number>
+
+# List 10 closed issues assigneed to a specific user
+hub issue --state <closed> --assignee <username> --limit <10>

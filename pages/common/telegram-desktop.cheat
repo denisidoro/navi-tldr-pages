@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/telegram-desktop.md
+
+% telegram-desktop, common
+
+# Start GUI
+telegram-desktop
+
+# Run GUI as an autostart if allowed
+telegram-desktop -autostart
+
+# Run GUI minimized to tray
+telegram-desktop -startintray

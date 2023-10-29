@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hipstopgm.md
+
+% hipstopgm, common
+
+# Convert a HIPS file into a PGM image
+hipstopgm <path_to_file.hips>
+
+# Suppress all informational messages
+hipstopgm -quiet
+
+# Display version
+hipstopgm -version

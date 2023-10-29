@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/chdir.md
+
+% chdir, windows
+
+# View documentation for the original Command Prompt command
+tldr cd
+
+# View documentation for the original PowerShell command
+tldr set-location

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/remove-appxpackage.md
+
+% remove-appxpackage, windows
+
+# Remove an app package
+remove-appxpackage <package>
+
+# Remove an app package for a specific user
+remove-appxpackage <package> -User <username>
+
+# Remove an app package for all users
+remove-appxpackage <package> -AllUsers
+
+# Remove an app package but preserve it's app data
+remove-appxpackage <package> -PreserveApplicationData

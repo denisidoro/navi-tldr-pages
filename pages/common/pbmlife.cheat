@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmlife.md
+
+% pbmlife, common
+
+# Apply the Rules of Life to an input PBM image file for one generation and the output the result as a PBM image file
+pbmlife <path_to_file.pbm>
+
+# Display version
+pbmlife -version

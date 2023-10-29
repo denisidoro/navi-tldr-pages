@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gotelemetry.md
+
+% gotelemetry, common
+
+# Enable telemetry uploading
+gotelemetry on
+
+# Disable telemetry uploading
+gotelemetry off
+
+# Run a Web Viewer for local telemetry data
+gotelemetry view
+
+# Print the current telemetry environment
+gotelemetry env
+
+# Show details about any subcommand
+gotelemetry help <subcommand>

@@ -3,6 +3,9 @@
 
 % del, windows
 
+# View the documentation of the equivalent PowerShell command
+tldr remove-item
+
 # Delete one or more space-separated files or patterns
 del <file_pattern>
 

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/psversiontable.md
+
+% psversiontable, windows
+
+# Print a summary of the currently installed PowerShell version and edition
+$PSVersionTable
+
+# Get the detailed (major, minor, build, and revision) version number of PowerShell
+$PSVersionTable.PSVersion
+
+# Get a list of supported PowerShell script versions that this PowerShell version supports
+$PSVersionTable.PSCompatibleVersions
+
+# Get the latest Git commit ID where the currently-installed PowerShell version is based on (works on PowerShell 6.0 and later)
+$PSVersionTable.GitCommitId
+
+# Check whether the user is running PowerShell Core (6.0 or later) or the original "Windows PowerShell" (version 5.1 or below)
+$PSVersionTable.PSEdition

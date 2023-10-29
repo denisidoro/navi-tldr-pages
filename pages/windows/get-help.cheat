@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/get-help.md
+
+% get-help, windows
+
+# Display general help information for a specific cmdlet
+Get-Help <cmdlet>
+
+# Display a more detailed documentation for a specific cmdlet
+Get-Help <cmdlet> -Detailed
+
+# Display the full technical documentation for a specific cmdlet
+Get-Help <cmdlet> -Full
+
+# Print only the documentation for a specific parameter of the cmdlet (use `*` to show all parameters), if available
+Get-Help <cmdlet> -Parameter <parameter>
+
+# Print only the examples of the cmdlet, if available
+Get-Help <cmdlet> -Examples
+
+# List all available cmdlet help pages
+Get-Help *
+
+# Update the current help and documentation knowledge base using `Update-Help`
+Update-Help
+
+# View an online version of cmdlet documentation in the default web browser
+Get-Help <cmdlet> -Online

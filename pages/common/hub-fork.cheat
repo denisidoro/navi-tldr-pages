@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hub-fork.md
+
+% hub-fork, common
+
+# Fork a GitHub repository by its slug
+hub fork <tldr-pages_tldr>
+
+# Fork a GitHub repository by its URL
+hub fork <https:__github.com_tldr-pages_tldr>
+
+# Fork current GitHub repository, set remote name to origin
+hub fork --remote-name <origin>

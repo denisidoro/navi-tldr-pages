@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vf.md
+
+% vf, common
+
+# Create a virtual environment
+vf new <virtualenv_name>
+
+# Create a virtual environment for a specific Python version
+vf new --python <usr_local_bin_python3.8> <virtualenv_name>
+
+# Activate and use the specified virtual environment
+vf activate <virtualenv_name>
+
+# Connect the current virtualenv to the current directory, so that it is activated automatically as soon as you enter it (and deactivated as soon as you leave)
+vf connect
+
+# Deactivate the current virtual environment
+vf deactivate
+
+# List all virtual environments
+vf ls
+
+# Remove a virtual environment
+vf rm <virtualenv_name>
+
+# Display help
+vf help

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hub-clone.md
+
+% hub-clone, common
+
+# Clone an existing repository to current directory (If run into authentication problem, try full ssh path)
+hub clone <remote_repository_location>

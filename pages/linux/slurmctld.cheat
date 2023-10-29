@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/slurmctld.md
+
+% slurmctld, linux
+
+# Clear all previous `slurmctld` states from its last checkpoint
+slurmctld -c
+
+# Set the daemon's nice value to the specified value, typically a negative number
+slurmctld -n <value>
+
+# Write log messages to the specified file
+slurmctld -L <path_to_output_file>
+
+# Display help
+slurmctld -h
+
+# Display version
+slurmctld -V

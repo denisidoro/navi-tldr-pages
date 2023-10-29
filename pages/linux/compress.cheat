@@ -12,7 +12,7 @@ compress -f <path_to_file1 path_to_file2 ...>
 # Set maximum compression bits (9-16 bits)
 compress -b <bits>
 
-# Write to standard output (no files are changed)
+# Write to `stdout` (no files are changed)
 compress -c <path_to_file>
 
 # Decompress files (functions like `uncompress`)

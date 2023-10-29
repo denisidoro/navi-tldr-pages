@@ -3,7 +3,7 @@
 
 % zbarcam, linux
 
-# Continuously read barcodes and print them to standard output
+# Continuously read barcodes and print them to `stdout`
 zbarcam
 
 # Disable output video window while scanning

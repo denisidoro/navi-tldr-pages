@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/sc-create.md
+
+% sc-create, windows
+
+# View documentation for the original command
+tldr sc

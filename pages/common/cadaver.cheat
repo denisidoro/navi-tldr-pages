@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cadaver.md
+
+% cadaver, common
+
+# Connect to the server <dav.example.com>, open the root collection
+cadaver <http:__dav.example.com_>
+
+# Connect to a server using a specific port and open the collection `/foo/bar/`
+cadaver <http:__dav.example.com:8022_foo_bar_>
+
+# Connect to a server using SSL
+cadaver <https:__davs.example.com_>

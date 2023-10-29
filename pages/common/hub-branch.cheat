@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hub-branch.md
+
+% hub-branch, common
+
+# Show the name of the currently active branch
+hub branch
+
+# Create a new branch
+hub branch <branch_name>

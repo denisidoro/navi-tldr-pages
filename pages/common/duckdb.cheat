@@ -21,7 +21,7 @@ duckdb <path_to_dbfile> -cmd "<SELECT DISTINCT * FROM tbl>"
 # Run SQL queries in file on database and keep the interactive shell open
 duckdb <path_to_dbfile> -init <path_to_script.sql>
 
-# Read CSV from stdin and write CSV to stdout
+# Read CSV from `stdin` and write CSV to `stdout`
 cat <path_to_source.csv> | duckdb -c "<COPY (FROM read_csv_auto('_dev_stdin')) TO '_dev_stdout' WITH (FORMAT CSV, HEADER)>"
 
 # Display help

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/portablectl.md
+
+% portablectl, linux
+
+# List available portable service images discovered in the portable image search paths
+portablectl list
+
+# Attach a portable service image to the host system
+portablectl attach <path_to_image>
+
+# Detach a portable service image from the host system
+portablectl detach <path_to_image|image_name>
+
+# Display details and metadata about a specified portable service image
+portablectl inspect <path_to_image>
+
+# Check if a portable service image is attached to the host system
+portablectl is-attached <path_to_image|image_name>

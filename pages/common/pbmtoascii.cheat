@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtoascii.md
+
+% pbmtoascii, common
+
+# Read a PBM file as input and produce an ASCII output
+pbmtoascii <path_to_input_file.pbm>
+
+# Read a PBM file as input and save an ASCII output into a file
+pbmtoascii <path_to_input_file.pbm> > <path_to_output_file>
+
+# Read a PBM file as input while setting the pixel mapping (defaults to 1x2)
+pbmtoascii -<1x2|2x4> <path_to_input_file.pbm>
+
+# Display version
+pbmtoascii -version

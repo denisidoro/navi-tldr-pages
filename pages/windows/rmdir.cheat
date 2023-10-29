@@ -3,6 +3,9 @@
 
 % rmdir, windows
 
+# View the documentation of the equivalent PowerShell command
+tldr remove-item
+
 # Remove an empty directory
 rmdir <path\to\directory>
 

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-install.md
+
+% cargo-install, common
+
+# Install a package from <https://crates.io> (the version is optional - latest by default)
+cargo install <package>@<version>
+
+# Install a package from the specified Git repository
+cargo install --git <repo_url>
+
+# Build from the specified branch/tag/commit when installing from a Git repository
+cargo install --git <repo_url> --<branch|tag|rev> <branch_name|tag|commit_hash>
+
+# List all installed packages and their versions
+cargo install --list

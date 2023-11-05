@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/brew-uninstall.md
+
+% brew-uninstall, common
+
+# Uninstall a formula/cask
+brew uninstall <formula|cask>
+
+# Uninstall a cask and remove all associated files
+brew uninstall --zap <cask>

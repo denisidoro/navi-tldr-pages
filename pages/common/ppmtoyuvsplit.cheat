@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtoyuvsplit.md
+
+% ppmtoyuvsplit, common
+
+# Read a PPM image from the input file, convert it to three subsampled Abekas YUV image and store these images to output files starting with the specified basename
+ppmtoyuvsplit <basename> <path_to_input_file.ppm>

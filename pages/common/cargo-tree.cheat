@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-tree.md
+
+% cargo-tree, common
+
+# Show a dependency tree of the current project
+cargo tree
+
+# Only show dependencies up to the specified depth (e.g. when `n` is 1, display only direct dependencies)
+cargo tree --depth <n>
+
+# Do not display the given package (and its dependencies) in the tree
+cargo tree --prune <package_spec>
+
+# Show all occurrences of repeated dependencies
+cargo tree --no-dedupe
+
+# Only show normal/build/development dependencies
+cargo tree --edges <normal|build|dev>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-pkgid.md
+
+% cargo-pkgid, common
+
+# Print the fully qualified package specification for the current project
+cargo pkgid
+
+# Print the fully qualified package specification for the specified package
+cargo pkgid <partial_pkgspec>

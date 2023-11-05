@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/set-nodeinstalllocation.md
+
+% set-nodeinstalllocation, common
+
+# Change the Node.js install location to a specified directory (`ps-nvm` will create a new `.nvm` subdirectory to install them)
+Set-NodeInstallLocation <path_to_directory>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rage.md
+
+% rage, common
+
+# Encrypt a file for `user` and save it to `message.age`
+echo "<Your secret message>" | rage --encrypt --recipient <user> --output <path_to_message.age>
+
+# Decrypt a file with `identity_file` and save it to `message`
+rage --decrypt --identity <path_to_identity_file> --output <message>

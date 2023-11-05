@@ -6,7 +6,7 @@
 # Transfer a file
 rsync <path_to_source> <path_to_destination>
 
-# Use archive mode (recursively copy directories, copy symlinks without resolving and preserve permissions, ownership and modification times)
+# Use archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times)
 rsync --archive <path_to_source> <path_to_destination>
 
 # Compress the data as it is sent to the destination, display verbose and human-readable progress, and keep partially transferred files if interrupted
@@ -18,8 +18,8 @@ rsync --recursive <path_to_source> <path_to_destination>
 # Transfer directory contents, but not the directory itself
 rsync --recursive <path_to_source>/ <path_to_destination>
 
-# Recursively copy directories, use archive mode, resolve symlinks and skip files that are newer on the destination
-rsync --recursive --archive --update --copy-links <path_to_source> <path_to_destination>
+# Use archive mode, resolve symlinks and skip files that are newer on the destination
+rsync --archive --update --copy-links <path_to_source> <path_to_destination>
 
 # Transfer a directory to a remote host running `rsyncd` and delete files on the destination that do not exist on the source
 rsync --recursive --delete rsync://<host>:<path_to_source> <path_to_destination>

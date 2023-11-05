@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/get-nodeversions.md
+
+% get-nodeversions, common
+
+# List all installed Node.js versions
+Get-NodeVersions
+
+# List all available Node.js versions
+Get-NodeVersions -Remote
+
+# List all available Node.js 20.x versions
+Get-NodeVersions -Remote -Filter ">=20.0.0 <21.0.0"

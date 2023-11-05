@@ -15,7 +15,7 @@ cargo run --example <name>
 # Activate a space or comma separated list of features
 cargo run --features <feature1 feature2 ...>
 
-# Disable the default feature
+# Disable the default features
 cargo run --no-default-features
 
 # Activate all available features

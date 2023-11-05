@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/get-nodeinstalllocation.md
+
+% get-nodeinstalllocation, common
+
+# Get the current Node.js installation directory
+Get-NodeInstallLocation

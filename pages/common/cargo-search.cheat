@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-search.md
+
+% cargo-search, common
+
+# Search for packages
+cargo search <query>
+
+# Show `n` results (default: 10, max: 100)
+cargo search --limit <n> <query>

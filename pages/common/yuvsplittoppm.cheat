@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yuvsplittoppm.md
+
+% yuvsplittoppm, common
+
+# Read Akebas YUV bytes from three files starting with basename, merge them into a single PPM image and store it in the specified output file
+yuvsplittoppm <basename> <width> <height> > <path_to_output_file.ppm>

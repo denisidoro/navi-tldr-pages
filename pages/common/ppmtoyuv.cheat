@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtoyuv.md
+
+% ppmtoyuv, common
+
+# Read a PPM image from the input file, convert it to an Abekas YUV image and store it in the specified output file
+ppmtoyuv <path_to_input_file.ppm> > <path_to_output_file.yuv>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yuvtoppm.md
+
+% yuvtoppm, common
+
+# Read Akebas YUV bytes from the specified input file, convert them to a PPM image and store them in the specified output file
+yuvtoppm <width> <height> <path_to_input_file.yuv> > <path_to_output_file.ppm>

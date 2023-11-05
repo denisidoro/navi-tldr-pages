@@ -3,23 +3,8 @@
 
 % cargo-fetch, common
 
-# Fetch dependencies from the `Cargo.lock` file
-cargo fetch <options>
+# Fetch dependencies specified in `Cargo.lock` (for all targets)
+cargo fetch
 
-# Display verbose output
-cargo fetch --verbose
-
-# Do not print Cargo log messages
-cargo fetch --quiet
-
-# Control colored output
-cargo fetch --color <auto|always|never>
-
-# Path to `Cargo.toml`
-cargo fetch --manifest-path <path>
-
-# Prevent Cargo from accessing the network
-cargo fetch --offline
-
-# Display help
-cargo fetch --help
+# Fetch dependencies for the specified target
+cargo fetch --target <target_triple>

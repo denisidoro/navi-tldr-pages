@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dmd.md
+
+% dmd, common
+
+# Build a D source file
+dmd <path_to_source.d>
+
+# Generate code for all template instantiations
+dmd -allinst
+
+# Control bounds checking
+dmd -boundscheck=<on|safeonly|off>
+
+# List information on all available checks
+dmd -check=<h|help|?>
+
+# Turn on colored console output
+dmd -color

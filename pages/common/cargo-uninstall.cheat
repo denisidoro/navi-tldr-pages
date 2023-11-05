@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-uninstall.md
+
+% cargo-uninstall, common
+
+# Remove an installed binary
+cargo remove <package_spec>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/move.md
+
+% move, windows
+
+# View documentation of the equivalent PowerShell command
+tldr move-item
+
+# Rename a file or directory when the target is not an existing directory
+move <path\to\source> <path\to\target>
+
+# Move a file or directory into an existing directory
+move <path\to\source> <path\to\existing_directory>
+
+# Move a file or directory across drives
+move <C:\path\to\source> <D:\path\to\target>
+
+# Do not prompt for confirmation before overwriting existing files
+move /Y <path\to\source> <path\to\existing_directory>
+
+# Prompt for confirmation before overwriting existing files, regardless of file permissions
+move /-Y <path\to\source> <path\to\existing_directory>

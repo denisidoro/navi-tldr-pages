@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtv.md
+
+% ppmtv, common
+
+# Give the PPM image an American TV appearance
+ppmtv <dim_factor> <path_to_file.ppm> > <path_to_output.ppm>
+
+# Suppress all informational messages
+ppmtv -quiet
+
+# Display version
+ppmtv -version

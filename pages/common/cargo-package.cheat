@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-package.md
+
+% cargo-package, common
+
+# Perform checks and create a `.crate` file (equivalent of `cargo publish --dry-run`)
+cargo package
+
+# Display what files would be included in the tarball without actually creating it
+cargo package --list

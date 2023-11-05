@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/mysides.md
+
+% mysides, osx
+
+# List sidebar favorites
+mysides list
+
+# Add a new item to the end of the sidebar favorites
+mysides add <example> <file:___Users_Shared_example>
+
+# Remove an item by name
+mysides remove <example>
+
+# Add the current directory to the sidebar
+mysides add $(basename $(pwd)) file:///$(pwd)
+
+# Remove the current directory from the sidebar
+mysides remove $(basename $(pwd))

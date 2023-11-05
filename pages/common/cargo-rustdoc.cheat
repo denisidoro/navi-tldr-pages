@@ -3,11 +3,14 @@
 
 % cargo-rustdoc, common
 
-# Open the documentation in the browser
-cargo rustdoc --open
+# Pass options to `rustdoc`
+cargo rustdoc -- <rustdoc_options>
 
-# Specify the package to document
-cargo rustdoc --package <spec>
+# Warn about a documentation lint
+cargo rustdoc -- --warn rustdoc::<lint_name>
+
+# Ignore a documentation lint
+cargo rustdoc -- --allow rustdoc::<lint_name>
 
 # Document the package's library
 cargo rustdoc --lib
@@ -20,6 +23,3 @@ cargo rustdoc --example <name>
 
 # Document the specified integration test
 cargo rustdoc --test <name>
-
-# Display help
-cargo rustdoc --help

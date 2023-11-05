@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ldc.md
+
+% ldc, common
+
+# Compile a source code file into an executable binary
+ldc2 <path_to_source.d> -of=<path_to_output_executable>
+
+# Compile the source code file without linking
+ldc2 -c <path_to_source.d>
+
+# Select the target architecture and OS
+ldc -mtriple=<architecture_OS> -c <path_to_source.d>
+
+# Display help
+ldc2 -h
+
+# Display complete help
+ldc2 -help-hidden

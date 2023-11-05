@@ -18,7 +18,7 @@ brew update
 # Show formulae and casks that have a more recent version available
 brew outdated
 
-# Search for available formulae (i.e. packages) and casks (i.e. native packages)
+# Search for available formulae (i.e. packages) and casks (i.e. native macOS `.app` packages)
 brew search <text>
 
 # Display information about a formula or a cask (version, installation path, dependencies, etc.)

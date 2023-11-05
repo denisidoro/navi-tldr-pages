@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/brew-autoremove.md
+
+% brew-autoremove, common
+
+# Remove all unused formulae
+brew autoremove
+
+# Print what would be removed, but don't actually remove anything
+brew autoremove --dry-run

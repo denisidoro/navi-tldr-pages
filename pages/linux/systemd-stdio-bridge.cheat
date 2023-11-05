@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-stdio-bridge.md
+
+% systemd-stdio-bridge, linux
+
+# Forward `stdin`/`stdout` to the local system bus
+systemd-stdio-bridge
+
+# Forward `stdin`/`stdout` to a specific user's D-Bus
+systemd-stdio-bridge --<user>
+
+# Forward `stdin`/`stdout` to the local system bus within a specific container
+systemd-stdio-bridge --machine=<mycontainer>
+
+# Forward `stdin`/`stdout` to a custom D-Bus address
+systemd-stdio-bridge --bus-path=unix:path=<custom_dbus_socket>

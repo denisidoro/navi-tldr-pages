@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/freebsd/pkg.md
+
+% pkg, freebsd
+
+# Install a new package
+pkg install <package>
+
+# Delete a package
+pkg delete <package>
+
+# Upgrade all packages
+pkg upgrade
+
+# Search for a package
+pkg search <keyword>
+
+# List installed packages
+pkg info
+
+# Remove unneeded dependencies
+pkg autoremove

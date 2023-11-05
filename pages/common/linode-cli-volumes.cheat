@@ -3,7 +3,7 @@
 
 % linode-cli-volumes, common
 
-# List current Volumnes
+# List current Volumes
 linode-cli volumes list
 
 # Create a new Volume and attach it to a specific Linode

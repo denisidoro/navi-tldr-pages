@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cargo-verify-project.md
+
+% cargo-verify-project, common
+
+# Check the correctness of the current project's manifest
+cargo verify-project
+
+# Check the correctness of the specified manifest file
+cargo verify-project --manifest-path <path_to_Cargo.toml>

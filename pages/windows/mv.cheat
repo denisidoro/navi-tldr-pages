@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/mv.md
+
+% mv, windows
+
+# View documentation for the equivalent Command Prompt command
+tldr move
+
+# View documentation for the original PowerShell command
+tldr move-item

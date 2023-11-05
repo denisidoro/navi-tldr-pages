@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gdc.md
+
+% gdc, common
+
+# Create an executable
+gdc <path_to_source.d> -o <path_to_output_executable>
+
+# Print information about module dependencies
+gdc -fdeps
+
+# Generate Ddoc documentation
+gdc -fdoc
+
+# Generate D interface files
+gdc -fintfc
+
+# Do not link the standard GCC libraries in the compilation
+gdc -nostdlib

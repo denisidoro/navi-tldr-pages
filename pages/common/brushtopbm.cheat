@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/brushtopbm.md
+
+% brushtopbm, common
+
+# Generate a PBM file as output for a Xerox doodle brush file as input
+brushtopbm <path_to_file.brush>
+
+# Display version
+brushtopbm -version

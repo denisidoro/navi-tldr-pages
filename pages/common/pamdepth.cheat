@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamdepth.md
+
+% pamdepth, common
+
+# Read a PBM image, set its maxval and save it to a file
+pamdepth <maxval> <path_to_image.pbm> > <path_to_file.pbm>

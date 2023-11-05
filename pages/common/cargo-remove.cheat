@@ -3,26 +3,11 @@
 
 % cargo-remove, common
 
-# Remove one or more dependencies from the `Cargo.toml` manifest
-cargo remove <dependency_name>
+# Remove a dependency from the current project
+cargo remove <dependency>
 
-# Remove a build dependency
-cargo remove --build <dependency_name>
+# Remove a development or build dependency
+cargo remove --<dev|build> <dependency>
 
-# Remove a dependency to the given target platform
-cargo remove --target <target> {dependency_name}}
-
-# Don't actually write to the manifest
-cargo remove --dry-run <dependency_name>
-
-# Display verbose output
-cargo remove --verbose <dependency_name>
-
-# Do not print Cargo log message
-cargo remove --quiet <dependency_name>
-
-# Specify package to remove from
-cargo remove --package <specification> {dependency_name}}
-
-# Display help
-cargo remove --help
+# Remove a dependency of the given target platform
+cargo remove --target <target> <dependency>

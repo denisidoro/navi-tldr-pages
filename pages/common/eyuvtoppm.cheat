@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/eyuvtoppm.md
+
+% eyuvtoppm, common
+
+# Read a Berkeley YUV file from the specified input file, convert it to a PPM image and store it in the specified output file
+eyuvtoppm --width <width> --height <height> <path_to_input_file.eyuv> > <path_to_output_file.ppm>

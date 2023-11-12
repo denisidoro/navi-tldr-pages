@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtowbmp.md
+
+% pbmtowbmp, common
+
+# Convert a PBM image to a WBMP file
+pbmtowbmp <path_to_input_file.pbm> > <path_to_output_file.wbmp>

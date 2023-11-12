@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtosixel.md
+
+% ppmtosixel, common
+
+# Convert a PPM image to DEC sixel format
+ppmtosixel <path_to_file.ppm> > <path_to_file.sixel>
+
+# Produce an uncompressed SIXEL file that is much slower to print
+ppmtosixel -raw <path_to_file.ppm> > <path_to_file.sixel>
+
+# Add a left margin of 1.5 inches
+ppmtosixel -margin <path_to_file.ppm> > <path_to_file.sixel>
+
+# Encode control codes in a more portable (although less space-efficient) way
+ppmtosixel -7bit <path_to_file.ppm> > <path_to_file.sixel>

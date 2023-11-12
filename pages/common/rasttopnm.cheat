@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rasttopnm.md
+
+% rasttopnm, common
+
+# Convert a RAST image to a PNM file
+rasttopnm <path_to_input.rast> > <path_to_output.pnm>
+
+# Use the color map indices in the raster if they are color values
+rasttopnm -index <path_to_input.rast> > <path_to_output.pnm>

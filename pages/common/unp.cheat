@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/unp.md
+
+% unp, common
+
+# Extract an archive
+unp <path_to_archive.zip>
+
+# Extract multiple archives
+unp <path_to_archive1.tar.gz> <path_to_archive2.rar>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtoxvmini.md
+
+% pamtoxvmini, common
+
+# Convert a PAM image to an XV thumbnail picture
+pamtoxvmini <path_to_input_file.pam> > <path_to_output_file>

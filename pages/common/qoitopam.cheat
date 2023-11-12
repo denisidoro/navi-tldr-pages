@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/qoitopam.md
+
+% qoitopam, common
+
+# Convert a QOI image to Netpbm
+qoitopam <path_to_image.qoi> > <path_to_output.pnm>

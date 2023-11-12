@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmcolormask.md
+
+% ppmcolormask, common
+
+# Produce a mask of areas of a certain color in the specified PPM image
+ppmcolormask -color <red,blue> <path_to_input.ppm> > <path_to_output.pbm>

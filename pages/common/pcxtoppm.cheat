@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pcxtoppm.md
+
+% pcxtoppm, common
+
+# Convert a PCX file to a PPM image
+pcxtoppm <path_to_file.pcx> > <path_to_file.ppm>
+
+# Use a predefined standard palette even if the PCX file provides one
+pcxtoppm -stdpalette <path_to_file.pcx> > <path_to_file.ppm>
+
+# Print information on the PCX header to `stdout`
+pcxtoppm -verbose <path_to_file.pcx> > <path_to_file.ppm>

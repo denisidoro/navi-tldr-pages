@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmmake.md
+
+% ppmmake, common
+
+# Create a PPM image of the specified color and dimensions
+ppmmake <color> <width> <height> > <path_to_output_file.ppm>

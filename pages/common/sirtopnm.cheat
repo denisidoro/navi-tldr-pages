@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sirtopnm.md
+
+% sirtopnm, common
+
+# Convert a SIR image to a PNM file
+sirtopnm <path_to_input.sir> > <path_to_output.pnm>

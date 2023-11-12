@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmtorle.md
+
+% pnmtorle, common
+
+# Convert a PNM image to an RLE image
+pnmtorle <path_to_input.pnm> > <path_to_output.rle>
+
+# Print PNM header information to `stdout`
+pnmtorle -verbose <path_to_input.pnm> > <path_to_output.rle>
+
+# Include a transparency channel in the output image in which every black pixel is set to fully transparent and every other pixel is set to fully opaque
+pnmtorle -alpha <path_to_input.pnm> > <path_to_output.rle>

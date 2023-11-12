@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtopuzz.md
+
+% ppmtopuzz, common
+
+# Convert a PPM image to an X11 puzzle file
+ppmtopuzz <path_to_file.ppm> > <path_to_file.puzz>

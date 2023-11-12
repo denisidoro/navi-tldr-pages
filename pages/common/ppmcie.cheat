@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmcie.md
+
+% ppmcie, common
+
+# Draw a CIE color chart using the REC709 color system as a PPM image
+ppmcie > <path_to_output.ppm>
+
+# Specify the color system to be used
+ppmcie -<cie|ebu|hdtv|ntsc|smpte> > <path_to_output.ppm>
+
+# Specify the location of the individual illuminants
+ppmcie -<red|green|blue> <xpos ypos> > <path_to_output.ppm>
+
+# Do not dim the area outside the Maxwell triangle
+ppmcie -full > <path_to_output.ppm>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmmake.md
+
+% pbmmake, common
+
+# Create a blank bitmap of the specified dimensions
+pbmmake <width> <height> > <path_to_output_file.pbm>
+
+# Specify the color of the created bitmap
+pbmmake -<white|black|grey> <width> <height> > <path_to_output_file.pbm>

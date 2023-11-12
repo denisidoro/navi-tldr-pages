@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-dissect.md
+
+% systemd-dissect, linux
+
+# Show general image information about the OS image
+systemd-dissect <path_to_image.raw>
+
+# Mount an OS image
+systemd-dissect --mount <path_to_image.raw> <mnt_image>
+
+# Unmount an OS image
+systemd-dissect --umount <mnt_image>
+
+# List files in an image
+systemd-dissect --list <path_to_image.raw>
+
+# Attach an OS image to an automatically allocated loopback block device and print its path
+systemd-dissect --attach <path_to_image.raw>
+
+# Detach an OS image from a loopback block device
+systemd-dissect --detach <path_to_device>

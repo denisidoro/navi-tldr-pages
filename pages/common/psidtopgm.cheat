@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/psidtopgm.md
+
+% psidtopgm, common
+
+# Convert the image data in a PS file to a PGM image of the specified dimensions and quality
+psidtopgm <width> <height> <bits_per_sample> <path_to_file.ps> > <path_to_image.pgm>

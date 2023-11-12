@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtotiff.md
+
+% pamtotiff, common
+
+# Convert a PAM image to a TIFF image
+pamtotiff <path_to_input_file.pam> > <path_to_output_file.tiff>
+
+# Explicitly specify a compression method for the output file
+pamtotiff -<none|packbits|lzw|g3|g4|flate|adobeflate> <path_to_input_file.pam> > <path_to_output_file.tiff>
+
+# Always produce a color TIFF image, even if the input image is greyscale
+pamtotiff -color <path_to_input_file.pam> > <path_to_output_file.tiff>

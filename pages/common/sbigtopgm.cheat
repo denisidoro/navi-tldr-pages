@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sbigtopgm.md
+
+% sbigtopgm, common
+
+# Convert an SBIG CCDOPS image file to PGM
+sbigtopgm <path_to_input_file.sbig> > <path_to_output.pgm>

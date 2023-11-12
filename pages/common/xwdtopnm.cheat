@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xwdtopnm.md
+
+% xwdtopnm, common
+
+# Convert a XWD image file to PBM
+xwdtopnm <path_to_input_file.xwd> > <path_to_output_file.pnm>
+
+# Display information about the conversion process
+xwdtopnm -verbose <path_to_input_file.xwd> > <path_to_output_file.pnm>
+
+# Display the contents of the X11 header of the input file
+xwdtopnm -headerdump <path_to_input_file.xwd> > <path_to_output_file.pnm>

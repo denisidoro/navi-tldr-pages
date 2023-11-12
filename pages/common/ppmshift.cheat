@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmshift.md
+
+% ppmshift, common
+
+# Shift the lines in the input image by a randomized amount not exceeding s to the left or to the right
+ppmshift <s> <path_to_input_file.ppm> > <path_to_output_file.ppm>

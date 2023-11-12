@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dnsdomainname.md
+
+% dnsdomainname, linux
+
+# Show the system's DNS domain name
+dnsdomainname

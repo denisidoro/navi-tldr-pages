@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmmake.md
+
+% pgmmake, common
+
+# Create PGM image with a uniform gray level (specified as a number between 0 and 1) and the specified dimensions
+pgmmake <graylevel> <width> <height> > <path_to_output_file.pgm>

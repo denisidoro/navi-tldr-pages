@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtoilbm.md
+
+% ppmtoilbm, common
+
+# Convert a PPM image to an ILBM file
+ppmtoilbm <path_to_file.ppm> > <path_to_file.ilbm>
+
+# Write a maximum of n planes to the ILBM file and produce a HAM/24bit/direct color file if this number is exceeded
+ppmtoilbm -maxplanes <n> -<hamif|24if|dcif> <path_to_file.ppm> > <path_to_file.ilbm>
+
+# Produce a ILBM file with exactly n planes
+ppmtoilbm -fixplanes <n> <path_to_file.ppm> > <path_to_file.ilbm>
+
+# Select the compression method to be used
+ppmtoilbm -<compress|nocompress|savemem> <path_to_file.ppm> > <path_to_file.ilbm>

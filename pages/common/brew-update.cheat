@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/brew-update.md
+
+% brew-update, common
+
+# Fetch the newest version of Homebrew and all formulae
+brew update

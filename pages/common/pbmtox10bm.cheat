@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtox10bm.md
+
+% pbmtox10bm, common
+
+# View documentation for the current command
+tldr pbmtoxbm

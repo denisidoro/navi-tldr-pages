@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtopj.md
+
+% ppmtopj, common
+
+# Convert a PPM file to an HP PaintJet file
+ppmtopj <path_to_input.ppm> > <path_to_output.pj>
+
+# Move the image in the x and y direction
+ppmtopj -xpos <dx> -ypos <dy> <path_to_input.ppm> > <path_to_output.pj>
+
+# Explicitly specify a gamma value
+ppmtopj -gamma <gamma> <path_to_input.ppm> > <path_to_output.pj>

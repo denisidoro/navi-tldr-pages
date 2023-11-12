@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/thinkjettopbm.md
+
+% thinkjettopbm, common
+
+# Convert a HP ThinkJet printer commands file to a PBM file
+thinkjettopbm <path_to_input> > <path_to_output.pbm>
+
+# Print debug information to `stderr`
+thinkjettopbm -d <path_to_input> > <path_to_output.pbm>

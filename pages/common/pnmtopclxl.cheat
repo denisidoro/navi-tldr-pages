@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmtopclxl.md
+
+% pnmtopclxl, common
+
+# Convert PNM files to an HP LaserJet PCL XL printer stream
+pnmtopclxl <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pclxl>
+
+# Specify the resolution of the image as well as the location of the page from the upper left corner of each image
+pnmtopclxl -dpi <resolution> -xoffs <x_offset> -yoffs <y_offset> <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pclxl>
+
+# Generate a duplex printer stream for the specified paper format
+pnmtopclxl -duplex <vertical|horizontal> -format <letter|legal|a3|a4|a5|...> <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pclxl>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sldtoppm.md
+
+% sldtoppm, common
+
+# Convert an SLD file to a PPM image
+sldtoppm <path_to_input.sld> > <path_to_output.ppm>
+
+# Compensate for non-square pixels by scaling the width of the image
+sldtoppm -adjust <path_to_input.sld> > <path_to_output.ppm>

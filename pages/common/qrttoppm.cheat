@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/qrttoppm.md
+
+% qrttoppm, common
+
+# Convert a QRT file to a PPM image
+qrttoppm <path_to_file.qrt> > <path_to_image.ppm>

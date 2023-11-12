@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmfade.md
+
+% ppmfade, common
+
+# Generate a transition between two PPM images ([f]irst and [l]ast) using the specified effect
+ppmfade -f <path_to_image1.ppm> -l <path_to_image2.ppm> -<mix|spread|shift|relief|oil|...>
+
+# Generate a transition starting with the specified image and ending in a solid black image
+ppmfade -f <path_to_image.ppm> -<mix|spread|shift|relief|oil|...>
+
+# Generate a transition starting with a solid black image and ending with the specified image
+ppmfade -l <path_to_image.ppm> -<mix|spread|shift|relief|oil|...>
+
+# Store the resulting images in files named `base.NNNN.ppm` where `NNNN` is a increasing number
+ppmfade -f <path_to_image1.ppm> -l <path_to_image2.ppm> -<mix|spread|shift|relief|oil|...> -base <base>

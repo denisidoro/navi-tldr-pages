@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmbentley.md
+
+% pgmbentley, common
+
+# Apply the Bentley Effect on a PGM image
+pgmbentley <path_to_input_file.pgm> > <path_to_output_file.pgm>

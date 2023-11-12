@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmtops.md
+
+% pnmtops, common
+
+# Convert a PNM image to a PS file
+pnmtops <path_to_file.pnm> > <path_to_file.ps>
+
+# Specify the dimensions of the output image in inches
+pnmtops -imagewidth <imagewidth> -imageheight <imageheight> <path_to_file.pnm> > <path_to_file.ps>
+
+# Specify the dimensions of the page the output image resides on in inches
+pnmtops -width <width> -height <height> <path_to_file.pnm> > <path_to_file.ps>

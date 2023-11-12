@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtoarbtxt.md
+
+% ppmtoarbtxt, common
+
+# Convert a PPM image to text as specified by the given template
+ppmtoarbtxt <path_to_template> <path_to_image.ppm> > <path_to_output_file.txt>
+
+# Convert a PPM image to text as specified by the given template, prepend the contents of the specified head template
+ppmtoarbtxt <path_to_template> -hd <path_to_head_template> <path_to_image.ppm> > <path_to_output_file.txt>
+
+# Convert a PPM image to text as specified by the given template, append the contents of the specified tail template
+ppmtoarbtxt <path_to_template> -hd <path_to_tail_template> <path_to_image.ppm> > <path_to_output_file.txt>
+
+# Display version
+ppmtoarbtxt -version

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ilbmtoppm.md
+
+% ilbmtoppm, common
+
+# Convert an ILBM file to a PPM image
+ilbmtoppm <path_to_file.ilbm> > <path_to_file.ppm>
+
+# Use the specified color to "show through" where the image is transparent
+ilbmtoppm -transparent <color> <path_to_file.ilbm> > <path_to_file.ppm>
+
+# Ignore the chunk with the specified chunk ID
+ilbmtoppm -ignore <chunkID> <path_to_file.ilbm> > <path_to_file.ppm>
+
+# Store the input's transparency information to the specified PBM file
+ilbmtoppm -maskfile <path_to_maskfile.pbm> <path_to_file.ilbm> > <path_to_file.ppm>

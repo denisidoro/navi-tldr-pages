@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/brew-outdated.md
+
+% brew-outdated, common
+
+# List all outdated casks and formulae
+brew outdated
+
+# List only outdated formulae
+brew outdated --formula
+
+# List only outdated casks
+brew outdated --cask

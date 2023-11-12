@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmshadow.md
+
+% ppmshadow, common
+
+# Add simulated shadows to a PPM image
+ppmshadow <path_to_input_file.ppm> > <path_to_output_file.ppm>
+
+# [b]lur the image by the specified number of pixels
+ppmshadow -b <n> <path_to_input_file.ppm> > <path_to_output_file.ppm>
+
+# Specify the displacement of the simulated light source to the left and the top of the image
+ppmshadow -x <left_offset> -y <top_offset> <path_to_input_file.ppm> > <path_to_output_file.ppm>

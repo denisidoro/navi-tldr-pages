@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamoil.md
+
+% pamoil, common
+
+# Turn a PAM image into an oil painting
+pamoil <path_to_input_file.pam> > <path_to_output_file.pam>
+
+# Consider a neighborhood of N pixels for the "smearing" effect
+pamoil -n <N> <path_to_input_file.pam> > <path_to_output_file.pam>

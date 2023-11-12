@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sputoppm.md
+
+% sputoppm, common
+
+# Convert an SPU file to a PPM image
+sputoppm <path_to_input.spu> > <path_to_output.ppm>

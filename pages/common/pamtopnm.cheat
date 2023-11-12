@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtopnm.md
+
+% pamtopnm, common
+
+# Convert a PAM image to an equivalent PNM image, i.e. a PBM, PGM or PPM image
+pamtopnm <path_to_image.pam> > <path_to_output.pbm|pgm|ppm>
+
+# Display version
+pamtopnm -version

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmrelief.md
+
+% ppmrelief, common
+
+# Produce a relief of the specified PPM image
+ppmrelief <path_to_input_file.ppm> > <path_to_output_file.ppm>

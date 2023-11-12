@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmtosgi.md
+
+% pnmtosgi, common
+
+# Convert a PNM image to an SGI image
+pnmtosgi <path_to_input.pnm> > <path_to_output.sgi>
+
+# Specify whether or not compression should be used
+pnmtosgi -<verbatim|rle> <path_to_input.pnm> > <path_to_output.sgi>
+
+# Write the specified string into the SGI image header's `imagename` field
+pnmtosgi -imagename <string> <path_to_input.pnm> > <path_to_output.sgi>

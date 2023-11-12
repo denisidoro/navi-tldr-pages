@@ -12,7 +12,7 @@ sudo !!
 # Substitute with a command that was used a specified number of lines back
 !-<number>
 
-# Substitute with the most recent command that starts with `string`
+# Substitute with the most recent command that starts with a string
 !<string>
 
 # Substitute with the arguments of the latest command

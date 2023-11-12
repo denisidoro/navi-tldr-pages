@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtotga.md
+
+% pamtotga, common
+
+# Convert a Netpbm image to a TrueVision Targa file
+pamtotga <path_to_file.pam> > <path_to_output.tga>
+
+# Specify the color map of the output image
+pamtotga -<cmap|cmap16|mono|rgb> <path_to_file.pam> > <path_to_output.tga>
+
+# Display version
+pamtotga -version

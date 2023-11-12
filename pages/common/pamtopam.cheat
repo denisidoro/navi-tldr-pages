@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtopam.md
+
+% pamtopam, common
+
+# Copy a PAM image (i.e. a PBM, PGM, PPM or PAM image) from `stdin` to `stdout`
+pamtopam < <path_to_image.pam> > <path_to_output.pam>
+
+# Display version
+pamtopam -version

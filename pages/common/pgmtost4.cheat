@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmtost4.md
+
+% pgmtost4, common
+
+# Convert a PGM image file to the SBIG ST-4 format
+pgmtost4 <path_to_input_file.pgm> > <path_to_output.st4>

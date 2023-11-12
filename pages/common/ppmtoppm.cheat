@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtoppm.md
+
+% ppmtoppm, common
+
+# Copy a PPM image (i.e. a PBM, PGM or PPM image) from `stdin` to `stdout`
+ppmtoppm < <path_to_image.ppm> > <path_to_output.ppm>
+
+# Display version
+ppmtoppm -version

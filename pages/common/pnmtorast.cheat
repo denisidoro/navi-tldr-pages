@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmtorast.md
+
+% pnmtorast, common
+
+# Convert a PNM image to a RAST image
+pnmtorast <path_to_input.pnm> > <path_to_output.rast>
+
+# Force either `RT_STANDARD` or `RT_BYTE_ENCODED` form for the output
+pnmtorast -<standard|rle> <path_to_input.pnm> > <path_to_output.rast>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tgatoppm.md
+
+% tgatoppm, common
+
+# Convert a TrueVision Targa file to a PPM image
+tgatoppm <path_to_file.tga> > <path_to_output.ppm>
+
+# Dump information from the TGA header to `stdout`
+tgatoppm --headerdump <path_to_file.tga> > <path_to_output.ppm>
+
+# Write the transparency channel values of the input image to the specified file
+tgatoppm --alphaout <path_to_transparency_file.pgm> <path_to_file.tga> > <path_to_output.ppm>
+
+# Display version
+tgatoppm -version

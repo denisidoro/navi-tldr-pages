@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/st4topgm.md
+
+% st4topgm, common
+
+# Convert an SBIG ST-4 file to a PGM file
+st4topgm <path_to_input_file.st4> > <path_to_output.pgm>

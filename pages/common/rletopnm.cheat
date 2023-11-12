@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rletopnm.md
+
+% rletopnm, common
+
+# Convert an RLE image to a PNM file
+rletopnm <path_to_input.rle> > <path_to_output.pnm>
+
+# Create a PGM image containing the RLE file's alpha channel
+rletopnm -alphaout <path_to_alpha_file.pgm> <path_to_input.rle> > <path_to_output.pnm>
+
+# Operate in verbose mode and print the contents of the RLE header to `stdout`
+rletopnm -verbose <path_to_input.rle> > <path_to_output.pnm>

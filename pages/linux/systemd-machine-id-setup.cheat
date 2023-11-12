@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-machine-id-setup.md
+
+% systemd-machine-id-setup, linux
+
+# Print the generated or committed machine ID
+systemd-machine-id-setup --print
+
+# Specify an image policy
+systemd-machine-id-setup --image-policy=<your_policy>
+
+# Display the output as JSON
+sudo systemd-machine-id-setup --json=pretty
+
+# Operate on a disk image instead of a directory tree
+systemd-machine-id-setup --image=<path_to_image>

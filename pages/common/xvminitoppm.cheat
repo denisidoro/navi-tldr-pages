@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xvminitoppm.md
+
+% xvminitoppm, common
+
+# Convert an XV thumbnail image file to PPM
+xvminitoppm <path_to_input_file> > <path_to_output_file.ppm>

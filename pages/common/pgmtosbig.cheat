@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmtosbig.md
+
+% pgmtosbig, common
+
+# Convert a PGM image file to the SBIG CCDOPS format
+pgmtosbig <path_to_input_file.pgm> > <path_to_output.sbig>

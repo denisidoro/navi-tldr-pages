@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtompeg.md
+
+% ppmtompeg, common
+
+# Produce an MPEG-1 stream using the parameter file to specify inputs and outputs
+ppmtompeg <path_to_parameter_file>
+
+# Encode the GOP with the specified number only
+ppmtompeg -gop <gop_num> <path_to_parameter_file>
+
+# Specify the first and last frame to encode
+ppmtompeg -frames <first_frame> <last_frame> <path_to_parameter_file>
+
+# Combine multiple MPEG frames into a single MPEG-1 stream
+ppmtompeg -combine_frames <path_to_parameter_file>

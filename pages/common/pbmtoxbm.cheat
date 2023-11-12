@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtoxbm.md
+
+% pbmtoxbm, common
+
+# Convert a PPM image to a X11 XBM file
+pbmtoxbm <path_to_input_file.pbm> > <path_to_output_file.xbm>
+
+# Explicitly specify whether an X11 or X10 bitmap should be generated
+pbmtoxbm -<x11|x10> <path_to_input_file.pbm> > <path_to_output_file.xbm>

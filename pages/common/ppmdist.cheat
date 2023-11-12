@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmdist.md
+
+% ppmdist, common
+
+# Produce a grayscale version of the specified PPM image
+ppmdist <path_to_input.ppm> > <path_to_output.pgm>
+
+# Specify the method used to map colors to graylevels
+ppmdist -<frequency|intensity> <path_to_input.ppm> > <path_to_output.pgm>

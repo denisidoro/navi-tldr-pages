@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtolj.md
+
+% ppmtolj, common
+
+# Convert a PPM file to an HP LaserJet PCL 5 Color file
+ppmtolj <path_to_input.ppm> > <path_to_output.lj>
+
+# Apply a gamma correction using the specified gamma value
+ppmtolj -gamma <gamma> <path_to_input.ppm> > <path_to_output.lj>
+
+# Specify the required resolution
+ppmtolj -resolution <75|100|150|300|600> <path_to_input.ppm> > <path_to_output.lj>

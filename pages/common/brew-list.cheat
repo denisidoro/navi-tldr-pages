@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/brew-list.md
+
+% brew-list, common
+
+# List all installed formulae and casks
+brew list
+
+# List files belonging to an installed formula
+brew list <formula>
+
+# List artifacts of a cask
+brew list <cask>
+
+# List only formulae
+brew list --formula
+
+# List only casks
+brew list --cask

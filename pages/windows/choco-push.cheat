@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/choco-push.md
+
+% choco-push, windows
+
+# Push a compiled `nupkg` to the specified feed
+choco push --source <https:__push.chocolatey.org_>
+
+# Push a compiled `nupkg` to the specified feed with a timeout in seconds (default is 2700)
+choco push --source <https:__push.chocolatey.org_> --execution-timeout <500>

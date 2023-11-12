@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/xpmtoppm.md
+
+% xpmtoppm, common
+
+# Convert an XPM image to a PPM image
+xpmtoppm <path_to_input_file.xpm> > <path_to_output_file.ppm>
+
+# Store the transparency mask of the input image in the specified file
+xpmtoppm --alphaout <path_to_alpha_file.pbm> <path_to_input_file.xpm> > <path_to_output_file.ppm>

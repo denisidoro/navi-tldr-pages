@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gemtopnm.md
+
+% gemtopnm, common
+
+# Convert a GEM image file to a PNM image
+gemtopbm <path_to_file.img> > <path_to_output.pbm>
+
+# Describe the contents of the specified GEM image
+gemtopbm -d <path_to_file.img>
+
+# Display version
+gemtopbm -version

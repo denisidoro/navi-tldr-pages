@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtobmp.md
+
+% ppmtobmp, common
+
+# Convert a PPM image to a BMP file
+ppmtobmp <path_to_file.ppm> > <path_to_file.bmp>
+
+# Explicitly specify whether or not a Windows BMP file or an OS/2 BMP file should be created
+ppmtobmp -<windows|os2> <path_to_file.ppm> > <path_to_file.bmp>
+
+# Specify the number of bits to use for each pixel
+ppmtobmp -bbp <1|4|8|24> <path_to_file.ppm> > <path_to_file.bmp>

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rawtopgm.md
+
+% rawtopgm, common
+
+# Convert a raw greyscale image to a PGM image
+rawtopgm <width> <height> <path_to_image.raw> > <path_to_output.pgm>
+
+# Convert a raw greyscale image to a PGM image, assume the image to be a square
+rawtopgm <path_to_image.raw> > <path_to_output.pgm>
+
+# Convert a raw greyscale image in which the pixels come bottom-first instead of top-first to a PGM image
+rawtopgm <width> <height> -bottomfirst <path_to_image.raw> > <path_to_output.pgm>
+
+# Ignore the first n bytes of the specified file
+rawtopgm <width> <height> -headerskip <n> <path_to_image.raw> > <path_to_output.pgm>
+
+# Ignore the last m bytes of each row in the specified file
+rawtopgm <width> <height> -rowskip <m> <path_to_image.raw> > <path_to_output.pgm>
+
+# Specify the maxval for the grey values in the input to be equal to N
+rawtopgm <width> <height> -maxval <N> <path_to_image.raw> > <path_to_output.pgm>
+
+# Specify the number of bytes that represent each sample in the input and that the byte-sequence is to be interpreted as little-endian
+rawtopgm <width> <height> -bpp <1|2> -littleendian <path_to_image.raw> > <path_to_output.pgm>

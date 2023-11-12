@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtoybm.md
+
+% pbmtoybm, common
+
+# Convert a PBM image file to YBM
+pbmtoybm <path_to_input_file.pbm> > <path_to_output_file.ybm>

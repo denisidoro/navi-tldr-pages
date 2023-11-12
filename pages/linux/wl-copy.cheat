@@ -12,5 +12,8 @@ wl-copy "<text>"
 # Copy for only one paste and then clear it
 wl-copy --paste-once "<text>"
 
+# Copy an image
+wl-copy < <path_to_image>
+
 # Clear the clipboard
 wl-copy --clear

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmdeshadow.md
+
+% pgmdeshadow, common
+
+# Remove grey shadows from a PGM image
+pgmdeshadow <path_to_input_file.pgm> > <path_to_output_file.pgm>

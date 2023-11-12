@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtolj.md
+
+% pbmtolj, common
+
+# Convert a PBM file to an HP LaserJet file
+pbmtolj <path_to_input.pbm> > <path_to_output.lj>
+
+# Compress the output file using the specified method
+pbmtolj -<packbits|delta|compress> <path_to_input.pbm> > <path_to_output.lj>
+
+# Specify the required resolution
+pbmtolj -resolution <75|100|150|300|600> <path_to_input.pbm> > <path_to_output.lj>

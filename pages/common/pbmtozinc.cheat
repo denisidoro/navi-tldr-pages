@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtozinc.md
+
+% pbmtozinc, common
+
+# Convert a PBM image to a Zinc bitmap
+pbmtozinc <path_to_image.pbm> > <path_to_output.zinc>

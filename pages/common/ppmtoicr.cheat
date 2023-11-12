@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtoicr.md
+
+% ppmtoicr, common
+
+# Convert a PPM image to a ICR file
+ppmtoicr <path_to_file.ppm> > <path_to_file.icr>
+
+# Display the output in name
+ppmtoicr -windowname <name> <path_to_file.ppm> > <path_to_file.icr>
+
+# Expand the image by the specified factor
+ppmtoicr -expand <factor> <path_to_file.ppm> > <path_to_file.icr>
+
+# Display the output on the screen with the specified number
+ppmtoicr -display <number> <path_to_file.ppm> > <path_to_file.icr>

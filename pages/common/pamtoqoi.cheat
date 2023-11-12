@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtoqoi.md
+
+% pamtoqoi, common
+
+# Convert a Netpbm image to the QOI format
+pamtoqoi <path_to_image.pnm> > <path_to_output.qoi>

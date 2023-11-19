@@ -12,7 +12,7 @@ uvcdynctrl -d <device_name>
 # List available controls
 uvcdynctrl -c
 
-# Set a new control value (for negative values, add -- before <-value>)
+# Set a new control value (for negative values, use `-- -value`)
 uvcdynctrl -s <control_name> <value>
 
 # Get the current control value

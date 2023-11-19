@@ -3,7 +3,7 @@
 
 % ostree, linux
 
-# Initialize a repository of the files in `$PWD` with metadata in `$PWD/<path_to_repo>`
+# Initialize a repository of the files in `$PWD` with metadata in `$PWD/path/to/repo`
 ostree init --repo <path_to_repo>
 
 # Create a commit (snapshot) of the files

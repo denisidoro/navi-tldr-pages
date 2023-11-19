@@ -15,7 +15,7 @@ mosh --ssh="ssh -p <2222>" <username>@<remote_host>
 # Run a command on a remote server
 mosh <remote_host> -- <command -with -flags>
 
-# Select Mosh UDP port (useful when `<remote_host>` is behind a NAT)
+# Select Mosh UDP port (useful when `remote_host` is behind a NAT)
 mosh -p <124> <username>@<remote_host>
 
 # Usage when `mosh-server` binary is outside standard path

@@ -6,7 +6,7 @@
 # Analyze a VHDL source file and produce an object file
 ghdl -a <filename.vhdl>
 
-# Elaborate a design (where `<design>` is the name of a configuration unit, entity unit or architecture unit)
+# Elaborate a design (where `design` is the name of a configuration unit, entity unit or architecture unit)
 ghdl -e <design>
 
 # Run an elaborated design

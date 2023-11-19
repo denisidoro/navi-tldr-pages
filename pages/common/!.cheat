@@ -3,7 +3,7 @@
 
 % !, common
 
-# Substitute with the previous command and run it with sudo
+# Substitute with the previous command and run it with `sudo`
 sudo !!
 
 # Substitute with a command based on its line number found with `history`

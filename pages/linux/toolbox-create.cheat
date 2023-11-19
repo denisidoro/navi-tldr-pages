@@ -13,7 +13,7 @@ toolbox create --release <release>
 toolbox create --image <name>
 
 # Create a `toolbox` container from a custom Fedora image
-toolbox create --image <registry.fedoraproject.org_fedora-toolbox:38>
+toolbox create --image <registry.fedoraproject.org_fedora-toolbox:39>
 
-# Create a `toolbox` container using the default image for Fedora 38
-toolbox create --distro <fedora> --release <f38>
+# Create a `toolbox` container using the default image for Fedora 39
+toolbox create --distro <fedora> --release <f39>

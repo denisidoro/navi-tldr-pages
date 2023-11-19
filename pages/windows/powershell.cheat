@@ -1,28 +1,28 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/pwsh.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/powershell.md
 
-% pwsh, common
+% powershell, windows
 
 # Start an interactive shell session
-pwsh
+powershell
 
 # Start an interactive shell session without loading startup configs
-pwsh -NoProfile
+powershell -NoProfile
 
 # Execute specific commands
-pwsh -Command "<echo 'powershell is executed'>"
+powershell -Command "<echo 'powershell is executed'>"
 
 # Execute a specific script
-pwsh -File <path_to_script.ps1>
+powershell -File <path_to_script.ps1>
 
 # Start a session with a specific version of PowerShell
-pwsh -Version <version>
+powershell -Version <version>
 
 # Prevent a shell from exit after running startup commands
-pwsh -NoExit
+powershell -NoExit
 
 # Describe the format of data sent to PowerShell
-pwsh -InputFormat <Text|XML>
+powershell -InputFormat <Text|XML>
 
 # Determine how an output from PowerShell is formatted
-pwsh -OutputFormat <Text|XML>
+powershell -OutputFormat <Text|XML>

@@ -3,7 +3,7 @@
 
 % choco-pack, windows
 
-# Package a NuGet specification to a nupkg file
+# Package a NuGet specification to a `nupkg` file
 choco pack <path\to\specification_file>
 
 # Package a NuGet specification specifying the version of the resulting file

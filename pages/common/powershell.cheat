@@ -3,26 +3,11 @@
 
 % powershell, common
 
-# Start an interactive shell session
-powershell
+# View the documentation for the command referring to the latest, cross-platform version of PowerShell (version 6 and above)
+tldr pwsh
 
-# Start an interactive shell session without loading startup configs
-powershell -NoProfile
+# View the documentation for the command referring to the legacy Windows PowerShell (version 5.1 and below)
+tldr powershell -p windows
 
-# Execute specific commands
-powershell -Command "<echo 'powershell is executed'>"
-
-# Execute a specific script
-powershell -File <path_to_script.ps1>
-
-# Start a session with a specific version of PowerShell
-powershell -Version <version>
-
-# Prevent a shell from exit after running startup commands
-powershell -NoExit
-
-# Describe the format of data sent to PowerShell
-powershell -InputFormat <Text|XML>
-
-# Determine how an output from PowerShell is formatted
-powershell -OutputFormat <Text|XML>
+# View the documentation for the command referring to the legacy Windows PowerShell in older versions of `tldr` command-line client
+tldr powershell -o windows

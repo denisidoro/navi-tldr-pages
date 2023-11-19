@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/speedread.md
+
+% speedread, linux
+
+# Read a text file at a specific speed
+cat <path_to_file.txt> | speedread -wpm <250>
+
+# Resume from a specific line
+cat <path_to_file.txt> | speedread -resume <5>
+
+# Show multiple words at a time
+cat <path_to_file.txt> | speedread -multiword
+
+# Slow down by 10% during the reading session
+[
+
+# Speed up by 10% during the reading session
+]
+
+# Pause, and show the last few lines as context
+<space>

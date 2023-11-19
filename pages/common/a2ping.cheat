@@ -15,7 +15,7 @@ a2ping --nohires <path_to_file>
 # Allow page content below and left of the origin (Note: It defaults to no)
 a2ping --below <path_to_file>
 
-# Pass extra arguments to `gs``
+# Pass extra arguments to `gs`
 a2ping --gsextra <arguments> <path_to_file>
 
 # Pass extra arguments to external program (i.e pdftops)

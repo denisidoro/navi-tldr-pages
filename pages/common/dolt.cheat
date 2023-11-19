@@ -3,7 +3,7 @@
 
 % dolt, common
 
-# Execute a dolt subcommand
+# Execute a `dolt` subcommand
 dolt <subcommand>
 
 # List available subcommands

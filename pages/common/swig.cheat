@@ -12,5 +12,5 @@ swig -go -cgo -intgosize 64 -c++ <path_to_swig_file.i>
 # Generate a binding between C and Java
 swig -java <path_to_swig_file.i>
 
-# Generate a binding between C and Ruby and prefix the Ruby module with <foo::bar::>
+# Generate a binding between C and Ruby and prefix the Ruby module with `foo::bar::`
 swig -ruby -prefix "<foo::bar::>" <path_to_swig_file.i>

@@ -3,5 +3,5 @@
 
 % cron, common
 
-# View documentation for the original command
+# View documentation for managing `cron` entries
 tldr crontab

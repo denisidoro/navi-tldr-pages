@@ -18,7 +18,7 @@ a2ping --below <path_to_file>
 # Pass extra arguments to `gs`
 a2ping --gsextra <arguments> <path_to_file>
 
-# Pass extra arguments to external program (i.e pdftops)
+# Pass extra arguments to external program (i.e `pdftops`)
 a2ping --extra <arguments> <path_to_file>
 
 # Display help

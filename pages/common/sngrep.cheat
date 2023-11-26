@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sngrep.md
+
+% sngrep, common
+
+# Visualize SIP packets from a PCAP file
+sngrep -I <path_to_file.pcap>
+
+# Visualize only dialogs starting with INVITE packets with RTP packets from a PCAP file
+sngrep -crI <path_to_file.pcap>
+
+# Real-time interface with only dialogs starting with INVITE packets with RTP packets
+sngrep -cr
+
+# Only capture packets without interface to a file
+sngrep -NO <path_to_file.pcap>

@@ -4,7 +4,7 @@
 % keepassxc-cli, common
 
 # Search entries
-keepassxc-cli lookup <path_to_database_file> <name>
+keepassxc-cli search <path_to_database_file> <name>
 
 # List the contents of a folder
 keepassxc-cli ls <path_to_database_file> <path_to_directory>

@@ -3,8 +3,8 @@
 
 % distrobox-list, linux
 
-# List all distrobox containers
+# List all Distrobox containers
 distrobox-list
 
-# List all distrobox containers with verbose information
+# List all Distrobox containers with verbose information
 distrobox-list --verbose

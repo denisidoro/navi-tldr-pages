@@ -3,7 +3,7 @@
 
 % distrobox-host-exec, linux
 
-# Execute command on the host system from inside the distrobox container
+# Execute command on the host system from inside the Distrobox container
 distrobox-host-exec "<command>"
 
 # Execute the `ls` command on the host system from inside the container

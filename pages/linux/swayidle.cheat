@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/swayidle.md
+
+% swayidle, linux
+
+# Listen for idle activity using the configuration in `$XDG_CONFIG_HOME/swayidle/config` or `$HOME/swayidle/config`
+swayidle
+
+# Specify an alternative path to the configuration file
+swayidle -C <path_to_file>

@@ -18,5 +18,8 @@ g++ <path_to_source.cpp> -o <path_to_output_executable> -I<path_to_header> -L<pa
 # Compile and link multiple source code files into an executable binary
 g++ -c <path_to_source_1.cpp path_to_source_2.cpp ...> && g++ -o <path_to_output_executable> <path_to_source_1.o path_to_source_2.o ...>
 
+# Optimize the compiled program for performance
+g++ <path_to_source.cpp> -O<1|2|3|fast> -o <path_to_output_executable>
+
 # Display version
 g++ --version

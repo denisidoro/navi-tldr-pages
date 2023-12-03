@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/pswindowsupdate.md
+
+% pswindowsupdate, windows
+
+# Install the module using `Install-Module`
+Install-Module PSWindowsUpdate
+
+# List all commands available under the module
+Get-Command -Module PSWindowsUpdate

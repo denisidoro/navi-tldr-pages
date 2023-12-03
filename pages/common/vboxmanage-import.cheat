@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vboxmanage-import.md
+
+% vboxmanage-import, common
+
+# Import a VM from an OVF or OVA file
+VBoxManage import <path_to_file.ovf>
+
+# Set the name of the imported VM
+VBoxManage import <path_to_file.ovf> --name <vm_name>
+
+# Indicate the folder where the configuration of the imported VM will be stored
+VBoxManage import <path_to_file.ovf> --basefolder <path_to_directory>
+
+# Register the imported VM in VirtualBox
+VBoxManage import <path_to_file.ovf> --register
+
+# Perform a dry run to check the import without actually importing
+VBoxManage import <path_to_file.ovf> --dry-run
+
+# Set the guest OS type (one of `VBoxManage list ostypes`) for the imported VM
+VBoxManage import <path_to_file.ovf> --ostype=<ostype>
+
+# Set the memory (in megabytes) for the imported VM
+VBoxManage import <path_to_file.ovf> --memory=<1>
+
+# Set the number of CPUs for the imported VM
+VBoxManage import <path_to_file.ovf> --cpus=<1>

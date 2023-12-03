@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ollama.md
+
+% ollama, common
+
+# Start the daemon required to run other commands
+ollama serve
+
+# Run a model and chat with it
+ollama run <model>
+
+# Run a model with a single prompt
+ollama run <model> <prompt>
+
+# List downloaded models
+ollama list
+
+# Delete a model
+ollama rm <model>
+
+# Create a model from a `Modelfile`
+ollama create <new_model_name> -f <path_to_Modelfile>

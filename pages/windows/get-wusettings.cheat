@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/get-wusettings.md
+
+% get-wusettings, windows
+
+# Get the current Windows Update Agent configuration
+Get-WUSettings
+
+# Send the current configuration data via email (SMTP)
+Get-WUSettings -SendReport -PSWUSettings @{SmtpServer="<smtp_server>"; Port=<smtp_port> From="<sender_email>" To="<receiver_email>"}

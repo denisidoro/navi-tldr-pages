@@ -7,7 +7,7 @@
 fgrep <search_string> <path_to_file>
 
 # Search only lines that match entirely in files
-fgrep -x <path_to_file1> <path_to_file2>
+fgrep -x <search_string> <path_to_file1> <path_to_file2>
 
 # Count the number of lines that match the given string in a file
 fgrep -c <search_string> <path_to_file>

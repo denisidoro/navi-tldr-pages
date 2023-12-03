@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vboxmanage-registervm.md
+
+% vboxmanage-registervm, common
+
+# Register an existing VM
+VBoxManage registervm <path_to_filename.vbox>
+
+# Supply the encryption password file of the VM
+VBoxManage registervm <path_to_filename.vbox> --password <path_to_password_file>
+
+# Prompt for the encryption password on the command line
+VBoxManage registervm <path_to_filename.vbox> --password -

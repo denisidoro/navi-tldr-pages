@@ -4,13 +4,13 @@
 % getfileinfo, osx
 
 # Display information about a given file
-GetFileInfo <path_to_filename>
+GetFileInfo <path_to_file>
 
-# Display the date and time a given file was created
-GetFileInfo -d <path_to_filename>
+# Display the [d]ate and time a given file was created
+GetFileInfo -d <path_to_file>
 
-# Display the date and time a given file was last modified
-GetFileInfo -m <path_to_filename>
+# Display the date and time a given file was last [m]odified
+GetFileInfo -m <path_to_file>
 
-# Display the creator of a given file
-GetFileInfo -c <path_to_filename>
+# Display the [c]reator of a given file
+GetFileInfo -c <path_to_file>

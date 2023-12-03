@@ -17,3 +17,6 @@ clang++ <path_to_source.cpp> -o <path_to_output_executable> -I<path_to_header_pa
 
 # Compile source code into LLVM Intermediate Representation (IR)
 clang++ -S -emit-llvm <path_to_source.cpp> -o <path_to_output.ll>
+
+# Optimize the compiled program for performance
+clang++ <path_to_source.cpp> -O<1|2|3|fast> -o <path_to_output_executable>

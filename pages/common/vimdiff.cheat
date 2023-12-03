@@ -4,7 +4,7 @@
 % vimdiff, common
 
 # Open two files and show the differences
-vimdiff <file1> <file2>
+vimdiff <path_to_file1> <path_to_file2>
 
 # Move the cursor to the window on the left|right
 Ctrl + w <h|l>

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mysqlsh.md
+
+% mysqlsh, common
+
+# Start MySQL Shell in interactive mode
+mysqlsh
+
+# Connect to a MySQL server
+mysqlsh --user <username> --host <hostname> --port <port>
+
+# Execute a SQL statement on the server and exit
+mysqlsh --user <username> --execute '<sql_statement>'
+
+# Start MySQL Shell in JavaScript mode
+mysqlsh --js
+
+# Start MySQL Shell in Python mode
+mysqlsh --py
+
+# Import JSON documents into a MySQL collection
+mysqlsh --import <path_to_file.json> --schema <schema_name> --collection <collection_name>
+
+# Enable verbose output
+mysqlsh --verbose

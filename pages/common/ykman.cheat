@@ -3,14 +3,20 @@
 
 % ykman, common
 
-# Get information from YubiKey
+# Display general information about a YubiKey (serial number, firmware version, capabilities, etc.)
 ykman info
 
-# Get information for a given application from YubiKey
-ykman <fido|oath|openpgp|otp|piv> info
+# List connected YubiKeys with short, one-line descriptions (including the serial number)
+ykman list
 
-# Get a list of enabled applications over NFC from YubiKey
-ykman config nfc --list
+# View documentation for enabling and disabling applications
+tldr ykman config
 
-# Enable application over USB on YubiKey
-ykman config usb --enable <OTP|U2F|FIDO2|OATH|PIV|OPENPGP|HSMAUTH>
+# View documentation for managing the FIDO applications
+tldr ykman fido
+
+# View documentation for managing the OATH application
+tldr ykman oath
+
+# View documentation for managing the OpenPGP application
+tldr ykman openpgp

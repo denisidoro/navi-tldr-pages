@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vboxmanage-startvm.md
+
+% vboxmanage-startvm, common
+
+# Start a virtual machine
+VBoxManage startvm <vm_name|uuid>
+
+# Start a virtual machine with the specified UI mode
+VBoxManage startvm <vm_name|uuid> --type <headless|gui|sdl|separate>
+
+# Specify a password file to start an encrypted virtual machine
+VBoxManage startvm <vm_name|uuid> --password <path_to_password_file>
+
+# Specify a password ID to start an encrypted virtual machine
+VBoxManage startvm  <vm_name|uuid> --password-id <password_id>
+
+# Start a virtual machine with an environment variable pair name value
+VBoxManage startvm  <vm_name|uuid> --put-env=<name>=<value>

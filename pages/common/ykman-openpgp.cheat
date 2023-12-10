@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ykman-openpgp.md
+
+% ykman-openpgp, common
+
+# Display general information about the OpenPGP application
+ykman openpgp info
+
+# Set the number of retry attempts for the User PIN, Reset Code, and Admin PIN, respectively
+ykman openpgp access set-retries <3> <3> <3>
+
+# Change the User PIN, Reset Code or Admin PIN
+ykman openpgp access change-<pin|reset-code|admin-pin>
+
+# Factory reset the OpenPGP application (you have to do this after exceeding the number of Admin PIN retry attempts)
+ykman openpgp reset

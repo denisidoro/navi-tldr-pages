@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcloud-components-update.md
+
+% gcloud-components-update, common
+
+# Update all components to the latest version
+gcloud components update
+
+# Update all components to a specific version
+gcloud components update --version=<1.2.3>
+
+# Update components without confirmation (useful for automation scripts)
+gcloud components update --quiet

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ripmime.md
+
+% ripmime, linux
+
+# Extract file contents in the current directory
+ripmime -i <path_to_file>
+
+# Extract file contents in a specific directory
+ripmime -i <path_to_file> -d <path_to_directory>
+
+# Extract file contents and print verbose output
+ripmime -i <path_to_file> -v
+
+# Get detailed information about the whole decoding process
+ripmime -i <path_to_file> --debug

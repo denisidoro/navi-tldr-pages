@@ -3,23 +3,14 @@
 
 % vboxmanage, common
 
-# List all VirtualBox virtual machines
-VBoxManage list vms
+# Display version
+VBoxManage --version
 
-# Show information about a particular virtual machine
-VBoxManage showvminfo <name|uuid>
+# Display help
+VBoxManage --help
 
-# Start a virtual machine
-VBoxManage startvm <name|uuid>
+# Display help for a VBoxManage subcommand (like `starvm`, `clonevm`, `import`, `export`, etc.)
+VBoxManage --help <subcommand>
 
-# Start a virtual machine in headless mode
-VBoxManage startvm <name|uuid> --type headless
-
-# Shutdown the virtual machine and save its current state
-VBoxManage controlvm <name|uuid> savestate
-
-# Shutdown down the virtual machine without saving its state
-VBoxManage controlvm <name|uuid> poweroff
-
-# Update VBox extension packs
-VBoxManage extpack install --replace <VboxExtensionPackFileName>
+# Execute a VboxManage subcommand
+VBoxManage <subcommand>

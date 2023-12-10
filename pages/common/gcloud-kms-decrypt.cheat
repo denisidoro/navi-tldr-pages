@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcloud-kms-decrypt.md
+
+% gcloud-kms-decrypt, common
+
+# Decrypt a file using a specified key, key ring, and location
+gcloud kms decrypt --key=<key_name> --keyring=<keyring_name> --location=<global> --ciphertext-file=<path_to_ciphertext> --plaintext-file=<path_to_plaintext>
+
+# Decrypt a file with additional authenticated data (AAD) and write the decrypted plaintext to `stdout`
+gcloud kms decrypt --key=<key_name> --keyring=<keyring_name> --location=<global> --additional-authenticated-data-file=<path_to_file.aad> --ciphertext-file=<path_to_ciphertext> --plaintext-file=-

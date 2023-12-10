@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcloud-init.md
+
+% gcloud-init, common
+
+# Launch a "Getting Started" workflow
+gcloud init
+
+# Launch a workflow without diagnostics
+gcloud init --skip-diagnostics
+
+# Use the console for authentication
+gcloud init --console-only

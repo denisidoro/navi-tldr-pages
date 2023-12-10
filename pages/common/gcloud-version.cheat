@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcloud-version.md
+
+% gcloud-version, common
+
+# Print the version information for all installed components, along with available updates to them
+gcloud version
+
+# Display help
+gcloud version --help

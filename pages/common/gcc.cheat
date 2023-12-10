@@ -19,4 +19,4 @@ gcc -S <path_to_source.c>
 gcc -c <path_to_source.c>
 
 # Optimize the compiled program for performance
-gcc <path_to_source.c> -O<1|2|3|fast>
+gcc <path_to_source.c> -O<1|2|3|fast> -o <path_to_output_executable>

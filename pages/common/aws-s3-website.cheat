@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/aws-s3-website.md
+
+% aws-s3-website, common
+
+# Configure a bucket as a static website
+aws s3 website <s3:__bucket-name> --index-document <index.html>
+
+# Configure an error page for the website
+aws s3 website <s3:__bucket-name> --index-document <index.html> --error-document <error.html>

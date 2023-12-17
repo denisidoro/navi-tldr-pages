@@ -4,7 +4,7 @@
 % test, common
 
 # Test if a given variable is equal to a given string
-test "<$MY_VAR>" == "<bin_zsh>"
+test "<$MY_VAR>" = "<bin_zsh>"
 
 # Test if a given variable is empty
 test -z "<$GIT_BRANCH>"

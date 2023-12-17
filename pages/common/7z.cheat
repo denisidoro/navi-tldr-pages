@@ -19,7 +19,7 @@
 7z x <path_to_archive.7z> -so
 
 # [a]rchive using a specific archive type
-7z a -t<7z|bzip2|gzip|lzip|tar|zip> <path_to_archive.7z> <path_to_file_or_directory>
+7z a -t<7z|bzip2|gzip|lzip|tar|zip> <path_to_archive> <path_to_file_or_directory>
 
 # [l]ist the contents of an archive
 7z l <path_to_archive.7z>

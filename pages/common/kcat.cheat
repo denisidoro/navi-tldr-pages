@@ -13,7 +13,7 @@ kcat -C -t <topic> -b <brokers> -o beginning -e
 kcat -G <group_id> <topic> -b <brokers>
 
 # Publish message by reading from `stdin`
- echo <message> | kcat -P -t <topic> -b <brokers>
+echo <message> | kcat -P -t <topic> -b <brokers>
 
 # Publish messages by reading from a file
 kcat -P -t <topic> -b <brokers> <path_to_file>

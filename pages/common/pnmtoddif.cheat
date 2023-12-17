@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmtoddif.md
+
+% pnmtoddif, common
+
+# Convert a PNM image to a DDIF image file
+pnmtoddif <path_to_image.pnm> > <path_to_image.ddif>
+
+# Explicitly specify the horizontal and vertical resolution of the output image
+pnmtoddif -resolution <horizontal_dpi> <vertical_dpi> <path_to_image.pnm> > <path_to_image.ddif>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pampop9.md
+
+% pampop9, common
+
+# Tile the input image xtiles by ytiles times, increasing the offset each time as determined by xdelta and ydelta
+pampop9 <path_to_input.pam> <xtiles> <ytiles> <xdelta> <ydelta> > <path_to_output.pam>

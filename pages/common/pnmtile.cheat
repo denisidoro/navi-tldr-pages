@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmtile.md
+
+% pnmtile, common
+
+# Replicate an image to fill an area of the specified dimensions
+pnmtile <width> <height> <path_to_input.pnm> > <path_to_output.pnm>

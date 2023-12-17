@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcloud-sql-backups-describe.md
+
+% gcloud-sql-backups-describe, common
+
+# Retrieve information about a backup
+gcloud sql backups describe <backup_id> --instance=<instance_id>

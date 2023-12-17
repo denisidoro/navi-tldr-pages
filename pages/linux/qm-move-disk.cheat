@@ -4,4 +4,4 @@
 % qm-move-disk, linux
 
 # View documentation for the original command
-tldr qm-disk-move
+tldr qm disk move

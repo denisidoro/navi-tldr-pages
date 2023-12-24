@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmquant.md
+
+% ppmquant, common
+
+# View documentation for `pnmquant`
+tldr pnmquant
+
+# View documentation for `pnmremap`
+tldr pnmremap

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmremap.md
+
+% pnmremap, common
+
+# Replace the colors in an image with those in the specified color palette
+pnmremap -mapfile <path_to_palette_file.ppm> <path_to_input.pnm> > <path_to_output.pnm>
+
+# Use Floyd-Steinberg dithering for representing colors missing in the color palette
+pnmremap -mapfile <path_to_palette_file.ppm> -floyd <path_to_input.pnm> > <path_to_output.pnm>
+
+# Use the first color in the palette for representing colors missing in the color palette
+pnmremap -mapfile <path_to_palette_file.ppm> -firstisdefault <path_to_input.pnm> > <path_to_output.pnm>
+
+# Use the specified color for representing colors missing in the color palette
+pnmremap -mapfile <path_to_palette_file.ppm> -missingcolor <color> <path_to_input.pnm> > <path_to_output.pnm>

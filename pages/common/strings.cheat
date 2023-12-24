@@ -6,8 +6,8 @@
 # Print all strings in a binary
 strings <path_to_file>
 
-# Limit results to strings at least *length* characters long
-strings -n <length> <path_to_file>
+# Limit results to strings at least n characters long
+strings -n <n> <path_to_file>
 
 # Prefix each result with its offset within the file
 strings -t d <path_to_file>

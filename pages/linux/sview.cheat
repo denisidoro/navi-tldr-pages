@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sview.md
+
+% sview, linux
+
+# Start a GUI to view and modify the state of Slurm
+sview

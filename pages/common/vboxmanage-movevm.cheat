@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vboxmanage-movevm.md
+
+% vboxmanage-movevm, common
+
+# Move the specified virtual machine to the current location
+VBoxManage movevm <vm_name>
+
+# Specify the new location (full or relative pathname) of the virtual machine
+VBoxManage movevm <vm_name> --folder <path_to_new_location>

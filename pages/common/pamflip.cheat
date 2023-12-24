@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamflip.md
+
+% pamflip, common
+
+# Rotate the input image counter-clockwise for a specific degree
+pamflip -rotate<90|180|270> <path_to_input.pam> > <path_to_output.pam>
+
+# Flip left for right
+pamflip -leftright <path_to_input.pam> > <path_to_output.pam>
+
+# Flip top for bottom
+pamflip -topbottom <path_to_input.pam> > <path_to_output.pam>
+
+# Flip the input image on the main diagonal
+pamflip -transpose <path_to_input.pam> > <path_to_output.pam>

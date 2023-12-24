@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamscale.md
+
+% pamscale, common
+
+# Scale an image such that the result has the specified dimensions
+pamscale -width <width> -height <height> <path_to_input.pam> > <path_to_output.pam>
+
+# Scale an image such that the result has the specified width, keeping the aspect ratio
+pamscale -width <width> <path_to_input.pam> > <path_to_output.pam>
+
+# Scale an image such that its width and height is changed by the specified factors
+pamscale -xscale <x_factor> -yscale <y_factor> <path_to_input.pam> > <path_to_output.pam>
+
+# Scale an image such that it fits into the specified bounding box while preserving its aspect ratio
+pamscale -xyfit <bbox_width> <bbox_height> <path_to_input.pam> > <path_to_output.pam>
+
+# Scale an image such that it completely fills the specified box while preserving its aspect ratio
+pamscale -xyfill <box_width> <box_height> <path_to_input.pam> > <path_to_output.pam>

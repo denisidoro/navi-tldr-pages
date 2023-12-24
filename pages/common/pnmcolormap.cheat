@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmcolormap.md
+
+% pnmcolormap, common
+
+# Generate an image using only `n_colors` or less colors as close as possible to the input image
+pnmcolormap <n_colors> <path_to_input.pnm> > <path_to_output.ppm>
+
+# Use the splitspread strategy for determining the output colors, possibly producing a better result for images with small details
+pnmcolormap -splitspread <n_colors> <path_to_input.pnm> > <path_to_output.ppm>
+
+# Sort the resulting colormap, which is useful for comparing colormaps
+pnmcolormap -sort <path_to_input.pnm> > <path_to_output.ppm>

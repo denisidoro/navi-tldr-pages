@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/tldr-generate.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tlmgr-generate.md
 
-% tldr-generate, common
+% tlmgr-generate, common
 
 # Remake the configuration file storing into a specific location
 tlmgr generate --dest <output_file>

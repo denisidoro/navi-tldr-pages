@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pw-mon.md
+
+% pw-mon, linux
+
+# Monitor the default PipeWire instance
+pw-mon
+
+# Monitor a specific remote instance
+pw-mon --remote=<remote_name>
+
+# Monitor the default instance specifying a color configuration
+pw-mon --color=<never|always|auto>
+
+# Display help
+pw-mon --help

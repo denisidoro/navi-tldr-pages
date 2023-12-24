@@ -3,14 +3,17 @@
 
 % palmtopnm, common
 
-# Generate the PNM image as output, for a Palm Bitmap file as input
-palmtopnm <path_to_file.palm>
+# Convert a Palm bitmap to a PNM image
+palmtopnm <path_to_file.palm> > <path_to_file.pnm>
 
-# Display various information about the input Palm Bitmap file and process
-palmtopnm -verbose <path_to_file.palm>
+# Display information about the input file
+palmtopnm -verbose <path_to_file.palm> > <path_to_file.pnm>
 
-# Generate a histogram of colours in the input Palm Bitmap file to `stderr`
-palmtopnm -showhist <path_to_file.palm>
+# Convert the n'th rendition of the image contained in the input file
+palmtopnm -rendition <n> <path_to_file.palm> > <path_to_file.pnm>
 
-# Display version
-palmtopnm -version
+# Write a histogram of the colors in the input file to `stdout`
+palmtopnm -showhist <path_to_file.palm> > <path_to_file.pnm>
+
+# Output the transparent color of the input image if set
+palmtopnm -transparent <path_to_file.palm>

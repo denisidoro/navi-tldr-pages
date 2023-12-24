@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemd-resolve.md
+
+% systemd-resolve, linux
+
+# View documentation for `resolvectl`
+tldr resolvectl

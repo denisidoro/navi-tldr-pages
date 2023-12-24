@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmscalefixed.md
+
+% pnmscalefixed, common
+
+# Scale an image such that the result has the specified dimensions
+pnmscalefixed -width <width> -height <height> <path_to_input.pnm> > <path_to_output.pnm>
+
+# Scale an image such that the result has the specified width, keeping the aspect ratio
+pnmscalefixed -width <width> <path_to_input.pnm> > <path_to_output.pnm>
+
+# Scale an image such that its width and height is changed by the specified factors
+pnmscalefixed -xscale <x_factor> -yscale <y_factor> <path_to_input.pnm> > <path_to_output.pnm>

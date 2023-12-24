@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sbcast.md
+
+% sbcast, linux
+
+# Send a file to all nodes allocated to the current job
+sbcast <path_to_file> <path_to_destination>
+
+# Autodetect shared libraries the transmitted file depends upon and transmit them as well
+sbcast --send-libs=<yes> <path_to_executable> <path_to_destination>

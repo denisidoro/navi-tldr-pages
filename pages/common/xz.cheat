@@ -10,10 +10,10 @@ xz <path_to_file>
 xz --decompress <path_to_file.xz>
 
 # Compress a file using lzma
-xz --format=<lzma> <path_to_file>
+xz --format=lzma <path_to_file>
 
 # Decompress an lzma file
-xz --decompress --format=<lzma> <path_to_file.lzma>
+xz --decompress --format=lzma <path_to_file.lzma>
 
 # Decompress a file and write to `stdout` (implies `--keep`)
 xz --decompress --stdout <path_to_file.xz>

@@ -13,7 +13,7 @@ icalBuddy uncompletedTasks
 icalBuddy --formatOutput --separateByCalendar eventsToday
 
 # Show tasks for a specified number of days
-icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+<8>"
+icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+<number_of_days>"
 
 # Show events in a time range
 icalBuddy eventsFrom:<start_date> to:<end_date>

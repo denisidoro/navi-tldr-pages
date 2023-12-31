@@ -22,4 +22,4 @@ pio device monitor --baud <57600>
 pio device monitor --eol <CRLF|CR|LF>
 
 # Go to the menu of the interactive device monitor
-Ctrl + T
+<Ctrl> + T

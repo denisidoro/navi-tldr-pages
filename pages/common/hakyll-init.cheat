@@ -6,5 +6,5 @@
 # Generate a new Hakyll sample blog
 hakyll-init <path_to_directory>
 
-# Show help for `hakyll-init`
+# Display help
 hakyll-init --help

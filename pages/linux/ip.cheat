@@ -19,7 +19,7 @@ ip route
 ip neighbour
 
 # Make an interface up/down
-ip link set <interface> up/down
+ip link set <interface> <up|down>
 
 # Add/Delete an IP address to an interface
 ip addr add/del <ip>/<mask> dev <interface>

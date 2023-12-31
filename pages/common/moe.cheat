@@ -16,4 +16,4 @@ moe --no-backup <path_to_file>
 moe --ignore-case <path_to_file>
 
 # Save and Quit
-Ctrl + X
+<Ctrl> + X

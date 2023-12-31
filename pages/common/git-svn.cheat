@@ -16,4 +16,4 @@ git svn rebase
 git svn fetch
 
 # Commit back to the SVN repository
-git svn dcommit
+git svn commit

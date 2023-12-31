@@ -10,4 +10,4 @@ alpine
 alpine <email@example.net>
 
 # Quit alpine
-'q' then 'y'
+q + y

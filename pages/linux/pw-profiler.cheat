@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pw-profiler.md
+
+% pw-profiler, linux
+
+# Profile the default instance, logging to `profile.log` (`gnuplot` files and a `.html` file for result visualizing are also generated)
+pw-profiler
+
+# Change the log output file
+pw-profiler --output <path_to_file.log>
+
+# Profile a remote instance
+pw-profiler --remote <remote_name>
+
+# Display help
+pw-profiler --help

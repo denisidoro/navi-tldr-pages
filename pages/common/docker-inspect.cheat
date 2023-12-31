@@ -3,7 +3,7 @@
 
 % docker-inspect, common
 
-# Show help
+# Display help
 docker inspect
 
 # Display information about a container, image, or volume using a name or ID

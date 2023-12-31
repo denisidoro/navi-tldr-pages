@@ -9,7 +9,7 @@ fossil version
 # Show general help (list available subcommands)
 fossil help
 
-# Show help on a Fossil subcommand (like `add`, `commit`, etc.)
+# Display help on a Fossil subcommand (like `add`, `commit`, etc.)
 fossil help <subcommand>
 
 # Execute a Fossil subcommand

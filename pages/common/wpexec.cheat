@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wpexec.md
+
+% wpexec, common
+
+# Run a WirePlumber script
+wpexec <path_to_file.lua>
+
+# Display help
+wpexec --help

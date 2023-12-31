@@ -24,5 +24,5 @@ sqlite-utils query <path_to_database.db> "<delete from table_name where name = '
 # Drop a table
 sqlite-utils drop-table <path_to_database.db> <table_name>
 
-# Show help information
+# Display help
 sqlite-utils -h

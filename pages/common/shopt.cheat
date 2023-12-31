@@ -15,5 +15,5 @@ shopt -u <option_name>
 # Print a list of all options and their status formatted as runnable `shopt` commands
 shopt -p
 
-# Show help for the command
+# Display help for the command
 help shopt

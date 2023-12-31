@@ -9,7 +9,7 @@ bugreportz
 # Show the progress of a running `bugreportz` operation
 bugreportz -p
 
-# Show the version of `bugreportz`
+# Display version
 bugreportz -v
 
 # Display help

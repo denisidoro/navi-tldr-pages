@@ -9,7 +9,7 @@ gpg-tui
 # Start `gpg-tui` with color and ASCII armored output
 gpg-tui --style <colored> --armor
 
-# Show help in `gpg-tui`
+# Display help in `gpg-tui`
 ?
 
 # Quit `gpg-tui`

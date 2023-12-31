@@ -22,7 +22,7 @@ lynx -cookie_file=<path_to_file> <example.com>
 Up arrow key, Down arrow key
 
 # Go back to the previously displayed page
-Left arrow key or u
+Left arrow key OR u
 
 # Exit
 q then y

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ippeveps.md
+
+% ippeveps, common
+
+# Print a file to `stdout` (status and progress messages are sent to `stderr`)
+ippeveps <path_to_file>
+
+# Print a file from `stdin` to `stdout`
+<wget -O - https:__examplewebsite.com_file> | ippeveps

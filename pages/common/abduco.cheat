@@ -13,7 +13,7 @@ abduco -A <name> <bash>
 abduco -A <name>
 
 # Detach from a session
-Ctrl + \
+<Ctrl> + \
 
 # [A]ttach to a session in [r]ead-only mode
 abduco -Ar <name>

@@ -10,7 +10,7 @@ bosh alias-env <environment_name> -e <ip_address|url> --ca-cert <ca_certificate>
 bosh environments
 
 # Log in to the director
-bosh login -e <environment> 
+bosh login -e <environment>
 
 # List deployments
 bosh -e <environment> deployments

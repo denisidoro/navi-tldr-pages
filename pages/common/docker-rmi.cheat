@@ -3,7 +3,7 @@
 
 % docker-rmi, common
 
-# Show help
+# Display help
 docker rmi
 
 # Remove one or more images given their names

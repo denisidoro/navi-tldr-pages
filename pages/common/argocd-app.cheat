@@ -4,7 +4,7 @@
 % argocd-app, common
 
 # List applications
-argocd app list --output <json|yaml|wide> 
+argocd app list --output <json|yaml|wide>
 
 # Get application details
 argocd app get <app_name> --output <json|yaml|wide>

@@ -15,5 +15,5 @@ ninja -C <path_to_directory>
 # Show targets (e.g. `install` and `uninstall`)
 ninja -t targets
 
-# Show help
+# Display help
 ninja -h

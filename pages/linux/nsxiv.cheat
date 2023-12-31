@@ -16,7 +16,7 @@ nsxiv -r <path_to_directory1 path_to_directory2 ...>
 q
 
 # Switch to thumbnail mode or open selected image in image mode
-Return
+<Return>
 
 # Count images forward in image mode
 n

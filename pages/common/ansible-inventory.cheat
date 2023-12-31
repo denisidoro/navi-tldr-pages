@@ -7,7 +7,7 @@
 ansible-inventory --list
 
 # Display a custom inventory
-ansbile-inventory --list --inventory <path_to_file_or_script_or_directory>
+ansible-inventory --list --inventory <path_to_file_or_script_or_directory>
 
 # Display the default inventory in YAML
 ansible-inventory --list --yaml

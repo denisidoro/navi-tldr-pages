@@ -7,13 +7,13 @@
 ghc Main
 
 # Compile a single file
-ghc <file.hs>
+ghc <path_to_file.hs>
 
 # Compile using extra optimization
-ghc -O <file.hs>
+ghc -O <path_to_file.hs>
 
 # Stop compilation after generating object files (.o)
-ghc -c <file.hs>
+ghc -c <path_to_file.hs>
 
 # Start a REPL (interactive shell)
 ghci

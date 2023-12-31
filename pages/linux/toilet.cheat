@@ -13,4 +13,4 @@ toilet <input_text> -f <font_filename>
 toilet <input_text> --filter <filter_name>
 
 # Show available toilet filters
-toilet --filter list 
+toilet --filter list

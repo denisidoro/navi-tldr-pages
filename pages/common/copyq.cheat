@@ -19,7 +19,7 @@ copyq add <firstline\nsecondline>
 copyq read 0 1 2
 
 # Copy a file's contents into the clipboard
-copyq copy < <file.txt>
+copyq copy < <path_to_file.txt>
 
 # Copy a JPEG image into the clipboard
-copyq copy image/jpeg < <image.jpg>
+copyq copy image/jpeg < <path_to_image.jpg>

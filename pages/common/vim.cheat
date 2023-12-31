@@ -16,7 +16,7 @@ vim +<line_number> <path_to_file>
 :wq<Enter>
 
 # Enter normal mode and undo the last operation
-<ESC>u
+<Esc>u
 
 # Search for a pattern in the file (press `n`/`N` to go to next/previous match)
 /<search_pattern><Enter>

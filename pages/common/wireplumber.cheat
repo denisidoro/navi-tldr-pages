@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wireplumber.md
+
+% wireplumber, common
+
+# Make WirePlumber start with the user session immediately (for systemd systems)
+systemctl --user --now enable wireplumber
+
+# Run WirePlumber, after `pipewire` is started (for non-systemd systems)
+wireplumber
+
+# Specify a different context configuration file
+wireplumber --config-file <path_to_file>
+
+# Display help
+wireplumber --help
+
+# Display version
+wirepumbler --version

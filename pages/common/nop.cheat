@@ -9,5 +9,5 @@ nop <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
 # Check one or more graphs for validity, producing no output graph
 nop -p <path_to_input1.gv> <path_to_input2.gv ...>
 
-# Display help for `nop`
+# Display help
 nop -?

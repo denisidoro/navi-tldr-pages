@@ -9,7 +9,7 @@ bpytop
 # Start in minimal mode without memory and networking boxes
 bpytop -m
 
-# Show version
+# Display version
 bpytop -v
 
 # Toggle minimal mode

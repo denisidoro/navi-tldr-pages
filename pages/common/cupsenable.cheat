@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cupsenable.md
+
+% cupsenable, common
+
+# Start one or more destination(s)
+cupsenable <destination1 destination2 ...>
+
+# Resume printing of pending jobs of a destination (use after `cupsdisable` with `--hold`)
+cupsenable --release <destination>
+
+# Cancel all jobs of the specified destination(s)
+cupsenable -c <destination1 destination2 ...>

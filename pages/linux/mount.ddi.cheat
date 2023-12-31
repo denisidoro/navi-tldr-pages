@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mount.ddi.md
+
+% mount.ddi, linux
+
+# Mount an OS image
+mount.ddi <path_to_image.raw> <mnt_image>

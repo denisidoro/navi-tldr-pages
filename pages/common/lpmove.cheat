@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lpmove.md
+
+% lpmove, common
+
+# Move a specific job to `new_printer`
+lpmove <job_id> <new_printer>
+
+# Move a job from `old_printer` to `new_printer`
+lpmove <old_printer>-<job_id> <new_printer>
+
+# Move all jobs from `old_printer` to `new_printer`
+lpmove <old_printer> <new_printer>
+
+# Move a specific job to `new_printer` on a specific server
+lpmove -h <server> <job_id> <new_printer>

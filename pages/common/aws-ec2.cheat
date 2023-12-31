@@ -24,5 +24,5 @@ aws ec2 describe-images
 # Show list of all available EC2 commands
 aws ec2 help
 
-# Show help for specific EC2 subcommand
+# Display help for specific EC2 subcommand
 aws ec2 <subcommand> help

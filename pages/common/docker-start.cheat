@@ -3,7 +3,7 @@
 
 % docker-start, common
 
-# Show help
+# Display help
 docker start
 
 # Start a docker container

@@ -13,7 +13,7 @@ gcloud auth login
 gcloud config set project <project_name>
 
 # SSH into a virtual machine instance
-gcloud compute ssh <user>@<instance> 
+gcloud compute ssh <user>@<instance>
 
 # Display all Google Compute Engine instances in a project. Instances from all zones are listed by default
 gcloud compute instances list
@@ -24,5 +24,5 @@ gcloud container clusters get-credentials <cluster_name>
 # Update all gcloud CLI components
 gcloud components update
 
-# Show help for a given command
+# Display help for a given command
 gcloud help <command>

@@ -7,7 +7,7 @@
 scim <path_to_file.csv>
 
 # Enter a string into the current cell
-< or >
+< OR >
 
 # Enter a numeric constant into the current cell
 =

@@ -3,7 +3,7 @@
 
 % aws-rds, common
 
-# Show help for specific RDS subcommand
+# Display help for specific RDS subcommand
 aws rds <subcommand> help
 
 # Stop instance

@@ -18,5 +18,5 @@ install-tl -init-from-file <path_to_texlive.profile>
 # Start the installer for installation on a portable device, like a USB stick
 install-tl -portable
 
-# Show help for `install-tl`
+# Display help
 install-tl -help

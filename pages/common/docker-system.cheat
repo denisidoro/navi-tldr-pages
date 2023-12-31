@@ -3,7 +3,7 @@
 
 % docker-system, common
 
-# Show help
+# Display help
 docker system
 
 # Show docker disk usage

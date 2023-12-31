@@ -3,17 +3,17 @@
 
 % kubectl-describe, common
 
-# Show details of pods in a namespace
-kubectl describe pods -n <namespace>
+# Show details of pods in a [n]amespace
+kubectl describe pods --namespace <namespace>
 
-# Show details of nodes in a namespace
-kubectl describe nodes -n <namespace>
+# Show details of nodes in a [n]amespace
+kubectl describe nodes --namespace <namespace>
 
-# Show the details of a specific pod in a namespace
-kubectl describe pods <pod_name> -n <namespace>
+# Show the details of a specific pod in a [n]amespace
+kubectl describe pods <pod_name> --namespace <namespace>
 
-# Show the details of a specific node in a namespace
-kubectl describe nodes <node_name> -n <namespace>
+# Show the details of a specific node in a [n]amespace
+kubectl describe nodes <node_name> --namespace <namespace>
 
-# Show details of Kubernetes objects defined in a YAML manifest
-kubectl describe -f <path_to_manifest.yaml>
+# Show details of Kubernetes objects defined in a YAML manifest [f]ile
+kubectl describe --file <path_to_manifest.yaml>

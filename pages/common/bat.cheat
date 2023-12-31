@@ -16,7 +16,7 @@ bat <file1> <file2> >> <target_file>
 bat --number <path_to_file>
 
 # Syntax highlight a JSON file
-bat --language json <file.json>
+bat --language json <path_to_file.json>
 
 # Display all supported languages
 bat --list-languages

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pw-top.md
+
+% pw-top, linux
+
+# Display an interactive view of PipeWire nodes and devices
+pw-top
+
+# Monitor a remote instance
+pw-top --remote <remote_name>
+
+# Print information periodically instead of running in interactive mode
+pw-top --batch-mode
+
+# Print information periodically for a specific number of times
+pw-top --batch-mode --iterations <3>

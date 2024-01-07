@@ -9,8 +9,8 @@ git check-attr --all <path_to_file>
 # Check the value of a specific attribute on a file
 git check-attr <attribute> <path_to_file>
 
-# Check the value of a specific attribute on files
-git check-attr --all <path_to_file1> <path_to_file2>
+# Check the values of all attributes on specific files
+git check-attr --all <path_to_file1 path_to_file2 ...>
 
 # Check the value of a specific attribute on one or more files
-git check-attr <attribute> <path_to_file1> <path_to_file2>
+git check-attr <attribute> <path_to_file1 path_to_file2 ...>

@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/wikit.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wikit.md
 
-% wikit, linux
+% wikit, common
 
 # Show a short summary of a specific topic on Wikipedia
 wikit <topic>

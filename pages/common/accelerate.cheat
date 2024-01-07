@@ -19,4 +19,4 @@ accelerate test --config_file <path_to_config.yaml>
 accelerate launch <path_to_script.py> <--cpu>
 
 # Run a model on multi-GPU with Accelerate, with 2 machines
-accelerate launch <path_to_script.py> --multi_gpu --num_machines <2>
+accelerate launch <path_to_script.py> --multi_gpu --num_machines 2

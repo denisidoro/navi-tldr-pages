@@ -19,4 +19,4 @@ mplayer -loop <0> <path_to_file>
 <Esc>
 
 # Seek backward or forward 10 seconds
-<Left> OR <Right>
+<Left|Right>

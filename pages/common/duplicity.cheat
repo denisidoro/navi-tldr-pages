@@ -16,7 +16,7 @@ FTP_PASSWORD=<webdav_login_password> duplicity remove-older-than <1Y> --force <w
 duplicity collection-status "file://<absolute_path_to_backup_directory>"
 
 # List the files in a backup stored on a remote machine, via ssh
-duplicity list-current-files --time <YYYY-MM-DD> scp://<user@hostname>/path/to/backup/dir
+duplicity list-current-files --time <YYYY-MM-DD> scp://<user@hostname>/<path_to_backup_dir>
 
 # Restore a subdirectory from a GnuPG-encrypted local backup to a given location
 PASSPHRASE=<gpg_key_password> duplicity restore --encrypt-key <gpg_key_id> --file-to-restore <relative_path_restoredirectory> file://<absolute_path_to_backup_directory> <path_to_directory_to_restore_to>

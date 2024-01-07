@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/lsappinfo.md
+
+% lsappinfo, osx
+
+# List all running applications with their details
+lsappinfo list
+
+# Show the front application
+lsappinfo front
+
+# Show the information for a specific application
+lsappinfo info <com.apple.calculator>

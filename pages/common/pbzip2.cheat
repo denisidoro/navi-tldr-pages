@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbzip2.md
+
+% pbzip2, common
+
+# Compress a file
+pbzip2 <path_to_file>
+
+# Compress a file using the specified number of processors
+pbzip2 -p<4> <path_to_file>
+
+# [d]ecompress a file
+pbzip2 --decompress <path_to_compressed_file.bz2>
+
+# Display help
+pbzip2 -h

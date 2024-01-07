@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/picgo.md
+
+% picgo, common
+
+# Interactively select a hosting service
+picgo set uploader
+
+# Upload the image in current clipboard
+picgo upload
+
+# Upload an image from a specific path
+picgo upload <path_to_image>

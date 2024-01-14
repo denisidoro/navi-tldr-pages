@@ -3,14 +3,14 @@
 
 % export, linux
 
-# Set a new environment variable
+# Set an environment variable
 export <VARIABLE>=<value>
 
-# Remove an environment variable
+# Unset an environment variable
 export -n <VARIABLE>
 
-# Mark a shell function for export
+# Export a function to child processes
 export -f <FUNCTION_NAME>
 
-# Append something to the PATH variable
+# Append a pathname to the environment variable `PATH`
 export PATH=$PATH:<path_to_append>

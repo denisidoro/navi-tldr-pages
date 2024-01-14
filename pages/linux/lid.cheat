@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lid.md
+
+% lid, linux
+
+# View documentation for `libuser-lid`
+tldr libuser-lid

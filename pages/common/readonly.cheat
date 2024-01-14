@@ -3,7 +3,7 @@
 
 % readonly, common
 
-# Create a read-only variable
+# Set a read-only variable
 readonly <variable_name>=<value>
 
 # Mark a variable as read-only

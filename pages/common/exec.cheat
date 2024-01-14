@@ -3,5 +3,5 @@
 
 % exec, common
 
-# Replace with the specified command using the current environment variables
+# Execute a specific command using the current environment variables
 exec <command -with -flags>

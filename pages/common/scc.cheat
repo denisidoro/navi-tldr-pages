@@ -16,7 +16,7 @@ scc --by-file
 scc --format <tabular|wide|json|csv|cloc-yaml|html|html-table>
 
 # Only count files with specific file extensions
-scc --include-ext <go, java, js>
+scc --include-ext <go,java,js>
 
 # Exclude directories from being counted
 scc --exclude-dir <.git,.hg>

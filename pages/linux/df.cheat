@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/df.md
+
+% df, linux
+
+# Display all filesystems and their disk usage
+df
+
+# Display all filesystems and their disk usage in human-readable form
+df -h
+
+# Display the filesystem and its disk usage containing the given file or directory
+df <path_to_file_or_directory>
+
+# Include statistics on the number of free inodes
+df -i
+
+# Display filesystems but exclude the specified types
+df -x <squashfs> -x <tmpfs>

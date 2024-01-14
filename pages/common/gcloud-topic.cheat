@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcloud-topic.md
+
+% gcloud-topic, common
+
+# View supplementary help material for non-command topics like accessibility, filtering, and formatting
+gcloud topic <topic_name>
+
+# List all available topics
+gcloud topic --help

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcloud-projects.md
+
+% gcloud-projects, common
+
+# Create a new project
+gcloud projects create <project_id|project_number>
+
+# List all active projects
+gcloud projects list
+
+# Display metadata for a project
+gcloud projects describe <project_id>
+
+# Delete a project
+gcloud projects delete <project_id|project_number>
+
+# Add an IAM policy binding to a specified project
+gcloud projects add-iam-policy-binding <project_id> --member <principal> --role <role>

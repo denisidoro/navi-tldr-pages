@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tidy.md
+
+% tidy, common
+
+# Pretty print an HTML file
+tidy <path_to_file.html>
+
+# Enable [i]ndentation, [w]rapping lines in 100, saving to `output.html`
+tidy --indent y --wrap 100 -output <path_to_output.html> <path_to_file.html>
+
+# Modify an HTML file in-place using a configuration file
+tidy -config <path_to_configuration> -modify <path_to_file.html>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/netserver.md
+
+% netserver, common
+
+# Start a server on the default port (12865) and fork to background
+netserver
+
+# Start server in foreground and do not fork
+netserver -D
+
+# Specify [p]ort
+netserver -p <port>
+
+# Force IPv[4] or IPv[6]
+netserver -<4|6>

@@ -18,8 +18,8 @@ cp -vr <path_to_source_directory> <path_to_target_directory>
 # Copy multiple files at once to a directory
 cp -t <path_to_destination_directory> <path_to_file1 path_to_file2 ...>
 
-# Copy text files to another location, in interactive mode (prompts user before overwriting)
-cp -i <*.txt> <path_to_target_directory>
+# Copy all files with a specific extension to another location, in interactive mode (prompts user before overwriting)
+cp -i <*.ext> <path_to_target_directory>
 
 # Follow symbolic links before copying
 cp -L <link> <path_to_target_directory>

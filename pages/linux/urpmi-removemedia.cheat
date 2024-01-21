@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmi-removemedia.md
+
+% urpmi-removemedia, linux
+
+# Remove a medium
+sudo urpmi.removemedia <medium>
+
+# Remove all media
+sudo urpmi.removemedia -a
+
+# Remove media fuzz[y] matching on media names
+sudo urpmi.removemedia -y <keyword>

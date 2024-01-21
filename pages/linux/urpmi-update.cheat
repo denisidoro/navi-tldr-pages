@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmi-update.md
+
+% urpmi-update, linux
+
+# Update all enabled media
+urpmi.update -a
+
+# Update specific media (including disabled media)
+urpmi.update <medium1 medium2 ...>
+
+# Update all media that contain a specific keyword
+urpmi.update <keyword>
+
+# Update all configured media
+urpmi.update e

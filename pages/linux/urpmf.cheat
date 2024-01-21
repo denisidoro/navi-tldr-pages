@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmf.md
+
+% urpmf, linux
+
+# Search for packages that contain a file
+urpmf <filename>
+
+# Search for packages that contain both a keyword [a]nd another in their summaries
+urpmf --summary <keyword1> -a <keyword2>
+
+# Search for packages that contain a keyword [o]r another in their descriptions
+urpmf --description <keyword1> -o <keyword2>
+
+# Search for packages that do not contain a keyword in their name ignoring case distinction using "|" as the [F]ield separator (":" by default)
+urpmf --description ! <keyword> -F'|'

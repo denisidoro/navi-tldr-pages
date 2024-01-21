@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/picocom.md
+
+% picocom, common
+
+# Connect to a serial console with a specified baud rate
+picocom <dev_ttyXYZ> --baud <baud_rate>
+
+# Map special characters (e.g. `LF` to `CRLF`)
+picocom <dev_ttyXYZ> --imap <lfcrlf>

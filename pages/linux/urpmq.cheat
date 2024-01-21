@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmq.md
+
+% urpmq, linux
+
+# Display information about an installable package
+urpmq -i <package>
+
+# Display direct dependencies of a package
+urpmq --requires <package>
+
+# Display direct and indirect dependencies of a package
+urpmq --requires-recursive <package>
+
+# List the not installed packages needed for an RPM file with their sources
+sudo urpmq --requires-recursive -m --sources <path_to_file.rpm>
+
+# List all configured media with their URLs, including inactive media
+urpmq --list-media --list-url
+
+# Search for a package printing [g]roup, version and [r]elease
+urpmq -g -r --fuzzy <keyword>
+
+# Search for a package with using its exact name
+urpmq -g -r <package>

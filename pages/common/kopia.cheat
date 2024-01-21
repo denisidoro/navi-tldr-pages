@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kopia.md
+
+% kopia, common
+
+# Create a repository in the local filesystem
+kopia repository create filesystem --path <path_to_local_repository>
+
+# Create a repository on Amazon S3
+kopia repository create s3 --bucket <bucket_name> --access-key <AWS_access_key_id> --secret-access-key <AWS_secret_access_key>
+
+# Connect to a repository
+kopia repository connect <repository_type> --path <path_to_repository>
+
+# Create a snapshot of a directory
+kopia snapshot create <path_to_directory>
+
+# List snapshots
+kopia snapshot list
+
+# Restore a snapshot to a specific directory
+kopia snapshot restore <snapshot_id> <path_to_target_directory>
+
+# Create a new policy
+kopia policy set --global --keep-latest <number_of_snapshots_to_keep> --compression <compression_algorithm>
+
+# Ignore a specific file or folder from backups
+kopia policy set --global --add-ignore <path_to_file_or_folder>

@@ -18,7 +18,7 @@ phpcs <path_to_directory> --extensions <file_extension(s)>
 # Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`)
 phpcs <path_to_directory> --report <format>
 
-# Set config variables to be used during the process
+# Set configuration variables to be used during the process
 phpcs <path_to_directory> --config-set <key> <value>
 
 # A comma-separated list of files to load before processing

@@ -3,8 +3,8 @@
 
 % toolbox-rmi, linux
 
-# Remove a `toolbox` image
-toolbox rmi <image_name>
+# Remove one or more `toolbox` image
+toolbox rmi <image_name1 image_name2 ...>
 
 # Remove all `toolbox` images
 toolbox rmi --all

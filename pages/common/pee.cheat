@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pee.md
+
+% pee, common
+
+# Run each command, providing each one with a distinct copy of `stdin`
+pee <command1 command2 ...>
+
+# Write a copy of `stdin` to `stdout` (like `tee`)
+pee cat <command1 command2 ...>
+
+# Immediately terminate upon SIGPIPEs and write errors
+pee --no-ignore-sigpipe --no-ignore-write-errors <command1 command2 ...>

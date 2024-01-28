@@ -6,7 +6,7 @@
 # Specify the storage directory (default: `/data/db` on Linux and MacOS, `C:\data\db` on Windows)
 mongod --dbpath <path_to_directory>
 
-# Specify a config file
+# Specify a configuration file
 mongod --config <path_to_file>
 
 # Specify the port to listen on (default: 27017)

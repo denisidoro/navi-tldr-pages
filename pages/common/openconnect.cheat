@@ -12,7 +12,7 @@ openconnect --background <vpn.example.org>
 # Terminate the connection that is running in the background
 killall -SIGINT openconnect
 
-# Connect to a server, reading options from a config file
+# Connect to a server, reading options from a configuration file
 openconnect --config=<path_to_file> <vpn.example.org>
 
 # Connect to a server and authenticate with a specific SSL client certificate

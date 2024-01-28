@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rpicam-hello.md
+
+% rpicam-hello, linux
+
+# Display a camera preview stream for a specific amount of time (in milliseconds)
+rpicam-hello -t <time>
+
+# Tune the configuration for a particular camera sensor
+rpicam-hello --tuning-file <usr_share_libcamera_ipa_rpi_path_to_config.json>

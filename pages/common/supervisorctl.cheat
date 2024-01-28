@@ -18,5 +18,5 @@ supervisorctl tail -100 <process_name> stderr
 # Keep displaying `stdout` of a process
 supervisorctl tail -f <process_name> stdout
 
-# Reload process config file to add/remove processes as necessary
+# Reload process configuration file to add/remove processes as necessary
 supervisorctl update

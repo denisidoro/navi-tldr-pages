@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/combine.md
+
+% combine, common
+
+# Output lines that are in both specified files
+combine <path_to_file1> and <path_to_file2>
+
+# Output lines that are in the first but not in the second file
+combine <path_to_file1> not <path_to_file2>
+
+# Output lines that in are in either of the specified files
+combine <path_to_file1> or <path_to_file2>
+
+# Output lines that are in exactly one of the specified files
+combine <path_to_file1> xor <path_to_file2>

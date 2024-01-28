@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rpicam-jpeg.md
+
+% rpicam-jpeg, linux
+
+# Capture an image and name the file
+rpicam-jpeg -o <path_to_file.jpg>
+
+# Capture an image with set dimensions
+rpicam-jpeg -o <path_to_file.jpg> --width <1920> --height <1080>
+
+# Capture an image with an exposure of 20 seconds and a gain of 150%
+rpicam-jpeg -o <path_to_file.jpg> --shutter 20000 --gain 1.5

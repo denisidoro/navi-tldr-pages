@@ -12,7 +12,7 @@ pint -v
 # Execute code style linting without applying changes
 pint --test
 
-# Execute code style fixes using a specific config file
+# Execute code style fixes using a specific configuration file
 pint --config <path_to_pint.json>
 
 # Execute code style fixes using a specific preset

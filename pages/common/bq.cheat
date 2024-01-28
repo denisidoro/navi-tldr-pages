@@ -21,5 +21,5 @@ bq load --location=<location> --source_format=<CSV|JSON|PARQUET|AVRO> <dataset>.
 # Copy one table to another
 bq cp <dataset>.<OLD_TABLE> <dataset>.<new_table>
 
-# Print help
+# Display help
 bq help

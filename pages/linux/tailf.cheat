@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/tailf.md
+
+% tailf, linux
+
+# View documentation for the recommended replacement
+tldr tail

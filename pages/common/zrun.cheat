@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zrun.md
+
+% zrun, common
+
+# Run the specified command with uncompressed versions of the compressed argument files
+zrun <cat path_to_file1.gz path_to_file2.bz2 ...>

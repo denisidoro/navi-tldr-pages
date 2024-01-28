@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rpicam-still.md
+
+% rpicam-still, linux
+
+# Capture a photo with different encoding
+rpicam-still -e <bmp|png|rgb|yuv420> -o <path_to_file.{{bmp|png|rgb|yuv420>}}
+
+# Capture a raw image
+rpicam-still -r -o <path_to_file.jpg>
+
+# Capture a 100 second exposure image
+rpicam-still -o <path_to_file.jpg> --shutter 100000

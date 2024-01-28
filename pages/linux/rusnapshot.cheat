@@ -3,7 +3,7 @@
 
 % rusnapshot, linux
 
-# Create a snapshot using a config file
+# Create a snapshot using a configuration file
 sudo rusnapshot --config <path_to_config.toml> --cr
 
 # List created snapshots

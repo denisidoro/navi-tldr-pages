@@ -3,7 +3,7 @@
 
 % nginx, common
 
-# Start server with the default config file
+# Start server with the default configuration file
 nginx
 
 # Start server with a custom configuration file

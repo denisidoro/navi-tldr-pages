@@ -9,7 +9,7 @@ ffe --configuration=<path_to_config.ffe> <path_to_input>
 # Convert an input file to an output file in a new format
 ffe --output=<path_to_output> -c <path_to_config.ffe> <path_to_input>
 
-# Select input structure and print format from definitions in `~/.fferc` config file
+# Select input structure and print format from definitions in `~/.fferc` configuration file
 ffe --structure=<structure> --print=<format> <path_to_input>
 
 # Write only the selected fields

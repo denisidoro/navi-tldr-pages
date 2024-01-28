@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/waitpid.md
+
+% waitpid, linux
+
+# Sleep until all processes whose PIDs have been specified have exited
+waitpid <pid1 pid2 ...>
+
+# Sleep for at most `n` seconds
+waitpid --timeout <n> <pid1 pid2 ...>
+
+# Do not error if specified PIDs have already exited
+waitpid --exited <pid1 pid2 ...>
+
+# Sleep until `n` of the specified processes have exited
+waitpid --count <n> <pid1 pid2 ...>
+
+# Display help
+waitpid -h

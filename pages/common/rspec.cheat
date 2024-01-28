@@ -3,7 +3,7 @@
 
 % rspec, common
 
-# Initialize an .rspec config and a spec helper file
+# Initialize an .rspec configuration and a spec helper file
 rspec --init
 
 # Run all tests

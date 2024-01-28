@@ -18,7 +18,7 @@ phing -f <path_to_build.xml> <task_name>
 # Specify a log file to output to
 phing -b <path_to_log_file> <task_name>
 
-# Specify custom properties to use in the build
+# Use custom properties in the build
 phing -D<property>=<value> <task_name>
 
 # Specify a custom listener class

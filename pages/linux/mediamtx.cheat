@@ -6,7 +6,7 @@
 # Run MediaMTX
 mediamtx
 
-# Run MediaMTX with a custom config location
+# Run MediaMTX with a custom configuration location
 mediamtx <path_to_config>.yml
 
 # Start MediaMTX as a daemon

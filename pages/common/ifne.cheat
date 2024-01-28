@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ifne.md
+
+% ifne, common
+
+# Run the specified command if and only if `stdin` is not empty
+ifne <command options ...>
+
+# Run the specified command if and only if `stdin` is empty, otherwise pass `stdin` to `stdout`
+ifne -n <command options ...>

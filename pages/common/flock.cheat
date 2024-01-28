@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/flock.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/flock.md
 
-% flock, linux
+% flock, common
 
 # Run a command with a file lock as soon as the lock is not required by others
 flock <path_to_lock.lock> --command "<command>"

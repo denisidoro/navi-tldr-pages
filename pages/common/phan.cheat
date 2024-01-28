@@ -15,7 +15,7 @@ phan
 # Analyze one or more directories
 phan --directory <path_to_directory> --directory <path_to_another_directory>
 
-# Specify a config file (defaults to `.phan/config.php`)
+# Specify a configuration file (defaults to `.phan/config.php`)
 phan --config-file <path_to_config.php>
 
 # Specify the output mode

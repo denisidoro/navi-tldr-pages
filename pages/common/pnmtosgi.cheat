@@ -6,7 +6,7 @@
 # Convert a PNM image to an SGI image
 pnmtosgi <path_to_input.pnm> > <path_to_output.sgi>
 
-# Specify whether or not compression should be used
+# Disable or enable compression
 pnmtosgi -<verbatim|rle> <path_to_input.pnm> > <path_to_output.sgi>
 
 # Write the specified string into the SGI image header's `imagename` field

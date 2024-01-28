@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rpicam-raw.md
+
+% rpicam-raw, linux
+
+# Capture a video for a specific amount of seconds
+rpicam-raw -t <2000>} -o <path_to_file.raw>
+
+# Change video dimensions and framerate
+rpicam-raw -t <5000> --width <4056> --height <3040> -o <path_to_file.raw> --framerate <8>

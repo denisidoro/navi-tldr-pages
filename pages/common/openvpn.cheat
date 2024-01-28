@@ -3,7 +3,7 @@
 
 % openvpn, common
 
-# Connect to server using a config file
+# Connect to server using a configuration file
 sudo openvpn <path_to_client.conf>
 
 # Try to set up an insecure peer-to-peer tunnel on bob.example.com host

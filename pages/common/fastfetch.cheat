@@ -9,7 +9,7 @@ fastfetch
 # Set the structure of the fetch
 fastfetch --structure <structure>
 
-# Load a custom config file
+# Load a custom configuration file
 fastfetch --load-config <path_to_config_file>
 
 # Set the logo to use

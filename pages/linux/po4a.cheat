@@ -3,5 +3,5 @@
 
 % po4a, linux
 
-# Update PO files and documents according to the specified config file
+# Update PO files and documents according to the specified configuration file
 po4a <path_to_config_file>

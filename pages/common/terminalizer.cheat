@@ -3,7 +3,7 @@
 
 % terminalizer, common
 
-# Create the global config directory
+# Create the global configuration directory
 terminalizer init
 
 # Record the terminal and create a recording file

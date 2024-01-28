@@ -12,5 +12,5 @@ tslint <path_to_file1.js path_to_file2.js ...>
 # Fix lint issues
 tslint --fix
 
-# Lint with the config file in the project root
+# Lint with the configuration file in the project root
 tslint --project <path_to_project_root>

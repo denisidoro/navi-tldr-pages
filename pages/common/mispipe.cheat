@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mispipe.md
+
+% mispipe, common
+
+# Pipe two commands and return the exit status of the first command
+mispipe <command1> <command2>

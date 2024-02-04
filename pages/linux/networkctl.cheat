@@ -3,7 +3,7 @@
 
 % networkctl, linux
 
-# Show a list of existing links and their status
+# List existing links with their status
 networkctl list
 
 # Show an overall network status

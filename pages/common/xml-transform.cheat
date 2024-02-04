@@ -6,5 +6,5 @@
 # Transform an XML document using an XSL stylesheet, passing one XPATH parameter and one literal string parameter
 xml transform <path_to_stylesheet.xsl> -p "<Count='count(_xml_table_rec)'>" -s <Text="Count="> <path_to_input.xml|URI>
 
-# Display help for the `transform` subcommand
+# Display help
 xml transform --help

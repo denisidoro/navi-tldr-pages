@@ -9,5 +9,5 @@ makensis <path_to_file.nsi>
 # Compile a NSIS script in strict mode (treat warnings as errors)
 makensis -WX <path_to_file.nsi>
 
-# Print help for a specific command
+# Display help for a specific command
 makensis -CMDHELP <command>

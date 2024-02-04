@@ -12,5 +12,5 @@ ccomps -v -s <path_to_input1.gv> <path_to_input2.gv ...>
 # Write each connected component to numbered filenames based on `output.gv`
 ccomps -x -o <path_to_output.gv> <path_to_input1.gv> <path_to_input2.gv ...>
 
-# Display help for `ccomps`
+# Display help
 ccomps -?

@@ -12,5 +12,5 @@ django-admin startapp <app_name>
 # Check the current version of Django
 django-admin --version
 
-# Display more information for the given command
+# Display help for a specific command
 django-admin help <command>

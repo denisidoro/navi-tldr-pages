@@ -10,10 +10,10 @@ asciinema auth
 asciinema rec
 
 # Make a new recording and save it to a local file
-asciinema rec <path_to_file>.cast
+asciinema rec <path_to_file.cast>
 
 # Replay a terminal recording from a local file
-asciinema play <path_to_file>.cast
+asciinema play <path_to_file.cast>
 
 # Replay a terminal recording hosted on asciinema.org
 asciinema play https://asciinema.org/a/<cast_id>
@@ -22,7 +22,7 @@ asciinema play https://asciinema.org/a/<cast_id>
 asciinema rec -i <2.5>
 
 # Print the full output of a locally saved recording
-asciinema cat <path_to_file>.cast
+asciinema cat <path_to_file.cast>
 
 # Upload a locally saved terminal session to asciinema.org
-asciinema upload <path_to_file>.cast
+asciinema upload <path_to_file.cast>

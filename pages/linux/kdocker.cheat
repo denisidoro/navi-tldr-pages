@@ -18,5 +18,5 @@ kdocker -i <path_to_icon>
 # Open an application, send it to the system tray and if focus is lost, minimize it
 kdocker -l <application>
 
-# Print version
+# Display version
 kdocker --version

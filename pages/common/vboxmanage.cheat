@@ -3,14 +3,14 @@
 
 % vboxmanage, common
 
-# Display version
-VBoxManage --version
+# Execute a VboxManage subcommand
+VBoxManage <subcommand>
 
 # Display help
 VBoxManage --help
 
-# Display help for a VBoxManage subcommand (like `starvm`, `clonevm`, `import`, `export`, etc.)
-VBoxManage --help <subcommand>
+# Display help for a specific subcommand
+VBoxManage --help <clonevm|import|export|startvm|...>
 
-# Execute a VboxManage subcommand
-VBoxManage <subcommand>
+# Display version
+VBoxManage --version

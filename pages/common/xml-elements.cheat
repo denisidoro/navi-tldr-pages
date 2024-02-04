@@ -18,5 +18,5 @@ xml elements -u <path_to_input.xml|URI>
 # Print sorted unique elements from an XML document up to a depth of 3
 xml elements -d<3> <path_to_input.xml|URI>
 
-# Display help for the `elements` subcommand
+# Display help
 xml elements --help

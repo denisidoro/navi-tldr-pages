@@ -18,5 +18,5 @@ sudo iftop -b
 # Do not look up hostnames
 sudo iftop -n
 
-# Get help about interactive commands
+# Display help
 ?

@@ -9,7 +9,7 @@ $PSVersionTable
 # Get the detailed (major, minor, build, and revision) version number of PowerShell
 $PSVersionTable.PSVersion
 
-# Get a list of supported PowerShell script versions that this PowerShell version supports
+# List all supported PowerShell script versions that this PowerShell version supports
 $PSVersionTable.PSCompatibleVersions
 
 # Get the latest Git commit ID where the currently-installed PowerShell version is based on (works on PowerShell 6.0 and later)

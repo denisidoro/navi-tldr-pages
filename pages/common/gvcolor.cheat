@@ -9,5 +9,5 @@ gvcolor <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
 # Lay out a graph and colorize it, then convert to a PNG image
 dot <path_to_input.gv> | gvcolor | dot -T <png> > <path_to_output.png>
 
-# Display help for `gvcolor`
+# Display help
 gvcolor -?

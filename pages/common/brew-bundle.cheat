@@ -18,5 +18,5 @@ brew bundle cleanup --force
 # Check if there is anything to install or upgrade in the Brewfile
 brew bundle check
 
-# Output a list of all entries in the Brewfile
+# List all entries in the Brewfile
 brew bundle list --all

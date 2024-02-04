@@ -9,5 +9,5 @@ i3status
 # Print the status line to `stdout` periodically, using a specific configuration
 i3status -c <path_to_i3status.conf>
 
-# Display the `i3status` version and help
+# Display help and version
 i3status -h

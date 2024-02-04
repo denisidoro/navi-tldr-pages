@@ -12,7 +12,7 @@ eget <https:__go.dev_dl_go1.17.5.linux-amd64.tar.gz>
 # Specify the location to place the downloaded files
 eget <zyedidia_micro> --to=<path_to_directory>
 
-# Specify a `git` tag instead of using the latest version
+# Specify a Git tag instead of using the latest version
 eget <zyedidia_micro> --tag=<v2.0.10>
 
 # Install the latest pre-release instead of the latest stable version

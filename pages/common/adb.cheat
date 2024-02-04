@@ -21,5 +21,5 @@ adb pull <path_to_device_file_or_directory> <path_to_local_destination_directory
 # Copy a file/directory to the target device
 adb push <path_to_local_file_or_directory> <path_to_device_destination_directory>
 
-# Get a list of connected devices
+# List all connected devices
 adb devices

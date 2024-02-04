@@ -9,5 +9,5 @@ sudo grub-mkconfig
 # Generate the configuration file
 sudo grub-mkconfig --output=<boot_grub_grub.cfg>
 
-# Print the help page
+# Display help
 grub-mkconfig --help

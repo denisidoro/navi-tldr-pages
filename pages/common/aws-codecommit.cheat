@@ -3,8 +3,8 @@
 
 % aws-codecommit, common
 
-# Display help for a specific command
-aws codecommit <command> help
-
 # Display help
 aws codecommit help
+
+# Display help for a specific command
+aws codecommit <command> help

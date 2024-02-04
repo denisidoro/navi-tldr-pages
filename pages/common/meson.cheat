@@ -18,5 +18,5 @@ meson test
 # Show the help
 meson --help
 
-# Show version info
+# Display version
 meson --version

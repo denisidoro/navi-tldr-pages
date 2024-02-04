@@ -15,5 +15,5 @@ help2man <executable> --section <section>
 # Output to a file instead of `stdout`
 help2man <executable> --output <path_to_file>
 
-# Display detailed help
+# Display help
 help2man --help

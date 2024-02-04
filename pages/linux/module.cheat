@@ -22,4 +22,4 @@ module unload <module_name>
 module purge
 
 # Specify user-created modules
-module use <path_to_modulefiles>
+module use <path_to_module_file1 path_to_module_file2 ...>

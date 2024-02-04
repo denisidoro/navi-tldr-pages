@@ -3,17 +3,14 @@
 
 % conda-install, common
 
-# Install a single package into the currently active conda environment
-conda install <package>
+# Install one or more package into the currently active conda environment
+conda install <package1 package2 ...>
 
 # Install a single package into the currently active conda environment using channel conda-forge
 conda install -c conda-forge <package>
 
 # Install a single package into the currently active conda environment using channel conda-forge and ignoring other channels
 conda install -c conda-forge --override-channels <package>
-
-# Install multiple packages
-conda install <package1 package2 ...>
 
 # Install a specific version of a package
 conda install <package>=<version>

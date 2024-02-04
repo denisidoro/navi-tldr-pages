@@ -18,7 +18,7 @@ pacstrap -C <path_to_pacman.conf> <path_to_new_root> <packages>
 # Install packages using the package cache on the host instead of on the target
 pacstrap -c <path_to_new_root> <packages>
 
-# Install packages without copy the host's pacman keyring to the target
+# Install packages without copy the host's `pacman` keyring to the target
 pacstrap -G <path_to_new_root> <packages>
 
 # Install packages in interactive mode (prompts for confirmation)

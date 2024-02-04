@@ -7,7 +7,7 @@
 javac <path_to_file.java>
 
 # Compile several `.java` files
-javac <path_to_file1.java> <path_to_file2.java> <path_to_file3.java>
+javac <path_to_file1.java path_to_file2.java ...>
 
 # Compile all `.java` files in current directory
 javac <*.java>

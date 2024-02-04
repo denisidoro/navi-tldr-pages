@@ -3,7 +3,7 @@
 
 % gcloud-version, common
 
-# Print the version information for all installed components, along with available updates to them
+# Display version information for all installed components, along with available updates to them
 gcloud version
 
 # Display help

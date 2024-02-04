@@ -18,7 +18,7 @@ evil-winrm --ip <ip> --user <user> --password <password> --ssl --pub-key <path_t
 # Upload a file to the host
 PS > upload <path_to_local_file> <path_to_remote_file>
 
-# Get a list of loaded PowerShell functions
+# List all loaded PowerShell functions
 PS > menu
 
 # Load a PowerShell script from the `--scripts` directory

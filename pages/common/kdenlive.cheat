@@ -7,7 +7,7 @@
 kdenlive
 
 # Open a specific file
-kdenlive <path_to_file>.kdenlive
+kdenlive <path_to_file.kdenlive>
 
 # Set a specific path for an MLT environment
 kdenlive --mlt-path <path_to_directory>

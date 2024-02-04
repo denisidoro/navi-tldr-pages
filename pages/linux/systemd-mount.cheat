@@ -9,7 +9,7 @@ systemd-mount <path_to_file_or_device>
 # Mount a file system (image or block device) at a specific location
 systemd-mount <path_to_file_or_device> <path_to_mount_point>
 
-# Show a list of all local, known block devices with file systems that may be mounted
+# List all local, known block devices with file systems that may be mounted
 systemd-mount --list
 
 # Create an automount point that mounts the actual file system at the time of first access

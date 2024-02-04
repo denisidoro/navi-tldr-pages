@@ -9,7 +9,7 @@ pvecm add <hostname_or_ip>
 # Add a node to the cluster configuration (internal use)
 pvecm addnode <node>
 
-# Return the version of the cluster join API available on this node
+# Display the version of the cluster join API available on this node
 pvecm apiver
 
 # Generate new cluster configuration

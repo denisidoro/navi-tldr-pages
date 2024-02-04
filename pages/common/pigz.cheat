@@ -13,7 +13,7 @@ pigz -9 <path_to_file>
 pigz -0 -p<4> <path_to_file>
 
 # Compress a directory using tar
-tar cf - <path_to_directory> | pigz > <path_to_file>.tar.gz
+tar cf - <path_to_directory> | pigz > <path_to_file.tar.gz>
 
 # Decompress a file
 pigz -d <archive.gz>

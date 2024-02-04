@@ -3,10 +3,7 @@
 
 % javap, common
 
-# Disassemble and list a `.class` file
-javap <path_to_file.class>
-
-# Disassemble and list multiple `.class` files
+# Disassemble and list one or more `.class` files
 javap <path_to_file1.class path_to_file2.class ...>
 
 # Disassemble and list a built-in class file

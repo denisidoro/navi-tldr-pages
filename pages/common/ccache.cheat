@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ccache.md
+
+% ccache, common
+
+# Show current cache [s]tatistics
+ccache --show-stats
+
+# [C]lear all cache
+ccache --clear
+
+# Reset ([z]ero) statistics (but not cache itself)
+ccache --zero-stats
+
+# Compile C code and cache compiled output (to use `ccache` on all `gcc` invocations, see the note above)
+ccache gcc <path_to_file.c>

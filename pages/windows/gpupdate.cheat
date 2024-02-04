@@ -12,5 +12,5 @@ gpupdate /target:<computer|user>
 # Force all Group Policy settings to be reapplied
 gpupdate /force
 
-# Display detailed usage information
+# Display help
 gpupdate /?

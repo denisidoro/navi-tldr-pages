@@ -3,7 +3,7 @@
 
 % az-account, common
 
-# Print a list of subscriptions for the logged in account
+# List all subscriptions for the logged in account
 az account list
 
 # Set a `subscription` to be the currently active subscription

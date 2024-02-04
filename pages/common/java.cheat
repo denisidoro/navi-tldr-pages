@@ -3,10 +3,10 @@
 
 % java, common
 
-# Execute a java `.class` file that contains a main method by using just the class name
+# Execute a Java `.class` file that contains a main method by using just the class name
 java <classname>
 
-# Execute a java program and use additional third-party or user-defined classes
+# Execute a Java program and use additional third-party or user-defined classes
 java -classpath <path_to_classes1>:<path_to_classes2>:. <classname>
 
 # Execute a `.jar` program
@@ -18,5 +18,5 @@ java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar <
 # Display JDK, JRE and HotSpot versions
 java -version
 
-# Display usage information for the java command
+# Display help
 java -help

@@ -12,5 +12,5 @@ cryfs-unmount <path_to_mount_point>
 # Automatically unmount after ten minutes of inactivity
 cryfs --unmount-idle <10> <path_to_cipher_dir> <path_to_mount_point>
 
-# Show a list of supported ciphers
+# List supported ciphers
 cryfs --show-ciphers

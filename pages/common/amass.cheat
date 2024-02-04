@@ -6,7 +6,7 @@
 # Execute an Amass subcommand
 amass <subcommand>
 
-# Show general help
+# Display help
 amass -help
 
 # Display help on an Amass subcommand (like `intel`, `enum`, etc.)

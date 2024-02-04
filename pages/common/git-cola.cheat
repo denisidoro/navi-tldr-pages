@@ -3,10 +3,10 @@
 
 % git-cola, common
 
-# Start git cola
+# Start the GUI
 git cola
 
-# Start git cola in amend mode
+# Start the GUI in amend mode
 git cola --amend
 
 # Prompt for a Git repository. Defaults to the current directory

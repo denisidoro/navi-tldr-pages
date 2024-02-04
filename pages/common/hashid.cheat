@@ -6,8 +6,8 @@
 # Identify hashes from `stdin` (through typing, copying and pasting, or piping the hash into the program)
 hashid
 
-# Identify hashes passed as arguments (multiple hashes can be passed)
-hashid <hash>
+# Identify one or more hashes
+hashid <hash1 hash2 ...>
 
 # Identify hashes on a file (one hash per line)
 hashid <path_to_hashes.txt>

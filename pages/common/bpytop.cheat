@@ -9,9 +9,6 @@ bpytop
 # Start in minimal mode without memory and networking boxes
 bpytop -m
 
-# Display version
-bpytop -v
-
 # Toggle minimal mode
 m
 
@@ -20,3 +17,6 @@ f
 
 # Change settings
 M
+
+# Display version
+bpytop -v

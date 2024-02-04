@@ -18,5 +18,5 @@ xml edit --rename "<xml_table_rec>" -v "<record>" <path_to_input.xml|URI>
 # Update the XML table record with "id=3" to the value "id=5"
 xml edit --update "<xml_table_rec[@id=3]_@id>" -v <5> <path_to_input.xml|URI>
 
-# Display help for the `edit` subcommand
+# Display help
 xml edit --help

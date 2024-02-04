@@ -18,5 +18,5 @@ cat <path\to\input.xml> | xml format --dropdtd > <path_to_output.xml>
 # Format an XML document, omitting the XML declaration
 xml format --omit-decl <path\to\input.xml|URI> > <path_to_output.xml>
 
-# Display help for the `format` subcommand
+# Display help
 xml format --help

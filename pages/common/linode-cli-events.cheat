@@ -3,7 +3,7 @@
 
 % linode-cli-events, common
 
-# View a list of events on your account
+# List the events on your account
 linode-cli events list
 
 # View details about a specific event

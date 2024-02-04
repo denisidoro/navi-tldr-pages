@@ -18,7 +18,7 @@ monodis --assemblyref <path_to_assembly.exe>
 # List all the methods in an assembly
 monodis --method <path_to_assembly.exe>
 
-# Show a list of resources embedded within an assembly
+# List resources embedded within an assembly
 monodis --manifest <path_to_assembly.dll>
 
 # Extract all the embedded resources to the current directory

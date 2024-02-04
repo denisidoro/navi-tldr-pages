@@ -15,5 +15,5 @@ pastel pick
 # Generate a set of N visually distinct colors
 pastel distinct <8>
 
-# Get a list of all X11/CSS color names
+# List all X11/CSS color names
 pastel list

@@ -18,7 +18,7 @@ clamscan --database <path_to_database_file_or_directory>
 # Scan the current directory and output only infected files
 clamscan --infected
 
-# Output the scan report to a log file
+# Print the scan report to a log file
 clamscan --log <path_to_log_file>
 
 # Move infected files to a specific directory

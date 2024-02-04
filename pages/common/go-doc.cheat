@@ -3,7 +3,7 @@
 
 % go-doc, common
 
-# Show documentation for the current package
+# View documentation for the current package
 go doc
 
 # Show package documentation and exported symbols

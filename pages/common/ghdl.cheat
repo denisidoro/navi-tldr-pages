@@ -18,5 +18,5 @@ ghdl -r <design> --wave=<output.ghw>
 # Check the syntax of a VHDL source file
 ghdl -s <filename.vhdl>
 
-# Display the help page
+# Display help
 ghdl --help

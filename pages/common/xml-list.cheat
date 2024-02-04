@@ -9,5 +9,5 @@ xml list > <path_to_dir_list.xml>
 # Write the specified directory's listing to an XML document
 xml list <path_to_directory> > <path_to_dir_list.xml>
 
-# Display help for the `list` subcommand
+# Display help
 xml list --help

@@ -4,7 +4,7 @@
 % ffmpeg, common
 
 # Extract the sound from a video and save it as MP3
-ffmpeg -i <path_to_video.mp4> -vn <path_to_sound>.mp3
+ffmpeg -i <path_to_video.mp4> -vn <path_to_sound.mp3>
 
 # Save a video as GIF, scaling the height to 1000px and setting framerate to 15
 ffmpeg -i <path_to_video.mp4> -vf 'scale=-1:<1000>' -r <15> <path_to_output.gif>

@@ -6,8 +6,8 @@
 # Display information for the current directory
 dust
 
-# Display information for a space-separated list of directories
-dust <path_to_directory1> <path_to_directory2>
+# Display information about one or more directories
+dust <path_to_directory1 path_to_directory2 ...>
 
 # Display 30 directories (defaults to 21)
 dust --number-of-lines <30>

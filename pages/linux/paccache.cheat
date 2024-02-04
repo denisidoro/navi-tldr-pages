@@ -3,7 +3,7 @@
 
 % paccache, linux
 
-# Remove all but the 3 most recent package versions from the pacman cache
+# Remove all but the 3 most recent package versions from the `pacman` cache
 paccache -r
 
 # Set the number of package versions to keep

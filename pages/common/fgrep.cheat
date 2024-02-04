@@ -6,8 +6,8 @@
 # Search for an exact string in a file
 fgrep <search_string> <path_to_file>
 
-# Search only lines that match entirely in files
-fgrep -x <search_string> <path_to_file1> <path_to_file2>
+# Search only lines that match entirely in one or more files
+fgrep -x <search_string> <path_to_file1 path_to_file2 ...>
 
 # Count the number of lines that match the given string in a file
 fgrep -c <search_string> <path_to_file>
@@ -19,4 +19,4 @@ fgrep -n <search_string> <path_to_file>
 fgrep -v <search_string> <path_to_file>
 
 # Display filenames whose content matches the search string at least once
-fgrep -l <search_string> <path_to_file1> <path_to_file2>
+fgrep -l <search_string> <path_to_file1 path_to_file2 ...>

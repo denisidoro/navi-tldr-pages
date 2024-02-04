@@ -15,5 +15,5 @@ qtchooser --run-tool=<tool> --qt=<version_name>
 # Add a Qt version entry to be able to choose from
 qtchooser --install <version_name> <path_to_qmake>
 
-# Display all available options
+# Display help
 qtchooser --help

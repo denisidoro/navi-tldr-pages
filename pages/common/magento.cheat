@@ -3,11 +3,11 @@
 
 % magento, common
 
-# Enable one or more space-separated modules
-magento module:enable <module(s)>
+# Enable one or more modules
+magento module:enable <module1 module2 ...>
 
-# Disable one or more space-separated modules
-magento module:disable <module(s)>
+# Disable one or more modules
+magento module:disable <module1 module2 ...>
 
 # Update the database after enabling modules
 magento setup:upgrade

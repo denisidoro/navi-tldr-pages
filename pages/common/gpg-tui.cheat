@@ -9,9 +9,6 @@ gpg-tui
 # Start `gpg-tui` with color and ASCII armored output
 gpg-tui --style <colored> --armor
 
-# Display help in `gpg-tui`
-?
-
 # Quit `gpg-tui`
 q
 
@@ -26,3 +23,6 @@ x
 
 # Refresh `gpg-tui`
 r
+
+# Display help in `gpg-tui`
+?

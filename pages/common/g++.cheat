@@ -16,7 +16,7 @@ g++ <path_to_source.cpp> -std=<c++98|c++11|c++14|c++17> -o <path_to_output_execu
 g++ <path_to_source.cpp> -o <path_to_output_executable> -I<path_to_header> -L<path_to_library> -l<library_name>
 
 # Compile and link multiple source code files into an executable binary
-g++ -c <path_to_source_1.cpp path_to_source_2.cpp ...> && g++ -o <path_to_output_executable> <path_to_source_1.o path_to_source_2.o ...>
+g++ -c <path_to_source1.cpp path_to_source2.cpp ...> && g++ -o <path_to_output_executable> <path_to_source1.o path_to_source2.o ...>
 
 # Optimize the compiled program for performance
 g++ <path_to_source.cpp> -O<1|2|3|fast> -o <path_to_output_executable>

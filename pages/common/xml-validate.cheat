@@ -15,5 +15,5 @@ xml validate --xsd <path_to_schema.xsd> <path_to_input1.xml|URI> <input2.xml ...
 # Validate one or more XML documents against a Relax NG schema (RNG)
 xml validate --relaxng <path_to_schema.rng> <path_to_input1.xml|URI> <input2.xml ...>
 
-# Display help for the `validate` subcommand
+# Display help
 xml validate --help

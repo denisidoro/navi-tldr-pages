@@ -9,5 +9,5 @@ xml depyx <path_to_input.pyx|URI> > <path_to_output.xml>
 # Convert a PYX document from `stdin` to XML format
 cat <path_to_input.pyx> | xml depyx > <path_to_output.xml>
 
-# Display help for the `depyx` subcommand
+# Display help
 xml depyx --help

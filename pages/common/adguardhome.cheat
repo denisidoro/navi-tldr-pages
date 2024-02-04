@@ -6,7 +6,7 @@
 # Run AdGuard Home
 AdGuardHome
 
-# Run AdGuard Home with a specific config
+# Specify a configuration file
 AdGuardHome --config <path_to_AdGuardHome.yaml>
 
 # Set the work directory for data to be stored in

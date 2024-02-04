@@ -18,7 +18,7 @@ php -r "<code>"
 # Start a PHP built-in web server in the current directory
 php -S <host:port>
 
-# Get a list of installed PHP extensions
+# List installed PHP extensions
 php -m
 
 # Display information about the current PHP configuration

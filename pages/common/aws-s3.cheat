@@ -7,13 +7,13 @@
 aws s3 ls <bucket_name>
 
 # Sync files and directories from local to bucket
-aws s3 sync <path_to_files> s3://<bucket_name>
+aws s3 sync <path_to_file1 path_to_file2 ...> s3://<bucket_name>
 
 # Sync files and directories from bucket to local
 aws s3 sync s3://<bucket_name> <path_to_target>
 
 # Sync files and directories with exclusions
-aws s3 sync <path_to_files> s3://<bucket_name> --exclude <path_to_file> --exclude <path_to_directory>/*
+aws s3 sync <path_to_file1 path_to_file2 ...> s3://<bucket_name> --exclude <path_to_file> --exclude <path_to_directory>/*
 
 # Remove file from bucket
 aws s3 rm s3://<bucket>/<path_to_file>

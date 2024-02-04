@@ -10,4 +10,4 @@ clockwork-cli
 clockwork-cli <path_to_directory>
 
 # Monitor Clockwork logs for multiple projects
-clockwork-cli <path_to_directory1 path_to_directory2 …>
+clockwork-cli <path_to_directory1 path_to_directory2 ...>

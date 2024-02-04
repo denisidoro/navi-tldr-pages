@@ -3,7 +3,7 @@
 
 % godoc, common
 
-# Display help for package "fmt"
+# Display help for a specific package
 godoc <fmt>
 
 # Display help for the function "Printf" of "fmt" package

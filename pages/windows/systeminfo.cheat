@@ -12,5 +12,5 @@ systeminfo /fo <table|list|csv>
 # Display system configuration for a remote machine
 systeminfo /s <remote_name> /u <username> /p <password>
 
-# Display detailed usage information
+# Display help
 systeminfo /?

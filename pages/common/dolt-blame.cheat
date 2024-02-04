@@ -9,5 +9,5 @@ dolt blame <table>
 # Display the latest commits for each row of a table when the specified commit was made
 dolt blame <commit> <table>
 
-# View help
+# Display help
 dolt blame --help

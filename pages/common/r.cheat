@@ -6,9 +6,6 @@
 # Start a REPL (interactive shell)
 R
 
-# Check R version
-R --version
-
 # Start R in vanilla mode (i.e. a blank session that doesn't save the workspace at the end)
 R --vanilla
 
@@ -23,3 +20,6 @@ R -d <debugger>
 
 # Check R packages from package sources
 R CMD check <path_to_package_source>
+
+# Display version
+R --version

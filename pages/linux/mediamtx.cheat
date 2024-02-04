@@ -7,7 +7,7 @@
 mediamtx
 
 # Run MediaMTX with a custom configuration location
-mediamtx <path_to_config>.yml
+mediamtx <path_to_config.yml>
 
 # Start MediaMTX as a daemon
 systemctl start mediamtx

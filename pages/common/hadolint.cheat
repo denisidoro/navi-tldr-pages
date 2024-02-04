@@ -16,4 +16,4 @@ hadolint --format <tty|json|checkstyle|codeclimate|codacy> <path_to_Dockerfile>
 hadolint --ignore <DL3006> --ignore <DL3008> <path_to_Dockerfile>
 
 # Lint multiple Dockerfiles using specific trusted registries
-hadolint --trusted-registry <docker.io> --trusted-registry <example.com>:<5000> <path_to_Dockerfile> <path_to_another_Dockerfile>
+hadolint --trusted-registry <docker.io> --trusted-registry <example.com>:<5000> <path_to_Dockerfile1 path_to_Dockerfile2 ...>

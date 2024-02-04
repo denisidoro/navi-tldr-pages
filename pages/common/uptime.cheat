@@ -12,5 +12,5 @@ uptime --pretty
 # Print the date and time the system booted up at
 uptime --since
 
-# Show version information
+# Display version
 uptime --version

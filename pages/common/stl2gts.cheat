@@ -15,5 +15,5 @@ stl2gts --nomerge < <path_to_file.stl> > <path_to_file.gts>
 # Convert an STL file to a GTS file and display surface statistics
 stl2gts --verbose < <path_to_file.stl> > <path_to_file.gts>
 
-# Print help for `stl2gts`
+# Display help
 stl2gts --help

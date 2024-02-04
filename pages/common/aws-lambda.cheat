@@ -4,10 +4,10 @@
 % aws-lambda, common
 
 # Run a function
-aws lambda invoke --function-name <name> <path_to_response>.json
+aws lambda invoke --function-name <name> <path_to_response.json>
 
 # Run a function with an input payload in JSON format
-aws lambda invoke --function-name <name> --payload <json> <path_to_response>.json
+aws lambda invoke --function-name <name> --payload <json> <path_to_response.json>
 
 # List functions
 aws lambda list-functions

@@ -7,7 +7,7 @@
 egrep "<search_pattern>" <path_to_file>
 
 # Search for a pattern within multiple files
-egrep "<search_pattern>" <path_to_file1> <path_to_file2> <path_to_file3>
+egrep "<search_pattern>" <path_to_file1 path_to_file2 ...>
 
 # Search `stdin` for a pattern
 cat <path_to_file> | egrep <search_pattern>

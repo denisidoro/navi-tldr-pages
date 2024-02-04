@@ -4,7 +4,7 @@
 % aa-enforce, linux
 
 # Enable profile
-sudo aa-enforce <path_to_profile>
+sudo aa-enforce <path_to_profile1 path_to_profile2 ...>
 
 # Enable profiles
 sudo aa-enforce --dir <path_to_profile>

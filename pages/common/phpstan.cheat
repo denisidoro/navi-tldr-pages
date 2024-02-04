@@ -3,11 +3,8 @@
 
 % phpstan, common
 
-# Display available options for analysis
-phpstan analyse --help
-
-# Analyze the specified space-separated directories
-phpstan analyse <path_to_directory>
+# Analyze one or more directories
+phpstan analyse <path_to_directory1 path_to_directory2 ...>
 
 # Analyze a directory using a configuration file
 phpstan analyse <path_to_directory> --configuration <path_to_config>
@@ -20,3 +17,6 @@ phpstan analyse <path_to_directory> --autoload-file <path_to_autoload_file>
 
 # Specify a memory limit during analysis
 phpstan analyse <path_to_directory> --memory-limit <memory_limit>
+
+# Display available options for analysis
+phpstan analyse --help

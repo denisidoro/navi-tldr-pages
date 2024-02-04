@@ -9,8 +9,8 @@ flatpak run <name>
 # Install an application from a remote source
 flatpak install <remote> <name>
 
-# List all installed applications and runtimes
-flatpak list
+# List installed applications, ignoring runtimes
+flatpak list --app
 
 # Update all installed applications and runtimes
 flatpak update

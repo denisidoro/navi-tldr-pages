@@ -3,7 +3,7 @@
 
 % aws-cloud9, common
 
-# Get a list of Cloud9 development environment identifiers
+# List all Cloud9 development environment identifiers
 aws cloud9 list-environments
 
 # Create a Cloud9 development environment

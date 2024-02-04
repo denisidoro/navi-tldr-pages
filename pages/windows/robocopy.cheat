@@ -21,5 +21,5 @@ robocopy <path\to\source_directory> <path\to\destination_directory> /MIN:<524288
 # Allow resuming if network connection is lost and limit retries to 5 and wait time to 15 sec
 robocopy <path\to\source_directory> <path\to\destination_directory> /Z /R:5 /W:15
 
-# Display detailed usage information
+# Display help
 robocopy /?

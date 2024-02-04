@@ -18,5 +18,5 @@ protontricks -l
 # [s]earch for a game's App ID by name
 protontricks -s <game_name>
 
-# Show the protontricks help message
+# Display help
 protontricks --help

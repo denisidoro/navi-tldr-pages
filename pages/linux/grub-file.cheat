@@ -18,5 +18,5 @@ grub-file --is-arm-linux <path_to_file>
 # Check if a file is an x86 image (Linux kernel)
 grub-file --is-x86-linux <path_to_file>
 
-# Check if a file is an x86_64 XNU image (Mac OS X kernel)
+# Check if a file is an x86_64 XNU image (macOS kernel)
 grub-file --is-x86_64-xnu <path_to_file>

@@ -15,5 +15,5 @@ swipl <path_to_file.pl>
 # Print all shell configuration variables
 swipl --dump-runtime-variables
 
-# Print the version
+# Display version
 swipl --version

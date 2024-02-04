@@ -3,8 +3,8 @@
 
 % rvm, common
 
-# Install one or more space-separated versions of Ruby
-rvm install <version(s)>
+# Install one or more versions of Ruby
+rvm install <version1 version2 ...>
 
 # Display a list of installed versions
 rvm list

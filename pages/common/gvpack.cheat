@@ -15,5 +15,5 @@ gvpack -n <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
 # Combine several graph layouts without packing
 gvpack -u <path_to_layout1.gv> <path_to_layout2.gv ...> > <path_to_output.gv>
 
-# Display help for `gvpack`
+# Display help
 gvpack -?

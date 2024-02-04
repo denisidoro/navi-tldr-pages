@@ -3,8 +3,8 @@
 
 % dvc, common
 
-# Check the DVC version
-dvc --version
+# Execute a DVC subcommand
+dvc <subcommand>
 
 # Display general help
 dvc --help
@@ -12,5 +12,5 @@ dvc --help
 # Display help about a specific subcommand
 dvc <subcommand> --help
 
-# Execute a DVC subcommand
-dvc <subcommand>
+# Display version
+dvc --version

@@ -9,7 +9,7 @@ irssi -n <nickname> -c <irc.example.com>
 # Open Irssi and connect with a specific server on a given port
 irssi -c <irc.example.com> -p <port>
 
-# View the help
+# Display help
 irssi --help
 
 # Join a channel

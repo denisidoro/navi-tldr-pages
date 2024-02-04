@@ -15,7 +15,7 @@
 # Convert all Python 2 language features except the specified ones to Python 3
 2to3 --write <path_to_file.py> --nofix=<has_key> --nofix=<isinstance>
 
-# Display a list of all available language features that can be converted from Python 2 to Python 3
+# List all available language features that can be converted from Python 2 to Python 3
 2to3 --list-fixes
 
 # Convert all Python 2 files in a directory to Python 3

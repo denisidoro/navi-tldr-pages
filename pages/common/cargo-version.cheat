@@ -3,7 +3,7 @@
 
 % cargo-version, common
 
-# Display the version of `cargo`
+# Display version
 cargo version
 
 # Display additional build information

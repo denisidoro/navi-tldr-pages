@@ -16,13 +16,13 @@ babel <path_to_input_file> --watch
 babel <path_to_input_directory>
 
 # Ignore specified comma-separated files in a directory
-babel <path_to_input_directory> --ignore <ignored_files>
+babel <path_to_input_directory> --ignore <ignored_file1,ignored_file2,...>
 
 # Transpile and output as minified JavaScript
 babel <path_to_input_file> --minified
 
 # Choose a set of presets for output formatting
-babel <path_to_input_file> --presets <presets>
+babel <path_to_input_file> --presets <preset1,preset2,...>
 
-# Output all available options
+# Display help
 babel --help

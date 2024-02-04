@@ -3,11 +3,11 @@
 
 % zipnote, common
 
-# View the comments on a zip archive
+# View the comments on a `zip` archive
 zipnote <path_to_file.zip>
 
-# Extract the comments on a zip archive to a file
+# Extract the comments on a `zip` archive to a file
 zipnote <path_to_file.zip> > <path_to_file.txt>
 
-# Add/Update comments in a zip archive from a file
+# Add/Update comments in a `zip` archive from a file
 zipnote -w <path_to_file.zip> < <path_to_file.txt>

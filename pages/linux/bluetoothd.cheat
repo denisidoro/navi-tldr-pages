@@ -16,4 +16,4 @@ bluetoothd --configfile <path_to_file>
 bluetoothd --debug
 
 # Start the daemon with verbose output coming from specific files in the bluetoothd or plugins source
-bluetoothd --debug=<path_to_file1>:<path_to_file2>:<path_to_file3>
+bluetoothd --debug=<path_to_file1:path_to_file2:...>

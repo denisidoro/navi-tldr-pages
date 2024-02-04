@@ -3,5 +3,5 @@
 
 % mate-about, linux
 
-# Print MATE version
+# Display MATE version
 mate-about --version

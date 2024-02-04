@@ -18,5 +18,5 @@ svn ci -m <commit_log_message> [<PATH>]
 # Display changes from the last 10 revisions, showing modified files for each revision
 svn log -vl <10>
 
-# Show detailed help
+# Display help
 svn help

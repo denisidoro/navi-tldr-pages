@@ -3,17 +3,14 @@
 
 % phar, linux
 
-# Add space-separated files or directories to a Phar file
-phar add -f <path_to_phar_file> <files_or_directories>
+# Add one or more files or directories to a Phar file
+phar add -f <path_to_phar_file> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
 # Display the contents of a Phar file
 phar list -f <path_to_phar_file>
 
 # Delete the specified file or directory from a Phar file
 phar delete -f <path_to_phar_file> -e <file_or_directory>
-
-# Display full usage information and available hashing/compression algorithms
-phar help
 
 # Compress or uncompress files and directories in a Phar file
 phar compress -f <path_to_phar_file> -c <algorithm>
@@ -26,3 +23,6 @@ phar sign -f <path_to_phar_file> -h <algorithm>
 
 # Sign a Phar file with an OpenSSL private key
 phar sign -f <path_to_phar_file> -h openssl -y <path_to_private_key>
+
+# Display help and available hashing/compression algorithms
+phar help

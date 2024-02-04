@@ -3,11 +3,11 @@
 
 % cgroups, linux
 
-# Show the tldr page for `cgclassify`
+# View documentation for `cgclassify`
 tldr cgclassify
 
-# Show the tldr page for `cgcreate`
+# View documentation for `cgcreate`
 tldr cgcreate
 
-# Show the tldr page for `cgexec`
+# View documentation for `cgexec`
 tldr cgexec

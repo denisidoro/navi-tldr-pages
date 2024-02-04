@@ -3,7 +3,7 @@
 
 % ipconfig, windows
 
-# Show a list of network adapters
+# List all network adapters
 ipconfig
 
 # Show a detailed list of network adapters

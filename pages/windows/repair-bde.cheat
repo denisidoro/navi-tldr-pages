@@ -24,5 +24,5 @@ repair-bde <C:> -KeyPackage <path\to\directory>
 # Log all output to a specific file
 repair-bde <C:> -LogFile <path\to\file>
 
-# Display all available options
+# Display help
 repair-bde /?

@@ -6,7 +6,7 @@
 # Convert a text file to PO file
 po4a-gettextize --format <text> --master <path_to_master.txt> --po <path_to_result.po>
 
-# Get a list of available formats
+# List all available formats
 po4a-gettextize --help-format
 
 # Convert a text file along with a translated document to a PO file (`-l` option can be provided multiple times)

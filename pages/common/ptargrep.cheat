@@ -3,14 +3,11 @@
 
 % ptargrep, common
 
-# Search for a pattern within a tar file
-ptargrep "<search_pattern>" <path_to_file>
-
-# Search for a pattern within multiple files
-ptargrep "<search_pattern>" <path_to_file1> <path_to_file2> <path_to_file3>
+# Search for a pattern within one or more `tar` archives
+ptargrep "<search_pattern>" <path_to_file1 path_to_file2 ...>
 
 # Extract to the current directory using the basename of the file from the archive
 ptargrep --basename "<search_pattern>" <path_to_file>
 
-# Search for a case-insensitive pattern matching within a tar file
+# Search for a case-insensitive pattern matching within a `tar` archive
 ptargrep --ignore-case "<search_pattern>" <path_to_file>

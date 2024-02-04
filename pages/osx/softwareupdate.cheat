@@ -9,8 +9,8 @@ softwareupdate --list
 # Download and install all updates
 softwareupdate --install --all
 
-# Download and install all recommended updates
-softwareupdate --install --req
+# Download and install all [r]ecommended updates
+softwareupdate --install --recommended
 
 # Download and install a specific app
 softwareupdate --install <update_name>

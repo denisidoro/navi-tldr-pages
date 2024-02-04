@@ -15,8 +15,8 @@ xml <subcommand> <options>
 # Execute a subcommand with input from a file or URI and output to a file
 xml <subcommand> <options> <path_to_input.xml|URI> > <path_to_output>
 
-# Display help for a subcommand
+# Display help for a specific subcommand
 xml <subcommand> --help
 
-# Display the version of the XMLStarlet Toolkit
+# Display version
 xml --version

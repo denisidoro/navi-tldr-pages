@@ -21,8 +21,8 @@ clido toggle-autowrite
 # Open a list in a text editor
 clido edit <text_editor>
 
-# Display version
-clido -v
-
 # Display help
 clido -h
+
+# Display version
+clido -v

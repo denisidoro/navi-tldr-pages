@@ -4,7 +4,7 @@
 % aa-disable, linux
 
 # Disable profile
-sudo aa-disable <path_to_profile>
+sudo aa-disable <path_to_profile1 path_to_profile2 ...>
 
-# Disable profiles
+# Disable profiles (defaults to `/etc/apparmor.d`)
 sudo aa-disable --dir <path_to_profiles>

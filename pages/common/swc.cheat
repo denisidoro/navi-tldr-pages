@@ -19,4 +19,4 @@ swc <path_to_input_directory> --out-dir <path_to_output_directory>
 swc <path_to_input_directory> --config-file <path_to_.swcrc>
 
 # Ignore files in a directory specified using glob path
-swc <path_to_input_directory> --ignore <ignored_files>
+swc <path_to_input_directory> --ignore <path_to_ignored_file1 path_to_ignored_file2 ...>

@@ -18,5 +18,5 @@ json5 <path_to_input_file.json5> --validate
 # Specify the number of spaces to indent by (or "t" for tabs)
 json5 --space <indent_amount>
 
-# View available options
+# Display help
 json5 --help

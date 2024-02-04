@@ -3,8 +3,8 @@
 
 % go-version, common
 
-# Print Go version
+# Display version
 go version
 
-# Print the Go version used to build the named executable file
+# Display the Go version used to build a specific executable file
 go version <path_to_executable>

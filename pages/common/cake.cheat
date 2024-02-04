@@ -6,7 +6,7 @@
 # Display basic information about the current app and available commands
 cake
 
-# Display a list of available routes
+# List available routes
 cake routes
 
 # Clear configuration caches

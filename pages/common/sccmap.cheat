@@ -9,5 +9,5 @@ sccmap -S <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
 # Print statistics about a graph, producing no output graph
 sccmap -v -s <path_to_input1.gv> <path_to_input2.gv ...>
 
-# Display help for `sccmap`
+# Display help
 sccmap -?

@@ -13,7 +13,7 @@ phpcs -i
 phpcs <path_to_directory> --standard <standard>
 
 # Specify comma-separated file extensions to include when sniffing
-phpcs <path_to_directory> --extensions <file_extension(s)>
+phpcs <path_to_directory> --extensions <file_extension1,file_extension2,...>
 
 # Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`)
 phpcs <path_to_directory> --report <format>
@@ -22,7 +22,7 @@ phpcs <path_to_directory> --report <format>
 phpcs <path_to_directory> --config-set <key> <value>
 
 # A comma-separated list of files to load before processing
-phpcs <path_to_directory> --bootstrap <file(s)>
+phpcs <path_to_directory> --bootstrap <path_to_file1,path_to_file2,...>
 
 # Don't recurse into subdirectories
 phpcs <path_to_directory> -l

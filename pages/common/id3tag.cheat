@@ -9,5 +9,5 @@ id3tag --artist <artist> --song <song_title> <path_to_file.mp3>
 # Set album title of all MP3 files in the current directory
 id3tag --album=<album> <*.mp3>
 
-# Get more help
+# Display help
 id3tag --help

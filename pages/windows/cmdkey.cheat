@@ -3,7 +3,7 @@
 
 % cmdkey, windows
 
-# Show a list of all user credentials
+# List all user credentials
 cmdkey /list
 
 # Store credentials for a user that accesses a server

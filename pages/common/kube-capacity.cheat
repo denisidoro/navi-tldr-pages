@@ -3,7 +3,7 @@
 
 % kube-capacity, common
 
-# Output a list of nodes with the total CPU and Memory resource requests and limits
+# List nodes including the total CPU and Memory resource requests and limits
 kube-capacity
 
 # Include pods

@@ -15,5 +15,5 @@ cbonsai -m "<message>"
 # Display extra information about the bonsai
 cbonsai -v
 
-# Display cbonsai help
+# Display help
 cbonsai -h

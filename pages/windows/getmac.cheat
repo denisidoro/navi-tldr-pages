@@ -18,5 +18,5 @@ getmac /s <hostname> /u <username> /p <password>
 # Display the MAC addresses with verbose information
 getmac /v
 
-# Display detailed usage information
+# Display help
 getmac /?

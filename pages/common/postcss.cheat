@@ -24,5 +24,5 @@ postcss <path_to_file> --syntax <syntax>
 # Watch for changes to a CSS file
 postcss <path_to_file> --watch
 
-# Display available options and examples
+# Display help
 postcss --help

@@ -3,7 +3,7 @@
 
 % pacman-key, linux
 
-# Initialize the pacman keyring
+# Initialize the `pacman` keyring
 sudo pacman-key --init
 
 # Add the default Arch Linux keys

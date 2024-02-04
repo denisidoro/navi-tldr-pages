@@ -18,5 +18,5 @@ afinfo --xml <path_to_file>
 # Print warnings for the audio file if any
 afinfo --warnings <path_to_file>
 
-# Display help for full usage
+# Display help
 afinfo --help

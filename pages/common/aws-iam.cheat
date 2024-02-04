@@ -3,9 +3,6 @@
 
 % aws-iam, common
 
-# Show `aws iam` help page (including all available iam commands)
-aws iam help
-
 # List users
 aws iam list-users
 
@@ -26,3 +23,6 @@ aws iam list-access-keys
 
 # List access keys for a specific user
 aws iam list-access-keys --user-name <user_name>
+
+# Display help
+aws iam help

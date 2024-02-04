@@ -9,5 +9,5 @@ laptop-detect
 # Print the type of device that the current system is detected as
 laptop-detect --verbose
 
-# Display the version
+# Display version
 laptop-detect --version

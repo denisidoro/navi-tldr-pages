@@ -9,7 +9,7 @@ nth -t <5f4dcc3b5aa765d61d8327deb882cf99>
 # Name hashes in a file
 nth -f <path_to_hashes>
 
-# Output in json format
+# Print in JSON format
 nth -t <5f4dcc3b5aa765d61d8327deb882cf99> -g
 
 # Decode hash in Base64 before naming it

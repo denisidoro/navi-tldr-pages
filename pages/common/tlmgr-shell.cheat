@@ -6,8 +6,8 @@
 # Start an interactive shell of `tlmgr`
 tlmgr shell
 
-# Run any `tlmgr` sub-command in the interactive shell
-<sub_command> <arguments>
+# Run any `tlmgr` subcommand in the interactive shell
+<subcommand> <arguments>
 
 # Quit the interactive shell
 quit
@@ -24,5 +24,5 @@ set <variable> <value>
 # Restart the interactive shell
 restart
 
-# Print the version of the current protocol
+# Display the version of the current protocol
 protocol

@@ -7,4 +7,4 @@
 inkview <path_to_file.svg>
 
 # Preview multiple SVGs (use arrow keys to navigate)
-inkview <path_to_file_a.svg> <path_to_file_b.svg> <path_to_file_c.svg>
+inkview <path_to_file1.svg path_to_file2.svg ...>

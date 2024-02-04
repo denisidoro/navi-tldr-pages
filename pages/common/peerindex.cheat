@@ -3,7 +3,7 @@
 
 % peerindex, common
 
-# Output all peers
+# List all peers
 peerindex <master6.mrt>
 
 # Display all peers that have provided routing information

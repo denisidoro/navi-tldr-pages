@@ -3,9 +3,6 @@
 
 % balooctl, linux
 
-# Display help
-balooctl
-
 # Display the status of the indexer
 balooctl status
 
@@ -26,3 +23,6 @@ balooctl indexSize
 
 # Check for any unindexed files and index them
 balooctl check
+
+# Display help
+balooctl --help

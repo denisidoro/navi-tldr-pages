@@ -21,5 +21,5 @@ msbuild <path_to_project_file> /toolsversion:<version>
 # Display detailed information at the end of the log about how the project was configured
 msbuild <path_to_project_file> /detailedsummary
 
-# Display detailed help information
+# Display help
 msbuild /help

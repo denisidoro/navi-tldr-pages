@@ -3,14 +3,14 @@
 
 % libreoffice, linux
 
-# Open a space-separated list of files in read-only mode
-libreoffice --view <path_to_file1> <path_to_file2>
+# Open one or more files in read-only mode
+libreoffice --view <path_to_file1 path_to_file2 ...>
 
-# Display the content of specific files
-libreoffice --cat <path_to_file1> <path_to_file2>
+# Display the content of one or more files
+libreoffice --cat <path_to_file1 path_to_file2 ...>
 
-# Print files to a specific printer
-libreoffice --pt <printer_name> <path_to_file1> <path_to_file2>
+# Print files using a specific printer
+libreoffice --pt <printer_name> <path_to_file1 path_to_file2 ...>
 
 # Convert all `.doc` files in current directory to PDF
 libreoffice --convert-to <pdf> <*.doc>

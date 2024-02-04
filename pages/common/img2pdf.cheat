@@ -3,8 +3,8 @@
 
 % img2pdf, common
 
-# Convert multiple images to a single PDF, each image being on its own page
-img2pdf <path_to_image1.jpg> <path_to_image2.jpg> --output <path_to_file.pdf>
+# Convert one or more images to a single PDF, each image being on its own page
+img2pdf <path_to_image1.jpg path_to_image2.jpg ...> --output <path_to_file.pdf>
 
 # Convert only the first frame of a multi-frame image to PDF
 img2pdf <path_to_file.gif> --first-frame-only --output <path_to_file.pdf>

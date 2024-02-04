@@ -3,10 +3,7 @@
 
 % cs, common
 
-# Display version
-cs version
-
-# Show a list of the installed applications
+# List installed applications
 cs list
 
 # Install a specific application
@@ -20,3 +17,6 @@ cs setup
 
 # Update all the installed applications
 cs update
+
+# Display version
+cs version

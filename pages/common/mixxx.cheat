@@ -18,5 +18,5 @@ mixxx --resourcePath <mixxx_res_controllers> --settingsPath <path_to_settings-fi
 # Debug a custom controller mapping
 mixxx --controllerDebug --resourcePath <path_to_mapping-directory>
 
-# Show command-line help
+# Display help
 mixxx --help

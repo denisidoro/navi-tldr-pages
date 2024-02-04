@@ -3,7 +3,7 @@
 
 % in-toto-run, common
 
-# Tag a git repo and signing the resulting link file
+# Tag a Git repo and signing the resulting link file
 in-toto-run -n <tag> --products <.> -k <key_file> -- <git tag v1.0>
 
 # Create a tarball, storing files as materials and the tarball as product

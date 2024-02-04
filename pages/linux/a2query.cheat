@@ -15,5 +15,5 @@ sudo a2query -s
 # Display the currently enabled Multi Processing Module
 sudo a2query -M
 
-# Display the Apache version
+# Display Apache version
 sudo a2query -v

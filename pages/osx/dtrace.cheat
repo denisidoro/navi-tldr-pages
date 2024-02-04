@@ -21,7 +21,7 @@ dtrace -c <command>
 # Specify [f]unction name to trace or list (-l option). The corresponding argument can include any of the probe description forms like `provider:module:function`, `module:function` or `function`
 dtrace -f <function>
 
-# Grad the specified  [p]rocess ID, cache its symbol table, and exit upon completion
+# Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion
 dtrace -p <pid>
 
 # Combine different options for tracing function in a process

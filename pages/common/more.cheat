@@ -9,9 +9,6 @@ more <path_to_file>
 # Open a file displaying from a specific line
 more +<line_number> <path_to_file>
 
-# Display help
-more --help
-
 # Go to the next page
 <Space>
 
@@ -23,3 +20,6 @@ q
 
 # Display help about interactive commands
 h
+
+# Display help
+more --help

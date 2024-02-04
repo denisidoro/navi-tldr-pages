@@ -12,5 +12,5 @@ unison <path_to_directory_1> <path_to_directory_2> -auto
 # Ignore some files using a pattern
 unison <path_to_directory_1> <path_to_directory_2> -ignore <pattern>
 
-# Show documentation
+# View documentation
 unison -doc <topics>

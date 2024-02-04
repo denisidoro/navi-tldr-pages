@@ -10,7 +10,7 @@ john <path_to_hashes.txt>
 john --show <path_to_hashes.txt>
 
 # Display users' cracked passwords by user identifier from multiple files
-john --show --users=<user_ids> <path_to_hashes*> <path_to_other_hashes*>
+john --show --users=<user_ids> <path_to_hashes1.txt path_to_hashes2.txt ...>
 
 # Crack password hashes, using a custom wordlist
 john --wordlist=<path_to_wordlist.txt> <path_to_hashes.txt>

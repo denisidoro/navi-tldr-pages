@@ -7,10 +7,10 @@
 phploc <path_to_directory>
 
 # Include only specific files from a comma-separated list (globs are allowed)
-phploc <path_to_directory> --names <files>
+phploc <path_to_directory> --names '<path_to_file1,path_to_file2,...>'
 
 # Exclude specific files from a comma-separated list (globs are allowed)
-phploc <path_to_directory> --names-exclude <files>
+phploc <path_to_directory> --names-exclude '<path_to_file1,path_to_file2,...>'
 
 # Exclude a specific directory from analysis
 phploc <path_to_directory> --exclude <path_to_exclude_directory>

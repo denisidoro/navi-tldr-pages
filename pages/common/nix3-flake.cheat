@@ -3,9 +3,6 @@
 
 % nix3-flake, common
 
-# See documentation about what Nix flakes are
-nix flake --help
-
 # Create a new flake (just the `flake.nix` file) from the default template, in the current directory
 nix flake init
 
@@ -17,3 +14,6 @@ nix flake lock --update-input <input>
 
 # Show all the outputs of a flake on github
 nix flake show <github:owner_repo>
+
+# Display help
+nix flake --help

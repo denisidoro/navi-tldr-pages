@@ -4,7 +4,7 @@
 % pyflakes, common
 
 # Check a single Python file
-pyflakes check <path_to_file>.py
+pyflakes check <path_to_file.py>
 
 # Check Python files in a specific directory
 pyflakes checkPath <path_to_directory>

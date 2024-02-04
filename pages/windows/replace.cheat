@@ -24,5 +24,5 @@ replace <path\to\file_or_directory> <path\to\destination_directory> /s
 # Replace only files in the destination directory which are older than the files in the source directory
 replace <path\to\file_or_directory> <path\to\destination_directory> /u
 
-# Display detailed usage information
+# Display help
 replace /?

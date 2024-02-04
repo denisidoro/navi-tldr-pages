@@ -12,5 +12,5 @@ xml canonic --without-comments <path_to_input.xml|URI> > <path_to_output.xml>
 # Make XML exclusively canonical, using an XPATH from a file, preserving comments
 xml canonic --exc-with-comments <path_to_input.xml|URI> <path_to_c14n.xpath>
 
-# Display help for the `canonic` subcommand
+# Display help
 xml canonic --help

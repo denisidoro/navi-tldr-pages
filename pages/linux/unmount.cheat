@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/unmount.md
+
+% unmount, linux
+
+# View documentation for the correct command
+tldr umount

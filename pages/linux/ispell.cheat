@@ -9,5 +9,5 @@ ispell
 # Check for typos in the specified file and interactively apply suggestions
 ispell <path_to_file>
 
-# Display the version
+# Display version
 ispell -v

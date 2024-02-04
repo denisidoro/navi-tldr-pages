@@ -21,5 +21,5 @@ mysqld --defaults-file=<path_to_file>
 # Start the server and listen on a custom port
 mysqld --port=<port>
 
-# Show all help options and exit
+# Display help
 mysqld --verbose --help

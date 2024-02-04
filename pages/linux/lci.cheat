@@ -6,8 +6,8 @@
 # Run a LOLCODE file
 lci <path_to_file>
 
-# Display version
-lci -v
-
 # Display help
 lci -h
+
+# Display version
+lci -v

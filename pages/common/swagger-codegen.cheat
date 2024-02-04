@@ -12,5 +12,5 @@ swagger-codegen generate -i <http:__petstore.swagger.io_v2_swagger.json> -l <jav
 # List available languages
 swagger-codegen langs
 
-# Display help options for the generate command
-swagger-codegen help <generate>
+# Display help for a specific command
+swagger-codegen <generate|config-help|meta|langs|version> --help

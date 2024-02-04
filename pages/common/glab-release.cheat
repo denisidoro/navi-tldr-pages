@@ -19,4 +19,4 @@ glab release delete <tag>
 glab release download <tag>
 
 # Upload assets to a specific release
-glab release upload <tag> <path_to_file1> <path_to_file2>
+glab release upload <tag> <path_to_file1 path_to_file2 ...>

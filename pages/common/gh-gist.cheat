@@ -3,7 +3,7 @@
 
 % gh-gist, common
 
-# Create a new Gist from a space-separated list of files
+# Create a new Gist from one or more files
 gh gist create <path_to_file1 path_to_file2 ...>
 
 # Create a new Gist with a specific [desc]ription

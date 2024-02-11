@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmnorm.md
+
+% pnmnorm, common
+
+# Force the brightest pixels to be white, the darkest pixels to be black and spread out the ones in between linearly
+pnmnorm <path_to_image.pnm> > <path_to_output.pnm>
+
+# Force the brightest pixels to be white, the darkest pixels to be black and spread out the ones in between quadratically such that pixels with a brightness of `n` become 50 % bright
+pnmnorm -midvalue <n> <path_to_image.pnm> > <path_to_output.pnm>
+
+# Keep the pixels' hue, only modify the brightness
+pnmnorm -keephues <path_to_image.pnm> > <path_to_output.pnm>
+
+# Specify a method to calculate a pixel's brightness
+pnmnorm -<luminosity|colorvalue|saturation> <path_to_image.pnm> > <path_to_output.pnm>

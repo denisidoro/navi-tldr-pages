@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmtexture.md
+
+% pgmtexture, common
+
+# Extract textural features from a PGM image
+pgmtexture <path_to_image.pgm> > <path_to_output.pgm>
+
+# Specify the distance parameter for the feature extraction algorithm
+pgmtexture -d <distance> <path_to_image.pgm> > <path_to_output.pgm>

@@ -3,7 +3,7 @@
 
 % gitui, common
 
-# Set the color theme (defaults to `theme.ron`)
+# Specify the color theme (defaults to `theme.ron`)
 gitui --theme <theme>
 
 # Store logging output into a cache directory
@@ -15,10 +15,10 @@ gitui --watcher
 # Generate a bug report
 gitui --bugreport
 
-# Set the Git directory
+# Use a specific Git directory
 gitui --directory <path_to_directory>
 
-# Set the working directory
+# Use a specific working directory
 gitui --workdir <path_to_directory>
 
 # Display help

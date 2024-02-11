@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lispmtopgm.md
+
+% lispmtopgm, common
+
+# Convert the specified Lisp Machine bitmap file into a PGM image
+lispmtopgm <path_to_input.lispm> > <path_to_output.pgm>

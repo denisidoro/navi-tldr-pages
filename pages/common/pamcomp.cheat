@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamcomp.md
+
+% pamcomp, common
+
+# Overlay two images such with the overlay blocking parts of the underlay
+pamcomp <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
+
+# Set the horizontal alignment of the overlay
+pamcomp -align <left|center|right|beyondleft|beyondright> -xoff <x_offset> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
+
+# Set the vertical alignment of the overlay
+pamcomp -valign <top|middle|bottom|above|below> -yoff <y_offset> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
+
+# Set the opacity of the overlay
+pamcomp -opacity <0.7> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>

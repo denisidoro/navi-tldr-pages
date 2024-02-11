@@ -6,14 +6,23 @@
 # Number non-blank lines in a file
 nl <path_to_file>
 
-# Read from `stdout`
-cat <path_to_file> | nl <options> -
+# Read from `stdin`
+<command> | nl -
 
-# Number only the lines with printable text
-nl -t <path_to_file>
+# Number [a]ll [b]ody lines including blank lines or do [n]ot number body lines
+nl -b <a|n> <path_to_file>
 
-# Number all lines including blank lines
-nl -b a <path_to_file>
-
-# Number only the body lines that match a basic regular expression (BRE) pattern
+# Number only the [b]ody lines that match a basic regular expression (BRE) [p]attern
 nl -b p'FooBar[0-9]' <path_to_file>
+
+# Use a specific [i]ncrement for line numbering
+nl -i <increment> <path_to_file>
+
+# Specify the line numbering format to [r]ight or [l]eft justified, keeping leading [z]eros or [n]ot
+nl -n <rz|ln|rn>
+
+# Specify the line numbering's [w]idth (6 by default)
+nl -w <col_width> <path_to_file>
+
+# Use a specific string to [s]eparate the line numbers from the lines (TAB by default)
+nl -s <separator> <path_to_file>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nl.md
+
+% nl, linux
+
+# Number non-blank lines in a file
+nl <path_to_file>
+
+# Read from `stdin`
+<command> | nl -
+
+# Number [a]ll [b]ody lines including blank lines or do not [n]umber [b]ody lines
+nl --body-numbering <a|n> <path_to_file>
+
+# Number only the [b]ody lines that match a basic regular expression (BRE) [p]attern
+nl --body-numbering p'FooBar[0-9]' <path_to_file>
+
+# Use a specific [i]ncrement for line numbering
+nl --line-increment <increment> <path_to_file>
+
+# Specify the line numbering format to [r]ight or [l]eft justified, keeping leading [z]eros or [n]ot
+nl --number-format <rz|ln|rn>
+
+# Specify the line numbering's width (6 by default)
+nl --number-width <col_width> <path_to_file>
+
+# Use a specific string to separate the line numbers from the lines (TAB by default)
+nl --number-separator <separator> <path_to_file>

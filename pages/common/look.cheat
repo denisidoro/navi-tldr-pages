@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/look.md
+
+% look, common
+
+# Search for lines beginning with a specific prefix in a specific file
+look <prefix> <path_to_file>
+
+# Case-insensitively ([f]) search only on alphanumeric characters ([d])
+look -f -d <prefix> <path_to_file>
+
+# Specify a string [t]ermination character (space by default)
+look -t <,>
+
+# Search in `/usr/share/dict/words` (`-d` and `-f` are assumed)
+look <prefix>

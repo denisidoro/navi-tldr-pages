@@ -20,3 +20,6 @@ kdesrc-build --resume-from=<dependency_component> <component_name>
 
 # Print full compilation info
 kdesrc-build --debug <component_name>
+
+# Build all configured components
+kdesrc-build

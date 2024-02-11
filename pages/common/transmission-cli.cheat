@@ -12,10 +12,10 @@ transmission-cli --download-dir <path_to_download_directory> <url|magnet|path_to
 # Create a torrent file from a specific file or directory
 transmission-cli --new <path_to_source_file_or_directory>
 
-# Set the download speed limit to 50 KB/s
+# Specify the download speed limit (in KB/s)
 transmission-cli --downlimit <50> <url|magnet|path_to_file>
 
-# Set the upload speed limit to 50 KB/s
+# Specify the upload speed limit (in KB/s)
 transmission-cli --uplimit <50> <url|magnet|path_to_file>
 
 # Use a specific port for connections

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/chsh.md
+
+% chsh, linux
+
+# Set a specific login shell for the current user interactively
+sudo chsh
+
+# Set a specific login [s]hell for the current user
+sudo chsh --shell <path_to_shell>
+
+# Set a login [s]hell for a specific user
+sudo chsh --shell <path_to_shell> <username>
+
+# [l]ist available shells
+sudo chsh --list-shells

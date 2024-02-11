@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmtofs.md
+
+% pgmtofs, common
+
+# Convert the specified PGM image to Usenix FaceSave format
+pgmtofs <path_to_input.pgm> > <path_to_output.fs>

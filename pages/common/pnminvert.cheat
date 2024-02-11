@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnminvert.md
+
+% pnminvert, common
+
+# Invert the colors or greyscale values in a PNM image
+pnminvert <path_to_input.pnm> > <path_to_output.pnm>

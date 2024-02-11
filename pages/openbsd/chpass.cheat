@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/openbsd/chpass.md
+
+% chpass, openbsd
+
+# Set a specific login shell for the current user interactively
+doas chsh
+
+# Set a specific login [s]hell for the current user
+doas chsh -s <path_to_shell>
+
+# Set a login [s]hell for a specific user
+doas chsh -s <path_to_shell> <username>
+
+# Specify a user database entry in the `passwd` file format
+doas chsh -a <username:encrypted_password:uid:gid:...>

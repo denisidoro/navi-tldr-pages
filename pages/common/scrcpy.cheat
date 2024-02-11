@@ -21,5 +21,5 @@ scrcpy --show-touches
 # Record display screen
 scrcpy --record <path_to_file.mp4>
 
-# Set target directory for pushing files to device by drag and drop (non-APK)
+# Specify the target directory for pushing files to device by drag and drop (non-APK)
 scrcpy --push-target <path_to_directory>

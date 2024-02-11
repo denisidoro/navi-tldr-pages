@@ -9,10 +9,10 @@ kdenlive
 # Open a specific file
 kdenlive <path_to_file.kdenlive>
 
-# Set a specific path for an MLT environment
+# Use a specific path for an MLT environment
 kdenlive --mlt-path <path_to_directory>
 
-# Set a specific log level for an MLT environment
+# Use a specific log level for an MLT environment
 kdenlive --mlt-log <verbose|debug>
 
 # Display help

@@ -3,8 +3,8 @@
 
 % gdal2tiles.py, common
 
-# Generate TMS tiles for the zoom levels 2-5 of a raster dataset
-gdal2tiles.py --zoom=<2-5> <path_to_input.tif> <path_to_output_directory>
+# Generate TMS tiles for the zoom levels 2 to 5 of a raster dataset
+gdal2tiles.py --zoom 2-5 <path_to_input.tif> <path_to_output_directory>
 
-# Generate XYZ tiles for the zoom levels 2-5 of a raster dataset
-gdal2tiles.py --zoom=<2-5> --xyz <path_to_input.tif> <path_to_output_directory>
+# Generate XYZ tiles for the zoom levels 2 to 5 of a raster dataset
+gdal2tiles.py --zoom 2-5 --xyz <path_to_input.tif> <path_to_output_directory>

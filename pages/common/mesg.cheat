@@ -6,8 +6,8 @@
 # Check terminal's openness to write messages
 mesg
 
-# Disable receiving messages from the write command
+# Disallow receiving messages from the write command
 mesg n
 
-# Enable receiving messages from the write command
+# Allow receiving messages from the write command
 mesg y

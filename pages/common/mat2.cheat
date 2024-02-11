@@ -17,3 +17,6 @@ mat2 --show <path_to_file>
 
 # Partially remove metadata from a file
 mat2 --lightweight <path_to_file>
+
+# Remove metadata from a file in place, without creating a backup
+mat2 --inplace <path_to_file>

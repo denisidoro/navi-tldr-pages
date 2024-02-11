@@ -6,7 +6,7 @@
 # Display system logs
 logcat
 
-# Write system logs to a file
+# Write system logs to a [f]ile
 logcat -f <path_to_file>
 
 # Display lines that match a regular expression

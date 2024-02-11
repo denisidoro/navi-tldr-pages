@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmalias.md
+
+% pnmalias, common
+
+# Perform antialiasing on a PNM image, taking black pixels as background and white pixels as foreground
+pnmalias <path_to_input.pnm> > <path_to_output.ppm>
+
+# Explicitly specify the background and foreground color
+pnmalias -bcolor <background_color> -fcolor <foreground_color> <path_to_input.pnm> > <path_to_output.ppm>
+
+# Apply altialiasing to foreground pixels only
+pnmalias -fonly <path_to_input.pnm> > <path_to_output.ppm>
+
+# Apply antialiasing to all surrounding pixels of background pixels
+pnmalias -balias <path_to_input.pnm> > <path_to_output.ppm>

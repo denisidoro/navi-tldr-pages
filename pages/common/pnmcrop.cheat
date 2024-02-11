@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmcrop.md
+
+% pnmcrop, common
+
+# Remove white borders on a PNM image
+pnmcrop -white <path_to_image.pnm> > <path_to_output.pnm>
+
+# Remove borders of the specified color that are on the top and left side of the image
+pnmcrop -bg-color <color> -top -left <path_to_image.pnm> > <path_to_output.pnm>
+
+# Determine the color of the borders to be removed by the color of the pixel in the specified corner
+pnmcrop -bg-corner <topleft|topright|bottomleft|bottomright> <path_to_image.pnm> > <path_to_output.pnm>
+
+# Leave a border with a width of `n` pixels. Additionally, specify the behaviour if the image is entirely made out of background
+pnmcrop -margins <n> -blank-image <pass|minimize|maxcrop> <path_to_image.pnm> > <path_to_output.pnm>

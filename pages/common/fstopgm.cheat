@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fstopgm.md
+
+% fstopgm, common
+
+# Convert the specified Usenix FaceSaver file into a PGM image
+fstopgm <path_to_input.fs> > <path_to_output.pgm>

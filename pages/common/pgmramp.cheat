@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmramp.md
+
+% pgmramp, common
+
+# Generate a left-to-right greyscale map
+pgmtexture -lr > <path_to_output.pgm>
+
+# Generate a top-to-bottom greyscale map
+pgmtexture -tb > <path_to_output.pgm>
+
+# Generate a rectangular greyscale map
+pgmtexture -rectangle > <path_to_output.pgm>
+
+# Generate a elliptical greyscale map
+pgmtexture -ellipse <path_to_image.pgm> > <path_to_output.pgm>
+
+# Generate a greyscale map from the top-left corner to the bottom-right corner
+pgmtexture -diagonal <path_to_image.pgm> > <path_to_output.pgm>

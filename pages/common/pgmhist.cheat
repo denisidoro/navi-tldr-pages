@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmhist.md
+
+% pgmhist, common
+
+# Display the histogram for human reading
+pgmhist <path_to_image.pgm>
+
+# Display the median grey value
+pgmhist -median <path_to_image.pgm>
+
+# Display four quartile grey value
+pgmhist -quartile <path_to_image.pgm>
+
+# Report the existence of invalid grey values
+pgmhist -forensic <path_to_image.pgm>
+
+# Display machine-readable output
+pgmhist -machine <path_to_image.pgm>

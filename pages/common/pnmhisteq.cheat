@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmhisteq.md
+
+% pnmhisteq, common
+
+# Increase the contrast of a PNM image using histogram equalization
+pnmhisteq <path_to_input.pnm> > <path_to_output.pnm>
+
+# Only modify grey pixels
+pnmhisteq -grey <path_to_input.pnm> > <path_to_output.pnm>
+
+# Do not include black or white pixels in the histogram equalization
+pnmhisteq -no<black|white> <path_to_input.pnm> > <path_to_output.pnm>

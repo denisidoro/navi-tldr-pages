@@ -12,11 +12,11 @@ phing -i <path_to_build.xml>
 # Perform a specific task
 phing <task_name>
 
-# Specify a custom build file path
+# Use the given build file path
 phing -f <path_to_build.xml> <task_name>
 
-# Specify a log file to output to
-phing -b <path_to_log_file> <task_name>
+# Log to the given file
+phing -logfile <path_to_log_file> <task_name>
 
 # Use custom properties in the build
 phing -D<property>=<value> <task_name>

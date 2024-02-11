@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmpaste.md
+
+% pnmpaste, common
+
+# Paste a PNM image into another PNM image at the specified coordinates
+pnmpaste <x> <y> <path_to_image1.pnm> <path_to_image2.pnm> > <path_to_output.pnm>
+
+# Paste the image read from `stdin` into the specified image
+<command> | pnmpaste <x> <y> <path_to_image.pnm> > <path_to_output.pnm>
+
+# Combine the overlapping pixels by the specified boolean operation, where white pixels represent `true` while black pixels represent `false`
+pnmpaste -<and|nand|or|nor|xor|xnor> <x> <y> <path_to_image1.pnm> <path_to_image2.pnm> > <path_to_output.pnm>

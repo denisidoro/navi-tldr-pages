@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/look.md
+
+% look, linux
+
+# Search for lines beginning with a specific prefix in a specific file
+look <prefix> <path_to_file>
+
+# Case-insensitively search only on blank and alphanumeric characters
+look -<f|-ignore-case> -<d|-alphanum> <prefix> <path_to_file>
+
+# Specify a string [t]ermination character (space by default)
+look -{t|-terminate} <,>
+
+# Search in `/usr/share/dict/words` (`--ignore-case` and `--alphanum` are assumed)
+look <prefix>
+
+# Search in `/usr/share/dict/web2` (`--ignore-case` and `--alphanum` are assumed)
+look -<a|-alternative> <prefix>

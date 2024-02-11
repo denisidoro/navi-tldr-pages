@@ -9,7 +9,7 @@ AdGuardHome
 # Specify a configuration file
 AdGuardHome --config <path_to_AdGuardHome.yaml>
 
-# Set the work directory for data to be stored in
+# Store the data in a specific work directory
 AdGuardHome --work-dir <path_to_directory>
 
 # Install or uninstall AdGuard Home as a service

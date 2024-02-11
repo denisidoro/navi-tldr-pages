@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmmargin.md
+
+% pnmmargin, common
+
+# Add a border of the specified size to a PNM image
+pnmmargin <size> <path_to_image.pnm> > <path_to_output.pnm>
+
+# Specify the color of the border
+pnmmargin -color <color> <size> <path_to_image.pnm> > <path_to_output.pnm>

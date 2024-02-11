@@ -3,7 +3,7 @@
 
 % gladtex, common
 
-# Convert to html
+# Convert to HTML
 gladtex <path_to_input.htex>
 
 # Save the converted file to a specific location

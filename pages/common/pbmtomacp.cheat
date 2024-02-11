@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtomacp.md
+
+% pbmtomacp, common
+
+# Convert a PBM image to a MACP file
+pbmtomacp <path_to_image.pbm> > <path_to_output.macp>
+
+# Do not compress the output file
+pbmtomacp -norle <path_to_image.pbm> > <path_to_output.macp>

@@ -3,23 +3,23 @@
 
 % chezmoi, common
 
-# Initialize chezmoi on your machine
+# Setup up `chezmoi`, creating a Git repository in `~/.local/share/chezmoi`
 chezmoi init
 
-# Tell chezmoi to manage a dotfile
-chezmoi add <path_to_file>
+# Start tracking one or more dotfiles
+chezmoi add <path_to_dotfile1 path_to_dotfile2 ...>
 
 # Edit the source state of a tracked dotfile
-chezmoi edit <path_to_file>
+chezmoi edit <path_to_dotfile_or_symlink>
 
-# See changes chezmoi would make
+# See pending changes
 chezmoi diff
 
 # Apply the changes
 chezmoi -v apply
 
-# Set chezmoi up on another machine by downloading existing dotfiles from a Git repository
-chezmoi init <https:__example.com_path_to_repository.git>
+# Set up `chezmoi` from existing dotfiles of a Git repository
+chezmoi init <repository_url>
 
-# Fetch the latest changes from a remote repository
+# Pull changes from a remote repository and apply them
 chezmoi update

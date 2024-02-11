@@ -3,7 +3,7 @@
 
 % pbmtoxbm, common
 
-# Convert a PPM image to a X11 XBM file
+# Convert a PBM image to a X11 XBM file
 pbmtoxbm <path_to_input_file.pbm> > <path_to_output_file.xbm>
 
 # Explicitly specify whether an X11 or X10 bitmap should be generated

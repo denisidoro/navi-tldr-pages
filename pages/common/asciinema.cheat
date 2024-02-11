@@ -18,8 +18,8 @@ asciinema play <path_to_file.cast>
 # Replay a terminal recording hosted on asciinema.org
 asciinema play https://asciinema.org/a/<cast_id>
 
-# Make a new recording, limiting any idle time to at most 2.5 seconds
-asciinema rec -i <2.5>
+# Make a new recording, limiting any [i]dle time to at most 2.5 seconds
+asciinema rec -i 2.5
 
 # Print the full output of a locally saved recording
 asciinema cat <path_to_file.cast>

@@ -3,7 +3,7 @@
 
 % az-storage, common
 
-# Create a storage account
+# Create a storage account specifying a [l]ocation
 az storage account create --resource-group <group_name> --name <account_name> -l <location> --sku <account_sku>
 
 # List all storage accounts in a resource group

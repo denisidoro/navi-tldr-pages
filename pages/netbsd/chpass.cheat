@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/netbsd/chpass.md
+
+% chpass, netbsd
+
+# Set a specific login shell for the current user interactively
+su -c chpass
+
+# Set a specific login [s]hell for the current user
+chpass -s <path_to_shell>
+
+# Set a login [s]hell for a specific user
+chpass chsh -s <path_to_shell> <username>
+
+# Specify a user database entry in the `passwd` file format
+su -c 'chpass -a <username:encrypted_password:uid:gid:...> -s <path_to_file>' <username>
+
+# Only update the [l]ocal password file
+su -c 'chpass -l -s <path_to_shell>' <username>
+
+# Forcedly change the database [y]P password database entry
+su -c 'chpass -y -s <path_to_shell>' <username>

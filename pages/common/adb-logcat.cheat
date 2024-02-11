@@ -6,7 +6,7 @@
 # Display system logs
 adb logcat
 
-# Display lines that match a regular expression
+# Display lines that match a regular [e]xpression
 adb logcat -e <regular_expression>
 
 # Display logs for a tag in a specific mode ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), filtering other tags

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmnoise.md
+
+% pbmnoise, common
+
+# Generate a PGM image containing white noise
+pbmnoise <width> <height> > <path_to_output.pbm>
+
+# Specify the seed for the pseudo-random number generator
+pbmnoise <width> <height> -randomseed <value> > <path_to_output.pbm>
+
+# Specify the desired rate of white to black pixels
+pbmnoise <width> <height> -ratio <1_3> > <path_to_output.pbm>

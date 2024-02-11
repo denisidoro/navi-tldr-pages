@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pnmconvol.md
+
+% pnmconvol, common
+
+# Convolve a PNM image with the specified convolution matrix
+pnmconvol -matrix=-1,3,-1 <path_to_image.pnm> > <path_to_output.pnm>
+
+# Convolve a PNM image with the convolution matrix in the specified files, one for each layer in the input image
+pnmconvol -matrixfile <path_to_matrix1,path_to_matrix2,...> <path_to_image.pnm> > <path_to_output.pnm>
+
+# Convolve a PNM image with the convolution matrix in the specified PNM file
+pnmconvol <path_to_matrix.pnm> <path_to_image.pnm> > <path_to_output.pnm>
+
+# Normalize the weights in the convolution matrix such that they add up to one
+pnmconvol -matrix=-1,3,-1 -normalize <path_to_image.pnm> > <path_to_output.pnm>

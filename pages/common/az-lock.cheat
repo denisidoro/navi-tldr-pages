@@ -18,5 +18,5 @@ az lock delete --name <lock_name> --resource-group <group_name>
 # List out all locks on the subscription level
 az lock list
 
-# Show a subscription level lock
+# Show a subscription level lock with a specific [n]ame
 az lock show -n <lock_name>

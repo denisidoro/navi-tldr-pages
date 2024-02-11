@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ippfind.md
+
+% ippfind, common
+
+# List IPP printers registered on the network with their status
+ippfind --ls
+
+# Send a specific PostScript document to every PostScript printer on the network
+ippfind --txt-pdl application/postscript --exec ipptool -f <path_to_document.ps> '{}' print-job.test \;
+
+# Send a PostScript test document to every PostScript printer on the network
+ippfind --txt-pdl application/postscript --exec ipptool -f onepage-letter.ps '{}' print-job.test \;
+
+# Send a PostScript test document to every PostScript printer on the network, whose name matches a regular expression
+ippfind --txt-pdl application/postscript --host <regex> --exec ipptool -f onepage-letter.ps '{}' print-job.test \;

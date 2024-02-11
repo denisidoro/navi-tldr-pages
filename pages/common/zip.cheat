@@ -13,7 +13,7 @@ zip -d <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_dire
 zip -r <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...> -x <path_to_excluded_files_or_directories>
 
 # Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest)
-zip -r -<0-9> <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+zip -r -<0..9> <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
 # Create an [e]ncrypted archive with a specific password
 zip -r -e <path_to_compressed.zip> <path_to_file_or_directory1 path_to_file_or_directory2 ...>

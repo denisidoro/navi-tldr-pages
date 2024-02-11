@@ -9,7 +9,7 @@ montage <path_to_image1.jpg path_to_image2.jpg ...> <path_to_montage.jpg>
 # Tile images into a grid, automatically calculating the grid cell size from the largest image
 montage <path_to_image1.jpg path_to_image2.jpg ...> -geometry <+0+0> <path_to_montage.jpg>
 
-# Set the grid cell size and resize images to fit it before tiling
+# Specify the grid cell size and resize images to fit it before tiling
 montage <path_to_image1.jpg path_to_image2.jpg ...> -geometry <640x480+0+0> <path_to_montage.jpg>
 
 # Limit the number of rows and columns in the grid, causing input images to overflow into multiple output montages

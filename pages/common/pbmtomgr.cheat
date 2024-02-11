@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtomgr.md
+
+% pbmtomgr, common
+
+# Convert a PBM image into a MGR bitmap
+pbmtomgr <path_to_image.pbm> > <path_to_output.mgr>

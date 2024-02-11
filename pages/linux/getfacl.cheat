@@ -6,8 +6,8 @@
 # Display the file access control list
 getfacl <path_to_file_or_directory>
 
-# Display the file access control list with numeric user and group IDs
-getfacl -n <path_to_file_or_directory>
+# Display the file access control list with [n]umeric user and group IDs
+getfacl --numeric <path_to_file_or_directory>
 
-# Display the file access control list with tabular output format
-getfacl -t <path_to_file_or_directory>
+# Display the file access control list with [t]abular output format
+getfacl --tabular <path_to_file_or_directory>

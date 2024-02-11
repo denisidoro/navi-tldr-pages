@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/chpass.md
+
+% chpass, osx
+
+# Add or change user database information for the current user interactively
+su -c chpass
+
+# Set a specific login [s]hell for the current user
+chpass -s <path_to_shell>
+
+# Set a login [s]hell for a specific user
+chpass -s <path_to_shell> <username>
+
+# Edit the user record on the directory node at the given [l]ocation
+chpass -l <location> -s <path_to_shell> <username>
+
+# Use the given [u]sername when authenticating to the directory node containing the user
+chpass -u <authname> -s <path_to_shell> <username>

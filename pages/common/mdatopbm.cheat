@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mdatopbm.md
+
+% mdatopbm, common
+
+# Convert a MDA file to a PBM image
+mdatopbm <path_to_image.mda> > <path_to_output.pbm>
+
+# Invert the colors in the input image
+mdatopbm -i <path_to_image.mda> > <path_to_output.pbm>
+
+# Double the input image's height
+mdatopbm -d <path_to_image.mda> > <path_to_output.pbm>

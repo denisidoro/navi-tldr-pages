@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmpage.md
+
+% pbmpage, common
+
+# Generate a test pattern for printing onto US standard paper
+pbmpage > <path_to_file.pbm>
+
+# Generate a test pattern for printing onto A4 paper
+pbmpage -a4 > <path_to_file.pbm>
+
+# Specify the pattern to use
+pbmpage <1|2|3> > <path_to_file.pbm>

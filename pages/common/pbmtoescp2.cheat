@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtoescp2.md
+
+% pbmtoescp2, common
+
+# Convert a PBM image to a ESC/P2 printer file
+pbmtoescp2 <path_to_image.pbm> > <path_to_output.escp2>
+
+# Specify the compression of the output
+pbmtoescp2 -compression <0|1> <path_to_image.pbm> > <path_to_output.escp2>
+
+# Specify the horizontal and vertical resolution of the output in dots per inch
+pbmtoescp2 -resolution <180|360|720> <path_to_image.pbm> > <path_to_output.escp2>
+
+# Place a formfeed command at the end of the output
+pbmtoescp2 -formfeed <path_to_image.pbm> > <path_to_output.escp2>

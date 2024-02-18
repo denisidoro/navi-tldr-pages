@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tarsnap-keygen.md
+
+% tarsnap-keygen, common
+
+# Register a machine with the Tarsnap server
+sudo tarsnap-keygen --keyfile <path_to_file.key> --user <user_email> --machine <machine_name>
+
+# Encrypt the key file (a passphrase will be requested twice)
+sudo tarsnap-keygen --keyfile <path_to_file.key> --user <user_email> --machine <machine_name> --passphrased

@@ -3,11 +3,14 @@
 
 % cargo-locate-project, common
 
-# Print the JSON object to `stdout` with full path to the `Cargo.toml` manifest
+# Display the JSON object with full path to the `Cargo.toml` manifest
 cargo locate-project
 
-# Print the project path in the specified format
+# Display the project path in the specified format
 cargo locate-project --message-format <plain|json>
 
-# Print the `Cargo.toml` manifest located at the root of the workspace as opposed to the current workspace member
+# Display the `Cargo.toml` manifest located at the root of the workspace as opposed to the current workspace member
 cargo locate-project --workspace
+
+# Display the `Cargo.toml` manifest of a specific directory
+cargo locate-project --manifest-path <path_to_Cargo.toml>

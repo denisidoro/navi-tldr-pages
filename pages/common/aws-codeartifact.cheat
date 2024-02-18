@@ -6,14 +6,14 @@
 # List available domains for your AWS account
 aws codeartifact list-domains
 
-# Generate credentials for a specific package manager (e.g.: npm, pip)
-aws codeartifact login --tool <package_manager> --domain <your_domain> --repository <repository_name>
+# Generate credentials for a specific package manager
+aws codeartifact login --tool <npm|pip|twine> --domain <your_domain> --repository <repository_name>
 
 # Get the endpoint URL of a CodeArtifact repository
 aws codeartifact get-repository-endpoint --domain <your_domain> --repository <repository_name> --format <npm|pypi|maven|nuget|generic>
 
-# Show list of all available CodeArtifact commands
+# Display help
 aws codeartifact help
 
-# Display help for specific EC2 subcommand
-aws ec2 <subcommand> help
+# Display help for a specific subcommand
+aws codeartifact <subcommand> help

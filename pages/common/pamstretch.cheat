@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamstretch.md
+
+% pamstretch, common
+
+# Scale up a PAM image by an integer factor
+pamstretch <N> <path_to_image.pam> > <path_to_output.pam>
+
+# Scale up a PAM image by the specified factors in the horizontal and vertical directions
+pamstretch -xscale <XN> -yscale <YN> <path_to_image.pam> > <path_to_output.pam>

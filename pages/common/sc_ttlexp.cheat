@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sc_ttlexp.md
+
+% sc_ttlexp, common
+
+# Output the source address of ICMP TTL expire messages in `warts` files one after the other
+sc_ttlexp <path_to_file1.warts path_to_file2.warts ...>

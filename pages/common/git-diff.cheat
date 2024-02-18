@@ -3,7 +3,7 @@
 
 % git-diff, common
 
-# Show unstaged, uncommitted changes
+# Show unstaged changes
 git diff
 
 # Show all uncommitted changes (including staged ones)

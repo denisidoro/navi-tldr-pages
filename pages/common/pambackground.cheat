@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pambackground.md
+
+% pambackground, common
+
+# Create a mask of the background in a PAM image
+pambackground <path_to_image.pam> > <path_to_output.pam>

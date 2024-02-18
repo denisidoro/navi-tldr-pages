@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtobbnbg.md
+
+% pbmtobbnbg, common
+
+# Convert a PBM image to a BitGraph terminal Display Pixel Data sequence
+pbmtobbnbg < <path_to_image.pbm> > <path_to_output.dpd>
+
+# Specify the rasterop
+pbmtobbnbg <3> < <path_to_image.pbm> > <path_to_output.dpd>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cal.md
+
+% cal, common
+
+# Display a calendar for the current month
+cal
+
+# Display a calendar for a specific year
+cal <year>
+
+# Display a calendar for a specific month and year
+cal <month> <year>

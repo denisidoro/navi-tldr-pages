@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmpscale.md
+
+% pbmpscale, common
+
+# Enlarge a PBM image by the specified factor with edge smoothing
+pbmpscale <N> <path_to_image.pbm> > <path_to_file.pbm>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamenlarge.md
+
+% pamenlarge, common
+
+# Enlarge the specified image by the specified factor
+pamenlarge -scale <N> <path_to_image.pam> > <path_to_output.pam>
+
+# Enlarge the specified image by the specified factors horizontally and vertically
+pamenlarge -xscale <XN> -yscale <YN> <path_to_image.pam> > <path_to_output.pam>

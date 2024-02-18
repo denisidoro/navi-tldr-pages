@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/atktopbm.md
+
+% atktopbm, common
+
+# Convert a Andrew Toolkit raster object to a PBM image
+atktopbm <path_to_image.atk> > <path_to_output.pbm>

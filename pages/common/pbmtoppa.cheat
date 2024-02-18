@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtoppa.md
+
+% pbmtoppa, common
+
+# Convert a PBM image into a PPA file
+pbmtoppa <path_to_image.pbm> > <path_to_output.ppa>
+
+# Specify the desired dots-per-inch and paper size
+pbmtoppa -d <300> -s <a4> <path_to_image.pbm> > <path_to_output.ppa>

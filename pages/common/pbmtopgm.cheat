@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtopgm.md
+
+% pbmtopgm, common
+
+# Convert PBM image to PGM by averaging the `w`x`h`-sized area surrounding each pixel
+pbmtopgm <w> <h> <path_to_image.pbm> > <path_to_output.pgm>

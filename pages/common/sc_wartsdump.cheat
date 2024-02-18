@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sc_wartsdump.md
+
+% sc_wartsdump, common
+
+# Output the content of `warts` files verbose
+sc_wartsdump <path_to_file1.warts path_to_file2.warts ...>

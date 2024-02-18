@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamstretch-gen.md
+
+% pamstretch-gen, common
+
+# Scale up a PAM image by the specified decimal factor
+pamstretch-gen <N> <path_to_image.pam> > <path_to_output.pam>

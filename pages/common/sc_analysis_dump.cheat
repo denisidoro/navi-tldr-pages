@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sc_analysis_dump.md
+
+% sc_analysis_dump, common
+
+# Output the traceroute of `warts` files one after the other in an easy-to-parse format
+sc_analysis_dump <path_to_file1.warts path_to_file2.warts ...>

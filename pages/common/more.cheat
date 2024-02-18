@@ -6,7 +6,10 @@
 # Open a file
 more <path_to_file>
 
-# Open a file displaying from a specific line
+# Search case-[i]nsensitively when pressing "/"
+more -i <path_to_file>
+
+# Display a specific line
 more +<line_number> <path_to_file>
 
 # Go to the next page
@@ -20,6 +23,3 @@ q
 
 # Display help about interactive commands
 h
-
-# Display help
-more --help

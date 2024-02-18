@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtoplot.md
+
+% pbmtoplot, common
+
+# Convert a PBM image into a UNIX plot file
+pbmtoplot <path_to_image.pbm> > <path_to_output.plot>

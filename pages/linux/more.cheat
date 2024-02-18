@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/more.md
+
+% more, linux
+
+# Open a file
+more <path_to_file>
+
+# Display a specific line
+more +<line_number> <path_to_file>
+
+# Go to the next page
+<Space>
+
+# Search for a string (press `n` to go to the next match)
+/<something>
+
+# Exit
+q
+
+# Display help about interactive commands
+h

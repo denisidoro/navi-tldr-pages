@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sc_wartscat.md
+
+% sc_wartscat, common
+
+# Concatenate `warts` files into one
+sc_wartscat -o <path_to_output.warts> <path_to_file1.warts path_to_file2.warts ...>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtocmuwm.md
+
+% pbmtocmuwm, common
+
+# Convert a PBM image to a CMU window manager bitmap
+pbmtocmuwm <path_to_image.pbm> > <path_to_output.bmp>

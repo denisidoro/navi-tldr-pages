@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sc_tracediff.md
+
+% sc_tracediff, common
+
+# Show the difference between traceroutes in two `warts` files
+sc_tracediff <path_to_file1.warts> <path_to_file2.warts>
+
+# Show the difference between the traceroutes in two `warts` files, including those that have not changed
+sc_tracediff -a <path_to_file1.warts> <path_to_file2.warts>
+
+# Show the difference between the traceroutes in two `warts` files and try to show DNS names and not IP addresses if possible
+sc_tracediff -n <path_to_file1.warts> <path_to_file2.warts>

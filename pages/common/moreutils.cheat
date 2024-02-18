@@ -3,7 +3,7 @@
 
 % moreutils, common
 
-# View the tldr page for pages related to standard streams
+# View documentation for pages related to standard streams
 tldr <ifne|mispipe|pee|sponge|vipe|vidir>
 
 # View documentation for other pages

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmmask.md
+
+% pbmmask, common
+
+# Create a mask bitmap separating background from foreground
+pbmmask <path_to_image.pbm> > <path_to_output.pbm>
+
+# Expand the generated mask by one pixel
+pbmmask -expand <path_to_image.pbm> > <path_to_output.pbm>

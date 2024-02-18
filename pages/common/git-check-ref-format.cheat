@@ -3,7 +3,7 @@
 
 % git-check-ref-format, common
 
-# Check the format of the specified refname
+# Check the format of the specified reference name
 git check-ref-format <refs_head_refname>
 
 # Print the name of the last branch checked out

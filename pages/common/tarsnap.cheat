@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tarsnap.md
+
+% tarsnap, common
+
+# [c]reate a backup archive of one or more files or directories, specifying the cryptographic key and the cache directory
+tarsnap -c --keyfile <path_to_key_file> --cachedir <path_to_cache_directory> -f <archive_name> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# Display how much data would be uploaded
+tarsnap -c --dry-run --print-stats --keyfile <path_to_key_file> --cachedir <path_to_cache_directory> -f <archive_name> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# List stored archives
+tarsnap --list-archives --keyfile <path_to_key_file>
+
+# [d]elete a specific archive
+tarsnap -d --keyfile <path_to_key_file> --cachedir <path_to_cache_directory> -f <archive_name>
+
+# Lis[t] the contents of a specific archive in [v]erbose mode
+tarsnap -tv --keyfile <path_to_key_file> -f <archive_name>
+
+# Restore one or more files or directories from a specific archive
+tarsnap -x --keyfile <path_to_key_file> -f <archive_name> <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# Copy an archive
+tarsnap -c --keyfile <path_to_key_file> -f <new_archive_name> @@<source_archive_name>

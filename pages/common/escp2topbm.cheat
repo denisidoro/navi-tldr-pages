@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/escp2topbm.md
+
+% escp2topbm, common
+
+# Convert a ESC/P2 printer file to a PBM image
+escp2topbm <path_to_image.escp2> > <path_to_output.pbm>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gouldtoppm.md
+
+% gouldtoppm, common
+
+# Convert a Gould scanner file to a PPM image
+gouldtoppm <path_to_file.gould> > <path_to_output.ppm>

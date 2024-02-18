@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mtvtoppm.md
+
+% mtvtoppm, common
+
+# Convert an MTV or PRT ray tracer file to a PPM image
+mtvtoppm <path_to_file.mtv> > <path_to_output.ppm>

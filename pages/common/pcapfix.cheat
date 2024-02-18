@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pcapfix.md
+
+% pcapfix, common
+
+# Repair a `pcap`/`pcapng` file (Note: for `pcap` files, only the first 262144 bytes of each packet are scanned)
+pcapfix <path_to_file.pcapng>
+
+# Repair an entire `pcap` file
+pcapfix --deep-scan <path_to_file.pcap>
+
+# Repair a `pcap`/`pcapng` file and write the repaired file to the specified location
+pcapfix --outfile <path_to_repaired.pcap> <path_to_file.pcap>
+
+# Repair a `pcapng` file and treat it as a `pcapng` file, ignoring the automatic recognition
+pcapfix --pcapng <path_to_file.pcapng>
+
+# Repair a file and show the process in detail
+pcapfix --verbose <path_to_file.pcap>

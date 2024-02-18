@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmclean.md
+
+% pbmclean, common
+
+# Clean up a PBM image by erasing isolated black and white pixels
+pbmclean <path_to_image.pbm> > <path_to_output.pbm>
+
+# Clean up only black/white pixels
+pbmclean -<black|white> <path_to_image.pbm> > <path_to_output.pbm>
+
+# Specify the minimum number of neighbouring pixels of the same color in order for a pixel not to be considered isolated
+pbmclean -minneighbours <3> <path_to_image.pbm> > <path_to_output.pbm>

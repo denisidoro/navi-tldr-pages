@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamstack.md
+
+% pamstack, common
+
+# Stack the planes of the specified PAM images in the specified order
+pamstack <path_to_image1.pam path_to_image2.pam ...> > <path_to_output.pam>
+
+# Specify the tuple type name of the output PAM file (maximum of 255 characters)
+pamstack -tupletype <tuple_type> <path_to_image1.pam path_to_image2.pam ...> > <path_to_output.pam>

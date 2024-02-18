@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtogo.md
+
+% pbmtogo, common
+
+# Convert a PBM image to a compressed GraphOn graphic
+pbmtogo <path_to_image.pbm> > <path_to_output.go>

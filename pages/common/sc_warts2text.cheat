@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sc_warts2text.md
+
+% sc_warts2text, common
+
+# Output the information in `warts` files as text
+sc_warts2text <path_to_file1.warts path_to_file2.warts ...>

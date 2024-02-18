@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtext.md
+
+% pbmtext, common
+
+# Render a single line of text as a PBM image
+pbmtext "<Hello World!>" > <path_to_output.pbm>
+
+# Render multiple lines of text as a PBM image
+echo "<Hello\nWorld!>" | pbmtext > <path_to_output.pbm>
+
+# Render text using a custom font supplied as a PBM file
+pbmtext -font <path_to_font.pbm> "<Hello World!>" > <path_to_output.pbm>
+
+# Specify the number of pixels between characters and lines
+echo "<Hello\nWorld!>" | pbmtext -space <3> -lspace <10> > <path_to_output.pbm>

@@ -22,4 +22,4 @@ dd if=<dev_drive_device> of=<path_to_file.img> status=progress
 dd if=<path_to_file.img> of=<dev_drive_device> status=progress
 
 # Check the progress of an ongoing dd operation (run this command from another shell)
-kill -USR1 $(pgrep ^dd)
+kill -USR1 $(pgrep -x dd)

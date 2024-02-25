@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/^.md
+
+% ^, common
+
+# Run the previous command replacing `string1` with `string2`
+^<string1>^<string2>
+
+# Remove `string1` from the previous command
+^<string1>^
+
+# Replace `string1` with `string2` in the previous command and add `string3` to its end
+^<string1>^<string2>^<string3>

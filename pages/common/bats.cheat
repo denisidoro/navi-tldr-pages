@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bats.md
+
+% bats, common
+
+# Run a BATS test script and output results in the TAP (Test Anything Protocol) format
+bats --tap <path_to_test.bats>
+
+# Count test cases of a test script without running any tests
+bats --count <path_to_test.bats>
+
+# Run BATS test cases contained in a directory and its subdirectories (files with a `.bats` extension)
+bats --recursive <path_to_directory>
+
+# Output results in a specific format
+bats --formatter <pretty|tap|junit> <path_to_test.bats>

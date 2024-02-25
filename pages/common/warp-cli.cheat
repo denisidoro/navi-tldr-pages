@@ -15,6 +15,9 @@ warp-cli disconnect
 # Display the WARP connection status
 warp-cli status
 
+# Switch to a specific mode
+warp-cli set-mode <mode>
+
 # Display help
 warp-cli help
 

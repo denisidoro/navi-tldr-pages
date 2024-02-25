@@ -18,7 +18,7 @@ fastboot flash <path_to_file.img>
 # Flash a custom recovery image
 fastboot flash recovery <path_to_file.img>
 
-# Display connected devices
+# List connected devices
 fastboot devices
 
 # Display all information of a device

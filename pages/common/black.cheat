@@ -6,7 +6,7 @@
 # Auto-format a file or entire directory
 black <path_to_file_or_directory>
 
-# Format the code passed in as a string
+# Format the [c]ode passed in as a string
 black -c "<code>"
 
 # Show whether a file or a directory would have changes made to them if they were to be formatted

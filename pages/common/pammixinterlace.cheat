@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pammixinterlace.md
+
+% pammixinterlace, common
+
+# Merge each row in an image with its two neighbours
+pammixinterlace <path_to_image.ppm> > <path_to_output.ppm>
+
+# Use the specified filtering mechanism
+pammixinterlace -filter <linear|fir|ffmpeg> <path_to_image.ppm> > <path_to_output.ppm>
+
+# Turn on adaptive filtering mode, i.e., only modify pixels that are obviously part of a comb pattern
+pammixinterlace -adaptive <path_to_image.ppm> > <path_to_output.ppm>

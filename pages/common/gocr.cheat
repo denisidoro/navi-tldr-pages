@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gocr.md
+
+% gocr, common
+
+# Recognize characters in the [i]nput image and [o]utput it in the given file. Put the database ([p]) in `path/to/db_directory` (verify that the folder exists or DB usage will silently be skipped). [m]ode 130 means create + use + extend database
+gocr -m 130 -p <path_to_db_directory> -i <path_to_input_image.png> -o <path_to_output_file.txt>
+
+# Recognize characters and assume all [C]haracters are numbers
+gocr -m 130 -p <path_to_db_directory> -i <path_to_input_image.png> -o <path_to_output_file.txt> -C "<0..9>"
+
+# Recognize characters with a cert[a]inty of 100% (characters have a higher chance to be treated as unknown)
+gocr -m 130 -p <path_to_db_directory> -i <path_to_input_image.png> -o <path_to_output_file.txt> -a 100

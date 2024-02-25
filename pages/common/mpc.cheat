@@ -12,11 +12,11 @@ mpc stop
 # Show information about the currently playing song
 mpc status
 
-# Play next song
+# Play the next song
 mpc next
 
-# Play previous song
+# Play the previous song
 mpc prev
 
-# Forward or rewind the currently playing song
-mpc [+-]<seconds>
+# Seek `n` seconds forward (`+`) or backward (`-`)
+mpc <+n|-n>

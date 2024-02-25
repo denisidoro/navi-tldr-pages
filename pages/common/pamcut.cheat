@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamcut.md
+
+% pamcut, common
+
+# Discard the specified number of columns/rows on each side of the image
+pamcut -cropleft <value> -cropright <value> -croptop <value> -cropbottom <value> <path_to_image.ppm> > <path_to_output.ppm>
+
+# Keep only the columns between the specified columns (inclusively)
+pamcut -left <value> -right <value> <path_to_image.ppm> > <path_to_output.ppm>
+
+# Fill missing areas with black pixels if the specified rectangle does not entirely lie within the input image
+pamcut -top <value> -bottom <value> -pad <path_to_image.ppm> > <path_to_output.ppm>

@@ -3,7 +3,7 @@
 
 % gcloud-sql-export-sql, common
 
-# Export data from a specific Cloud SQL instance to a Google Cloud Storage bucket as a SQL dump file
+# Export data from a specific Cloud SQL instance to a Google Cloud Storage bucket as an SQL dump file
 gcloud sql export sql <instance> gs://<bucket_name>/<file_name>
 
 # Export data asynchronously, returning immediately without waiting for the operation to complete

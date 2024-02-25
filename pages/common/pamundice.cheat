@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamundice.md
+
+% pamundice, common
+
+# Combine the images whose names match the `printf`-style filename expression. Assume a grid with a specific size
+pamundice <filename_%1d_%1a.ppm> -across <grid_width> -down <grid_height> > <path_to_output.ppm>
+
+# Assume that the tiles overlap horizontally and vertically by the specified amount
+pamundice <filename_%1d_%1a.ppm> -across <x_value> -down <y_value> -hoverlap <value> -voverlap <value> > <path_to_output.ppm>
+
+# Specify the images to be combined through a text file containing one filename per line
+pamundice -listfile <path_to_file.txt> -across <x_value> -down <y_value> > <path_to_output.ppm>

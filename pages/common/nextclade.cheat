@@ -3,8 +3,11 @@
 
 % nextclade, common
 
-# Create a TSV report, auto-downloading the latest [d]ataset
-nextclade run -d <dataset_name> <path_to_fasta> -t <path_to_output_tsv>
+# Align sequences to user provided [r]eference, [o]utputting the alignment to a file
+nextclade run <path_to_sequences.fa> -r <path_to_reference.fa> -o <path_to_alignment.fa>
+
+# Create a [t]SV report, auto-downloading the latest [d]ataset
+nextclade run <path_to_fasta> -d <dataset_name> -t <path_to_report.tsv>
 
 # List all available datasets
 nextclade dataset list
@@ -13,7 +16,7 @@ nextclade dataset list
 nextclade dataset get --name sars-cov-2 --output-dir <path_to_directory>
 
 # Use a downloaded [D]ataset, producing all [O]utputs
-nextclade run -D <path_to_dataset_dir> -O <path_to_output_dir> <path_to_dataset_dir_sequences.fasta>
+nextclade run -D <path_to_dataset_dir> -O <path_to_output_dir> <path_to_sequences.fasta>
 
 # Run on multiple files
 nextclade run -d <dataset_name> -t <path_to_output_tsv> -- <path_to_input_fasta_1 path_to_input_fasta_2 ...>

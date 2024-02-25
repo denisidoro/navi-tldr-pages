@@ -3,11 +3,11 @@
 
 % clementine, common
 
-# Open Clementine
+# Start the GUI or bring it to front
 clementine
 
-# Start playing a music file
-clementine <url_or_path_to_file.ext>
+# Start playing music
+clementine <url|path_to_music.ext>
 
 # Toggle between pausing and playing
 clementine --play-pause
@@ -15,14 +15,14 @@ clementine --play-pause
 # Stop playback
 clementine --stop
 
-# Skip to the next track
-clementine --next
+# Skip to the next or previous track
+clementine --<next|previous>
 
-# Skip to the previous track
-clementine --previous
+# Create a new playlist with one or more music files or URLs
+clementine --create <url1 url2 ... | path_to_music1.ext path_to_music2.ext ...>
 
 # Load a playlist file
 clementine --load <path_to_playlist.ext>
 
-# Play the 5th track in the currently loaded playlist
+# Play a specific track in the currently loaded playlist
 clementine --play-track <5>

@@ -9,19 +9,19 @@ carbon-now <path_to_file>
 # Create an image from a text in clipboard using default settings
 carbon-now --from-clipboard
 
-# Create an image from `stdin` using default settings
-<input> | carbon-now
+# Create an image from `stdin` using default settings and copy to the clipboard
+<input> | carbon-now --to-clipboard
 
-# Create images interactively for custom settings and optionally save a preset
+# Create images [i]nteractively for custom settings and optionally save a preset
 carbon-now -i <path_to_file>
 
-# Create images from previously saved preset
+# Create images from a previously saved [p]reset
 carbon-now -p <preset> <path_to_file>
 
-# Start at a specified line of text
+# [s]tart at a specified line of text
 carbon-now -s <line> <path_to_file>
 
-# End at a specific line of text
+# [e]nd at a specific line of text
 carbon-now -e <line> <path_to_file>
 
 # Open image in a browser instead of saving

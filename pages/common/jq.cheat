@@ -18,7 +18,7 @@
 # Print specific array items
 <cat path_to_file.json> | jq '<.[index1], .[index2], ...>'
 
-# Print all array items/object keys
+# Print all array/object values
 <cat path_to_file.json> | jq '.[]'
 
 # Add/remove specific keys

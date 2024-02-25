@@ -6,10 +6,10 @@
 # Compress a file
 bzip3 <path_to_file_to_compress>
 
-# Decompress a file
+# [d]ecompress a file
 bzip3 -d <path_to_compressed_file.bz3>
 
-# Decompress a file to `stdout`
+# Decompress a file to `stdout` ([c])
 bzip3 -dc <path_to_compressed_file.bz3>
 
 # Test the integrity of each file inside the archive file
@@ -19,7 +19,7 @@ bzip3 --test <path_to_compressed_file.bz3>
 bzip3 --verbose <path_to_compressed_files.bz3>
 
 # Decompress a file overwriting existing files
-bzip3 --force <path_to_compressed_file.bz3>
+bzip3 -d --force <path_to_compressed_file.bz3>
 
 # Display help
 bzip3 -h

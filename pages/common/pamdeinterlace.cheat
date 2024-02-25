@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamdeinterlace.md
+
+% pamdeinterlace, common
+
+# Produce an image consisting of the input's even-numbered rows
+pamdeinterlace <path_to_image.ppm> > <path_to_output.ppm>
+
+# Produce an image consisting of the input's odd-numbered rows
+pamdeinterlace -takeodd <path_to_image.ppm> > <path_to_output.ppm>

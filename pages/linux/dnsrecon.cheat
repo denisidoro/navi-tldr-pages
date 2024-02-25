@@ -3,7 +3,7 @@
 
 % dnsrecon, linux
 
-# Scan a domain and save the results to a SQLite database
+# Scan a domain and save the results to an SQLite database
 dnsrecon --domain <example.com> --db <path_to_database.sqlite>
 
 # Scan a domain, specifying the nameserver and performing a zone transfer

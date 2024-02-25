@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/golangci-lint.md
+
+% golangci-lint, common
+
+# Run linters in the current folder
+golangci-lint run
+
+# List enabled and disabled linters (Note: disabled linters are shown last, do not mistake them for enabled ones)
+golangci-lint linters
+
+# [E]nable a specific linter for this run
+golangci-lint run --enable <linter>

@@ -6,7 +6,7 @@
 # Compile a new Phar file
 box compile
 
-# Compile a new Phar file using a specific configuration file
+# Compile a new Phar file using a specific [c]onfiguration file
 box compile -c <path_to_config>
 
 # Display information about the PHAR PHP extension

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtofits.md
+
+% pamtofits, common
+
+# Convert a Netpbm image to the FITS format
+pamtofits <path_to_image.pam> > <path_to_output.fits>

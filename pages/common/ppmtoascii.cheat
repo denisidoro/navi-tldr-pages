@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtoascii.md
+
+% ppmtoascii, common
+
+# Convert a PPM image to an ASCII image, combining an area of 1x2 pixels into a character
+ppmtoascii <path_to_input.ppm> > <path_to_output.txt>
+
+# Convert a PPM image to an ASCII image, combining an area of 2x4 pixels into a character
+ppmtoascii -2x4 <path_to_input.ppm> > <path_to_output.txt>

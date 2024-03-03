@@ -13,4 +13,4 @@ docker rm --force <container1 container2 ...>
 docker rm --volumes <container>
 
 # Display help
-docker rm
+docker rm --help

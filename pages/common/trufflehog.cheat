@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/trufflehog.md
+
+% trufflehog, common
+
+# Scan a Git repository for verified secrets
+trufflehog git <https:__github.com_trufflesecurity_test_keys> --only-verified
+
+# Scan a GitHub organization for verified secrets
+trufflehog github --org=<trufflesecurity> --only-verified
+
+# Scan a GitHub repository for verified keys and get JSON output
+trufflehog git <https:__github.com_trufflesecurity_test_keys> --only-verified --json
+
+# Scan a GitHub repository along with its Issues and Pull Requests
+trufflehog github --repo=<https:__github.com_trufflesecurity_test_keys> --issue-comments --pr-comments
+
+# Scan an S3 bucket for verified keys
+trufflehog s3 --bucket=<bucket name> --only-verified
+
+# Scan S3 buckets using IAM Roles
+trufflehog s3 --role-arn=<iam-role-arn>
+
+# Scan individual files or directories
+trufflehog filesystem <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# Scan a Docker image for verified secrets
+trufflehog docker --image <trufflesecurity_secrets> --only-verified

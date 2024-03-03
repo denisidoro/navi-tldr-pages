@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/checkov.md
+
+% checkov, common
+
+# Scan a directory containing IaC (Terraform, Cloudformation, ARM, Ansible, Bicep, Dockerfile, etc)
+checkov --directory <path_to_directory>
+
+# Scan an IaC file, omitting code blocks in the output
+checkov --compact --file <path_to_file>
+
+# List all checks for all IaC types
+checkov --list

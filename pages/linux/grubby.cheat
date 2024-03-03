@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/grubby.md
+
+% grubby, linux
+
+# Add kernel boot arguments to all kernel menu entries
+sudo grubby --update-kernel=ALL --args '<quiet console=ttyS0>'
+
+# Remove existing arguments from the entry for the default kernel
+sudo grubby --update-kernel=DEFAULT --remove-args <quiet>
+
+# List all kernel menu entries
+sudo grubby --info=ALL

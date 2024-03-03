@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamarith.md
+
+% pamarith, common
+
+# Apply the specified binary function pixel-wise on the two specified images (which must be of the same size)
+pamarith -<add|subtract|multiply|divide|difference|minimum|maximum|...> <path_to_image1.pam|pbm|pgm|ppm> <path_to_image2.pam|pbm|pgm|ppm>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/debuginfod-find.md
+
+% debuginfod-find, linux
+
+# Request data based on the `build_id`
+debuginfod-find -vv debuginfo <build_id>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/repo-remove.md
+
+% repo-remove, linux
+
+# Remove a package from a local repository
+repo-remove <path_to_database.db.tar.gz> <package>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/check-dfsg-status.md
+
+% check-dfsg-status, linux
+
+# List non-free and contrib packages (and their description)
+check-dfsg-status
+
+# Only output the package names
+check-dfsg-status --sparse

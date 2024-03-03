@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmto4425.md
+
+% pbmto4425, common
+
+# Display a PBM image on an AT&T 4425 terminal using the terminal's mosaic graphics character set
+pbmto4425 <path_to_image.pbm>

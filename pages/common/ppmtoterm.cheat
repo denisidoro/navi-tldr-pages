@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ppmtoterm.md
+
+% ppmtoterm, common
+
+# Convert a PPM image to an ANSI ISO 6429 ASCII image, mapping each pixel to an individual character
+ppmtoterm <path_to_input.ppm> > <path_to_output.txt>

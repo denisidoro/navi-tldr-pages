@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtosunicon.md
+
+% pbmtosunicon, common
+
+# Convert a PBM image into a Sun icon
+pbmtosunicon <path_to_input.pbm> > <path_to_output.ico>

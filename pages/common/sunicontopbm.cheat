@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sunicontopbm.md
+
+% sunicontopbm, common
+
+# Convert a Sun icon into a Netpbm image
+sunicontopnm <path_to_input.ico> > <path_to_output.pbm>

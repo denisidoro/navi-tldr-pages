@@ -1,10 +1,10 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/select.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/select.md
 
-% select, linux
+% select, common
 
 # Create a menu out of individual words
-select <word> in <apple> <orange> <pear> <banana>; do echo $<word>; done
+select <word> in <apple orange pear banana>; do echo $<word>; done
 
 # Create a menu from the output of another command
 select <line> in $(<command>); do echo $<line>; done
@@ -13,4 +13,4 @@ select <line> in $(<command>); do echo $<line>; done
 PS3="<Select a file: >"; select <file> in *; do echo $<file>; done
 
 # Create a menu from a Bash array
-<fruits>=(<apple> <orange> <pear> <banana>); select <word> in $<{fruits>[@]}; do echo $<word>; done
+<fruits>=(<apple orange pear banana>); select <word> in $<{fruits[@]>}; do echo $<word>; done

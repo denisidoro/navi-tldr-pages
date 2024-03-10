@@ -3,7 +3,7 @@
 
 % pwn, linux
 
-# Convert  the given assembly code to `bytes`
+# Convert the given assembly code to `bytes`
 pwn asm "<xor edi, edi>"
 
 # Create a cyclic pattern of the specific number of characters

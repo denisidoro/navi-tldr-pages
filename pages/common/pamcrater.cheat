@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamcrater.md
+
+% pamcrater, common
+
+# Create an image of cratered terrain with the specified dimensions
+pamcrater -height <height> -width <width> > <path_to_output.pam>
+
+# Create an image containing the specified number of craters
+pamcrater -number <n_craters> > <path_to_output.pam>

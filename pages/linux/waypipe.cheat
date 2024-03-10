@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/waypipe.md
+
+% waypipe, linux
+
+# Run a graphical program remotely and display it locally
+waypipe ssh <user>@<server> <program>
+
+# Open an SSH tunnel to run any program remotely and display it locally
+waypipe ssh <user>@<server>

@@ -3,7 +3,7 @@
 
 % virt-manager, linux
 
-# Launch virt-manager
+# Launch the GUI
 virt-manager
 
 # Connect to a hypervisor
@@ -18,10 +18,10 @@ virt-manager --debug
 # Open the "New VM" wizard
 virt-manager --show-domain-creator
 
-# Show domain details window
+# Show domain details window for a specific virtual machine/container
 virt-manager --show-domain-editor <name|id|uuid>
 
-# Show domain performance window
+# Show domain performance window for a specific virtual machine/container
 virt-manager --show-domain-performance <name|id|uuid>
 
 # Show connection details window

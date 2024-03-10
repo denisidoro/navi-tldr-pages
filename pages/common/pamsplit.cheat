@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamsplit.md
+
+% pamsplit, common
+
+# Split a multi-image Netpbm file into multiple single-image Netpbm files
+pamsplit <path_to_image.pam>
+
+# Specify a pattern for naming output files
+pamsplit <path_to_image.pam> <file_%d.pam>

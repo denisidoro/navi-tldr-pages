@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamedge.md
+
+% pamedge, common
+
+# Perform edge-detection on a Netpbm image
+pamedge <path_to_input.pam> > <path_to_output.pam>

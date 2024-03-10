@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pngtopam.md
+
+% pngtopam, common
+
+# Convert the specified PNG image to a Netpbm image
+pngtopam <path_to_image.png> > <path_to_output.pam>
+
+# Create an output image that includes both the main image and transparency mask of the input image
+pngtopam -alphapam <path_to_image.png> > <path_to_output.pam>
+
+# Replace transparent pixels by the specified color
+pngtopam -mix -background <color> <path_to_image.png> > <path_to_output.pam>
+
+# Write tEXt chunks found in the input image to the specified text file
+pngtopam -text <path_to_file.txt> <path_to_image.png> > <path_to_output.pam>

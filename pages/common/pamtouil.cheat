@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtouil.md
+
+% pamtouil, common
+
+# Convert a PNM or PAM file into a Motif UIL icon file
+pamtouil <path_to_input.pnm|pam> > <path_to_output.uil>
+
+# Specify a prefix string to be printed in the output UIL file
+pamtouil -name <uilname> <path_to_input.pnm|pam> > <path_to_output.uil>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamtopng.md
+
+% pamtopng, common
+
+# Convert the specified PAM image to PNG
+pamtopng <path_to_image.pam> > <path_to_output.png>
+
+# Mark the specified color as transparent in the output image
+pamtopng -transparent <color> <path_to_image.pam> > <path_to_output.png>
+
+# Include the text in the specified file as tEXt chunks in the output
+pamtopng -text <path_to_file.txt> <path_to_image.pam> > <path_to_output.png>
+
+# Cause the output file to be interlaced in Adam7 format
+pamtopng -interlace <path_to_image.pam> > <path_to_output.png>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamshadedrelief.md
+
+% pamshadedrelief, common
+
+# Generate a shaded relief image with the input image interpreted as an elevation map
+pamshadedrelief < <path_to_input.pam> > <path_to_output.pam>
+
+# Gamma adjust the image by the specified factor
+pamshadedrelief -gamma <factor> < <path_to_input.pam> > <path_to_output.pam>

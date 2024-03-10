@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamexec.md
+
+% pamexec, common
+
+# Execute a shell command on each image in a Netpbm file
+pamexec <command> <path_to_image.pam>
+
+# Stop processing if a command terminates with a nonzero exit status
+pamexec <command> <path_to_image.pam> -check

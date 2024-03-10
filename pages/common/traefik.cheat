@@ -3,13 +3,13 @@
 
 % traefik, common
 
-# Start server with default config
+# Start the server with the default configuration
 traefik
 
-# Start server with a custom configuration file
-traefik --c <config_file.toml>
+# Start the server with a custom configuration file
+traefik --ConfigFile <config_file.toml>
 
-# Start server with cluster mode enabled
+# Start the server with cluster mode enabled
 traefik --cluster
 
 # Start server with web UI enabled

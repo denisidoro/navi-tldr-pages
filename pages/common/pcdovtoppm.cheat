@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pcdovtoppm.md
+
+% pcdovtoppm, common
+
+# Create a PPM index image from a PCD overview file
+pcdovtoppm <path_to_file.pcd> > <path_to_output.ppm>
+
+# Specify the [m]aximum width of the output image and the maximum [s]ize of each of the images contained in the output
+pcdovtoppm -m <width> -s <size> <path_to_file.pcd> > <path_to_output.ppm>
+
+# Specify the maximum number of images [a]cross and the maximum number of [c]olours
+pcdovtoppm -a <n_images> -c <n_colours> <path_to_file.pcd> > <path_to_output.ppm>
+
+# Use the specified [f]ont for annotations and paint the background [w]hite
+pcdovtoppm -a <number> -w <path_to_file.pcd> > <path_to_output.ppm>

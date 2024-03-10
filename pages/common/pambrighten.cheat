@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pambrighten.md
+
+% pambrighten, common
+
+# Increase the saturation of each pixel by the specified percentage
+pambrighten -saturation <value_percent> <path_to_image.pam> > <path_to_output.pam>
+
+# Increase the value (from the HSV color space) of each pixel by the specified percentage
+pambrighten -value <value_percent> <path_to_image.pam> > <path_to_output.pam>

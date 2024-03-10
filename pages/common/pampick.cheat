@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pampick.md
+
+% pampick, common
+
+# Execute a shell command on each image in a Netpbm file
+pampick <image_number1 image_number2 ...> < <path_to_image.pam> > <path_to_output.pam>

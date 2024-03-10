@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgmcrater.md
+
+% pgmcrater, common
+
+# View documentation for `pamcrater`
+tldr pamcrater
+
+# View documentation for `pamshadedrelief`
+tldr pamshadedrelief
+
+# View documentation for `pamtopnm`
+tldr pamtopnm

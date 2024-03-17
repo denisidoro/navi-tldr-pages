@@ -3,7 +3,7 @@
 
 % osv-scanner, common
 
-# Scan a docker image
+# Scan a Docker image
 osv-scanner -D <docker_image_name>
 
 # Scan a package lockfile

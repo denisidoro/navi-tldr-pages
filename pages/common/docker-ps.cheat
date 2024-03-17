@@ -3,10 +3,10 @@
 
 % docker-ps, common
 
-# List currently running docker containers
+# List currently running Docker containers
 docker ps
 
-# List all docker containers (running and stopped)
+# List all Docker containers (running and stopped)
 docker ps --all
 
 # Show the latest created container (includes all states)

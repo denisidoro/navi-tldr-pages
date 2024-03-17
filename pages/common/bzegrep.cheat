@@ -18,5 +18,5 @@ bzegrep --with-filename --line-number "<search_pattern>" <path_to_file>
 # Search for lines matching a pattern, printing only the matched text
 bzegrep --only-matching "<search_pattern>" <path_to_file>
 
-# Recursively search files in a `bzip2` compressed `tar` archive for a pattern
+# Recursively search files in a bzip2 compressed tar archive for a pattern
 bzegrep --recursive "<search_pattern>" <path_to_file>

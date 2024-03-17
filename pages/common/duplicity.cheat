@@ -15,7 +15,7 @@ FTP_PASSWORD=<webdav_login_password> duplicity remove-older-than <1Y> --force <w
 # List the available backups
 duplicity collection-status "file://<absolute_path_to_backup_directory>"
 
-# List the files in a backup stored on a remote machine, via ssh
+# List the files in a backup stored on a remote machine, via SSH
 duplicity list-current-files --time <YYYY-MM-DD> scp://<user@hostname>/<path_to_backup_dir>
 
 # Restore a subdirectory from a GnuPG-encrypted local backup to a given location

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/choom.md
+
+% choom, linux
+
+# Display the OOM-killer score of the process with a specific ID
+choom -p <pid>
+
+# Change the adjust OOM-killer score of a specific process
+choom -p <pid> -n <-1000..+1000>
+
+# Run a command with a specific adjust OOM-killer score
+choom -n <-1000..+1000> <command> <argument1 argument2 ...>

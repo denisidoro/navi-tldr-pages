@@ -6,7 +6,7 @@
 # Display help
 docker system
 
-# Show docker disk usage
+# Show Docker disk usage
 docker system df
 
 # Show detailed information on disk usage

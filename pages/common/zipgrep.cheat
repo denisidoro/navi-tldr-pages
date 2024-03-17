@@ -3,7 +3,7 @@
 
 % zipgrep, common
 
-# Search for a pattern within a ZIP archive
+# Search for a pattern within a Zip archive
 zipgrep "<search_pattern>" <path_to_file.zip>
 
 # Print file name and line number for each match
@@ -12,8 +12,8 @@ zipgrep -H -n "<search_pattern>" <path_to_file.zip>
 # Search for lines that do not match a pattern
 zipgrep -v "<search_pattern>" <path_to_file.zip>
 
-# Specify files inside a ZIP archive from search
+# Specify files inside a Zip archive from search
 zipgrep "<search_pattern>" <path_to_file.zip> <file_to_search1> <file_to_search2>
 
-# Exclude files inside a ZIP archive from search
+# Exclude files inside a Zip archive from search
 zipgrep "<search_pattern>" <path_to_file.zip> -x <file_to_exclude1> <file_to_exclude2>

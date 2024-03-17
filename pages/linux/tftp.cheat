@@ -12,7 +12,7 @@ tftp <server_ip> -c <command>
 # Connect to a TFTP server using IPv6 and force originating port to be in [R]ange
 tftp <server_ip> -6 -R <port>:<port>
 
-# Set the transfer mode to binary or ascii through the tftp client
+# Set the transfer mode to binary or ASCIi through the tftp client
 mode <binary|ascii>
 
 # Download file from a server through the tftp client

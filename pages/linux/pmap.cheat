@@ -3,7 +3,7 @@
 
 % pmap, linux
 
-# Print memory map for a specific process id (PID)
+# Print memory map for a specific process ID (PID)
 pmap <pid>
 
 # Show the extended format

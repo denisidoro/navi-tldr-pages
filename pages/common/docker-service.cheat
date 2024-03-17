@@ -3,7 +3,7 @@
 
 % docker-service, common
 
-# List the services on a docker daemon
+# List the services on a Docker daemon
 docker service ls
 
 # Create a new service

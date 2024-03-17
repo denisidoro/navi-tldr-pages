@@ -9,7 +9,7 @@ cat <index.html> | pup --color
 # Filter HTML by element tag name
 cat <index.html> | pup '<tag>'
 
-# Filter HTML by id
+# Filter HTML by ID
 cat <index.html> | pup '<div#id>'
 
 # Filter HTML by attribute value

@@ -3,10 +3,10 @@
 
 % fdp, common
 
-# Render a `png` image with a filename based on the input filename and output format (uppercase -O)
+# Render a PNG image with a filename based on the input filename and output format (uppercase -O)
 fdp -T png -O <path_to_input.gv>
 
-# Render a `svg` image with the specified output filename (lowercase -o)
+# Render a SVG image with the specified output filename (lowercase -o)
 fdp -T svg -o <path_to_image.svg> <path_to_input.gv>
 
 # Render the output in a specific format

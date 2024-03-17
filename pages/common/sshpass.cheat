@@ -6,8 +6,8 @@
 # Connect to a remote server using a password supplied on a file descriptor (in this case, `stdin`)
 sshpass -d <0> ssh <user>@<hostname>
 
-# Connect to a remote server with the password supplied as an option, and automatically accept unknown ssh keys
+# Connect to a remote server with the password supplied as an option, and automatically accept unknown SSH keys
 sshpass -p <password> ssh -o StrictHostKeyChecking=no <user>@<hostname>
 
-# Connect to a remote server using the first line of a file as the password, automatically accept unknown ssh keys, and launch a command
+# Connect to a remote server using the first line of a file as the password, automatically accept unknown SSH keys, and launch a command
 sshpass -f <path_to_file> ssh -o StrictHostKeyChecking=no <user>@<hostname> "<command>"

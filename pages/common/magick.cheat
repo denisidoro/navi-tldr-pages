@@ -9,11 +9,11 @@ magick <path_to_input_image.png> <path_to_output_image.jpg>
 # Resize an image, making a new copy
 magick <path_to_input_image.jpg> -resize <100x100> <path_to_output_image.jpg>
 
-# Create a GIF out of all JPG images in the current directory
+# Create a GIF out of all JPEG images in the current directory
 magick <*.jpg> <path_to_images.gif>
 
 # Create a checkerboard pattern
 magick -size <640x480> pattern:checkerboard <path_to_checkerboard.png>
 
-# Create a PDF file out of all JPG images in the current directory
+# Create a PDF file out of all JPEG images in the current directory
 magick <*.jpg> -adjoin <path_to_file.pdf>

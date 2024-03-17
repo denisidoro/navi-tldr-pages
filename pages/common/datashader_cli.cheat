@@ -3,7 +3,7 @@
 
 % datashader_cli, common
 
-# Create a shaded scatter plot of points and save it to a png file and set the background color
+# Create a shaded scatter plot of points and save it to a PNG file and set the background color
 datashader_cli points <path_to_input.parquet> --x <pickup_x> --y <pickup_y> <path_to_output.png> --background <black|white|#rrggbb>
 
 # Visualize the geospatial data (supports Geoparquet, shapefile, geojson, geopackage, etc.)

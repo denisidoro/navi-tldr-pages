@@ -6,7 +6,7 @@
 # Generate completions for Bash
 sudo pueue completions bash <usr_share_bash-completion_completions_pueue.bash>
 
-# Generate completions for zsh
+# Generate completions for Zsh
 sudo pueue completions zsh <usr_share_zsh_site-functions>
 
 # Generate completions for fish

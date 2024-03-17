@@ -3,5 +3,5 @@
 
 % git-archive-file, common
 
-# Pack the currently checked out commit into a `zip` archive
+# Pack the currently checked out commit into a Zip archive
 git archive-file

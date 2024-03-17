@@ -9,7 +9,7 @@ procs
 # List all processes as a tree
 procs --tree
 
-# List information about processes, if the commands which started them contain `zsh`
+# List information about processes, if the commands which started them contain Zsh
 procs <zsh>
 
 # List information about all processes sorted by CPU time in [a]scending or [d]escending order

@@ -15,5 +15,5 @@ packwiz list
 # Update `index.toml` after manually editing files
 packwiz refresh
 
-# Export as a Modrinth (`.mrpack`) or Curseforge (`.zip`) file
+# Export as a Modrinth (`.mrpack`) or Curseforge (Zip) file
 packwiz <modrinth|curseforge> export

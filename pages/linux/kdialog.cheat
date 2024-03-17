@@ -24,5 +24,5 @@ kdialog --combobx "<message>" "<item1>" "<item2>" "<...>"
 # Open a file chooser dialog and print the selected file's path to `stdout`
 kdialog --getopenfilename
 
-# Open a progressbar dialog and print a DBUS reference for communication to `stdout`
+# Open a progressbar dialog and print a D-Bus reference for communication to `stdout`
 kdialog --progressbar "<message>"

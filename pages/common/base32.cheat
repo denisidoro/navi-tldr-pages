@@ -6,6 +6,9 @@
 # Encode a file
 base32 <path_to_file>
 
+# Wrap encoded output at a specific width (`0` disables wrapping)
+base32 --wrap <0|76|...> <path_to_file>
+
 # Decode a file
 base32 --decode <path_to_file>
 

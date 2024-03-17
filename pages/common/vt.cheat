@@ -12,7 +12,7 @@ vt scan url <url>
 # Display information from a specific analysis
 vt analysis <file_id|analysis_id>
 
-# Download files in encrypted `.zip` format (requires premium account)
+# Download files in encrypted Zip format (requires premium account)
 vt download <file_id> --output <path_to_directory> --zip --zip-password <password>
 
 # Initialize or re-initialize `vt` to enter API key interactively

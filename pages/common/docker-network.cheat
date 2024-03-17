@@ -3,7 +3,7 @@
 
 % docker-network, common
 
-# List all available and configured networks on docker daemon
+# List all available and configured networks on Docker daemon
 docker network ls
 
 # Create a user-defined network

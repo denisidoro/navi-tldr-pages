@@ -3,7 +3,7 @@
 
 % whereis, common
 
-# Locate binary, source and man pages for ssh
+# Locate binary, source and man pages for SSH
 whereis <ssh>
 
 # Locate binary and man pages for ls

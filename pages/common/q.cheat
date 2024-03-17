@@ -3,10 +3,10 @@
 
 % q, common
 
-# Query `.csv` file by specifying the delimiter as ','
+# Query a CSV file by specifying the delimiter as ','
 q -d',' "SELECT * from <path_to_file>"
 
-# Query `.tsv` file
+# Query a TSV file
 q -t "SELECT * from <path_to_file>"
 
 # Query file with header row

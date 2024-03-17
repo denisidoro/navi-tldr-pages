@@ -6,7 +6,7 @@
 # Display help
 docker start
 
-# Start a docker container
+# Start a Docker container
 docker start <container>
 
 # Start a container, attaching `stdout` and `stderr` and forwarding signals

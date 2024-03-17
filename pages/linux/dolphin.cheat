@@ -18,7 +18,7 @@ dolphin --new-window
 # Open specific directories in split view
 dolphin --split <path_to_directory1> <path_to_directory2>
 
-# Launch the daemon (only required to use the DBus interface)
+# Launch the daemon (only required to use the D-Bus interface)
 dolphin --daemon
 
 # Display help

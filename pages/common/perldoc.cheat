@@ -6,7 +6,7 @@
 # View documentation for a builtin [f]unction, a [v]ariable or an [a]PI
 perldoc -<f|v|a> <name>
 
-# Search in the the question headings of Perl FAQ
+# Search in the question headings of Perl FAQ
 perldoc -q <regex>
 
 # Send output directly to `stdout` (by default, it is send to a pager)

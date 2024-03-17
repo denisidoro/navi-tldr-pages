@@ -3,7 +3,7 @@
 
 % lrztar, linux
 
-# Archive a directory with `tar`, then compress
+# Archive a directory with tar, then compress
 lrztar <path_to_directory>
 
 # Same as above, with ZPAQ - extreme compression, but very slow

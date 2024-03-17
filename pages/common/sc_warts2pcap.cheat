@@ -3,8 +3,8 @@
 
 % sc_warts2pcap, common
 
-# Convert the data from several `warts` files into one `pcap` file
+# Convert the data from several `warts` files into one PCAP file
 sc_warts2pcap -o <path_to_output.pcap> <path_to_file1.warts path_to_file2.warts ...>
 
-# Convert the data from a `warts` file into a `pcap` file and sort the packets by timestamp
+# Convert the data from a `warts` file into a PCAP file and sort the packets by timestamp
 sc_warts2pcap -s -o <path_to_output.pcap> <path_to_file.warts>

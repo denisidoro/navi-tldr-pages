@@ -6,7 +6,7 @@
 # Terminate the current session
 logoff
 
-# Terminate a session by its name or id
+# Terminate a session by its name or ID
 logoff <session_name|session_id>
 
 # Terminate a session on a specific server connected through RDP

@@ -15,7 +15,7 @@ ss -t src :<443>
 # Show all TCP sockets listening on the local 8080 port
 ss -lt src :<8080>
 
-# Show all TCP sockets along with processes connected to a remote ssh port
+# Show all TCP sockets along with processes connected to a remote SSH port
 ss -pt dst :<ssh>
 
 # Show all UDP sockets connected on specific source and destination ports

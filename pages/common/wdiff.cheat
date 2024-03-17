@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wdiff.md
+
+% wdiff, common
+
+# Compare two files
+wdiff <path_to_file1> <path_to_file2>
+
+# Ignore case when comparing
+wdiff --ignore-case <path_to_file1> <path_to_file2>
+
+# Display how many words are deleted, inserted or replaced
+wdiff --statistics <path_to_file1> <path_to_file2>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dhcpcd.md
+
+% dhcpcd, linux
+
+# Release all address leases
+sudo dhcpcd --release
+
+# Request the DHCP server for new leases
+sudo dhcpcd --rebind

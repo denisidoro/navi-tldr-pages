@@ -15,5 +15,5 @@ apt-key del <key_id>
 # Add a remote key to the trusted keystore
 wget -qO - <https:__host.tld_filename.key> | apt-key add -
 
-# Add a key from keyserver with only key id
+# Add a key from keyserver with only key ID
 apt-key adv --keyserver <pgp.mit.edu> --recv <KEYID>

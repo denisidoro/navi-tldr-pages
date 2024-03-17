@@ -3,7 +3,7 @@
 
 % pio-system, common
 
-# Install shell completion for the current shell (supports Bash, Fish, Zsh and PowerShell)
+# Install shell completion for the current shell (supports Bash, fish, Zsh and PowerShell)
 pio system completion install
 
 # Uninstall shell completion for the current shell

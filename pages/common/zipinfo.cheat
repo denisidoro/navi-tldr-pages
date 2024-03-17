@@ -3,8 +3,8 @@
 
 % zipinfo, common
 
-# List all files in a `.zip` file in long format (permissions, ownership, size, and modification date)
+# List all files in a Zip file in long format (permissions, ownership, size, and modification date)
 zipinfo <path_to_archive.zip>
 
-# List all files in a `.zip` file
+# List all files in a Zip file
 zipinfo -1 <path_to_archive.zip>

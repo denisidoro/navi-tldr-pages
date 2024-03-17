@@ -6,13 +6,13 @@
 # Compress a file using xz
 xz <path_to_file>
 
-# Decompress an xz file
+# Decompress an XZ file
 xz --decompress <path_to_file.xz>
 
 # Compress a file using lzma
 xz --format=lzma <path_to_file>
 
-# Decompress an lzma file
+# Decompress an LZMA file
 xz --decompress --format=lzma <path_to_file.lzma>
 
 # Decompress a file and write to `stdout` (implies `--keep`)

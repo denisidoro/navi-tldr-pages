@@ -12,7 +12,7 @@ sudo --edit <etc_fstab>
 # Run a command as another user and/or group
 sudo --user=<user> --group=<group> <id -a>
 
-# Repeat the last command prefixed with `sudo` (only in `bash`, `zsh`, etc.)
+# Repeat the last command prefixed with `sudo` (only in Bash, Zsh, etc.)
 sudo !!
 
 # Launch the default shell with superuser privileges and run login-specific files (`.profile`, `.bash_profile`, etc.)

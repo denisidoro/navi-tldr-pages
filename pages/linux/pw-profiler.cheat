@@ -3,7 +3,7 @@
 
 % pw-profiler, linux
 
-# Profile the default instance, logging to `profile.log` (`gnuplot` files and a `.html` file for result visualizing are also generated)
+# Profile the default instance, logging to `profile.log` (`gnuplot` files and a HTML file for result visualizing are also generated)
 pw-profiler
 
 # Change the log output file

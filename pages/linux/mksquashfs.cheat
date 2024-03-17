@@ -12,7 +12,7 @@ mksquashfs <path_to_file_or_directory1 path_to_file_or_directory2 ...> <filesyst
 # Create or append files and directories to a squashfs filesystem, [e]xcluding some of them
 mksquashfs <path_to_file_or_directory1 path_to_file_or_directory2 ...> <filesystem.squashfs> -e <file|directory1 file|directory2 ...>
 
-# Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with `.gz`
+# Create or append files and directories to a squashfs filesystem, [e]xcluding those ending with gzip
 mksquashfs <path_to_file_or_directory1 path_to_file_or_directory2 ...> <filesystem.squashfs> -wildcards -e "<*.gz>"
 
 # Create or append files and directories to a squashfs filesystem, [e]xcluding those matching a regular expression

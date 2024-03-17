@@ -3,7 +3,7 @@
 
 % convert, common
 
-# Convert an image from JPG to PNG
+# Convert an image from JPEG to PNG
 convert <path_to_input_image.jpg> <path_to_output_image.png>
 
 # Scale an image to 50% of its original size

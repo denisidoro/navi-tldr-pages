@@ -4,7 +4,7 @@
 % venv, common
 
 # Create a Python virtual environment
- python -m venv <path_to_virtual_environment>
+python -m venv <path_to_virtual_environment>
 
 # Activate the virtual environment (Linux and macOS)
 source <path_to_virtual_environment>/bin/activate

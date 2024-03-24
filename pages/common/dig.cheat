@@ -12,8 +12,8 @@ dig +noall +answer <example.com>
 # Query a specific DNS record type associated with a given domain name
 dig +short <example.com> <A|MX|TXT|CNAME|NS>
 
-# Specify an alternate DNS server to query
-dig @<8.8.8.8> <example.com>
+# Specify an alternate DNS server to query and optionally use DNS over TLS (DoT)
+dig <+tls> @<1.1.1.1|8.8.8.8|9.9.9.9|...> <example.com>
 
 # Perform a reverse DNS lookup on an IP address (PTR record)
 dig -x <8.8.8.8>

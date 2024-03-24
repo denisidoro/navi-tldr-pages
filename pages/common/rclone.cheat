@@ -13,7 +13,7 @@ rclone lsf <remote_name>:<path_to_directory>
 rclone copy <path_to_source_file_or_directory> <remote_name>:<path_to_directory>
 
 # Copy files changed within the past 24 hours to a remote from the local machine, asking the user to confirm each file
-rclone copy --interactive --max-age 24h <remote_name>:<path_to_directory> <path_to_local_directory> 
+rclone copy --interactive --max-age 24h <remote_name>:<path_to_directory> <path_to_local_directory>
 
 # Mirror a specific file or directory (Note: Unlike copy, sync removes files from the remote if it does not exist locally)
 rclone sync <path_to_file_or_directory> <remote_name>:<path_to_directory>

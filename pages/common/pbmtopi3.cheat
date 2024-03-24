@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pbmtopi3.md
+
+% pbmtopi3, common
+
+# Convert a PBM image to an Atari Degas PI3 image
+pbmtopi3 <path_to_image.pbm> > <path_to_atari_image.pi3>

@@ -12,7 +12,7 @@ pcapfix --deep-scan <path_to_file.pcap>
 # Repair a PCAP/PcapNG file and write the repaired file to the specified location
 pcapfix --outfile <path_to_repaired.pcap> <path_to_file.pcap>
 
-# Repair a PcapNG file and treat it as a PcapNG file, ignoring the automatic recognition
+# Treat the specified file as a PcapNG file, ignoring automatic recognition
 pcapfix --pcapng <path_to_file.pcapng>
 
 # Repair a file and show the process in detail

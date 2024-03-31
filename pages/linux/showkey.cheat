@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/showkey.md
+
+% showkey, linux
+
+# View keycodes in decimal
+sudo showkey
+
+# Display [s]cancodes in hexadecimal
+sudo showkey <-s|--scancodes>
+
+# Display [k]eycodes in decimal (default)
+sudo showkey <-k|--keycodes>
+
+# Display keycodes in [a]SCII, decimal, and hexadecimal
+sudo showkey <-a|--ascii>
+
+# Exit the program
+Ctrl + d

@@ -3,7 +3,7 @@
 
 % gist, common
 
-# Log in in gist on this computer
+# Log in to gist on this computer
 gist --login
 
 # Create a gist from any number of text files

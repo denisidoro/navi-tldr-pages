@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zipcloak.md
+
+% zipcloak, common
+
+# Encrypt the contents of a Zip archive
+zipcloak <path_to_archive.zip>
+
+# [d]ecrypt the contents of a Zip archive
+zipcloak -d <path_to_archive.zip>
+
+# [O]utput the encrypted contents into a new Zip archive
+zipcloak <path_to_archive.zip> -O <path_to_encrypted.zip>

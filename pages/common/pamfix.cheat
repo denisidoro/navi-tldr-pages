@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamfix.md
+
+% pamfix, common
+
+# Fix a Netpbm file that is missing its last part
+pamfix -truncate {{path/to/corrupted.ext} > <path_to_output.ext>
+
+# Fix a Netpbm file where pixel values exceed the image's `maxval` by lowering the offending pixels' values
+pamfix -clip <path_to_corrupted.ext> > <path_to_output.ext>
+
+# Fix a Netpbm file where pixel values exceed the image's maxval by increasing it
+pamfix -changemaxval <path_to_corrupted.pam|pbm|pgm|ppm> > <path_to_output.pam|pbm|pgm|ppm>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/torsocks.md
+
+% torsocks, linux
+
+# Run a command using Tor
+torsocks <command>
+
+# Enable or disable Tor in this shell
+. torsocks <on|off>

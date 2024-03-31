@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pamvalidate.md
+
+% pamvalidate, common
+
+# Copy a Netpbm file from `stdin` to `stdout` if and only if it valid; fail otherwise
+<command> | pamvalidate > <path_to_output.ext>

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pydocstyle.md
+
+% pydocstyle, common
+
+# Analyze a Python script or all the Python scripts in a specific directory
+pydocstyle <file.py|path_to_directory>
+
+# Show an [e]xplanation of each error
+pydocstyle <-e|--explain> <file.py|path_to_directory>
+
+# Show [d]ebug information
+pydocstyle <-d|--debug> <file.py|path_to_directory>
+
+# Display the total number of errors
+pydocstyle --count <file.py|path_to_directory>
+
+# Use a specific configuration file
+pydocstyle --config <path_to_config_file> <file.py|path_to_directory>
+
+# Ignore one or more errors
+pydocstyle --ignore <D101,D2,D107,...> <file.py|path_to_directory>
+
+# Check for errors from a specific convention
+pydocstyle --convention <pep257|numpy|google> <file.py|path_to_directory>

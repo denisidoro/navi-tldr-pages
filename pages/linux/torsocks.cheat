@@ -8,3 +8,15 @@ torsocks <command>
 
 # Enable or disable Tor in this shell
 . torsocks <on|off>
+
+# Spawn a new Tor enabled shell
+torsocks --shell
+
+# Check if current shell is Tor enabled (`LD_PRELOAD` value will be empty if disabled)
+torsocks show
+
+# [i]solate traffic through a different Tor circuit, improving anonymity
+torsocks --isolate <curl https:__check.torproject.org_api_ip>
+
+# Connect to a Tor proxy running on a specific [a]ddress and [P]ort
+torsocks --address <ip> --port <port> <command>

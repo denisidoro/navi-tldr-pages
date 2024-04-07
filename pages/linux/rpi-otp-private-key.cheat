@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/rpi-otp-private-key.md
+
+% rpi-otp-private-key, linux
+
+# Read the OTP private key
+rpi-otp-private-key

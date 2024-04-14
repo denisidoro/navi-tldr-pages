@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/par2.md
+
+% par2, common
+
+# Create a parity archive with a set percentage level of redundancy
+par2 create -r<1..100> -- <path_to_file>
+
+# Create a parity archive with a chosen number of volume files (in addition to the index file)
+par2 create -n<1..32768> -- <path_to_file>
+
+# Verify a file with a parity archive
+par2 verify -- <path_to_file.par2>
+
+# Repair a file with a parity archive
+par2 repair -- <path_to_file.par2>

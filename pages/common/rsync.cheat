@@ -21,7 +21,7 @@ rsync --recursive <path_to_source>/ <path_to_destination>
 # Use archive mode, resolve symlinks and skip files that are newer on the destination
 rsync --archive --update --copy-links <path_to_source> <path_to_destination>
 
-# Transfer a directory to a remote host running `rsyncd` and delete files on the destination that do not exist on the source
+# Transfer a directory from a remote host running `rsyncd` and delete files on the destination that do not exist on the source
 rsync --recursive --delete rsync://<host>:<path_to_source> <path_to_destination>
 
 # Transfer a file over SSH using a different port than the default (22) and show global progress

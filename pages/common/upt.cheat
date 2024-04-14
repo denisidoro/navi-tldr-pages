@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/upt.md
+
+% upt, common
+
+# Update the list of available packages
+upt update
+
+# Search for a given package
+upt search <search_term>
+
+# Show information for a package
+upt info <package>
+
+# Install a given package
+upt install <package>
+
+# Remove a given package
+upt <remove|uninstall> <package>
+
+# Upgrade all installed packages
+upt upgrade
+
+# Upgrade a given package
+upt upgrade <package>
+
+# List installed packages
+upt list

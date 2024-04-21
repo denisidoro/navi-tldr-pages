@@ -7,10 +7,10 @@
 asciidoctor <path_to_file.adoc>
 
 # Convert a specific `.adoc` file to HTML and link a CSS stylesheet
-asciidoctor -a stylesheet=<path_to_stylesheet.css> <path_to_file.adoc>
+asciidoctor -a stylesheet <path_to_stylesheet.css> <path_to_file.adoc>
 
 # Convert a specific `.adoc` file to embeddable HTML, removing everything except the body
 asciidoctor --embedded <path_to_file.adoc>
 
 # Convert a specific `.adoc` file to a PDF using the `asciidoctor-pdf` library
-asciidoctor --backend=<pdf> --require=<asciidoctor-pdf> <path_to_file.adoc>
+asciidoctor --backend <pdf> --require <asciidoctor-pdf> <path_to_file.adoc>

@@ -13,4 +13,4 @@ chgrp -R <group> <path_to_directory>
 chgrp -h <group> <path_to_symlink>
 
 # Change the owner group of a file/directory to match a reference file
-chgrp --reference=<path_to_reference_file> <path_to_file_or_directory>
+chgrp --reference <path_to_reference_file> <path_to_file_or_directory>

@@ -19,4 +19,4 @@ chown -R <user> <path_to_directory>
 chown -h <user> <path_to_symlink>
 
 # Change the owner of a file/directory to match a reference file
-chown --reference=<path_to_reference_file> <path_to_file_or_directory>
+chown --reference <path_to_reference_file> <path_to_file_or_directory>

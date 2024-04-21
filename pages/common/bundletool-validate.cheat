@@ -4,4 +4,4 @@
 % bundletool-validate, common
 
 # Verify a bundle and display detailed information about it
-bundletool validate --bundle=<path_to_bundle.aab>
+bundletool validate --bundle <path_to_bundle.aab>

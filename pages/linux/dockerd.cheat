@@ -16,4 +16,4 @@ dockerd --pidfile <path_to_pid_file>
 dockerd --debug
 
 # Run and set a specific log level
-dockerd --log-level=<debug|info|warn|error|fatal>
+dockerd --log-level <debug|info|warn|error|fatal>

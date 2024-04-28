@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/medusa.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/medusa.md
 
-% medusa, linux
+% medusa, common
 
 # Execute brute force against an FTP server using a file containing usernames and a file containing passwords
 medusa -M ftp -h host -U <path_to_username_file> -P <path_to_password_file>

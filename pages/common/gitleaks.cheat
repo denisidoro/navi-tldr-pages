@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gitleaks.md
+
+% gitleaks, common
+
+# Scan a remote repository
+gitleaks detect --repo-url <https:__github.com_username_repository.git>
+
+# Scan a local directory
+gitleaks detect --source <path_to_repository>
+
+# Output scan results to a JSON file
+gitleaks detect --source <path_to_repository> --report <path_to_report.json>
+
+# Use a custom rules file
+gitleaks detect --source <path_to_repository> --config-path <path_to_config.toml>
+
+# Start scanning from a specific commit
+gitleaks detect --source <path_to_repository> --log-opts <--since=commit_id>
+
+# Scan uncommitted changes before a commit
+gitleaks protect --staged
+
+# Display verbose output indicating which parts were identified as leaks during the scan
+gitleaks protect --staged --verbose

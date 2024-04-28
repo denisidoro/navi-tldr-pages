@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/test-netconnection.md
+
+% test-netconnection, windows
+
+# Test a connection and display detailed results
+Test-NetConnection -InformationLevel Detailed
+
+# Test a connection to a remote host using the specified port number
+Test-NetConnection -ComputerName <ip_or_hostname> -Port <port_number>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ntpd.md
+
+% ntpd, linux
+
+# Start the daemon
+sudo ntpd
+
+# Synchronize system time with remote servers a single time (quit after synchronizing)
+sudo ntpd --quit
+
+# Synchronize a single time allowing "Big" adjustments
+sudo ntpd --panicgate --quit

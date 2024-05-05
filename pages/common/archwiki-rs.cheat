@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/archwiki-rs.md
+
+% archwiki-rs, common
+
+# Read a page from the ArchWiki
+archwiki-rs read-page <page_title>
+
+# Read a page from the ArchWiki in the specified format
+archwiki-rs read-page <page_title> --format <plain-text|markdown|html>
+
+# Search the ArchWiki for pages containing the provided text
+archwiki-rs search "<search_text>" --text-search
+
+# Download a local copy of all ArchWiki pages into a specific directory
+archwiki-rs local-wiki <path_to_local_wiki> --format <plain-text|markdown|html>

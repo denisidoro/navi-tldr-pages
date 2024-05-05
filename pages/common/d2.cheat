@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/d2.md
+
+% d2, common
+
+# Compile and render a D2 source file into an SVG or PNG file
+d2 <path_to_input_file.d2> <path_to_output_file.svg|path_to_output_file.png>
+
+# [w]atch live changes made to a D2 source file in the default web browser
+d2 --watch <path_to_input_file.d2> <path_to_output_file.svg|path_to_output_file.png>
+
+# Format a D2 source file
+d2 fmt <path_to_input_file.d2>
+
+# List available themes
+d2 themes
+
+# Use a different [t]heme for the output file (list available themes first to get the desired `theme_id`)
+d2 --theme <theme_id> <path_to_input_file.d2> <path_to_output_file.svg|path_to_output_file.png>
+
+# Make rendered diagrams look like hand [s]ketches
+d2 --sketch true <path_to_input_file.d2> <path_to_output_file.svg|path_to_output_file.png>

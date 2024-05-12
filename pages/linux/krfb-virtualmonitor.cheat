@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/krfb-virtualmonitor.md
+
+% krfb-virtualmonitor, linux
+
+# Create a virtual monitor
+krfb-virtualmonitor --resolution <1920>x<1080> --name <monitor_name> --password <password> --port <5900>

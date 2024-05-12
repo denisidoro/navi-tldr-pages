@@ -20,3 +20,6 @@ dart pub upgrade --null-safety
 
 # Compile a Dart file to a native binary
 dart compile exe <path_to_file.dart>
+
+# Apply automated fixes to the current project
+dart fix --apply

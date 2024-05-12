@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/prime-run.md
+
+% prime-run, linux
+
+# Run a program using a dedicated Nvidia GPU
+prime-run <command>
+
+# Validate whether the Nvidia card is being used
+prime-run glxinfo | grep "OpenGL renderer"

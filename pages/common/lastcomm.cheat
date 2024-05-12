@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lastcomm.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/lastcomm.md
 
-% lastcomm, linux
+% lastcomm, common
 
 # Print information about all the commands in the acct (record file)
 lastcomm

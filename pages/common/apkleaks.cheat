@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/apkleaks.md
+
+% apkleaks, common
+
+# Scan an APK [f]ile for URIs, endpoints, and secrets
+apkleaks --file <path_to_file.apk>
+
+# Scan and save the [o]utput to a specific file
+apkleaks --file <path_to_file.apk> --output <path_to_output.txt>
+
+# Pass `jadx` disassembler [a]rguments
+apkleaks --file <path_to_file.apk> --args "<--threads-count 5 --deobf>"

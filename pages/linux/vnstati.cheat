@@ -7,7 +7,7 @@
 vnstati --summary --iface <network_interface> --output <path_to_output.png>
 
 # Output the 10 most traffic-intensive days of all time
-vnstati --top10 --iface <network_interface> --output <path_to_output.png>
+vnstati --top 10 --iface <network_interface> --output <path_to_output.png>
 
 # Output monthly traffic statistics from the last 12 months
 vnstati --months --iface <network_interface> --output <path_to_output.png>

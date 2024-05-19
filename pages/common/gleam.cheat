@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gleam.md
+
+% gleam, common
+
+# Create a new gleam project
+gleam new <project_name>
+
+# Build and run a gleam project
+gleam run
+
+# Build the project
+gleam build
+
+# Run a project for a particular platform and runtime
+gleam run --target <platform> --runtime <runtime>
+
+# Add a hex dependency to your project
+gleam add <dependency_name>
+
+# Run project tests
+gleam test
+
+# Format source code
+gleam format
+
+# Type check the project
+gleam check

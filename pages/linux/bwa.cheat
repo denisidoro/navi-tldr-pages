@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bwa.md
+
+% bwa, linux
+
+# Index the reference genome
+bwa index <path_to_reference.fa>
+
+# Map single-end reads (sequences) to indexed genome using 32 [t]hreads and compress the result to save space
+bwa mem -t 32 <path_to_reference.fa> <path_to_read_single_end.fq.gz> | gzip > <path_to_alignment_single_end.sam.gz>
+
+# Map pair-end reads (sequences) to the indexed genome using 32 [t]hreads and compress the result to save space
+bwa mem -t 32 <path_to_reference.fa> <path_to_read_pair_end_1.fq.gz> <path_to_read_pair_end_2.fq.gz> | gzip > <path_to_alignment_pair_end.sam.gz>
+
+# Map pair-end reads (sequences) to the indexed genome using 32 [t]hreads with [M]arking shorter split hits as secondary for output SAM file compatibility in Picard software and compress the result
+bwa mem -M -t 32 <path_to_reference.fa> <path_to_read_pair_end_1.fq.gz> <path_to_read_pair_end_2.fq.gz> | gzip > <path_to_alignment_pair_end.sam.gz>
+
+# Map pair-end reads (sequences) to indexed genome using 32 [t]hreads with FASTA/Q [C]omments (e.g. BC:Z:CGTAC) appending to a compressed result
+bwa mem -C -t 32 <path_to_reference.fa> <path_to_read_pair_end_1.fq.gz> <path_to_read_pair_end_2.fq.gz> | gzip > <path_to_alignment_pair_end.sam.gz>

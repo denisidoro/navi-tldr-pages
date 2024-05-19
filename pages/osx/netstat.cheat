@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/netstat.md
+
+% netstat, osx
+
+# Display the PID and program name listening on a specific protocol
+netstat -p <protocol>
+
+# Print the routing table and do not resolve IP addresses to hostnames
+netstat -nr
+
+# Print the routing table of IPv4 addresses
+netstat -nr -f inet

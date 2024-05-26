@@ -4,7 +4,7 @@
 % dconf-reset, linux
 
 # Reset a specific key value
-dconf read <path_to_key>
+dconf reset <path_to_key>
 
 # Reset a specific directory
-dconf read -d <path_to_directory_>
+dconf reset -f <path_to_directory_>

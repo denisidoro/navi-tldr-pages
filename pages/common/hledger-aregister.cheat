@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hledger-aregister.md
+
+% hledger-aregister, common
+
+# Show transactions and running balance in the `assets:bank:checking` account
+hledger aregister assets:bank:checking
+
+# Show transactions and running balance in the first account named `*savings*`
+hledger aregister savings
+
+# Show the checking account's cleared transactions, with a specified width
+hledger aregister checking --cleared --width <120>
+
+# Show the checking register, including transactions from forecast rules
+hledger aregister checking --forecast

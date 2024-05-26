@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dotnet-test.md
+
+% dotnet-test, common
+
+# Execute tests for a .NET project/solution in the current directory
+dotnet test
+
+# Execute tests for a .NET project/solution in a specific location
+dotnet test <path_to_project_or_solution>
+
+# Execute tests matching the given filter expression
+dotnet test --filter <Name~TestMethod1>

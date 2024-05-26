@@ -12,11 +12,11 @@ convert <path_to_input_image.png> -resize 50% <path_to_output_image.png>
 # Scale an image keeping the original aspect ratio to a maximum dimension of 640x480
 convert <path_to_input_image.png> -resize 640x480 <path_to_output_image.png>
 
-# Horizontally append images
-convert <path_to_image1.png path_to_image2.png ...> +append <path_to_output_image.png>
+# Scale an image to have a specified file size
+convert <path_to_input_image.png> -define jpeg:extent=512kb <path_to_output_image.jpg>
 
-# Vertically append images
-convert <path_to_image1.png path_to_image2.png ...> -append <path_to_output_image.png>
+# Vertically/Horizontally append images
+convert <path_to_image1.png path_to_image2.png ...> <-append|+append> <path_to_output_image.png>
 
 # Create a GIF from a series of images with 100ms delay between them
 convert <path_to_image1.png path_to_image2.png ...> -delay <10> <path_to_animation.gif>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/tor.md
+
+% tor, linux
+
+# Connect to the Tor network
+tor
+
+# Start a Tor relay
+tor --relay
+
+# View Tor configuration
+tor --config
+
+# Check Tor status
+tor --status
+
+# Run as client only
+tor --client
+
+# Run as relay
+tor --relay
+
+# Run as bridge
+tor --bridge
+
+# Run as a hidden service
+tor --hidden-service

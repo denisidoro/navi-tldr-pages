@@ -6,8 +6,14 @@
 # Setup up `chezmoi`, creating a Git repository in `~/.local/share/chezmoi`
 chezmoi init
 
+# Set up `chezmoi` from existing dotfiles of a Git repository
+chezmoi init <repository_url>
+
 # Start tracking one or more dotfiles
 chezmoi add <path_to_dotfile1 path_to_dotfile2 ...>
+
+# Update repository with local changes
+chezmoi re-add <path_to_dotfile1 path_to_dotfile2 ...>
 
 # Edit the source state of a tracked dotfile
 chezmoi edit <path_to_dotfile_or_symlink>
@@ -17,9 +23,6 @@ chezmoi diff
 
 # Apply the changes
 chezmoi -v apply
-
-# Set up `chezmoi` from existing dotfiles of a Git repository
-chezmoi init <repository_url>
 
 # Pull changes from a remote repository and apply them
 chezmoi update

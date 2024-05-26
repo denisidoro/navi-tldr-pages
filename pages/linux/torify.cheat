@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/torify.md
+
+% torify, linux
+
+# Route traffic via Tor
+torify <command>
+
+# Toggle Tor in shell
+torify <on|off>
+
+# Spawn a Tor-enabled shell
+torify --shell
+
+# Check for a Tor-enabled shell
+torify show
+
+# Specify Tor configuration file
+torify -c <config-file> <command>
+
+# Use a specific Tor SOCKS proxy
+torify -P <proxy> <command>
+
+# Redirect output to a file
+torify <command> > <path_to_output>

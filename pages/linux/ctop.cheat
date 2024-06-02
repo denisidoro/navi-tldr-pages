@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ctop.md
+
+% ctop, linux
+
+# Show only [a]ctive containers
+ctop -a
+
+# [r]everse the container sort order
+ctop -r
+
+# [i]nvert the default colors
+ctop -i
+
+# Display [h]elp
+ctop -h

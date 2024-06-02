@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmi-addmedia.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmi.addmedia.md
 
-% urpmi-addmedia, linux
+% urpmi.addmedia, linux
 
 # Add a medium
 sudo urpmi.addmedia <medium> <ftp:__ftp.site.com_path_to_Mageia_RPMS>

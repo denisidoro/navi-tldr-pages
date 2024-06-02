@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmi-update.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmi.update.md
 
-% urpmi-update, linux
+% urpmi.update, linux
 
 # Update all enabled media
 urpmi.update -a

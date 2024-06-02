@@ -18,5 +18,5 @@ tldr --platform <android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows> 
 # [u]pdate the local cache of tldr pages
 tldr --update
 
-# List all pages for the current platform and `common`
+# [l]ist all pages for the current platform and `common`
 tldr --list

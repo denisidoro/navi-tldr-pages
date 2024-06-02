@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmi-removemedia.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/urpmi.removemedia.md
 
-% urpmi-removemedia, linux
+% urpmi.removemedia, linux
 
 # Remove a medium
 sudo urpmi.removemedia <medium>

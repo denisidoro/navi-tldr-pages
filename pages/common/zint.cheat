@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zint.md
+
+% zint, common
+
+# Generate a barcode and save it
+zint --data "<UTF-8 data>" --output <path_to_file>
+
+# Specify a code type for generation
+zint --barcode <code_type> --data "<UTF-8 data>" --output <path_to_file>
+
+# List all supported code types
+zint --types

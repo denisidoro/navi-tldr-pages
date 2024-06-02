@@ -6,5 +6,11 @@
 # Add a reference to the project in the current directory
 dotnet add reference <path_to_reference.csproj>
 
+# Add multiple references to the project in the current directory
+dotnet add reference <path_to_reference1.csproj path_to_reference2.csproj ...>
+
 # Add a reference to the specific project
 dotnet add <path_to_project.csproj> reference <path_to_reference.csproj>
+
+# Add multiple references to the specific project
+dotnet add <path_to_project.csproj> reference <path_to_reference1.csproj path_to_reference2.csproj ...>

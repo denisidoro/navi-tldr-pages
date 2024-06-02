@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/setenforce.md
+
+% setenforce, linux
+
+# Put SELinux in enforcing mode
+setenforce <1|Enforcing>
+
+# Put SELiunx in permissive mode
+setenforce <0|Permissive>

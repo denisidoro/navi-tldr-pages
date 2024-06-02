@@ -3,7 +3,7 @@
 
 % hledger-incomestatement, common
 
-# Show revenues and expenses (changes in Revenue and Expense accounts)
+# Show revenues and expenses (changes in `Revenue` and `Expense` accounts)
 hledger incomestatement
 
 # Show revenues and expenses each month

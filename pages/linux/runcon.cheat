@@ -3,7 +3,7 @@
 
 % runcon, linux
 
-# Determine the current domain
+# Print the security context of the current execution context
 runcon
 
 # Specify the domain to run a command in

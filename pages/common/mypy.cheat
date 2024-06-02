@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mypy.md
+
+% mypy, common
+
+# Type check a specific file
+mypy <path_to_file.py>
+
+# Type check a specific [m]odule
+mypy -m <module_name>
+
+# Type check a specific [p]ackage
+mypy -p <package_name>
+
+# Type check a string of code
+mypy -c "<code>"
+
+# Ignore missing imports
+mypy --ignore-missing-imports <path_to_file_or_directory>
+
+# Show detailed error messages
+mypy --show-traceback <path_to_file_or_directory>
+
+# Specify a custom configuration file
+mypy --config-file <path_to_config_file>
+
+# Display [h]elp
+mypy -h

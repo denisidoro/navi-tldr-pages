@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/secon.md
+
+% secon, linux
+
+# Get the security context of the current execution context
+secon
+
+# Get the current security context of a process
+secon --pid <1>
+
+# Get the current security context of a file, resolving all intermediate symlinks
+secon --file <path_to_file_or_directory>
+
+# Get the current security context of a symlink itself (i.e. do not resolve)
+secon --link <path_to_symlink>
+
+# Parse and explain a context specification
+secon <system_u:system_r:container_t:s0:c899,c900>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/magick-compare.md
+
+% magick-compare, common
+
+# Compare two images
+magick compare <path_to_image1.png> <path_to_image2.png> <path_to_diff.png>
+
+# Compare two images using the specified metric
+magick compare -verbose -metric <PSNR> <path_to_image1.png> <path_to_image2.png> <path_to_diff.png>

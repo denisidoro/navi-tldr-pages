@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/magick-import.md
+
+% magick-import, common
+
+# Capture the entire X server screen into a PostScript file
+magick import -window root <path_to_output.ps>
+
+# Capture contents of a remote X server screen into a PNG image
+magick import -window root -display <remote_host>:<screen>.<display> <path_to_output.png>
+
+# Capture a specific window given its ID as displayed by `xwininfo` into a JPEG image
+magick import -window <window_id> <path_to_output.jpg>

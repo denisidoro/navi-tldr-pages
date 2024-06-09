@@ -4,19 +4,22 @@
 % gzip, common
 
 # Compress a file, replacing it with a `gzip` archive
-gzip <file.ext>
+gzip <path_to_file>
 
 # Decompress a file, replacing it with the original uncompressed version
-gzip -d <file.ext>.gz
+gzip <-d|--decompress path_to_file.gz>
 
 # Compress a file, keeping the original file
-gzip --keep <file.ext>
+gzip <-k|--keep path_to_file>
 
-# Compress a file specifying the output filename
-gzip -c <file.ext> > <compressed_file.ext.gz>
+# Compress a file, specifying the output filename
+gzip <-c|--stdout path_to_file> > <path_to_compressed_file.gz>
 
 # Decompress a `gzip` archive specifying the output filename
-gzip -c -d <file.ext>.gz > <uncompressed_file.ext>
+gzip <-c|--stdout> <-d|--decompress> <path_to_file.gz> > <path_to_uncompressed_file>
 
-# Specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6
-gzip -9 -c <file.ext> > <compressed_file.ext.gz>
+# Specify the compression level. 1 is the fastest (low compression), 9 is the slowest (high compression), 6 is the default
+gzip -<1..9> <-c|--stdout> <path_to_file> > <path_to_compressed_file.gz>
+
+# Display the name and reduction percentage for each file compressed or decompressed
+gzip <-v|--verbose> <-d|--decompress> <path_to_file.gz>

@@ -3,8 +3,5 @@
 
 % compare, common
 
-# Compare two images
-compare <path_to_image1.png> <path_to_image2.png> <path_to_diff.png>
-
-# Compare two images using the specified metric
-compare -verbose -metric <PSNR> <path_to_image1.png> <path_to_image2.png> <path_to_diff.png>
+# View documentation for the original command
+tldr magick compare

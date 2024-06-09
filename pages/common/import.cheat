@@ -3,11 +3,5 @@
 
 % import, common
 
-# Capture the entire X server screen into a PostScript file
-import -window root <path_to_output.ps>
-
-# Capture contents of a remote X server screen into a PNG image
-import -window root -display <remote_host>:<screen>.<display> <path_to_output.png>
-
-# Capture a specific window given its ID as displayed by `xwininfo` into a JPEG image
-import -window <window_id> <path_to_output.jpg>
+# View documentation for the original command
+tldr magick import

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/magick-identify.md
+
+% magick-identify, common
+
+# Describe the format and basic characteristics of an image
+magick identify <path_to_image>
+
+# Describe the format and verbose characteristics of an image
+magick identify -verbose <path_to_image>
+
+# Collect dimensions of all JPEG files in the current directory and save them into a CSV file
+magick identify -format "<%f,%w,%h\n>" <*.jpg> > <path_to_filelist.csv>

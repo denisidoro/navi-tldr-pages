@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/typeinc.md
+
+% typeinc, common
+
+# Enter the typing test
+typeinc
+
+# Display the top 10 [r]anklist for input difficulty level
+typeinc --ranklist <difficulty_level>
+
+# Get random English [w]ords present in our wordlist
+typeinc --words <word_count>
+
+# Calculate hypothetical Typeinc [s]core
+typeinc --score

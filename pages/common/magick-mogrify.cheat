@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/magick-mogrify.md
+
+% magick-mogrify, common
+
+# Resize all JPEG images in the directory to 50% of their initial size
+magick mogrify -resize <50%> <*.jpg>
+
+# Resize all images starting with `DSC` to 800x600
+magick mogrify -resize <800x600> <DSC*>
+
+# Convert all PNGs in the directory to JPEG
+magick mogrify -format <jpg> <*.png>
+
+# Halve the saturation of all image files in the current directory
+magick mogrify -modulate <100,50> <*>
+
+# Double the brightness of all image files in the current directory
+magick mogrify -modulate <200> <*>

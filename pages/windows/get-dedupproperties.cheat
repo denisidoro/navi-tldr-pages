@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/get-dedupproperties.md
+
+% get-dedupproperties, windows
+
+# Get Data Deduplication information of the drive
+Get-DedupProperties -DriveLetter 'C'
+
+# Get Data Deduplication information of the drive using the drive label
+Get-DedupProperties -FileSystemLabel 'Label'
+
+# Get Data Dedpulication information of the drive using the input object
+Get-DedupProperties -InputObject $(Get-Volume -DriveLetter 'E')

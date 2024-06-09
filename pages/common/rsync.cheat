@@ -7,22 +7,22 @@
 rsync <path_to_source> <path_to_destination>
 
 # Use archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times)
-rsync --archive <path_to_source> <path_to_destination>
+rsync <-a|--archive> <path_to_source> <path_to_destination>
 
 # Compress the data as it is sent to the destination, display verbose and human-readable progress, and keep partially transferred files if interrupted
-rsync --compress --verbose --human-readable --partial --progress <path_to_source> <path_to_destination>
+rsync <-zvhP|--compress --verbose --human-readable --partial --progress> <path_to_source> <path_to_destination>
 
 # Recursively copy directories
-rsync --recursive <path_to_source> <path_to_destination>
+rsync <-r|--recursive> <path_to_source> <path_to_destination>
 
 # Transfer directory contents, but not the directory itself
-rsync --recursive <path_to_source>/ <path_to_destination>
+rsync <-r|--recursive> <path_to_source>/ <path_to_destination>
 
-# Use archive mode, resolve symlinks and skip files that are newer on the destination
-rsync --archive --update --copy-links <path_to_source> <path_to_destination>
+# Use archive mode, resolve symlinks, and skip files that are newer on the destination
+rsync <-auL|--archive --update --copy-links> <path_to_source> <path_to_destination>
 
 # Transfer a directory from a remote host running `rsyncd` and delete files on the destination that do not exist on the source
-rsync --recursive --delete rsync://<host>:<path_to_source> <path_to_destination>
+rsync <-r|--recursive> --delete rsync://<host>:<path_to_source> <path_to_destination>
 
 # Transfer a file over SSH using a different port than the default (22) and show global progress
-rsync --rsh 'ssh -p <port>' --info=progress2 <host>:<path_to_source> <path_to_destination>
+rsync <-e|--rsh> 'ssh -p <port>' --info=progress2 <host>:<path_to_source> <path_to_destination>

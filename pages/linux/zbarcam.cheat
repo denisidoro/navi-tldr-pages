@@ -13,4 +13,4 @@ zbarcam --nodisplay
 zbarcam --raw
 
 # Define capture device
-zbarcam /dev/<video_device>
+zbarcam <dev_video_device>

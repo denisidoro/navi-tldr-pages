@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/frpc.md
+
+% frpc, common
+
+# Start the service, using the default configuration file (assumed to be `frps.ini` in the current directory)
+frpc
+
+# Start the service, using the newer TOML configuration file (`frps.toml` instead of `frps.ini`) in the current directory
+frpc <-c|--config> ./frps.toml
+
+# Start the service, using a specific configuration file
+frpc <-c|--config> <path_to_file>
+
+# Check if the configuration file is valid
+frpc verify <-c|--config> <path_to_file>
+
+# Print autocompletion setup script for Bash, Fish, PowerShell, or Zsh
+frpc completion <bash|fish|powershell|zsh>
+
+# Display version
+frpc <-v|--version>

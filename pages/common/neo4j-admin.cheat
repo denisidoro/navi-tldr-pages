@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/neo4j-admin.md
+
+% neo4j-admin, common
+
+# Start the DBMS
+neo4j-admin server start
+
+# Stop the DBMS
+neo4j-admin server stop
+
+# Set the initial password of the default `neo4j` user (prerequisite for the first start of the DBMS)
+neo4j-admin dbms set-initial-password <database_name>
+
+# Create an archive (dump) of an offline database to a file named `database_name.dump`
+neo4j-admin database dump --to-path=<path_to_directory> <database_name>
+
+# Load a database from an archive named `database_name.dump`
+neo4j-admin database load --from-path=<path_to_directory> <database_name> --overwrite-destination=true
+
+# Load a database from a specified archive file through `stdin`
+neo4j-admin database load --from-stdin <database_name> --overwrite-destination=true < <path_to_filename.dump>
+
+# Display help
+neo4j-admin --help

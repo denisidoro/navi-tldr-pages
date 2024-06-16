@@ -6,10 +6,10 @@
 # Analyze a Python script or all the Python scripts in a specific directory
 pydocstyle <file.py|path_to_directory>
 
-# Show an [e]xplanation of each error
+# Show an explanation of each error
 pydocstyle <-e|--explain> <file.py|path_to_directory>
 
-# Show [d]ebug information
+# Show debug information
 pydocstyle <-d|--debug> <file.py|path_to_directory>
 
 # Display the total number of errors

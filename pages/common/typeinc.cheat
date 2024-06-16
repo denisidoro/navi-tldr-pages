@@ -6,11 +6,11 @@
 # Enter the typing test
 typeinc
 
-# Display the top 10 [r]anklist for input difficulty level
-typeinc --ranklist <difficulty_level>
+# Display the top 10 rank list for input difficulty level
+typeinc <-r|--ranklist> <difficulty_level>
 
-# Get random English [w]ords present in our wordlist
-typeinc --words <word_count>
+# Get random English words present in our wordlist
+typeinc <-w|--words> <word_count>
 
-# Calculate hypothetical Typeinc [s]core
-typeinc --score
+# Calculate hypothetical Typeinc score
+typeinc <-s|--score>

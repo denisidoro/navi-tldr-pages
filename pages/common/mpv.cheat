@@ -25,4 +25,4 @@ mpv --speed=<0.01..100> <path_to_file>
 mpv --profile <profile_name> <path_to_file>
 
 # Display the output of webcam or other video input device
-mpv /dev/<video0>
+mpv <dev_video0>

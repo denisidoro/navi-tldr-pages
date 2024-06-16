@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/frp.md
+
+% frp, common
+
+# View documentation for `frpc`, the `frp` client component
+tldr frpc
+
+# View documentation for `frps`, the `frp` server component
+tldr frps

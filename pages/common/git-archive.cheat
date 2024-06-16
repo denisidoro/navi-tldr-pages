@@ -6,10 +6,10 @@
 # Create a tar archive from the contents of the current HEAD and print it to `stdout`
 git archive --verbose HEAD
 
-# Use the Zip format and report progress [v]erbosely
+# Use the Zip format and report progress verbosely
 git archive <-v|--verbose> --format zip HEAD
 
-# [o]utput the Zip archive to a specific file
+# Output the Zip archive to a specific file
 git archive -v <-o|--output> <path_to_file.zip> HEAD
 
 # Create a tar archive from the contents of the latest commit of a specific branch

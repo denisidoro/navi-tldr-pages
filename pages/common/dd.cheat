@@ -3,11 +3,11 @@
 
 % dd, common
 
-# Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`)
-dd if=<path_to_file.iso> of=/dev/<usb_drive>
+# Make a bootable USB drive from an isohybrid file (such as `archlinux-xxx.iso`) and show the progress
+dd if=<path_to_file.iso> of=<dev_usb_drive> status=progress
 
 # Clone a drive to another drive with 4 MiB block size and flush writes before the command terminates
-dd bs=<4194304> conv=<fsync> if=/dev/<source_drive> of=/dev/<dest_drive>
+dd bs=4194304 conv=fsync if=<dev_source_drive> of=<dev_dest_drive>
 
 # Generate a file with a specific number of random bytes by using kernel random driver
 dd bs=<100> count=<1> if=/dev/urandom of=<path_to_random_file>
@@ -15,5 +15,5 @@ dd bs=<100> count=<1> if=/dev/urandom of=<path_to_random_file>
 # Benchmark the sequential write performance of a disk
 dd bs=<1024> count=<1000000> if=/dev/zero of=<path_to_file_1GB>
 
-# Create a system backup and save it into an IMG file (can be restored later by swapping `if` and `of`)
-dd if=<dev_drive_device> of=<path_to_file.img>
+# Create a system backup, save it into an IMG file (can be restored later by swapping `if` and `of`), and show the progress
+dd if=<dev_drive_device> of=<path_to_file.img> status=progress

@@ -15,7 +15,7 @@ frpc <-c|--config> <path_to_file>
 # Check if the configuration file is valid
 frpc verify <-c|--config> <path_to_file>
 
-# Print autocompletion setup script for Bash, Fish, PowerShell, or Zsh
+# Print autocompletion setup script for Bash, fish, PowerShell, or Zsh
 frpc completion <bash|fish|powershell|zsh>
 
 # Display version

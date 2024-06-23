@@ -12,7 +12,7 @@ set -a
 # Write formatted messages to `stderr` when jobs finish
 set -b
 
-# Write and edit text in the command line with `vi`-like keybindings (e.g. `yy`)
+# Write and edit text in the command-line with `vi`-like keybindings (e.g. `yy`)
 set -o <vi>
 
 # Exit the shell when (some) commands fail

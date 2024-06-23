@@ -18,7 +18,7 @@ wfuzz -w <path_to_file> -H <"Host: FUZZ.example.com"> --hc <301> --hw <222> -t <
 # Brute force Basic Authentication using a list of usernames and passwords from files for each FUZ[z] keyword, [h]iding response [c]odes of unsuccessful attempts
 wfuzz -c --hc <401> -s <delay_between_requests_in_seconds> -z file,<path_to_usernames> -z file,<path_to_passwords> --basic 'FUZZ:FUZ2Z' <https:__example.com>
 
-# Provide wordlist directly from the command line and use POST request for fuzzing
+# Provide wordlist directly from the command-line and use POST request for fuzzing
 wfuzz -z list,<word1-word2-...> <https:__api.example.com> -d <"id=FUZZ&showwallet=true">
 
 # Provide wordlists from a file applying base64 and md5 encoding on them (`wfuzz -e encoders` lists all available encoders)

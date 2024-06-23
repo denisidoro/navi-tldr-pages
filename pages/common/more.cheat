@@ -6,9 +6,6 @@
 # Open a file
 more <path_to_file>
 
-# Search case-[i]nsensitively when pressing "/"
-more -i <path_to_file>
-
 # Display a specific line
 more +<line_number> <path_to_file>
 

@@ -9,7 +9,7 @@ crystal <path_to_file.cr>
 # Compile a file and all dependencies to a single executable
 crystal build <path_to_file.cr>
 
-# Read Crystal source code from the command line or `stdin`, and execute it
+# Read Crystal source code from the command-line or `stdin`, and execute it
 crystal eval '<code>'
 
 # Generate API documentation from inline docstrings in Crystal files

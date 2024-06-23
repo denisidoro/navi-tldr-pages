@@ -18,7 +18,7 @@ jbang edit --open=<codium|code|eclipse|idea|netbeans|gitpod> <path_to_script.jav
 # Run a Java code snippet (Java 9 and later)
 <echo 'Files.list(Paths.get("_etc")).forEach(System.out::println);'> | jbang -
 
-# Run command line application
+# Run command-line application
 jbang <path_to_file.java> <command> <arg1 arg2 ...>
 
 # Install a script on the user's `$PATH`

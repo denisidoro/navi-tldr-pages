@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fpsync.md
+
+% fpsync, linux
+
+# Recursively synchronize a directory to another location
+fpsync -v <path_to_source_> <path_to_destination_>
+
+# Recursively synchronize a directory with the final pass (It enables rsync's `--delete` option with each synchronization job)
+fpsync -v -E <path_to_source_> <path_to_destination_>
+
+# Recursively synchronize a directory to a destination using 8 concurrent synchronization jobs
+fpsync -v -n 8 -E <path_to_source_> <path_to_destination_>
+
+# Recursively synchronize a directory to a destination using 8 concurrent synchronization jobs spread over two remote workers (machine1 and machine2)
+fpsync -v -n 8 -E -w login@machine1 -w login@machine2 -d <path_to_shared_directory> <path_to_source_> <path_to_destination_>
+
+# Recursively synchronize a directory to a destination using 4 local workers, each one transferring at most 1000 files and 100 MB per synchronization job
+fpsync -v -n 4 -f 1000 -s $((100 * 1024 * 1024)) <path_to_source_> <path_to_destination_>
+
+# Recursively synchronize any directories but exclude specific `.snapshot*` files (Note: options and values must be separated by a pipe character)
+fpsync -v -O "-x|.snapshot*" <path_to_source_> <path_to_destination_>

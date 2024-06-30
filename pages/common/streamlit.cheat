@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/streamlit.md
+
+% streamlit, common
+
+# Check for the Streamlit installation
+streamlit hello
+
+# Run your Streamlit application
+streamlit run <project_name>
+
+# Display help
+streamlit --help
+
+# Display version
+streamlit --version

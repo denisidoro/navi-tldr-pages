@@ -16,7 +16,7 @@ pr -n -D "<format>" <path_to_file1 path_to_file2 ...>
 pr -m -T <path_to_file1 path_to_file2 ...>
 
 # Print, beginning at page 2 up to page 5, with a given page length (including header and footer)
-pr +<2>:<5> -l <page_length> <path_to_file1 path_to_file2 ...>
+pr +2:5 -l <page_length> <path_to_file1 path_to_file2 ...>
 
 # Print with an offset for each line and a truncating custom page width
 pr -o <offset> -W <width> <path_to_file1 path_to_file2 ...>

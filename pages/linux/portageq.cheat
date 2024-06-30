@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/portageq.md
+
+% portageq, linux
+
+# Display the value of a Portage-specific environment variable
+portageq envvar <variable>
+
+# Display a detailed list of repositories configured with Portage
+portageq repos_config /
+
+# Display a list of repositories sorted by priority (highest first)
+portageq get_repos /
+
+# Display a specific piece of metadata about an atom (i.e. package name including the version)
+portageq metadata / <ebuild|porttree|binary|...> <category>/<package> <BDEPEND|DEFINED_PHASES|DEPEND|...>

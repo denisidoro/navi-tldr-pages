@@ -4,13 +4,13 @@
 % rcp, linux
 
 # Copy a file to a remote host
-rcp <path_to_local_file> <username>@<remotehost>:<path_to_destination_>
+rcp <path_to_local_file> <username>@<remote_host>:<path_to_destination_>
 
 # Copy a directory recursively
-rcp -r <path_to_local_directory> <username>@<remotehost>:<path_to_destination_>
+rcp -r <path_to_local_directory> <username>@<remote_host>:<path_to_destination_>
 
 # Preserve the file attributes
-rcp -p <path_to_local_file> <username>@<remotehost>:<path_to_destination_>
+rcp -p <path_to_local_file> <username>@<remote_host>:<path_to_destination_>
 
 # Force copy without a confirmation
-rcp -f <path_to_local_file> <username>@<remotehost>:<path_to_destination_>
+rcp -f <path_to_local_file> <username>@<remote_host>:<path_to_destination_>

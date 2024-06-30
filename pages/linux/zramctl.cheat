@@ -16,4 +16,4 @@ sudo modprobe zram num_devices=<2>
 sudo zramctl --find --size <2GB> --algorithm <lz4>
 
 # List currently initialized devices
-zramctl
+sudo zramctl

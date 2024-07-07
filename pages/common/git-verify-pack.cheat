@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/git-verify-pack.md
+
+% git-verify-pack, common
+
+# Verify a packed Git archive file
+git verify-pack <path_to_pack-file>
+
+# Verify a packed Git archive file and show verbose details
+git verify-pack --verbose <path_to_pack-file>
+
+# Verify a packed Git archive file and only display the statistics
+git verify-pack --stat-only <path_to_pack-file>

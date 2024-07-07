@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemctl-reboot.md
+
+% systemctl-reboot, linux
+
+# Reboot the system
+systemctl reboot
+
+# Reboot into the BIOS/UEFI menu
+systemctl reboot --firmware-setup

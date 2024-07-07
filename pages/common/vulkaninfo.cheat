@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vulkaninfo.md
+
+% vulkaninfo, common
+
+# Print full Vulkan information
+vulkaninfo
+
+# Print a summary
+vulkaninfo --summary
+
+# Make a HTML document of the full Vulkan information
+vulkaninfo --html

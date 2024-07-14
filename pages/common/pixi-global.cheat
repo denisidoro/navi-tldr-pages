@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pixi-global.md
+
+% pixi-global, common
+
+# Install a package globally and add to path
+pixi global install <package1 package2 ...>
+
+# Uninstall a package globally
+pixi global remove <package1 package2 ...>
+
+# List all globally installed packages
+pixi global list
+
+# Update a globally installed package
+pixi global upgrade <package>
+
+# Update all globally installed packages
+pixi global upgrade-all

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pixi-config.md
+
+% pixi-config, common
+
+# Edit the configuration file
+pixi config edit
+
+# List all configurations
+pixi config list
+
+# Prepend a value to a list configuration key
+pixi config prepend <key> <value>
+
+# Append a value to a list configuration key
+pixi config append <key> <value>
+
+# Set a configuration key to a value
+pixi config set <key> <value>
+
+# Unset a configuration key
+pixi config unset <key>

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/steamos-add-to-steam.md
+
+% steamos-add-to-steam, linux
+
+# Add a program to Steam library
+steamos-add-to-steam <path_to_file>

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kubectl-config.md
+
+% kubectl-config, common
+
+# Get all contexts in the default kubeconfig file
+kubectl config get-contexts
+
+# Get all clusters/contexts/users in a custom kubeconfig file
+kubectl config <get-clusters|get-contexts|get-users> --kubeconfig <path_to_kubeconfig.yaml>
+
+# Get the current context
+kubectl config current-context
+
+# Switch to another context
+kubectl config <use|use-context> <context_name>
+
+# Delete clusters/contexts/users
+kubectl config <delete-cluster|delete-context|delete-user> <cluster|context|user>
+
+# Permanently add custom kubeconfig files
+export KUBECONFIG="<$HOME.kube_config:path_to_custom_kubeconfig.yaml>" kubectl config get-contexts

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/steamos-readonly.md
+
+% steamos-readonly, linux
+
+# Set the filesystem to be mutable
+sudo steamos-readonly disable
+
+# Set the filesystem to be read only
+sudo steamos-readonly enable

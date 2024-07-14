@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/steamos-update.md
+
+% steamos-update, linux
+
+# Update the operating system
+steamos-update
+
+# Check if there is an update available
+steamos-update check

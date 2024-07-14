@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/steamos-session-select.md
+
+% steamos-session-select, linux
+
+# Change to desktop mode
+steamos-session-select plasma
+
+# Change to gamemode
+steamos-session-select gamescope
+
+# Change to Wayland desktop mode
+steamos-session-select plasma-wayland-persistent
+
+# Change to X11 desktop mode
+steamos-session-select plasma-x11-persistent

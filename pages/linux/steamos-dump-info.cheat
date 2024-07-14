@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/steamos-dump-info.md
+
+% steamos-dump-info, linux
+
+# View SteamOS system information
+sudo steamos-dump-info

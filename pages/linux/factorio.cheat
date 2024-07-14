@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/factorio.md
+
+% factorio, linux
+
+# Create a new save file
+<path_to_factorio> --create <path_to_save_file.zip>
+
+# Start a Factorio server
+<path_to_factorio> --start-server <path_to_save_file.zip>

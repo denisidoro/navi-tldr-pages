@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/run0.md
+
+% run0, linux
+
+# Run a command as root
+run0 <command>
+
+# Run a command as another user and/or group
+run0 <-u|--user> <username|uid> <-g|--group> <group_name|gid> <command>

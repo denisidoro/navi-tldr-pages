@@ -6,8 +6,8 @@
 # Start an interactive session
 bc
 
-# Start an interactive session with the standard math library enabled
-bc --mathlib
+# Start an [i]nteractive session with the standard math [l]ibrary enabled
+bc --interactive --mathlib
 
 # Calculate an expression
 echo '<5 _ 3>' | bc
@@ -20,3 +20,6 @@ echo 'scale = <10>; <5 _ 3>' | bc
 
 # Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`
 echo '<s|c|a|l|e>(<1>)' | bc --mathlib
+
+# Execute an inline factorial script
+echo "define factorial(n) { if (n <= 1) return 1; return n*factorial(n-1); }; factorial(<10>)" | bc

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bitcoind.md
+
+% bitcoind, common
+
+# Start the Bitcoin Core daemon (in the foreground)
+bitcoind
+
+# Start the Bitcoin Core daemon in the background (use `bitcoin-cli stop` to stop)
+bitcoind -daemon
+
+# Start the Bitcoin Core daemon on a specific network
+bitcoind -chain=<main|test|signet|regtest>
+
+# Start the Bitcoin Core daemon using specific config file and data directory
+bitcoind -conf=<path_to_bitcoin.conf> -datadir=<path_to_directory>

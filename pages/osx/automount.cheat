@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/automount.md
+
+% automount, osx
+
+# Run automount, flush the cache(`-c`) beforehand, and be verbose(`-v`) about it (most common use)
+automount -cv
+
+# Automatically unmount after 5 minutes (300 seconds) of inactivity
+automount -t 300
+
+# Unmount anything previously mounted by automount and/or defined in `/etc/auto_master`
+automount -u

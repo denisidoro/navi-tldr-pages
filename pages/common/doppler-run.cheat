@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/doppler-run.md
+
+% doppler-run, common
+
+# Run a command
+doppler run --command <command>
+
+# Run multiple commands
+doppler run --command <command1 && command2>
+
+# Run a script
+doppler run <path_to_command.sh>
+
+# Run command with specified project and config
+doppler run -p <project_name> -c <config_name> -- <command>
+
+# Automatically restart process when secrets change
+doppler run --watch <command>

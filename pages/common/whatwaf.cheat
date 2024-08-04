@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/whatwaf.md
+
+% whatwaf, common
+
+# Detect protection on a single [u]RL, optionally use verbose output
+whatwaf --url <https:__example.com> --verbose
+
+# Detect protection on a [l]ist of URLs in parallel from a file (one URL per line)
+whatwaf --threads <number> --list <path_to_file>
+
+# Send requests through a proxy and use custom payload list from a file (one payload per line)
+whatwaf --proxy <http:__127.0.0.1:8080> --pl <path_to_file> -u <https:__example.com>
+
+# Send requests through Tor (Tor must be installed) using custom [p]ayloads (comma-separated)
+whatwaf --tor --payloads '<payload1,payload2,...>' -u <https:__example.com>
+
+# Use a random user-agent, set throttling and timeout, send a [P]OST request, and force HTTPS connection
+whatwaf --ra --throttle <seconds> --timeout <seconds> --post --force-ssl -u <http:__example.com>
+
+# List all WAFs that can be detected
+whatwaf --wafs
+
+# List all available tamper scripts
+whatwaf --tampers

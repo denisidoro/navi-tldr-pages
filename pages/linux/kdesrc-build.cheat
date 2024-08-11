@@ -18,8 +18,8 @@ kdesrc-build --refresh-build <component_name>
 # Resume compilation from a specific dependency
 kdesrc-build --resume-from=<dependency_component> <component_name>
 
-# Print full compilation info
-kdesrc-build --debug <component_name>
+# Run a component with a specified executable name
+kdesrc-build --run --exec <executable_name> <component_name>
 
 # Build all configured components
 kdesrc-build

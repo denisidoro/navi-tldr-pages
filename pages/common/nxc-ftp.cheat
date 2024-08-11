@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nxc-ftp.md
+
+% nxc-ftp, common
+
+# Search for valid credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords
+nxc ftp <192.168.178.2> -u <path_to_usernames.txt> -p <path_to_passwords.txt>
+
+# Continue searching for valid credentials even after valid credentials have been found
+nxc ftp <192.168.178.2> -u <path_to_usernames.txt> -p <path_to_passwords.txt> --continue-on-success
+
+# Perform directory listings on each FTP server the supplied credentials are valid on
+nxc ftp <192.168.178.0_24> -u <username> -p <password> --ls
+
+# Download the specified file from the target server
+nxc ftp <192.168.178.2> -u <username> -p <password> --get <path_to_file>
+
+# Upload the specified file to the target server at the specified location
+nxc ftp <192.168.178.2> -u <username> -p <password> --put <path_to_local_file> <path_to_remote_location>

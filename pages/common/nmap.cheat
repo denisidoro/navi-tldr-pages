@@ -9,8 +9,8 @@ nmap -v<1|2|3> <ip_or_hostname>
 # Run a ping sweep over an entire subnet or individual hosts very aggressively
 nmap -T5 -sn <192.168.0.0_24|ip_or_hostname1,ip_or_hostname2,...>
 
-# Enable OS detection, version detection, script scanning, and traceroute
-sudo nmap -A <ip_or_hostname1,ip_or_hostname2,...>
+# Enable OS detection, version detection, script scanning, and traceroute of hosts from a file
+sudo nmap -A -iL <path_to_file.txt>
 
 # Scan a specific list of ports (use `-p-` for all ports from 1 to 65535)
 nmap -p <port1,port2,...> <ip_or_host1,ip_or_host2,...>

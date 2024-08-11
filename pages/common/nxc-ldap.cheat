@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nxc-ldap.md
+
+% nxc-ldap, common
+
+# Search for valid domain credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords
+nxc ldap <192.168.178.2> -u <path_to_usernames.txt> -p <path_to_passwords.txt>
+
+# Enumerate active domain users
+nxc ldap <192.168.178.2> -u <username> -p <password> --active-users
+
+# Collect data about the targeted domain and automatically import these data into BloodHound
+nxc ldap <192.168.178.2> -u <username> -p <password> --bloodhound --collection <All>
+
+# Attempt to collect AS_REP messages for the specified user in order to perform an ASREPRoasting attack
+nxc ldap <192.168.178.2> -u <username> -p '' --asreproast <path_to_output.txt>
+
+# Attempt to extract the passwords of group managed service accounts on the domain
+nxc ldap <192.168.178.2> -u <username> -p <password> --gmsa

@@ -23,3 +23,6 @@ mv -n <path_to_source> <path_to_target>
 
 # Move files in verbose mode, showing files after they are moved
 mv -v <path_to_source> <path_to_target>
+
+# Specify target directory (convenient in situations when the target directory has to be the first argument)
+ls | <parallel|xargs> mv -t <path_to_target_directory>

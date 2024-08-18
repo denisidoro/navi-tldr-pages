@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ispell.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ispell.md
 
-% ispell, linux
+% ispell, common
 
 # Start an interactive session
 ispell

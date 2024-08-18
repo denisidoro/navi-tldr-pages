@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/plasmashell.md
+
+% plasmashell, linux
+
+# Restart `plasmashell`
+systemctl restart --user plasma-plasmashell
+
+# Restart `plasmashell` without systemd
+plasmashell --replace & disown
+
+# Display [h]elp on command-line options
+plasmashell --help
+
+# Display help, including Qt options
+plasmashell --help-all

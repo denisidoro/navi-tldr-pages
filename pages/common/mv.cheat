@@ -12,17 +12,17 @@ mv <path_to_source> <path_to_existing_directory>
 # Move multiple files into an existing directory, keeping the filenames unchanged
 mv <path_to_source1 path_to_source2 ...> <path_to_existing_directory>
 
-# Do not prompt for confirmation before overwriting existing files
-mv -f <path_to_source> <path_to_target>
+# Do not prompt ([f]) for confirmation before overwriting existing files
+mv --force <path_to_source> <path_to_target>
 
-# Prompt for confirmation before overwriting existing files, regardless of file permissions
-mv -i <path_to_source> <path_to_target>
+# Prompt for confirmation [i]nteractively before overwriting existing files, regardless of file permissions
+mv --interactive <path_to_source> <path_to_target>
 
-# Do not overwrite existing files at the target
-mv -n <path_to_source> <path_to_target>
+# Do not overwrite ([n]) existing files at the target
+mv --no-clobber <path_to_source> <path_to_target>
 
-# Move files in verbose mode, showing files after they are moved
-mv -v <path_to_source> <path_to_target>
+# Move files in [v]erbose mode, showing files after they are moved
+mv --verbose <path_to_source> <path_to_target>
 
 # Specify target directory (convenient in situations when the target directory has to be the first argument)
 ls | <parallel|xargs> mv -t <path_to_target_directory>

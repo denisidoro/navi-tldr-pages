@@ -23,3 +23,6 @@ git bundle unbundle <path_to_file.bundle>
 
 # Unbundle a specific branch from a bundle file into the current repository
 git pull <path_to_file.bundle> <branch_name>
+
+# Create a new repository from a bundle
+git clone <path_to_file.bundle>

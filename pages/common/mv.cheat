@@ -24,5 +24,5 @@ mv --no-clobber <path_to_source> <path_to_target>
 # Move files in [v]erbose mode, showing files after they are moved
 mv --verbose <path_to_source> <path_to_target>
 
-# Specify target directory (convenient in situations when the target directory has to be the first argument)
-ls | <parallel|xargs> mv -t <path_to_target_directory>
+# Specify [t]arget directory so that you can use external tools to gather movable files
+<find _var_log -type f -name '*.log' -print0> | <xargs -0> mv --target-directory <path_to_target_directory>

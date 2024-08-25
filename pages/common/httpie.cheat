@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/httpie.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/httpie.md
 
-% httpie, linux
+% httpie, common
 
 # Send a GET request (default method with no request data)
 http <https:__example.com>

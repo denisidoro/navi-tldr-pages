@@ -3,7 +3,7 @@
 
 % nuclei, common
 
-# [u]pdate `nuclei` [t]emplates to the latest released version
+# [u]pdate `nuclei` [t]emplates to the latest released version (will be downloaded to `~/nuclei-templates`)
 nuclei -ut
 
 # [l]ist all [t]emplates with a specific [p]rotocol [t]ype

@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/uv-python.md
+
+% uv-python, common
+
+# List all available Python installations
+uv python list
+
+# Install a Python version
+uv python install <version>
+
+# Uninstall a Python version
+uv python uninstall <version>
+
+# Search for a Python installation
+uv python find <version>
+
+# Pin the current project to use a specific Python version
+uv python pin <version>
+
+# Show the `uv` Python installation directory
+uv python dir

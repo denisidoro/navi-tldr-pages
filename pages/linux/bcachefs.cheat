@@ -18,5 +18,11 @@ sudo bcachefs mount <path_to_partition1>:<path_to_partition2> <path_to_mountpoin
 # Display disk usage
 bcachefs fs usage --human-readable <path_to_mountpoint>
 
+# Set replicas after formatting and mounting
+sudo bcachefs set-fs-option --metadata_replicas=<2> --data_replicas=<2> <path_to_partition>
+
+# Force `bcachefs` to ensure all files are replicated
+sudo bcachefs data rereplicate <path_to_mountpoint>
+
 # Display help
 bcachefs

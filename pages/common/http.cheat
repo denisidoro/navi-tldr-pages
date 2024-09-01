@@ -3,23 +3,26 @@
 
 % http, common
 
-# Download a URL to a file
-http --download <example.org>
+# Make a simple GET request (shows response header and content)
+http <https:__example.org>
 
-# Send form-encoded data
-http --form <example.org> <name='bob'> <profile_picture@'bob.png'>
+# Print specific output content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata)
+http --print <H|B|h|b|m|Hh|Hhb|...> <https:__example.com>
 
-# Send JSON object
-http <example.org> <name='bob'>
+# Specify the HTTP method when sending a request and use a proxy to intercept the request
+http <GET|POST|HEAD|PUT|PATCH|DELETE|...> --proxy <http|https>:<http:__localhost:8080|socks5:__localhost:9050|...> <https:__example.com>
 
-# Specify an HTTP method
-http <HEAD> <example.org>
+# Follow any `3xx` redirects and specify additional headers in a request
+http <--follow|-F> <https:__example.com> <'User-Agent: Mozilla_5.0' 'Accept-Encoding: gzip'>
 
-# Include an extra header
-http <example.org> <X-MyHeader:123>
+# Authenticate to a server using different authentication methods
+http --auth <username:password|token> --auth-type <basic|digest|bearer> <GET|POST|...> <https:__example.com_auth>
 
-# Pass a username and password for server authentication
-http --auth <username:password> <example.org>
+# Construct a request but do not send it (similar to a dry-run)
+http --offline <GET|DELETE|...> <https:__example.com>
 
-# Specify raw request body via `stdin`
-cat <data.txt> | http PUT <example.org>
+# Use named sessions for persistent custom headers, auth credentials and cookies
+http --session <session_name|path_to_session.json> <--auth username:password https:__example.com_auth API-KEY:xxx>
+
+# Upload a file to a form (the example below assumes form field is `<input type="file" name="cv" />`)
+http --form <POST> <https:__example.com_upload> <cv@path_to_file>

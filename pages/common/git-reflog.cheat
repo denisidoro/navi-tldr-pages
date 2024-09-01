@@ -10,4 +10,4 @@ git reflog
 git reflog <branch_name>
 
 # Show only the 5 latest entries in the reflog
-git reflog -n <5>
+git reflog <--dry-run|-n> <5>

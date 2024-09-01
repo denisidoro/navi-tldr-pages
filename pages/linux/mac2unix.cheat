@@ -4,7 +4,13 @@
 % mac2unix, linux
 
 # Change the line endings of a file
-mac2unix <filename>
+mac2unix <path_to_file>
 
 # Create a copy with Unix-style line endings
-mac2unix -n <filename> <new_filename>
+mac2unix -n <path_to_file> <path_to_new_file>
+
+# Display file information
+mac2unix -i <path_to_file>
+
+# Keep/add/remove Byte Order Mark
+mac2unix --<keep-bom|add-bom|remove-bom> <path_to_file>

@@ -7,7 +7,7 @@
 git annotate <path_to_file>
 
 # Print a file with the author [e]mail and commit hash prepended to each line
-git annotate -e <path_to_file>
+git annotate <--show-email|-e> <path_to_file>
 
 # Print only rows that match a regular expression
 git annotate -L :<regexp> <path_to_file>

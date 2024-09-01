@@ -3,26 +3,11 @@
 
 % httpie, common
 
-# Send a GET request (default method with no request data)
-http <https:__example.com>
+# Check updates for `http`
+httpie cli check-updates
 
-# Send a POST request (default method with request data)
-http <https:__example.com> <hello=World>
+# List installed `http` plugins
+httpie cli plugins list
 
-# Send a POST request with redirected input
-http <https:__example.com> < <file.json>
-
-# Send a PUT request with a given JSON body
-http PUT <https:__example.com_todos_7> <hello=world>
-
-# Send a DELETE request with a given request header
-http DELETE <https:__example.com_todos_7> <API-Key:foo>
-
-# Show the whole HTTP exchange (both request and response)
-http -v <https:__example.com>
-
-# Download a file
-http --download <https:__example.com>
-
-# Follow redirects and show intermediary requests and responses
-http --follow --all <https:__example.com>
+# Install/upgrade/uninstall plugins
+httpie cli plugins <install|upgrade|uninstall> <plugin_name>

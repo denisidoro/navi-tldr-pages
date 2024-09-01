@@ -13,7 +13,7 @@ git bundle create <path_to_file.bundle> --all
 git bundle create <path_to_file.bundle> -<5> <HEAD>
 
 # Create a bundle file of the latest 7 days
-git bundle create <path_to_file.bundle> --since=<7.days> <HEAD>
+git bundle create <path_to_file.bundle> --since <7.days> <HEAD>
 
 # Verify that a bundle file is valid and can be applied to the current repository
 git bundle verify <path_to_file.bundle>

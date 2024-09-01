@@ -10,7 +10,7 @@ git diff-tree <tree-ish1> <tree-ish2>
 git diff-tree -r <commit1> <commit2>
 
 # Display changes in patch format
-git diff-tree -p <tree-ish1> <tree-ish2>
+git diff-tree <--patch|-p> <tree-ish1> <tree-ish2>
 
 # Filter changes by a specific path
 git diff-tree <tree-ish1> <tree-ish2> -- <path_to_file_or_directory>

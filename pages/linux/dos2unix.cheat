@@ -4,7 +4,13 @@
 % dos2unix, linux
 
 # Change the line endings of a file
-dos2unix <filename>
+dos2unix <path_to_file>
 
 # Create a copy with Unix-style line endings
-dos2unix -n <filename> <new_filename>
+dos2unix -n <path_to_file> <path_to_new_file>
+
+# Display file information
+dos2unix -i <path_to_file>
+
+# Keep/add/remove Byte Order Mark
+dos2unix --<keep-bom|add-bom|remove-bom> <path_to_file>

@@ -3,7 +3,7 @@
 
 % git-send-email, common
 
-# Send the last commit in the current branch
+# Send the last commit in the current branch interactively
 git send-email -1
 
 # Send a given commit

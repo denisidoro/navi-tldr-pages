@@ -16,4 +16,4 @@ git revert <0c01a9>
 git revert <branch_name~5..branch_name~2>
 
 # Don't create new commits, just change the working tree
-git revert -n <0c01a9..9a1743>
+git revert <--no-commit|-n> <0c01a9..9a1743>

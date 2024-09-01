@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/djxl.md
+
+% djxl, linux
+
+# Decompress a JPEG XL image to another format
+djxl <path_to_image.jxl> <path_to_output.ext>
+
+# Display an extremely detailed help page
+djxl --help --verbose --verbose --verbose --verbose

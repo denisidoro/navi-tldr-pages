@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yazi.md
+
+% yazi, common
+
+# Launch Yazi from the current directory
+yazi
+
+# Print debug information
+yazi --debug
+
+# Write the current working directory on exit to the file
+yazi --cwd-file <path_to_cwd_file>
+
+# Clear the cache directory
+yazi --clear-cache

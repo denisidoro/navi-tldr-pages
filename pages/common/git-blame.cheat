@@ -7,7 +7,7 @@
 git blame <path_to_file>
 
 # Print file with author email and commit hash on each line
-git blame -e <path_to_file>
+git blame <--show-email|-e> <path_to_file>
 
 # Print file with author name and commit hash on each line at a specific commit
 git blame <commit> <path_to_file>

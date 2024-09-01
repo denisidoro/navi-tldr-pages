@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ya.md
+
+% ya, common
+
+# Add a package
+ya pack -a <package>
+
+# Upgrade all packages
+ya pack -u
+
+# Subscribe to messages from all remote instances
+ya sub <kinds>
+
+# Publish a message to the current instance with string body
+ya pub --str <string_message>
+
+# Publish a message to the current instance with JSON body
+ya pub --json <json_message>
+
+# Publish a message to the specified instance with string body
+ya pub-to --str <message> <receiver> <kind>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cjxl.md
+
+% cjxl, linux
+
+# Convert an image to JPEG XL
+cjxl <path_to_image.ext> <path_to_output.jxl>
+
+# Set quality to lossless and maximize compression of the resulting image
+cjxl --distance 0 --effort 9 <path_to_image.ext> <path_to_output.jxl>
+
+# Display an extremely detailed help page
+cjxl --help --verbose --verbose --verbose --verbose

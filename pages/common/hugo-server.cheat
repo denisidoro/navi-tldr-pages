@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/hugo-server.md
+
+% hugo-server, common
+
+# Build and serve a site
+hugo server
+
+# Build and serve a site on a specified port number
+hugo server --port <port_number>
+
+# Build and serve a site while minifying supported output formats (HTML, XML, etc.)
+hugo server --minify
+
+# Display help
+hugo server --help

@@ -17,3 +17,6 @@ rm --verbose <path_to_file1 path_to_file2 ...>
 
 # Remove specific files and directories recursively
 rm --recursive <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# Remove empty directories (this is considered the safe method)
+rm --dir <path_to_directory>

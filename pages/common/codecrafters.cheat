@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/codecrafters.md
+
+% codecrafters, common
+
+# Run tests without committing changes
+codecrafters test
+
+# Run tests for all previous stages and the current stage without committing changes
+codecrafters test --previous
+
+# Commit changes and submit, to move to the next stage
+codecrafters submit

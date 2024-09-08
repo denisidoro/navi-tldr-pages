@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/djxl.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/djxl.md
 
-% djxl, linux
+% djxl, common
 
 # Decompress a JPEG XL image to another format
 djxl <path_to_image.jxl> <path_to_output.ext>

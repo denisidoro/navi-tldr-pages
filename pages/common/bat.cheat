@@ -13,16 +13,16 @@ bat <path_to_file1 path_to_file2 ...> > <path_to_target_file>
 bat --style plain --pager never <path_to_file>
 
 # Highlight a specific line or a range of lines with a different background color
-bat <--highlight-line|-H> <10|5:10|:10|10:|10:+5> <path_to_file>
+bat <-H|--highlight-line> <10|5:10|:10|10:|10:+5> <path_to_file>
 
 # Show non-printable characters like space, tab or newline
-bat <--show-all|-A> <path_to_file>
+bat <-A|--show-all> <path_to_file>
 
 # Remove all decorations except line numbers in the output
-bat <--number|-n> <path_to_file>
+bat <-n|--number> <path_to_file>
 
 # Syntax highlight a JSON file by explicitly setting the language
-bat <--language|-l> json <path_to_file.json>
+bat <-l|--language> json <path_to_file.json>
 
 # Display all supported languages
-bat <--list-languages|-L>
+bat <-L|--list-languages>

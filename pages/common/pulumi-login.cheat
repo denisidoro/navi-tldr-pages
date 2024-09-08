@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-login.md
+
+% pulumi-login, common
+
+# Log in to the managed Pulumi Cloud backend, defaults to `app.pulumi.cloud`
+pulumi login
+
+# Log in to a self-hosted Pulumi Cloud backend on a specified URL
+pulumi login <url>
+
+# Use Pulumi locally, independent of a Pulumi Cloud
+pulumi login <-l|--local>

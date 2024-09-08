@@ -13,7 +13,7 @@ http --print <H|B|h|b|m|Hh|Hhb|...> <https:__example.com>
 http <GET|POST|HEAD|PUT|PATCH|DELETE|...> --proxy <http|https>:<http:__localhost:8080|socks5:__localhost:9050|...> <https:__example.com>
 
 # Follow any `3xx` redirects and specify additional headers in a request
-http <--follow|-F> <https:__example.com> <'User-Agent: Mozilla_5.0' 'Accept-Encoding: gzip'>
+http <-F|--follow> <https:__example.com> <'User-Agent: Mozilla_5.0' 'Accept-Encoding: gzip'>
 
 # Authenticate to a server using different authentication methods
 http --auth <username:password|token> --auth-type <basic|digest|bearer> <GET|POST|...> <https:__example.com_auth>

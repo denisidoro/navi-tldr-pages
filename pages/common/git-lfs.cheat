@@ -10,7 +10,7 @@ git lfs install
 git lfs track '<*.bin>'
 
 # Change the Git LFS endpoint URL (useful if the LFS server is separate from the Git server)
-git config <--file|-f> .lfsconfig lfs.url <lfs_endpoint_url>
+git config <-f|--file> .lfsconfig lfs.url <lfs_endpoint_url>
 
 # List tracked patterns
 git lfs track

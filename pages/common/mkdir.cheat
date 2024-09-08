@@ -6,8 +6,8 @@
 # Create specific directories
 mkdir <path_to_directory1 path_to_directory2 ...>
 
-# Create specific directories and their [p]arents if needed
-mkdir -p <path_to_directory1 path_to_directory2 ...>
+# Create specific directories and their parents if needed
+mkdir <-p|--parents> <path_to_directory1 path_to_directory2 ...>
 
 # Create directories with specific permissions
-mkdir -m <rwxrw-r--> <path_to_directory1 path_to_directory2 ...>
+mkdir <-m|--mode> <rwxrw-r--> <path_to_directory1 path_to_directory2 ...>

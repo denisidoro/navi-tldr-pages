@@ -16,7 +16,7 @@ git tag <tag_name> <commit>
 git tag <tag_name> -m <tag_message>
 
 # Delete the tag with the given name
-git tag <--delete|-d> <tag_name>
+git tag <-d|--delete> <tag_name>
 
 # Get updated tags from remote
 git fetch --tags

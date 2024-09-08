@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cjxl.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cjxl.md
 
-% cjxl, linux
+% cjxl, common
 
 # Convert an image to JPEG XL
 cjxl <path_to_image.ext> <path_to_output.jxl>

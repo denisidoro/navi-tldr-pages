@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-destroy.md
+
+% pulumi-destroy, common
+
+# Destroy all resources in the current stack
+pulumi destroy
+
+# Destroy all resources in a specific stack
+pulumi destroy --stack <stack>
+
+# Automatically approve and destroy resources after previewing
+pulumi destroy --yes
+
+# Exclude protected resources from being destroyed
+pulumi destroy --exclude-protected
+
+# Remove the stack and its configuration file after all resources in the stack are deleted
+pulumi destroy --remove
+
+# Continue destroying the resources, even if an error is encountered
+pulumi destroy --continue-on-error

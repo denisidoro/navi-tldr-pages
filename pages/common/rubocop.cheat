@@ -7,7 +7,7 @@
 rubocop
 
 # Check one or more specific files or directories
-rubocop <path_to_file> <path_to_directory>
+rubocop <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
 # Write output to file
 rubocop --out <path_to_file>
@@ -16,10 +16,10 @@ rubocop --out <path_to_file>
 rubocop --show-cops
 
 # Exclude a cop
-rubocop --except <cop_1> <cop_2>
+rubocop --except <cop1 cop2 ...>
 
 # Run only specified cops
-rubocop --only <cop_1> <cop_2>
+rubocop --only <cop1 cop2 ...>
 
 # Auto-correct files (experimental)
 rubocop --auto-correct

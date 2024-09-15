@@ -17,3 +17,6 @@ xh get <httpbin.org_get> <header-name:header-value>
 
 # Make a GET request and save the response body to a file
 xh --download <httpbin.org_json> --output <path_to_file>
+
+# Show equivalent `curl` command (this will not send any request)
+xh --<curl|curl-long> <--follow --verbose get http:__example.com user-agent:curl>

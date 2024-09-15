@@ -24,5 +24,5 @@ http --offline <GET|DELETE|...> <https:__example.com>
 # Use named sessions for persistent custom headers, auth credentials and cookies
 http --session <session_name|path_to_session.json> <--auth username:password https:__example.com_auth API-KEY:xxx>
 
-# Upload a file to a form (the example below assumes form field is `<input type="file" name="cv" />`)
+# Upload a file to a form (the example below assumes that the form field is `<input type="file" name="cv" />`)
 http --form <POST> <https:__example.com_upload> <cv@path_to_file>

@@ -4,19 +4,19 @@
 % pngcheck, common
 
 # Print a summary for an image (width, height, and color depth)
-pngcheck <image.png>
+pngcheck <path_to_image.png>
 
 # Print information for an image with [c]olorized output
-pngcheck -c <image.png>
+pngcheck -c <path_to_image.png>
 
 # Print [v]erbose information for an image
-pngcheck -cvt <image.png>
+pngcheck -cvt <path_to_image.png>
 
 # Receive an image from `stdin` and display detailed information
 cat <path_to_image.png> | pngcheck -cvt
 
 # [s]earch for PNGs within a specific file and display information about them
-pngcheck -s <image.png>
+pngcheck -s <path_to_image.png>
 
 # Search for PNGs within another file and e[x]tract them
-pngcheck -x <image.png>
+pngcheck -x <path_to_image.png>

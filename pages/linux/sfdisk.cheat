@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sfdisk.md
+
+% sfdisk, linux
+
+# Back up the partition layout to a file
+sudo sfdisk <-d|--dump> <path_to_device> > <path_to_file.dump>
+
+# Restore a partition layout
+sudo sfdisk <path_to_device> < <path_to_file.dump>
+
+# Set the type of a partition
+sfdisk --part-type <path_to_device>} <partition_number> <swap>
+
+# Delete a partition
+sfdisk --delete <path_to_device> <partition_number>
+
+# Display help
+sfdisk <-h|--help>

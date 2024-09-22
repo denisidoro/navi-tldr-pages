@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-preview.md
+
+% pulumi-preview, common
+
+# Show a preview of updates to a stack's resources
+pulumi preview
+
+# Show a preview of updates to a stack's resources in JSON format
+pulumi preview --json
+
+# Preview updates as a rich diff showing overall changes
+pulumi preview --diff
+
+# Display help
+pulumi preview --help

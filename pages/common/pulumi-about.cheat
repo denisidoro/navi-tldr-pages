@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-about.md
+
+% pulumi-about, common
+
+# Print information about the Pulumi environment
+pulumi about
+
+# Print information about the Pulumi environment in JSON format
+pulumi about --json
+
+# Print information about the Pulumi environment of a specific stack
+pulumi about --stack <stack_name>
+
+# Display help
+pulumi about --help

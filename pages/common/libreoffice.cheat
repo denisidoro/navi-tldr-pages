@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/libreoffice.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/libreoffice.md
 
-% libreoffice, linux
+% libreoffice, common
 
 # Open one or more files in read-only mode
 libreoffice --view <path_to_file1 path_to_file2 ...>
@@ -13,4 +13,4 @@ libreoffice --cat <path_to_file1 path_to_file2 ...>
 libreoffice --pt <printer_name> <path_to_file1 path_to_file2 ...>
 
 # Convert all `.doc` files in current directory to PDF
-libreoffice --convert-to <pdf> <*.doc>
+libreoffice --convert-to pdf *.doc

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tspin.md
+
+% tspin, common
+
+# Read from file and view in `less`
+tspin <path_to_application.log>
+
+# Read from another command and print to stdout
+journalctl -b --follow | tspin
+
+# Read from file and print to `stdout`
+tspin <path_to_application.log> --print
+
+# Read from stdin and print to `stdout`
+echo "2021-01-01 12:00:00 [INFO] This is a log message" | tspin

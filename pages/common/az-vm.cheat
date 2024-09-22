@@ -3,8 +3,8 @@
 
 % az-vm, common
 
-# List details of available Virtual Machines
-az vm list
+# Display a table of available Virtual Machines
+az vm list --output table
 
 # Create a virtual machine using the default Ubuntu image and generate SSH keys
 az vm create --resource-group <rg> --name <vm_name> --image <UbuntuLTS> --admin-user <azureuser> --generate-ssh-keys

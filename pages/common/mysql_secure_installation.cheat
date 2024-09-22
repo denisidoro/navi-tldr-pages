@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/mysql_secure_installation.md
+
+% mysql_secure_installation, common
+
+# Start an interactive setup
+mysql_secure_installation
+
+# Use specific host and port
+mysql_secure_installation --host=<host> --port=<port>
+
+# Display help
+mysql_secure_installation --help

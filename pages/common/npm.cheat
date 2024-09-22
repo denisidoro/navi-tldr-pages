@@ -16,7 +16,7 @@ npm install <package_name>@<version>
 npm install <package_name> <-D|--save-dev>
 
 # Download the latest version of a package and install it globally
-npm install <-g|--global> <package_name>0
+npm install <-g|--global> <package_name>
 
 # Uninstall a package and remove it from the list of dependencies in `package.json`
 npm uninstall <package_name>

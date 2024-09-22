@@ -19,4 +19,4 @@ unzip -O <gbk> <path_to_archive1.zip path_to_archive2.zip ...>
 unzip -l <path_to_archive.zip>
 
 # Extract a specific file from an archive
-unzip -j <path_to_archive.zip> <path_to_file_in_archive1 path_to_file_in_archive2 ...>
+unzip -j <path_to_archive.zip> <path_to_file1_in_archive path_to_file2_in_archive ...>

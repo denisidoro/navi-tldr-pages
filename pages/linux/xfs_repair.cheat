@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/xfs_repair.md
+
+% xfs_repair, linux
+
+# Repair a partition
+sudo xfs_repair <path_to_partition>

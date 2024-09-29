@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/mkfs.bcachefs.md
+
+% mkfs.bcachefs, linux
+
+# Create a `bcachefs` filesystem inside partition 1 on a device (`X`)
+sudo mkfs.bcachefs <dev_sdX1>
+
+# Create a `bcachefs` filesystem with a volume label
+sudo mkfs.bcachefs <-L|--fs_label> <volume_label> <dev_sdX1>

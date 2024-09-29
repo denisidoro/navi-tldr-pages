@@ -3,20 +3,26 @@
 
 % clang++, common
 
-# Compile a source code file into an executable binary
-clang++ <path_to_source.cpp> -o <path_to_output_executable>
+# Compile a set of source code files into an executable binary
+clang++ <path_to_source1.cpp path_to_source2.cpp ...> <-o|--output> <path_to_output_executable>
 
-# Display (almost) all errors and warnings
-clang++ <path_to_source.cpp> -Wall -o <path_to_output_executable>
+# Activate output of all errors and warnings
+clang++ <path_to_source.cpp> -Wall <-o|--output> <output_executable>
 
-# Choose a language standard to compile with
-clang++ <path_to_source.cpp> -std=<c++20> -o <path_to_output_executable>
+# Show common warnings, debug symbols in output, and optimize without affecting debugging
+clang++ <path_to_source.cpp> -Wall <-g|--debug> -Og <-o|--output> <path_to_output_executable>
+
+# Choose a language standard to compile for
+clang++ <path_to_source.cpp> -std=<c++20> <-o|--output> <path_to_output_executable>
 
 # Include libraries located at a different path than the source file
-clang++ <path_to_source.cpp> -o <path_to_output_executable> -I<path_to_header_path> -L<path_to_library_path> -l<path_to_library_name>
+clang++ <path_to_source.cpp> <-o|--output> <path_to_output_executable> -I<path_to_header_path> -L<path_to_library_path> -l<path_to_library_name>
 
 # Compile source code into LLVM Intermediate Representation (IR)
-clang++ -S -emit-llvm <path_to_source.cpp> -o <path_to_output.ll>
+clang++ <-S|--assemble> -emit-llvm <path_to_source.cpp> <-o|--output> <path_to_output.ll>
 
 # Optimize the compiled program for performance
-clang++ <path_to_source.cpp> -O<1|2|3|fast> -o <path_to_output_executable>
+clang++ <path_to_source.cpp> -O<1|2|3|fast> <-o|--output> <path_to_output_executable>
+
+# Display version
+clang++ --version

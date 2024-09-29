@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dtc.md
+
+% dtc, common
+
+# Decompile a `.dtb` file into a readable `.dts` file
+dtc -I dtb -O dts -o <path_to_output_file.dts> <path_to_input_file.dtb>

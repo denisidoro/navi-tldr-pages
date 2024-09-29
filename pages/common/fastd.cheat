@@ -12,7 +12,7 @@ fastd --mode <tap> --mtu <1400> --config <path_to_fastd.conf>
 # Validate a configuration file
 fastd --verify-config --config <path_to_fastd.conf>
 
-# Generate a new key
+# Generate a new keypair
 fastd --generate-key
 
 # Show the public key to a private key in a configuration file

@@ -7,10 +7,10 @@
 unix2mac <path_to_file>
 
 # Create a copy with macOS-style line endings
-unix2mac -n <path_to_file> <path_to_new_file>
+unix2mac <-n|--newfile> <path_to_file> <path_to_new_file>
 
 # Display file information
-unix2mac -i <path_to_file>
+unix2mac <-i|--info> <path_to_file>
 
 # Keep/add/remove Byte Order Mark
 unix2mac --<keep-bom|add-bom|remove-bom> <path_to_file>

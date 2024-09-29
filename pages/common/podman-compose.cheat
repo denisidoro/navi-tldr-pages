@@ -13,7 +13,7 @@ podman-compose up -d
 podman-compose up --build
 
 # Start all containers using an alternate compose file
-podman-compose <path_to_file> up
+podman-compose <-f|--file> <path_to_file.yaml> up
 
 # Stop all running containers
 podman-compose stop

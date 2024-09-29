@@ -4,19 +4,25 @@
 % gcc, common
 
 # Compile multiple source files into an executable
-gcc <path_to_source1.c path_to_source2.c ...> -o <path_to_output_executable>
+gcc <path_to_source1.c path_to_source2.c ...> <-o|--output> <path_to_output_executable>
+
+# Activate output of all errors and warnings
+gcc <path_to_source.c> -Wall <-o|--output> <output_executable>
 
 # Show common warnings, debug symbols in output, and optimize without affecting debugging
-gcc <path_to_source.c> -Wall -g -Og -o <path_to_output_executable>
+gcc <path_to_source.c> -Wall <-g|--debug> -Og <-o|--output> <path_to_output_executable>
 
 # Include libraries from a different path
-gcc <path_to_source.c> -o <path_to_output_executable> -I<path_to_header> -L<path_to_library> -l<library_name>
+gcc <path_to_source.c> <-o|--output> <path_to_output_executable> -I<path_to_header> -L<path_to_library> -l<library_name>
 
 # Compile source code into Assembler instructions
-gcc -S <path_to_source.c>
+gcc <-S|--assemble> <path_to_source.c>
 
 # Compile source code into an object file without linking
-gcc -c <path_to_source.c>
+gcc <-c|--compile> <path_to_source.c>
 
 # Optimize the compiled program for performance
-gcc <path_to_source.c> -O<1|2|3|fast> -o <path_to_output_executable>
+gcc <path_to_source.c> -O<1|2|3|fast> <-o|--output> <path_to_output_executable>
+
+# Display version
+gcc --version

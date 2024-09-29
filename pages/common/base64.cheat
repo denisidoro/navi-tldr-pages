@@ -3,17 +3,17 @@
 
 % base64, common
 
-# Encode the contents of a file as base64 and write the result to `stdout`
+# Encode a file
 base64 <path_to_file>
 
 # Wrap encoded output at a specific width (`0` disables wrapping)
-base64 --wrap <0|76|...> <path_to_file>
+base64 <-w|--wrap> <0|76|...> <path_to_file>
 
-# Decode the base64 contents of a file and write the result to `stdout`
-base64 --decode <path_to_file>
+# Decode a file
+base64 <-d|--decode> <path_to_file>
 
 # Encode from `stdin`
-<somecommand> | base64
+<command> | base64
 
 # Decode from `stdin`
-<somecommand> | base64 --decode
+<command> | base64 <-d|--decode>

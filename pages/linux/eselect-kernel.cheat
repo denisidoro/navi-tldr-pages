@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/eselect-kernel.md
+
+% eselect-kernel, linux
+
+# List available kernel symlink targets with their numbers
+eselect kernel list
+
+# Set the `/usr/src/linux` symlink by name or number from the `list` command
+eselect kernel set <name|number>
+
+# Show what the current kernel symlink points to
+eselect kernel show
+
+# Set the kernel symlink to the currently running kernel
+eselect kernel update

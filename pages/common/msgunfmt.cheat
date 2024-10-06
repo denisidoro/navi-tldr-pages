@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/msgunfmt.md
+
+% msgunfmt, common
+
+# Output conversion
+msgunfmt <path_to_file.mo>
+
+# Convert a `.mo` file to a `.po` file
+msgunfmt <path_to_file.mo> > <path_to_file.po>

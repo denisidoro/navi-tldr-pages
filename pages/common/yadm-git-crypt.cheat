@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yadm-git-crypt.md
+
+% yadm-git-crypt, common
+
+# Initialize repo to use Git Crypt
+yadm git-crypt init
+
+# Share the repository using GPG
+yadm git-crypt add-gpg-user <user_id>
+
+# After cloning a repository with encrypted files, unlock them
+yadm git-crypt unlock
+
+# Export a symmetric secret key
+yadm git-crypt export-key <path_to_key_file>

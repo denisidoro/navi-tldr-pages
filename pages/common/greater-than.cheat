@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/greater-than.md
+
+% greater-than, common
+
+# Redirect `stdout` to a file
+<command> > <path_to_file>
+
+# Append to a file
+<command> >> <path_to_file>
+
+# Redirect both `stdout` and `stderr` to a file
+<command> &> <path_to_file>
+
+# Redirect both `stdout` and `stderr` to `/dev/null` to keep the terminal output clean
+<command> &> /dev/null

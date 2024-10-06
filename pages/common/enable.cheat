@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/enable.md
+
+% enable, common
+
+# Print the list of builtins
+enable
+
+# Disable a builtin (works in `bash` only)
+enable -n <command>

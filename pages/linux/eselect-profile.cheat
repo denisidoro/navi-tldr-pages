@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/eselect-profile.md
+
+% eselect-profile, linux
+
+# List available profile symlink targets with their numbers
+eselect profile list
+
+# Set the `/etc/portage/make.profile` symlink by name or number from the `list` command
+eselect profile set <name|number>
+
+# Show the current system profile
+eselect profile show

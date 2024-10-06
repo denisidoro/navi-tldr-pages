@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-version.md
+
+% crane-version, common
+
+# Display version
+crane version
+
+# Display help
+crane version <-h|--help>

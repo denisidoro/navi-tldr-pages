@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-config.md
+
+% crane-config, common
+
+# Get the configuration of an image
+crane config <image_name>
+
+# Display help
+crane config <-h|--help>

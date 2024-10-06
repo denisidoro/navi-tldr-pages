@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/netdiscover.md
+
+% netdiscover, common
+
+# Scan the IP range on the network interface for active hosts
+netdiscover -r <172.16.6.0_23> -i <ens244>

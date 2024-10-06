@@ -18,8 +18,8 @@ ollama list
 # Pull/Update a specific model
 ollama pull <model>
 
-# Upgrade Ollama on Linux
-curl -fsSL https://ollama.com/install.sh | sh
+# List running models
+ollama ps
 
 # Delete a model
 ollama rm <model>

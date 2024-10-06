@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yadm.md
+
+% yadm, common
+
+# Override the `yadm` directory. `yadm` stores its configurations relative to this directory
+yadm --yadm-dir
+
+# Override the `yadm` data directory: `yadm` stores its data relative to this directory
+yadm --yadm-data
+
+# Override the location of the `yadm` repository
+yadm --yadm-repo
+
+# Override the location of the `yadm` configuration file
+yadm --yadm-config
+
+# Override the location of the `yadm` encryption configuration
+yadm --yadm-encrypt
+
+# Override the location of the `yadm` encrypted files archive
+yadm --yadm-archive
+
+# Override the location of the `yadm` bootstrap program
+yadm --yadm-bootstrap

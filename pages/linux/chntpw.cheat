@@ -6,8 +6,8 @@
 # List all users in the SAM file
 chntpw -l <path_to_sam_file>
 
-# Edit [u]ser interactively
+# Edit user interactively
 chntpw -u <username> <path_to_sam_file>
 
-# Use chntpw [i]nteractively
+# Use chntpw interactively
 chntpw -i <path_to_sam_file>

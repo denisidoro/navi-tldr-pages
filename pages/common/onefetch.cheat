@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/onefetch.md
+
+% onefetch, common
+
+# Display statistics for the Git repository in the current working directory
+onefetch
+
+# Display statistics for the Git repository in the specified directory
+onefetch <path_to_directory>
+
+# Ignore commits made by bots
+onefetch --no-bots
+
+# Ignore merge commits
+onefetch --no-merges
+
+# Don't print the ASCII art of the language logo
+onefetch --no-art
+
+# Show `n` authors, languages, or file churns (default: 3, 6, and 3 respectively)
+onefetch --number-of-<authors|languages|file-churns> <n>
+
+# Ignore the specified files and directories
+onefetch <-e|--exclude> <path_to_file_or_directory|regular_expression>
+
+# Only detect languages from the specified categories (default: programming and markup)
+onefetch <-T|--type> <programming|markup|prose|data>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yadm-upgrade.md
+
+% yadm-upgrade, common
+
+# Upgrade `yadm` to the latest version
+yadm upgrade
+
+# Force the upgrade regardless of changes
+yadm upgrade -f

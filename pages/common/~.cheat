@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/~.md
+
+% ~, common
+
+# List the current user's home directory contents
+ls ~
+
+# List the home directory contents of another user
+ls ~<username>
+
+# List the contents of the previous directory you were in
+ls ~-

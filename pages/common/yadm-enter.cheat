@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yadm-enter.md
+
+% yadm-enter, common
+
+# Run a sub-shell with all Git variables set
+yadm enter
+
+# Exit the sub-shell
+exit

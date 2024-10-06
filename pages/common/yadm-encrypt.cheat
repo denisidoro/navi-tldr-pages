@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yadm-encrypt.md
+
+% yadm-encrypt, common
+
+# Encrypt files listed in the designated encrypt file
+yadm encrypt
+
+# Create the necessary files and folders for encryption
+touch <path_to_encrypt_file> && mkdir <path_to_archive_folder>

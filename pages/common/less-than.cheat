@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/less-than.md
+
+% less-than, common
+
+# Redirect a file to `stdin`
+<command> < <path_to_file.txt>

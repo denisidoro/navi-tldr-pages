@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-registry.md
+
+% crane-registry, common
+
+# Serve a registry implementation
+crane registry serve
+
+# Address to listen on
+crane registry serve --address <address_name>
+
+# Path to a directory where blobs will be stored
+crane registry serve --disk <path_to_store_dir>
+
+# Display help
+crane registry <-h|--help>
+
+# Display help
+crane registry serve <-h|--help>

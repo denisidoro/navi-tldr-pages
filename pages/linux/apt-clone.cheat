@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/apt-clone.md
+
+% apt-clone, linux
+
+# Clone the package state of the current system into a specified directory
+apt-clone clone <path_to_directory>
+
+# Create a clone file (`tar.gz`) for backup purposes
+apt-clone clone --destination <path_to_backup.tar.gz>
+
+# Restore the package state from a clone file
+apt-clone restore <path_to_backup.tar.gz>
+
+# Show information about a clone file (e.g., the release, architecture)
+apt-clone info <path_to_backup.tar.gz>
+
+# Check if the clone file can be restored on the current system
+apt-clone restore <path_to_backup.tar.gz> --destination <path_to_restore>

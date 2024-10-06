@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/setfattr.md
+
+% setfattr, linux
+
+# Set name of attribute for file
+setfattr -n user.<attribute_name> <path_to_file>
+
+# Set a user-defined value of an extended attribute on a file
+setfattr -n user.<attribute_name> -v "<value>" <path_to_file>
+
+# Remove a specific attribute of a file
+setfattr -x user.<attribute_name> <path_to_file>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gcrane-completion.md
+
+% gcrane-completion, linux
+
+# Generate the autocompletion script for your shell
+gcrane completion <shell_name>
+
+# Disable completion descriptions
+grance completion <shell_name> --no-descriptions
+
+# Load completions in your current shell session (bash/zsh)
+source <(gcrane completion bash/zsh)>
+
+# Load completions in your current shell session (fish)
+gcrane completion fish | source
+
+# Load completions for every new session (bash)
+gcrane completion bash > /etc/bash_completion.d/gcrane
+
+# Load completions for every new session (zsh)
+gcrane completion zsh > "${fpath[1]}/_gcrane"
+
+# Load completions for every new session (fish)
+gcrane completion fish > ~/.config/fish/completions/gcrane.fish
+
+# Display help
+gcrane completion <shell_name> <-h|--help>

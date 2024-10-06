@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gcrane-gc.md
+
+% gcrane-gc, common
+
+# List untagged images
+gcrane gc <repository>
+
+# Whether to recurse through repositories
+gcrane gc <repository> <-r|--recursive>
+
+# Display help
+gcrane gc <-h|--help>

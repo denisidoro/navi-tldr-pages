@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-rebase.md
+
+% crane-rebase, common
+
+# Rebase image
+crane rebase
+
+# New base image to insert
+crane rebase --new_base <image_name>
+
+# Old base image to remove
+crane rebase --old_base <image_name>
+
+# Tag to apply to rebased image
+crane rebase <-t|--tag> <tag_name>
+
+# Display help
+crane rebase <-h|--help>

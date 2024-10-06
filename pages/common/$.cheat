@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/$.md
+
+% $, common
+
+# Print a variable
+echo $<VARIABLE>
+
+# Print the exit status of the previous command
+echo $?
+
+# Print a random number between 0 and 32767
+echo $RANDOM
+
+# Print one of the prompt strings
+echo $<PS1|PS2|PS3|PS4>
+
+# Expand with the output of `command` and run it. Same as enclosing `command` in backtics
+$(<command>)

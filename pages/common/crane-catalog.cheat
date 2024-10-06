@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-catalog.md
+
+% crane-catalog, common
+
+# List the repositories in a registry
+crane catalog <registry_address>
+
+# Print the full image reference
+crane catalog <registry_address> --full-ref
+
+# Display help
+crane catalog <-h|--help>

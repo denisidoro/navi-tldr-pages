@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-index.md
+
+% crane-index, common
+
+# Modify an image index
+crane index
+
+# Modify an image index with subcommand
+crane index <subcommand>
+
+# Display help
+crane index <-h|--help>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/blockdev.md
+
+% blockdev, linux
+
+# Print a report for all devices
+sudo blockdev --report
+
+# Print a report for a specific device
+sudo blockdev --report <dev_sdXY>
+
+# Get the size of a device in 512-byte sectors
+sudo blockdev --getsz <dev_sdXY>
+
+# Set read-only
+sudo blockdev --setro <dev_sdXY>
+
+# Set read-write
+sudo blockdev --setrw <dev_sdXY>
+
+# Flush buffers
+sudo blockdev --flushbufs <dev_sdXY>
+
+# Get the physical block size
+sudo blockdev --getpbsz <dev_sdXY>
+
+# Set the read-ahead value to 128 sectors
+sudo blockdev --setra 128 <dev_sdXY>

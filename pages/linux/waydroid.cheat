@@ -19,7 +19,10 @@ waydroid app launch <com.example.app>
 waydroid session <start|stop>
 
 # Manage the Waydroid container
-waydroid container <start|stop|restart|freeze|unfreeze>
+sudo waydroid container <start|stop|restart|freeze|unfreeze>
+
+# Open Waydroid shell
+sudo waydroid shell
 
 # Adjust Waydroid window dimensions
 waydroid prop set persist.waydroid.<width|height> <number>

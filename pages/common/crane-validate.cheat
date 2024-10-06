@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-validate.md
+
+% crane-validate, common
+
+# Validate an image
+crane validate
+
+# Skip downloading/digesting layers
+crane validate --fast
+
+# Name of remote image to validate
+crane validate --remote <image_name>
+
+# Path to tarball to validate
+crane validate --tarball <path_to_tarball>
+
+# Display help
+crane validate <-h|--help>

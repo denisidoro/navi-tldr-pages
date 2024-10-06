@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-pull.md
+
+% crane-pull, common
+
+# Pull remote image
+crane pull <image_name> <path_to_tarball>
+
+# Preserve image reference used to pull as an annotation when used with --format=oci
+crane pull <image_name> <path_to_tarball> --annotate-ref
+
+# Path to cache image layers
+crane pull <image_name> <path_to_tarball> <-c|--cache_path> <path_to_cache>
+
+# Format in which to save images (default 'tarball')
+crane pull <image_name> <path_to_tarball> <-format> <format_name>
+
+# Display help
+crane pull <-h|--help>

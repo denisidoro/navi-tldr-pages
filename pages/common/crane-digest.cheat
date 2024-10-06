@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-digest.md
+
+% crane-digest, common
+
+# Get the digest of an image
+crane digest <image_name>
+
+# Print the full image reference by digest
+crane digest <image_name> --full-ref
+
+# Specify path to tarball containing the image
+crane digest <image_name> --tarball <path_to_tarball>
+
+# Display help
+crane digest <-h|--help>

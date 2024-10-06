@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yadm-gitconfig.md
+
+% yadm-gitconfig, common
+
+# Update or set a Git configuration value
+yadm gitconfig <key.inner-key> <value>
+
+# Get a value from `yadm`'s Git configuration
+yadm gitconfig --get <key>
+
+# Unset a value in `yadm`'s Git configuration
+yadm gitconfig --unset <key>
+
+# List all values in `yadm`'s Git configuration
+yadm gitconfig --list

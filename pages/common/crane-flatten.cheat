@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-flatten.md
+
+% crane-flatten, common
+
+# Flatten an image
+crane flatten
+
+# Apply new tag to flattened image
+crane flatten <-t|--tag> <tag_name>
+
+# Display help
+crane flatten <-h|--help>

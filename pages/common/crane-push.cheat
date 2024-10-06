@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-push.md
+
+% crane-push, common
+
+# Push local image to remote registry
+crane push <path_to_tarball> <image_name>
+
+# Path to file with list of published image references
+crane push <path_to_tarball> <image_name> --image-refs <path_to_filename>
+
+# Push a collection of images as a single index (required if path has multiple images)
+crane push <path_to_tarball> <image_name> --index
+
+# Display help
+crane push <-h|--help>

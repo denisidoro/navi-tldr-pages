@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/vertical-bar.md
+
+% vertical-bar, common
+
+# Pipe `stdout` to `stdin`
+<command> | <command>
+
+# Pipe both `stdout` and `stderr` to `stdin`
+<command> |& <command>

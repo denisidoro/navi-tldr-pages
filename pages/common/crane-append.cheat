@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/crane-append.md
+
+% crane-append, common
+
+# Push image based on a base image
+crane append <-b|--base> <image_name>
+
+# Push image with appended layer from tarball
+crane append <-f|--new_layer> <layer_name1 layer_name2 ...>
+
+# Push image with appended layer with new tag
+crane append <-t|--new_tag> <tag_name>
+
+# Push resulting image to new tarball
+crane append <-o|--output> <path_to_tarball>
+
+# Use empty base image of type OCI media instead of Docker
+crane append --oci-empty-base
+
+# Annotate resulting image as being based on the base image
+crane append --set-base-image-annotations
+
+# Display help
+crane append <-h|--help>

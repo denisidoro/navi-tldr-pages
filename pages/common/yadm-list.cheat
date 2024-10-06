@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yadm-list.md
+
+% yadm-list, common
+
+# Print a list of files managed by `yadm` in the current directory
+yadm list
+
+# List all files managed by `yadm` completely
+yadm list -a

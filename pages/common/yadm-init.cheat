@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/yadm-init.md
+
+% yadm-init, common
+
+# Execute
+yadm init
+
+# Override the worktree
+yadm init -w <path_to_worktree_folder>
+
+# Overwrite an existing repository
+yadm init -f <path_to_local_repository>

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/wget2.md
+
+% wget2, common
+
+# Download the contents of a URL to a file using multiple threads (default behavior differs from `wget`)
+wget2 <https:__example.com_foo>
+
+# Limit the number of threads used for downloading (default is 5 threads)
+wget2 --max-threads=<10> <https:__example.com_foo>
+
+# Download a single web page and all its resources (scripts, stylesheets, images, etc.)
+wget2 --page-requisites --convert-links <https:__example.com_somepage.html>
+
+# Mirror a website, but do not ascend to the parent directory (does not download embedded page elements)
+wget2 --mirror --no-parent <https:__example.com_somepath_>
+
+# Limit the download speed and the number of connection retries
+wget2 --limit-rate=<300k> --tries=<100> <https:__example.com_somepath_>
+
+# Continue an incomplete download (behavior is consistent with `wget`)
+wget2 --continue <https:__example.com>
+
+# Download all URLs stored in a text file to a specific directory
+wget2 --directory-prefix <path_to_directory> --input-file <URLs.txt>
+
+# Download a file from an HTTP server using Basic Auth (also works for HTTPS)
+wget2 --user=<username> --password=<password> <https:__example.com>

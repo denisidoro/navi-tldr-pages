@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bind.md
+
+% bind, common
+
+# List all bound commands and their hotkeys
+bind <-p|-P>
+
+# Query a command for its hotkey
+bind -q <command>
+
+# Bind a key
+bind -x '"<key_sequence>":<command>'
+
+# List user defined bindings
+bind -X
+
+# Display help
+help bind

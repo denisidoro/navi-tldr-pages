@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/adb-devices.md
+
+% adb-devices, common
+
+# List devices
+adb devices
+
+# List devices and their system info
+adb devices -l

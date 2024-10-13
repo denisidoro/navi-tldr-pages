@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/adb-reboot.md
+
+% adb-reboot, common
+
+# Reboot the device normally
+adb reboot
+
+# Reboot the device into bootloader mode
+adb reboot bootloader
+
+# Reboot the device into recovery mode
+adb reboot recovery
+
+# Reboot the device into fastboot mode
+adb reboot fastboot

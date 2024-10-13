@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/unopkg.md
+
+% unopkg, linux
+
+# Add and deploy given extension
+unopkg add <path_to_extension>
+
+# Remove extension
+unopkg remove <extensions_id>
+
+# Display information about deployed extensions
+unopkg list
+
+# Raise extensions dialog (GUI)
+unopkg gui
+
+# Reinstall all deployed extensions
+unopkg reinstall
+
+# Display help
+unopkg <-h|--help>

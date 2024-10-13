@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-stack.md
+
+% pulumi-stack, common
+
+# Create a new stack
+pulumi stack init <stack_name>
+
+# View the stack state
+pulumi stack
+
+# List known stacks
+pulumi stack ls
+
+# Select an active stack
+pulumi stack select <stack_name>
+
+# Show stack outputs, including secrets, in plaintext
+pulumi stack output --show-secrets
+
+# Export the stack state to a JSON file
+pulumi stack export --file <path_to_file.json>
+
+# Display help
+pulumi stack --help

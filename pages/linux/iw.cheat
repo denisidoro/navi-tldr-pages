@@ -14,3 +14,15 @@ iw dev <wlp> disconnect
 
 # Show information about the current connection
 iw dev <wlp> link
+
+# List all physical and logical wireless network interfaces
+iw dev
+
+# List all wireless capabilities for all physical hardware interfaces
+iw phy
+
+# List the kernel's current wireless regulatory domain information
+iw reg get
+
+# Display help for all commands
+iw help

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/ifstat.md
+
+% ifstat, linux
+
+# View network interface statistics since last query
+ifstat
+
+# View network interface statistics since last boot
+ifstat <-a|--ignore>
+
+# View error rate
+ifstat {-e|--errors}}

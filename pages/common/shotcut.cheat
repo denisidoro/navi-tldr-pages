@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/shotcut.md
+
+% shotcut, common
+
+# Start Shotcut
+shotcut
+
+# Open audio/video files
+shotcut <path_to_file1 path_to_file2 ...>
+
+# Start with a specific audio driver
+shotcut --SDL_AUDIODRIVER "<pulseaudio>"
+
+# Start in fullscreen
+shotcut --fullscreen
+
+# Start with GPU processing
+shotcut --gpu

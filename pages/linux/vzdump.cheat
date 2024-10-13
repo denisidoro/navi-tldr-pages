@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/vzdump.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/vzdump.md
 
-% vzdump, common
+% vzdump, linux
 
 # Dump a guest virtual machine into the default dump directory (usually `/var/lib/vz/dump/`), excluding snapshots
 vzdump <vm_id>

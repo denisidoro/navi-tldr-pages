@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/wtype.md
+
+% wtype, linux
+
+# Simulate typing text
+wtype "<Hello World>"
+
+# Type a specific key
+wtype -k <Left>
+
+# Press a modifier
+wtype -M <shift|ctrl|...>
+
+# Release a modifier
+wtype -m <ctrl>
+
+# Wait between keystrokes (in milliseconds)
+wtype -d <500> -- "<text>"
+
+# Read text from `stdin`
+echo "<text>" | wtype -

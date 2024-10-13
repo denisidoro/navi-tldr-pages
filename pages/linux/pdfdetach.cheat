@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pdfdetach.md
+
+% pdfdetach, linux
+
+# List all attachments in a file with a specific text encoding
+pdfdetach list -enc <UTF-8> <path_to_input.pdf>
+
+# Save specific embedded file by specifying its number
+pdfdetach -save <number> <path_to_input.pdf>
+
+# Save specific embedded file by specifying its name
+pdfdetach -savefile <name> <path_to_input.pdf>
+
+# Save the embedded file with a custom output filename
+pdfdetach -save <number> -o <path_to_output> <path_to_input.pdf>
+
+# Save the attachment from a file secured by owner/user password
+pdfdetach -save <number> <-opw|-upw> <password> <path_to_input.pdf>

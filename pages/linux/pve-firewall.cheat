@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/pve-firewall.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pve-firewall.md
 
-% pve-firewall, common
+% pve-firewall, linux
 
 # Compile and print all firewall rules
 pve-firewall compile

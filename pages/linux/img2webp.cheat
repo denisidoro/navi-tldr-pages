@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/img2webp.md
+
+% img2webp, linux
+
+# Convert an image to WebP
+img2webp <path_to_image> -o <path_to_image.webp>

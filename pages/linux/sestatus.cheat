@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/sestatus.md
+
+% sestatus, linux
+
+# Print the current status
+sestatus
+
+# Print the current states of all policy booleans
+sestatus -b
+
+# Print the current file and process contexts
+sestatus -v

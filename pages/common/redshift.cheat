@@ -15,5 +15,5 @@ redshift -b <0.7>:<0.4>
 # Turn on Redshift with custom [g]amma levels (between 0 and 1)
 redshift -g <red>:<green>:<blue>
 
-# Turn on Redshift with a constant unchanging color temperature
-redshift -O <temperature>
+# [P]urge existing temperature changes and set a constant unchanging color temperature in [O]ne-shot mode
+redshift -PO <temperature>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-outdated.md
+
+% npm-outdated, common
+
+# Find packages that are outdated in a project
+npm outdated
+
+# Find packages that are outdated regardless of the current project
+npm outdated --all

@@ -11,3 +11,6 @@ echo <"Hello World"> > <path_to_pipe> &
 
 # Receive data through a named pipe
 cat <path_to_pipe>
+
+# Share your terminal session in real-time
+mkfifo <path_to_pipe>; script -f <path_to_pipe>

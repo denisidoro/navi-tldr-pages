@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/qm-stop.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/qm-stop.md
 
-% qm-stop, common
+% qm-stop, linux
 
 # Stop a virtual machine immediately
 qm stop <VM_ID>

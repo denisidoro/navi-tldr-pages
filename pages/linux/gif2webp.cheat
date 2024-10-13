@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gif2webp.md
+
+% gif2webp, linux
+
+# Convert a GIF image to WebP
+gif2webp <path_to_image.gif> -o <path_to_image.webp>

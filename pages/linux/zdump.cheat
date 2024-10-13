@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/zdump.md
+
+% zdump, linux
+
+# Print the current time in a timezone
+zdump <timezone>
+
+# Display help
+zdump --help

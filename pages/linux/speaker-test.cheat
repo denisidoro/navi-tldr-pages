@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/speaker-test.md
+
+% speaker-test, linux
+
+# Test the default speakers with pink noise
+speaker-test
+
+# Test the default speakers with a sine wave
+speaker-test <-t|--test> sine <-f|--frequency> <frequency>
+
+# Test the default speakers with a predefined WAV file
+speaker-test <-t|--test> wav
+
+# Test the default speakers with a WAV file
+speaker-test <-t|--test> wav <-w|--wavfile> <path_to_file>

@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/pveperf.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pveperf.md
 
-% pveperf, common
+% pveperf, linux
 
 # Show CPU and hard disk performance data for the hard disk mounted at `/`
 pveperf

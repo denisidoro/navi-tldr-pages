@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/abrt-action-analyze-backtrace.md
+
+% abrt-action-analyze-backtrace, linux
+
+# Analyze backtrace for the current working directory
+abrt-action-analyze-backtrace
+
+# Analyze backtrace for a specific directory
+abrt-action-analyze-backtrace -d <path_to_directory>
+
+# Analyze backtrace verbosely
+abrt-action-analyze-backtrace -v

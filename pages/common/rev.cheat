@@ -3,8 +3,20 @@
 
 % rev, common
 
+# Reverse text typed into terminal
+rev
+
 # Reverse the text string "hello"
 echo "hello" | rev
 
 # Reverse an entire file and print to `stdout`
 rev <path_to_file>
+
+# Use '\0' as a line separator (zero termination)
+rev -0 <path_to_file>
+
+# Display help
+rev -h
+
+# Display version
+rev -V

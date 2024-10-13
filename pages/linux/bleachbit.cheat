@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/bleachbit.md
+
+% bleachbit, linux
+
+# Start the graphical user interface (GUI) version of Bleachbit
+bleachbit --gui
+
+# Shred a file
+bleachbit --shred <path_to_file>
+
+# List available cleaner options
+bleachbit --list-cleaners
+
+# Preview the files that will be deleted and other changes that will be made before actually performing the clean-up operation
+bleachbit --preview <--preset|cleaner1.option1 cleaner2.* ...>
+
+# Perform the clean-up operation and delete files
+bleachbit --clean <--preset|cleaner1.option1 cleaner2.* ...>

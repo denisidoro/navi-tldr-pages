@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/unset.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/unset.md
 
-% unset, linux
+% unset, common
 
 # Remove the variable `foo`, or if the variable doesn't exist, remove the function `foo`
 unset <foo>

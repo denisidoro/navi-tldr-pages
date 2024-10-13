@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/osx/base64.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/freebsd/base64.md
 
-% base64, osx
+% base64, freebsd
 
 # Encode a file to `stdout`
 base64 <-i|--input> <path_to_file>

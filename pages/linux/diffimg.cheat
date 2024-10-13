@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/diffimg.md
+
+% diffimg, linux
+
+# Calculate the intersection between images and output an image where each pixel is the difference between corresponding pixels in input images
+diffimg <path_to_input_image1.ext> <path_to_input_image2.ext> <path_to_output_image.ext>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pdfattach.md
+
+% pdfattach, linux
+
+# Add a new attachment to an existing PDF file
+pdfattach <path_to_input.pdf> <path_to_file_to_attach> <path_to_output.pdf>
+
+# Replace attachment with same name if it exists
+pdfattach -replace <path_to_input.pdf> <path_to_file_to_attach> <path_to_output.pdf>
+
+# Display help
+pdfattach -h
+
+# Display version
+pdfattach -v

@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lndir.md
+
+% lndir, linux
+
+# Create a shadow directory in the current directory
+lndir <path_to_directory>

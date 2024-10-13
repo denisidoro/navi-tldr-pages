@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/help.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/help.md
 
-% help, linux
+% help, common
 
 # Display the full list of builtin commands
 help

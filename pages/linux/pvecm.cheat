@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/pvecm.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pvecm.md
 
-% pvecm, common
+% pvecm, linux
 
 # Add the current node to an existing cluster
 pvecm add <hostname_or_ip>

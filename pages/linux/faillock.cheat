@@ -3,6 +3,12 @@
 
 % faillock, linux
 
+# List login failures of the current user
+faillock
+
+# Reset the failure records of the current user
+faillock --reset
+
 # List login failures of all users
 sudo faillock
 

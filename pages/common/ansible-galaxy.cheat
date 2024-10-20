@@ -3,23 +3,23 @@
 
 % ansible-galaxy, common
 
-# Install a role
-ansible-galaxy install <username>.<role_name>
+# List installed roles or collections
+ansible-galaxy <role|collection> list
 
-# Remove a role
-ansible-galaxy remove <username>.<role_name>
+# Search for a role with various levels of verbosely (`-v` should be specified at the end)
+ansible-galaxy role search <keyword> -v<vvvvv>
 
-# List installed roles
-ansible-galaxy list
-
-# Search for a given role
-ansible-galaxy search <role_name>
+# Install or remove role(s)
+ansible-galaxy role <install|remove> <role_name1 role_name2 ...>
 
 # Create a new role
-ansible-galaxy init <role_name>
+ansible-galaxy role init <role_name>
 
-# Get information about a user role
-ansible-galaxy role info <username>.<role_name>
+# Get information about a role
+ansible-galaxy role info <role_name>
 
-# Get information about a collection
-ansible-galaxy collection info <username>.<collection_name>
+# Install or remove collection(s)
+ansible-galaxy collection <install|remove> <collection_name1 collection_name2 ...>
+
+# Display help about roles or collections
+ansible-galaxy <role|collection> <-h|--help>

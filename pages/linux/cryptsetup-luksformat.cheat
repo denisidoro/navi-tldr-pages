@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cryptsetup-luksformat.md
+
+% cryptsetup-luksformat, linux
+
+# Initialize a LUKS volume with a passphrase
+cryptsetup luksFormat <dev_sdXY>
+
+# Initialize a LUKS volume with a keyfile
+crypsetup luksFormat <dev_sdXY> <path_to_keyfile>
+
+# Initialize a LUKS volume with a passphrase and set its label
+cryptsetup luksFormat --label <label> <dev_sdXY>

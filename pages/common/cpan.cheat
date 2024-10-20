@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cpan.md
+
+% cpan, common
+
+# Install a module (`-i` is optional)
+cpan <-i> <module_name>
+
+# Force install a module (`-i` is not optional)
+cpan -fi <module_name>
+
+# Upgrade all installed modules
+cpan -u
+
+# Recompile modules
+cpan -r

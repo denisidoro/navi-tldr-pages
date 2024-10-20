@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/msedge.md
+
+% msedge, common
+
+# View the documentation for Microsoft Edge for Windows
+tldr -p windows msedge
+
+# View the documentation for Microsoft Edge for other platforms
+tldr -p common microsoft-edge

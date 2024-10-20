@@ -3,11 +3,5 @@
 
 % batch, common
 
-# Execute commands from `stdin` (press `Ctrl + D` when done)
-batch
-
-# Execute a command from `stdin`
-echo "<._make_db_backup.sh>" | batch
-
-# Execute commands from a given [f]ile
-batch -f <path_to_file>
+# View documentation for the original command
+tldr at

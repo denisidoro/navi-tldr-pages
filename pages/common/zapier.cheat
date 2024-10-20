@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zapier.md
+
+% zapier, common
+
+# Connect to a Zapier account
+zapier login
+
+# Initialize a new Zapier integration with a project template
+zapier init <path_to_directory>
+
+# Add a starting trigger, create, search, or resource to your integration
+zapier scaffold <trigger|create|search|resource> <name>
+
+# Test an integration
+zapier test
+
+# Build and upload an integration to Zapier
+zapier push
+
+# Display help
+zapier help
+
+# Display help for a specific command
+zapier help <command>

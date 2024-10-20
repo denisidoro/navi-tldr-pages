@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/microsoft-edge.md
+
+% microsoft-edge, common
+
+# Open a specific URL or file
+microsoft-edge <https:__example.com|path_to_file.html>
+
+# Open in InPrivate mode
+microsoft-edge --inprivate <example.com>
+
+# Open in a new window
+microsoft-edge --new-window <example.com>
+
+# Open in application mode (without toolbars, URL bar, buttons, etc.)
+microsoft-edge --app=<https:__example.com>
+
+# Use a proxy server
+microsoft-edge --proxy-server="<socks5:__hostname:66>" <example.com>
+
+# Open with a custom profile directory
+microsoft-edge --user-data-dir=<path_to_directory>
+
+# Open without CORS validation (useful to test an API)
+microsoft-edge --user-data-dir=<path_to_directory> --disable-web-security
+
+# Open with a DevTools window for each tab opened
+microsoft-edge --auto-open-devtools-for-tabs

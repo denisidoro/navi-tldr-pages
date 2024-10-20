@@ -10,7 +10,7 @@ gedit <path_to_file>
 gedit <file1 file2 ...>
 
 # Open a text file with a specific encoding
-gedit --encoding=<UTF-8> <path_to_file>
+gedit --encoding <UTF-8> <path_to_file>
 
 # Display a list of supported encodings
 gedit --list-encodings

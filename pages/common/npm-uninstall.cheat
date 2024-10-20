@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-uninstall.md
+
+% npm-uninstall, common
+
+# Remove a package from the current project
+npm uninstall <package_name>
+
+# Remove a package globally
+npm uninstall -g <package_name>
+
+# Remove multiple packages at once
+npm uninstall <package_name1 package_name2 ...>

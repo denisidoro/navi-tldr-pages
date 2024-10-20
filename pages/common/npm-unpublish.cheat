@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-unpublish.md
+
+% npm-unpublish, common
+
+# Unpublish a specific package version
+npm unpublish <package_name>@<version>
+
+# Unpublish the entire package
+npm unpublish <package_name> --force
+
+# Unpublish a package that is scoped
+npm unpublish @<scope>/<package_name>
+
+# Specify a timeout period before unpublishing
+npm unpublish <package_name> --timeout <time_in_milliseconds>
+
+# To prevent accidental unpublishing, use the `--dry-run` flag to see what would be unpublished
+npm unpublish <package_name> --dry-run

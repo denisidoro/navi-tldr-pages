@@ -9,10 +9,10 @@ unzip <path_to_archive1.zip path_to_archive2.zip ...>
 # Extract files/directories from archives to a specific path
 unzip <path_to_archive1.zip path_to_archive2.zip ...> -d <path_to_output>
 
-# Extract files/directories from archives to `stdout`
+# Extract files/directories from archives to `stdout` alongside the extracted file names
 unzip -c <path_to_archive1.zip path_to_archive2.zip ...>
 
-# Extract the contents of the file(s) to `stdout` alongside the extracted file names
+# Extract an archive created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames
 unzip -O <gbk> <path_to_archive1.zip path_to_archive2.zip ...>
 
 # List the contents of a specific archive without extracting them

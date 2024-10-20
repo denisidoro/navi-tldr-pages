@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cryptsetup-open.md
+
+% cryptsetup-open, linux
+
+# Open a LUKS volume and create a decrypted mapping at `/dev/mapper/mapping_name`
+cryptsetup open <dev_sdXY> <mapping_name>
+
+# Use a keyfile instead of a passphrase
+cryptsetup open --key-file <path_to_file> <dev_sdXY> <mapping_name>
+
+# Allow the use of TRIM on the device
+cryptsetup open --allow-discards <dev_sdXY> <mapping_name>
+
+# Write the `--allow-discards` option into the LUKS header (the option will then always be used when you open the device)
+cryptsetup open --allow-discards --persistent <dev_sdXY> <mapping_name>
+
+# Open a LUKS volume and make the decrypted mapping read-only
+cryptsetup open --readonly <dev_sdXY> <mapping_name>

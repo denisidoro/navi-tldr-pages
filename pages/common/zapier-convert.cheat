@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zapier-convert.md
+
+% zapier-convert, common
+
+# Convert a visual builder integration
+zapier convert <integration_id> <path_to_directory>
+
+# Convert a visual builder integration with a specific version
+zapier convert <integration_id> <path_to_directory> <-v|--version>=<version>
+
+# Show extra debugging output
+zapier convert --debug

@@ -9,6 +9,9 @@ bugreportz
 # Show the progress of a running `bugreportz` operation
 bugreportz -p
 
+# Write the content of an Android bug report to `stdout`
+bugreportz -s
+
 # Display help
 bugreportz -h
 

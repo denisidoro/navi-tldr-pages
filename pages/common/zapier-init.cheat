@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zapier-init.md
+
+% zapier-init, common
+
+# Initialize a new Zapier integration
+zapier init <path_to_directory>
+
+# Initialize a new Zapier integration with a specific template
+zapier init <path_to_directory> <-t|--template> <basic-auth|callback|custom-auth|digest-auth|dynamic-dropdown|files|minimal|oauth1-trello|oauth2|search-or-create|session-auth|typescript>
+
+# Show extra debugging output
+zapier init <-d|--debug>

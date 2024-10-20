@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zapier-build.md
+
+% zapier-build, common
+
+# Create a build
+zapier build
+
+# Disable smart file inclusion (will only include files required by `index.js`)
+zapier build --disable-dependency-detection
+
+# Show extra debugging output
+zapier build <-d|--debug>

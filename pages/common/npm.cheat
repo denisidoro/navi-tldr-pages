@@ -3,7 +3,7 @@
 
 % npm, common
 
-# Create a `package.json` file with default values (omit --yes to do it interactively)
+# Create a `package.json` file with default values (omit `--yes` to do it interactively)
 npm init <-y|--yes>
 
 # Download all the packages listed as dependencies in `package.json`

@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/windows/chromium.md
+
+% chromium, windows
+
+# Open a specific URL or file
+chromium <https:__example.com|path_to_file.html>
+
+# Open in incognito mode (use `--inprivate` for Microsoft Edge)
+<chromium --incognito|msedge --inprivate> <example.com>
+
+# Open in a new window
+chromium --new-window <example.com>
+
+# Open in application mode (without toolbars, URL bar, buttons, etc.)
+chromium --app=<https:__example.com>
+
+# Use a proxy server
+chromium --proxy-server="<socks5:__hostname:66>" <example.com>
+
+# Open with a custom profile directory
+chromium --user-data-dir=<path_to_directory>
+
+# Open without CORS validation (useful to test an API)
+chromium --user-data-dir=<path_to_directory> --disable-web-security
+
+# Open with a DevTools window for each tab opened
+chromium --auto-open-devtools-for-tabs

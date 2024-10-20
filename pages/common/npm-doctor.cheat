@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-doctor.md
+
+% npm-doctor, common
+
+# Run all default health checks for npm
+npm doctor
+
+# Check the connection to the npm registry
+npm doctor connection
+
+# Check the versions of Node.js and npm in use
+npm doctor versions
+
+# Check for permissions issues with npm directories and cache
+npm doctor permissions
+
+# Validate the cached package files and checksums
+npm doctor cache

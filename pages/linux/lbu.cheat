@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lbu.md
+
+% lbu, linux
+
+# Commit changes to persistent storage (only files in `/etc` by default)
+lbu <ci|commit>
+
+# List files that would be saved using `commit`
+lbu <st|status>
+
+# Display changes in tracked files that would be saved using `commit`
+lbu diff
+
+# Include a specific file or directory in the `apk` overlay
+lbu <add|inc|include> <path_to_file_or_directory>
+
+# Exclude a specific file or directory in `/etc` from the `apk` overlay
+lbu <ex|exclude|delete> <path_to_file_or_directory>
+
+# Display the list of manually included/excluded files
+lbu <inc|include|ex|exclude> -l
+
+# List backups (previously created overlays)
+lbu <lb|list-backup>
+
+# Revert to a backup overlay
+lbu revert <overlay_filename.tar.gz>

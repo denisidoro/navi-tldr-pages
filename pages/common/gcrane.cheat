@@ -16,7 +16,7 @@ gcrane --insecure <subcommand>
 gcrane --platform <platform> <subcommand>
 
 # Enable debug logs
-gcrane {{-v|--verbose} <subcommand>
+gcrane <-v|--verbose> <subcommand>
 
 # Display help
 gcrane <-h|--help>

@@ -16,7 +16,7 @@ blackfire agent --socket="<tcp:__127.0.0.1:8307>"
 blackfire run <php path_to_file.php>
 
 # Run the profiler and collect 10 samples
-blackfire --samples <10> run <php path_to_file.php>
+blackfire --samples 10 run <php path_to_file.php>
 
 # Run the profiler and output results as JSON
 blackfire --json run <php path_to_file.php>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zapier-analytics.md
+
+% zapier-analytics, common
+
+# Show the status of collected analytics
+zapier analytics
+
+# Change how much information is collected
+zapier analytics <-m|--mode> <enabled|anonymous|disabled>
+
+# Show extra debugging output
+zapier analytics <-m|--mode> <enabled|anonymous|disabled> <-d|--debug>

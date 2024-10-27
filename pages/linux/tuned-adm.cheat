@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/tuned-adm.md
+
+% tuned-adm, linux
+
+# List available profiles
+tuned-adm list
+
+# Show the currently active profile
+tuned-adm active
+
+# Set a specific tuning profile
+tuned-adm profile <profile_name>
+
+# Recommend a suitable profile based on the current system
+tuned-adm recommend
+
+# Disable tuning
+tuned-adm off

@@ -21,8 +21,8 @@ npm install <-g|--global> <package_name>
 # Uninstall a package and remove it from the list of dependencies in `package.json`
 npm uninstall <package_name>
 
-# List of locally installed dependencies
+# List all locally installed dependencies
 npm list
 
-# List top-level globally installed packages
+# List all top-level globally installed packages
 npm list <-g|--global> --depth <0>

@@ -10,7 +10,7 @@ gcrane <cp|copy> <source> <target>
 gcrane copy <source> <target> <-j|--jobs> <nr_of_copies>
 
 # Whether to recurse through repositories
-grance copy <source> <target> <-r|--recursive>
+gcrane copy <source> <target> <-r|--recursive>
 
 # Display help
 gcrane copy <-h|--help>

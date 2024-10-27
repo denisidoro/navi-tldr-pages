@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/links2.md
+
+% links2, linux
+
+# Visit a website in graphics mode
+links2 -g <https:__example.com>

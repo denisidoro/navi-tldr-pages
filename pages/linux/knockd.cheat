@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/knockd.md
+
+% knockd, linux
+
+# Start knockd system daemon
+knockd -d
+
+# Use specified configuration file for knockd
+knockd -c <path_to_file>.configuration

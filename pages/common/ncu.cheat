@@ -6,7 +6,7 @@
 # List outdated dependencies in the current directory
 ncu
 
-# List outdated global npm packages
+# List outdated global `npm` packages
 ncu --global
 
 # Upgrade all dependencies in the current directory

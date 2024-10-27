@@ -3,7 +3,7 @@
 
 % npm-home, common
 
-# Open the npm page of a specific package in the web browser
+# Open the `npm` page of a specific package in the web browser
 npm-home <package>
 
 # Open the GitHub repository of a specific package in the web browser

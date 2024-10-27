@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bear.md
+
+% bear, common
+
+# Generate `compile_commands.json` by running a build command
+bear -- <make>
+
+# Generate compilation database with a custom output file name
+bear --output <path_to_compile_commands.json> -- <make>
+
+# Append results to an existing `compile_commands.json` file
+bear --append -- <make>
+
+# Run in verbose mode to get detailed output
+bear --verbose -- <make>
+
+# Force `bear` to use the preload method for command interception
+bear --force-preload -- <make>

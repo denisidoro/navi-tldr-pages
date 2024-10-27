@@ -12,8 +12,8 @@ crane registry serve --address <address_name>
 # Path to a directory where blobs will be stored
 crane registry serve --disk <path_to_store_dir>
 
-# Display help
+# Display help for `crane registry`
 crane registry <-h|--help>
 
-# Display help
+# Display help for `crane registry serve`
 crane registry serve <-h|--help>

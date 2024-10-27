@@ -3,5 +3,5 @@
 
 % npm-why, common
 
-# Show why an npm package is installed
+# Show why an `npm` package is installed
 npm-why <package>

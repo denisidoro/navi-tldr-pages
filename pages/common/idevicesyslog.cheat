@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicesyslog.md
+
+% idevicesyslog, common
+
+# Relay syslog messages from the connected device
+idevicesyslog
+
+# Suppress kernel messages and print everything else
+idevicesyslog --no-kernel

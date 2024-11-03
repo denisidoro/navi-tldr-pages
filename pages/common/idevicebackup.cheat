@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicebackup.md
+
+% idevicebackup, common
+
+# Create a backup of the device in the specified directory
+idevicebackup backup <path_to_directory>
+
+# Restore a backup from the specified directory
+idevicebackup restore <path_to_directory>

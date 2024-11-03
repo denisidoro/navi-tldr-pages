@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-root.md
+
+% npm-root, common
+
+# Display path to the local `node_modules` directory
+npm root
+
+# Display path to the global `node_modules` directory
+npm root --global

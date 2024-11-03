@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevice_id.md
+
+% idevice_id, common
+
+# List the UDIDs of all attached devices
+idevice_id --list
+
+# List the UDIDs of all devices available via the network
+idevice_id --network

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nxc-nfs.md
+
+% nxc-nfs, common
+
+# Detect the version of a remote NFS server
+nxc nfs <192.168.178.0_24>
+
+# List the available NFS shares
+nxc nfs <192.168.178.2> --shares
+
+# Enumerate the exposed shares recursively to the specified depth
+nxc nfs <192.168.178.2> --enum-shares <5>
+
+# Download the specified remote file
+nxc nfs <192.168.178.2> --get-file <path_to_remote_file> <path_to_local_file>
+
+# Upload the specified local file to the remote share
+nxc nfs <192.168.178.2> --put-file <path_to_local_file> <path_to_remote_file>

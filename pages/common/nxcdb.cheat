@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nxcdb.md
+
+% nxcdb, common
+
+# Enter an interactive database session
+nxcdb
+
+# Display the currently active workspace
+nxcdb --get-workspace
+
+# Create a new workspace
+nxcdb --create-workspace <workspace_name>
+
+# Activate the specified workspace
+nxcdb --set-workspace <workspace_name>

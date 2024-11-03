@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pvremove.md
+
+% pvremove, linux
+
+# Remove a LVM label from a physical volume
+sudo pvremove <dev_sdXY>
+
+# Display detailed output during the operation
+sudo pvremove --verbose <dev_sdXY>
+
+# Remove a LVM label without asking for confirmation
+sudo pvremove --yes <dev_sdXY>
+
+# Forcefully remove a LVM label
+sudo pvremove --force <dev_sdXY>
+
+# Display output in JSON format
+sudo pvremove --reportformat json <dev_sdXY>

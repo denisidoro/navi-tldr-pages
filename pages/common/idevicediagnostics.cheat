@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicediagnostics.md
+
+% idevicediagnostics, common
+
+# Print diagnostics information
+idevicediagnostics diagnostics
+
+# Print mobilegestalt key values
+idevicediagnostics mobilegestalt <key1> <key2>
+
+# Shutdown, restart or sleep the device
+idevicediagnostics <shutdown|restart|sleep>

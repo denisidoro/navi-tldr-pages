@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cfssl.md
+
+% cfssl, common
+
+# Show certificate information of a host
+cfssl certinfo -domain <www.google.com>
+
+# Decode certificate information from a file
+cfssl certinfo -cert <path_to_certificate.pem>
+
+# Scan host(s) for SSL/TLS issues
+cfssl scan <host1 host2 ...>
+
+# Display help for a subcommand
+cfssl <genkey|gencsr|certinfo|sign|gencrl|ocspdump|ocsprefresh|ocspsign|ocspserve|scan|bundle|crl|print-defaults|revoke|gencert|serve|version|selfsign|info> -h

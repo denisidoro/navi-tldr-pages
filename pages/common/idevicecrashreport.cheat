@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicecrashreport.md
+
+% idevicecrashreport, common
+
+# Retrieve crash reports and move them to a specified directory
+idevicecrashreport <path_to_directory>
+
+# Retrieve crash reports without removing them from the device
+idevicecrashreport --keep <path_to_directory>
+
+# Extract crash reports into separate `.crash` files
+idevicecrashreport --extract <path_to_directory>

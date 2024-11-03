@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ideviceimagemounter.md
+
+% ideviceimagemounter, common
+
+# Mount a disk image on the connected device
+ideviceimagemounter <path_to_image_file> <path_to_signature_file>
+
+# List currently mounted disk images
+ideviceimagemounter --list

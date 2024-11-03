@@ -3,17 +3,17 @@
 
 % ifconfig, common
 
-# View network settings of an Ethernet adapter
-ifconfig eth0
+# View network settings of an interface
+ifconfig <interface_name>
 
 # Display details of all interfaces, including disabled interfaces
 ifconfig -a
 
-# Disable eth0 interface
-ifconfig eth0 down
+# Disable an interface
+ifconfig <interface_name> down
 
-# Enable eth0 interface
-ifconfig eth0 up
+# Enable an interface
+ifconfig <interface_name> up
 
-# Assign IP address to eth0 interface
-ifconfig eth0 <ip_address>
+# Assign an IP address to an interface
+ifconfig <interface_name> <ip_address>

@@ -4,7 +4,7 @@
 % swift, common
 
 # Start a REPL (interactive shell)
-swift
+swift repl
 
 # Execute a program
 swift <file.swift>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicescreenshot.md
+
+% idevicescreenshot, common
+
+# Save a screenshot with the default file name as a TIFF image
+idevicescreenshot
+
+# Save a screenshot with a specific file name
+idevicescreenshot <path_to_file.tiff>

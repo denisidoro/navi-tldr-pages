@@ -9,7 +9,7 @@ tar cf <path_to_target.tar> <path_to_file1 path_to_file2 ...>
 # [c]reate a g[z]ipped archive and write it to a [f]ile
 tar czf <path_to_target.tar.gz> <path_to_file1 path_to_file2 ...>
 
-# [c]reate a g[z]ipped archive from a directory using relative paths
+# [c]reate a g[z]ipped (compressed) archive from a directory using relative paths
 tar czf <path_to_target.tar.gz> --directory=<path_to_directory> .
 
 # E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely

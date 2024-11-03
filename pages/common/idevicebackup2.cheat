@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicebackup2.md
+
+% idevicebackup2, common
+
+# Create a backup of the device in the specified directory
+idevicebackup2 backup <path_to_directory>
+
+# Restore a backup from the specified directory
+idevicebackup2 restore <path_to_directory>
+
+# Enable encryption for backups
+idevicebackup2 encryption on <password>
+
+# List the files in the last completed backup
+idevicebackup2 list

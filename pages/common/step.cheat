@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/step.md
+
+% step, common
+
+# Inspect the contents of a certificate
+step certificate inspect <path_to_certificate.crt>
+
+# Create a root CA certificate and a key (append `--no-password --insecure` to skip private key password protection)
+step certificate create "<Example Root CA>" <path_to_root-ca.crt> <path_to_root-ca.key> --profile root-ca
+
+# Generate a certificate for a specific hostname and sign it with the root CA (generating a CSR can be skipped for simplification)
+step certificate create <hostname.example.com> <path_to_hostname.crt> <path_to_hostname.key> --profile leaf --ca <path_to_root-ca.crt> --ca-key <path_to_root-ca.key>
+
+# Verify a certificate chain
+step certificate verify <path_to_hostname.crt> --roots <path_to_root-ca.crt> --verbose
+
+# Convert a PEM format certificate to DER and write it to disk
+step certificate format <path_to_certificate.pem> --out <path_to_certificate.der>
+
+# Install or uninstall a root certificate in the system's default trust store
+step certificate <install|uninstall> <path_to_root-ca.crt>
+
+# Create a RSA/EC private and public keypair (append `--no-password --insecure` to skip private key password protection)
+step crypto keypair <path_to_public_key> <path_to_private_key> --kty <RSA|EC>
+
+# Show help for subcommands
+step <path|base64|certificate|completion|context|crl|crypto|oauth|ca|beta|ssh> --help

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dpigs.md
+
+% dpigs, linux
+
+# Display the N largest packages on the system
+dpigs --lines=<N>
+
+# Use the specified file instead of the default dpkg [s]tatus file
+dpigs --status=<path_to_file>
+
+# Display the largest [S]ource packages of binary packages installed on the system
+dpigs --source
+
+# Display package sizes in [H]uman-readable format
+dpigs --human-readable
+
+# Display help
+dpigs --help

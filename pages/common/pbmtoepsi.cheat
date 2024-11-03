@@ -7,7 +7,7 @@
 pbmtoepsi <path_to_image.pbm> > <path_to_output.bmp>
 
 # Produce a quadratic output image with the specified resolution
-pbmtoepsi -dpi <144> {path/to/image.pbm}} > <path_to_output.bmp>
+pbmtoepsi -dpi <144> <path_to_image.pbm> > <path_to_output.bmp>
 
 # Produce an output image with the specified horizontal and vertical resolution
 pbmtoepsi -dpi <72x144> <path_to_image.pbm> > <path_to_output.bmp>

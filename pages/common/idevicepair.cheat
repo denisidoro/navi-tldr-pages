@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicepair.md
+
+% idevicepair, common
+
+# Pair a device with the host
+idevicepair pair
+
+# List devices paired with the host
+idevicepair list

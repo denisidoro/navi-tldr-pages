@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicedate.md
+
+% idevicedate, common
+
+# Display the current date and time
+idevicedate
+
+# Set the date and time on the device to the system time
+idevicedate --sync
+
+# Set the date and time to a specific timestamp
+idevicedate --set <timestamp>

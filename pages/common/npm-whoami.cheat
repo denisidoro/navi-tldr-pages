@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-whoami.md
+
+% npm-whoami, common
+
+# Display username of the currently logged-in user
+npm whoami
+
+# Display username of the current user in the specific registry
+npm whoami --registry=<registry_url>

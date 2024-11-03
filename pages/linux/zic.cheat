@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/zic.md
+
+% zic, linux
+
+# Compile a timezone file from a directory
+zic -d <path_to_directory>
+
+# Report warnings during compilation of a specific file
+zic -v <path_to_file>.infile

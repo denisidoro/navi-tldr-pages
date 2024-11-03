@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicesetlocation.md
+
+% idevicesetlocation, common
+
+# Set a specific latitude and longitude
+idevicesetlocation <latitude> <longitude>
+
+# Reset the simulated location
+idevicesetlocation reset

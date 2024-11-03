@@ -16,4 +16,4 @@ wireplumber --config-file <path_to_file>
 wireplumber --help
 
 # Display version
-wirepumbler --version
+wireplumber --version

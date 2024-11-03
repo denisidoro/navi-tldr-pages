@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/idevicename.md
+
+% idevicename, common
+
+# Display the current device name
+idevicename
+
+# Set a new device name
+idevicename <new_name>

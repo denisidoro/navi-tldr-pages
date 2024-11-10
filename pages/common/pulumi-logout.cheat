@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-logout.md
+
+% pulumi-logout, common
+
+# Log out of a specific cloud backend
+pulumi logout <url>
+
+# Log out of all backends simultaneously
+pulumi logout --all
+
+# Log out of using local mode
+pulumi logout <-l|--local>
+
+# Display help
+pulumi logout <-h|--help>

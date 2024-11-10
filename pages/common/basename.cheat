@@ -7,7 +7,7 @@
 basename <path_to_file>
 
 # Show only the rightmost directory name from a path
-basename <path_to_directory_>
+basename <path_to_directory>
 
 # Show only the file name from a path, with a suffix removed
 basename <path_to_file> <suffix>

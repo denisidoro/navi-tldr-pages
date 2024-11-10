@@ -10,7 +10,7 @@
 /r/<subreddit_name>
 
 # Expand/collapse comments
-[space]
+<Space>
 
 # Open link
 o

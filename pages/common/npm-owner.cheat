@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-owner.md
+
+% npm-owner, common
+
+# Add a new user as a maintainer of a package
+npm owner add <username> <package_name>
+
+# Remove a user from a package's owner list
+npm owner rm <username> <package_name>
+
+# List all owners of a package
+npm owner ls <package_name>

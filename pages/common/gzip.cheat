@@ -7,13 +7,13 @@
 gzip <path_to_file>
 
 # Decompress a file, replacing it with the original uncompressed version
-gzip <-d|--decompress path_to_file.gz>
+gzip <-d|--decompress> <path_to_file.gz>
 
 # Compress a file, keeping the original file
-gzip <-k|--keep path_to_file>
+gzip <-k|--keep> <path_to_file>
 
 # Compress a file, specifying the output filename
-gzip <-c|--stdout path_to_file> > <path_to_compressed_file.gz>
+gzip <-c|--stdout> <path_to_file> > <path_to_compressed_file.gz>
 
 # Decompress a `gzip` archive specifying the output filename
 gzip <-c|--stdout> <-d|--decompress> <path_to_file.gz> > <path_to_uncompressed_file>

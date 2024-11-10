@@ -16,7 +16,7 @@ qrcp send --zip <path_to_file_or_directory>
 qrcp <send|receive> --port <port_number>
 
 # Use a specific network [i]nterface
-qrcp <send|receive> --interface interface
+qrcp <send|receive> --interface <interface>
 
 # Keep the server alive
 qrcp <send|receive> --keep-alive

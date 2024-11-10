@@ -3,10 +3,10 @@
 
 % http, common
 
-# Make a simple GET request (shows response header and content)
-http <https:__example.org>
+# Make a simple GET request (shows response headers and content)
+http <https:__example.com>
 
-# Print specific output content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata)
+# Print specific parts of the content (`H`: request headers, `B`: request body, `h`: response headers, `b`: response body, `m`: response metadata)
 http --print <H|B|h|b|m|Hh|Hhb|...> <https:__example.com>
 
 # Specify the HTTP method when sending a request and use a proxy to intercept the request

@@ -4,7 +4,7 @@
 % mpv, common
 
 # Play a video or audio from a URL or file
-mpv <url|path_to_file>'
+mpv <url|path_to_file>
 
 # Jump backward/forward 5 seconds
 LEFT <or> RIGHT

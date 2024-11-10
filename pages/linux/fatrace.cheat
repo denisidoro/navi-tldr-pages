@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fatrace.md
+
+% fatrace, linux
+
+# Print file access events in all mounted filesystems to `stdout`
+sudo fatrace
+
+# Print file access events on the mount of the current directory, with timestamps, to `stdout`
+sudo fatrace <-c|--current-mount> <-t|--timestamp>

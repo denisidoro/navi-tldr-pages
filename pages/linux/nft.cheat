@@ -10,7 +10,7 @@ sudo nft list ruleset
 sudo nft add table <inet> <filter>
 
 # Add a new chain to accept all inbound traffic
-sudo nft add chain <inet> <filter> <input> \{ type <filter> hook <input> priority <0> \; policy <accept> \}
+sudo nft add chain <inet> <filter> <input> \{ type <filter> hook <input> priority <0> \; policy <accept> \; \}
 
 # Add a new rule to accept several TCP ports
 sudo nft add rule <inet> <filter> <input> <tcp> {{dport \{ telnet, ssh, http, https \} accept}}

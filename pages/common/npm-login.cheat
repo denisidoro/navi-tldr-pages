@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/npm-login.md
+
+% npm-login, common
+
+# Login to a registry user account and save the credentials to the `.npmrc` file
+npm login
+
+# Login using a custom registry
+npm login --registry=<registry_url>
+
+# Login using a specific authentication strategy
+npm login --auth-type=<legacy|web>

@@ -13,4 +13,4 @@ shnsplit -a
 shnsplit -f <path_to_file.cue> -o flac <path_to_file.flac>
 
 # Split a `.wav` file into files of the form "track-number - album - title"
-shnsplit -f <path_to_file.cue> <path_to_file.wav> -t "%n - %a - %t
+shnsplit -f <path_to_file.cue> <path_to_file.wav> -t "%n - %a - %t"

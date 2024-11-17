@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-cancel.md
+
+% pulumi-cancel, common
+
+# Cancel a stack's currently running update, if any
+pulumi cancel <stack_name>
+
+# Skip confirmation prompts, and proceed with cancellation anyway
+pulumi cancel --yes
+
+# Display help
+pulumi cancel --help

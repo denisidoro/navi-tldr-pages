@@ -7,7 +7,7 @@
 rich <path_to_file.py>
 
 # Add line numbers, and indentation guides
-rich <path_to_file.py> --line-number --guides
+rich <path_to_file.py> --line-numbers --guides
 
 # Apply a theme
 rich <path_to_file.py> --theme <monokai>

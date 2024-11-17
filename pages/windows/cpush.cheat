@@ -4,4 +4,4 @@
 % cpush, windows
 
 # View documentation for the original command
-tldr choco-push
+tldr choco push

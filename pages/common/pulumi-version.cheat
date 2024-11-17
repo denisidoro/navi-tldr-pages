@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-version.md
+
+% pulumi-version, common
+
+# Display version
+pulumi version
+
+# Display help
+pulumi version <-h|--help>

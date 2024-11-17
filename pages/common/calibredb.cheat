@@ -15,7 +15,7 @@ calibredb search <search_term>
 # Add one or more e-books to the library
 calibredb add <path_to_file1 path_to_file2 ...>
 
-# [r]ecursively add all e-books under a directory to the library
+# Recursively add all e-books under a directory to the library
 calibredb add <-r|--recurse> <path_to_directory>
 
 # Remove one or more e-books from the library. You need the e-book IDs (see above)

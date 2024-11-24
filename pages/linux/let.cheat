@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/let.md
+
+% let, linux
+
+# Evaluate a simple arithmetic expression
+let "<result = a + b>"
+
+# Use post-increment and assignment in an expression
+let "<x++>"
+
+# Use conditional operator in an expression
+let "<result = (x > 10) ? x : 0>"
+
+# Display help
+let --help

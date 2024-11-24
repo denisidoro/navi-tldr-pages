@@ -3,8 +3,8 @@
 
 % npm-logout, common
 
-# Logout of the registry user account
+# Log out of the registry user account
 npm logout
 
-# Logout using a custom registry
+# Log out using a custom registry
 npm logout --registry=<registry_url>

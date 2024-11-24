@@ -9,7 +9,7 @@ img2pdf <path_to_image1.ext path_to_image2.ext ...> --output <path_to_file.pdf>
 # Convert only the first frame of a multi-frame image to PDF
 img2pdf <path_to_file.gif> --first-frame-only --output <path_to_file.pdf>
 
-# Auto orient the image, use a specific  page size in landscape mode, and set a border of specific sizes horizontally and vertically
+# Auto orient the image, use a specific page size in landscape mode, and set a border of specific sizes horizontally and vertically
 img2pdf <path_to_image.ext> --auto-orient --pagesize <A4^T> --border <2cm>:<5.1cm> --output <path_to_file.pdf>
 
 # Shrink only larger images to a rectangle of specified dimensions inside a page with a specific size

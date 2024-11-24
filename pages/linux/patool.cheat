@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/patool.md
+
+% patool, linux
+
+# Extract an archive
+patool extract <path_to_archive>
+
+# List contents of an archive
+patool list <path_to_archive>
+
+# Compare the contents of two archives and display the differences in the standard output
+patool diff <path_to_archive1> <path_to_archive2>
+
+# Search for a string inside the contents of an archive
+patool search <path_to_archive>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/flatpak-mask.md
+
+% flatpak-mask, linux
+
+# Ignore updates for a specific flatpak
+flatpak mask <com.example.app>
+
+# Undo ignore updates
+flatpak mask --remove <com.example.app>
+
+# List all currently masked patterns
+flatpak mask <--system|--user>

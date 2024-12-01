@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-gen-completion.md
+
+% pulumi-gen-completion, common
+
+# Generate completion scripts
+pulumi gen-completion <bash|zsh|fish>

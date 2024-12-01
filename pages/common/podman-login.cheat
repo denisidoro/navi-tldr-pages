@@ -10,4 +10,4 @@ podman login <registry.example.org>
 podman login --authfile $HOME/.config/containers/auth.json <registry.example.org>
 
 # Log in to an insecure (HTTP) registry
-podman login --tls-verify false <registry.example.org>
+podman login --tls-verify=false <registry.example.org>

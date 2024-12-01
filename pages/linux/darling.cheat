@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/darling.md
+
+% darling, linux
+
+# Run a builtin command
+darling shell <uname>
+
+# Run a specific program in the current path with arguments
+darling shell <._program> <program_argument_1 program_argument_2 ...>
+
+# Open a macOS shell
+darling shell
+
+# Shutdown the service
+darling shutdown

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/flatpak-update.md
+
+% flatpak-update, linux
+
+# Update all installed applications and runtimes (use `-y` to confirm all prompts automatically)
+flatpak update
+
+# Update only a specific app
+flatpak update <com.example.app>
+
+# Update/Downgrade to a specific commit (also see flatpak remote-info and flatpak mask)
+flatpak update --commit=<COMMIT> <com.example.app>

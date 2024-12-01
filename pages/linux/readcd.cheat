@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/readcd.md
+
+% readcd, linux
+
+# Read a cd and copy it to a file
+readcd dev=<dev_srX> f=<path_to_file.iso>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/flatpak-remote-info.md
+
+% flatpak-remote-info, linux
+
+# Show information about a flatpak
+flatpak remote-info <remote_name> <com.example.app>
+
+# Show a log of previous versions in a remote
+flatpak remote-info --log <remote_name> <com.example.app>
+
+# Show information about the specific commit, rather than the latest version
+flatpak remote-info --commit=<COMMIT> <remote_name> <com.example.app>

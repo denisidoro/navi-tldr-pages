@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/fabric.md
+
+% fabric, common
+
+# Run the setup to configure fabric
+fabric --setup
+
+# List all available patterns
+fabric --listpatterns
+
+# Run a pattern with input from a file
+fabric --pattern <pattern_name> < <path_to_input_file>
+
+# Run a pattern on a YouTube video URL
+fabric --youtube "<https:__www.youtube.com_watch?v=video_id>" --pattern <pattern_name>
+
+# Chain patterns together by piping output from one to another
+fabric --pattern <pattern1> | fabric --pattern <pattern2>
+
+# Run a custom user-defined pattern
+fabric --pattern <custom_pattern_name>
+
+# Run a pattern and save the output to a file
+fabric --pattern <pattern_name> --output <path_to_output_file>
+
+# Run a pattern with the specified variables
+fabric --pattern <pattern_name> --variable "<variable_name>:<value>"

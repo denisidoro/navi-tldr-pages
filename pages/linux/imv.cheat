@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/imv.md
+
+% imv, linux
+
+# View multiple images
+imv <path_to_image1.ext path_to_image2.ext ...>
+
+# View in fullscreen mode
+imv -f <path_to_image.ext>
+
+# View images [r]ecursively from a path
+imv -r --slideshow <path_to_path>
+
+# Open multiple images via `stdin`
+find . -type f -name "<*.svg>" | imv
+
+# Make a slideshow from a directory showing each image for 10 seconds
+imv -t 10 <path_to_directory>
+
+# View multiple images from the web
+curl -Osw '%{filename_effective}\n' '<http:__www.example.com_[1-10].jpg>' | imv

@@ -25,4 +25,4 @@ trivy repo <path_to_local_repository_directory|remote_repository_URL>
 trivy repo --commit <commit_hash> <repository>
 
 # Generate output with a SARIF template
-trivy image --format <template> --template <"@sarif.tpl"> -o <path_to_report.sarif> <image:tag>
+trivy image --format <template> --template "<@sarif.tpl>" -o <path_to_report.sarif> <image:tag>

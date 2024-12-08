@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/flexget.md
+
+% flexget, common
+
+# Run all Flexget tasks now
+flexget execute --now
+
+# Start the Flexget daemon and daemonize its process
+flexget daemon start --daemonize
+
+# List all series recorded in Flexget
+flexget series list
+
+# Run a task from a config file
+flexget -c <path_to_config.yml> execute --task <task_name>

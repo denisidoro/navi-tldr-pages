@@ -7,7 +7,7 @@
 mkfifo <path_to_pipe>
 
 # Send data through a named pipe and send the command to the background
-echo <"Hello World"> > <path_to_pipe> &
+echo "<Hello World>" > <path_to_pipe> &
 
 # Receive data through a named pipe
 cat <path_to_pipe>

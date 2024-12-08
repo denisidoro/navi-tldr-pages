@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pulumi-install.md
+
+% pulumi-install, common
+
+# Install packages and plugins
+pulumi install
+
+# Install packages and plugins but skip dependencies
+pulumi install --no-dependencies
+
+# Install packages and reinstall existing plugins
+pulumi install --reinstall

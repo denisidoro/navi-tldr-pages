@@ -6,11 +6,11 @@
 # Recursively find files matching a specific pattern in the current directory
 fd "<string|regex>"
 
-# Find files that begin with `foo`
-fd "^foo"
+# Find files that begin with a specific string
+fd "<^string>"
 
 # Find files with a specific extension
-fd --extension txt
+fd --extension <txt>
 
 # Find files in a specific directory
 fd "<string|regex>" <path_to_directory>

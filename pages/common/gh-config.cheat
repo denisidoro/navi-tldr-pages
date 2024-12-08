@@ -16,7 +16,7 @@ gh config set pager '<delta --side-by-side>'
 gh config set editor <vim>
 
 # Reset to default text editor
-gh config set editor <"">
+gh config set editor ""
 
 # Disable interactive prompts
 gh config set prompt <disabled>

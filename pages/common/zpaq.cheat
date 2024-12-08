@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zpaq.md
+
+% zpaq, common
+
+# [a]dd a file or directory to a new or existing archive
+zpaq a <path_to_archive.zpaq> <path_to_file_or_directory>
+
+# Create or add to an encrypted archive
+zpaq a -k<password> <path_to_archive.zpaq> <path_to_file_or_directory>
+
+# E[x]tract the most recent versions of files
+zpaq x <path_to_archive.zpaq>
+
+# [l]ist the archive contents
+zpaq l <path_to_archive.zpaq>
+
+# Set the level of compression (higher means more compression but slower)
+zpaq a <path_to_archive.zpaq> -m<1|2|3|4|5> <path_to_file_or_directory>
+
+# E[x]tract the specified files from the archive that are not newer than the specified date
+zpaq x <path_to_archive.zpaq> <path_in_archive_to_extract> -to <path_to_output> -until <YYYY-MM-DD>

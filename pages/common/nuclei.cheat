@@ -25,4 +25,4 @@ nuclei -w <path_to_nuclei-templates_workflows_wordpress-workflow.yaml> -u <https
 nuclei -t <path_to_nuclei-templates_http> -u <http:__scanme.sh> -v -o <results>
 
 # Run scan based on one or more [t]emplate [c]onditions
-nuclei -tc <"contains(tags, 'xss') && contains(tags, 'cve')"> -u <https:__vulnerable.website>
+nuclei -tc "<contains(tags, 'xss') && contains(tags, 'cve')>" -u <https:__vulnerable.website>

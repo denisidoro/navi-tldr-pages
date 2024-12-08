@@ -22,4 +22,4 @@ kwriteconfig5 --file <startkderc> --group <General> --key <systemdBoot> <true>
 kwriteconfig5 --file <~/.config/kwinrc> --group <Windows> --key <BorderlessMaximizedWindows> <true>
 
 # Configure KRunner to open with the Meta (Command/Windows) global hotkey
-kwriteconfig5 --file <~/.config/kwinrc> --group <ModifierOnlyShortcuts> --key <Meta> <"org.kde.kglobalaccel,_component_krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch">
+kwriteconfig5 --file <~/.config/kwinrc> --group <ModifierOnlyShortcuts> --key <Meta> "<org.kde.kglobalaccel,_component_krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch>"

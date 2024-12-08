@@ -18,5 +18,8 @@ protontricks -l
 # [s]earch for a game's App ID by name
 protontricks -s <game_name>
 
+# Run an executable in the proton environment of a specific game
+protontricks-launch --appid <appid> <path_to_executable.exe>
+
 # Display help
 protontricks --help

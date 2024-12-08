@@ -3,9 +3,6 @@
 
 % jq, common
 
-# Execute a specific expression (print a colored and formatted JSON output)
-<cat path_to_file.json> | jq '.'
-
 # Execute a specific expression only using the `jq` binary (print a colored and formatted JSON output)
 jq '.' <path_to_file.json>
 
@@ -15,14 +12,17 @@ jq '.' <path_to_file.json>
 # Pass specific arguments
 <cat path_to_file.json> | jq <--arg "name1" "value1" --arg "name2" "value2" ...> '<. + $ARGS.named>'
 
-# Print specific keys
-<cat path_to_file.json> | jq '<.key1, .key2, ...>'
+# Create new JSON object via old JSON objects from multiple files
+<cat path_to_multiple_json_file_*.json> | jq '<{newKey1: .key1, newKey2: .key2.nestedKey, ...>}'
 
 # Print specific array items
 <cat path_to_file.json> | jq '<.[index1], .[index2], ...>'
 
 # Print all array/object values
 <cat path_to_file.json> | jq '.[]'
+
+# Print objects with 2-condition filter in array
+<cat path_to_file.json> | jq '.[] | select((.key1=="value1") and .key2=="value2")'
 
 # Add/remove specific keys
 <cat path_to_file.json> | jq '. <+|-> <{"key1": "value1", "key2": "value2", ...>}'

@@ -16,4 +16,4 @@ virt-install --name <vm_name> --memory <512> --disk <none> --controller <type=us
 virt-install --name <vm_name> --cpu <host-model>,topology.sockets=<1>,topology.cores=<4>,topology.threads=<2> --memory <16384> --disk path=<path_to_image.qcow2>,size=<250> --cdrom <path_to_debian.iso>
 
 # Create a virtual machine and kickstart an automated deployment based on Fedora 35 using only remote resources (no ISO required)
-virt-install --name <vm_name> --memory <2048> --disk path=<path_to_image.qcow2>,size=<20> --location=<https:__download.fedoraproject.org_pub_fedora_linux_releases_35_Everything_x86_64_os_> --extra-args=<"inst.ks=https:__path_to_valid_kickstart.org">
+virt-install --name <vm_name> --memory <2048> --disk path=<path_to_image.qcow2>,size=<20> --location=<https:__download.fedoraproject.org_pub_fedora_linux_releases_35_Everything_x86_64_os_> --extra-args="<inst.ks=https:__path_to_valid_kickstart.org>"

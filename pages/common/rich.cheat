@@ -22,4 +22,4 @@ rich <https:__raw.githubusercontent.com_Textualize_rich-cli_main_README.md> --ma
 rich <path_to_file.md> --export-html <path_to_file.html>
 
 # Display text with formatting tags, custom alignment, and line width
-rich --print <"Hello [green on black]Stylized[_green on black] [bold]World[_bold]"> --<left|center|right> --width <10>
+rich --print "<Hello [green on black]Stylized[_green on black] [bold]World[_bold]>" --<left|center|right> --width <10>

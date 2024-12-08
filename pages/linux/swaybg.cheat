@@ -10,4 +10,4 @@ swaybg --image <path_to_image>
 swaybg --image <path_to_image> --mode <stretch|fit|fill|center|tile|solid_color>
 
 # Set the wallpaper to a static [c]olor
-swaybg --color <"#rrggbb">
+swaybg --color "<#rrggbb>"

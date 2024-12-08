@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cdrdao.md
+
+% cdrdao, linux
+
+# Read a CD and write its contents to a file
+cdrdao read-cd --device <dev_cdrom> --read-raw <image.toc>

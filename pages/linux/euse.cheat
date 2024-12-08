@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/euse.md
+
+% euse, linux
+
+# List active global USE flags
+euse --active --global
+
+# List active local USE flags
+euse --active --local
+
+# Enable a global USE flag
+sudo euse --enable <use_flag>
+
+# Disable a global USE flag (put a '-' sign in front of the USE flag)
+sudo euse --disable <use_flag>
+
+# Remove a global USE flag
+sudo euse --prune <use_flag>

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/tag.md
+
+% tag, osx
+
+# Add tags to a file
+tag --add <tag_name1,tag_name2,...> <path_to_file>
+
+# Remove a tag
+tag --remove <tag_name> {{path/to/file}
+
+# Remove all tags from a file
+tag --remove \* <path_to_file>
+
+# Show all files with a given tag
+tag --match <tag_name>

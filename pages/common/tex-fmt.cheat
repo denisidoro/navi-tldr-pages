@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tex-fmt.md
+
+% tex-fmt, common
+
+# Format a file, overwriting the original
+tex-fmt <path_to_file.tex>
+
+# Check if a file is correctly formatted
+tex-fmt --check <path_to_file.tex>
+
+# Format a file read from `stdin` and print to `stdout`
+cat <path_to_file.tex> | tex-fmt --stdin

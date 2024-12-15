@@ -3,5 +3,11 @@
 
 % batch, common
 
-# View documentation for the original command
-tldr at
+# Start the `atd` daemon
+systemctl start atd
+
+# Execute commands from `stdin` (press `Ctrl + D` when done)
+batch
+
+# Execute a command from `stdin`
+echo "<._make_db_backup.sh>" | batch
